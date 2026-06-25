@@ -1,0 +1,627 @@
+[
+  {
+    "source_key": "core_adj_rot",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Colors"
+    ],
+    "translations": {
+      "de": {
+        "text": "rot",
+        "definition": "Die Farbe von Feuer oder Blut.",
+        "examples": [
+          "Mein neues Auto ist rot."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Colors have no direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "red",
+        "definition": "The color of fire or blood.",
+        "examples": [
+          "My new car is red."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Colors have no direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "rosso",
+        "definition": "Il colore del fuoco o del sangue.",
+        "examples": [
+          "La mia nuova auto è rossa."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Colors have no direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_blau",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Colors"
+    ],
+    "translations": {
+      "de": {
+        "text": "blau",
+        "definition": "Die Farbe des klaren Himmels.",
+        "examples": [
+          "Der Himmel ist heute sehr blau."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Colors have no direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "blue",
+        "definition": "The color of the clear sky.",
+        "examples": [
+          "The sky is very blue today."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Colors have no direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "blu",
+        "definition": "Il colore del cielo sereno.",
+        "examples": [
+          "Il cielo oggi è molto blu."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Colors have no direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_gruen",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Colors"
+    ],
+    "translations": {
+      "de": {
+        "text": "grün",
+        "definition": "Die Farbe von frischem Gras oder Blättern.",
+        "examples": [
+          "Das Gras im Garten ist saftig grün."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Colors have no direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "green",
+        "definition": "The color of fresh grass or leaves.",
+        "examples": [
+          "The grass in the garden is lush green."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Colors have no direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "verde",
+        "definition": "Il colore dell'erba fresca o delle foglie.",
+        "examples": [
+          "L'erba in giardino è di un verde brillante."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Colors have no direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_gelb",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Colors"
+    ],
+    "translations": {
+      "de": {
+        "text": "gelb",
+        "definition": "Die Farbe der Sonne oder einer Zitrone.",
+        "examples": [
+          "Die Zitrone ist sauer und gelb."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Colors have no direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "yellow",
+        "definition": "The color of the sun or a lemon.",
+        "examples": [
+          "The lemon is sour and yellow."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Colors have no direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "giallo",
+        "definition": "Il colore del sole o di un limone.",
+        "examples": [
+          "Il limone è aspro e giallo."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Colors have no direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_schwarz",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Colors"
+    ],
+    "translations": {
+      "de": {
+        "text": "schwarz",
+        "definition": "Die dunkelste Farbe, wie die Nacht.",
+        "examples": [
+          "Die Katze hat ein schwarzes Fell."
+        ],
+        "card_antonyms": [
+          "weiß"
+        ]
+      },
+      "en": {
+        "text": "black",
+        "definition": "The darkest color, like the night.",
+        "examples": [
+          "The cat has black fur."
+        ]
+      },
+      "it": {
+        "text": "nero",
+        "definition": "Il colore più scuro, come la notte.",
+        "examples": [
+          "Il gatto ha il pelo nero."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_weiss",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Colors"
+    ],
+    "translations": {
+      "de": {
+        "text": "weiß",
+        "definition": "Die hellste Farbe, wie Schnee.",
+        "examples": [
+          "Der Schnee im Winter ist komplett weiß."
+        ],
+        "card_antonyms": [
+          "schwarz"
+        ]
+      },
+      "en": {
+        "text": "white",
+        "definition": "The lightest color, like snow.",
+        "examples": [
+          "The snow in winter is completely white."
+        ]
+      },
+      "it": {
+        "text": "bianco",
+        "definition": "Il colore più chiaro, come la neve.",
+        "examples": [
+          "La neve in inverno è completamente bianca."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_alt",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Time"
+    ],
+    "translations": {
+      "de": {
+        "text": "alt",
+        "definition": "Nicht neu, von hohem Alter.",
+        "examples": [
+          "Das Haus im Zentrum ist sehr historisch."
+        ],
+        "card_antonyms": [
+          "neu",
+          "jung"
+        ]
+      },
+      "en": {
+        "text": "old",
+        "definition": "Not new, of great age.",
+        "examples": [
+          "The building in the center is very historic."
+        ]
+      },
+      "it": {
+        "text": "vecchio",
+        "definition": "Non nuovo, di età avanzata.",
+        "examples": [
+          "L'edificio in centro è molto storico."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_neu",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Time"
+    ],
+    "translations": {
+      "de": {
+        "text": "neu",
+        "definition": "Kürzlich gemacht, gekauft oder entdeckt.",
+        "examples": [
+          "Ich habe mir ein frisches Buch gekauft."
+        ],
+        "card_antonyms": [
+          "alt"
+        ]
+      },
+      "en": {
+        "text": "new",
+        "definition": "Recently made, bought, or discovered.",
+        "examples": [
+          "I bought myself a fresh book."
+        ]
+      },
+      "it": {
+        "text": "nuovo",
+        "definition": "Fatto, comprato o scoperto di recente.",
+        "examples": [
+          "Mi sono comprato un libro fresco di stampa."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_warm",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Weather"
+    ],
+    "translations": {
+      "de": {
+        "text": "warm",
+        "definition": "Mit einer angenehm hohen Temperatur.",
+        "examples": [
+          "Heute ist das Wetter sehr angenehm."
+        ],
+        "card_antonyms": [
+          "kalt"
+        ]
+      },
+      "en": {
+        "text": "warm",
+        "definition": "Having a comfortably high temperature.",
+        "examples": [
+          "The weather is very pleasant today."
+        ]
+      },
+      "it": {
+        "text": "caldo",
+        "definition": "Con una temperatura piacevolmente alta.",
+        "examples": [
+          "Oggi il tempo è molto piacevole."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_kalt",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Weather"
+    ],
+    "translations": {
+      "de": {
+        "text": "kalt",
+        "definition": "Mit einer niedrigen Temperatur.",
+        "examples": [
+          "Im Winter ist es oft eisig."
+        ],
+        "card_antonyms": [
+          "warm",
+          "heiß"
+        ]
+      },
+      "en": {
+        "text": "cold",
+        "definition": "Having a low temperature.",
+        "examples": [
+          "In winter, it is often icy."
+        ]
+      },
+      "it": {
+        "text": "freddo",
+        "definition": "Con una bassa temperatura.",
+        "examples": [
+          "In inverno fa spesso un clima di gelo."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_auto",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Travel"
+    ],
+    "translations": {
+      "de": {
+        "text": "Auto",
+        "aliases": [
+          "der Wagen"
+        ],
+        "definition": "Ein motorisiertes Fahrzeug für den Straßenverkehr.",
+        "examples": [
+          "Der rote Wagen steht vor der Garage."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the car",
+        "aliases": [
+          "the automobile"
+        ],
+        "definition": "A motorized vehicle for road traffic.",
+        "examples": [
+          "The red vehicle is parked in front of the garage."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "l'auto",
+        "aliases": [
+          "la macchina",
+          "l'automobile"
+        ],
+        "definition": "Un veicolo a motore per il traffico stradale.",
+        "examples": [
+          "La vettura rossa è parcheggiata davanti al garage."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_zug",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Travel"
+    ],
+    "translations": {
+      "de": {
+        "text": "Zug",
+        "aliases": [
+          "die Bahn"
+        ],
+        "definition": "Ein Transportmittel, das auf Schienen fährt.",
+        "examples": [
+          "Wir fahren morgen mit der Bahn nach Berlin."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the train",
+        "definition": "A means of transport that runs on tracks.",
+        "examples": [
+          "We are traveling to Berlin on the railway tomorrow."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "il treno",
+        "definition": "Un mezzo di trasporto che viaggia su rotaie.",
+        "examples": [
+          "Domani andiamo a Berlino con il trasporto su rotaia."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_stadt",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Places"
+    ],
+    "translations": {
+      "de": {
+        "text": "Stadt",
+        "definition": "Eine große, dicht bebaute Siedlung mit vielen Einwohnern.",
+        "examples": [
+          "Das Zentrum ist sehr laut und voll."
+        ],
+        "card_antonyms": [
+          "das Dorf",
+          "das Land"
+        ]
+      },
+      "en": {
+        "text": "the city",
+        "definition": "A large, densely built-up settlement with many inhabitants.",
+        "examples": [
+          "The center is very loud and crowded."
+        ]
+      },
+      "it": {
+        "text": "la città",
+        "definition": "Un grande insediamento densamente abitato.",
+        "examples": [
+          "Il centro urbano è molto rumoroso e affollato."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_land",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Places"
+    ],
+    "translations": {
+      "de": {
+        "text": "Land",
+        "definition": "Die ländliche Gegend oder ein Staat.",
+        "examples": [
+          "Die Natur hier ist sehr ruhig und grün."
+        ],
+        "card_antonyms": [
+          "die Stadt"
+        ]
+      },
+      "en": {
+        "text": "the country",
+        "definition": "The rural area or a state.",
+        "examples": [
+          "Nature here is very quiet and green."
+        ]
+      },
+      "it": {
+        "text": "la campagna",
+        "definition": "La zona rurale o uno stato.",
+        "examples": [
+          "La natura qui è molto tranquilla e verde."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_machen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily"
+    ],
+    "translations": {
+      "de": {
+        "text": "machen",
+        "definition": "Etwas herstellen, ausführen oder tun.",
+        "examples": [
+          "Ich arbeite gerne im Garten an meinem Projekt."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No single direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "to make",
+        "aliases": [],
+        "definition": "To create, perform, or do something.",
+        "examples": [
+          "I enjoy working on my project in the garden."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No single direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "fare",
+        "definition": "Creare, eseguire o svolgere qualcosa.",
+        "examples": [
+          "Mi piace lavorare al mio progetto in giardino."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No single direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  }
+]

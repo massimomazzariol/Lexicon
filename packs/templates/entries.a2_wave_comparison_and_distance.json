@@ -1,0 +1,354 @@
+[
+  {
+    "source_key": "a2_noun_vergleich",
+    "concept_id": "concept-a2-vergleich",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Daily",
+      "Abstract",
+      "Education"
+    ],
+    "notes": "Editorial addition aligned with the existing A2 compare family. CEFR confirmed in dedicated review on 2026-03-21.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-vergleich",
+        "text": "Vergleich",
+        "definition": "Das Betrachten von zwei oder mehr Dingen, um Ähnlichkeiten oder Unterschiede festzustellen.",
+        "article_nom_sg_def": "der",
+        "gender": "m",
+        "plural": "Vergleiche",
+        "examples": [
+          "Wenn man beide Angebote nebeneinander legt, wird die Entscheidung leichter."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_comparison_noun",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-confronto-noun",
+        "text": "il confronto",
+        "definition": "L'osservazione di due o più cose per vedere somiglianze o differenze.",
+        "examples": [
+          "Se metti le due offerte una accanto all'altra, la decisione diventa più facile."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_comparison_noun",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-comparison",
+        "text": "the comparison",
+        "definition": "Looking at two or more things to see similarities or differences.",
+        "examples": [
+          "Putting the two offers side by side makes the decision easier."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_comparison_noun",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_vergleich_en_variant_bare",
+    "concept_id": "concept-a2-vergleich",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a2-comparison-bare",
+        "text": "comparison"
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_vergleichen_editorial_topup",
+    "concept_id": "concept-a2-vergleichen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-vergleichen",
+        "text": "vergleichen",
+        "definition": "Zwei oder mehr Dinge bewusst nebeneinander prüfen, um Ähnlichkeiten oder Unterschiede zu sehen.",
+        "usage_note": "Gemeint ist das bewusste Gegenüberstellen von Dingen, nicht bloß das Feststellen eines einzelnen Unterschieds.",
+        "examples": [
+          "Wir schauen uns die Preise der beiden Hotels genau an.",
+          "Lege die zwei Texte nebeneinander und achte auf die Unterschiede."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_compare_verb",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-confrontare",
+        "text": "confrontare",
+        "definition": "Mettere due o più cose una accanto all'altra per vedere somiglianze o differenze.",
+        "usage_note": "Indica un confronto intenzionale, non il semplice notare una singola differenza.",
+        "examples": [
+          "Guardiamo con attenzione i prezzi dei due hotel.",
+          "Metti i due testi uno accanto all'altro e nota le differenze."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_compare_verb",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-compare",
+        "text": "to compare",
+        "definition": "To examine two or more things side by side to see similarities or differences.",
+        "usage_note": "This means making an intentional comparison, not just noticing one difference.",
+        "examples": [
+          "We are looking closely at the prices of the two hotels.",
+          "Put the two texts side by side and notice the differences."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_compare_verb",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_vergleichen_en_variant_bare",
+    "concept_id": "concept-a2-vergleichen",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a2-compare-bare",
+        "text": "compare"
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_entfernung",
+    "concept_id": "concept-a2-entfernung",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Travel",
+      "Daily",
+      "Space"
+    ],
+    "notes": "Editorial addition from English lemma expansion. Modeled around the general idea of distance between places or points. German uses Entfernung as the neutral concrete term; Distanz is also accepted here as a common cognate and broader or slightly more formal alternative. Kept separate from the race-specific sense already covered elsewhere.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-entfernung",
+        "text": "Entfernung",
+        "definition": "Der Abstand zwischen zwei Orten oder Punkten.",
+        "usage_note": "Entfernung ist die neutrale Standardwahl für messbare räumliche Distanz; Distanz ist hier ebenfalls akzeptiert, klingt aber oft etwas formeller oder breiter.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Entfernungen",
+        "examples": [
+          "Zwischen dem Dorf und der Stadt liegen fast zwanzig Kilometer."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_distance_noun",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-distanza",
+        "text": "la distanza",
+        "definition": "Lo spazio che separa due luoghi o due punti.",
+        "examples": [
+          "Tra il paese e la città ci sono quasi venti chilometri."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_distance_noun",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-distance",
+        "text": "the distance",
+        "definition": "The amount of space between two places or points.",
+        "examples": [
+          "There are almost twenty kilometers between the village and the city."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_distance_noun",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_distanz_de_variant",
+    "concept_id": "concept-a2-entfernung",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-distanz",
+        "text": "Distanz",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Distanzen"
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_abstand_gap",
+    "concept_id": "concept-a2-abstand",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Daily",
+      "Travel",
+      "Space"
+    ],
+    "notes": "Editorial addition from German lemma expansion. Modeled around the gap or safe space between people or things, not the general route-length sense already covered by Entfernung. CEFR placed editorially at A2 on 2026-04-17.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-abstand",
+        "text": "Abstand",
+        "definition": "Der freie Raum oder die ausreichende Distanz zwischen Personen oder Dingen.",
+        "usage_note": "Hier geht es eher um Zwischenraum oder Sicherheitsabstand als um die Strecke zwischen zwei Orten; dafür steht eher Entfernung.",
+        "article_nom_sg_def": "der",
+        "gender": "m",
+        "plural": "Abstände",
+        "card_synonyms": [
+          "Zwischenraum"
+        ],
+        "examples": [
+          "Lass bitte genug Platz zum vorderen Auto."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_gap_noun",
+          "reviewed_at": "2026-04-17"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-distanza-gap",
+        "text": "la distanza",
+        "definition": "Lo spazio o margine da lasciare tra persone o cose.",
+        "usage_note": "Qui soprattutto nel senso di spazio o distanza di sicurezza, non della lunghezza di un percorso.",
+        "card_synonyms": [
+          "spazio"
+        ],
+        "examples": [
+          "Mantieni qualche metro rispetto all'auto davanti."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_gap_noun",
+          "reviewed_at": "2026-04-17"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-gap",
+        "text": "the gap",
+        "definition": "The space or safe distance between people or things.",
+        "usage_note": "This focuses on gap or clearance, not the general distance between places.",
+        "card_synonyms": [
+          "space"
+        ],
+        "examples": [
+          "Keep a couple of meters from the car in front."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_gap_noun",
+          "reviewed_at": "2026-04-17"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_abstand_bare_variants",
+    "concept_id": "concept-a2-abstand",
+    "pos": "noun",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-a2-distanza-gap-bare",
+        "text": "distanza"
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-gap-bare",
+        "text": "gap"
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_unterschied",
+    "concept_id": "concept-a2-unterschied",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Daily",
+      "Abstract",
+      "Education"
+    ],
+    "notes": "Editorial addition aligned with the existing compare family. Modeled as the noun difference sense and kept separate from the adjective unterschiedlich. CEFR placed editorially at A2 on 2026-04-17.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-unterschied",
+        "text": "Unterschied",
+        "definition": "Etwas, worin zwei oder mehr Dinge nicht gleich sind.",
+        "article_nom_sg_def": "der",
+        "gender": "m",
+        "plural": "Unterschiede",
+        "card_synonyms": [
+          "Differenz"
+        ],
+        "card_antonyms": [
+          "Ähnlichkeit"
+        ],
+        "examples": [
+          "Die beiden Geräte sehen ähnlich aus, funktionieren aber nicht gleich."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-differenza",
+        "text": "la differenza",
+        "definition": "Cio in cui due o piu cose non sono uguali.",
+        "card_antonyms": [
+          "somiglianza"
+        ],
+        "examples": [
+          "I due dispositivi sembrano simili, ma non funzionano allo stesso modo."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-difference",
+        "text": "the difference",
+        "definition": "The way in which two or more things are not the same.",
+        "card_antonyms": [
+          "similarity"
+        ],
+        "examples": [
+          "The two devices look similar, but they do not work in the same way."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_unterschied_bare_variants",
+    "concept_id": "concept-a2-unterschied",
+    "pos": "noun",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-a2-differenza-bare",
+        "text": "differenza"
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-difference-bare",
+        "text": "difference"
+      }
+    }
+  }
+]

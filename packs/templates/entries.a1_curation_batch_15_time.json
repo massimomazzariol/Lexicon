@@ -1,0 +1,856 @@
+[
+  {
+    "source_key": "core_noun_tag",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Time"
+    ],
+    "translations": {
+      "de": {
+        "text": "Tag",
+        "definition": "Die Zeit von Sonnenaufgang bis Sonnenuntergang.",
+        "examples": [
+          "Das war ein sehr schöner Tag."
+        ],
+        "card_antonyms": [
+          "die Nacht"
+        ]
+      },
+      "en": {
+        "text": "the day",
+        "definition": "The time from sunrise to sunset.",
+        "examples": [
+          "That was a very beautiful day."
+        ]
+      },
+      "it": {
+        "text": "il giorno",
+        "definition": "Il tempo dall'alba al tramonto.",
+        "examples": [
+          "È stato un giorno molto bello."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_nacht",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Time"
+    ],
+    "translations": {
+      "de": {
+        "text": "Nacht",
+        "definition": "Die dunkle Zeit zwischen Abend und Morgen.",
+        "examples": [
+          "In der Nacht schlafe ich tief und fest."
+        ],
+        "card_antonyms": [
+          "der Tag"
+        ]
+      },
+      "en": {
+        "text": "the night",
+        "definition": "The dark time between evening and morning.",
+        "examples": [
+          "In the night, I sleep deeply and soundly."
+        ]
+      },
+      "it": {
+        "text": "la notte",
+        "definition": "Il tempo buio tra la sera e la mattina.",
+        "examples": [
+          "Di notte dormo profondamente."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_morgen",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Time"
+    ],
+    "translations": {
+      "de": {
+        "text": "Morgen",
+        "definition": "Der erste Teil des Tages nach dem Aufwachen.",
+        "examples": [
+          "Guten Morgen, wie geht es dir heute?"
+        ],
+        "card_antonyms": [
+          "der Abend"
+        ]
+      },
+      "en": {
+        "text": "the morning",
+        "definition": "The first part of the day after waking up.",
+        "examples": [
+          "Good morning, how are you today?"
+        ]
+      },
+      "it": {
+        "text": "il mattino",
+        "aliases": [
+          "la mattina"
+        ],
+        "definition": "La prima parte del giorno dopo il risveglio.",
+        "examples": [
+          "Buongiorno, come stai oggi?"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_abend",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Time"
+    ],
+    "translations": {
+      "de": {
+        "text": "Abend",
+        "definition": "Der letzte Teil des Tages vor der Nacht.",
+        "examples": [
+          "Am Abend lese ich gerne ein gutes Buch."
+        ],
+        "card_antonyms": [
+          "der Morgen"
+        ]
+      },
+      "en": {
+        "text": "the evening",
+        "definition": "The last part of the day before night.",
+        "examples": [
+          "In the evening I like to read a good book."
+        ]
+      },
+      "it": {
+        "text": "la sera",
+        "definition": "L'ultima parte del giorno prima della notte.",
+        "examples": [
+          "La sera mi piace leggere un buon libro."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_woche",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Time"
+    ],
+    "translations": {
+      "de": {
+        "text": "Woche",
+        "definition": "Ein Zeitraum von sieben Tagen.",
+        "examples": [
+          "Nächste Woche fahre ich in den Urlaub."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the week",
+        "definition": "A period of seven days.",
+        "examples": [
+          "Next week I am going on vacation."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la settimana",
+        "definition": "Un periodo di sette giorni.",
+        "examples": [
+          "La prossima settimana vado in vacanza."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_monat",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Time"
+    ],
+    "translations": {
+      "de": {
+        "text": "Monat",
+        "definition": "Einer der zwölf Teile eines Jahres.",
+        "examples": [
+          "Der nächste Monat hat einunddreißig Tage."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the month",
+        "definition": "One of the twelve parts of a year.",
+        "examples": [
+          "Next month has thirty-one days."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "il mese",
+        "definition": "Una delle dodici parti di un anno.",
+        "examples": [
+          "Il prossimo mese ha trentuno giorni."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_jahr",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Time"
+    ],
+    "translations": {
+      "de": {
+        "text": "Jahr",
+        "definition": "Ein Zeitraum von zwölf Monaten.",
+        "examples": [
+          "Ich lerne schon seit einem Jahr diese Sprache."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the year",
+        "definition": "A period of twelve months.",
+        "examples": [
+          "I have been learning this language for a year already."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "l'anno",
+        "definition": "Un periodo di dodici mesi.",
+        "examples": [
+          "Imparo questa lingua già da un anno."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_stunde",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Time"
+    ],
+    "translations": {
+      "de": {
+        "text": "Stunde",
+        "definition": "Ein Zeitraum von sechzig Minuten.",
+        "examples": [
+          "Der Zug hat fast eine Stunde Verspätung."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the hour",
+        "definition": "A period of sixty minutes.",
+        "examples": [
+          "The train is almost an hour late."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "l'ora",
+        "definition": "Un periodo di sessanta minuti.",
+        "examples": [
+          "Il treno ha quasi un'ora di ritardo."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_heute",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Time"
+    ],
+    "translations": {
+      "de": {
+        "text": "heute",
+        "definition": "An dem jetzigen, aktuellen Tag.",
+        "examples": [
+          "Ich habe heute sehr viel zu tun."
+        ],
+        "card_antonyms": [
+          "gestern",
+          "morgen"
+        ]
+      },
+      "en": {
+        "text": "today",
+        "definition": "On the current day.",
+        "examples": [
+          "I have a lot to do today."
+        ]
+      },
+      "it": {
+        "text": "oggi",
+        "definition": "Nel giorno corrente.",
+        "examples": [
+          "Oggi ho molto da fare."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_gestern",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Time"
+    ],
+    "translations": {
+      "de": {
+        "text": "gestern",
+        "definition": "An dem Tag vor dem heutigen Tag.",
+        "examples": [
+          "Wir waren gestern zusammen im Kino."
+        ],
+        "card_antonyms": [
+          "heute",
+          "morgen"
+        ]
+      },
+      "en": {
+        "text": "yesterday",
+        "definition": "On the day before today.",
+        "examples": [
+          "We were at the cinema together yesterday."
+        ]
+      },
+      "it": {
+        "text": "ieri",
+        "definition": "Nel giorno precedente a oggi.",
+        "examples": [
+          "Ieri siamo stati insieme al cinema."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_morgen_time",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Time"
+    ],
+    "translations": {
+      "de": {
+        "text": "morgen",
+        "definition": "Am nächsten Tag nach dem heutigen Tag.",
+        "examples": [
+          "Morgen wird das Wetter wieder sehr schön."
+        ],
+        "card_antonyms": [
+          "gestern"
+        ]
+      },
+      "en": {
+        "text": "tomorrow",
+        "definition": "On the day after today.",
+        "examples": [
+          "Tomorrow the weather will be very nice again."
+        ]
+      },
+      "it": {
+        "text": "domani",
+        "definition": "Nel giorno successivo a oggi.",
+        "examples": [
+          "Domani il tempo sarà di nuovo molto bello."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_jetzt",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Time",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "jetzt",
+        "aliases": [
+          "nun"
+        ],
+        "definition": "Genau in diesem Moment; in der Gegenwart.",
+        "examples": [
+          "Ich muss jetzt wirklich nach Hause gehen."
+        ],
+        "card_antonyms": [
+          "später",
+          "dann"
+        ]
+      },
+      "en": {
+        "text": "now",
+        "aliases": [
+          "currently"
+        ],
+        "definition": "At this present moment.",
+        "examples": [
+          "I really must go home now."
+        ]
+      },
+      "it": {
+        "text": "adesso",
+        "aliases": [
+          "ora"
+        ],
+        "definition": "In questo preciso momento; al presente.",
+        "examples": [
+          "Devo davvero andare a casa adesso."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_spaeter",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Time",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "später",
+        "definition": "Zu einem nachfolgenden, zukünftigen Zeitpunkt.",
+        "examples": [
+          "Wir können das Problem später diskutieren."
+        ],
+        "card_antonyms": [
+          "jetzt",
+          "früher"
+        ]
+      },
+      "en": {
+        "text": "later",
+        "definition": "At a subsequent, future time.",
+        "examples": [
+          "We can discuss the problem later."
+        ]
+      },
+      "it": {
+        "text": "più tardi",
+        "aliases": [
+          "dopo"
+        ],
+        "definition": "In un momento successivo e futuro.",
+        "examples": [
+          "Possiamo discutere il problema più tardi."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_dann",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Time",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "dann",
+        "definition": "Zu diesem bestimmten Zeitpunkt in der Zukunft oder als Folge.",
+        "examples": [
+          "Wir essen zuerst, und dann schauen wir einen Film."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Sequential marker",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "then",
+        "aliases": [
+          "after that",
+          "next"
+        ],
+        "definition": "At that time, or as a consequence.",
+        "examples": [
+          "We eat first, and then we watch a movie."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Sequential marker",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "poi",
+        "aliases": [
+          "dopo",
+          "allora"
+        ],
+        "definition": "Successivamente o di conseguenza.",
+        "examples": [
+          "Prima mangiamo, e poi guardiamo un film."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Sequential marker",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_sonne",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Nature",
+      "Weather"
+    ],
+    "translations": {
+      "de": {
+        "text": "Sonne",
+        "definition": "Der Stern im Zentrum unseres Sonnensystems, der uns am Tag Licht bringt.",
+        "examples": [
+          "Die Sonne scheint heute sehr warm."
+        ],
+        "card_antonyms": [
+          "der Mond"
+        ]
+      },
+      "en": {
+        "text": "the sun",
+        "definition": "The star that provides light and heat to Earth.",
+        "examples": [
+          "The sun is shining very warmly today."
+        ]
+      },
+      "it": {
+        "text": "il sole",
+        "definition": "La stella che illumina e riscalda la Terra.",
+        "examples": [
+          "Il sole splende molto caldo oggi."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_regen",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Nature",
+      "Weather"
+    ],
+    "translations": {
+      "de": {
+        "text": "Regen",
+        "definition": "Wasser, das in Tropfen aus Wolken auf die Erde fällt.",
+        "examples": [
+          "Nach dem starken Regen ist die Straße nass."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Weather phenomena lack direct antonyms",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the rain",
+        "definition": "Water falling in drops from clouds.",
+        "examples": [
+          "After the heavy rain, the street is wet."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Weather phenomena lack direct antonyms",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la pioggia",
+        "definition": "Acqua che cade a gocce dalle nuvole.",
+        "examples": [
+          "Dopo la forte pioggia, la strada è bagnata."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Weather phenomena lack direct antonyms",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_schnee",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Nature",
+      "Weather"
+    ],
+    "translations": {
+      "de": {
+        "text": "Schnee",
+        "definition": "Gefrorener Niederschlag in Form von weißen Flocken.",
+        "examples": [
+          "Die Kinder spielen gerne im weißen Schnee."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Weather phenomena lack direct antonyms",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the snow",
+        "definition": "Frozen precipitation falling as white flakes.",
+        "examples": [
+          "The children like to play in the white snow."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Weather phenomena lack direct antonyms",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la neve",
+        "definition": "Precipitazione ghiacciata sotto forma di fiocchi bianchi.",
+        "examples": [
+          "I bambini amano giocare nella neve bianca."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Weather phenomena lack direct antonyms",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_schnell",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Action"
+    ],
+    "translations": {
+      "de": {
+        "text": "schnell",
+        "aliases": [
+          "rasch"
+        ],
+        "definition": "Mit hoher Geschwindigkeit.",
+        "examples": [
+          "Das neue Auto fährt wirklich sehr schnell."
+        ],
+        "card_antonyms": [
+          "langsam"
+        ]
+      },
+      "en": {
+        "text": "fast",
+        "aliases": [
+          "quick",
+          "rapid",
+          "quickly"
+        ],
+        "definition": "Moving or capable of moving at high speed.",
+        "examples": [
+          "The new car drives really very fast."
+        ]
+      },
+      "it": {
+        "text": "veloce",
+        "aliases": [
+          "rapido",
+          "velocemente"
+        ],
+        "definition": "Che si muove a grande velocità.",
+        "examples": [
+          "La nuova auto viaggia davvero molto veloce."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_langsam",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Action"
+    ],
+    "translations": {
+      "de": {
+        "text": "langsam",
+        "definition": "Mit niedriger Geschwindigkeit; nicht schnell.",
+        "examples": [
+          "Der alte Zug fährt sehr langsam."
+        ],
+        "card_antonyms": [
+          "schnell"
+        ]
+      },
+      "en": {
+        "text": "slow",
+        "aliases": [
+          "slowly"
+        ],
+        "definition": "Moving roughly or without much speed.",
+        "examples": [
+          "The old train drives very slowly."
+        ]
+      },
+      "it": {
+        "text": "lento",
+        "aliases": [
+          "lentamente"
+        ],
+        "definition": "A bassa velocità, non veloce.",
+        "examples": [
+          "Il vecchio treno viaggia molto lentamente."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_auch",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "auch",
+        "aliases": [
+          "ebenfalls"
+        ],
+        "definition": "Drückt eine Übereinstimmung oder einen Zusatz aus.",
+        "examples": [
+          "Ich trinke Kaffee, und sie trinkt auch Kaffee."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Abstract connective",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "also",
+        "aliases": [
+          "too",
+          "as well"
+        ],
+        "definition": "In addition; similarly.",
+        "examples": [
+          "I drink coffee, and she also drinks coffee."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Abstract connective",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "anche",
+        "aliases": [
+          "pure"
+        ],
+        "definition": "Inoltre, per giunta.",
+        "examples": [
+          "Io bevo caffè, e anche lei beve caffè."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Abstract connective",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  }
+]

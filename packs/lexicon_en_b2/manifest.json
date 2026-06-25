@@ -1,0 +1,30 @@
+{
+  "pack_id": "lexicon.en.b2.seed",
+  "pack_role": "runtime",
+  "version": "1.0.27",
+  "pack_level": "B2",
+  "levels_supported": [
+    "B2"
+  ],
+  "relation_chunk_ids": [
+    "lexicon.en.a1.seed",
+    "lexicon.en.a2.seed",
+    "lexicon.en.b1.seed"
+  ],
+  "languages_target_supported": [
+    "en"
+  ],
+  "gloss_languages_supported": [
+    "de",
+    "it"
+  ],
+  "domains": [
+    "Daily",
+    "Social",
+    "Work"
+  ],
+  "license_info": "internal",
+  "content_file": "content.json",
+  "generated_at": "2026-06-18T10:48:54.774Z",
+  "schema_version": 2
+}

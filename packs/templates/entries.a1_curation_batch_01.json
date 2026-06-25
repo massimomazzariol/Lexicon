@@ -1,0 +1,58 @@
+[
+  {
+    "concept_id": "eb287814-640f-16ad-e3a6-7c3e3806d7f4",
+    "source_key": "anfangen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "dff9ac98-3968-059b-e60c-ab17f5b56aa8",
+        "text": "anfangen",
+        "aliases": ["beginnen"],
+        "definition": "Mit einer Handlung oder Taetigkeit beginnen.",
+        "examples": ["Wir fangen um acht Uhr an."]
+      },
+      "it": {
+        "lexeme_id": "f171c66f-5959-abf6-7acc-f2f0365b7e24",
+        "text": "iniziare",
+        "aliases": ["cominciare"],
+        "definition": "Cominciare un'azione o un'attivita.",
+        "examples": ["Iniziamo alle otto."]
+      },
+      "en": {
+        "lexeme_id": "8222f5d5-84d3-949a-2719-7d46da9a7bed",
+        "text": "start",
+        "aliases": ["begin", "commence"],
+        "definition": "To begin an action or activity.",
+        "examples": ["We start at eight o'clock."]
+      }
+    }
+  },
+  {
+    "concept_id": "6bb4fa36-876a-6164-08c1-a9338bae6031",
+    "source_key": "bauen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "3b97be2d-d367-f126-e9f2-16debdb9ad90",
+        "text": "bauen",
+        "aliases": ["errichten", "konstruieren"],
+        "definition": "Etwas herstellen oder errichten, zum Beispiel ein Haus.",
+        "examples": ["Sie bauen ein neues Haus."]
+      },
+      "it": {
+        "lexeme_id": "5c1062eb-65ba-8cbb-c8f3-a77b8f577ab1",
+        "text": "costruire",
+        "aliases": ["edificare", "realizzare"],
+        "definition": "Costruire o realizzare qualcosa, ad esempio una casa.",
+        "examples": ["Stanno costruendo una nuova casa."]
+      },
+      "en": {
+        "lexeme_id": "0b7ecfdd-527d-4d01-4120-2f89e51764ab",
+        "text": "build",
+        "aliases": ["construct"],
+        "definition": "To construct or create something, for example a building.",
+        "examples": ["They are building a new house."]
+      }
+    }
+  }
+]

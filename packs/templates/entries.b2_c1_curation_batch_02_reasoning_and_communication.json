@@ -1,0 +1,737 @@
+[
+  {
+    "source_key": "b2_verb_voraussetzen_requirement",
+    "concept_id": "concept-b2-voraussetzen-requirement",
+    "pos": "verb",
+    "level_auto": "B2",
+    "domain_tags": ["Work", "Education", "Abstract"],
+    "notes": "Advanced family expansion around concept-b1-voraussetzung. This branch models voraussetzen only in the precondition or requirement sense, not in the sense of assuming or taking something for granted.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-voraussetzen-requirement",
+        "text": "voraussetzen",
+        "lemma": "voraussetzen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Als notwendige Bedingung verlangen oder als vorhanden benoetigen.",
+        "usage_note": "Hier nur der Sinn von etwas als Bedingung verlangen, nicht annehmen oder stillschweigend erwarten.",
+        "examples": [
+          "Die Aufgabe verlangt bereits sichere Grundkenntnisse."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_require_as_precondition_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-richiedere-precondizione",
+        "text": "richiedere",
+        "lemma": "richiedere",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Esigere come condizione necessaria o presupporre come gia presente per poter procedere.",
+        "usage_note": "Qui solo nel senso di richiedere come prerequisito, non di supporre mentalmente qualcosa.",
+        "examples": [
+          "Il compito richiede già conoscenze di base sicure."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_require_as_precondition_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-require-precondition",
+        "text": "to require",
+        "lemma": "require",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To demand as a necessary condition or to need as already present.",
+        "usage_note": "Only the precondition sense is modeled here, not the sense of assuming something mentally.",
+        "examples": [
+          "The task already calls for solid basic knowledge."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_require_as_precondition_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "b2_verb_voraussetzen_requirement_en_bare_variant",
+    "concept_id": "concept-b2-voraussetzen-requirement",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-b2-require-precondition-bare",
+        "text": "require"
+      }
+    }
+  },
+  {
+    "source_key": "c1_verb_bedingen",
+    "concept_id": "concept-c1-bedingen",
+    "pos": "verb",
+    "level_auto": "C1",
+    "domain_tags": ["Work", "Communication", "Abstract"],
+    "notes": "Advanced family expansion around prerequisite and consequence language. This branch models bedingen in the formal sense of entailing or making another development necessary.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-bedingen",
+        "text": "bedingen",
+        "lemma": "bedingen",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Zur Folge haben oder so bewirken, dass etwas anderes notwendig wird.",
+        "usage_note": "Hier im eher formellen Sinn von etwas nach sich ziehen oder erforderlich machen.",
+        "examples": [
+          "Der starke Anstieg fuehrt zu zusaetzlichen Massnahmen."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_entail_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-comportare",
+        "text": "comportare",
+        "lemma": "comportare",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Avere come conseguenza qualcosa o rendere necessario un altro sviluppo.",
+        "usage_note": "Qui nel senso piu formale di implicare o rendere necessario.",
+        "examples": [
+          "Il forte aumento rende necessarie misure supplementari."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_entail_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-entail",
+        "text": "to entail",
+        "lemma": "entail",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To have something as a consequence or make another step necessary.",
+        "usage_note": "This covers the formal sense of entailing or making something necessary.",
+        "examples": [
+          "The sharp increase makes additional measures necessary."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_entail_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "c1_verb_bedingen_en_bare_variant",
+    "concept_id": "concept-c1-bedingen",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-c1-entail-bare",
+        "text": "entail"
+      }
+    }
+  },
+  {
+    "source_key": "b2_verb_zusammenhaengen",
+    "concept_id": "concept-b2-zusammenhaengen",
+    "pos": "verb",
+    "level_auto": "B2",
+    "domain_tags": ["Work", "Communication", "Abstract"],
+    "notes": "Advanced family expansion around concept-b1-zusammenhang. This branch models zusammenhängen in the abstract sense of being connected or related.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-zusammenhaengen",
+        "text": "zusammenhängen",
+        "lemma": "zusammenhängen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Inhaltlich oder ursachlich miteinander verbunden sein.",
+        "usage_note": "Hier nur die abstrakte Verbindung zwischen Fakten, Ereignissen oder Ideen.",
+        "examples": [
+          "Die beiden Zahlen stehen enger miteinander in Verbindung, als es zuerst scheint."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_be_connected_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-essere-collegato",
+        "text": "essere collegato",
+        "lemma": "essere collegato",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Essere connesso a livello di contenuto, causa o significato.",
+        "usage_note": "Qui solo nel senso astratto di fatti, idee o sviluppi che sono legati tra loro.",
+        "examples": [
+          "I due numeri sono più collegati tra loro di quanto sembri all'inizio."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_be_connected_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-be-connected",
+        "text": "to be connected",
+        "lemma": "be connected",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To be linked in content, cause, or meaning.",
+        "usage_note": "Only the abstract relation between facts, ideas, or events is modeled here.",
+        "examples": [
+          "The two figures are more closely linked than they first appear."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_be_connected_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "b2_verb_zusammenhaengen_en_bare_variant",
+    "concept_id": "concept-b2-zusammenhaengen",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-b2-be-connected-bare",
+        "text": "be connected"
+      }
+    }
+  },
+  {
+    "source_key": "b2_verb_nachvollziehen_reasoning",
+    "concept_id": "concept-b2-nachvollziehen-reasoning",
+    "pos": "verb",
+    "level_auto": "B2",
+    "domain_tags": ["Communication", "Education", "Abstract"],
+    "notes": "Advanced family expansion around concept-b1-vorgehen and concept-b1-zusammenhang. This branch models nachvollziehen only in the abstract sense of following or understanding reasoning, motives, or logic, not in the sense of physically tracing something.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-nachvollziehen-reasoning",
+        "text": "nachvollziehen",
+        "lemma": "nachvollziehen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Gedanklich verstehen, wie etwas begruendet ist oder warum etwas so geschieht.",
+        "usage_note": "Hier nur der Sinn von Argumentation, Motivation oder Logik verstehen.",
+        "examples": [
+          "Nach wenigen Minuten wird seine Argumentation fuer alle klar."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_follow_reasoning_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-seguire-ragionamento",
+        "text": "seguire",
+        "lemma": "seguire",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Capire mentalmente il ragionamento, la logica o il motivo di qualcosa.",
+        "usage_note": "Qui nel senso di riuscire a seguire un'argomentazione o una motivazione.",
+        "examples": [
+          "Dopo pochi minuti, il suo ragionamento diventa chiaro a tutti."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_follow_reasoning_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-follow-reasoning",
+        "text": "to follow",
+        "lemma": "follow",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To understand the reasoning, logic, or motivation behind something.",
+        "usage_note": "Only the abstract reasoning sense is modeled here, not physical following.",
+        "examples": [
+          "After a few minutes, his line of reasoning becomes clear to everyone."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_follow_reasoning_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "b2_verb_nachvollziehen_reasoning_en_bare_variant",
+    "concept_id": "concept-b2-nachvollziehen-reasoning",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-b2-follow-reasoning-bare",
+        "text": "follow"
+      }
+    }
+  },
+  {
+    "source_key": "c1_adj_nachvollziehbar",
+    "concept_id": "concept-c1-nachvollziehbar",
+    "pos": "adj",
+    "level_auto": "C1",
+    "domain_tags": ["Communication", "Education", "Abstract"],
+    "notes": "Advanced family expansion around concept-b1-vorgehen and concept-b1-zusammenhang. This branch models nachvollziehbar as understandable in terms of reasoning, explanation, or motivation.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-nachvollziehbar",
+        "text": "nachvollziehbar",
+        "lemma": "nachvollziehbar",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So erklaert oder begruendet, dass man es gedanklich gut verstehen kann.",
+        "usage_note": "Typisch fuer Entscheidungen, Argumente, Vorgehen oder Reaktionen.",
+        "examples": [
+          "Seine Entscheidung wirkt nach der Erklaerung fuer alle verstaendlich."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_understandable_reasoning_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-comprensibile",
+        "text": "comprensibile",
+        "lemma": "comprensibile",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Spiegato o motivato in modo tale da poter essere capito bene.",
+        "usage_note": "Tipico per decisioni, argomenti, procedure o reazioni.",
+        "examples": [
+          "Dopo la spiegazione, la sua decisione appare chiara a tutti."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_understandable_reasoning_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-understandable",
+        "text": "understandable",
+        "lemma": "understandable",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Explained or motivated in a way that can be followed and understood well.",
+        "usage_note": "Typical for decisions, arguments, procedures, or reactions.",
+        "examples": [
+          "After the explanation, his decision seems clear to everyone."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_understandable_reasoning_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "b2_verb_herausfordern",
+    "concept_id": "concept-b2-herausfordern",
+    "pos": "verb",
+    "level_auto": "B2",
+    "domain_tags": ["Work", "Education", "Abstract"],
+    "notes": "Advanced family expansion around concept-b1-herausforderung. This branch models herausfordern in the sense of demanding a strong response, effort, or ability from a person, team, or system.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-herausfordern",
+        "text": "herausfordern",
+        "lemma": "herausfordern",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Von jemandem oder etwas viel Einsatz, Faehigkeit oder eine starke Reaktion verlangen.",
+        "usage_note": "Hier im Sinn von fordern oder stark beanspruchen, nicht im engen Sinn einer formellen Herausforderung zum Duell.",
+        "examples": [
+          "Die neue Rolle verlangt dem ganzen Team sehr viel ab."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_challenge_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-sfidare",
+        "text": "sfidare",
+        "lemma": "sfidare",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Richiedere molto impegno, capacità o una forte reazione a qualcuno o qualcosa.",
+        "usage_note": "Qui nel senso ampio di mettere alla prova, non solo di lanciare una sfida formale.",
+        "examples": [
+          "Il nuovo ruolo mette davvero alla prova tutto il team."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_challenge_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-challenge-verb",
+        "text": "to challenge",
+        "lemma": "challenge",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To demand a lot of effort, ability, or response from someone or something.",
+        "usage_note": "This covers the broader sense of testing or demanding a lot, not only a formal challenge.",
+        "examples": [
+          "The new role demands a great deal from the whole team."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_challenge_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "b2_verb_herausfordern_en_bare_variant",
+    "concept_id": "concept-b2-herausfordern",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-b2-challenge-verb-bare",
+        "text": "challenge"
+      }
+    }
+  },
+  {
+    "source_key": "b2_adj_herausfordernd",
+    "concept_id": "concept-b2-herausfordernd",
+    "pos": "adj",
+    "level_auto": "B2",
+    "domain_tags": ["Work", "Education", "Abstract"],
+    "notes": "Advanced family expansion around concept-b1-herausforderung. This branch models herausfordernd in the sense of being demanding, difficult, and requiring real effort.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-herausfordernd",
+        "text": "herausfordernd",
+        "lemma": "herausfordernd",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Schwierig und anspruchsvoll, sodass echter Einsatz noetig ist.",
+        "usage_note": "Kann fuer Aufgaben, Situationen, Phasen oder Ziele verwendet werden.",
+        "examples": [
+          "Der Kurs ist schwer, aber gerade deshalb besonders interessant."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_challenging_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-impegnativo",
+        "text": "impegnativo",
+        "lemma": "impegnativo",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Difficile e richiedente, tanto da domandare un vero impegno.",
+        "usage_note": "Puo riferirsi a compiti, situazioni, periodi o obiettivi.",
+        "examples": [
+          "Il corso è difficile, ma proprio per questo molto interessante."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_challenging_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-challenging-adjective",
+        "text": "challenging",
+        "lemma": "challenging",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Difficult and demanding in a way that requires real effort.",
+        "usage_note": "This can describe tasks, situations, phases, or goals.",
+        "examples": [
+          "The course is difficult, but that is exactly what makes it interesting."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_challenging_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "b2_noun_missverstaendnis",
+    "concept_id": "concept-b2-missverstaendnis",
+    "pos": "noun",
+    "level_auto": "B2",
+    "domain_tags": ["Communication", "Social", "Abstract"],
+    "notes": "Advanced communication expansion. This branch models Missverständnis as a misunderstanding caused by different interpretations, incomplete information, or unclear wording.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-missverstaendnis",
+        "text": "Missverständnis",
+        "lemma": "Missverständnis",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Eine Situation, in der Menschen etwas unterschiedlich verstehen und dadurch ein falsches Bild entsteht.",
+        "usage_note": "Typisch bei unklarer Formulierung, fehlendem Kontext oder unterschiedlichen Erwartungen.",
+        "article_nom_sg_def": "das",
+        "gender": "n",
+        "plural": "Missverständnisse",
+        "examples": [
+          "Nach der Nachricht dachten beide Seiten zuerst an ganz verschiedene Dinge."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_misunderstanding_noun",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-malinteso",
+        "text": "il malinteso",
+        "lemma": "malinteso",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Una situazione in cui persone diverse capiscono la stessa cosa in modi differenti e nasce un'idea sbagliata.",
+        "usage_note": "Tipico quando mancano contesto o chiarezza.",
+        "examples": [
+          "Dopo il messaggio, le due parti avevano inizialmente idee del tutto diverse."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_misunderstanding_noun",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-misunderstanding",
+        "text": "the misunderstanding",
+        "lemma": "misunderstanding",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "A situation in which people understand something differently and a wrong impression results.",
+        "usage_note": "Typical when wording is unclear, context is missing, or expectations differ.",
+        "examples": [
+          "After the message, the two sides first had completely different ideas in mind."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_misunderstanding_noun",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "b2_noun_missverstaendnis_bare_variants",
+    "concept_id": "concept-b2-missverstaendnis",
+    "pos": "noun",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-b2-malinteso-bare",
+        "text": "malinteso"
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-misunderstanding-bare",
+        "text": "misunderstanding"
+      }
+    }
+  },
+  {
+    "source_key": "b2_verb_missverstehen",
+    "concept_id": "concept-b2-missverstehen",
+    "pos": "verb",
+    "level_auto": "B2",
+    "domain_tags": ["Communication", "Social", "Abstract"],
+    "notes": "Advanced communication expansion. This branch models missverstehen in the sense of understanding a message, intention, or situation incorrectly.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-missverstehen",
+        "text": "missverstehen",
+        "lemma": "missverstehen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Etwas falsch verstehen oder einer Aussage, Person oder Situation einen unzutreffenden Sinn geben.",
+        "usage_note": "Hier geht es um inhaltliches Fehlverstehen, nicht um blosses Ueberhoeren.",
+        "examples": [
+          "Ohne den ganzen Satz deutet man die Aussage schnell falsch."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_misunderstand_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-fraintendere",
+        "text": "fraintendere",
+        "lemma": "fraintendere",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Capire in modo sbagliato il senso di una frase, di un'intenzione o di una situazione.",
+        "usage_note": "Qui nel senso di interpretare male, non semplicemente di non sentire bene.",
+        "examples": [
+          "Senza la frase completa, si interpreta facilmente male il senso."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_misunderstand_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-misunderstand",
+        "text": "to misunderstand",
+        "lemma": "misunderstand",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To understand the meaning of a message, intention, or situation incorrectly.",
+        "usage_note": "This covers interpreting something wrongly, not merely failing to hear it.",
+        "examples": [
+          "Without the full sentence, the meaning is easy to interpret wrongly."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_misunderstand_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "b2_verb_missverstehen_en_bare_variant",
+    "concept_id": "concept-b2-missverstehen",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-b2-misunderstand-bare",
+        "text": "misunderstand"
+      }
+    }
+  },
+  {
+    "source_key": "b2_verb_beeindrucken",
+    "concept_id": "concept-b2-beeindrucken",
+    "pos": "verb",
+    "level_auto": "B2",
+    "domain_tags": ["Social", "Communication", "Abstract"],
+    "notes": "Advanced family expansion around concept-b1-eindruck. This branch models beeindrucken in the sense of making a strong positive impression through quality, ability, presence, or result.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-beeindrucken",
+        "text": "beeindrucken",
+        "lemma": "beeindrucken",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Bei jemandem durch Qualitaet, Faehigkeit, Auftreten oder Leistung einen starken positiven Eindruck hinterlassen.",
+        "usage_note": "Hier geht es um einen spuerbaren positiven Eindruck, nicht um blosses Gefallen oder Zustimmung.",
+        "examples": [
+          "Seine ruhige und sichere Praesentation laesst viele im Raum staunen."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_impress_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-colpire-positivamente",
+        "text": "colpire",
+        "lemma": "colpire",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Lasciare una forte impressione positiva grazie a qualità, capacità, presenza o risultati.",
+        "usage_note": "Qui solo nel senso di fare impressione in positivo, non nel senso fisico di colpire.",
+        "examples": [
+          "La sua presentazione calma e sicura colpisce molte persone nella sala."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_impress_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-impress",
+        "text": "to impress",
+        "lemma": "impress",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To leave a strong positive impression through quality, ability, presence, or results.",
+        "usage_note": "This covers making a noticeable positive impression, not simply being liked.",
+        "examples": [
+          "His calm and confident presentation makes many people in the room take notice."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_impress_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "b2_verb_beeindrucken_en_bare_variant",
+    "concept_id": "concept-b2-beeindrucken",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-b2-impress-bare",
+        "text": "impress"
+      }
+    }
+  }
+]

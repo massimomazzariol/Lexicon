@@ -1,0 +1,585 @@
+[
+  {
+    "source_key": "core_noun_wasser",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Food"
+    ],
+    "translations": {
+      "de": {
+        "text": "Wasser",
+        "definition": "Klares, farbloses Getränk, das für das Leben notwendig ist.",
+        "examples": [
+          "Ich trinke ein Glas kaltes Nass."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-03"
+        }
+      },
+      "en": {
+        "text": "water",
+        "definition": "A clear, colorless liquid essential for life.",
+        "examples": [
+          "I am drinking a glass of cold liquid."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-03"
+        }
+      },
+      "it": {
+        "text": "acqua",
+        "definition": "Liquido trasparente essenziale per la vita.",
+        "examples": [
+          "Bevo un bicchiere di liquido freddo."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-03"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_brot",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Food"
+    ],
+    "translations": {
+      "de": {
+        "text": "Brot",
+        "definition": "Gebackenes Nahrungsmittel aus Teig.",
+        "examples": [
+          "Zum Frühstück esse ich eine Scheibe mit Butter."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-03"
+        }
+      },
+      "en": {
+        "text": "bread",
+        "definition": "Baked food made of dough.",
+        "examples": [
+          "I eat a slice with butter for breakfast."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-03"
+        }
+      },
+      "it": {
+        "text": "pane",
+        "definition": "Alimento cotto al forno fatto di impasto.",
+        "examples": [
+          "A colazione mangio una fetta con il burro."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-03"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_frau",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "People"
+    ],
+    "translations": {
+      "de": {
+        "text": "Frau",
+        "definition": "Eine erwachsene weibliche Person.",
+        "examples": [
+          "Die Dame trägt ein rotes Kleid."
+        ],
+        "card_antonyms": [
+          "Mann"
+        ]
+      },
+      "en": {
+        "text": "woman",
+        "definition": "An adult female person.",
+        "examples": [
+          "The lady is wearing a red dress."
+        ]
+      },
+      "it": {
+        "text": "donna",
+        "definition": "Una persona adulta di sesso femminile.",
+        "examples": [
+          "La signora indossa un vestito rosso."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_mann",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "People"
+    ],
+    "translations": {
+      "de": {
+        "text": "Mann",
+        "definition": "Eine erwachsene männliche Person.",
+        "examples": [
+          "Der Herr trägt einen schwarzen Anzug."
+        ],
+        "card_antonyms": [
+          "Frau"
+        ]
+      },
+      "en": {
+        "text": "man",
+        "definition": "An adult male person.",
+        "examples": [
+          "The gentleman is wearing a black suit."
+        ]
+      },
+      "it": {
+        "text": "uomo",
+        "definition": "Una persona adulta di sesso maschile.",
+        "examples": [
+          "Il signore indossa un abito nero."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_kind",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "People"
+    ],
+    "translations": {
+      "de": {
+        "text": "Kind",
+        "definition": "Ein junger Mensch.",
+        "examples": [
+          "Der Junge spielt im Garten mit dem Ball."
+        ],
+        "card_antonyms": [
+          "Erwachsener"
+        ]
+      },
+      "en": {
+        "text": "child",
+        "aliases": [
+          "kid"
+        ],
+        "definition": "A young human being.",
+        "examples": [
+          "The young one is playing in the garden with the ball."
+        ]
+      },
+      "it": {
+        "text": "bambino",
+        "aliases": [
+          "bimbo"
+        ],
+        "definition": "Un giovane essere umano.",
+        "examples": [
+          "Il piccolo gioca in giardino con la palla."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_hund",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Animals"
+    ],
+    "translations": {
+      "de": {
+        "text": "Hund",
+        "definition": "Ein Haustier, das bellt.",
+        "examples": [
+          "Das Tier läuft freudig im Park."
+        ],
+        "card_antonyms": [
+          "Katze"
+        ]
+      },
+      "en": {
+        "text": "dog",
+        "definition": "A pet that barks.",
+        "examples": [
+          "The animal runs happily in the park."
+        ]
+      },
+      "it": {
+        "text": "cane",
+        "definition": "Un animale domestico che abbaia.",
+        "examples": [
+          "L'animale corre felice nel parco."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_katze",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Animals"
+    ],
+    "translations": {
+      "de": {
+        "text": "Katze",
+        "definition": "Ein Haustier, das miaut.",
+        "examples": [
+          "Das Tier schläft auf dem weichen Sofa."
+        ],
+        "card_antonyms": [
+          "Hund"
+        ]
+      },
+      "en": {
+        "text": "cat",
+        "definition": "A pet that meows.",
+        "examples": [
+          "The animal is sleeping on the soft sofa."
+        ]
+      },
+      "it": {
+        "text": "gatto",
+        "definition": "Un animale domestico che miagola.",
+        "examples": [
+          "L'animale dorme sul morbido divano."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_gut",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily"
+    ],
+    "translations": {
+      "de": {
+        "text": "gut",
+        "definition": "Von positiver Qualität oder nützlich.",
+        "examples": [
+          "Das Wetter ist heute sehr schön."
+        ],
+        "card_antonyms": [
+          "schlecht"
+        ]
+      },
+      "en": {
+        "text": "good",
+        "definition": "Of positive quality or useful.",
+        "examples": [
+          "The weather today is very nice."
+        ]
+      },
+      "it": {
+        "text": "buono",
+        "aliases": [
+          "bene"
+        ],
+        "definition": "Di qualità positiva o utile.",
+        "examples": [
+          "Il tempo oggi è molto bello."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_schlecht",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily"
+    ],
+    "translations": {
+      "de": {
+        "text": "schlecht",
+        "definition": "Von negativer Qualität oder nicht erwünscht.",
+        "examples": [
+          "Das Wetter ist heute sehr ungemütlich."
+        ],
+        "card_antonyms": [
+          "gut"
+        ]
+      },
+      "en": {
+        "text": "bad",
+        "definition": "Of negative quality or unwanted.",
+        "examples": [
+          "The weather today is very unpleasant."
+        ]
+      },
+      "it": {
+        "text": "cattivo",
+        "definition": "Di qualità negativa o non desiderato.",
+        "examples": [
+          "Il tempo oggi è molto sgradevole."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_gross",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily"
+    ],
+    "translations": {
+      "de": {
+        "text": "groß",
+        "definition": "Von beträchtlichem Ausmaß oder Höhe.",
+        "examples": [
+          "Der Baum im Garten ist sehr hoch."
+        ],
+        "card_antonyms": [
+          "klein"
+        ]
+      },
+      "en": {
+        "text": "big",
+        "aliases": [
+          "large"
+        ],
+        "definition": "Of considerable size or height.",
+        "examples": [
+          "The tree in the garden is very high."
+        ]
+      },
+      "it": {
+        "text": "grande",
+        "definition": "Di notevoli dimensioni o altezza.",
+        "examples": [
+          "L'albero in giardino è molto alto."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_klein",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily"
+    ],
+    "translations": {
+      "de": {
+        "text": "klein",
+        "definition": "Von geringem Ausmaß oder Höhe.",
+        "examples": [
+          "Die Maus ist ein winziges Tier."
+        ],
+        "card_antonyms": [
+          "groß"
+        ]
+      },
+      "en": {
+        "text": "small",
+        "definition": "Of little size or height.",
+        "examples": [
+          "The mouse is a tiny animal."
+        ]
+      },
+      "it": {
+        "text": "piccolo",
+        "definition": "Di ridotte dimensioni o altezza.",
+        "examples": [
+          "Il topo è un animale minuscolo."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_essen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Food"
+    ],
+    "translations": {
+      "de": {
+        "text": "essen",
+        "definition": "Nahrung zu sich nehmen.",
+        "examples": [
+          "Wir speisen heute Abend im Restaurant."
+        ],
+        "card_antonyms": [
+          "trinken"
+        ]
+      },
+      "en": {
+        "text": "to eat",
+        "aliases": [],
+        "definition": "To consume food.",
+        "examples": [
+          "We are dining at the restaurant tonight."
+        ]
+      },
+      "it": {
+        "text": "mangiare",
+        "definition": "Consumare cibo.",
+        "examples": [
+          "Ceniamo al ristorante stasera."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_trinken",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Food"
+    ],
+    "translations": {
+      "de": {
+        "text": "trinken",
+        "definition": "Flüssigkeit zu sich nehmen.",
+        "examples": [
+          "Morgens konsumiere ich gerne einen heißen Kaffee."
+        ],
+        "card_antonyms": [
+          "essen"
+        ]
+      },
+      "en": {
+        "text": "to drink",
+        "aliases": [],
+        "definition": "To consume liquid.",
+        "examples": [
+          "In the morning, I like to have a hot coffee."
+        ]
+      },
+      "it": {
+        "text": "bere",
+        "definition": "Consumare liquidi.",
+        "examples": [
+          "Al mattino mi piace prendere un caffè caldo."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_sein",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily"
+    ],
+    "translations": {
+      "de": {
+        "text": "sein",
+        "definition": "Existieren oder einen Zustand beschreiben.",
+        "examples": [
+          "Ich lebe glücklich und zufrieden."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct logical opposite",
+          "reviewed_at": "2026-03-03"
+        }
+      },
+      "en": {
+        "text": "to be",
+        "aliases": [],
+        "definition": "To exist or describe a state.",
+        "examples": [
+          "I exist happily and contently."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct logical opposite",
+          "reviewed_at": "2026-03-03"
+        }
+      },
+      "it": {
+        "text": "essere",
+        "definition": "Esistere o descrivere uno stato.",
+        "examples": [
+          "Esisto felicemente e serenamente."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct logical opposite",
+          "reviewed_at": "2026-03-03"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_haben",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily"
+    ],
+    "translations": {
+      "de": {
+        "text": "haben",
+        "definition": "Etwas besitzen.",
+        "examples": [
+          "Ich besitze ein neues rotes Auto."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No single direct opposite",
+          "reviewed_at": "2026-03-03"
+        }
+      },
+      "en": {
+        "text": "to have",
+        "aliases": [],
+        "definition": "To possess something.",
+        "examples": [
+          "I possess a new red car."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No single direct opposite",
+          "reviewed_at": "2026-03-03"
+        }
+      },
+      "it": {
+        "text": "avere",
+        "definition": "Possedere qualcosa.",
+        "examples": [
+          "Possiedo una nuova auto rossa."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No single direct opposite",
+          "reviewed_at": "2026-03-03"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "lexicon-tools",
+  "private": true,
+  "scripts": {
+    "pipeline": "node tools/pipeline/run_pack_pipeline.mjs --with-forms",
+    "pipeline:dry": "node tools/pipeline/run_pack_pipeline.mjs --with-forms --dry-run",
+    "rebuild": "node tools/pipeline/rebuild_runtime_packs.mjs",
+    "content:gate": "node tools/scripts/review_autopromote.mjs",
+    "doctor": "node tools/scripts/doctor.mjs",
+    "lexicon": "node tools/scripts/lexicon.mjs",
+    "release": "node tools/pipeline/rebuild_runtime_packs.mjs --with-distribution",
+    "refresh": "git pull && node tools/pipeline/build_lexicon_distribution.mjs",
+    "publish": "node tools/pipeline/publish_distribution_to_release.mjs"
+  }
+}

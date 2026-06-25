@@ -1,0 +1,62 @@
+[
+  {
+    "source_key": "b1_adj_gruselig",
+    "concept_id": "concept-b1-gruselig",
+    "pos": "adj",
+    "level_auto": "B1",
+    "domain_tags": ["Daily", "Emotions", "Abstract"],
+    "notes": "Editorial addition from German lemma expansion. Modeled around the broad unsettling or creepy sense for places, stories, sounds, or situations; not split into a separate gore-only or stronger terrifying branch. CEFR set editorially to B1 on 2026-04-17.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-gruselig",
+        "text": "gruselig",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So unheimlich oder schaurig, dass es ein unangenehmes Angstgefuehl ausloest.",
+        "usage_note": "Typisch fuer Orte, Geschichten, Geraeusche oder Situationen mit duesterer Atmosphaere.",
+        "card_synonyms": ["unheimlich"],
+        "examples": [
+          "Im dunklen Keller hoerte man ploetzlich langsame Schritte."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_creepy_adjective",
+          "reviewed_at": "2026-04-17"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-inquietante",
+        "text": "inquietante",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Che mette a disagio o fa provare una paura sottile e strana.",
+        "usage_note": "Tipico per luoghi, storie, rumori o situazioni con un'atmosfera cupa.",
+        "examples": [
+          "Nel corridoio buio si sentivano passi lenti all'improvviso."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_creepy_adjective",
+          "reviewed_at": "2026-04-17"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-creepy",
+        "text": "creepy",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Strange and unsettling in a way that makes you feel slightly frightened.",
+        "usage_note": "Typical for places, stories, sounds, or situations with a dark atmosphere.",
+        "card_synonyms": ["spooky"],
+        "examples": [
+          "Slow footsteps suddenly echoed through the dark hallway."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_creepy_adjective",
+          "reviewed_at": "2026-04-17"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,4 @@
+# The golden distribution fixture's content_hash values are computed over LF
+# bytes. These files must stay LF on every platform and clone, or the contract
+# conformance check (tools/lib/distribution_conformance.mjs) breaks.
+tools/fixtures/golden_distribution/** text eol=lf

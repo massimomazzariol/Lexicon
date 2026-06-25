@@ -1,0 +1,648 @@
+[
+  {
+    "source_key": "a2_noun_entscheidung",
+    "concept_id": "concept-a2-entscheidung",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Daily",
+      "Abstract",
+      "Communication"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-entscheidung",
+        "text": "Entscheidung",
+        "definition": "Das Ergebnis, nachdem man zwischen mehreren Möglichkeiten gewählt hat.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Entscheidungen",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct lexical opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-decisione",
+        "text": "la decisione",
+        "definition": "Il risultato di una scelta tra più possibilità.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct lexical opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-decision",
+        "text": "the decision",
+        "definition": "The result of choosing between different possibilities.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct lexical opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_loesung",
+    "concept_id": "concept-a2-loesung",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Daily",
+      "Abstract",
+      "Education"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-loesung",
+        "text": "Lösung",
+        "definition": "Die richtige oder hilfreiche Antwort auf ein Problem.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Lösungen",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Problem is related, not a strict opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-soluzione",
+        "text": "la soluzione",
+        "definition": "La risposta giusta o utile a un problema.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Problema is related, not a strict opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-solution",
+        "text": "the solution",
+        "definition": "The right or helpful answer to a problem.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Problem is related, not a strict opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_erklaeren",
+    "concept_id": "concept-a2-erklaeren",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Daily",
+      "Communication",
+      "Education"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-erklaeren",
+        "text": "erklären",
+        "definition": "Etwas so sagen, dass es verständlich wird.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No clean everyday opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-spiegare",
+        "text": "spiegare",
+        "definition": "Dire qualcosa in modo che diventi chiaro.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No clean everyday opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-explain",
+        "text": "to explain",
+        "definition": "To say something in a way that makes it clear.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No clean everyday opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_entscheiden",
+    "concept_id": "concept-a2-entscheiden",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-entscheiden",
+        "text": "entscheiden",
+        "definition": "Eine Wahl treffen.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No clean lexical opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-decidere",
+        "text": "decidere",
+        "definition": "Fare una scelta.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No clean lexical opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-decide",
+        "text": "to decide",
+        "definition": "To make a choice.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No clean lexical opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_vergleichen",
+    "concept_id": "concept-a2-vergleichen",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Daily",
+      "Abstract",
+      "Education"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-vergleichen",
+        "text": "vergleichen",
+        "definition": "Zwei oder mehr Dinge miteinander prüfen, um Unterschiede oder Ähnlichkeiten zu sehen.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No clean everyday opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-confrontare",
+        "text": "confrontare",
+        "definition": "Mettere a confronto due o più cose per vedere differenze o somiglianze.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No clean everyday opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-compare",
+        "text": "to compare",
+        "aliases": [],
+        "definition": "To look at two or more things to see differences or similarities.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No clean everyday opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_empfehlen",
+    "concept_id": "concept-a2-empfehlen",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Daily",
+      "Social",
+      "Communication"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-empfehlen",
+        "text": "empfehlen",
+        "definition": "Jemandem sagen, dass etwas eine gute Wahl ist.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No clean lexical opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-consigliare",
+        "text": "consigliare",
+        "definition": "Dire a qualcuno che qualcosa è una buona scelta.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No clean lexical opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-recommend",
+        "text": "to recommend",
+        "definition": "To tell someone that something is a good choice.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No clean lexical opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_reservieren",
+    "concept_id": "concept-a2-reservieren",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Travel",
+      "Work",
+      "Daily"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-reservieren",
+        "text": "reservieren",
+        "definition": "Etwas im Voraus für sich fest buchen oder freihalten.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No clean lexical opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-prenotare",
+        "text": "prenotare",
+        "aliases": [
+          "riservare"
+        ],
+        "definition": "Bloccare qualcosa in anticipo per usarla dopo.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No clean lexical opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-reserve",
+        "text": "to reserve",
+        "aliases": [
+          "to book",
+          "book"
+        ],
+        "definition": "To arrange something in advance for later use.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No clean lexical opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "a2_adj_moeglich",
+    "concept_id": "concept-a2-moeglich",
+    "pos": "adj",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-moeglich",
+        "text": "möglich",
+        "definition": "So, dass es passieren oder gemacht werden kann.",
+        "card_antonyms": [
+          "unmöglich"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-possibile",
+        "text": "possibile",
+        "definition": "Che può succedere o essere fatto.",
+        "card_antonyms": [
+          "impossibile"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-possible",
+        "text": "possible",
+        "definition": "Able to happen or be done.",
+        "card_antonyms": [
+          "impossible"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adj_noetig",
+    "concept_id": "concept-a2-noetig",
+    "pos": "adj",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-noetig",
+        "text": "nötig",
+        "definition": "So wichtig, dass man es braucht.",
+        "card_synonyms": [
+          "notwendig"
+        ],
+        "card_antonyms": [
+          "unnötig"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-necessario",
+        "text": "necessario",
+        "definition": "Così importante che serve davvero.",
+        "card_synonyms": [
+          "indispensabile"
+        ],
+        "card_antonyms": [
+          "inutile"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-necessary",
+        "text": "necessary",
+        "definition": "So important that it is really needed.",
+        "card_synonyms": [
+          "needed"
+        ],
+        "card_antonyms": [
+          "unnecessary"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adj_puenktlich",
+    "concept_id": "concept-a2-puenktlich",
+    "pos": "adj",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Daily",
+      "Time",
+      "Work"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-puenktlich",
+        "text": "pünktlich",
+        "definition": "Genau zur richtigen Zeit.",
+        "card_antonyms": [
+          "verspätet"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-puntuale",
+        "text": "puntuale",
+        "definition": "Esattamente all'orario giusto.",
+        "card_antonyms": [
+          "in ritardo"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-on-time",
+        "text": "on time",
+        "definition": "At exactly the right time.",
+        "card_antonyms": [
+          "late"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adv_wahrscheinlich",
+    "concept_id": "concept-a2-wahrscheinlich",
+    "pos": "adv",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-wahrscheinlich",
+        "text": "wahrscheinlich",
+        "definition": "Mit großer Chance so.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Opposite is gradient and context-dependent",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-probabilmente",
+        "text": "probabilmente",
+        "definition": "Con grande possibilità.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Opposto graduale e dipendente dal contesto",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-probably",
+        "text": "probably",
+        "definition": "With a strong chance of being true.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Opposite is gradient and context-dependent",
+          "reviewed_at": "2026-03-11"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "a2_adv_besonders",
+    "concept_id": "concept-a2-besonders",
+    "pos": "adv",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-besonders",
+        "text": "besonders",
+        "definition": "Mehr als andere oder auf spezielle Weise.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct lexical opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-soprattutto",
+        "text": "soprattutto",
+        "aliases": [
+          "specialmente"
+        ],
+        "definition": "Più delle altre cose o in modo speciale.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct lexical opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-especially",
+        "text": "especially",
+        "definition": "More than other things or in a special way.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct lexical opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "a2_adv_endlich",
+    "concept_id": "concept-a2-endlich",
+    "pos": "adv",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Daily",
+      "Time"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-endlich",
+        "text": "endlich",
+        "definition": "Nach einer langen Wartezeit oder am Schluss.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct lexical opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-finalmente",
+        "text": "finalmente",
+        "definition": "Dopo una lunga attesa o alla fine.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct lexical opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-finally",
+        "text": "finally",
+        "definition": "After a long wait or at the end.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct lexical opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "a2_chunk_im_voraus",
+    "concept_id": "concept-a2-im-voraus",
+    "pos": "chunk",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Travel",
+      "Work",
+      "Time"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-im-voraus",
+        "text": "im Voraus",
+        "definition": "Schon vor einem späteren Termin oder Ereignis.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Opposite is contextual",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-in-anticipo",
+        "text": "in anticipo",
+        "definition": "Già prima di un momento successivo.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Opposto contestuale",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-in-advance",
+        "text": "in advance",
+        "definition": "Before a later event or time.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Opposite is contextual",
+          "reviewed_at": "2026-03-11"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "a2_chunk_auf_jeden_fall",
+    "concept_id": "concept-a2-auf-jeden-fall",
+    "pos": "chunk",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Daily",
+      "Communication"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-auf-jeden-fall",
+        "text": "auf jeden Fall",
+        "definition": "Ganz sicher oder jedenfalls.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct lexical opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-in-ogni-caso",
+        "text": "in ogni caso",
+        "definition": "Comunque o certamente.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct lexical opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-in-any-case",
+        "text": "in any case",
+        "definition": "Anyway or certainly.",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct lexical opposite",
+          "reviewed_at": "2026-03-11"
+        }
+      }
+    }
+  }
+]

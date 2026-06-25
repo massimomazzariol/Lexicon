@@ -1,0 +1,1384 @@
+[
+  {
+    "source_key": "b1_noun_gelegenheit",
+    "concept_id": "concept-b1-gelegenheit",
+    "pos": "noun",
+    "level_auto": "B1",
+    "domain_tags": ["Social", "Work", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-gelegenheit",
+        "text": "Gelegenheit",
+        "definition": "Ein passender Moment oder eine günstige Möglichkeit, etwas zu tun.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Gelegenheiten",
+        "examples": ["Das ist eine gute Gelegenheit, neue Kontakte zu knüpfen."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-occasione",
+        "text": "l'occasione",
+        "definition": "Un momento adatto o una possibilità favorevole per fare qualcosa.",
+        "examples": ["È una buona occasione per creare nuovi contatti."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-opportunity",
+        "text": "the opportunity",
+        "definition": "A suitable moment or favorable possibility to do something.",
+        "examples": ["It is a good opportunity to make new contacts."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_noun_herausforderung",
+    "concept_id": "concept-b1-herausforderung",
+    "pos": "noun",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Education", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-herausforderung",
+        "text": "Herausforderung",
+        "definition": "Eine schwierige Aufgabe oder Situation, die Einsatz verlangt.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Herausforderungen",
+        "examples": ["Der neue Job ist eine spannende Herausforderung."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-sfida",
+        "text": "la sfida",
+        "definition": "Un compito o una situazione difficile che richiede impegno.",
+        "examples": ["Il nuovo lavoro è una sfida stimolante."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-challenge",
+        "text": "the challenge",
+        "definition": "A difficult task or situation that requires effort.",
+        "examples": ["The new job is an exciting challenge."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_noun_zusammenhang",
+    "concept_id": "concept-b1-zusammenhang",
+    "pos": "noun",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Communication", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-zusammenhang",
+        "text": "Zusammenhang",
+        "definition": "Die Verbindung zwischen mehreren Informationen oder Ereignissen.",
+        "article_nom_sg_def": "der",
+        "gender": "m",
+        "plural": "Zusammenhänge",
+        "examples": ["Ohne den Zusammenhang wirkt die Zahl irreführend."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-collegamento",
+        "text": "il collegamento",
+        "definition": "La relazione tra più informazioni o eventi.",
+        "examples": ["Senza il collegamento il numero può sembrare fuorviante."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-connection",
+        "text": "the connection",
+        "definition": "The link between several pieces of information or events.",
+        "examples": ["Without the connection, the number seems misleading."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_noun_vorgehen",
+    "concept_id": "concept-b1-vorgehen",
+    "pos": "noun",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Communication", "Action"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-vorgehen",
+        "text": "Vorgehen",
+        "definition": "Die Art und Weise, wie man planmäßig etwas macht.",
+        "article_nom_sg_def": "das",
+        "gender": "n",
+        "plural": "Vorgehensweisen",
+        "examples": ["Dein Vorgehen ist klar und nachvollziehbar."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-approccio",
+        "text": "l'approccio",
+        "definition": "Il modo in cui si affronta qualcosa in modo pianificato.",
+        "examples": ["Il tuo approccio è chiaro e comprensibile."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-approach",
+        "text": "the approach",
+        "definition": "The way in which something is handled in a planned manner.",
+        "examples": ["Your approach is clear and easy to follow."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_noun_voraussetzung",
+    "concept_id": "concept-b1-voraussetzung",
+    "pos": "noun",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Education", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-voraussetzung",
+        "text": "Voraussetzung",
+        "definition": "Eine Bedingung, die erfüllt sein muss, damit etwas möglich ist.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Voraussetzungen",
+        "examples": ["Deutschkenntnisse sind eine wichtige Voraussetzung für diese Stelle."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-requisito",
+        "text": "il requisito",
+        "definition": "Una condizione che deve essere soddisfatta perché qualcosa sia possibile.",
+        "examples": ["La conoscenza del tedesco è un requisito importante per questo posto."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-prerequisite",
+        "text": "the prerequisite",
+        "definition": "A condition that must be met for something to be possible.",
+        "examples": ["Knowledge of German is an important prerequisite for this position."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_noun_eindruck",
+    "concept_id": "concept-b1-eindruck",
+    "pos": "noun",
+    "level_auto": "B1",
+    "domain_tags": ["Social", "Communication", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-eindruck",
+        "text": "Eindruck",
+        "definition": "Das Bild oder Gefühl, das bei jemandem oder etwas entsteht.",
+        "article_nom_sg_def": "der",
+        "gender": "m",
+        "plural": "Eindrücke",
+        "examples": ["Sein erster Eindruck war sehr positiv."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-impressione",
+        "text": "l'impressione",
+        "definition": "L'idea o la sensazione che nasce da una persona o da una situazione.",
+        "examples": ["La sua prima impressione è stata molto positiva."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-impression",
+        "text": "the impression",
+        "definition": "The idea or feeling created by a person or situation.",
+        "examples": ["His first impression was very positive."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_noun_verantwortung",
+    "concept_id": "concept-b1-verantwortung",
+    "pos": "noun",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Social", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-verantwortung",
+        "text": "Verantwortung",
+        "definition": "Die Pflicht, für Entscheidungen oder Folgen einzustehen.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Verantwortungen",
+        "examples": ["Mit dieser Aufgabe übernimmst du viel Verantwortung."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-responsabilita",
+        "text": "la responsabilità",
+        "definition": "Il dovere di rispondere delle decisioni o delle conseguenze.",
+        "examples": ["Con questo compito ti assumi molte responsabilità."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-responsibility",
+        "text": "the responsibility",
+        "definition": "The duty to answer for decisions or consequences.",
+        "examples": ["With this task, you take on a lot of responsibility."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_noun_beschwerde",
+    "concept_id": "concept-b1-beschwerde",
+    "pos": "noun",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Communication", "Social"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-beschwerde",
+        "text": "Beschwerde",
+        "definition": "Eine offizielle Mitteilung, dass man mit etwas unzufrieden ist.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Beschwerden",
+        "examples": ["Die Kundin hat eine formelle Beschwerde eingereicht."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-reclamo",
+        "text": "il reclamo",
+        "definition": "Una comunicazione ufficiale con cui si esprime insoddisfazione.",
+        "examples": ["La cliente ha presentato un reclamo formale."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-complaint",
+        "text": "the complaint",
+        "definition": "An official message expressing dissatisfaction.",
+        "examples": ["The customer submitted a formal complaint."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_noun_auswirkung",
+    "concept_id": "concept-b1-auswirkung",
+    "pos": "noun",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Abstract", "Daily"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-auswirkung",
+        "text": "Auswirkung",
+        "definition": "Eine Folge oder ein Effekt, den etwas verursacht.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Auswirkungen",
+        "examples": ["Die Entscheidung hatte große Auswirkungen auf das Team."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-effetto",
+        "text": "l'effetto",
+        "definition": "La conseguenza o l'effetto causato da qualcosa.",
+        "examples": ["La decisione ha avuto grandi effetti sul team."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-effect",
+        "text": "the effect",
+        "definition": "The consequence or effect caused by something.",
+        "examples": ["The decision had major effects on the team."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_noun_vereinbarung",
+    "concept_id": "concept-b1-vereinbarung",
+    "pos": "noun",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Social", "Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-vereinbarung",
+        "text": "Vereinbarung",
+        "definition": "Eine Absprache, der mehrere Personen zustimmen.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Vereinbarungen",
+        "examples": ["Wir haben eine klare Vereinbarung über die nächsten Schritte."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-accordo",
+        "text": "l'accordo",
+        "definition": "Un'intesa approvata da più persone.",
+        "examples": ["Abbiamo un accordo chiaro sui prossimi passi."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-agreement",
+        "text": "the agreement",
+        "definition": "An arrangement accepted by several people.",
+        "examples": ["We have a clear agreement about the next steps."]
+      }
+    }
+  }
+,
+  {
+    "source_key": "b1_verb_bewerten",
+    "concept_id": "concept-b1-bewerten",
+    "pos": "verb",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Education", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-bewerten",
+        "text": "bewerten",
+        "definition": "Etwas nach bestimmten Kriterien beurteilen.",
+        "examples": ["Wir müssen die Ergebnisse objektiv bewerten."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-valutare",
+        "text": "valutare",
+        "definition": "Giudicare qualcosa secondo determinati criteri.",
+        "examples": ["Dobbiamo valutare i risultati in modo obiettivo."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-evaluate",
+        "text": "evaluate",
+        "definition": "To judge something according to certain criteria.",
+        "examples": ["We need to evaluate the results objectively."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_verb_vermitteln",
+    "concept_id": "concept-b1-vermitteln",
+    "pos": "verb",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Communication", "Social"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-vermitteln",
+        "text": "vermitteln",
+        "definition": "Informationen, Wissen oder einen Eindruck weitergeben.",
+        "examples": ["Der Bericht vermittelt ein realistisches Bild der Lage."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-trasmettere",
+        "text": "trasmettere",
+        "definition": "Comunicare o far passare informazioni, conoscenze o impressioni.",
+        "examples": ["Il rapporto trasmette un quadro realistico della situazione."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-convey",
+        "text": "convey",
+        "definition": "To pass on information, knowledge, or an impression.",
+        "examples": ["The report conveys a realistic picture of the situation."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_verb_entstehen",
+    "concept_id": "concept-b1-entstehen",
+    "pos": "verb",
+    "level_auto": "B1",
+    "domain_tags": ["Daily", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-entstehen",
+        "text": "entstehen",
+        "definition": "Neu auftreten oder sich entwickeln.",
+        "examples": ["Während des Gesprächs sind neue Fragen entstanden."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-sorgere",
+        "text": "sorgere",
+        "definition": "Comparire o svilupparsi da nuovo.",
+        "examples": ["Durante il colloquio sono sorte nuove domande."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-arise",
+        "text": "arise",
+        "definition": "To appear or develop newly.",
+        "examples": ["New questions arose during the conversation."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_verb_verhindern",
+    "concept_id": "concept-b1-verhindern",
+    "pos": "verb",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Daily", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-verhindern",
+        "text": "verhindern",
+        "definition": "Dafür sorgen, dass etwas nicht passiert.",
+        "examples": ["Diese Maßnahme soll weitere Fehler verhindern."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-impedire",
+        "text": "impedire",
+        "definition": "Fare in modo che qualcosa non accada.",
+        "examples": ["Questa misura dovrebbe impedire altri errori."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-prevent",
+        "text": "prevent",
+        "definition": "To make sure that something does not happen.",
+        "examples": ["This measure should prevent further mistakes."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_verb_foerdern",
+    "concept_id": "concept-b1-foerdern",
+    "pos": "verb",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Education", "Social"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-foerdern",
+        "text": "fördern",
+        "definition": "Etwas positiv unterstützen oder weiterentwickeln.",
+        "examples": ["Das Programm soll junge Talente fördern."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-favorire",
+        "text": "favorire",
+        "definition": "Sostenere qualcosa in modo positivo o contribuirne allo sviluppo.",
+        "examples": ["Il programma dovrebbe favorire i giovani talenti."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-promote",
+        "text": "promote",
+        "definition": "To support something positively or help it develop.",
+        "examples": ["The program is meant to promote young talent."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_verb_ueberzeugen",
+    "concept_id": "concept-b1-ueberzeugen",
+    "pos": "verb",
+    "level_auto": "B1",
+    "domain_tags": ["Social", "Communication", "Work"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-ueberzeugen",
+        "text": "überzeugen",
+        "definition": "Jemanden durch gute Gründe dazu bringen, etwas zu glauben oder zu tun.",
+        "examples": ["Mit diesem Argument kann man viele Leute überzeugen."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-convincere",
+        "text": "convincere",
+        "definition": "Portare qualcuno a credere o a fare qualcosa grazie a buone ragioni.",
+        "examples": ["Con questo argomento si possono convincere molte persone."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-convince",
+        "text": "convince",
+        "definition": "To make someone believe or do something through good reasons.",
+        "examples": ["This argument can convince many people."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_verb_behaupten",
+    "concept_id": "concept-b1-behaupten",
+    "pos": "verb",
+    "level_auto": "B1",
+    "domain_tags": ["Communication", "Social", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-behaupten",
+        "text": "behaupten",
+        "definition": "Etwas als wahr sagen, ohne es sofort zu beweisen.",
+        "examples": ["Er behauptet, dass er nichts davon wusste."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-sostenere",
+        "text": "sostenere",
+        "definition": "Dire che qualcosa è vero senza provarlo subito.",
+        "examples": ["Lui sostiene di non averne saputo nulla."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-claim",
+        "text": "claim",
+        "definition": "To say that something is true without proving it immediately.",
+        "examples": ["He claims that he knew nothing about it."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_verb_feststellen",
+    "concept_id": "concept-b1-feststellen",
+    "pos": "verb",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Communication", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-feststellen",
+        "text": "feststellen",
+        "definition": "Etwas klar erkennen oder offiziell feststellen.",
+        "examples": ["Wir haben festgestellt, dass die Daten unvollständig sind."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-constatare",
+        "text": "constatare",
+        "definition": "Riconoscere chiaramente o stabilire ufficialmente qualcosa.",
+        "examples": ["Abbiamo constatato che i dati sono incompleti."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-establish",
+        "text": "establish",
+        "definition": "To recognize clearly or determine something officially.",
+        "examples": ["We established that the data was incomplete."]
+      }
+    }
+  }
+,
+  {
+    "source_key": "b1_verb_beruecksichtigen",
+    "concept_id": "concept-b1-beruecksichtigen",
+    "pos": "verb",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Social", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-beruecksichtigen",
+        "text": "berücksichtigen",
+        "definition": "Etwas in die Planung oder Entscheidung mit einbeziehen.",
+        "examples": ["Bitte berücksichtigen Sie auch die Kosten."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-considerare",
+        "text": "considerare",
+        "definition": "Includere qualcosa nella pianificazione o nella decisione.",
+        "examples": ["Per favore considerate anche i costi."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-take-into-account",
+        "text": "take into account",
+        "definition": "To include something in planning or decision-making.",
+        "examples": ["Please take the costs into account as well."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_verb_behandeln",
+    "concept_id": "concept-b1-behandeln",
+    "pos": "verb",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Communication", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-behandeln",
+        "text": "behandeln",
+        "definition": "Sich mit einem Thema oder Problem gezielt beschäftigen.",
+        "examples": ["Der Artikel behandelt ein aktuelles Problem."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-trattare",
+        "text": "trattare",
+        "definition": "Occuparsi in modo mirato di un tema o di un problema.",
+        "examples": ["L'articolo tratta un problema attuale."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-deal-with",
+        "text": "deal with",
+        "definition": "To address a topic or problem deliberately.",
+        "examples": ["The article deals with a current problem."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_verb_ankuendigen",
+    "concept_id": "concept-b1-ankuendigen",
+    "pos": "verb",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Communication", "Social"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-ankuendigen",
+        "text": "ankündigen",
+        "definition": "Im Voraus mitteilen, dass etwas bald passiert.",
+        "examples": ["Die Firma hat neue Änderungen angekündigt."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-annunciare",
+        "text": "annunciare",
+        "definition": "Comunicare in anticipo che qualcosa accadrà presto.",
+        "examples": ["L'azienda ha annunciato nuovi cambiamenti."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-announce",
+        "text": "announce",
+        "definition": "To communicate in advance that something will happen soon.",
+        "examples": ["The company announced new changes."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_verb_ergaenzen",
+    "concept_id": "concept-b1-ergaenzen",
+    "pos": "verb",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Education", "Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-ergaenzen",
+        "text": "ergänzen",
+        "definition": "Etwas durch zusätzliche Informationen oder Teile vervollständigen.",
+        "examples": ["Kannst du den Bericht noch um ein Beispiel ergänzen?"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-integrare",
+        "text": "integrare",
+        "definition": "Completare qualcosa con informazioni o parti aggiuntive.",
+        "examples": ["Puoi integrare il rapporto con un esempio?"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-supplement",
+        "text": "supplement",
+        "definition": "To complete something by adding information or parts.",
+        "examples": ["Can you supplement the report with an example?"]
+      }
+    }
+  },
+  {
+    "source_key": "b1_verb_ablehnen",
+    "concept_id": "concept-b1-ablehnen",
+    "pos": "verb",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Social", "Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-ablehnen",
+        "text": "ablehnen",
+        "definition": "Etwas oder jemanden nicht akzeptieren.",
+        "examples": ["Sie mussten unseren ersten Vorschlag ablehnen."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-rifiutare",
+        "text": "rifiutare",
+        "definition": "Non accettare qualcosa o qualcuno.",
+        "examples": ["Hanno dovuto rifiutare la nostra prima proposta."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-reject",
+        "text": "reject",
+        "definition": "To not accept something or someone.",
+        "examples": ["They had to reject our first proposal."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_verb_durchfuehren",
+    "concept_id": "concept-b1-durchfuehren",
+    "pos": "verb",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Education", "Action"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-durchfuehren",
+        "text": "durchführen",
+        "definition": "Etwas planmäßig ausführen oder organisieren.",
+        "examples": ["Morgen führen wir eine interne Schulung durch."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-svolgere",
+        "text": "svolgere",
+        "definition": "Realizzare o organizzare qualcosa secondo un piano.",
+        "examples": ["Domani svolgeremo una formazione interna."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-carry-out",
+        "text": "carry out",
+        "definition": "To execute or organize something according to a plan.",
+        "examples": ["Tomorrow we will carry out an internal training session."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_verb_umsetzen",
+    "concept_id": "concept-b1-umsetzen",
+    "pos": "verb",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Action", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-umsetzen",
+        "text": "umsetzen",
+        "definition": "Eine Idee oder einen Plan praktisch verwirklichen.",
+        "examples": ["Wir wollen die Idee so schnell wie möglich umsetzen."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-attuare",
+        "text": "attuare",
+        "definition": "Realizzare concretamente un'idea o un piano.",
+        "examples": ["Vogliamo attuare l'idea il più presto possibile."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-implement",
+        "text": "implement",
+        "definition": "To put an idea or plan into practice.",
+        "examples": ["We want to implement the idea as quickly as possible."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adj_entscheidend",
+    "concept_id": "concept-b1-entscheidend",
+    "pos": "adj",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Communication", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-entscheidend",
+        "text": "entscheidend",
+        "definition": "So wichtig, dass es das Ergebnis oder die weitere Entwicklung stark beeinflusst.",
+        "examples": ["Für den Erfolg des Projekts ist eine gute Planung entscheidend."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-decisivo",
+        "text": "decisivo",
+        "definition": "Così importante da influenzare fortemente il risultato o lo sviluppo successivo.",
+        "examples": ["Per il successo del progetto una buona pianificazione è decisiva."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-crucial",
+        "text": "crucial",
+        "definition": "So important that it strongly influences the result or what happens next.",
+        "examples": ["Good planning is crucial for the success of the project."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adj_verantwortlich",
+    "concept_id": "concept-b1-verantwortlich",
+    "pos": "adj",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Social", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-verantwortlich",
+        "text": "verantwortlich",
+        "definition": "Dafür zuständig oder verpflichtet, für etwas einzustehen.",
+        "examples": ["Wer ist für die endgültige Entscheidung verantwortlich?"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-responsabile",
+        "text": "responsabile",
+        "definition": "Incaricato o tenuto a rispondere di qualcosa.",
+        "examples": ["Chi è responsabile della decisione finale?"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-responsible",
+        "text": "responsible",
+        "definition": "In charge of something or expected to answer for it.",
+        "examples": ["Who is responsible for the final decision?"]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adj_begeistert",
+    "concept_id": "concept-b1-begeistert",
+    "pos": "adj",
+    "level_auto": "B1",
+    "domain_tags": ["Social", "Work", "Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-begeistert",
+        "text": "begeistert",
+        "definition": "Sehr positiv beeindruckt und voller Freude oder Interesse.",
+        "examples": ["Das Publikum war von der Präsentation begeistert."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-entusiasta",
+        "text": "entusiasta",
+        "definition": "Molto colpito positivamente e pieno di gioia o interesse.",
+        "examples": ["Il pubblico era entusiasta della presentazione."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-enthusiastic",
+        "text": "enthusiastic",
+        "definition": "Very positively impressed and full of interest or excitement.",
+        "examples": ["The audience was enthusiastic about the presentation."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adj_bewusst",
+    "concept_id": "concept-b1-bewusst",
+    "pos": "adj",
+    "level_auto": "B1",
+    "domain_tags": ["Daily", "Abstract", "Social"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-bewusst",
+        "text": "bewusst",
+        "definition": "Mit klarem Verständnis oder absichtlich wahrgenommen und entschieden.",
+        "examples": ["Sie trifft ihre beruflichen Entscheidungen sehr bewusst."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-consapevole",
+        "text": "consapevole",
+        "definition": "Percepito o deciso in modo intenzionale e con piena comprensione.",
+        "examples": ["Prende le sue decisioni professionali in modo molto consapevole."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-aware",
+        "text": "aware",
+        "definition": "Perceived or decided deliberately and with clear understanding.",
+        "examples": ["She makes her professional decisions very consciously."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adj_durchschnittlich",
+    "concept_id": "concept-b1-durchschnittlich",
+    "pos": "adj",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Education", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-durchschnittlich",
+        "text": "durchschnittlich",
+        "definition": "Nicht besonders hoch oder niedrig, sondern im mittleren Bereich.",
+        "examples": ["Die Kosten liegen im durchschnittlichen Bereich."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-medio",
+        "text": "medio",
+        "definition": "Né particolarmente alto né basso, ma nella fascia centrale.",
+        "examples": ["I costi si collocano in una fascia media."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-average",
+        "text": "average",
+        "definition": "Neither especially high nor low, but in the middle range.",
+        "examples": ["The costs are in the average range."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adj_unabhaengig",
+    "concept_id": "concept-b1-unabhaengig",
+    "pos": "adj",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Social", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-unabhaengig",
+        "text": "unabhängig",
+        "definition": "Nicht von anderen Personen, Meinungen oder Bedingungen abhängig.",
+        "examples": ["Die Redaktion arbeitet politisch unabhängig."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-indipendente",
+        "text": "indipendente",
+        "definition": "Non dipendente da altre persone, opinioni o condizioni.",
+        "examples": ["La redazione lavora in modo politicamente indipendente."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-independent",
+        "text": "independent",
+        "definition": "Not dependent on other people, opinions, or conditions.",
+        "examples": ["The editorial team works independently from political influence."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adj_flexibel",
+    "concept_id": "concept-b1-flexibel",
+    "pos": "adj",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Daily", "Social"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-flexibel",
+        "text": "flexibel",
+        "definition": "Fähig, sich leicht an neue Situationen oder Anforderungen anzupassen.",
+        "examples": ["In diesem Job muss man zeitlich flexibel sein."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-flessibile",
+        "text": "flessibile",
+        "definition": "Capace di adattarsi facilmente a nuove situazioni o richieste.",
+        "examples": ["In questo lavoro bisogna essere flessibili con gli orari."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-flexible",
+        "text": "flexible",
+        "definition": "Able to adapt easily to new situations or requirements.",
+        "examples": ["In this job you need to be flexible with your schedule."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adj_umfangreich",
+    "concept_id": "concept-b1-umfangreich",
+    "pos": "adj",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Education", "Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-umfangreich",
+        "text": "umfangreich",
+        "definition": "Sehr groß oder inhaltlich breit und detailliert.",
+        "examples": ["Sie hat umfangreiche Unterlagen für das Meeting vorbereitet."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-ampio",
+        "text": "ampio",
+        "definition": "Molto grande oppure ricco e dettagliato nei contenuti.",
+        "examples": ["Ha preparato una documentazione ampia per la riunione."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-extensive",
+        "text": "extensive",
+        "definition": "Very large or broad and detailed in content.",
+        "examples": ["She prepared extensive material for the meeting."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adj_geeignet",
+    "concept_id": "concept-b1-geeignet",
+    "pos": "adj",
+    "level_auto": "B1",
+    "domain_tags": ["Travel", "Work", "Characteristics"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-geeignet",
+        "text": "geeignet",
+        "definition": "Für einen bestimmten Zweck passend oder gut brauchbar.",
+        "examples": ["Dieses Hotel ist gut für Familien mit Kindern geeignet."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-adatto",
+        "text": "adatto",
+        "definition": "Adatto o utile per uno scopo determinato.",
+        "examples": ["Questo hotel è adatto alle famiglie con bambini."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-suitable",
+        "text": "suitable",
+        "definition": "Right or useful for a specific purpose.",
+        "examples": ["This hotel is suitable for families with children."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adj_angemessen",
+    "concept_id": "concept-b1-angemessen",
+    "pos": "adj",
+    "level_auto": "B1",
+    "domain_tags": ["Travel", "Social", "Work"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-angemessen",
+        "text": "angemessen",
+        "definition": "Passend, vernünftig und der Situation entsprechend.",
+        "examples": ["Die Preise im Restaurant sind angemessen."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-adeguato",
+        "text": "adeguato",
+        "definition": "Adatto, ragionevole e coerente con la situazione.",
+        "examples": ["I prezzi del ristorante sono adeguati."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-appropriate",
+        "text": "appropriate",
+        "definition": "Suitable, reasonable, and fitting for the situation.",
+        "examples": ["The restaurant prices are appropriate."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adv_vermutlich",
+    "concept_id": "concept-b1-vermutlich",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": ["Communication", "Daily", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-vermutlich",
+        "text": "vermutlich",
+        "definition": "Wahrscheinlich, aber nicht völlig sicher.",
+        "examples": ["Er kommt vermutlich erst am Nachmittag an."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-probabilmente",
+        "text": "probabilmente",
+        "definition": "Con alta probabilità, ma senza certezza completa.",
+        "examples": ["Probabilmente arriverà solo nel pomeriggio."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-probably",
+        "text": "probably",
+        "definition": "With high likelihood, but not with complete certainty.",
+        "examples": ["He will probably arrive in the afternoon."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adv_keinesfalls",
+    "concept_id": "concept-b1-keinesfalls",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": ["Communication", "Social", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-keinesfalls",
+        "text": "keinesfalls",
+        "definition": "Auf gar keinen Fall oder unter keinen Umständen.",
+        "examples": ["Diese Daten dürfen keinesfalls öffentlich werden."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-assolutamente-no",
+        "text": "assolutamente no",
+        "definition": "In nessun caso o in nessuna circostanza.",
+        "examples": ["Questi dati non devono assolutamente diventare pubblici."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-under-no-circumstances",
+        "text": "under no circumstances",
+        "definition": "In no case or under no conditions.",
+        "examples": ["These data must under no circumstances become public."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adv_teilweise",
+    "concept_id": "concept-b1-teilweise",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Abstract", "Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-teilweise",
+        "text": "teilweise",
+        "definition": "Nicht vollständig, sondern nur zu einem Teil.",
+        "examples": ["Die Ergebnisse stimmen nur teilweise mit der Theorie überein."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-parzialmente",
+        "text": "parzialmente",
+        "definition": "Non completamente, ma solo in parte.",
+        "examples": ["I risultati coincidono con la teoria solo parzialmente."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-partly",
+        "text": "partly",
+        "definition": "Not completely, but only to some extent.",
+        "examples": ["The results only partly match the theory."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adv_folglich",
+    "concept_id": "concept-b1-folglich",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": ["Communication", "Work", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-folglich",
+        "text": "folglich",
+        "definition": "Als logische Folge von etwas, also deshalb.",
+        "examples": ["Die Nachfrage ist gestiegen, folglich müssen wir mehr Personal einplanen."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-di-conseguenza",
+        "text": "di conseguenza",
+        "definition": "Come conseguenza logica di qualcosa, quindi.",
+        "examples": ["La domanda è aumentata, di conseguenza dobbiamo prevedere più personale."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-consequently",
+        "text": "consequently",
+        "definition": "As a logical result of something.",
+        "examples": ["Demand has increased; consequently, we need to plan for more staff."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adv_dagegen",
+    "concept_id": "concept-b1-dagegen",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": ["Communication", "Social", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-dagegen",
+        "text": "dagegen",
+        "definition": "Im Gegensatz dazu oder als Gegenargument.",
+        "examples": ["Einige sind dafür, andere sprechen klar dagegen."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-contro",
+        "text": "contro",
+        "definition": "In opposizione a ciò oppure come argomento contrario.",
+        "examples": ["Alcuni sono favorevoli, altri parlano chiaramente contro."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-against-it",
+        "text": "against it",
+        "definition": "In opposition to that or as a counterargument.",
+        "examples": ["Some are in favor, others speak clearly against it."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adv_ausserdem",
+    "concept_id": "concept-b1-ausserdem",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": ["Communication", "Work", "Daily"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-ausserdem",
+        "text": "außerdem",
+        "definition": "Zusätzlich zu dem, was schon genannt wurde.",
+        "examples": ["Die Stelle ist interessant und außerdem gut bezahlt."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-inoltre",
+        "text": "inoltre",
+        "definition": "In aggiunta a ciò che è già stato detto.",
+        "examples": ["Il posto è interessante e inoltre è ben pagato."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-moreover",
+        "text": "moreover",
+        "definition": "In addition to what has already been mentioned.",
+        "examples": ["The job is interesting and, moreover, well paid."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adv_weltweit",
+    "concept_id": "concept-b1-weltweit",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": ["Travel", "Work", "Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-weltweit",
+        "text": "weltweit",
+        "definition": "In vielen Ländern oder auf der ganzen Welt.",
+        "examples": ["Die Marke ist weltweit bekannt."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-in-tutto-il-mondo",
+        "text": "in tutto il mondo",
+        "definition": "In molti paesi o in tutto il pianeta.",
+        "examples": ["Il marchio è conosciuto in tutto il mondo."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-worldwide",
+        "text": "worldwide",
+        "definition": "In many countries or across the whole world.",
+        "examples": ["The brand is known worldwide."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adv_ueberwiegend",
+    "concept_id": "concept-b1-ueberwiegend",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Abstract", "Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-ueberwiegend",
+        "text": "überwiegend",
+        "definition": "Zum größten Teil oder hauptsächlich.",
+        "examples": ["Die Rückmeldungen waren überwiegend positiv."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-prevalentemente",
+        "text": "prevalentemente",
+        "definition": "Per la maggior parte o principalmente.",
+        "examples": ["I riscontri sono stati prevalentemente positivi."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-mostly",
+        "text": "mostly",
+        "definition": "For the greater part or mainly.",
+        "examples": ["The feedback was mostly positive."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adv_langfristig",
+    "concept_id": "concept-b1-langfristig",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Abstract", "Time"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-langfristig",
+        "text": "langfristig",
+        "definition": "Über einen langen Zeitraum hinweg gedacht oder geplant.",
+        "examples": ["Langfristig brauchen wir eine stabilere Lösung."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-a-lungo-termine",
+        "text": "a lungo termine",
+        "definition": "Pensato o pianificato per un periodo lungo.",
+        "examples": ["A lungo termine abbiamo bisogno di una soluzione più stabile."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-in-the-long-term",
+        "text": "in the long term",
+        "definition": "Planned or considered over a long period.",
+        "examples": ["In the long term, we need a more stable solution."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adv_gleichzeitig",
+    "concept_id": "concept-b1-gleichzeitig",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": ["Travel", "Daily", "Time"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-gleichzeitig",
+        "text": "gleichzeitig",
+        "definition": "Zur selben Zeit oder parallel zu etwas anderem.",
+        "examples": ["Zwei Züge sind gleichzeitig am Bahnhof angekommen."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-contemporaneamente",
+        "text": "contemporaneamente",
+        "definition": "Nello stesso momento o in parallelo a qualcos'altro.",
+        "examples": ["Due treni sono arrivati contemporaneamente in stazione."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-simultaneously",
+        "text": "simultaneously",
+        "definition": "At the same time or in parallel with something else.",
+        "examples": ["Two trains arrived at the station simultaneously."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_chunk_unter_anderem",
+    "concept_id": "concept-b1-unter-anderem",
+    "pos": "chunk",
+    "level_auto": "B1",
+    "domain_tags": ["Communication", "Work", "Travel"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-unter-anderem",
+        "text": "unter anderem",
+        "definition": "Zum Beispiel dies und noch weitere Dinge.",
+        "examples": ["Die Führung zeigt unter anderem die Altstadt und das Rathaus."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-tra-l-altro",
+        "text": "tra l'altro",
+        "definition": "Per esempio questo, insieme ad altre cose.",
+        "examples": ["La visita mostra tra l'altro il centro storico e il municipio."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-among-other-things",
+        "text": "among other things",
+        "definition": "For example this, along with other things.",
+        "examples": ["The tour shows, among other things, the old town and the town hall."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_chunk_auf_dauer",
+    "concept_id": "concept-b1-auf-dauer",
+    "pos": "chunk",
+    "level_auto": "B1",
+    "domain_tags": ["Daily", "Work", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-auf-dauer",
+        "text": "auf Dauer",
+        "definition": "Wenn man an einen längeren Zeitraum denkt.",
+        "examples": ["Auf Dauer kann man unter diesem Druck nicht gut arbeiten."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-alla-lunga",
+        "text": "alla lunga",
+        "definition": "Se si considera un periodo più lungo.",
+        "examples": ["Alla lunga non si può lavorare bene sotto questa pressione."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-in-the-long-run",
+        "text": "in the long run",
+        "definition": "When thinking about a longer period of time.",
+        "examples": ["In the long run, you cannot work well under this pressure."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_chunk_eine_rolle_spielen",
+    "concept_id": "concept-b1-eine-rolle-spielen",
+    "pos": "chunk",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Social", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-eine-rolle-spielen",
+        "text": "eine Rolle spielen",
+        "definition": "Wichtig oder relevant für etwas sein.",
+        "examples": ["Bei dieser Entscheidung spielen auch finanzielle Fragen eine Rolle."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-avere-un-ruolo",
+        "text": "avere un ruolo",
+        "definition": "Essere importante o rilevante per qualcosa.",
+        "examples": ["In questa decisione hanno un ruolo anche le questioni finanziarie."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-play-a-role",
+        "text": "play a role",
+        "definition": "To be important or relevant for something.",
+        "examples": ["Financial questions also play a role in this decision."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_chunk_in_der_regel",
+    "concept_id": "concept-b1-in-der-regel",
+    "pos": "chunk",
+    "level_auto": "B1",
+    "domain_tags": ["Travel", "Daily", "Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-in-der-regel",
+        "text": "in der Regel",
+        "definition": "Normalerweise oder in den meisten Fällen.",
+        "examples": ["Züge sind in der Regel am frühen Morgen weniger voll."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-di-solito",
+        "text": "di solito",
+        "definition": "Normalmente o nella maggior parte dei casi.",
+        "examples": ["Di solito i treni sono meno pieni al mattino presto."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-as-a-rule",
+        "text": "as a rule",
+        "definition": "Usually or in most cases.",
+        "examples": ["As a rule, trains are less crowded early in the morning."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_chunk_nach_wie_vor",
+    "concept_id": "concept-b1-nach-wie-vor",
+    "pos": "chunk",
+    "level_auto": "B1",
+    "domain_tags": ["Travel", "Work", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-nach-wie-vor",
+        "text": "nach wie vor",
+        "definition": "Immer noch in unveränderter Weise.",
+        "examples": ["Die Strecke ist nach wie vor gesperrt."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-ancora",
+        "text": "ancora",
+        "definition": "Tuttora nello stesso modo, senza cambiamenti.",
+        "examples": ["La tratta è ancora chiusa."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-still",
+        "text": "still",
+        "definition": "Still in the same way, without change.",
+        "examples": ["The route is still closed."]
+      }
+    }
+  }
+]

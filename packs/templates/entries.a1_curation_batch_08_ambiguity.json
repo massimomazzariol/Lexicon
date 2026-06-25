@@ -1,0 +1,469 @@
+[
+  {
+    "concept_id": "e329e8c3-374b-a9d6-ec94-7c17e329d222",
+    "source_key": "Haus",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "960bc6d6-42c1-9458-33bc-e94c73d89981",
+        "text": "Haus",
+        "aliases": [
+          "Wohnhaus"
+        ],
+        "definition": "Gebaeude, in dem Menschen wohnen.",
+        "article_nom_sg_def": "das",
+        "gender": "n",
+        "plural": "Häuser",
+        "examples": [
+          "Wir treffen uns heute bei meinen Eltern."
+        ]
+      },
+      "it": {
+        "lexeme_id": "81fd7740-3a0c-c975-0eed-8224366daf0b",
+        "text": "casa",
+        "aliases": [
+          "abitazione"
+        ],
+        "definition": "Edificio in cui vivono persone.",
+        "examples": [
+          "Ci vediamo oggi dai miei genitori."
+        ]
+      },
+      "en": {
+        "lexeme_id": "10e964cb-ca13-d70c-79ca-37ffb7b16254",
+        "text": "house",
+        "aliases": [
+          "dwelling"
+        ],
+        "definition": "Building where people live.",
+        "examples": [
+          "We are meeting at my parents' place today."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "25ce3d79-d199-4866-d355-30ab0c183666",
+    "source_key": "Tisch",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "393e0a18-32b5-f943-47e6-5dc8c5820b0a",
+        "text": "Tisch",
+        "aliases": [
+          "Esstisch"
+        ],
+        "definition": "Moebel mit Platte und Beinen zum Abstellen von Dingen.",
+        "article_nom_sg_def": "der",
+        "gender": "m",
+        "plural": "Tische",
+        "examples": [
+          "Stell bitte die Tasse hier ab."
+        ]
+      },
+      "it": {
+        "lexeme_id": "15f02099-cd3e-2251-cb86-4031b4d0f7b2",
+        "text": "tavolo",
+        "aliases": [
+          "tavola"
+        ],
+        "definition": "Mobile con piano e gambe su cui si appoggiano oggetti.",
+        "examples": [
+          "Appoggia qui la tazza, per favore."
+        ]
+      },
+      "en": {
+        "lexeme_id": "eb548f1f-5fb1-ebf9-e45b-c0fa786f6e18",
+        "text": "table",
+        "aliases": [
+          "dining table"
+        ],
+        "definition": "Piece of furniture with legs and a flat top.",
+        "examples": [
+          "Please set the cup down here."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "b76697b4-0a3a-5cae-4129-c6b61ae0ccde",
+    "source_key": "hör mir zu",
+    "pos": "chunk",
+    "translations": {
+      "de": {
+        "lexeme_id": "7223a9ec-c462-2517-4fad-bc09b2ff2580",
+        "text": "hör mir zu",
+        "aliases": [
+          "hoer bitte zu"
+        ],
+        "definition": "Aufforderung, aufmerksam zu sein, wenn jemand spricht.",
+        "examples": [
+          "Ich erklaere es nur einmal."
+        ],
+        "card_antonyms": [
+          "ignorier mich"
+        ]
+      },
+      "it": {
+        "lexeme_id": "b78a3868-d1bd-251d-507d-d27ef3450965",
+        "text": "ascoltami",
+        "aliases": [
+          "prestami attenzione"
+        ],
+        "definition": "Richiesta di fare attenzione mentre qualcuno parla.",
+        "examples": [
+          "Lo spiego una sola volta."
+        ],
+        "card_antonyms": [
+          "ignorami"
+        ]
+      },
+      "en": {
+        "lexeme_id": "b003860f-d600-0251-20a8-2bda0c5b12d7",
+        "text": "listen to me",
+        "aliases": [
+          "pay attention"
+        ],
+        "definition": "Request to pay attention while someone is speaking.",
+        "examples": [
+          "I will explain it only once."
+        ],
+        "card_antonyms": [
+          "ignore me"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "108c3ca7-5c1b-b740-7b9f-16bcc541a8c0",
+    "source_key": "Bildschirm",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "375db32a-042c-68fc-e683-c182d8f02aed",
+        "text": "Bildschirm",
+        "aliases": [
+          "Monitor"
+        ],
+        "definition": "Flaeche, auf der Informationen oder Bilder sichtbar sind.",
+        "article_nom_sg_def": "der",
+        "gender": "m",
+        "plural": "Bildschirme",
+        "examples": [
+          "Die Meldung steht vorne gross."
+        ]
+      },
+      "it": {
+        "lexeme_id": "cf71c1d6-ff49-2aea-e79c-0c983826d5eb",
+        "text": "schermo",
+        "aliases": [
+          "monitor"
+        ],
+        "definition": "Superficie su cui compaiono immagini o informazioni.",
+        "examples": [
+          "Il messaggio appare grande davanti."
+        ]
+      },
+      "en": {
+        "lexeme_id": "a13153a6-c5ef-e8b3-9921-57653b9cf2f7",
+        "text": "screen",
+        "aliases": [
+          "display"
+        ],
+        "definition": "Surface where images or information are shown.",
+        "examples": [
+          "The message appears clearly in front of us."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "d0981aa3-9aed-3007-290a-3e2779bacea5",
+    "source_key": "ebenfalls",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "cd292b63-f86f-0432-3df6-5c62b820ff3c",
+        "text": "ebenfalls",
+        "aliases": [
+          "gleichfalls"
+        ],
+        "definition": "Signalisiert, dass fuer eine zweite Person dasselbe gilt.",
+        "examples": [
+          "Danke, dir einen schoenen Abend."
+        ]
+      },
+      "it": {
+        "lexeme_id": "e601c5c0-60e5-172f-aae9-f01affed005d",
+        "text": "altrettanto",
+        "aliases": [
+          "allo stesso modo"
+        ],
+        "definition": "Indica che la stessa cosa vale per un'altra persona.",
+        "examples": [
+          "Grazie, buona serata anche a te."
+        ]
+      },
+      "en": {
+        "lexeme_id": "a2eec65a-3b32-fd71-5abe-32668be24804",
+        "text": "also",
+        "aliases": [
+          "likewise"
+        ],
+        "definition": "Shows that the same statement applies to another person.",
+        "examples": [
+          "Thanks, have a nice evening too."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "c1792d23-111c-1a16-efae-133d6bb4fb64",
+    "source_key": "eigentlich",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "db942f91-cdc6-acbe-cbad-d1a4b053ca00",
+        "text": "eigentlich",
+        "aliases": [
+          "in Wirklichkeit"
+        ],
+        "definition": "Wort fuer Korrektur oder Praezisierung einer Aussage.",
+        "examples": [
+          "Er dachte an Montag, es wurde aber Dienstag."
+        ]
+      },
+      "it": {
+        "lexeme_id": "0edcd4e2-bf9f-6e86-b185-f0aca838b4c1",
+        "text": "in realtà",
+        "aliases": [
+          "di fatto"
+        ],
+        "definition": "Usato per correggere o precisare una frase precedente.",
+        "examples": [
+          "Pensava a lunedi, ma era martedi."
+        ]
+      },
+      "en": {
+        "lexeme_id": "5a647523-f2d7-ebdd-c9d4-940c97e20571",
+        "text": "actually",
+        "aliases": [
+          "in fact"
+        ],
+        "definition": "Used to correct or refine a previous statement.",
+        "examples": [
+          "He thought it was Monday, but it was Tuesday."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "916e8799-a429-9dfd-3f4c-5553af33dbd9",
+    "source_key": "ansonsten",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "024dbcfa-9408-265a-053f-ad216fcae7ed",
+        "text": "ansonsten",
+        "aliases": [
+          "andernfalls"
+        ],
+        "definition": "Leitet die Folge ein, falls eine Bedingung nicht erfuellt ist.",
+        "examples": [
+          "Beeil dich, der Zug faehrt gleich."
+        ]
+      },
+      "it": {
+        "lexeme_id": "0a9d4f3e-9622-3d19-5d2d-d5dd3c483da4",
+        "text": "per il resto",
+        "aliases": [
+          "altrimenti"
+        ],
+        "definition": "Introduce la conseguenza quando una condizione non si realizza.",
+        "examples": [
+          "Sbrigati, il treno parte subito."
+        ]
+      },
+      "en": {
+        "lexeme_id": "beec14ba-f04c-1c21-157e-e9683b492d11",
+        "text": "otherwise",
+        "aliases": [
+          "if not"
+        ],
+        "definition": "Introduces the consequence when a condition is not met.",
+        "examples": [
+          "Hurry up, the train leaves soon."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "3b1a3dc6-75a7-55a2-9ad9-09d0a75082a0",
+    "source_key": "Ausflug",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "8564b402-5c9a-b0dd-a856-623b2ce2b311",
+        "text": "Ausflug",
+        "aliases": [
+          "Tagestour"
+        ],
+        "definition": "Kurze Reise in der Freizeit, oft fuer ein paar Stunden.",
+        "article_nom_sg_def": "der",
+        "gender": "m",
+        "plural": "Ausflüge",
+        "examples": [
+          "Am Samstag fahren wir kurz an den See."
+        ]
+      },
+      "it": {
+        "lexeme_id": "de7a6f83-c0d6-87f4-6ffd-34235fed2e8b",
+        "text": "escursione",
+        "aliases": [
+          "gita"
+        ],
+        "definition": "Breve uscita di svago, spesso di poche ore.",
+        "examples": [
+          "Sabato andiamo al lago per qualche ora."
+        ]
+      },
+      "en": {
+        "lexeme_id": "2537ac64-4194-4e83-a6b3-d8b4aed2889b",
+        "text": "excursion",
+        "aliases": [
+          "day trip"
+        ],
+        "definition": "Short leisure trip, often for just a few hours.",
+        "examples": [
+          "On Saturday we go to the lake for a few hours."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "75fb9398-4b1a-dc12-4558-6e3555368393",
+    "source_key": "Aufzug",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "951e221a-b7ab-27c2-838f-d56a5239c059",
+        "text": "Aufzug",
+        "aliases": [
+          "Fahrstuhl"
+        ],
+        "definition": "Anlage, die Personen oder Lasten zwischen Stockwerken bewegt.",
+        "article_nom_sg_def": "der",
+        "gender": "m",
+        "plural": "Aufzüge",
+        "examples": [
+          "Wir muessen in den sechsten Stock."
+        ]
+      },
+      "it": {
+        "lexeme_id": "39c841eb-5832-a9dd-21de-cb226f333e5f",
+        "text": "ascensore",
+        "aliases": [
+          "elevatore"
+        ],
+        "definition": "Impianto che porta persone o carichi da un piano all'altro.",
+        "examples": [
+          "Dobbiamo andare al sesto piano."
+        ]
+      },
+      "en": {
+        "lexeme_id": "bc02a426-4317-ee3b-88bc-e43fed857a81",
+        "text": "elevator",
+        "aliases": [
+          "lift"
+        ],
+        "definition": "Device that moves people or loads between floors.",
+        "examples": [
+          "We need to go to the sixth floor."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+    "source_key": "Kannst du mir helfen?",
+    "pos": "chunk",
+    "translations": {
+      "de": {
+        "lexeme_id": "6af33256-3a9c-7a65-8f25-45d142f728a0",
+        "text": "Kannst du mir helfen?",
+        "definition": "Hoefliche Frage, um Unterstuetzung zu bitten.",
+        "examples": [
+          "Entschuldigung, ich habe ein Problem."
+        ],
+        "card_antonyms": [
+          "lass mich in ruhe"
+        ]
+      },
+      "it": {
+        "lexeme_id": "5bbfbec2-8512-79c6-6678-2f3e9654cd37",
+        "text": "Puoi aiutarmi?",
+        "aliases": [
+          "dammi una mano"
+        ],
+        "definition": "Domanda cortese per chiedere aiuto.",
+        "examples": [
+          "Scusa, ho un problema."
+        ],
+        "card_antonyms": [
+          "lasciami in pace"
+        ]
+      },
+      "en": {
+        "lexeme_id": "d91657d8-d4c2-db5c-bbae-d71f18cea59c",
+        "text": "Can you help me?",
+        "definition": "Polite question used to ask for help.",
+        "examples": [
+          "Excuse me, I have a problem."
+        ],
+        "card_antonyms": [
+          "leave me alone"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "e26099e6-6292-9c2d-6b9a-69cf996ba8f7",
+    "source_key": "überhaupt",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "0d151167-572b-eec7-b6fb-1f81dfd4dcc4",
+        "text": "überhaupt",
+        "aliases": [
+          "im Allgemeinen"
+        ],
+        "definition": "Verstaerkt eine Verneinung oder spricht sehr allgemein.",
+        "examples": [
+          "Hast du dazu eine klare Meinung?"
+        ]
+      },
+      "it": {
+        "lexeme_id": "7195a91b-c6f8-e803-feec-b10bc25e3187",
+        "text": "affatto",
+        "aliases": [
+          "in generale"
+        ],
+        "definition": "Rafforza una negazione oppure amplia il discorso in generale.",
+        "examples": [
+          "Hai un'opinione chiara su questo?"
+        ]
+      },
+      "en": {
+        "lexeme_id": "b56a20aa-c48c-fe1f-e99e-8d39540ca7f3",
+        "text": "at all",
+        "aliases": [
+          "in general"
+        ],
+        "definition": "Emphasizes a negation or broadens a statement in general.",
+        "examples": [
+          "Do you have a clear opinion on this?"
+        ]
+      }
+    }
+  }
+]

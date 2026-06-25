@@ -1,0 +1,123 @@
+[
+  {
+    "source_key": "a1_answer_support_de_auch_ebenfalls",
+    "concept_id": "1cceeb4d-7139-1992-c3d3-ee2194236b23",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-auch-ebenfalls-support",
+        "text": "ebenfalls"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_de_jetzt_nun",
+    "concept_id": "6bdbb206-99e7-33fb-a26a-08985f3c7c79",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-jetzt-nun-support",
+        "text": "nun"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_de_schnell_rasch",
+    "concept_id": "f62b0871-8768-d1b5-fc27-aa9b253d73eb",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-schnell-rasch-support",
+        "text": "rasch"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_de_nah_nahe",
+    "concept_id": "d8302f33-c204-cfed-38dd-fd9eca19c924",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-nah-nahe-support",
+        "text": "nahe"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_nah_close",
+    "concept_id": "d8302f33-c204-cfed-38dd-fd9eca19c924",
+    "pos": "adj",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-nah-close-support",
+        "text": "close"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_de_schon_bereits",
+    "concept_id": "e2d3c1e2-8f4d-c7a2-d131-2351cd0d30c9",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-schon-bereits-support",
+        "text": "bereits"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_bahnhof_station",
+    "concept_id": "7986ba06-6488-c4dc-66ee-01df0107e1a9",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-bahnhof-station-support",
+        "text": "the station"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_bahnhof_station_bare",
+    "concept_id": "7986ba06-6488-c4dc-66ee-01df0107e1a9",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-bahnhof-station-bare-support",
+        "text": "station"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_it_bahnhof_stazione_treni",
+    "concept_id": "7986ba06-6488-c4dc-66ee-01df0107e1a9",
+    "pos": "noun",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-a1-bahnhof-stazione-treni-support",
+        "text": "la stazione dei treni"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_it_strasse_via",
+    "concept_id": "7057a828-dfdd-f221-4cb8-756bdb85a783",
+    "pos": "noun",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-a1-strasse-via-support",
+        "text": "la via"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_it_stehen_essere_in_piedi",
+    "concept_id": "6d361fa8-6b91-5bc2-d807-071ecd666ee8",
+    "pos": "verb",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-a1-stehen-essere-in-piedi-support",
+        "text": "essere in piedi"
+      }
+    }
+  }
+]

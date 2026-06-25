@@ -1,0 +1,133 @@
+[
+  {
+    "concept_id": "8cdd7819-47ff-1fba-7ac4-dd44c3aec241",
+    "source_key": "frage_noun",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": ["Daily", "Social"],
+    "notes": "Question (not application/request form).",
+    "translations": {
+      "de": {
+        "lexeme_id": "ed521f14-02a6-6a3e-b8f4-19ddef0e332b",
+        "text": "Frage",
+        "definition": "Eine Aufforderung, etwas zu beantworten.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Fragen",
+        "examples": ["Ich habe eine Frage."]
+      },
+      "it": {
+        "lexeme_id": "853a3e5f-fbb0-f356-1b0d-767f07f94252",
+        "text": "domanda",
+        "definition": "Quesito posto per ottenere una risposta.",
+        "aliases": ["quesito"],
+        "examples": ["Ho una domanda."]
+      },
+      "en": {
+        "lexeme_id": "0d8208dd-7f64-b3b3-df56-b192e91fd698",
+        "text": "question",
+        "definition": "A sentence or phrase used to ask for information.",
+        "aliases": ["query"],
+        "examples": ["I have a question."]
+      }
+    }
+  },
+  {
+    "concept_id": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
+    "source_key": "antrag_noun",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": ["Social"],
+    "notes": "Formal request/application in administrative contexts.",
+    "translations": {
+      "de": {
+        "lexeme_id": "d466bf5b-c911-3bd6-a5a8-83d93e55cf34",
+        "text": "Antrag",
+        "definition": "Eine formelle Bitte oder ein offizielles Gesuch.",
+        "article_nom_sg_def": "der",
+        "gender": "m",
+        "plural": "Antr\u00e4ge",
+        "examples": ["Ich stelle einen Antrag."]
+      },
+      "it": {
+        "lexeme_id": "2dc584f9-28b5-0511-1a49-f0af796e5420",
+        "text": "domanda formale",
+        "definition": "Richiesta ufficiale presentata a un ente.",
+        "aliases": ["istanza"],
+        "examples": ["Ha presentato una domanda formale."]
+      },
+      "en": {
+        "lexeme_id": "44bb6b4a-d19b-156a-d65c-1e6152dac971",
+        "text": "formal application",
+        "definition": "An official request submitted to an authority.",
+        "aliases": ["petition"],
+        "examples": ["She filed a formal application."]
+      }
+    }
+  },
+  {
+    "concept_id": "2bfef665-f822-93b9-3f9d-233a6f838aba",
+    "source_key": "anfrage_noun",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": ["Social", "Travel"],
+    "notes": "Inquiry/request for information.",
+    "translations": {
+      "de": {
+        "lexeme_id": "37d22cbe-a17e-2925-15de-7b980b89a6cb",
+        "text": "Anfrage",
+        "definition": "Bitte um Auskunft oder Informationen.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Anfragen",
+        "examples": ["Wir haben eine Anfrage gesendet."]
+      },
+      "it": {
+        "lexeme_id": "a100807f-2ec6-8ba9-309a-93cffd61df28",
+        "text": "richiesta di informazioni",
+        "definition": "Domanda fatta per ottenere informazioni.",
+        "examples": ["Abbiamo inviato una richiesta di informazioni."]
+      },
+      "en": {
+        "lexeme_id": "d1647883-49d6-c720-0e82-5730c708dc95",
+        "text": "inquiry",
+        "definition": "A request for information.",
+        "aliases": ["enquiry", "information request"],
+        "examples": ["We sent an inquiry."]
+      }
+    }
+  },
+  {
+    "concept_id": "ed8e2fd9-341b-1cad-7908-35e22a2f2388",
+    "source_key": "gesuch_noun",
+    "pos": "noun",
+    "level_auto": "B1",
+    "domain_tags": ["Social"],
+    "notes": "Formal petition/instance (often administrative, especially CH usage).",
+    "translations": {
+      "de": {
+        "lexeme_id": "b57e4eb0-5a6c-2e12-2afa-dcec3ed83301",
+        "text": "Gesuch",
+        "definition": "Ein formelles schriftliches Ersuchen.",
+        "article_nom_sg_def": "das",
+        "gender": "n",
+        "plural": "Gesuche",
+        "examples": ["Das Gesuch wurde eingereicht."]
+      },
+      "it": {
+        "lexeme_id": "477c6e63-c889-5413-7af9-3d300f7e6a15",
+        "text": "istanza",
+        "definition": "Richiesta formale rivolta a un'autorita.",
+        "aliases": ["domanda formale"],
+        "examples": ["L'istanza e stata depositata."]
+      },
+      "en": {
+        "lexeme_id": "df529afd-71c9-840f-25ca-2bbae5de2a4e",
+        "text": "petition",
+        "definition": "A formal written request.",
+        "aliases": ["formal request"],
+        "examples": ["The petition was submitted."]
+      }
+    }
+  }
+]

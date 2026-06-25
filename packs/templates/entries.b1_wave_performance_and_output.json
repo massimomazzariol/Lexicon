@@ -1,0 +1,72 @@
+[
+  {
+    "source_key": "b1_noun_leistung_performance",
+    "concept_id": "concept-b1-leistung",
+    "pos": "noun",
+    "level_auto": "B1",
+    "domain_tags": ["Work", "Education", "Abstract"],
+    "notes": "Editorial addition from the plural request `Leistungen`, normalized to the noun lemma `Leistung`. This concept covers the performance/achievement sense only; the administrative/services/benefits sense remains intentionally separate to avoid semantic overlap.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-leistung",
+        "text": "Leistung",
+        "definition": "Das, was jemand oder etwas in Arbeit, Schule, Sport oder Technik erreicht oder zeigt.",
+        "usage_note": "Gemeint ist die gezeigte Qualitaet oder das erreichte Niveau, nicht der Verwaltungs- oder Versicherungssinn von Leistungen.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Leistungen",
+        "examples": [
+          "Im letzten Semester zeigte sie im Unterricht durchgehend ein hohes Niveau."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_performance_noun",
+          "reviewed_at": "2026-03-27"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-prestazione",
+        "text": "la prestazione",
+        "definition": "Cio che una persona o un sistema riesce a fare o mostrare nel lavoro, nello studio, nello sport o sul piano tecnico.",
+        "usage_note": "Qui indica il rendimento o il livello mostrato, non il senso amministrativo di servizi o benefici.",
+        "examples": [
+          "Nell'ultimo semestre ha mantenuto un livello molto alto in classe."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_performance_noun",
+          "reviewed_at": "2026-03-27"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-performance",
+        "text": "the performance",
+        "definition": "What a person or system achieves or demonstrates in work, study, sport, or technical output.",
+        "usage_note": "This covers shown level or achieved output, not the administrative sense of services or benefits.",
+        "examples": [
+          "She maintained a very high level in class throughout the semester."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_performance_noun",
+          "reviewed_at": "2026-03-27"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "b1_noun_leistung_bare_variants",
+    "concept_id": "concept-b1-leistung",
+    "pos": "noun",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-b1-prestazione-bare",
+        "text": "prestazione"
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-performance-bare",
+        "text": "performance"
+      }
+    }
+  }
+]

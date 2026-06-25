@@ -1,0 +1,200 @@
+[
+  {
+    "source_key": "a1_answer_support_en_bare_sein",
+    "concept_id": "4775779b-a5cc-8aa3-5450-f10dc8d74714",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-be-bare",
+        "text": "be"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_bare_haben",
+    "concept_id": "ed3cb78e-250a-50dc-44e1-b3cab1cf00ba",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-have-bare",
+        "text": "have"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_bare_machen",
+    "concept_id": "99a205ca-71d1-db40-a4dd-56e7b8dda321",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-make-bare",
+        "text": "make"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_bare_gehen",
+    "concept_id": "13bf153f-5b95-81b3-6ec2-646e49af8f3f",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-go-bare",
+        "text": "go"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_bare_kommen",
+    "concept_id": "a6a02266-de00-f0d8-462f-29e0e630ad11",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-come-bare",
+        "text": "come"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_bare_geben",
+    "concept_id": "ca09ed6c-97c5-3209-56ec-117bb486ac72",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-give-bare",
+        "text": "give"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_bare_nehmen",
+    "concept_id": "f392f36d-7108-8400-a824-a35262d7340a",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-take-bare",
+        "text": "take"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_bare_sagen",
+    "concept_id": "13f0479b-0b4b-23e7-be43-7c1fece87b8d",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-say-bare",
+        "text": "say"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_bare_sehen",
+    "concept_id": "a2e3018b-85ab-de3c-e90d-c0ee2e9d6aae",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-see-bare",
+        "text": "see"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_bare_wissen",
+    "concept_id": "f8b7d1f2-7548-a134-db29-f44ff09d4c13",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-know-bare",
+        "text": "know"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_bare_essen",
+    "concept_id": "a9d290b4-b955-81a7-48e4-6b0103a82703",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-eat-bare",
+        "text": "eat"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_bare_trinken",
+    "concept_id": "f12a03fc-6b3f-af98-a308-f29bd66e55ac",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-drink-bare",
+        "text": "drink"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_de_auto_wagen",
+    "concept_id": "a1fca915-0802-770f-5d98-81fe56f6ec8f",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-auto-wagen-support",
+        "text": "der Wagen"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_auto_automobile",
+    "concept_id": "a1fca915-0802-770f-5d98-81fe56f6ec8f",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-auto-automobile-support",
+        "text": "the automobile"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_de_zug_bahn",
+    "concept_id": "02beeb9f-aeca-138c-b4c6-5b15f6c0ddb1",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-zug-bahn-support",
+        "text": "die Bahn"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_de_arzt_doktor",
+    "concept_id": "c8d6f640-caa6-df3b-b9c3-c57596e39817",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-arzt-doktor-support",
+        "text": "der Doktor"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_arzt_physician",
+    "concept_id": "c8d6f640-caa6-df3b-b9c3-c57596e39817",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-arzt-physician-support",
+        "text": "the physician"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_it_arzt_dottore",
+    "concept_id": "c8d6f640-caa6-df3b-b9c3-c57596e39817",
+    "pos": "noun",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-a1-arzt-dottore-support",
+        "text": "il dottore"
+      }
+    }
+  }
+]

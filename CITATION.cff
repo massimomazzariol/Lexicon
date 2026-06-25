@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: Lexicon Platform
+message: If you use this repository, please cite it and keep the attribution notices.
+type: software
+authors:
+  - given-names: Massimo
+    family-names: Mazzariol
+repository-code: https://github.com/massimomazzariol/Lexicon
+url: https://github.com/massimomazzariol/Lexicon
+keywords:
+  - lexicon
+  - language-learning
+  - multilingual
+  - lexical-data
+  - dart
+abstract: >
+  Lexicon Platform is an open lexical content repository and toolchain for
+  canonical source packs, runtime pack generation, local lexicon storage, and
+  file-based distribution.
+version: 0.5.1
+date-released: 2026-03-27

@@ -1,0 +1,29 @@
+{
+  "pack_id": "lexicon.it.a2.seed",
+  "pack_role": "runtime",
+  "version": "1.0.54",
+  "pack_level": "A2",
+  "levels_supported": [
+    "A2"
+  ],
+  "relation_chunk_ids": [
+    "lexicon.it.a1.seed"
+  ],
+  "languages_target_supported": [
+    "it"
+  ],
+  "gloss_languages_supported": [
+    "de",
+    "en"
+  ],
+  "domains": [
+    "Daily",
+    "Social",
+    "Travel",
+    "Work"
+  ],
+  "license_info": "internal",
+  "content_file": "content.json",
+  "generated_at": "2026-06-18T10:48:54.946Z",
+  "schema_version": 2
+}

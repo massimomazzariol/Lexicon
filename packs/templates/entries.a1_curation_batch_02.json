@@ -1,0 +1,314 @@
+[
+  {
+    "concept_id": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
+    "source_key": "abstimmen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "cc083efb-519f-0752-415a-554c6874eeeb",
+        "text": "abstimmen",
+        "aliases": [
+          "voten",
+          "eine Entscheidung treffen"
+        ],
+        "definition": "Eine Stimme abgeben oder gemeinsam eine Entscheidung festlegen.",
+        "examples": [
+          "Wir stimmen heute ueber den Vorschlag ab."
+        ]
+      },
+      "it": {
+        "lexeme_id": "15083f62-7ce6-b1d5-c981-f2b03b07ef21",
+        "text": "votare",
+        "aliases": [
+          "mettersi d'accordo",
+          "esprimere un voto"
+        ],
+        "definition": "Votare oppure concordare una decisione.",
+        "examples": [
+          "Oggi votiamo sulla proposta."
+        ]
+      },
+      "en": {
+        "lexeme_id": "c6bfecea-ebe1-dece-81be-47f175c7810e",
+        "text": "vote",
+        "aliases": [
+          "cast a vote",
+          "align on a decision"
+        ],
+        "definition": "To cast a vote or align on a shared decision.",
+        "examples": [
+          "We vote on the proposal today."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
+    "source_key": "beachten",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "83e384cf-014f-a634-7e37-51904880716b",
+        "text": "beachten",
+        "definition": "Etwas oder jemanden bewusst wahrnehmen und beruecksichtigen.",
+        "examples": [
+          "Bitte beachte die Regeln."
+        ]
+      },
+      "it": {
+        "lexeme_id": "acf88168-6d05-ed9c-ab35-8a03cdd40e4d",
+        "text": "prestare attenzione",
+        "definition": "Notare e tenere in considerazione qualcosa o qualcuno.",
+        "examples": [
+          "Per favore, presta attenzione alle regole."
+        ]
+      },
+      "en": {
+        "lexeme_id": "65827784-9572-9add-4c06-024b6828012f",
+        "text": "pay attention",
+        "definition": "To notice and take into account someone or something.",
+        "examples": [
+          "Please pay attention to the rules."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "18e272ee-84df-dc32-fa8c-4335c5ffaf5c",
+    "source_key": "betrachten",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "19e6632e-7dff-77ed-0c76-52aaab80d194",
+        "text": "betrachten",
+        "aliases": [
+          "ansehen",
+          "begutachten"
+        ],
+        "definition": "Etwas aufmerksam ansehen; auch aus einer Perspektive beurteilen.",
+        "examples": [
+          "Wir betrachten das Bild zusammen."
+        ]
+      },
+      "it": {
+        "lexeme_id": "79e19ae4-7f96-b6dc-bf71-8e9af1ed5df3",
+        "text": "osservare",
+        "aliases": [
+          "guardare attentamente",
+          "considerare"
+        ],
+        "definition": "Osservare con attenzione; anche considerare da un certo punto di vista.",
+        "examples": [
+          "Osserviamo insieme questa immagine."
+        ]
+      },
+      "en": {
+        "lexeme_id": "f3b1ddba-faf7-777e-027f-18effd962c31",
+        "text": "observe",
+        "aliases": [
+          "look at carefully",
+          "regard"
+        ],
+        "definition": "To look at carefully; also to regard from a particular perspective.",
+        "examples": [
+          "We observe the picture together."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "8f698c56-8c4a-4fde-1a01-9050abcb2a45",
+    "source_key": "bedarf",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "3e36c2ac-d4d5-dc51-a37d-d9c20695c216",
+        "text": "Bedarf",
+        "aliases": [
+          "Beduerfnis",
+          "Nachfrage"
+        ],
+        "definition": "Konkreter Bedarf an etwas, das benoetigt wird.",
+        "examples": [
+          "Der Bedarf an Wohnungen steigt."
+        ]
+      },
+      "it": {
+        "lexeme_id": "a90fe2f2-f5c6-cc83-01e4-395577205b21",
+        "text": "fabbisogno",
+        "aliases": [
+          "bisogno",
+          "domanda"
+        ],
+        "definition": "Fabbisogno concreto di qualcosa necessario.",
+        "examples": [
+          "Il fabbisogno di alloggi aumenta."
+        ]
+      },
+      "en": {
+        "lexeme_id": "9ef09278-f656-a7cd-9932-84cb51608801",
+        "text": "demand",
+        "aliases": [
+          "need",
+          "requirement"
+        ],
+        "definition": "A concrete need for something required.",
+        "examples": [
+          "The demand for housing is rising."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "76ddf07a-3708-809e-94da-35f0ec10678d",
+    "source_key": "notwendigkeit",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "bba4c992-8ba8-5e55-ee18-1e92c1d779ba",
+        "text": "Notwendigkeit",
+        "aliases": [
+          "Erforderlichkeit"
+        ],
+        "definition": "Etwas, das zwingend noetig ist.",
+        "examples": [
+          "Das ist eine Notwendigkeit, keine Option."
+        ]
+      },
+      "it": {
+        "lexeme_id": "d9cd0151-9860-7b8f-06ac-2746338605c9",
+        "text": "necessita",
+        "aliases": [
+          "esigenza",
+          "indispensabilita"
+        ],
+        "definition": "Qualcosa che e indispensabile o strettamente necessario.",
+        "examples": [
+          "Questa e una necessita, non un'opzione."
+        ]
+      },
+      "en": {
+        "lexeme_id": "71ee5234-9245-c15b-151b-434d1424351d",
+        "text": "necessity",
+        "aliases": [
+          "essential need"
+        ],
+        "definition": "Something that is necessary and cannot reasonably be omitted.",
+        "examples": [
+          "This is a necessity, not an option."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "87664a7f-b773-5acd-374e-4c359b635e7c",
+    "source_key": "angebot",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "57c6dc73-520a-86af-08b3-2572ed0372b4",
+        "text": "Angebot",
+        "definition": "Ein Angebot oder Vorschlag, oft im kaufmaennischen Kontext.",
+        "examples": [
+          "Das Angebot gilt nur heute."
+        ]
+      },
+      "it": {
+        "lexeme_id": "336c399c-ef90-1059-c33d-463c76479802",
+        "text": "offerta",
+        "definition": "Un'offerta o proposta, spesso in contesto commerciale.",
+        "examples": [
+          "L'offerta vale solo oggi."
+        ]
+      },
+      "en": {
+        "lexeme_id": "cd0a6611-cd18-ec61-0f07-905b2ec73384",
+        "text": "offer",
+        "definition": "An offer or proposal, often in a commercial context.",
+        "examples": [
+          "The offer is valid only today."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
+    "source_key": "abholen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "2968a53b-5bbe-6225-6ae6-161f97d4377f",
+        "text": "abholen",
+        "definition": "Zu einem Ort gehen und jemanden oder etwas mitnehmen.",
+        "examples": [
+          "Ich hole dich um 18 Uhr ab."
+        ]
+      },
+      "it": {
+        "lexeme_id": "d2b0def6-1a4f-573a-5844-53f7e00a4754",
+        "text": "andare a prendere",
+        "aliases": [
+          "passare a prendere"
+        ],
+        "definition": "Andare in un luogo per prendere qualcuno o qualcosa e portarlo via.",
+        "examples": [
+          "Ti vengo a prendere alle 18."
+        ]
+      },
+      "en": {
+        "lexeme_id": "3f20e32e-5250-e770-7e19-a5607df71b1f",
+        "text": "pick up",
+        "aliases": [
+          "pick someone up"
+        ],
+        "definition": "To go to a place, collect someone or something, and take them away.",
+        "examples": [
+          "I will pick you up at 6 PM."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
+    "source_key": "schicken",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "920c973f-3372-0ae9-0030-a1f02ad2d8ae",
+        "text": "schicken",
+        "aliases": [
+          "senden",
+          "zuschicken"
+        ],
+        "definition": "Etwas an jemanden senden.",
+        "examples": [
+          "Ich schicke dir die Datei heute."
+        ]
+      },
+      "it": {
+        "lexeme_id": "2c3375d5-fb57-492b-db41-163caacd8701",
+        "text": "inviare",
+        "aliases": [
+          "spedire",
+          "mandare"
+        ],
+        "definition": "Inviare qualcosa a qualcuno.",
+        "examples": [
+          "Ti invio il file oggi."
+        ]
+      },
+      "en": {
+        "lexeme_id": "919db3e6-1768-8179-3c1e-895d192b5749",
+        "text": "send",
+        "aliases": [
+          "dispatch",
+          "mail"
+        ],
+        "definition": "To send something to someone.",
+        "examples": [
+          "I will send you the file today."
+        ]
+      }
+    }
+  }
+]

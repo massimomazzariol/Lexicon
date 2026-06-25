@@ -1,0 +1,119 @@
+[
+  {
+    "concept_id": "e26099e6-6292-9c2d-6b9a-69cf996ba8f7",
+    "source_key": "ueberhaupt_negation",
+    "pos": "adv",
+    "level_auto": "A2",
+    "difficulty_score_auto": 35,
+    "domain_tags": [
+      "Daily",
+      "Communication",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "0d151167-572b-eec7-b6fb-1f81dfd4dcc4",
+        "text": "überhaupt",
+        "definition": "Verstaerkt mit einer Verneinung, dass etwas gar nicht der Fall ist.",
+        "examples": [
+          "Ich verstehe das überhaupt nicht."
+        ]
+      },
+      "it": {
+        "lexeme_id": "7195a91b-c6f8-e803-feec-b10bc25e3187",
+        "text": "per niente",
+        "aliases": [
+          "affatto"
+        ],
+        "definition": "Rafforza una negazione e significa che qualcosa non vale in alcun modo.",
+        "examples": [
+          "Non lo capisco per niente."
+        ]
+      },
+      "en": {
+        "lexeme_id": "b56a20aa-c48c-fe1f-e99e-8d39540ca7f3",
+        "text": "at all",
+        "definition": "Used with a negation to emphasize that something is completely not the case.",
+        "examples": [
+          "I do not understand it at all."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "concept-a2-ueberhaupt-general",
+    "source_key": "ueberhaupt_general",
+    "pos": "adv",
+    "level_auto": "A2",
+    "difficulty_score_auto": 35,
+    "domain_tags": [
+      "Daily",
+      "Communication",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-ueberhaupt-general",
+        "text": "überhaupt",
+        "definition": "Spricht ueber etwas in sehr allgemeinen Zuegen.",
+        "examples": [
+          "Überhaupt trinke ich wenig Kaffee."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-in-generale",
+        "text": "in generale",
+        "definition": "Parla di qualcosa in termini ampi e non in un caso specifico.",
+        "examples": [
+          "In generale bevo poco caffè."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-in-general",
+        "text": "in general",
+        "definition": "Talks about something in broad terms rather than in one specific case.",
+        "examples": [
+          "In general, I drink little coffee."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "concept-a2-ueberhaupt-emphatic-question",
+    "source_key": "ueberhaupt_emphatic_question",
+    "pos": "adv",
+    "level_auto": "A2",
+    "difficulty_score_auto": 35,
+    "domain_tags": [
+      "Daily",
+      "Communication",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-ueberhaupt-emphatic-question",
+        "text": "überhaupt",
+        "definition": "Wird in einer betonten Frage benutzt, um etwas in Zweifel zu ziehen oder herauszufordern.",
+        "examples": [
+          "Was machst du überhaupt hier?"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-poi-emphatic-question",
+        "text": "poi (in domande enfatiche)",
+        "definition": "Usato in una domanda enfatica per mettere in dubbio se qualcosa abbia davvero senso o sia possibile.",
+        "examples": [
+          "Ma che ci fai poi qui?"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-even-emphatic-question",
+        "text": "even (in emphatic questions)",
+        "definition": "Used in a question to challenge whether something is really true, relevant, or possible.",
+        "examples": [
+          "What are you even doing here?"
+        ]
+      }
+    }
+  }
+]

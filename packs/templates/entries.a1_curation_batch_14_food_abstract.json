@@ -1,0 +1,787 @@
+[
+  {
+    "source_key": "core_noun_apfel",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Food"
+    ],
+    "translations": {
+      "de": {
+        "text": "Apfel",
+        "definition": "Eine runde, oft rote oder grüne Frucht.",
+        "examples": [
+          "Ich esse jeden Morgen einen frischen Apfel."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the apple",
+        "definition": "A round fruit with red or green skin.",
+        "examples": [
+          "I eat a fresh apple every morning."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la mela",
+        "definition": "Un frutto rotondo, spesso rosso o verde.",
+        "examples": [
+          "Ogni mattina mangio una mela fresca."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_fleisch",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Food"
+    ],
+    "translations": {
+      "de": {
+        "text": "Fleisch",
+        "definition": "Tierischer Muskel als Nahrungsmittel.",
+        "examples": [
+          "Er isst samstags gerne gebratenes Fleisch."
+        ],
+        "card_antonyms": [
+          "das Gemüse"
+        ]
+      },
+      "en": {
+        "text": "the meat",
+        "definition": "Animal tissue used as food.",
+        "examples": [
+          "He likes to eat roasted meat on Saturdays."
+        ]
+      },
+      "it": {
+        "text": "la carne",
+        "definition": "Tessuto muscolare animale usato come cibo.",
+        "examples": [
+          "A lui piace mangiare carne arrosto il sabato."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_gemuese",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Food"
+    ],
+    "translations": {
+      "de": {
+        "text": "Gemüse",
+        "definition": "Pflanzliche Nahrungsmittel.",
+        "examples": [
+          "Kinder essen oft nicht gerne Gemüse."
+        ],
+        "card_antonyms": [
+          "das Fleisch",
+          "das Obst"
+        ]
+      },
+      "en": {
+        "text": "the vegetables",
+        "definition": "Plants used as food.",
+        "examples": [
+          "Children often do not like to eat vegetables."
+        ]
+      },
+      "it": {
+        "text": "la verdura",
+        "definition": "Alimenti di origine vegetale.",
+        "examples": [
+          "Spesso i bambini non mangiano volentieri la verdura."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_kartoffel",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Food"
+    ],
+    "translations": {
+      "de": {
+        "text": "Kartoffel",
+        "definition": "Ein essbares Wurzelgemüse, das unter der Erde wächst.",
+        "examples": [
+          "Wir kochen heute Abend Kartoffeln mit Salat."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the potato",
+        "definition": "An edible root vegetable grown underground.",
+        "examples": [
+          "We are cooking potatoes with salad tonight."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la patata",
+        "definition": "Un tubero commestibile che cresce sottoterra.",
+        "examples": [
+          "Stasera cuciniamo patate con insalata."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_kaese",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Food"
+    ],
+    "translations": {
+      "de": {
+        "text": "Käse",
+        "definition": "Ein festes Nahrungsmittel, das aus Milch gemacht wird.",
+        "examples": [
+          "Ich esse morgens oft ein Brot mit Käse."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the cheese",
+        "definition": "A solid food made from milk.",
+        "examples": [
+          "I often eat bread with cheese in the morning."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "il formaggio",
+        "definition": "Un alimento solido ricavato dal latte.",
+        "examples": [
+          "La mattina mangio spesso pane col formaggio."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_kochen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Food",
+      "Action"
+    ],
+    "translations": {
+      "de": {
+        "text": "kochen",
+        "definition": "Nahrung durch Erhitzen zubereiten.",
+        "examples": [
+          "Meine Mutter kocht heute eine leckere Suppe."
+        ],
+        "card_antonyms": [
+          "essen"
+        ]
+      },
+      "en": {
+        "text": "to cook",
+        "aliases": [],
+        "definition": "To prepare food by applying heat.",
+        "examples": [
+          "My mother is cooking a delicious soup today."
+        ]
+      },
+      "it": {
+        "text": "cucinare",
+        "definition": "Preparare il cibo tramite cottura.",
+        "examples": [
+          "Mia madre cucina oggi una deliziosa zuppa."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_oft",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Time",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "oft",
+        "aliases": [
+          "häufig"
+        ],
+        "definition": "Viele Male, regelmäßig in der Zeit.",
+        "examples": [
+          "Er geht sehr oft ins Kino."
+        ],
+        "card_antonyms": [
+          "selten",
+          "nie"
+        ]
+      },
+      "en": {
+        "text": "often",
+        "aliases": [
+          "frequently"
+        ],
+        "definition": "Many times, regularly.",
+        "examples": [
+          "He goes to the cinema very often."
+        ]
+      },
+      "it": {
+        "text": "spesso",
+        "definition": "Molte volte, in maniera ricorrente.",
+        "examples": [
+          "Egli va molto spesso al cinema."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_nie",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Time",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "nie",
+        "aliases": [
+          "niemals"
+        ],
+        "definition": "Zu keinem Zeitpunkt, gar nicht.",
+        "examples": [
+          "Ich trinke nie Kaffee am späten Abend."
+        ],
+        "card_antonyms": [
+          "immer",
+          "oft"
+        ]
+      },
+      "en": {
+        "text": "never",
+        "definition": "At no time in the past or future.",
+        "examples": [
+          "I never drink coffee late in the evening."
+        ]
+      },
+      "it": {
+        "text": "mai",
+        "definition": "In nessun momento.",
+        "examples": [
+          "Non bevo mai caffè la sera tardi."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_fruehstueck",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Food"
+    ],
+    "translations": {
+      "de": {
+        "text": "Frühstück",
+        "definition": "Die erste Mahlzeit am Morgen.",
+        "examples": [
+          "Das Frühstück ist die wichtigste Mahlzeit des Tages."
+        ],
+        "card_antonyms": [
+          "das Abendessen"
+        ]
+      },
+      "en": {
+        "text": "the breakfast",
+        "definition": "The first meal of the day.",
+        "examples": [
+          "Breakfast is the most important meal of the day."
+        ]
+      },
+      "it": {
+        "text": "la colazione",
+        "definition": "Il primo pasto consumato al mattino.",
+        "examples": [
+          "La colazione è il pasto più importante della giornata."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_mittagessen",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Food"
+    ],
+    "translations": {
+      "de": {
+        "text": "Mittagessen",
+        "definition": "Die Mahlzeit, die man in der Mitte des Tages einnimmt.",
+        "examples": [
+          "Zum Mittagessen gibt es heute Reis mit Gemüse."
+        ],
+        "card_antonyms": [
+          "das Frühstück",
+          "das Abendessen"
+        ]
+      },
+      "en": {
+        "text": "the lunch",
+        "definition": "The meal eaten in the middle of the day.",
+        "examples": [
+          "There is rice with vegetables for lunch today."
+        ]
+      },
+      "it": {
+        "text": "il pranzo",
+        "definition": "Il pasto che si consuma a metà giornata.",
+        "examples": [
+          "Per pranzo oggi c'è riso con verdure."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_abendessen",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Food"
+    ],
+    "translations": {
+      "de": {
+        "text": "Abendessen",
+        "definition": "Die Mahlzeit, die man am Abend isst.",
+        "examples": [
+          "Am Wochenende lade ich Freunde zum Abendessen ein."
+        ],
+        "card_antonyms": [
+          "das Frühstück",
+          "das Mittagessen"
+        ]
+      },
+      "en": {
+        "text": "the dinner",
+        "definition": "The meal eaten in the evening.",
+        "examples": [
+          "On the weekend, I invite friends for dinner."
+        ]
+      },
+      "it": {
+        "text": "la cena",
+        "definition": "Il pasto che si mangia la sera.",
+        "examples": [
+          "Nel fine settimana invito gli amici a cena."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_immer",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Time",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "immer",
+        "definition": "Zu jeder Zeit, andauernd.",
+        "examples": [
+          "Er trägt im Winter immer eine Mütze."
+        ],
+        "card_antonyms": [
+          "nie",
+          "selten"
+        ]
+      },
+      "en": {
+        "text": "always",
+        "definition": "At all times; continually.",
+        "examples": [
+          "He always wears a beanie in winter."
+        ]
+      },
+      "it": {
+        "text": "sempre",
+        "definition": "In ogni momento, di continuo.",
+        "examples": [
+          "Lui indossa sempre un berretto in inverno."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_daher",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "daher",
+        "definition": "Wird benutzt, um einen Grund oder eine Folge anzugeben.",
+        "examples": [
+          "Es regnet, daher bleibe ich lieber zu Hause."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Logical conjunction has no direct scalar counterpart",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "therefore",
+        "definition": "For that reason; consequently.",
+        "examples": [
+          "It is raining, therefore I prefer to stay home."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Logical conjunction has no direct scalar counterpart",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "quindi",
+        "definition": "Per tale motivo, di conseguenza.",
+        "examples": [
+          "Piove, quindi preferisco restare a casa."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Logical conjunction has no direct scalar counterpart",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_lecker",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Food"
+    ],
+    "translations": {
+      "de": {
+        "text": "lecker",
+        "definition": "Ein Essen, das sehr gut schmeckt.",
+        "examples": [
+          "Dieser kalte Kuchen ist wirklich extrem lecker."
+        ],
+        "card_antonyms": [
+          "eklig"
+        ]
+      },
+      "en": {
+        "text": "delicious",
+        "definition": "Food that tastes very good.",
+        "examples": [
+          "This cold cake is truly extremely delicious."
+        ]
+      },
+      "it": {
+        "text": "delizioso",
+        "definition": "Cibo che ha un ottimo sapore.",
+        "examples": [
+          "Questa torta fredda è davvero estremamente deliziosa."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_trinken_2",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Action"
+    ],
+    "translations": {
+      "de": {
+        "text": "holen",
+        "definition": "Etwas von einem Ort zu sich bringen.",
+        "examples": [
+          "Ich muss schnell ein Glas Wasser aus der Küche holen."
+        ],
+        "card_antonyms": [
+          "bringen"
+        ]
+      },
+      "en": {
+        "text": "to fetch",
+        "aliases": [],
+        "definition": "To go for and then bring back someone or something.",
+        "examples": [
+          "I have to quickly fetch a glass of water from the kitchen."
+        ]
+      },
+      "it": {
+        "text": "andare a prendere",
+        "definition": "Andare in un luogo per prendere qualcosa e portarla via.",
+        "examples": [
+          "Devo andare a prendere velocemente un bicchiere d'acqua in cucina."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_bringen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Action"
+    ],
+    "translations": {
+      "de": {
+        "text": "bringen",
+        "definition": "Etwas oder jemanden an einen anderen Ort transportieren.",
+        "examples": [
+          "Meine Freundin wird mir das Buch morgen bringen."
+        ],
+        "card_antonyms": [
+          "holen",
+          "nehmen"
+        ]
+      },
+      "en": {
+        "text": "to bring",
+        "aliases": [],
+        "definition": "To carry or convey something to a place.",
+        "examples": [
+          "My girlfriend will bring the book to me tomorrow."
+        ]
+      },
+      "it": {
+        "text": "portare",
+        "definition": "Trasportare qualcosa verso chi parla o verso un'altra direzione.",
+        "examples": [
+          "La mia amica mi porterà il libro domani."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_tee",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Food"
+    ],
+    "translations": {
+      "de": {
+        "text": "Tee",
+        "definition": "Ein heißes Getränk aus Blättern.",
+        "examples": [
+          "Im Winter trinke ich abends gerne heißen Tee."
+        ],
+        "card_antonyms": [
+          "der Kaffee"
+        ]
+      },
+      "en": {
+        "text": "the tea",
+        "definition": "A hot drink made from infused leaves.",
+        "examples": [
+          "In winter, I like to drink hot tea in the evenings."
+        ]
+      },
+      "it": {
+        "text": "il tè",
+        "definition": "Una bevanda calda ottenuta dalle foglie.",
+        "examples": [
+          "In inverno mi piace bere del tè caldo la sera."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_kaffee",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Food"
+    ],
+    "translations": {
+      "de": {
+        "text": "Kaffee",
+        "definition": "Ein starkes, dunkles, heißes Getränk aus Bohnen.",
+        "examples": [
+          "Viele Menschen brauchen morgens einen Kaffee zum Aufwachen."
+        ],
+        "card_antonyms": [
+          "der Tee"
+        ]
+      },
+      "en": {
+        "text": "the coffee",
+        "definition": "A dark, hot drink made from roasted beans.",
+        "examples": [
+          "Many people need a coffee in the morning to wake up."
+        ]
+      },
+      "it": {
+        "text": "il caffè",
+        "definition": "Una bevanda scura e calda fatta con chicchi tostati.",
+        "examples": [
+          "Molte persone hanno bisogno di un caffè la mattina per svegliarsi."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_kuchen",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Food"
+    ],
+    "translations": {
+      "de": {
+        "text": "Kuchen",
+        "definition": "Ein süßes Gebäckteil, oft mit Früchten oder Schokolade.",
+        "examples": [
+          "Meine Oma backt den besten Kuchen der Welt."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the cake",
+        "definition": "A sweet baked food.",
+        "examples": [
+          "My grandma bakes the best cake in the world."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la torta",
+        "definition": "Un prodotto da forno dolce.",
+        "examples": [
+          "Mia nonna prepara la torta più buona del mondo."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_suess",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Food"
+    ],
+    "translations": {
+      "de": {
+        "text": "süß",
+        "definition": "Ein Geschmack wie Zucker oder Honig.",
+        "examples": [
+          "Schokolade ist extrem süß und lecker."
+        ],
+        "card_antonyms": [
+          "sauer",
+          "salzig",
+          "bitter"
+        ]
+      },
+      "en": {
+        "text": "sweet",
+        "definition": "Having a taste like sugar.",
+        "examples": [
+          "Chocolate is extremely sweet and delicious."
+        ]
+      },
+      "it": {
+        "text": "dolce",
+        "definition": "Avente un sapore come lo zucchero.",
+        "examples": [
+          "Il cioccolato è estremamente dolce e delizioso."
+        ]
+      }
+    }
+  }
+]

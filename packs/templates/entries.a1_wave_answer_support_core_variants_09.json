@@ -1,0 +1,134 @@
+[
+  {
+    "source_key": "a1_answer_support_en_richtig_right",
+    "concept_id": "05e8f99b-09b8-996b-4b00-2717128f2062",
+    "pos": "adj",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-richtig-right-support",
+        "text": "right"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_it_richtig_corretto",
+    "concept_id": "05e8f99b-09b8-996b-4b00-2717128f2062",
+    "pos": "adj",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-a1-richtig-corretto-support",
+        "text": "corretto"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_it_richtig_esatto",
+    "concept_id": "05e8f99b-09b8-996b-4b00-2717128f2062",
+    "pos": "adj",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-a1-richtig-esatto-support",
+        "text": "esatto"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_de_schwierig_schwer",
+    "concept_id": "4e503e75-ea9e-4bba-5a31-09b34df4d303",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-schwierig-schwer-support",
+        "text": "schwer"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_schwierig_hard",
+    "concept_id": "4e503e75-ea9e-4bba-5a31-09b34df4d303",
+    "pos": "adj",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-schwierig-hard-support",
+        "text": "hard"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_apotheke_drug_store",
+    "concept_id": "360f4483-ffa7-d734-1b6e-e6a6f6502f21",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-apotheke-drug-store-support",
+        "text": "the drug store"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_apotheke_chemist",
+    "concept_id": "360f4483-ffa7-d734-1b6e-e6a6f6502f21",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-apotheke-chemist-support",
+        "text": "the chemist"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_apotheke_drugstore",
+    "concept_id": "360f4483-ffa7-d734-1b6e-e6a6f6502f21",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-apotheke-drugstore-support",
+        "text": "the drugstore"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_de_medikament_medizin",
+    "concept_id": "7e4de04e-1096-d02c-d6fa-6a3fae4e58f2",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-medikament-medizin-support",
+        "text": "die Medizin"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_it_medikament_medicina",
+    "concept_id": "7e4de04e-1096-d02c-d6fa-6a3fae4e58f2",
+    "pos": "noun",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-a1-medikament-medicina-support",
+        "text": "la medicina"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_it_medikament_medicinale",
+    "concept_id": "7e4de04e-1096-d02c-d6fa-6a3fae4e58f2",
+    "pos": "noun",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-a1-medikament-medicinale-support",
+        "text": "il medicinale"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_it_verstehen_comprendere",
+    "concept_id": "b3378b56-2eea-7711-d47a-ac76ff43c442",
+    "pos": "verb",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-a1-verstehen-comprendere-support",
+        "text": "comprendere"
+      }
+    }
+  }
+]

@@ -1,0 +1,648 @@
+[
+  {
+    "source_key": "auto-a2-teilnehmen",
+    "concept_id": "concept-a2-teilnehmen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-teilnehmen",
+        "text": "teilnehmen",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-partecipare",
+        "text": "partecipare",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-participate-bare",
+        "text": "participate",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "auto-a2-vorbereiten",
+    "concept_id": "concept-a2-vorbereiten",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-vorbereiten",
+        "text": "vorbereiten",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-preparare",
+        "text": "preparare",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-prepare-bare",
+        "text": "prepare",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "auto-a2-vermeiden",
+    "concept_id": "concept-a2-vermeiden",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-vermeiden",
+        "text": "vermeiden",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-evitare",
+        "text": "evitare",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-avoid-bare",
+        "text": "avoid",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "auto-a2-fehlen",
+    "concept_id": "concept-a2-fehlen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-fehlen",
+        "text": "fehlen",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-mancare",
+        "text": "mancare",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-be-missing-bare",
+        "text": "be missing",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "auto-a2-verdienen",
+    "concept_id": "concept-a2-verdienen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-verdienen",
+        "text": "verdienen",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-guadagnare",
+        "text": "guadagnare",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-earn-bare",
+        "text": "earn",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "auto-a2-unterschreiben",
+    "concept_id": "concept-a2-unterschreiben",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-unterschreiben",
+        "text": "unterschreiben",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-firmare",
+        "text": "firmare",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-sign-bare",
+        "text": "sign",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "auto-a2-umziehen-verb",
+    "concept_id": "concept-a2-umziehen-verb",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-umziehen-verb",
+        "text": "umziehen",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-traslocare",
+        "text": "traslocare",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-move-house-bare",
+        "text": "move house",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "auto-b1-bewerten",
+    "concept_id": "concept-b1-bewerten",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-bewerten",
+        "text": "bewerten",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-valutare",
+        "text": "valutare",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-evaluate",
+        "text": "evaluate",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "auto-b1-vermitteln",
+    "concept_id": "concept-b1-vermitteln",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-vermitteln",
+        "text": "vermitteln",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-trasmettere",
+        "text": "trasmettere",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-convey",
+        "text": "convey",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "auto-b1-entstehen",
+    "concept_id": "concept-b1-entstehen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-entstehen",
+        "text": "entstehen",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-sorgere",
+        "text": "sorgere",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-arise",
+        "text": "arise",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "auto-b1-ueberzeugen",
+    "concept_id": "concept-b1-ueberzeugen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-ueberzeugen",
+        "text": "überzeugen",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-convincere",
+        "text": "convincere",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-convince",
+        "text": "convince",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "auto-b1-behaupten",
+    "concept_id": "concept-b1-behaupten",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-behaupten",
+        "text": "behaupten",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-sostenere",
+        "text": "sostenere",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-claim",
+        "text": "claim",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "auto-b1-feststellen",
+    "concept_id": "concept-b1-feststellen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-feststellen",
+        "text": "feststellen",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-constatare",
+        "text": "constatare",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-establish",
+        "text": "establish",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "auto-b1-behandeln",
+    "concept_id": "concept-b1-behandeln",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-behandeln",
+        "text": "behandeln",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-trattare",
+        "text": "trattare",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-deal-with",
+        "text": "deal with",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "auto-b1-ankuendigen",
+    "concept_id": "concept-b1-ankuendigen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-ankuendigen",
+        "text": "ankündigen",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-annunciare",
+        "text": "annunciare",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-announce",
+        "text": "announce",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "auto-b1-durchfuehren",
+    "concept_id": "concept-b1-durchfuehren",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-durchfuehren",
+        "text": "durchführen",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-svolgere",
+        "text": "svolgere",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-carry-out",
+        "text": "carry out",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "auto-b1-verantwortlich",
+    "concept_id": "concept-b1-verantwortlich",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-verantwortlich",
+        "text": "verantwortlich",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-responsabile",
+        "text": "responsabile",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-responsible",
+        "text": "responsible",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "auto-b1-begeistert",
+    "concept_id": "concept-b1-begeistert",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-begeistert",
+        "text": "begeistert",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-entusiasta",
+        "text": "entusiasta",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-enthusiastic",
+        "text": "enthusiastic",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "auto-b1-ueberwiegend",
+    "concept_id": "concept-b1-ueberwiegend",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-ueberwiegend",
+        "text": "überwiegend",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-prevalentemente",
+        "text": "prevalentemente",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-mostly",
+        "text": "mostly",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  }
+]

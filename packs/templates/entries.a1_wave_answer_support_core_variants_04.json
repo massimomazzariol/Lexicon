@@ -1,0 +1,79 @@
+[
+  {
+    "source_key": "a1_answer_support_de_bad_badezimmer",
+    "concept_id": "094a1cbc-41fc-d596-9178-a9c5363e1aa5",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-bad-badezimmer-support",
+        "text": "das Badezimmer"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_it_hier_qua",
+    "concept_id": "836f2a6d-c22c-3803-a53f-39cb9bdc3197",
+    "pos": "adv",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-a1-hier-qua-support",
+        "text": "qua"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_it_dort_la",
+    "concept_id": "82329b0f-c31c-baee-9d6e-914944d823c1",
+    "pos": "adv",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-a1-dort-la-support",
+        "text": "là"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_de_oeffnen_aufmachen",
+    "concept_id": "e13a99f1-2497-a121-c0b7-deb837a0b0d1",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-oeffnen-aufmachen-support",
+        "text": "aufmachen"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_de_schliessen_zumachen",
+    "concept_id": "e77cd55e-9d2d-e3c1-e012-1659eab9864a",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-schliessen-zumachen-support",
+        "text": "zumachen"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_schliessen_to_shut",
+    "concept_id": "e77cd55e-9d2d-e3c1-e012-1659eab9864a",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-close-to-shut-support",
+        "text": "to shut"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_schliessen_shut",
+    "concept_id": "e77cd55e-9d2d-e3c1-e012-1659eab9864a",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-close-shut-support",
+        "text": "shut"
+      }
+    }
+  }
+]

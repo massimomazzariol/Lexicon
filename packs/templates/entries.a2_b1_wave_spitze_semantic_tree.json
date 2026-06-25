@@ -1,0 +1,462 @@
+[
+  {
+    "source_key": "a2_adj_spitz_pointed",
+    "concept_id": "concept-a2-spitz-pointed",
+    "pos": "adj",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Daily",
+      "Objects",
+      "Characteristics"
+    ],
+    "notes": "Editorial addition from German surface expansion. Normalized from the surface form 'spitze' to the adjective lemma 'spitz'. Modeled only for the physical pointed or tapered sense. Kept separate from the noun 'Spitze', from colloquial 'spitze!' = great, and from the figurative biting-remark sense.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-spitz",
+        "text": "spitz",
+        "lemma": "spitz",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Mit einem schmalen, zulaufenden Ende oder einer Form, die sich zum Ende hin verengt.",
+        "usage_note": "Hier nur die körperliche Form eines Gegenstands; nicht die umgangssprachliche Bewertung spitze! = großartig und nicht die übertragene Bedeutung für verletzende Bemerkungen.",
+        "examples": [
+          "Die Enden dieser Schere sind für kleine Kinder nicht geeignet."
+        ],
+        "card_antonyms": [
+          "stumpf"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-appuntito",
+        "text": "appuntito",
+        "lemma": "appuntito",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Che termina con una punta stretta o con una forma che si assottiglia verso la fine.",
+        "usage_note": "Qui solo il senso fisico della forma; non il valore figurato di osservazione pungente.",
+        "examples": [
+          "Le estremità di queste forbici non sono adatte ai bambini piccoli."
+        ],
+        "card_antonyms": [
+          "smussato"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-pointed",
+        "text": "pointed",
+        "lemma": "pointed",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Having a narrow end or a shape that becomes thinner toward the end.",
+        "usage_note": "Only the physical shape sense is modeled here, not the figurative sense for biting remarks.",
+        "examples": [
+          "The ends of these scissors are not suitable for small children."
+        ],
+        "card_antonyms": [
+          "blunt"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_spitze_tip",
+    "concept_id": "concept-a2-spitze-tip",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Daily",
+      "Objects",
+      "Space"
+    ],
+    "notes": "Editorial addition from German lemma expansion. Modeled for the physical tip, point, or topmost end of an object or structure. Kept separate from colloquial spitze = great, from Spitze = lace, and from abstract leadership or top-position uses.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-spitze-tip",
+        "text": "Spitze",
+        "lemma": "Spitze",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Der äußerste, schmale oder oberste Endpunkt eines Gegenstands oder Bauwerks.",
+        "usage_note": "Hier nur die körperliche Spitze oder der oberste Abschluss; getrennt von Führung oder Topposition und von Spitze als Stoff.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Spitzen",
+        "examples": [
+          "Ganz oben am Turm blinkt nachts ein rotes Licht."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_tip_point_noun",
+          "reviewed_at": "2026-03-26"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-punta",
+        "text": "la punta",
+        "lemma": "punta",
+        "countability": "count",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "La parte più estrema, sottile o più alta di un oggetto o di una struttura.",
+        "usage_note": "Qui solo il senso fisico di punta o estremità superiore, non altri usi figurati.",
+        "examples": [
+          "In cima alla torre di notte lampeggia una luce rossa."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_tip_point_noun",
+          "reviewed_at": "2026-03-26"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-tip",
+        "text": "the tip",
+        "lemma": "tip",
+        "countability": "count",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "The narrow end or the highest end point of an object or structure.",
+        "usage_note": "Only the physical tip or upper end is modeled here, not broader abstract uses.",
+        "examples": [
+          "At the top of the tower, a red light flashes at night."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_tip_point_noun",
+          "reviewed_at": "2026-03-26"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_spitze_tip_it_variant_bare",
+    "concept_id": "concept-a2-spitze-tip",
+    "pos": "noun",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-a2-punta-bare",
+        "text": "punta",
+        "lemma": "punta",
+        "countability": "count",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": false
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_spitze_tip_en_variant_bare",
+    "concept_id": "concept-a2-spitze-tip",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a2-tip-bare",
+        "text": "tip",
+        "lemma": "tip",
+        "countability": "count",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": false
+      }
+    }
+  },
+  {
+    "source_key": "a2_adj_grossartig_topup_for_spitze_tree",
+    "concept_id": "e65a87f9-7e04-cfff-d26c-a3b387c75ee5",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "dd165c21-cdc0-293e-7d65-4ba13e18904c",
+        "text": "großartig",
+        "usage_note": "Die neutrale Standardform; umgangssprachlich ist hier auch spitze als begeisterte Bewertung akzeptiert.",
+        "card_synonyms": [
+          "fantastisch"
+        ],
+        "examples": [
+          "Die neue Idee kam im ganzen Team sehr gut an."
+        ]
+      },
+      "it": {
+        "lexeme_id": "bdbcb80d-20d0-e845-8bc2-2522bb9e259a",
+        "text": "fantastico",
+        "card_synonyms": [
+          "ottimo"
+        ],
+        "examples": [
+          "La nuova idea è piaciuta subito a tutto il team."
+        ]
+      },
+      "en": {
+        "lexeme_id": "c2a9bf13-1221-03fb-8f57-4703bd27126d",
+        "text": "great",
+        "card_synonyms": [
+          "awesome"
+        ],
+        "examples": [
+          "The new idea went over well with the whole team."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adj_grossartig_de_variant_spitze",
+    "concept_id": "e65a87f9-7e04-cfff-d26c-a3b387c75ee5",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-spitze-colloquial",
+        "text": "spitze",
+        "lemma": "spitze",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": false
+      }
+    }
+  },
+  {
+    "source_key": "b1_noun_spitze_lace",
+    "concept_id": "concept-b1-spitze-lace",
+    "pos": "noun",
+    "level_auto": "B1",
+    "domain_tags": [
+      "Clothes",
+      "Objects",
+      "Daily"
+    ],
+    "notes": "Editorial split for the remaining Spitze family. This branch models Spitze only in the textile sense of lace. It stays separate from the physical tip sense, from top-position uses, and from colloquial spitze = great.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-spitze-lace",
+        "text": "Spitze",
+        "lemma": "Spitze",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ein feines, dekoratives Gewebe mit durchbrochenem Muster, das oft an Kleidung oder Stoffen verwendet wird.",
+        "usage_note": "Hier nur der Stoff- oder Textilsinn, nicht die Spitze eines Gegenstands und nicht die fuehrende Position.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Spitzen",
+        "examples": [
+          "Am Saum des Kleides sieht man ein feines Muster."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_lace_textile_noun",
+          "reviewed_at": "2026-03-27"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-pizzo",
+        "text": "il pizzo",
+        "lemma": "pizzo",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Un tessuto decorativo leggero e traforato, usato spesso per vestiti o altri capi.",
+        "usage_note": "Qui solo il senso tessile e decorativo, non altri significati della stessa parola tedesca.",
+        "examples": [
+          "Sul bordo del vestito si vede un motivo molto fine."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_lace_textile_noun",
+          "reviewed_at": "2026-03-27"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-lace",
+        "text": "the lace",
+        "lemma": "lace",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "A delicate decorative fabric with an open pattern, often used on clothes or textiles.",
+        "usage_note": "Only the textile or decorative-fabric sense is modeled here.",
+        "examples": [
+          "A delicate pattern runs along the edge of the dress."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_lace_textile_noun",
+          "reviewed_at": "2026-03-27"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "b1_noun_spitze_lace_bare_variants",
+    "concept_id": "concept-b1-spitze-lace",
+    "pos": "noun",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-b1-pizzo-bare",
+        "text": "pizzo"
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-lace-bare",
+        "text": "lace"
+      }
+    }
+  },
+  {
+    "source_key": "b1_noun_spitze_top_position",
+    "concept_id": "concept-b1-spitze-top-position",
+    "pos": "noun",
+    "level_auto": "B1",
+    "domain_tags": [
+      "Work",
+      "Social",
+      "Abstract"
+    ],
+    "notes": "Editorial split for the remaining Spitze family. This branch models Spitze as the leading or highest position in a ranking or structure. It stays separate from the physical tip sense, from lace, and from the colloquial evaluative use.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-spitze-top-position",
+        "text": "Spitze",
+        "lemma": "Spitze",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Die hoechste oder fuehrende Position in einer Rangordnung, Gruppe oder Entwicklung.",
+        "usage_note": "Hier geht es um die fuehrende oder oberste Stellung, nicht um die Spitze eines Gegenstands und nicht um Stoff.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Spitzen",
+        "examples": [
+          "Nach drei Siegen in Folge stand das Team wieder auf dem ersten Platz."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_leading_position_noun",
+          "reviewed_at": "2026-03-27"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-vertice",
+        "text": "il vertice",
+        "lemma": "vertice",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "La posizione piu alta o di guida in una classifica, in un gruppo o in una struttura.",
+        "usage_note": "Qui indica la posizione di testa o di comando, non un oggetto fisico appuntito.",
+        "examples": [
+          "Dopo tre vittorie di fila, la squadra era di nuovo al primo posto."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_leading_position_noun",
+          "reviewed_at": "2026-03-27"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-top-position",
+        "text": "the top position",
+        "lemma": "top position",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "The highest or leading position in a ranking, group, or structure.",
+        "usage_note": "This covers the leading or highest position sense only.",
+        "examples": [
+          "After three wins in a row, the team was first in the league again."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_leading_position_noun",
+          "reviewed_at": "2026-03-27"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "b1_noun_spitze_top_position_bare_variants",
+    "concept_id": "concept-b1-spitze-top-position",
+    "pos": "noun",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-b1-vertice-bare",
+        "text": "vertice"
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-top-position-bare",
+        "text": "top position"
+      }
+    }
+  },
+  {
+    "source_key": "b1_adj_spitz_cutting",
+    "concept_id": "concept-b1-spitz-cutting",
+    "pos": "adj",
+    "level_auto": "B1",
+    "domain_tags": [
+      "Communication",
+      "Emotions",
+      "Abstract"
+    ],
+    "notes": "Editorial split for the remaining Spitze family. This branch models spitz only in the figurative sense of biting, pointed, or hurtful remarks and tone. It stays separate from the physical pointed-shape sense.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-spitz-cutting",
+        "text": "spitz",
+        "lemma": "spitz",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So formuliert oder gesagt, dass es scharf, verletzend oder unangenehm wirkt.",
+        "usage_note": "Hier nur die uebertragene Bedeutung fuer Bemerkungen, Kritik oder Tonfall, nicht die physische Form.",
+        "examples": [
+          "Seine Bemerkung im Meeting klang fuer alle unnoetig hart."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_cutting_remark_adjective",
+          "reviewed_at": "2026-03-27"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-tagliente",
+        "text": "tagliente",
+        "lemma": "tagliente",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Detto di parole, osservazioni o tono che risultano duri, pungenti o facilmente offensivi.",
+        "usage_note": "Qui solo il valore figurato riferito al modo di parlare o criticare.",
+        "examples": [
+          "Il suo commento in riunione e sembrato inutilmente duro a tutti."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_cutting_remark_adjective",
+          "reviewed_at": "2026-03-27"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-cutting",
+        "text": "cutting",
+        "lemma": "cutting",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Said of remarks or tone that sound sharp, biting, or hurtful.",
+        "usage_note": "Only the figurative remark or tone sense is modeled here, not the physical pointed-shape sense.",
+        "examples": [
+          "His comment in the meeting sounded unnecessarily harsh to everyone."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_cutting_remark_adjective",
+          "reviewed_at": "2026-03-27"
+        }
+      }
+    }
+  }
+]

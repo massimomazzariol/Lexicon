@@ -1,0 +1,900 @@
+[
+  {
+    "source_key": "core_noun_arzt",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Health",
+      "Professions"
+    ],
+    "translations": {
+      "de": {
+        "text": "Arzt",
+        "aliases": [
+          "der Doktor"
+        ],
+        "definition": "Eine männliche Person, die kranke Menschen heilt.",
+        "examples": [
+          "Der Arzt verschreibt mir ein neues Medikament."
+        ],
+        "card_antonyms": [
+          "der Patient"
+        ]
+      },
+      "en": {
+        "text": "the male doctor",
+        "aliases": [
+          "the physician"
+        ],
+        "definition": "A male person who heals sick people.",
+        "examples": [
+          "The male doctor explains the treatment to the patient."
+        ]
+      },
+      "it": {
+        "text": "il medico",
+        "aliases": [
+          "il dottore"
+        ],
+        "definition": "Una persona di sesso maschile che cura i malati.",
+        "examples": [
+          "Il medico mi prescrive un nuovo farmaco."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_aerztin",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Health",
+      "Professions"
+    ],
+    "translations": {
+      "de": {
+        "text": "Ärztin",
+        "definition": "Eine weibliche Person, die kranke Menschen heilt.",
+        "examples": [
+          "Meine Ärztin ist heute Nachmittag in der Praxis."
+        ],
+        "card_antonyms": [
+          "die Patientin"
+        ]
+      },
+      "en": {
+        "text": "the female doctor",
+        "definition": "A female person who heals sick people.",
+        "examples": [
+          "The female doctor is in the clinic this afternoon."
+        ]
+      },
+      "it": {
+        "text": "la dottoressa",
+        "definition": "Una persona di sesso femminile che cura i malati.",
+        "examples": [
+          "La mia dottoressa è in ambulatorio questo pomeriggio."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_krankheit",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Health"
+    ],
+    "translations": {
+      "de": {
+        "text": "Krankheit",
+        "definition": "Ein Zustand, in dem man nicht gesund ist.",
+        "examples": [
+          "Diese Krankheit dauert oft mehrere Tage."
+        ],
+        "card_antonyms": [
+          "die Gesundheit"
+        ]
+      },
+      "en": {
+        "text": "the illness",
+        "aliases": [
+          "the sickness"
+        ],
+        "definition": "A state in which one is not healthy.",
+        "examples": [
+          "This illness often lasts several days."
+        ]
+      },
+      "it": {
+        "text": "la malattia",
+        "definition": "Unità o condizione in cui non si è sani.",
+        "examples": [
+          "Questa malattia dura spesso diversi giorni."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_schmerz",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Health"
+    ],
+    "translations": {
+      "de": {
+        "text": "Schmerz",
+        "definition": "Eine sehr unangenehme körperliche Empfindung.",
+        "examples": [
+          "Der Schmerz im Knie ist leider sehr stark."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the pain",
+        "definition": "A highly unpleasant physical sensation.",
+        "examples": [
+          "The pain in the knee is unfortunately very strong."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "il dolore",
+        "definition": "Una sensazione fisica molto sgradevole.",
+        "examples": [
+          "Il dolore al ginocchio è sfortunatamente molto forte."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_helfen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Action",
+      "Social"
+    ],
+    "translations": {
+      "de": {
+        "text": "helfen",
+        "definition": "Jemanden bei etwas unterstützen.",
+        "examples": [
+          "Können Sie mir bitte bei diesem Problem helfen?"
+        ],
+        "card_antonyms": [
+          "stören"
+        ]
+      },
+      "en": {
+        "text": "to help",
+        "aliases": [
+          "to assist"
+        ],
+        "definition": "To support someone with something.",
+        "examples": [
+          "Can you please help me with this problem?"
+        ]
+      },
+      "it": {
+        "text": "aiutare",
+        "definition": "Supportare qualcuno in qualcosa.",
+        "examples": [
+          "Mi può aiutare gentilmente con questo problema?"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_brauchen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "brauchen",
+        "definition": "Etwas nötig haben, um ein Ziel zu erreichen.",
+        "examples": [
+          "Ich brauche heute dringend ein neues Auto."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "to need",
+        "definition": "To require something to reach a goal or function.",
+        "examples": [
+          "I urgently need a new car today."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "aver bisogno",
+        "definition": "Aver necessità di qualcosa per raggiungere uno scopo.",
+        "examples": [
+          "Oggi ho urgente bisogno di un'auto nuova."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_krank",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Health",
+      "Characteristics"
+    ],
+    "translations": {
+      "de": {
+        "text": "krank",
+        "definition": "Nicht bei guter gesundheitlicher Verfassung.",
+        "examples": [
+          "Das kranke Kind muss heute im Bett bleiben."
+        ],
+        "card_antonyms": [
+          "gesund"
+        ]
+      },
+      "en": {
+        "text": "sick",
+        "aliases": [
+          "ill"
+        ],
+        "definition": "Not in good physical or mental health.",
+        "examples": [
+          "The sick child must stay in bed today."
+        ]
+      },
+      "it": {
+        "text": "malato",
+        "aliases": [
+          "ammalato"
+        ],
+        "definition": "Non in buone condizioni fisiche o mentali.",
+        "examples": [
+          "Il bambino malato deve rimanere a letto oggi."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_gesund",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Health",
+      "Characteristics"
+    ],
+    "translations": {
+      "de": {
+        "text": "gesund",
+        "definition": "In guter körperlicher und geistiger Verfassung.",
+        "examples": [
+          "Ich bin glücklich, denn ich bin völlig gesund."
+        ],
+        "card_antonyms": [
+          "krank"
+        ]
+      },
+      "en": {
+        "text": "healthy",
+        "aliases": [
+          "well"
+        ],
+        "definition": "In good physical or mental condition.",
+        "examples": [
+          "I am happy because I am completely healthy."
+        ]
+      },
+      "it": {
+        "text": "sano",
+        "aliases": [
+          "in salute"
+        ],
+        "definition": "In buone condizioni fisiche o mentali.",
+        "examples": [
+          "Sono felice perché sono completamente sano."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_kopf",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Body"
+    ],
+    "translations": {
+      "de": {
+        "text": "Kopf",
+        "definition": "Der oberste Teil des menschlichen Körpers.",
+        "examples": [
+          "Mein Kopf tut heute leider sehr weh."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Body part",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the head",
+        "definition": "The upper part of the human body.",
+        "examples": [
+          "Unfortunately, my head hurts a lot today."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Body part",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la testa",
+        "aliases": [
+          "il capo"
+        ],
+        "definition": "La parte superiore del corpo umano.",
+        "examples": [
+          "Purtroppo la mia testa fa molto male oggi."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Body part",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_bauch",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Body"
+    ],
+    "translations": {
+      "de": {
+        "text": "Bauch",
+        "definition": "Der mittlere vordere Teil des menschlichen Körpers.",
+        "examples": [
+          "Sein Bauch ist nach dem Essen sehr voll."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Body part",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the belly",
+        "definition": "The front part of the human trunk below the ribs.",
+        "examples": [
+          "His stomach is very full after eating."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Body part",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la pancia",
+        "definition": "La parte anteriore centrale del corpo umano.",
+        "examples": [
+          "La sua pancia è molto piena dopo aver mangiato."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Body part",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_hand",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Body"
+    ],
+    "translations": {
+      "de": {
+        "text": "Hand",
+        "definition": "Der äußerste Teil des Arms zum Greifen.",
+        "examples": [
+          "Gib mir bitte kurz deine linke Hand."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Body part",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the hand",
+        "definition": "The end part of a person's arm beyond the wrist, including the palm, fingers, and thumb.",
+        "examples": [
+          "Please give me your left hand briefly."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Body part",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la mano",
+        "definition": "La parte terminale del braccio in grado di afferrare.",
+        "examples": [
+          "Dammi per favore un attimo la tua mano sinistra."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Body part",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_fuss",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Body"
+    ],
+    "translations": {
+      "de": {
+        "text": "Fuß",
+        "definition": "Der unterste Teil des menschlichen Beins.",
+        "examples": [
+          "Mein rechter Fuß ist seit gestern verletzt."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Body part",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the foot",
+        "definition": "The lower extremity of the leg below the ankle, on which a person stands or walks.",
+        "examples": [
+          "My right foot is injured since yesterday."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Body part",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "il piede",
+        "definition": "La parte inferiore della gamba umana.",
+        "examples": [
+          "Il mio piede destro è ferito da ieri."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Body part",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_stehen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Action",
+      "Body"
+    ],
+    "translations": {
+      "de": {
+        "text": "stehen",
+        "definition": "Auf den Füßen aufrecht ruhen, ohne sich vorwärts zu bewegen.",
+        "examples": [
+          "Der alte Mann kann nicht mehr lange stehen."
+        ],
+        "card_antonyms": [
+          "sitzen",
+          "liegen"
+        ]
+      },
+      "en": {
+        "text": "to stand",
+        "aliases": [],
+        "definition": "To have or maintain an upright position, supported by one's feet.",
+        "examples": [
+          "The old man cannot stand for long anymore."
+        ]
+      },
+      "it": {
+        "text": "stare in piedi",
+        "aliases": [
+          "essere in piedi"
+        ],
+        "definition": "Riposare dritti sui piedi senza muoversi in avanti.",
+        "examples": [
+          "L'uomo anziano non riesce più a stare in piedi a lungo."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_sitzen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Action",
+      "Body"
+    ],
+    "translations": {
+      "de": {
+        "text": "sitzen",
+        "definition": "Eine Haltung einnehmen, bei der das Gewicht auf dem Gesäß ruht.",
+        "examples": [
+          "Wir sitzen gemeinsam am großen Tisch und essen."
+        ],
+        "card_antonyms": [
+          "stehen",
+          "liegen"
+        ]
+      },
+      "en": {
+        "text": "to sit",
+        "aliases": [],
+        "definition": "To rest with the body supported by the buttocks or thighs, where the torso is more or less upright.",
+        "examples": [
+          "We are sitting together at the large table and eating."
+        ]
+      },
+      "it": {
+        "text": "stare seduto",
+        "aliases": [
+          "essere seduto"
+        ],
+        "definition": "Trovarsi in una posizione in cui il peso poggia sui glutei.",
+        "examples": [
+          "Stiamo seduti insieme al grande tavolo e mangiamo."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_medikament",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Health"
+    ],
+    "translations": {
+      "de": {
+        "text": "Medikament",
+        "aliases": [
+          "die Medizin"
+        ],
+        "definition": "Ein Mittel, das genommen wird, um gesund zu werden.",
+        "examples": [
+          "Nimm dieses Medikament nach dem Essen ein."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the medication",
+        "aliases": [
+          "the medicine"
+        ],
+        "definition": "A substance taken to cure an illness or relieve symptoms.",
+        "examples": [
+          "Take this medication after eating."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "il farmaco",
+        "aliases": [
+          "la medicina",
+          "il medicinale"
+        ],
+        "definition": "Una sostanza che viene assunta per guarire o alleviare sintomi.",
+        "examples": [
+          "Prenda questo farmaco dopo mangiato."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_apotheke",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Health",
+      "Places"
+    ],
+    "translations": {
+      "de": {
+        "text": "Apotheke",
+        "definition": "Ein Geschäft, in dem Medikamente verkauft werden.",
+        "examples": [
+          "Die nächste Apotheke ist direkt um die Ecke."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Location",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the pharmacy",
+        "aliases": [
+          "the drug store",
+          "the chemist",
+          "the drugstore"
+        ],
+        "definition": "A shop or hospital dispensary where medicinal drugs are prepared or sold.",
+        "examples": [
+          "The nearest pharmacy is right around the corner."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Location",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la farmacia",
+        "definition": "Un negozio in cui vengono venduti i farmaci.",
+        "examples": [
+          "La farmacia più vicina è dietro l'angolo."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Location",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_krankenhaus",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Health",
+      "Places"
+    ],
+    "translations": {
+      "de": {
+        "text": "Krankenhaus",
+        "definition": "Eine Einrichtung, in der kranke Menschen gepflegt werden.",
+        "examples": [
+          "Nach dem Unfall wurde sie schnell ins Krankenhaus gebracht."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Location",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the hospital",
+        "definition": "An institution providing medical and surgical treatment and nursing care for sick or injured people.",
+        "examples": [
+          "After the accident, she was quickly taken to the hospital."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Location",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "l'ospedale",
+        "definition": "Una struttura in cui vengono curate le persone malate.",
+        "examples": [
+          "Dopo l'incidente, è stata subito portata in ospedale."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Location",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_geben",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Action",
+      "Social"
+    ],
+    "translations": {
+      "de": {
+        "text": "geben",
+        "definition": "Etwas von sich einer anderen Person überlassen.",
+        "examples": [
+          "Kannst du mir bitte das frische Wasser geben?"
+        ],
+        "card_antonyms": [
+          "nehmen",
+          "bekommen"
+        ]
+      },
+      "en": {
+        "text": "to give",
+        "aliases": [],
+        "definition": "To freely transfer the possession of something to someone.",
+        "examples": [
+          "Can you please give me the fresh water?"
+        ]
+      },
+      "it": {
+        "text": "dare",
+        "aliases": [
+          "porgere"
+        ],
+        "definition": "Consegnare qualcosa a un'altra persona.",
+        "examples": [
+          "Puoi darmi per favore l'acqua fresca?"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_nehmen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Action"
+    ],
+    "translations": {
+      "de": {
+        "text": "nehmen",
+        "definition": "Nach etwas greifen und es behalten oder benutzen.",
+        "examples": [
+          "Du solltest dein Medikament sofort am Morgen nehmen."
+        ],
+        "card_antonyms": [
+          "geben"
+        ]
+      },
+      "en": {
+        "text": "to take",
+        "aliases": [],
+        "definition": "To reach for and hold or use something.",
+        "examples": [
+          "You should take your medication immediately in the morning."
+        ]
+      },
+      "it": {
+        "text": "prendere",
+        "definition": "Afferrare qualcosa per tenerla o usarla.",
+        "examples": [
+          "Dovresti prendere il tuo farmaco subito al mattino."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_auch",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "auch",
+        "definition": "Ebenso, zusätzlich zu dem, was schon genannt wurde.",
+        "examples": [
+          "Ich trinke gerne Kaffee, aber ich mag auch Tee."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "also",
+        "aliases": [
+          "too",
+          "as well"
+        ],
+        "definition": "In addition; too.",
+        "examples": [
+          "I like drinking coffee, but I also like tea."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "anche",
+        "aliases": [
+          "pure"
+        ],
+        "definition": "Allo stesso modo, in aggiunta a ciò che è già stato detto.",
+        "examples": [
+          "Bevo volentieri caffè, ma mi piace anche il tè."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,828 @@
+[
+  {
+    "source_key": "core_noun_familie",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Family",
+      "People"
+    ],
+    "translations": {
+      "de": {
+        "text": "Familie",
+        "definition": "Eine Gruppe von Menschen, die miteinander verwandt sind.",
+        "examples": [
+          "Meine Familie ist sehr groß und nett."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the family",
+        "definition": "A group of people affiliated by consanguinity or affinity.",
+        "examples": [
+          "My family is very large and nice."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la famiglia",
+        "definition": "Un gruppo di persone imparentate tra loro.",
+        "examples": [
+          "La mia famiglia è molto grande e simpatica."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_vater",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Family",
+      "People"
+    ],
+    "translations": {
+      "de": {
+        "text": "Vater",
+        "aliases": [
+          "Papa"
+        ],
+        "definition": "Der männliche Elternteil eines Kindes.",
+        "examples": [
+          "Mein Vater arbeitet als Lehrer an einer Schule."
+        ],
+        "card_antonyms": [
+          "die Mutter"
+        ]
+      },
+      "en": {
+        "text": "the father",
+        "aliases": [
+          "dad"
+        ],
+        "definition": "The male parent of a child.",
+        "examples": [
+          "My father works as a teacher at a school."
+        ]
+      },
+      "it": {
+        "text": "il padre",
+        "aliases": [
+          "il papà"
+        ],
+        "definition": "Il genitore maschile di un figlio.",
+        "examples": [
+          "Mio padre lavora come insegnante in una scuola."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_mutter",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Family",
+      "People"
+    ],
+    "translations": {
+      "de": {
+        "text": "Mutter",
+        "aliases": [
+          "Mama"
+        ],
+        "definition": "Der weibliche Elternteil eines Kindes.",
+        "examples": [
+          "Ihre Mutter kocht jeden Abend das Essen."
+        ],
+        "card_antonyms": [
+          "der Vater"
+        ]
+      },
+      "en": {
+        "text": "the mother",
+        "aliases": [
+          "mom",
+          "mum"
+        ],
+        "definition": "The female parent of a child.",
+        "examples": [
+          "Her mother cooks the food every evening."
+        ]
+      },
+      "it": {
+        "text": "la madre",
+        "aliases": [
+          "la mamma"
+        ],
+        "definition": "Il genitore femminile di un figlio.",
+        "examples": [
+          "Sua madre cucina la cena ogni sera."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_kind",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Family",
+      "People"
+    ],
+    "translations": {
+      "de": {
+        "text": "Kind",
+        "definition": "Ein junger Mensch, der noch nicht erwachsen ist.",
+        "examples": [
+          "Das kleine Kind spielt im Garten."
+        ],
+        "card_antonyms": [
+          "der Erwachsene"
+        ]
+      },
+      "en": {
+        "text": "the child",
+        "aliases": [
+          "the kid"
+        ],
+        "definition": "A young human being below the age of puberty or below the legal age of majority.",
+        "examples": [
+          "The small child is playing in the garden."
+        ]
+      },
+      "it": {
+        "text": "il bambino",
+        "definition": "Un essere umano giovane che non è ancora adulto.",
+        "examples": [
+          "Il bambino piccolo gioca in giardino."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_bruder",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Family",
+      "People"
+    ],
+    "translations": {
+      "de": {
+        "text": "Bruder",
+        "definition": "Ein männliches Geschwisterteil.",
+        "examples": [
+          "Er ist mein älterer Bruder."
+        ],
+        "card_antonyms": [
+          "die Schwester"
+        ]
+      },
+      "en": {
+        "text": "the brother",
+        "definition": "A male sibling.",
+        "examples": [
+          "He is my older brother."
+        ]
+      },
+      "it": {
+        "text": "il fratello",
+        "definition": "Il fratello di sesso maschile.",
+        "examples": [
+          "Lui è mio fratello maggiore."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_schwester",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Family",
+      "People"
+    ],
+    "translations": {
+      "de": {
+        "text": "Schwester",
+        "definition": "Ein weibliches Geschwisterteil.",
+        "examples": [
+          "Meine kleine Schwester lernt sehr schnell."
+        ],
+        "card_antonyms": [
+          "der Bruder"
+        ]
+      },
+      "en": {
+        "text": "the sister",
+        "definition": "A female sibling.",
+        "examples": [
+          "My little sister learns very fast."
+        ]
+      },
+      "it": {
+        "text": "la sorella",
+        "definition": "La sorella di sesso femminile.",
+        "examples": [
+          "Mia sorella minore impara molto in fretta."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_mann",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "People"
+    ],
+    "translations": {
+      "de": {
+        "text": "Mann",
+        "definition": "Ein erwachsener männlicher Mensch.",
+        "examples": [
+          "Der alte Mann liest die Zeitung am Fenster."
+        ],
+        "card_antonyms": [
+          "die Frau"
+        ]
+      },
+      "en": {
+        "text": "the man",
+        "definition": "An adult male human.",
+        "examples": [
+          "The old man is reading the newspaper at the window."
+        ]
+      },
+      "it": {
+        "text": "l'uomo",
+        "definition": "Un essere umano adulto di sesso maschile.",
+        "examples": [
+          "Il vecchio uomo legge il giornale alla finestra."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_frau",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "People"
+    ],
+    "translations": {
+      "de": {
+        "text": "Frau",
+        "definition": "Ein erwachsener weiblicher Mensch.",
+        "examples": [
+          "Diese Frau arbeitet im gleichen Büro wie ich."
+        ],
+        "card_antonyms": [
+          "der Mann"
+        ]
+      },
+      "en": {
+        "text": "the woman",
+        "definition": "An adult female human.",
+        "examples": [
+          "This woman works in the same office as me."
+        ]
+      },
+      "it": {
+        "text": "la donna",
+        "definition": "Un essere umano adulto di sesso femminile.",
+        "examples": [
+          "Questa donna lavora nel mio stesso ufficio."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_freund",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Social",
+      "People"
+    ],
+    "translations": {
+      "de": {
+        "text": "Freund",
+        "definition": "Eine Person, mit der man gerne Zeit verbringt.",
+        "examples": [
+          "Mein bester Freund wohnt nicht weit von hier."
+        ],
+        "card_antonyms": [
+          "der Feind"
+        ]
+      },
+      "en": {
+        "text": "the male friend",
+        "definition": "A male person with whom one enjoys spending time.",
+        "examples": [
+          "My best male friend lives not far from here."
+        ]
+      },
+      "it": {
+        "text": "l'amico",
+        "definition": "Una persona con cui piace trascorrere il tempo.",
+        "examples": [
+          "Il mio migliore amico abita non lontano da qui."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_freundin",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Social",
+      "People"
+    ],
+    "translations": {
+      "de": {
+        "text": "Freundin",
+        "definition": "Eine weibliche Person, mit der man gerne Zeit verbringt.",
+        "examples": [
+          "Meine Freundin bringt heute Abend Pizza mit."
+        ],
+        "card_antonyms": [
+          "die Feindin"
+        ]
+      },
+      "en": {
+        "text": "the female friend",
+        "definition": "A female person with whom one enjoys spending time.",
+        "examples": [
+          "My female friend is bringing pizza tonight."
+        ]
+      },
+      "it": {
+        "text": "l'amica",
+        "definition": "Una persona femminile con cui piace trascorrere il tempo.",
+        "examples": [
+          "La mia amica porta la pizza stasera."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_name",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "People",
+      "Communication"
+    ],
+    "translations": {
+      "de": {
+        "text": "Name",
+        "definition": "Ein Wort, mit dem man eine bestimmte Person ruft.",
+        "examples": [
+          "Mein Name ist Anna."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the name",
+        "definition": "A word by which a particular person is called.",
+        "examples": [
+          "My name is Anna."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "il nome",
+        "definition": "Una parola con cui si chiama una determinata persona.",
+        "examples": [
+          "Il mio nome è Anna."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_heissen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Communication"
+    ],
+    "translations": {
+      "de": {
+        "text": "heißen",
+        "definition": "Einen bestimmten Namen haben.",
+        "examples": [
+          "Wie heißen Sie, bitte?"
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "to be called",
+        "aliases": [
+          "to be named"
+        ],
+        "definition": "To have a certain name.",
+        "examples": [
+          "What are you called, please?"
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "chiamarsi",
+        "definition": "Avere un determinato nome.",
+        "examples": [
+          "Come si chiama, scusi?"
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_kennen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Social",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "kennen",
+        "definition": "Mit jemandem oder etwas durch Erfahrung vertraut sein.",
+        "examples": [
+          "Ich kenne diesen Mann nicht besonders gut."
+        ],
+        "card_antonyms": [
+          "verkennen"
+        ]
+      },
+      "en": {
+        "text": "to know (a person/place)",
+        "aliases": [
+          "to know"
+        ],
+        "definition": "To know a person or place through experience.",
+        "examples": [
+          "I do not know this man very well."
+        ]
+      },
+      "it": {
+        "text": "conoscere (persona o luogo)",
+        "aliases": [
+          "conoscere"
+        ],
+        "definition": "Conoscere una persona o un luogo per esperienza diretta.",
+        "examples": [
+          "Non conosco molto bene questo uomo."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_lieben",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Emotions"
+    ],
+    "translations": {
+      "de": {
+        "text": "lieben",
+        "definition": "Sehr starke positive Gefühle für jemanden oder etwas haben.",
+        "examples": [
+          "Ich liebe meine Familie über alles."
+        ],
+        "card_antonyms": [
+          "hassen"
+        ]
+      },
+      "en": {
+        "text": "to love",
+        "aliases": [],
+        "definition": "To have very strong positive feelings for someone or something.",
+        "examples": [
+          "I love my family above everything."
+        ]
+      },
+      "it": {
+        "text": "amare",
+        "aliases": [
+          "voler bene"
+        ],
+        "definition": "Avere sentimenti molto forti e positivi per qualcuno o qualcosa.",
+        "examples": [
+          "Amo la mia famiglia più di ogni altra cosa."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_zusammen",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Social"
+    ],
+    "translations": {
+      "de": {
+        "text": "zusammen",
+        "aliases": [
+          "gemeinsam"
+        ],
+        "definition": "Mit anderen Personen vereint an einem Ort oder einer Tätigkeit.",
+        "examples": [
+          "Am Wochenende essen wir immer alle zusammen."
+        ],
+        "card_antonyms": [
+          "allein",
+          "getrennt"
+        ]
+      },
+      "en": {
+        "text": "together",
+        "definition": "United with other people in one place or activity.",
+        "examples": [
+          "On weekends, we always eat all together."
+        ]
+      },
+      "it": {
+        "text": "insieme",
+        "aliases": [
+          "assieme"
+        ],
+        "definition": "Uniti ad altre persone in un luogo o azione.",
+        "examples": [
+          "Nel weekend mangiamo sempre tutti insieme."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_allein",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Social"
+    ],
+    "translations": {
+      "de": {
+        "text": "allein",
+        "aliases": [
+          "alleine"
+        ],
+        "definition": "Ohne die Gesellschaft anderer.",
+        "examples": [
+          "Er lebt nach der Arbeit oft allein."
+        ],
+        "card_antonyms": [
+          "zusammen",
+          "gemeinsam"
+        ]
+      },
+      "en": {
+        "text": "alone",
+        "aliases": [
+          "by oneself"
+        ],
+        "definition": "Without the company of others.",
+        "examples": [
+          "He often lives alone after work."
+        ]
+      },
+      "it": {
+        "text": "da solo",
+        "aliases": [
+          "solo"
+        ],
+        "definition": "Senza la compagnia di altri.",
+        "examples": [
+          "Spesso vive da solo dopo il lavoro."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_jung",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "People",
+      "Characteristics"
+    ],
+    "translations": {
+      "de": {
+        "text": "jung",
+        "definition": "Vor kurzer Zeit geboren oder entstanden. Nicht alt.",
+        "examples": [
+          "Der junge Hund spielt gern."
+        ],
+        "card_antonyms": [
+          "alt"
+        ]
+      },
+      "en": {
+        "text": "young",
+        "definition": "Having lived or existed for only a short time.",
+        "examples": [
+          "The young dog likes to play."
+        ]
+      },
+      "it": {
+        "text": "giovane",
+        "definition": "Vissuto o esistente per un breve periodo di tempo.",
+        "examples": [
+          "Il giovane cane ama giocare."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_alt",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "People",
+      "Characteristics"
+    ],
+    "translations": {
+      "de": {
+        "text": "alt",
+        "definition": "Lange Zeit existierend oder lebend.",
+        "examples": [
+          "Das alte Haus ist immer noch sehr schön."
+        ],
+        "card_antonyms": [
+          "jung",
+          "neu"
+        ]
+      },
+      "en": {
+        "text": "old",
+        "definition": "Having lived or existed for a long time.",
+        "examples": [
+          "The old house is still very beautiful."
+        ]
+      },
+      "it": {
+        "text": "vecchio",
+        "aliases": [
+          "anziano"
+        ],
+        "definition": "Esistente o in vita per molto tempo.",
+        "examples": [
+          "La vecchia casa è ancora molto bella."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_neu",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Characteristics"
+    ],
+    "translations": {
+      "de": {
+        "text": "neu",
+        "definition": "Vor kurzem gemacht, gekauft oder entstanden.",
+        "examples": [
+          "Ich habe mir gestern ein neues Auto gekauft."
+        ],
+        "card_antonyms": [
+          "alt"
+        ]
+      },
+      "en": {
+        "text": "new",
+        "definition": "Recently made, bought, or come into being.",
+        "examples": [
+          "I bought a new car yesterday."
+        ]
+      },
+      "it": {
+        "text": "nuovo",
+        "definition": "Realizzato, acquistato o nato di recente.",
+        "examples": [
+          "Ieri ho comprato un'auto nuova."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_auto",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Travel"
+    ],
+    "translations": {
+      "de": {
+        "text": "Auto",
+        "aliases": [
+          "der Wagen"
+        ],
+        "definition": "Ein normales Fahrzeug mit Motor auf vier Rädern.",
+        "examples": [
+          "Wir fahren morgen mit dem Auto ans Meer."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the car",
+        "aliases": [
+          "the automobile"
+        ],
+        "definition": "A standard motor vehicle on four wheels.",
+        "examples": [
+          "We are driving to the sea by car tomorrow."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "l'auto",
+        "aliases": [
+          "l'automobile",
+          "la macchina"
+        ],
+        "definition": "Un normale veicolo a motore su quattro ruote.",
+        "examples": [
+          "Domani andiamo al mare in auto."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  }
+]

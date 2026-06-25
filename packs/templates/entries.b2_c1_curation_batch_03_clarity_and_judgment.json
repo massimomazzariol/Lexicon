@@ -1,0 +1,711 @@
+[
+  {
+    "source_key": "b2_verb_klarstellen",
+    "concept_id": "concept-b2-klarstellen",
+    "pos": "verb",
+    "level_auto": "B2",
+    "domain_tags": ["Communication", "Work", "Abstract"],
+    "notes": "Advanced communication expansion around explanation and misunderstanding. This branch models klarstellen in the sense of making something clear, explicit, or no longer open to confusion.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-klarstellen",
+        "text": "klarstellen",
+        "lemma": "klarstellen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Etwas so erklaeren oder formulieren, dass kein Missverstaendnis mehr bleibt.",
+        "usage_note": "Hier geht es um ausdrueckliches Klarwerdenlassen einer Aussage, Position oder Situation.",
+        "examples": [
+          "Zu Beginn erklaert sie ihren Standpunkt noch einmal ganz deutlich."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_clarify_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-chiarire",
+        "text": "chiarire",
+        "lemma": "chiarire",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Spiegare o formulare qualcosa in modo tale da non lasciare più spazio a fraintendimenti.",
+        "usage_note": "Qui nel senso di rendere esplicita una posizione, una frase o una situazione.",
+        "examples": [
+          "All'inizio ripete il suo punto di vista in modo molto chiaro."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_clarify_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-clarify",
+        "text": "to clarify",
+        "lemma": "clarify",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To explain or formulate something so that no misunderstanding remains.",
+        "usage_note": "This covers making a statement, position, or situation explicit and clear.",
+        "examples": [
+          "At the start, she restates her position very clearly."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_clarify_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "b2_verb_klarstellen_en_bare_variant",
+    "concept_id": "concept-b2-klarstellen",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-b2-clarify-bare",
+        "text": "clarify"
+      }
+    }
+  },
+  {
+    "source_key": "b2_adj_eindeutig",
+    "concept_id": "concept-b2-eindeutig",
+    "pos": "adj",
+    "level_auto": "B2",
+    "domain_tags": ["Communication", "Work", "Abstract"],
+    "notes": "Advanced communication expansion around clarity. This branch models eindeutig in the sense of being clear, unambiguous, and not open to different interpretations.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-eindeutig",
+        "text": "eindeutig",
+        "lemma": "eindeutig",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So klar, dass nur eine Interpretation oder Schlussfolgerung moeglich ist.",
+        "usage_note": "Typisch fuer Aussagen, Belege, Ergebnisse oder Signale.",
+        "examples": [
+          "Die Zahlen zeigen in diesem Fall nur eine klare Richtung."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "contextual_opposite_varies_for_unambiguous_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-inequivocabile",
+        "text": "inequivocabile",
+        "lemma": "inequivocabile",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Così chiaro da permettere una sola interpretazione o conclusione.",
+        "usage_note": "Tipico per dichiarazioni, prove, risultati o segnali.",
+        "examples": [
+          "In questo caso i numeri mostrano una sola direzione chiara."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "contextual_opposite_varies_for_unambiguous_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-unambiguous",
+        "text": "unambiguous",
+        "lemma": "unambiguous",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So clear that only one interpretation or conclusion is possible.",
+        "usage_note": "Typical for statements, evidence, results, or signals.",
+        "examples": [
+          "In this case, the figures point in only one clear direction."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "contextual_opposite_varies_for_unambiguous_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "c1_adj_missverstaendlich",
+    "concept_id": "concept-c1-missverstaendlich",
+    "pos": "adj",
+    "level_auto": "C1",
+    "domain_tags": ["Communication", "Social", "Abstract"],
+    "notes": "Advanced communication expansion around misunderstanding. This branch models missverständlich in the sense of being phrased or presented in a way that can easily be misunderstood.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-missverstaendlich",
+        "text": "missverständlich",
+        "lemma": "missverständlich",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So formuliert oder dargestellt, dass man es leicht falsch verstehen kann.",
+        "usage_note": "Typisch fuer Saetze, Nachrichten, Hinweise oder Reaktionen.",
+        "examples": [
+          "Ohne den zweiten Satz klingt die Nachricht leicht in die falsche Richtung."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "contextual_opposite_varies_for_misunderstandable_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-equivoco",
+        "text": "equivoco",
+        "lemma": "equivoco",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Formulato o presentato in modo tale da poter essere facilmente capito male.",
+        "usage_note": "Tipico per frasi, messaggi, avvisi o reazioni.",
+        "examples": [
+          "Senza la seconda frase, il messaggio può suonare facilmente nel modo sbagliato."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "contextual_opposite_varies_for_misunderstandable_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-open-to-misunderstanding",
+        "text": "open to misunderstanding",
+        "lemma": "open to misunderstanding",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Phrased or presented in a way that can easily be understood wrongly.",
+        "usage_note": "Typical for sentences, messages, notices, or reactions.",
+        "examples": [
+          "Without the second sentence, the message can easily sound wrong."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "contextual_opposite_varies_for_misunderstandable_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "b2_verb_einschaetzen",
+    "concept_id": "concept-b2-einschaetzen",
+    "pos": "verb",
+    "level_auto": "B2",
+    "domain_tags": ["Communication", "Work", "Abstract"],
+    "notes": "Advanced evaluation expansion around concept-b1-bewerten. This branch models einschätzen in the sense of judging or estimating something based on experience, information, or observation.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-einschaetzen",
+        "text": "einschätzen",
+        "lemma": "einschätzen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Etwas auf Grundlage von Erfahrung, Informationen oder Beobachtung beurteilen oder abschaetzen.",
+        "usage_note": "Hier geht es um ein urteilendes Einschaetzen, nicht um exaktes Messen.",
+        "examples": [
+          "Noch vor dem Treffen versucht sie, die Lage realistisch zu bewerten."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_assess_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-valutare",
+        "text": "valutare",
+        "lemma": "valutare",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Giudicare o stimare qualcosa sulla base di esperienza, informazioni o osservazione.",
+        "usage_note": "Qui nel senso di farsi una valutazione ragionata, non di misurare con precisione.",
+        "examples": [
+          "Prima dell'incontro prova a farsi un'idea realistica della situazione."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_assess_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-assess",
+        "text": "to assess",
+        "lemma": "assess",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To judge or estimate something on the basis of experience, information, or observation.",
+        "usage_note": "This covers reasoned assessment, not exact measurement.",
+        "examples": [
+          "Before the meeting, she tries to form a realistic picture of the situation."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_assess_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "b2_verb_einschaetzen_en_bare_variant",
+    "concept_id": "concept-b2-einschaetzen",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-b2-assess-bare",
+        "text": "assess"
+      }
+    }
+  },
+  {
+    "source_key": "c1_noun_einschaetzung",
+    "concept_id": "concept-c1-einschaetzung",
+    "pos": "noun",
+    "level_auto": "C1",
+    "domain_tags": ["Communication", "Work", "Abstract"],
+    "notes": "Advanced evaluation expansion around concept-b1-bewerten and concept-b2-einschaetzen. This branch models Einschätzung as an assessment or considered judgment.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-einschaetzung",
+        "text": "Einschätzung",
+        "lemma": "Einschätzung",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ein Urteil oder eine Beurteilung, die auf Erfahrung, Information oder Beobachtung beruht.",
+        "usage_note": "Typisch fuer Lageeinschaetzungen, Risikoabschaetzungen oder persoenliche Beurteilungen.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Einschätzungen",
+        "examples": [
+          "Ihre erste Bewertung der Lage erweist sich spaeter als ziemlich treffend."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_assessment_noun",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-valutazione",
+        "text": "la valutazione",
+        "lemma": "valutazione",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Un giudizio o una stima fondati su esperienza, informazioni o osservazione.",
+        "usage_note": "Tipico per valutazioni della situazione, dei rischi o di un contesto.",
+        "examples": [
+          "La sua prima idea della situazione si rivela poi abbastanza precisa."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_assessment_noun",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-assessment",
+        "text": "the assessment",
+        "lemma": "assessment",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "A judgment or estimate based on experience, information, or observation.",
+        "usage_note": "Typical for situation assessments, risk assessments, or considered judgments.",
+        "examples": [
+          "Her first reading of the situation later proves fairly accurate."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_assessment_noun",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "c1_noun_einschaetzung_bare_variants",
+    "concept_id": "concept-c1-einschaetzung",
+    "pos": "noun",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-c1-valutazione-bare",
+        "text": "valutazione"
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-assessment-bare",
+        "text": "assessment"
+      }
+    }
+  },
+  {
+    "source_key": "b2_adj_ueberzeugend",
+    "concept_id": "concept-b2-ueberzeugend",
+    "pos": "adj",
+    "level_auto": "B2",
+    "domain_tags": ["Communication", "Work", "Abstract"],
+    "notes": "Advanced family expansion around concept-b1-ueberzeugen. This branch models überzeugend in the sense of being persuasive because the reasoning, evidence, or presentation is strong.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-ueberzeugend",
+        "text": "überzeugend",
+        "lemma": "überzeugend",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So stark begruendet oder praesentiert, dass es andere glaubhaft mitnimmt.",
+        "usage_note": "Typisch fuer Argumente, Auftritte, Belege oder Konzepte.",
+        "examples": [
+          "Ihr Vorschlag wirkt durch die klaren Zahlen besonders glaubhaft."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "contextual_opposite_varies_for_convincing_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-convincente",
+        "text": "convincente",
+        "lemma": "convincente",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Presentato o motivato in modo tale da risultare credibile e persuasivo.",
+        "usage_note": "Tipico per argomenti, prove, presentazioni o proposte.",
+        "examples": [
+          "La sua proposta appare particolarmente credibile grazie ai dati chiari."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "contextual_opposite_varies_for_convincing_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-convincing",
+        "text": "convincing",
+        "lemma": "convincing",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Presented or reasoned in a way that seems credible and persuasive.",
+        "usage_note": "Typical for arguments, evidence, proposals, or presentations.",
+        "examples": [
+          "Her proposal seems especially credible because the numbers are so clear."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "contextual_opposite_varies_for_convincing_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "b2_adj_verantwortungsvoll",
+    "concept_id": "concept-b2-verantwortungsvoll",
+    "pos": "adj",
+    "level_auto": "B2",
+    "domain_tags": ["Work", "Social", "Abstract"],
+    "notes": "Advanced family expansion around concept-b1-verantwortung and concept-b1-verantwortlich. This branch models verantwortungsvoll in the sense of acting with care, seriousness, and awareness of consequences.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-verantwortungsvoll",
+        "text": "verantwortungsvoll",
+        "lemma": "verantwortungsvoll",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So handelnd, dass Folgen ernst genommen werden und sorgfaeltig mit einer Aufgabe oder Rolle umgegangen wird.",
+        "usage_note": "Hier geht es um die Art zu handeln, nicht nur darum, fuer etwas offiziell zustaendig zu sein.",
+        "examples": [
+          "Mit vertraulichen Daten geht sie immer sehr umsichtig um."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "contextual_opposite_varies_for_responsible_manner_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-responsabile-atteggiamento",
+        "text": "responsabile",
+        "lemma": "responsabile",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Che agisce tenendo seriamente conto delle conseguenze e trattando con cura un compito o un ruolo.",
+        "usage_note": "Qui nel senso del modo di agire, non solo dell'essere formalmente incaricato.",
+        "examples": [
+          "Con i dati riservati si comporta sempre con molta prudenza."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "contextual_opposite_varies_for_responsible_manner_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-responsible-in-conduct",
+        "text": "responsible",
+        "lemma": "responsible",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Acting in a way that takes consequences seriously and treats a role or task with care.",
+        "usage_note": "This covers responsible conduct, not only formal responsibility or being in charge.",
+        "examples": [
+          "She always handles confidential data with great care."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "contextual_opposite_varies_for_responsible_manner_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "b2_adj_zuverlaessig",
+    "concept_id": "concept-b2-zuverlaessig",
+    "pos": "adj",
+    "level_auto": "B2",
+    "domain_tags": ["Work", "Daily", "Abstract"],
+    "notes": "Advanced reliability expansion connected to high-performance and responsible-behavior language. This branch models zuverlässig in the sense of being dependable and consistently working or acting as expected.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-zuverlaessig",
+        "text": "zuverlässig",
+        "lemma": "zuverlässig",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So, dass man sich darauf verlassen kann, weil es konstant gut funktioniert oder geschieht.",
+        "usage_note": "Kann fuer Menschen, Informationen, Systeme oder Prozesse gelten.",
+        "examples": [
+          "Auch unter Zeitdruck liefert das Team konstant gute Ergebnisse."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "contextual_opposite_varies_for_reliable_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-affidabile",
+        "text": "affidabile",
+        "lemma": "affidabile",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Tale da potervi fare affidamento, perché funziona o agisce bene in modo costante.",
+        "usage_note": "Può riferirsi a persone, informazioni, sistemi o processi.",
+        "examples": [
+          "Anche sotto pressione, il team produce risultati buoni con continuità."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "contextual_opposite_varies_for_reliable_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-reliable",
+        "text": "reliable",
+        "lemma": "reliable",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Dependable because it works or acts well in a steady and consistent way.",
+        "usage_note": "This can apply to people, information, systems, or processes.",
+        "examples": [
+          "Even under pressure, the team keeps producing good results consistently."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "contextual_opposite_varies_for_reliable_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "c1_verb_einordnen",
+    "concept_id": "concept-c1-einordnen",
+    "pos": "verb",
+    "level_auto": "C1",
+    "domain_tags": ["Communication", "Education", "Abstract"],
+    "notes": "Advanced reasoning expansion around Zusammenhang and assessment language. This branch models einordnen in the sense of placing information, events, or statements into a broader context or category so that they can be understood properly.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-einordnen",
+        "text": "einordnen",
+        "lemma": "einordnen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Etwas in einen groesseren Zusammenhang oder in eine passende Kategorie setzen, damit es besser verstanden werden kann.",
+        "usage_note": "Hier vor allem fuer Informationen, Ereignisse, Aussagen oder Entwicklungen.",
+        "examples": [
+          "Er versucht, die neuen Zahlen im groesseren Bild zu verstehen."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_contextualize_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-inquadrare",
+        "text": "inquadrare",
+        "lemma": "inquadrare",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Collocare qualcosa in un contesto più ampio o in una categoria adatta per capirlo meglio.",
+        "usage_note": "Qui soprattutto per informazioni, eventi, affermazioni o sviluppi.",
+        "examples": [
+          "Prova a leggere i nuovi numeri dentro un quadro più ampio."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_contextualize_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-put-in-context",
+        "text": "to put in context",
+        "lemma": "put in context",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To place something in a broader context or suitable category so that it can be understood better.",
+        "usage_note": "This is used especially for information, events, statements, or developments.",
+        "examples": [
+          "He tries to read the new figures within a broader picture."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_contextualize_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "c1_verb_einordnen_en_bare_variant",
+    "concept_id": "concept-c1-einordnen",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-c1-put-in-context-bare",
+        "text": "put in context"
+      }
+    }
+  },
+  {
+    "source_key": "c1_noun_einordnung",
+    "concept_id": "concept-c1-einordnung",
+    "pos": "noun",
+    "level_auto": "C1",
+    "domain_tags": ["Communication", "Education", "Abstract"],
+    "notes": "Advanced reasoning expansion around Zusammenhang and context-setting language. This branch models Einordnung as the act or result of contextualizing or classifying something meaningfully.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-einordnung",
+        "text": "Einordnung",
+        "lemma": "Einordnung",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Die gedankliche Einbettung oder Kategorisierung von etwas, damit es besser verstanden werden kann.",
+        "usage_note": "Typisch fuer Erklaerungen, Analysen oder Kommentare, die Fakten in einen Zusammenhang setzen.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Einordnungen",
+        "examples": [
+          "Sein kurzer Kommentar hilft allen, die Meldung besser zu verstehen."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_contextualization_noun",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-contestualizzazione",
+        "text": "la contestualizzazione",
+        "lemma": "contestualizzazione",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "L'inserimento o la classificazione ragionata di qualcosa in un contesto più ampio per capirlo meglio.",
+        "usage_note": "Tipico per spiegazioni, analisi o commenti che danno prospettiva ai fatti.",
+        "examples": [
+          "Il suo breve commento aiuta tutti a capire meglio la notizia."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_contextualization_noun",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-contextualization",
+        "text": "the contextualization",
+        "lemma": "contextualization",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "The act or result of placing something in a broader context so that it can be understood better.",
+        "usage_note": "Typical for explanations, analyses, or commentary that put facts into perspective.",
+        "examples": [
+          "His short comment helps everyone understand the report better."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_contextualization_noun",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "c1_noun_einordnung_bare_variants",
+    "concept_id": "concept-c1-einordnung",
+    "pos": "noun",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-c1-contestualizzazione-bare",
+        "text": "contestualizzazione"
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-contextualization-bare",
+        "text": "contextualization"
+      }
+    }
+  }
+]

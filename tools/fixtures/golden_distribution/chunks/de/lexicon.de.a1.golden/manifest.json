@@ -1,0 +1,30 @@
+{
+  "pack_id": "lexicon.de.a1.golden",
+  "version": "1.0.0",
+  "schema_version": 1,
+  "pack_role": "runtime",
+  "pack_level": "A1",
+  "languages_target_supported": [
+    "de"
+  ],
+  "gloss_languages_supported": [
+    "it"
+  ],
+  "domains": [
+    "food"
+  ],
+  "contract_version": "0.1.0",
+  "chunk_id": "lexicon.de.a1.golden",
+  "language_code": "de",
+  "payload_path": "chunks/de/lexicon.de.a1.golden/content.json",
+  "content_version": "1.0.0",
+  "content_hash": "sha256:7d2a589acaed5aaea1cc4f48421793d49f498f362614564b6ec78ca98cf8ffbf",
+  "gloss_languages": [
+    "it"
+  ],
+  "levels_supported": [
+    "A1"
+  ],
+  "relation_chunk_ids": [],
+  "updated_at": "2026-01-01T00:00:00.000Z"
+}

@@ -1,0 +1,156 @@
+[
+  {
+    "concept_id": "dcac462c-da14-34b2-8201-977a04e36d35",
+    "source_key": "am Ende",
+    "pos": "chunk",
+    "translations": {
+      "de": {
+        "lexeme_id": "85ee7514-1149-64f1-cccb-e9ffedcc7170",
+        "text": "am Ende",
+        "card_antonyms": [
+          "am Anfang"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "f4c57801-260c-4027-ff73-0b38dee09fac",
+    "source_key": "Anrede",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "6a1c5a88-17ad-03f4-49d3-760d311206c2",
+        "text": "Anrede",
+        "card_antonyms": [
+          "Verabschiedung"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "28155ced-1190-8879-d1e4-766d9865a842",
+    "source_key": "Bewerbung",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "17db3b10-1772-4ed4-7230-5d4cb910990f",
+        "text": "Bewerbung",
+        "card_antonyms": [
+          "Absage"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "68b4d02c-8d77-9e8b-58ca-8a06e4bcd361",
+    "source_key": "derzeit",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "b39afea2-b37f-3c6b-0841-843be5207623",
+        "text": "derzeit",
+        "card_antonyms": [
+          "frueher"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "ed8e2fd9-341b-1cad-7908-35e22a2f2388",
+    "source_key": "Gesuch",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "b57e4eb0-5a6c-2e12-2afa-dcec3ed83301",
+        "text": "Gesuch",
+        "card_antonyms": [
+          "Ablehnung"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",
+    "source_key": "Ich verstehe nur Bahnhof",
+    "pos": "chunk",
+    "translations": {
+      "de": {
+        "lexeme_id": "61144372-e360-f925-0a13-7abde275ab5b",
+        "text": "Ich verstehe nur Bahnhof",
+        "card_antonyms": [
+          "Ich verstehe alles"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "d44d4a04-9c80-66ac-6dae-10528f189ad5",
+    "source_key": "inzwischen",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "6ea382b9-d0a4-c3c4-975c-93fbb0ef6369",
+        "text": "inzwischen",
+        "card_antonyms": [
+          "vorher"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "b5badb09-9fac-871c-a009-af06fbb2cef3",
+    "source_key": "Lauf",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "f7997e08-b0e2-3c89-ab19-8648a41bedc5",
+        "text": "Lauf",
+        "card_antonyms": [
+          "Stillstand"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "324d681d-6d2e-552f-6831-9758934c5d65",
+    "source_key": "malen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "9a0dcdbd-95eb-21d7-8887-55c6f866d586",
+        "text": "malen",
+        "card_antonyms": [
+          "radieren"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "76ddf07a-3708-809e-94da-35f0ec10678d",
+    "source_key": "Notwendigkeit",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "bba4c992-8ba8-5e55-ee18-1e92c1d779ba",
+        "text": "Notwendigkeit",
+        "card_antonyms": [
+          "Optionalitaet"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "fef8f67b-8883-20ff-c027-67735487d38d",
+    "source_key": "schließlich",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "dc4c8861-c8d4-aa6e-5916-b686e6d9916d",
+        "text": "schließlich",
+        "card_antonyms": [
+          "zuerst"
+        ]
+      }
+    }
+  }
+]

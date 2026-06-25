@@ -1,0 +1,450 @@
+[
+  {
+    "source_key": "auto-a2-verspaetung",
+    "concept_id": "concept-a2-verspaetung",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-verspaetung",
+        "text": "Verspätung",
+        "card_antonyms": [
+          "Pünktlichkeit"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-ritardo",
+        "text": "il ritardo",
+        "card_antonyms": [
+          "puntualità"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-delay",
+        "text": "the delay",
+        "card_antonyms": [
+          "punctuality"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "auto-a2-erlaubnis",
+    "concept_id": "concept-a2-erlaubnis",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-erlaubnis",
+        "text": "Erlaubnis",
+        "card_antonyms": [
+          "Verbot"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-permesso",
+        "text": "il permesso",
+        "card_antonyms": [
+          "divieto"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-permission",
+        "text": "the permission",
+        "card_antonyms": [
+          "prohibition"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "auto-a2-absagen",
+    "concept_id": "concept-a2-absagen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-absagen",
+        "text": "absagen",
+        "card_antonyms": [
+          "zusagen"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-annullare",
+        "text": "annullare",
+        "card_antonyms": [
+          "confermare"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-cancel-bare",
+        "text": "cancel",
+        "card_antonyms": [
+          "confirm"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "auto-a2-verschieben",
+    "concept_id": "concept-a2-verschieben",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-verschieben",
+        "text": "verschieben",
+        "card_antonyms": [
+          "vorziehen"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-rimandare",
+        "text": "rimandare",
+        "card_antonyms": [
+          "anticipare"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-postpone-bare",
+        "text": "postpone",
+        "card_antonyms": [
+          "bring forward"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "auto-a2-stattfinden",
+    "concept_id": "concept-a2-stattfinden",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-stattfinden",
+        "text": "stattfinden",
+        "card_antonyms": [
+          "ausfallen"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-avere-luogo",
+        "text": "avere luogo",
+        "card_antonyms": [
+          "essere annullato"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-take-place-bare",
+        "text": "take place",
+        "card_antonyms": [
+          "be canceled"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "auto-a2-deutlich",
+    "concept_id": "concept-a2-deutlich",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-deutlich",
+        "text": "deutlich",
+        "card_antonyms": [
+          "undeutlich"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-chiaro",
+        "text": "chiaro",
+        "card_antonyms": [
+          "poco chiaro"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-clear",
+        "text": "clear",
+        "card_antonyms": [
+          "unclear"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "auto-a2-seltsam",
+    "concept_id": "concept-a2-seltsam",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-seltsam",
+        "text": "seltsam",
+        "card_antonyms": [
+          "normal"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-strano",
+        "text": "strano",
+        "card_antonyms": [
+          "normale"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-strange",
+        "text": "strange",
+        "card_antonyms": [
+          "normal"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "auto-b1-foerdern",
+    "concept_id": "concept-b1-foerdern",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-foerdern",
+        "text": "fördern",
+        "card_antonyms": [
+          "hemmen"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-favorire",
+        "text": "favorire",
+        "card_antonyms": [
+          "ostacolare"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-promote",
+        "text": "promote",
+        "card_antonyms": [
+          "hinder"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "auto-b1-beruecksichtigen",
+    "concept_id": "concept-b1-beruecksichtigen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-beruecksichtigen",
+        "text": "berücksichtigen",
+        "card_antonyms": [
+          "ignorieren"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-considerare",
+        "text": "considerare",
+        "card_antonyms": [
+          "ignorare"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-take-into-account",
+        "text": "take into account",
+        "card_antonyms": [
+          "ignore"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "auto-b1-ergaenzen",
+    "concept_id": "concept-b1-ergaenzen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-ergaenzen",
+        "text": "ergänzen",
+        "card_antonyms": [
+          "weglassen"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-integrare",
+        "text": "integrare",
+        "card_antonyms": [
+          "omettere"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-supplement",
+        "text": "supplement",
+        "card_antonyms": [
+          "omit"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "auto-b1-umsetzen",
+    "concept_id": "concept-b1-umsetzen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-umsetzen",
+        "text": "umsetzen",
+        "card_antonyms": [
+          "verwerfen"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-attuare",
+        "text": "attuare",
+        "card_antonyms": [
+          "scartare"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-implement",
+        "text": "implement",
+        "card_antonyms": [
+          "discard"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "auto-b1-entscheidend",
+    "concept_id": "concept-b1-entscheidend",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-entscheidend",
+        "text": "entscheidend",
+        "card_antonyms": [
+          "unwichtig"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-decisivo",
+        "text": "decisivo",
+        "card_antonyms": [
+          "poco importante"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-crucial",
+        "text": "crucial",
+        "card_antonyms": [
+          "unimportant"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "auto-b1-unabhaengig",
+    "concept_id": "concept-b1-unabhaengig",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-unabhaengig",
+        "text": "unabhängig",
+        "card_antonyms": [
+          "abhängig"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-indipendente",
+        "text": "indipendente",
+        "card_antonyms": [
+          "dipendente"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-independent",
+        "text": "independent",
+        "card_antonyms": [
+          "dependent"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "auto-b1-umfangreich",
+    "concept_id": "concept-b1-umfangreich",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-umfangreich",
+        "text": "umfangreich",
+        "card_antonyms": [
+          "begrenzt"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-ampio",
+        "text": "ampio",
+        "card_antonyms": [
+          "limitato"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-extensive",
+        "text": "extensive",
+        "card_antonyms": [
+          "limited"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "auto-b1-teilweise",
+    "concept_id": "concept-b1-teilweise",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-teilweise",
+        "text": "teilweise",
+        "card_antonyms": [
+          "vollständig"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-parzialmente",
+        "text": "parzialmente",
+        "card_antonyms": [
+          "completamente"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-partly",
+        "text": "partly",
+        "card_antonyms": [
+          "completely"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "auto-b1-dagegen",
+    "concept_id": "concept-b1-dagegen",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-dagegen",
+        "text": "dagegen",
+        "card_antonyms": [
+          "dafür"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-contro",
+        "text": "contro",
+        "card_antonyms": [
+          "a favore"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-against-it",
+        "text": "against it",
+        "card_antonyms": [
+          "in favor"
+        ]
+      }
+    }
+  }
+]

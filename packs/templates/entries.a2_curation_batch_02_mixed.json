@@ -1,0 +1,1318 @@
+[
+  {
+    "source_key": "a2_noun_erfahrung",
+    "concept_id": "concept-a2-erfahrung",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Work", "Education"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-erfahrung",
+        "text": "Erfahrung",
+        "definition": "Etwas, das man selbst erlebt hat und aus dem man lernen kann.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Erfahrungen"
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-esperienza",
+        "text": "l'esperienza",
+        "definition": "Qualcosa che hai vissuto personalmente e da cui puoi imparare."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-experience",
+        "text": "the experience",
+        "definition": "Something you have lived through and can learn from."
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_einladung",
+    "concept_id": "concept-a2-einladung",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": ["Social", "Daily", "Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-einladung",
+        "text": "Einladung",
+        "definition": "Eine Bitte oder Nachricht, mit der man jemanden zu etwas einlädt.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Einladungen"
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-invito",
+        "text": "l'invito",
+        "definition": "Una richiesta o un messaggio con cui si invita qualcuno."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-invitation",
+        "text": "the invitation",
+        "definition": "A request or message asking someone to come or join."
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_nachricht",
+    "concept_id": "concept-a2-nachricht",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Communication", "Social"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-nachricht",
+        "text": "Nachricht",
+        "definition": "Eine kurze Information, die man jemandem schickt oder sagt.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Nachrichten"
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-messaggio",
+        "text": "il messaggio",
+        "definition": "Una breve informazione che mandi o dici a qualcuno."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-message",
+        "text": "the message",
+        "definition": "A short piece of information that you send or tell someone."
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_termin",
+    "concept_id": "concept-a2-termin",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Work", "Time"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-termin",
+        "text": "Termin",
+        "definition": "Eine fest geplante Zeit für ein Treffen oder einen Besuch.",
+        "article_nom_sg_def": "der",
+        "gender": "m",
+        "plural": "Termine"
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-appuntamento",
+        "text": "l'appuntamento",
+        "definition": "Un momento fissato per un incontro o una visita."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-appointment",
+        "text": "the appointment",
+        "definition": "A planned time for a meeting or visit."
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_moeglichkeit",
+    "concept_id": "concept-a2-moeglichkeit",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-moeglichkeit",
+        "text": "Möglichkeit",
+        "definition": "Etwas, das möglich ist oder als Wahl offensteht.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Möglichkeiten"
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-possibilita",
+        "text": "la possibilità",
+        "definition": "Qualcosa che è possibile o che resta come scelta."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-possibility",
+        "text": "the possibility",
+        "definition": "Something that can happen or remains available as a choice."
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_meinung",
+    "concept_id": "concept-a2-meinung",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": ["Social", "Communication", "Daily"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-meinung",
+        "text": "Meinung",
+        "definition": "Das, was jemand über etwas denkt.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Meinungen"
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-opinione",
+        "text": "l'opinione",
+        "definition": "Quello che qualcuno pensa di qualcosa."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-opinion",
+        "text": "the opinion",
+        "definition": "What someone thinks about something."
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_gewohnheit",
+    "concept_id": "concept-a2-gewohnheit",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-gewohnheit",
+        "text": "Gewohnheit",
+        "definition": "Etwas, das man regelmäßig fast automatisch macht.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Gewohnheiten"
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-abitudine",
+        "text": "l'abitudine",
+        "definition": "Qualcosa che fai regolarmente quasi in modo automatico."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-habit",
+        "text": "the habit",
+        "definition": "Something you do regularly and almost automatically."
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_anmeldung",
+    "concept_id": "concept-a2-anmeldung",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": ["Work", "Education", "Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-anmeldung",
+        "text": "Anmeldung",
+        "definition": "Der Vorgang, bei dem man sich offiziell registriert.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Anmeldungen"
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-iscrizione",
+        "text": "l'iscrizione",
+        "definition": "La procedura con cui ti registri ufficialmente."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-registration",
+        "text": "the registration",
+        "definition": "The process of signing up officially."
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_verspaetung",
+    "concept_id": "concept-a2-verspaetung",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": ["Travel", "Time", "Daily"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-verspaetung",
+        "text": "Verspätung",
+        "definition": "Die Situation, wenn etwas später als geplant kommt oder passiert.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Verspätungen"
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-ritardo",
+        "text": "il ritardo",
+        "definition": "La situazione in cui qualcosa arriva o succede più tardi del previsto."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-delay",
+        "text": "the delay",
+        "definition": "A situation in which something happens or arrives later than planned."
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_umzug",
+    "concept_id": "concept-a2-umzug",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Home"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-umzug",
+        "text": "Umzug",
+        "definition": "Der Wechsel in eine neue Wohnung oder ein neues Haus.",
+        "article_nom_sg_def": "der",
+        "gender": "m",
+        "plural": "Umzüge"
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-trasloco",
+        "text": "il trasloco",
+        "definition": "Il passaggio a una nuova casa o appartamento."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-move",
+        "text": "the move",
+        "definition": "The act of changing to a new home."
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_erlaubnis",
+    "concept_id": "concept-a2-erlaubnis",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Work", "Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-erlaubnis",
+        "text": "Erlaubnis",
+        "definition": "Das Recht oder Ja, etwas tun zu dürfen.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Erlaubnisse"
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-permesso",
+        "text": "il permesso",
+        "definition": "Il diritto o il via libera per poter fare qualcosa."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-permission",
+        "text": "the permission",
+        "definition": "The right or approval to do something."
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_vorschlag",
+    "concept_id": "concept-a2-vorschlag",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": ["Work", "Communication", "Daily"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-vorschlag",
+        "text": "Vorschlag",
+        "definition": "Eine Idee, die man anbietet, damit andere darüber nachdenken können.",
+        "article_nom_sg_def": "der",
+        "gender": "m",
+        "plural": "Vorschläge"
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-proposta",
+        "text": "la proposta",
+        "definition": "Un'idea che presenti perché gli altri la considerino."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-suggestion",
+        "text": "the suggestion",
+        "definition": "An idea that you offer for other people to consider."
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_gespraech",
+    "concept_id": "concept-a2-gespraech",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": ["Social", "Communication", "Daily"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-gespraech",
+        "text": "Gespräch",
+        "definition": "Ein Austausch, bei dem zwei oder mehr Personen miteinander reden.",
+        "article_nom_sg_def": "das",
+        "gender": "n",
+        "plural": "Gespräche"
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-conversazione",
+        "text": "la conversazione",
+        "definition": "Uno scambio in cui due o più persone parlano tra loro."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-conversation",
+        "text": "the conversation",
+        "definition": "An exchange in which two or more people talk to each other."
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_teilnehmen",
+    "concept_id": "concept-a2-teilnehmen",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": ["Social", "Work", "Education"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-teilnehmen",
+        "text": "teilnehmen",
+        "definition": "Bei einer Aktivität, einem Kurs oder einem Ereignis mitmachen."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-partecipare",
+        "text": "partecipare",
+        "definition": "Prendere parte a un'attività, un corso o un evento."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-participate",
+        "text": "to participate",
+        "aliases": ["to take part", "take part"],
+        "definition": "To take part in an activity, course, or event."
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_vorbereiten",
+    "concept_id": "concept-a2-vorbereiten",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Work"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-vorbereiten",
+        "text": "vorbereiten",
+        "definition": "Etwas fertig machen, bevor es gebraucht wird."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-preparare",
+        "text": "preparare",
+        "definition": "Rendere qualcosa pronta prima che serva."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-prepare",
+        "text": "to prepare",
+        "definition": "To make something ready before it is needed."
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_absagen",
+    "concept_id": "concept-a2-absagen",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": ["Social", "Travel", "Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-absagen",
+        "text": "absagen",
+        "definition": "Sagen, dass etwas nicht stattfindet oder nicht möglich ist."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-annullare",
+        "text": "annullare",
+        "definition": "Dire che qualcosa non avrà luogo o non sarà possibile."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-cancel",
+        "text": "to cancel",
+        "definition": "To say that something will not happen or is no longer possible."
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_verschieben",
+    "concept_id": "concept-a2-verschieben",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": ["Work", "Time", "Daily"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-verschieben",
+        "text": "verschieben",
+        "definition": "Etwas auf einen späteren Zeitpunkt legen."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-rimandare",
+        "text": "rimandare",
+        "definition": "Spostare qualcosa a un momento più tardo."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-postpone",
+        "text": "to postpone",
+        "definition": "To move something to a later time."
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_verbessern",
+    "concept_id": "concept-a2-verbessern",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Work", "Education"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-verbessern",
+        "text": "verbessern",
+        "definition": "Etwas besser machen als vorher."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-migliorare",
+        "text": "migliorare",
+        "definition": "Rendere qualcosa migliore di prima."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-improve",
+        "text": "to improve",
+        "definition": "To make something better than before."
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_vermeiden",
+    "concept_id": "concept-a2-vermeiden",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-vermeiden",
+        "text": "vermeiden",
+        "definition": "Versuchen, dass etwas nicht passiert oder dass man es nicht macht."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-evitare",
+        "text": "evitare",
+        "definition": "Cercare di fare in modo che qualcosa non succeda o di non farla."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-avoid",
+        "text": "to avoid",
+        "definition": "To try to stop something from happening or not do it."
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_erreichen",
+    "concept_id": "concept-a2-erreichen",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Travel", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-erreichen",
+        "text": "erreichen",
+        "definition": "An einen Ort gelangen oder ein Ziel verwirklichen.",
+        "usage_note": "Nicht im Sinn von jemanden telefonisch oder digital kontaktieren.",
+        "examples": [
+          "Wir müssen vor acht am Bahnhof sein.",
+          "Bis Dezember will sie ihr wichtigstes Ziel schaffen."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_across_place_and_goal_senses",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-raggiungere",
+        "text": "raggiungere",
+        "definition": "Arrivare in un luogo o conseguire un obiettivo.",
+        "usage_note": "Non nel senso di contattare qualcuno per telefono o in modo digitale.",
+        "examples": [
+          "Dobbiamo essere in stazione prima delle otto.",
+          "Entro dicembre vuole realizzare il suo obiettivo più importante."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_across_place_and_goal_senses",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-reach",
+        "text": "to reach",
+        "definition": "To get to a place or achieve a goal.",
+        "usage_note": "Not used here in the sense of contacting someone by phone or digitally.",
+        "examples": [
+          "We need to be at the station before eight.",
+          "By December she wants to achieve her biggest goal."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_across_place_and_goal_senses",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_erreichen_en_variant_bare",
+    "concept_id": "concept-a2-erreichen",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a2-reach-bare",
+        "text": "reach"
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_fehlen",
+    "concept_id": "concept-a2-fehlen",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Communication", "Education"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-fehlen",
+        "text": "fehlen",
+        "definition": "Nicht da sein, obwohl man gebraucht oder erwartet wird."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-mancare",
+        "text": "mancare",
+        "definition": "Non essere presente anche se sarebbe necessario o atteso."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-be-missing",
+        "text": "to be missing",
+        "aliases": ["to be absent", "be absent"],
+        "definition": "To not be there even though it is needed or expected."
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_stattfinden",
+    "concept_id": "concept-a2-stattfinden",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": ["Social", "Work", "Time"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-stattfinden",
+        "text": "stattfinden",
+        "definition": "Passieren oder organisiert werden."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-avere-luogo",
+        "text": "avere luogo",
+        "definition": "Succedere o essere organizzato."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-take-place",
+        "text": "to take place",
+        "aliases": ["to happen", "happen"],
+        "definition": "To happen or be organized."
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_sparen",
+    "concept_id": "concept-a2-sparen",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Work", "Money"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-sparen",
+        "text": "sparen",
+        "definition": "Weniger ausgeben oder etwas für später behalten."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-risparmiare",
+        "text": "risparmiare",
+        "definition": "Spendere meno o conservare qualcosa per dopo."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-save",
+        "text": "to save",
+        "definition": "To spend less or keep something for later."
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_verdienen",
+    "concept_id": "concept-a2-verdienen",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": ["Work", "Daily", "Money"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-verdienen",
+        "text": "verdienen",
+        "definition": "Durch Arbeit Geld bekommen."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-guadagnare",
+        "text": "guadagnare",
+        "definition": "Ricevere denaro attraverso il lavoro."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-earn",
+        "text": "to earn",
+        "definition": "To get money through work."
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_unterschreiben",
+    "concept_id": "concept-a2-unterschreiben",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": ["Work", "Communication", "Daily"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-unterschreiben",
+        "text": "unterschreiben",
+        "definition": "Den eigenen Namen auf ein Dokument schreiben."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-firmare",
+        "text": "firmare",
+        "definition": "Scrivere il proprio nome su un documento."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-sign",
+        "text": "to sign",
+        "definition": "To write your name on a document."
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_umziehen",
+    "concept_id": "concept-a2-umziehen-verb",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Home"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-umziehen-verb",
+        "text": "umziehen",
+        "definition": "In eine neue Wohnung oder ein neues Haus ziehen."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-traslocare",
+        "text": "traslocare",
+        "definition": "Andare a vivere in una nuova casa o appartamento."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-move-house",
+        "text": "to move house",
+        "aliases": [],
+        "definition": "To go and live in a new home."
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_zurueckgeben",
+    "concept_id": "concept-a2-zurueckgeben",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Social"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-zurueckgeben",
+        "text": "zurückgeben",
+        "definition": "Etwas wieder an die Person oder den Ort geben, von dem es kam."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-restituire",
+        "text": "restituire",
+        "definition": "Dare di nuovo qualcosa alla persona o al luogo da cui veniva."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-give-back",
+        "text": "to give back",
+        "aliases": ["to return", "return"],
+        "definition": "To give something again to the person or place it came from."
+      }
+    }
+  },
+  {
+    "source_key": "a2_adj_verfuegbar",
+    "concept_id": "concept-a2-verfuegbar",
+    "pos": "adj",
+    "level_auto": "A2",
+    "domain_tags": ["Work", "Travel", "Daily"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-verfuegbar",
+        "text": "verfügbar",
+        "definition": "So, dass man etwas bekommen oder benutzen kann."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-disponibile",
+        "text": "disponibile",
+        "definition": "In modo che si possa ottenere o usare."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-available",
+        "text": "available",
+        "definition": "Able to be obtained or used."
+      }
+    }
+  },
+  {
+    "source_key": "a2_adj_offiziell",
+    "concept_id": "concept-a2-offiziell",
+    "pos": "adj",
+    "level_auto": "A2",
+    "domain_tags": ["Work", "Communication", "Daily"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-offiziell",
+        "text": "offiziell",
+        "definition": "Von einer zuständigen Stelle bestätigt oder bekannt gemacht.",
+        "card_antonyms": ["inoffiziell"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-ufficiale",
+        "text": "ufficiale",
+        "definition": "Confermato o comunicato da un'autorità competente.",
+        "card_antonyms": ["non ufficiale"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-official",
+        "text": "official",
+        "definition": "Confirmed or announced by an authority.",
+        "card_antonyms": ["unofficial"]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adj_kostenlos",
+    "concept_id": "concept-a2-kostenlos",
+    "pos": "adj",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Travel", "Work"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-kostenlos",
+        "text": "kostenlos",
+        "definition": "So, dass man nichts bezahlen muss.",
+        "card_antonyms": ["kostenpflichtig"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-gratuito",
+        "text": "gratuito",
+        "definition": "In modo che non si debba pagare nulla.",
+        "card_antonyms": ["a pagamento"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-free",
+        "text": "free",
+        "definition": "Not costing any money.",
+        "card_antonyms": ["paid"]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adj_dringend",
+    "concept_id": "concept-a2-dringend",
+    "pos": "adj",
+    "level_auto": "A2",
+    "domain_tags": ["Work", "Time", "Daily"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-dringend",
+        "text": "dringend",
+        "definition": "So wichtig, dass es nicht warten sollte."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-urgente",
+        "text": "urgente",
+        "definition": "Così importante da non poter aspettare."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-urgent",
+        "text": "urgent",
+        "definition": "So important that it should not wait."
+      }
+    }
+  },
+  {
+    "source_key": "a2_adj_praktisch",
+    "concept_id": "concept-a2-praktisch",
+    "pos": "adj",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Work"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-praktisch",
+        "text": "praktisch",
+        "definition": "Nützlich und im Alltag gut zu verwenden.",
+        "card_antonyms": ["unpraktisch"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-pratico",
+        "text": "pratico",
+        "definition": "Utile e facile da usare nella vita di tutti i giorni.",
+        "card_antonyms": ["scomodo"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-practical",
+        "text": "practical",
+        "definition": "Useful and easy to use in everyday life.",
+        "card_antonyms": ["impractical"]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adj_aehnlich",
+    "concept_id": "concept-a2-aehnlich",
+    "pos": "adj",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-aehnlich",
+        "text": "ähnlich",
+        "definition": "Fast gleich oder in wichtigen Punkten gleich.",
+        "card_antonyms": ["unterschiedlich"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-simile",
+        "text": "simile",
+        "definition": "Quasi uguale o uguale in punti importanti.",
+        "card_antonyms": ["diverso"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-similar",
+        "text": "similar",
+        "definition": "Almost the same or the same in important ways.",
+        "card_antonyms": ["different"]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adj_unterschiedlich",
+    "concept_id": "concept-a2-unterschiedlich",
+    "pos": "adj",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-unterschiedlich",
+        "text": "unterschiedlich",
+        "definition": "Nicht gleich, sondern auf verschiedene Weise anders.",
+        "card_synonyms": ["verschieden"],
+        "card_antonyms": ["ähnlich"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-diverso",
+        "text": "diverso",
+        "definition": "Non uguale, ma differente in vari modi.",
+        "card_antonyms": ["simile"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-different",
+        "text": "different",
+        "definition": "Not the same, but unlike in one or more ways.",
+        "card_antonyms": ["similar"]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adj_lebendig",
+    "concept_id": "concept-a2-lebendig",
+    "pos": "adj",
+    "level_auto": "A2",
+    "domain_tags": ["Social", "Daily", "Characteristics"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-lebendig",
+        "text": "lebendig",
+        "definition": "Voll Energie, Bewegung oder interessanter Aktivität."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-vivace",
+        "text": "vivace",
+        "definition": "Pieno di energia, movimento o attività interessante."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-lively",
+        "text": "lively",
+        "definition": "Full of energy, movement, or interesting activity."
+      }
+    }
+  },
+  {
+    "source_key": "a2_adj_bequem",
+    "concept_id": "concept-a2-bequem",
+    "pos": "adj",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Travel", "Home"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-bequem",
+        "text": "bequem",
+        "definition": "So angenehm, dass man sich gut dabei fühlt.",
+        "card_antonyms": ["unbequem"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-comodo",
+        "text": "comodo",
+        "definition": "Così piacevole da farti sentire bene.",
+        "card_antonyms": ["scomodo"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-comfortable",
+        "text": "comfortable",
+        "definition": "Pleasant enough to make you feel at ease.",
+        "card_antonyms": ["uncomfortable"]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adv_deshalb",
+    "concept_id": "concept-a2-deshalb",
+    "pos": "adv",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Communication", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-deshalb",
+        "text": "deshalb",
+        "definition": "Aus diesem Grund."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-percio",
+        "text": "perciò",
+        "definition": "Per questo motivo."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-therefore",
+        "text": "therefore",
+        "definition": "For that reason."
+      }
+    }
+  },
+  {
+    "source_key": "a2_adv_draussen",
+    "concept_id": "concept-a2-draussen",
+    "pos": "adv",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Places"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-draussen",
+        "text": "draußen",
+        "definition": "Nicht in einem Gebäude oder Raum, sondern im Freien.",
+        "card_antonyms": ["drinnen"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-fuori",
+        "text": "fuori",
+        "definition": "Non dentro a un edificio o una stanza, ma all'aperto.",
+        "card_antonyms": ["dentro"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-outside",
+        "text": "outside",
+        "definition": "Not inside a building or room, but in the open air.",
+        "card_antonyms": ["inside"]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adv_drinnen",
+    "concept_id": "concept-a2-drinnen",
+    "pos": "adv",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Places"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-drinnen",
+        "text": "drinnen",
+        "definition": "In einem Gebäude oder Raum und nicht draußen.",
+        "card_antonyms": ["draußen"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-dentro",
+        "text": "dentro",
+        "definition": "In un edificio o una stanza e non fuori.",
+        "card_antonyms": ["fuori"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-inside",
+        "text": "inside",
+        "definition": "In a building or room and not outside.",
+        "card_antonyms": ["outside"]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adv_unterwegs",
+    "concept_id": "concept-a2-unterwegs",
+    "pos": "adv",
+    "level_auto": "A2",
+    "domain_tags": ["Travel", "Daily"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-unterwegs",
+        "text": "unterwegs",
+        "definition": "Auf dem Weg von einem Ort zu einem anderen."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-in-viaggio",
+        "text": "in viaggio",
+        "definition": "In movimento da un luogo a un altro."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-on-the-way",
+        "text": "on the way",
+        "definition": "Moving from one place to another."
+      }
+    }
+  },
+  {
+    "source_key": "a2_adv_bisher",
+    "concept_id": "concept-a2-bisher",
+    "pos": "adv",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Time"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-bisher",
+        "text": "bisher",
+        "definition": "Bis jetzt oder bis zu diesem Zeitpunkt."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-finora",
+        "text": "finora",
+        "definition": "Fino ad adesso o fino a questo momento."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-so-far",
+        "text": "so far",
+        "definition": "Up to now or until this point."
+      }
+    }
+  },
+  {
+    "source_key": "a2_adv_sonst",
+    "concept_id": "concept-a2-sonst",
+    "pos": "adv",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-sonst",
+        "text": "sonst",
+        "definition": "Wenn nicht, dann auf eine andere Weise oder in einem anderen Fall."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-altrimenti",
+        "text": "altrimenti",
+        "definition": "Se no, allora in un altro modo o in un altro caso."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-otherwise",
+        "text": "otherwise",
+        "definition": "If not, then in another way or case."
+      }
+    }
+  },
+  {
+    "source_key": "a2_adv_mindestens",
+    "concept_id": "concept-a2-mindestens",
+    "pos": "adv",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-mindestens",
+        "text": "mindestens",
+        "definition": "Nicht weniger als eine bestimmte Zahl oder Menge.",
+        "card_antonyms": ["höchstens"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-almeno",
+        "text": "almeno",
+        "definition": "Non meno di un certo numero o quantità.",
+        "card_antonyms": ["al massimo"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-at-least",
+        "text": "at least",
+        "definition": "Not less than a certain number or amount.",
+        "card_antonyms": ["at most"]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adv_ploetzlich",
+    "concept_id": "concept-a2-ploetzlich",
+    "pos": "adv",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Time"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-ploetzlich",
+        "text": "plötzlich",
+        "definition": "Ohne Vorwarnung und sehr schnell."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-improvvisamente",
+        "text": "improvvisamente",
+        "definition": "Senza preavviso e molto rapidamente."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-suddenly",
+        "text": "suddenly",
+        "definition": "Without warning and very quickly."
+      }
+    }
+  },
+  {
+    "source_key": "a2_chunk_im_moment",
+    "concept_id": "concept-a2-im-moment",
+    "pos": "chunk",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Time"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-im-moment",
+        "text": "im Moment",
+        "definition": "Jetzt gerade oder in dieser Zeit."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-al-momento",
+        "text": "al momento",
+        "definition": "Proprio adesso o in questo periodo."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-at-the-moment",
+        "text": "at the moment",
+        "definition": "Right now or during this period."
+      }
+    }
+  },
+  {
+    "source_key": "a2_chunk_so_schnell_wie_moeglich",
+    "concept_id": "concept-a2-so-schnell-wie-moeglich",
+    "pos": "chunk",
+    "level_auto": "A2",
+    "domain_tags": ["Work", "Time", "Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-so-schnell-wie-moeglich",
+        "text": "so schnell wie möglich",
+        "definition": "Mit maximaler Geschwindigkeit oder ohne unnötige Verzögerung."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-il-piu-presto-possibile",
+        "text": "il più presto possibile",
+        "definition": "Con la massima rapidità o senza ritardi inutili."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-as-soon-as-possible",
+        "text": "as soon as possible",
+        "definition": "With the greatest speed or without unnecessary delay."
+      }
+    }
+  },
+  {
+    "source_key": "a2_chunk_es_kommt_darauf_an",
+    "concept_id": "concept-a2-es-kommt-darauf-an",
+    "pos": "chunk",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Communication", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-es-kommt-darauf-an",
+        "text": "es kommt darauf an",
+        "definition": "Die Antwort ist nicht immer gleich, sondern von der Situation abhängig."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-dipende",
+        "text": "dipende",
+        "definition": "La risposta non è sempre la stessa, ma dipende dalla situazione."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-it-depends",
+        "text": "it depends",
+        "definition": "The answer is not always the same, but depends on the situation."
+      }
+    }
+  },
+  {
+    "source_key": "a2_chunk_unter_druck",
+    "concept_id": "concept-a2-unter-druck",
+    "pos": "chunk",
+    "level_auto": "A2",
+    "domain_tags": ["Work", "Social", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-unter-druck",
+        "text": "unter Druck",
+        "definition": "In einer Situation mit starkem Stress oder hohen Erwartungen."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-sotto-pressione",
+        "text": "sotto pressione",
+        "definition": "In una situazione con forte stress o aspettative alte."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-under-pressure",
+        "text": "under pressure",
+        "definition": "In a situation with strong stress or high expectations."
+      }
+    }
+  },
+  {
+    "source_key": "a2_chunk_im_durchschnitt",
+    "concept_id": "concept-a2-im-durchschnitt",
+    "pos": "chunk",
+    "level_auto": "A2",
+    "domain_tags": ["Work", "Education", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-im-durchschnitt",
+        "text": "im Durchschnitt",
+        "definition": "Wenn man mehrere Werte zusammen betrachtet und ihren Mittelwert meint."
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-in-media",
+        "text": "in media",
+        "definition": "Quando si guardano più valori insieme e si intende il loro valore medio."
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-on-average",
+        "text": "on average",
+        "definition": "When you look at several values together and mean their average value."
+      }
+    }
+  },
+  {
+    "source_key": "a2_chunk_auf_keinen_fall",
+    "concept_id": "concept-a2-auf-keinen-fall",
+    "pos": "chunk",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-auf-keinen-fall",
+        "text": "auf keinen Fall",
+        "definition": "Ganz sicher nicht.",
+        "card_antonyms": ["auf jeden Fall"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-in-nessun-caso",
+        "text": "in nessun caso",
+        "definition": "Assolutamente no.",
+        "card_antonyms": ["in ogni caso"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-by-no-means",
+        "text": "by no means",
+        "definition": "Absolutely not.",
+        "card_antonyms": ["in any case"]
+      }
+    }
+  }
+]

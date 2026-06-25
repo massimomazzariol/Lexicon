@@ -1,0 +1,675 @@
+[
+  {
+    "source_key": "core_verb_passen",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "passen",
+        "definition": "Mit etwas übereinstimmen oder gut dazu aussehen.",
+        "examples": [
+          "Das Hemd und die Hose passen sehr gut zusammen."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Contextual meaning",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "to match",
+        "aliases": [
+          "to fit",
+          "fit"
+        ],
+        "definition": "To agree with something or look good with it.",
+        "examples": [
+          "The shirt and the pants match very well together."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Contextual meaning",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "abbinare",
+        "aliases": [
+          "intonarsi",
+          "calzare"
+        ],
+        "definition": "Essere in accordo con qualcosa o stare bene assieme.",
+        "examples": [
+          "La camicia e i pantaloni si abbinano molto bene."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Contextual meaning",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_zwingen",
+    "pos": "verb",
+    "level_auto": "B1",
+    "domain_tags": [
+      "Social",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "zwingen",
+        "definition": "Jemanden gegen seinen Willen dazu bringen, etwas zu tun.",
+        "examples": [
+          "Niemand kann mich zwingen, das Dokument zu unterschreiben."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "to force",
+        "aliases": [
+          "to compel"
+        ],
+        "definition": "To make someone do something against their will.",
+        "examples": [
+          "No one can force me to sign the document."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "costringere",
+        "aliases": [
+          "forzare",
+          "obbligare"
+        ],
+        "definition": "Spingere qualcuno a fare qualcosa contro la sua volontà.",
+        "examples": [
+          "Nessuno può costringermi a firmare il documento."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_vertrauen",
+    "pos": "verb",
+    "level_auto": "B1",
+    "domain_tags": [
+      "Social",
+      "Emotions"
+    ],
+    "translations": {
+      "de": {
+        "text": "vertrauen",
+        "definition": "Sich auf jemanden oder etwas verlassen.",
+        "examples": [
+          "Ich kann meinem besten Freund blind vertrauen."
+        ],
+        "card_antonyms": [
+          "misstrauen"
+        ]
+      },
+      "en": {
+        "text": "to trust",
+        "aliases": [
+          "to rely on"
+        ],
+        "definition": "To rely on someone or something.",
+        "examples": [
+          "I can blindly trust my best friend."
+        ]
+      },
+      "it": {
+        "text": "fidarsi",
+        "aliases": [
+          "avere fiducia"
+        ],
+        "definition": "Fare affidamento su qualcuno o qualcosa.",
+        "examples": [
+          "Posso fidarmi ciecamente del mio migliore amico."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_beenden",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Work",
+      "Daily"
+    ],
+    "translations": {
+      "de": {
+        "text": "beenden",
+        "definition": "Etwas zu einem Abschluss bringen.",
+        "examples": [
+          "Bitte beenden Sie Ihre Aufgabe pünktlich."
+        ],
+        "card_antonyms": [
+          "anfangen",
+          "beginnen"
+        ],
+        "aliases": [
+          "abschließen"
+        ]
+      },
+      "en": {
+        "text": "to finish",
+        "aliases": [
+          "to end",
+          "to complete"
+        ],
+        "definition": "To bring something to a conclusion.",
+        "examples": [
+          "Please finish your task on time."
+        ]
+      },
+      "it": {
+        "text": "finire",
+        "aliases": [
+          "terminare",
+          "concludere"
+        ],
+        "definition": "Portare qualcosa a conclusione.",
+        "examples": [
+          "Per favore, terminate il vostro compito in orario."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_gehen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Movement"
+    ],
+    "translations": {
+      "de": {
+        "text": "gehen",
+        "definition": "Sich zu Fuß fortbewegen oder einen Ort verlassen.",
+        "examples": [
+          "Wir gehen jetzt langsam nach Hause."
+        ],
+        "card_antonyms": [
+          "kommen",
+          "stehen"
+        ]
+      },
+      "en": {
+        "text": "to go",
+        "aliases": [
+          "to walk",
+          "walk"
+        ],
+        "definition": "To move on foot or leave a place.",
+        "examples": [
+          "We are going home slowly now."
+        ]
+      },
+      "it": {
+        "text": "andare",
+        "aliases": [
+          "camminare"
+        ],
+        "definition": "Muoversi a piedi o lasciare un luogo.",
+        "examples": [
+          "Ora andiamo lentamente a casa."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_kommen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Movement"
+    ],
+    "translations": {
+      "de": {
+        "text": "kommen",
+        "definition": "Sich auf ein Ziel zubewegen.",
+        "examples": [
+          "Mein Bruder wird heute Abend spät kommen."
+        ],
+        "card_antonyms": [
+          "gehen"
+        ]
+      },
+      "en": {
+        "text": "to come",
+        "aliases": [
+          "to arrive"
+        ],
+        "definition": "To move toward a destination.",
+        "examples": [
+          "My brother will come late tonight."
+        ]
+      },
+      "it": {
+        "text": "venire",
+        "aliases": [
+          "arrivare"
+        ],
+        "definition": "Muoversi verso una destinazione.",
+        "examples": [
+          "Mio fratello verrà tardi stasera."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_sagen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Communication"
+    ],
+    "translations": {
+      "de": {
+        "text": "sagen",
+        "definition": "Worte sprechen, um etwas mitzuteilen.",
+        "examples": [
+          "Bitte sagen Sie mir die Wahrheit."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "to say",
+        "aliases": [
+          "to tell"
+        ],
+        "definition": "To speak words in order to communicate something.",
+        "examples": [
+          "Please say the truth to me."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "dire",
+        "definition": "Pronunciare parole per comunicare qualcosa.",
+        "examples": [
+          "Per favore, mi dica la verità."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_geben",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Social"
+    ],
+    "translations": {
+      "de": {
+        "text": "geben",
+        "definition": "Jemandem etwas in die Hand reichen oder überlassen.",
+        "examples": [
+          "Können Sie mir bitte das Buch geben?"
+        ],
+        "card_antonyms": [
+          "nehmen"
+        ]
+      },
+      "en": {
+        "text": "to give",
+        "aliases": [],
+        "definition": "To hand over or yield something to someone.",
+        "examples": [
+          "Could you please give me the book?"
+        ]
+      },
+      "it": {
+        "text": "dare",
+        "definition": "Consegnare o cedere qualcosa a qualcuno.",
+        "examples": [
+          "Può darmi il libro, per favore?"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_nehmen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Action"
+    ],
+    "translations": {
+      "de": {
+        "text": "nehmen",
+        "definition": "Etwas greifen und an sich bringen.",
+        "examples": [
+          "Ich werde den nächsten Bus nehmen."
+        ],
+        "card_antonyms": [
+          "geben"
+        ]
+      },
+      "en": {
+        "text": "to take",
+        "aliases": [],
+        "definition": "To grasp and bring something to oneself.",
+        "examples": [
+          "I will take the next bus."
+        ]
+      },
+      "it": {
+        "text": "prendere",
+        "definition": "Afferrare e portare qualcosa a sé.",
+        "examples": [
+          "Prenderò il prossimo autobus."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_denken",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "denken",
+        "definition": "Gedanken haben oder eine Meinung bilden.",
+        "examples": [
+          "Was denken Sie über dieses schwierige Thema?"
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct action opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "to think",
+        "aliases": [],
+        "definition": "To have thoughts or form an opinion.",
+        "examples": [
+          "What do you think about this difficult topic?"
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct action opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "pensare",
+        "aliases": [
+          "credere"
+        ],
+        "definition": "Avere pensieri o formarsi un'opinione.",
+        "examples": [
+          "Cosa ne pensa di questo argomento difficile?"
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct action opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_wissen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "wissen",
+        "definition": "Informationen über etwas im Gedächtnis haben.",
+        "examples": [
+          "Ich weiß nicht, ob er heute kommt."
+        ],
+        "card_antonyms": [
+          "glauben",
+          "ahnen"
+        ]
+      },
+      "en": {
+        "text": "to know",
+        "aliases": [],
+        "definition": "To have information about something in memory.",
+        "examples": [
+          "I do not know if he is coming today."
+        ]
+      },
+      "it": {
+        "text": "sapere",
+        "definition": "Avere informazioni su qualcosa nella memoria.",
+        "examples": [
+          "Non so se lui verrà oggi."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_sehen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Senses"
+    ],
+    "translations": {
+      "de": {
+        "text": "sehen",
+        "definition": "Mit den Augen wahrnehmen.",
+        "examples": [
+          "Ich kann das kleine Auto von hier aus sehen."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Basic sense verb",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "to see",
+        "aliases": [],
+        "definition": "To perceive with the eyes.",
+        "examples": [
+          "I can see the small car from here."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Basic sense verb",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "vedere",
+        "definition": "Percepire con gli occhi.",
+        "examples": [
+          "Riesco a vedere l'auto piccola da qui."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Basic sense verb",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_hoeren",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Senses"
+    ],
+    "translations": {
+      "de": {
+        "text": "hören",
+        "definition": "Geräusche oder Töne mit den Ohren wahrnehmen.",
+        "examples": [
+          "Wir hören abends gerne laute Musik."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Basic sense verb",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "to hear",
+        "aliases": [
+          "to listen",
+          "listen"
+        ],
+        "definition": "To perceive sounds or tones with the ears.",
+        "examples": [
+          "We like to hear loud music in the evening."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Basic sense verb",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "ascoltare",
+        "aliases": [
+          "sentire"
+        ],
+        "definition": "Percepire rumori o suoni con le orecchie.",
+        "examples": [
+          "La sera ci piace ascoltare musica ad alto volume."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Basic sense verb",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_arbeiten",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Work",
+      "Daily"
+    ],
+    "translations": {
+      "de": {
+        "text": "arbeiten",
+        "definition": "Einer beruflichen oder körperlichen Tätigkeit nachgehen.",
+        "examples": [
+          "Sie müssen heute bis spät am Abend arbeiten."
+        ],
+        "card_antonyms": [
+          "ausruhen",
+          "faulenzen"
+        ]
+      },
+      "en": {
+        "text": "to work",
+        "aliases": [],
+        "definition": "To engage in professional or physical activity.",
+        "examples": [
+          "They have to work until late in the evening today."
+        ]
+      },
+      "it": {
+        "text": "lavorare",
+        "definition": "Svolgere un'attività professionale o fisica.",
+        "examples": [
+          "Devono lavorare fino a tardi questa sera."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_lernen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Academic"
+    ],
+    "translations": {
+      "de": {
+        "text": "lernen",
+        "definition": "Sich Wissen oder Fähigkeiten aneignen.",
+        "examples": [
+          "Wir lernen zusammen eine neue Fremdsprache."
+        ],
+        "card_antonyms": [
+          "verlernen",
+          "vergessen"
+        ]
+      },
+      "en": {
+        "text": "to learn",
+        "aliases": [
+          "to study",
+          "study"
+        ],
+        "definition": "To acquire knowledge or skills.",
+        "examples": [
+          "We are learning a new foreign language together."
+        ]
+      },
+      "it": {
+        "text": "imparare",
+        "aliases": [
+          "studiare"
+        ],
+        "definition": "Acquisire conoscenze o abilità.",
+        "examples": [
+          "Stiamo imparando insieme una nuova lingua straniera."
+        ]
+      }
+    }
+  }
+]

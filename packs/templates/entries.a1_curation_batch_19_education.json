@@ -1,0 +1,863 @@
+[
+  {
+    "source_key": "core_noun_schule",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Education",
+      "Places"
+    ],
+    "translations": {
+      "de": {
+        "text": "Schule",
+        "definition": "Eine Einrichtung, in der Kinder und Jugendliche lernen.",
+        "examples": [
+          "Die Kinder gehen jeden Morgen in die Schule."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the school",
+        "definition": "An institution where children and adolescents learn.",
+        "examples": [
+          "The children go to school every morning."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la scuola",
+        "definition": "Un'istituzione in cui imparano bambini e giovani.",
+        "examples": [
+          "I bambini vanno a scuola ogni mattina."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_klasse",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Education"
+    ],
+    "translations": {
+      "de": {
+        "text": "Klasse",
+        "definition": "Eine Gruppe von Schülern, die zusammen unterrichtet werden.",
+        "examples": [
+          "In meiner neuen Klasse sind zwanzig Kinder."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the class",
+        "definition": "A group of students who are taught together.",
+        "examples": [
+          "There are twenty children in my new class."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la classe",
+        "definition": "Un gruppo di studenti che vengono istruiti insieme.",
+        "examples": [
+          "Nella mia nuova classe ci sono venti bambini."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_lehrer",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Education",
+      "Professions"
+    ],
+    "translations": {
+      "de": {
+        "text": "Lehrer",
+        "definition": "Eine Person, die Schüler in einer Schule unterrichtet.",
+        "examples": [
+          "Unser Mathelehrer ist heute leider krank."
+        ],
+        "card_antonyms": [
+          "der Schüler"
+        ]
+      },
+      "en": {
+        "text": "the male teacher",
+        "aliases": [
+          "the teacher"
+        ],
+        "definition": "A male person who instructs students in a school.",
+        "examples": [
+          "Our math teacher is unfortunately sick today."
+        ]
+      },
+      "it": {
+        "text": "l'insegnante",
+        "definition": "Una persona che istruisce gli studenti in una scuola.",
+        "examples": [
+          "Il nostro insegnante di matematica è purtroppo malato oggi."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_schueler",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Education"
+    ],
+    "translations": {
+      "de": {
+        "text": "Schüler",
+        "definition": "Eine männliche Person, die in einer Schule lernt.",
+        "examples": [
+          "Der neue Schüler ist sehr fleißig und ruhig."
+        ],
+        "card_antonyms": [
+          "der Lehrer"
+        ]
+      },
+      "en": {
+        "text": "the male student",
+        "aliases": [
+          "the student"
+        ],
+        "definition": "A male person who learns in a school.",
+        "examples": [
+          "The new student is very diligent and quiet."
+        ]
+      },
+      "it": {
+        "text": "lo studente",
+        "aliases": [
+          "l'alunno"
+        ],
+        "definition": "Una persona di sesso maschile che impara in una scuola.",
+        "examples": [
+          "Il nuovo studente è molto diligente e tranquillo."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_buch",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Education",
+      "Objects"
+    ],
+    "translations": {
+      "de": {
+        "text": "Buch",
+        "definition": "Ein bedrucktes Werk mit Seiten zum Lesen.",
+        "examples": [
+          "Ich lese jeden Abend ein spannendes Buch."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the book",
+        "definition": "A printed work with pages for reading.",
+        "examples": [
+          "I read an exciting book every evening."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "il libro",
+        "definition": "Un'opera stampata con pagine da leggere.",
+        "examples": [
+          "Leggo un libro avvincente ogni sera."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_heft",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Education",
+      "Objects"
+    ],
+    "translations": {
+      "de": {
+        "text": "Heft",
+        "definition": "Ein kleines Buch mit leeren Seiten zum Schreiben.",
+        "examples": [
+          "Schreiben Sie die Wörter schnell ins Heft."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the notebook",
+        "aliases": [
+          "the exercise book"
+        ],
+        "definition": "A small book with empty pages for writing.",
+        "examples": [
+          "Write the words quickly in the notebook."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "il quaderno",
+        "definition": "Un piccolo libro con pagine vuote per scrivere.",
+        "examples": [
+          "Scrivete le parole velocemente nel quaderno."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_stift",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Education",
+      "Objects"
+    ],
+    "translations": {
+      "de": {
+        "text": "Stift",
+        "definition": "Ein längliches Gerät, mit dem man schreibt oder zeichnet.",
+        "examples": [
+          "Können Sie mir bitte einen blauen Stift leihen?"
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the pen",
+        "definition": "An elongated device used for writing or drawing.",
+        "examples": [
+          "Can you please lend me a blue pen?"
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la penna",
+        "definition": "Uno strumento allungato usato per scrivere o disegnare.",
+        "examples": [
+          "Mi può prestare cortesemente una penna blu?"
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_lesen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Education",
+      "Action"
+    ],
+    "translations": {
+      "de": {
+        "text": "lesen",
+        "definition": "Geschriebene Worte erfassen und verstehen.",
+        "examples": [
+          "Das kleine Mädchen kann schon sehr gut lesen."
+        ],
+        "card_antonyms": [
+          "schreiben"
+        ]
+      },
+      "en": {
+        "text": "to read",
+        "aliases": [],
+        "definition": "To comprehend the meaning of written symbols.",
+        "examples": [
+          "The little girl can already read very well."
+        ]
+      },
+      "it": {
+        "text": "leggere",
+        "definition": "Cogliere e comprendere le parole scritte.",
+        "examples": [
+          "La bambina sa già leggere molto bene."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_schreiben",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Education",
+      "Action"
+    ],
+    "translations": {
+      "de": {
+        "text": "schreiben",
+        "definition": "Kombinationen von Buchstaben auf Papier aufzeichnen.",
+        "examples": [
+          "Ich muss heute noch eine wichtige E-Mail schreiben."
+        ],
+        "card_antonyms": [
+          "lesen"
+        ]
+      },
+      "en": {
+        "text": "to write",
+        "aliases": [],
+        "definition": "To mark letters or words on a surface with a pen.",
+        "examples": [
+          "I still have to write an important email today."
+        ]
+      },
+      "it": {
+        "text": "scrivere",
+        "definition": "Tracciare combinazioni di lettere sulla carta.",
+        "examples": [
+          "Oggi devo ancora scrivere una e-mail importante."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_fragen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Communication",
+      "Education"
+    ],
+    "translations": {
+      "de": {
+        "text": "fragen",
+        "definition": "Jemanden um eine Information bitten.",
+        "examples": [
+          "Darf ich Sie etwas Kurzes fragen?"
+        ],
+        "card_antonyms": [
+          "antworten"
+        ]
+      },
+      "en": {
+        "text": "to ask",
+        "aliases": [],
+        "definition": "To request information from someone.",
+        "examples": [
+          "May I ask you something briefly?"
+        ]
+      },
+      "it": {
+        "text": "domandare",
+        "aliases": [
+          "chiedere"
+        ],
+        "definition": "Chiedere un'informazione a qualcuno.",
+        "examples": [
+          "Posso chiederle una cosa brevemente?"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_antworten",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Communication",
+      "Education"
+    ],
+    "translations": {
+      "de": {
+        "text": "antworten",
+        "definition": "Auf eine Frage eine Rückmeldung geben.",
+        "examples": [
+          "Warum konnte er auf diese Frage nicht antworten?"
+        ],
+        "card_antonyms": [
+          "fragen"
+        ]
+      },
+      "en": {
+        "text": "to answer",
+        "aliases": [],
+        "definition": "To give a reaction or response to a question.",
+        "examples": [
+          "Why couldn't he answer this question?"
+        ]
+      },
+      "it": {
+        "text": "rispondere",
+        "definition": "Dare un riscontro a una domanda.",
+        "examples": [
+          "Perché non riusciva a rispondere a questa domanda?"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_wort",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Communication",
+      "Education"
+    ],
+    "translations": {
+      "de": {
+        "text": "Wort",
+        "definition": "Der kleinste selbständige Bestandteil der Sprache.",
+        "examples": [
+          "Das deutsche Wort ist manchmal sehr lang."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the word",
+        "definition": "The smallest meaningful unit of a language.",
+        "examples": [
+          "The German word is sometimes very long."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la parola",
+        "aliases": [
+          "il vocabolo"
+        ],
+        "definition": "Il più piccolo elemento indipendente della lingua.",
+        "examples": [
+          "La parola tedesca è a volte molto lunga."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_richtig",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Abstract",
+      "Education"
+    ],
+    "translations": {
+      "de": {
+        "text": "richtig",
+        "aliases": [
+          "korrekt"
+        ],
+        "definition": "Der Wahrheit oder den Regeln entsprechend.",
+        "examples": [
+          "Die Antwort auf deine Frage ist völlig richtig."
+        ],
+        "card_antonyms": [
+          "falsch"
+        ]
+      },
+      "en": {
+        "text": "correct",
+        "aliases": [
+          "right"
+        ],
+        "definition": "In accordance with truth or rules.",
+        "examples": [
+          "The answer to your question is entirely correct."
+        ]
+      },
+      "it": {
+        "text": "giusto",
+        "aliases": [
+          "corretto",
+          "esatto"
+        ],
+        "definition": "Conforme alla verità o alle regole.",
+        "examples": [
+          "La risposta alla tua domanda è del tutto giusta."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_falsch",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Abstract",
+      "Education"
+    ],
+    "translations": {
+      "de": {
+        "text": "falsch",
+        "definition": "Nicht wahr oder nicht den Regeln entsprechend.",
+        "examples": [
+          "Das war leider die ganz falsche Richtung."
+        ],
+        "card_antonyms": [
+          "richtig",
+          "wahr"
+        ]
+      },
+      "en": {
+        "text": "wrong",
+        "aliases": [
+          "incorrect"
+        ],
+        "definition": "Not in accordance with fact or truth.",
+        "examples": [
+          "Unfortunately, that was completely the wrong direction."
+        ]
+      },
+      "it": {
+        "text": "sbagliato",
+        "aliases": [
+          "errato"
+        ],
+        "definition": "Non vero o non conforme alle regole.",
+        "examples": [
+          "Purtroppo era la direzione completamente sbagliata."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_wichtig",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "wichtig",
+        "definition": "Von großer Bedeutung oder großem Einfluss.",
+        "examples": [
+          "Es ist sehr wichtig, jeden Tag Vokabeln zu lernen."
+        ],
+        "card_antonyms": [
+          "unwichtig"
+        ]
+      },
+      "en": {
+        "text": "important",
+        "definition": "Of great significance or value.",
+        "examples": [
+          "It is very important to learn vocabulary every day."
+        ]
+      },
+      "it": {
+        "text": "importante",
+        "definition": "Di grande significato o influenza.",
+        "examples": [
+          "È molto importante imparare vocaboli ogni giorno."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_verstehen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Abstract",
+      "Education"
+    ],
+    "translations": {
+      "de": {
+        "text": "verstehen",
+        "definition": "Den Sinn von etwas erfassen.",
+        "examples": [
+          "Ich kann dich wegen der lauten Musik nicht gut verstehen."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "to understand",
+        "aliases": [],
+        "definition": "To grasp the meaning of something.",
+        "examples": [
+          "I cannot understand you well because of the loud music."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "capire",
+        "aliases": [
+          "comprendere"
+        ],
+        "definition": "Cogliere il significato di qualcosa.",
+        "examples": [
+          "Non riesco a capirti bene a causa della musica alta."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_einfach",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "einfach",
+        "aliases": [
+          "leicht"
+        ],
+        "definition": "Ohne große Schwierigkeiten zu machen.",
+        "examples": [
+          "Diese Übung ist sehr einfach für mich."
+        ],
+        "card_antonyms": [
+          "schwierig",
+          "kompliziert"
+        ]
+      },
+      "en": {
+        "text": "simple",
+        "aliases": [
+          "easy"
+        ],
+        "definition": "Easily understood or done.",
+        "examples": [
+          "This exercise is very simple for me."
+        ]
+      },
+      "it": {
+        "text": "semplice",
+        "aliases": [
+          "facile"
+        ],
+        "definition": "Che si fa o si capisce senza grande difficoltà.",
+        "examples": [
+          "Questo esercizio è molto semplice per me."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_schwierig",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "schwierig",
+        "aliases": [
+          "schwer"
+        ],
+        "definition": "Nur mit großer Mühe machbar oder verständlich.",
+        "examples": [
+          "Die Prüfung am Ende des Jahres ist extrem schwierig."
+        ],
+        "card_antonyms": [
+          "einfach",
+          "leicht"
+        ]
+      },
+      "en": {
+        "text": "difficult",
+        "aliases": [
+          "hard"
+        ],
+        "definition": "Requiring much effort or skill to accomplish or understand.",
+        "examples": [
+          "The exam at the end of the year is extremely difficult."
+        ]
+      },
+      "it": {
+        "text": "difficile",
+        "definition": "Fattibile o comprensibile solo con grande fatica.",
+        "examples": [
+          "L'esame alla fine dell'anno è estremamente difficile."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_vielleicht",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "vielleicht",
+        "definition": "Drückt eine Möglichkeit oder Unsicherheit aus.",
+        "examples": [
+          "Vielleicht fahre ich heute Abend noch in die Stadt."
+        ],
+        "card_antonyms": [
+          "sicher",
+          "gewiss"
+        ]
+      },
+      "en": {
+        "text": "perhaps",
+        "aliases": [
+          "maybe"
+        ],
+        "definition": "Expresses possibility or uncertainty.",
+        "examples": [
+          "Perhaps I will still drive to the city tonight."
+        ]
+      },
+      "it": {
+        "text": "forse",
+        "definition": "Esprime una possibilità o incertezza.",
+        "examples": [
+          "Forse andrò ancora in città stasera."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_ problem",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "Problem",
+        "definition": "Eine schwierige, ungelöste Aufgabe oder Situation.",
+        "examples": [
+          "Kein Problem, ich helfe dir sofort."
+        ],
+        "card_antonyms": [
+          "die Lösung"
+        ]
+      },
+      "en": {
+        "text": "the problem",
+        "definition": "A difficult, unresolved task or situation.",
+        "examples": [
+          "No problem, I will help you immediately."
+        ]
+      },
+      "it": {
+        "text": "il problema",
+        "definition": "Un compito o una situazione difficile e irrisolta.",
+        "examples": [
+          "Nessun problema, ti aiuto subito."
+        ]
+      }
+    }
+  }
+]

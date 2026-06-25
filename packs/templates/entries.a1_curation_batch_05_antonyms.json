@@ -1,0 +1,268 @@
+[
+  {
+    "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
+    "source_key": "abholen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "2968a53b-5bbe-6225-6ae6-161f97d4377f",
+        "text": "abholen",
+        "card_antonyms": [
+          "bringen"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
+    "source_key": "abstimmen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "cc083efb-519f-0752-415a-554c6874eeeb",
+        "text": "abstimmen",
+        "card_antonyms": [
+          "ablehnen"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "2bfef665-f822-93b9-3f9d-233a6f838aba",
+    "source_key": "Anfrage",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "37d22cbe-a17e-2925-15de-7b980b89a6cb",
+        "text": "Anfrage",
+        "card_antonyms": [
+          "Antwort"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "87664a7f-b773-5acd-374e-4c359b635e7c",
+    "source_key": "Angebot",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "57c6dc73-520a-86af-08b3-2572ed0372b4",
+        "text": "Angebot",
+        "card_antonyms": [
+          "Nachfrage"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "62f4fd57-fcc0-8518-c58d-9ae9d5a67c46",
+    "source_key": "Ankunft",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "bde7e49e-ff0e-5069-3525-c42d63e1be18",
+        "text": "Ankunft",
+        "card_antonyms": [
+          "Abfahrt"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
+    "source_key": "anrufen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "a14c0b58-ac90-a9c2-0281-13c4031c6807",
+        "text": "anrufen",
+        "card_antonyms": [
+          "auflegen"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
+    "source_key": "Antrag",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "d466bf5b-c911-3bd6-a5a8-83d93e55cf34",
+        "text": "Antrag",
+        "card_antonyms": [
+          "Ablehnung"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "06afc93e-f8f6-3698-72af-3185f7367f80",
+    "source_key": "auf jeden Fall",
+    "pos": "chunk",
+    "translations": {
+      "de": {
+        "lexeme_id": "db01e1ce-b365-3b50-4cf8-59b1adcf14c9",
+        "text": "auf jeden Fall",
+        "card_antonyms": [
+          "vielleicht"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "c93359fa-c473-a404-22d8-d32702c89749",
+    "source_key": "aufstehen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "1c9625a9-ed13-147d-8aae-db85402ffb76",
+        "text": "aufstehen",
+        "card_antonyms": [
+          "sich hinlegen"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "04049abe-87cf-262a-e411-181972f0abb3",
+    "source_key": "aussteigen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "40b23236-566d-921f-b095-b51dc13e3744",
+        "text": "aussteigen",
+        "card_antonyms": [
+          "einsteigen"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "6bb4fa36-876a-6164-08c1-a9338bae6031",
+    "source_key": "bauen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "3b97be2d-d367-f126-e9f2-16debdb9ad90",
+        "text": "bauen",
+        "card_antonyms": [
+          "abreissen"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
+    "source_key": "beachten",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "83e384cf-014f-a634-7e37-51904880716b",
+        "text": "beachten",
+        "card_antonyms": [
+          "ignorieren"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "8f698c56-8c4a-4fde-1a01-9050abcb2a45",
+    "source_key": "Bedarf",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "3e36c2ac-d4d5-dc51-a37d-d9c20695c216",
+        "text": "Bedarf",
+        "card_antonyms": [
+          "Ueberfluss"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "18e272ee-84df-dc32-fa8c-4335c5ffaf5c",
+    "source_key": "betrachten",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "19e6632e-7dff-77ed-0c76-52aaab80d194",
+        "text": "betrachten",
+        "card_antonyms": [
+          "uebersehen"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "99419c2d-e802-269c-bafb-4f54f91cde4c",
+    "source_key": "erwerben",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "a37aaa9b-c0e1-8b8b-767e-184b83c15fde",
+        "text": "erwerben",
+        "card_antonyms": [
+          "verkaufen"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "8cdd7819-47ff-1fba-7ac4-dd44c3aec241",
+    "source_key": "Frage",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "ed521f14-02a6-6a3e-b8f4-19ddef0e332b",
+        "text": "Frage",
+        "card_antonyms": [
+          "Antwort"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "e65a87f9-7e04-cfff-d26c-a3b387c75ee5",
+    "source_key": "großartig",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "dd165c21-cdc0-293e-7d65-4ba13e18904c",
+        "text": "großartig",
+        "card_antonyms": [
+          "schrecklich"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
+    "source_key": "schicken",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "920c973f-3372-0ae9-0030-a1f02ad2d8ae",
+        "text": "schicken",
+        "card_antonyms": [
+          "empfangen"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "a73af94e-f267-9f64-bf2b-134fa2544a0c",
+    "source_key": "Überraschung",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "f143852a-cbbf-63ec-9afd-a83a07e1fc0e",
+        "text": "Überraschung",
+        "card_antonyms": [
+          "Erwartung"
+        ]
+      }
+    }
+  }
+]

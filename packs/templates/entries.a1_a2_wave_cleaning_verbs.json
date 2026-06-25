@@ -1,0 +1,270 @@
+[
+  {
+    "source_key": "a1_verb_waschen",
+    "concept_id": "concept-a1-waschen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Home",
+      "Health"
+    ],
+    "notes": "Editorial addition from the Italian pulire/lavare ambiguity audit. Modeled around washing with water and often soap. Kept separate from putzen = everyday cleaning of rooms or surfaces and reinigen = more formal or technical cleaning.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-waschen",
+        "text": "waschen",
+        "definition": "Mit Wasser und oft Seife Schmutz vom Körper, von den Händen, Haaren oder Kleidern entfernen.",
+        "usage_note": "Typisch für Körper, Hände, Haare, Kleidung oder Stoffe; nicht das normale Alltagsverb für Zimmer, Böden oder Fenster.",
+        "examples": [
+          "Vor dem Essen gehen die Kinder noch einmal ins Bad und benutzen Wasser und Seife für ihre Hände."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_wash_verb",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a1-lavare",
+        "text": "lavare",
+        "definition": "Togliere lo sporco dal corpo, dalle mani, dai capelli o dai vestiti usando acqua e spesso sapone.",
+        "usage_note": "Tipico per corpo, mani, capelli, vestiti o tessuti; non è il verbo più normale per stanze, pavimenti o superfici.",
+        "examples": [
+          "Prima di mangiare, i bambini tornano un attimo in bagno e usano acqua e sapone per le mani."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_wash_verb",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a1-wash",
+        "text": "to wash",
+        "definition": "To remove dirt from the body, hands, hair, or clothes using water and often soap.",
+        "usage_note": "Typical for the body, hands, hair, clothes, or fabrics; not the usual everyday verb for rooms, floors, or windows.",
+        "examples": [
+          "Before eating, the children go back to the bathroom and use soap and water on their hands."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_wash_verb",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "a1_verb_waschen_en_variant_bare",
+    "concept_id": "concept-a1-waschen",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-wash-bare",
+        "text": "wash"
+      }
+    }
+  },
+  {
+    "source_key": "a1_verb_putzen",
+    "concept_id": "concept-a1-putzen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Home",
+      "Action"
+    ],
+    "notes": "Editorial addition from the Italian pulire/lavare ambiguity audit. Modeled around everyday cleaning of rooms, surfaces, objects, windows, or shoes. Kept separate from waschen = wash with water and reinigen = more formal or technical cleaning.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-putzen",
+        "text": "putzen",
+        "definition": "Schmutz von Räumen, Flächen, Fenstern, Schuhen oder anderen Dingen entfernen und sie ordentlich machen.",
+        "usage_note": "Alltagsverb für Haushalt und Oberflächen; auch häufig in der Verbindung Zähne putzen.",
+        "examples": [
+          "Am Samstag entfernt er den Staub von allen Flächen in der Küche."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_clean_verb",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a1-pulire",
+        "text": "pulire",
+        "definition": "Togliere lo sporco da stanze, superfici, finestre, scarpe o altri oggetti e rimetterli in ordine.",
+        "usage_note": "Verbo quotidiano per casa e superfici; in tedesco si usa spesso anche per i denti.",
+        "examples": [
+          "Il sabato toglie la polvere da tutte le superfici della cucina."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_clean_verb",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a1-clean-verb",
+        "text": "to clean",
+        "definition": "To remove dirt from rooms, surfaces, windows, shoes, or other objects and make them orderly.",
+        "usage_note": "Everyday verb for household cleaning and surfaces; in German it is also common with teeth.",
+        "examples": [
+          "On Saturday he removes dust from every surface in the kitchen."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_clean_verb",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "a1_verb_putzen_en_variant_bare",
+    "concept_id": "concept-a1-putzen",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-clean-verb-bare",
+        "text": "clean"
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_reinigen",
+    "concept_id": "concept-a2-reinigen",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Daily",
+      "Home",
+      "Work"
+    ],
+    "notes": "Editorial addition from the Italian pulire/lavare ambiguity audit. Modeled around more formal or technical cleaning that removes dirt, residue, or other substances thoroughly. Kept separate from putzen = everyday household cleaning and waschen = washing with water.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-reinigen",
+        "text": "reinigen",
+        "definition": "Etwas gründlich oder fachlich von Schmutz, Rückständen oder anderen Stoffen befreien.",
+        "usage_note": "Formeller und technischer als putzen; häufig bei Filtern, Geräten, Oberflächen oder Materialien.",
+        "examples": [
+          "Vor der nächsten Benutzung muss der Filter sorgfältig von Rückständen befreit werden."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_formal_clean_verb",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-pulire-formal",
+        "text": "pulire",
+        "definition": "Liberare qualcosa in modo accurato o più tecnico da sporco, residui o altre sostanze.",
+        "usage_note": "Più formale o tecnico del normale pulire di casa; utile per filtri, dispositivi, superfici o materiali.",
+        "examples": [
+          "Prima dell'uso successivo, il filtro deve essere liberato con cura dai residui."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_formal_clean_verb",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-clean-formal",
+        "text": "to clean",
+        "definition": "To remove dirt, residue, or other substances from something in a thorough or more technical way.",
+        "usage_note": "More formal or technical than the everyday household sense; useful for filters, devices, surfaces, or materials.",
+        "examples": [
+          "Before the next use, the filter has to be cleared carefully of residue."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_formal_clean_verb",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_reinigen_en_variant_bare",
+    "concept_id": "concept-a2-reinigen",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a2-clean-formal-bare",
+        "text": "clean"
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_spuelen",
+    "concept_id": "concept-a2-spuelen",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Daily",
+      "Home",
+      "Food"
+    ],
+    "notes": "Editorial addition completing the waschen/putzen/reinigen cluster. Modeled around rinsing with water, especially dishes, glasses, or other objects. Kept separate from waschen = wash the body or clothes, putzen = everyday cleaning, and reinigen = more formal or technical cleaning. The toilet-flush sense is intentionally excluded.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-spuelen",
+        "text": "spülen",
+        "definition": "Mit Wasser Essensreste, Seife oder andere Rückstände von Geschirr, Gläsern oder anderen Dingen entfernen.",
+        "usage_note": "Oft bei Tellern, Tassen, Gläsern oder Haaren; hier nicht im Sinn von eine Toilette spülen.",
+        "examples": [
+          "Nach dem Essen lässt sie warmes Wasser über die Teller laufen, bevor alles in den Schrank kommt."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_rinse_verb",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-sciacquare",
+        "text": "sciacquare",
+        "definition": "Togliere con l'acqua residui di cibo, sapone o altre sostanze da piatti, bicchieri o altri oggetti.",
+        "usage_note": "Spesso per stoviglie, bicchieri o capelli; qui non nel senso di tirare l'acqua del water.",
+        "examples": [
+          "Dopo cena fa passare acqua calda sui piatti prima di rimetterli via."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_rinse_verb",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-rinse",
+        "text": "to rinse",
+        "definition": "To remove food, soap, or other residue with water from dishes, glasses, or other objects.",
+        "usage_note": "Often used for dishes, glasses, or hair; not used here in the sense of flushing a toilet.",
+        "examples": [
+          "After dinner, she runs warm water over the plates before putting them away."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_rinse_verb",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_spuelen_en_variant_bare",
+    "concept_id": "concept-a2-spuelen",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a2-rinse-bare",
+        "text": "rinse"
+      }
+    }
+  }
+]

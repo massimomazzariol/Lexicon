@@ -1,0 +1,819 @@
+[
+  {
+    "source_key": "core_noun_kopf",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Body"
+    ],
+    "translations": {
+      "de": {
+        "text": "Kopf",
+        "definition": "Der oberste Teil des Körpers.",
+        "examples": [
+          "Der Kopf tut mir weh."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the head",
+        "definition": "The uppermost part of the body.",
+        "examples": [
+          "The head hurts me."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la testa",
+        "aliases": [
+          "il capo"
+        ],
+        "definition": "La parte più alta del corpo.",
+        "examples": [
+          "La testa mi fa male."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_hand",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Body"
+    ],
+    "translations": {
+      "de": {
+        "text": "Hand",
+        "definition": "Der Teil des Arms mit fünf Fingern.",
+        "examples": [
+          "Sie hält die Hand ihres Kindes."
+        ],
+        "card_antonyms": [
+          "der Fuß"
+        ]
+      },
+      "en": {
+        "text": "the hand",
+        "definition": "The part of the arm with five fingers.",
+        "examples": [
+          "She holds the hand of her child."
+        ]
+      },
+      "it": {
+        "text": "la mano",
+        "definition": "La parte del braccio con cinque dita.",
+        "examples": [
+          "Lei tiene la mano del suo bambino."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_fuss",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Body"
+    ],
+    "translations": {
+      "de": {
+        "text": "Fuß",
+        "definition": "Der unterste Teil des Beins.",
+        "examples": [
+          "Der weiche Sand fühlt sich gut am Fuß an."
+        ],
+        "card_antonyms": [
+          "die Hand"
+        ]
+      },
+      "en": {
+        "text": "the foot",
+        "definition": "The lowest part of the leg.",
+        "examples": [
+          "The soft sand feels good on the foot."
+        ]
+      },
+      "it": {
+        "text": "il piede",
+        "definition": "La parte più bassa della gamba.",
+        "examples": [
+          "La sabbia soffice è piacevole sotto il piede."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_auge",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Body",
+      "Senses"
+    ],
+    "translations": {
+      "de": {
+        "text": "Auge",
+        "definition": "Das Sinnesorgan zum Sehen.",
+        "examples": [
+          "Er hat ein verletztes Auge."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the eye",
+        "definition": "The sense organ for seeing.",
+        "examples": [
+          "He has an injured eye."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "l'occhio",
+        "definition": "L'organo di senso per la vista.",
+        "examples": [
+          "Lui ha un occhio ferito."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_ohr",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Body",
+      "Senses"
+    ],
+    "translations": {
+      "de": {
+        "text": "Ohr",
+        "definition": "Das Sinnesorgan zum Hören.",
+        "examples": [
+          "Das rechte Ohr juckt."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the ear",
+        "definition": "The sense organ for hearing.",
+        "examples": [
+          "The right ear is itchy."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "l'orecchio",
+        "definition": "L'organo di senso per l'udito.",
+        "examples": [
+          "L'orecchio destro prude."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_bein",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Body"
+    ],
+    "translations": {
+      "de": {
+        "text": "Bein",
+        "definition": "Der Körperteil, mit dem man geht oder steht.",
+        "examples": [
+          "Er hat sich das Bein gebrochen."
+        ],
+        "card_antonyms": [
+          "der Arm"
+        ]
+      },
+      "en": {
+        "text": "the leg",
+        "definition": "The body part used for walking or standing.",
+        "examples": [
+          "He has broken his leg."
+        ]
+      },
+      "it": {
+        "text": "la gamba",
+        "definition": "La parte del corpo usata per camminare o stare in piedi.",
+        "examples": [
+          "Lui si è rotto la gamba."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_arm",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Body"
+    ],
+    "translations": {
+      "de": {
+        "text": "Arm",
+        "definition": "Der obere Körperteil zwischen Schulter und Hand.",
+        "examples": [
+          "Der Korb ist schwer für den Arm."
+        ],
+        "card_antonyms": [
+          "das Bein"
+        ]
+      },
+      "en": {
+        "text": "the arm",
+        "definition": "The upper body part between the shoulder and the hand.",
+        "examples": [
+          "The basket is heavy for the arm."
+        ]
+      },
+      "it": {
+        "text": "il braccio",
+        "definition": "La parte superiore del corpo tra la spalla e la mano.",
+        "examples": [
+          "Il cesto è pesante per il braccio."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_rücken",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Body"
+    ],
+    "translations": {
+      "de": {
+        "text": "Rücken",
+        "definition": "Die Rückseite des menschlichen Körpers.",
+        "examples": [
+          "Nach der langen Fahrt schmerzt der Rücken."
+        ],
+        "card_antonyms": [
+          "der Bauch"
+        ]
+      },
+      "en": {
+        "text": "the back",
+        "definition": "The rear surface of the human body.",
+        "examples": [
+          "After the long drive, the back hurts."
+        ]
+      },
+      "it": {
+        "text": "la schiena",
+        "aliases": [
+          "il dorso"
+        ],
+        "definition": "La superficie posteriore del corpo umano.",
+        "examples": [
+          "Dopo il lungo viaggio, la schiena fa male."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_bauch",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Body"
+    ],
+    "translations": {
+      "de": {
+        "text": "Bauch",
+        "definition": "Die Vorderseite des menschlichen Körpers in der Mitte.",
+        "examples": [
+          "Der Bauch ist voll vom vielen Essen."
+        ],
+        "card_antonyms": [
+          "der Rücken"
+        ]
+      },
+      "en": {
+        "text": "the belly",
+        "definition": "The front part of the human body in the middle.",
+        "examples": [
+          "The belly is full from eating so much."
+        ]
+      },
+      "it": {
+        "text": "la pancia",
+        "definition": "La parte anteriore del corpo umano al centro.",
+        "examples": [
+          "La pancia è piena per via del tanto cibo."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_hase",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Animals"
+    ],
+    "translations": {
+      "de": {
+        "text": "Hase",
+        "definition": "Ein Tier mit langen Ohren, das oft auf Feldern lebt.",
+        "examples": [
+          "Der Hase rennt schnell über das Gras."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the hare",
+        "aliases": [
+          "the rabbit"
+        ],
+        "definition": "An animal with long ears that often lives in fields.",
+        "examples": [
+          "The hare runs quickly across the grass."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la lepre",
+        "aliases": [
+          "il coniglio"
+        ],
+        "definition": "Un animale dalle orecchie lunghe che vive spesso nei campi.",
+        "examples": [
+          "La lepre corre veloce sull'erba."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_vogel",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Animals"
+    ],
+    "translations": {
+      "de": {
+        "text": "Vogel",
+        "definition": "Ein Tier mit Federn und Flügeln, das oft fliegen kann.",
+        "examples": [
+          "Der kleine Vogel singt früh am Morgen."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the bird",
+        "definition": "An animal with feathers and wings, often able to fly.",
+        "examples": [
+          "The little bird sings early in the morning."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "l'uccello",
+        "aliases": [
+          "l'uccellino"
+        ],
+        "definition": "Un animale con piume e ali, spesso capace di volare.",
+        "examples": [
+          "Il piccolo uccello canta la mattina presto."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_fisch",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Animals"
+    ],
+    "translations": {
+      "de": {
+        "text": "Fisch",
+        "definition": "Ein Tier, das im Wasser lebt und schwimmt.",
+        "examples": [
+          "Der große Fisch schwimmt im Fluss."
+        ],
+        "card_antonyms": [
+          "der Vogel"
+        ]
+      },
+      "en": {
+        "text": "the fish",
+        "definition": "An animal that lives in water and swims.",
+        "examples": [
+          "The big fish swims in the river."
+        ]
+      },
+      "it": {
+        "text": "il pesce",
+        "definition": "Un animale che vive nell'acqua e nuota.",
+        "examples": [
+          "Il grande pesce nuota nel fiume."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_kleid",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Clothes"
+    ],
+    "translations": {
+      "de": {
+        "text": "Kleid",
+        "definition": "Ein einteiliges Kleidungsstück, meist für Frauen.",
+        "examples": [
+          "Das neue Kleid ist sehr elegant."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No single direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the dress",
+        "definition": "A one-piece garment, usually for women.",
+        "examples": [
+          "The new dress is very elegant."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No single direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "il vestito",
+        "aliases": [
+          "l'abito"
+        ],
+        "definition": "Un capo di abbigliamento intero, solitamente per donne.",
+        "examples": [
+          "Il nuovo vestito è molto elegante."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No single direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_hose",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Clothes"
+    ],
+    "translations": {
+      "de": {
+        "text": "Hose",
+        "definition": "Ein Kleidungsstück für die Beine.",
+        "examples": [
+          "Die blaue Hose passt perfekt."
+        ],
+        "card_antonyms": [
+          "das T-Shirt",
+          "der Pullover"
+        ]
+      },
+      "en": {
+        "text": "the pants",
+        "aliases": [
+          "the trousers"
+        ],
+        "definition": "An item of clothing worn on the lower half of the body.",
+        "examples": [
+          "The blue trousers fit perfectly."
+        ]
+      },
+      "it": {
+        "text": "i pantaloni",
+        "definition": "Un capo di abbigliamento per le gambe.",
+        "examples": [
+          "I pantaloni blu calzano alla perfezione."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_schuh",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Clothes"
+    ],
+    "translations": {
+      "de": {
+        "text": "Schuh",
+        "definition": "Ein Kleidungsstück für den Fuß.",
+        "examples": [
+          "Der linke Schuh ist kaputt."
+        ],
+        "card_antonyms": [
+          "der Socken"
+        ]
+      },
+      "en": {
+        "text": "the shoe",
+        "definition": "An item of clothing worn on the foot.",
+        "examples": [
+          "The left shoe is broken."
+        ]
+      },
+      "it": {
+        "text": "la scarpa",
+        "definition": "Un capo di abbigliamento per il piede.",
+        "examples": [
+          "La scarpa sinistra è rotta."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_hemd",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Clothes"
+    ],
+    "translations": {
+      "de": {
+        "text": "Hemd",
+        "definition": "Ein Oberteil für Männer, meist mit Knöpfen.",
+        "examples": [
+          "Das weiße Hemd muss gebügelt werden."
+        ],
+        "card_antonyms": [
+          "die Hose"
+        ]
+      },
+      "en": {
+        "text": "the shirt",
+        "definition": "A piece of clothing for the upper body, usually with buttons.",
+        "examples": [
+          "The white shirt needs to be ironed."
+        ]
+      },
+      "it": {
+        "text": "la camicia",
+        "definition": "Un capo per la parte superiore del corpo, solitamente con bottoni.",
+        "examples": [
+          "La camicia bianca deve essere stirata."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_jacke",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Clothes"
+    ],
+    "translations": {
+      "de": {
+        "text": "Jacke",
+        "definition": "Ein Kleidungsstück, das man drinnen oder draußen überlegt.",
+        "examples": [
+          "Die dicke Jacke schützt vor dem Wind."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No single direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the jacket",
+        "definition": "A piece of clothing worn over others indoors or outdoors.",
+        "examples": [
+          "The thick jacket protects from the wind."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No single direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la giacca",
+        "aliases": [
+          "il giubbotto"
+        ],
+        "definition": "Un indumento che si indossa sopra ad altri al chiuso o all'aperto.",
+        "examples": [
+          "La giacca spessa protegge dal vento."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No single direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_ziehen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Movement"
+    ],
+    "translations": {
+      "de": {
+        "text": "ziehen",
+        "definition": "Kräftig an sich bewegen.",
+        "examples": [
+          "Du musst an der Tür kräftig ziehen."
+        ],
+        "card_antonyms": [
+          "drücken"
+        ]
+      },
+      "en": {
+        "text": "to pull",
+        "aliases": [],
+        "definition": "To apply force toward oneself.",
+        "examples": [
+          "You have to pull the door firmly."
+        ]
+      },
+      "it": {
+        "text": "tirare",
+        "definition": "Applicare forza verso di sé.",
+        "examples": [
+          "Devi tirare forte la porta."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_druecken",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Movement"
+    ],
+    "translations": {
+      "de": {
+        "text": "drücken",
+        "definition": "Kraft auf etwas ausüben, oft nach vorne.",
+        "examples": [
+          "Bitte den grünen Knopf drücken."
+        ],
+        "card_antonyms": [
+          "ziehen"
+        ]
+      },
+      "en": {
+        "text": "to push",
+        "aliases": [
+          "to press"
+        ],
+        "definition": "To apply force on something, often forward.",
+        "examples": [
+          "Please press the green button."
+        ]
+      },
+      "it": {
+        "text": "premere",
+        "aliases": [
+          "spingere"
+        ],
+        "definition": "Esercitare forza su qualcosa, spesso in avanti.",
+        "examples": [
+          "Per favore, premere il pulsante verde."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_schlafen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Body"
+    ],
+    "translations": {
+      "de": {
+        "text": "schlafen",
+        "definition": "Sich in einem Zustand der Ruhe befinden.",
+        "examples": [
+          "Ich möchte diese Nacht lange schlafen."
+        ],
+        "card_antonyms": [
+          "wachen",
+          "aufwachen"
+        ]
+      },
+      "en": {
+        "text": "to sleep",
+        "aliases": [],
+        "definition": "To be in a state of rest.",
+        "examples": [
+          "I want to sleep late tonight."
+        ]
+      },
+      "it": {
+        "text": "dormire",
+        "definition": "Trovarsi in uno stato di riposo.",
+        "examples": [
+          "Voglio dormire a lungo questa notte."
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,733 @@
+[
+  {
+    "source_key": "b2_verb_vereinbaren",
+    "concept_id": "concept-b2-vereinbaren",
+    "pos": "verb",
+    "level_auto": "B2",
+    "domain_tags": ["Work", "Communication", "Social"],
+    "notes": "Advanced family expansion around concept-b1-vereinbarung. This branch models the verb vereinbaren only in the sense of agreeing on or settling a concrete point, date, or condition together.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-vereinbaren",
+        "text": "vereinbaren",
+        "lemma": "vereinbaren",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Mit jemandem gemeinsam einen Termin, eine Regel oder eine Bedingung festlegen.",
+        "usage_note": "Hier geht es um das gemeinsame Festlegen oder Absprechen eines konkreten Punkts.",
+        "examples": [
+          "Nach dem Gespräch steht der Termin für nächste Woche fest."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_agree_on_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-concordare",
+        "text": "concordare",
+        "lemma": "concordare",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Stabilire insieme con qualcuno una data, una regola o una condizione concreta.",
+        "usage_note": "Qui indica l'accordarsi su un punto preciso, non una trattativa lunga o complessa.",
+        "examples": [
+          "Dopo il colloquio, la data per la settimana prossima è ormai fissata."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_agree_on_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-agree-on",
+        "text": "to agree on",
+        "lemma": "agree on",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To settle or fix a date, rule, or condition together with someone.",
+        "usage_note": "This covers agreeing on a specific point, date, or condition.",
+        "examples": [
+          "After the meeting, the date for next week is now fixed."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_agree_on_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "b2_verb_vereinbaren_en_bare_variant",
+    "concept_id": "concept-b2-vereinbaren",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-b2-agree-on-bare",
+        "text": "agree on"
+      }
+    }
+  },
+  {
+    "source_key": "b2_adj_verbindlich_binding",
+    "concept_id": "concept-b2-verbindlich-binding",
+    "pos": "adj",
+    "level_auto": "B2",
+    "domain_tags": ["Work", "Communication", "Abstract"],
+    "notes": "Advanced family expansion around agreement and obligation language. This branch models verbindlich only in the binding, official, or obligatory sense, not the interpersonal sense of polite or obliging behavior.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-verbindlich-binding",
+        "text": "verbindlich",
+        "lemma": "verbindlich",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Offiziell geltend oder so festgelegt, dass man sich daran halten muss.",
+        "usage_note": "Hier nur der Sinn von bindend oder verpflichtend, nicht die Bedeutung höflich oder zuvorkommend.",
+        "examples": [
+          "Ab Montag gilt der Plan für alle Teams offiziell."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "contextual_opposite_varies_for_binding_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-vincolante",
+        "text": "vincolante",
+        "lemma": "vincolante",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ufficialmente valido o stabilito in modo tale da dover essere rispettato.",
+        "usage_note": "Qui solo nel senso di obbligatorio o impegnativo sul piano formale.",
+        "examples": [
+          "Da lunedì il piano vale ufficialmente per tutti i team."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "contextual_opposite_varies_for_binding_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-binding",
+        "text": "binding",
+        "lemma": "binding",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Officially valid or fixed in a way that has to be respected.",
+        "usage_note": "Only the binding or obligatory sense is modeled here.",
+        "examples": [
+          "From Monday onward, the plan officially applies to every team."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "contextual_opposite_varies_for_binding_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "b2_noun_verhandlung_negotiation",
+    "concept_id": "concept-b2-verhandlung-negotiation",
+    "pos": "noun",
+    "level_auto": "B2",
+    "domain_tags": ["Work", "Communication", "Social"],
+    "notes": "Advanced family expansion around agreement and negotiation language. This branch models Verhandlung only in the sense of negotiation or talks, not the courtroom-trial sense.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-verhandlung-negotiation",
+        "text": "Verhandlung",
+        "lemma": "Verhandlung",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ein Gespraech oder eine Reihe von Gespraechen, in denen Bedingungen, Preise oder Entscheidungen ausgehandelt werden.",
+        "usage_note": "Hier nur der Sinn von Verhandlung als Gespraech oder Negotiation, nicht Gerichtsverhandlung.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Verhandlungen",
+        "examples": [
+          "Die Gespräche über den Vertrag dauern schon den ganzen Morgen."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_negotiation_noun",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-trattativa",
+        "text": "la trattativa",
+        "lemma": "trattativa",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Una discussione o una serie di discussioni in cui si cercano di definire condizioni, prezzi o decisioni.",
+        "usage_note": "Qui solo nel senso di negoziazione, non di udienza o processo.",
+        "examples": [
+          "I colloqui sul contratto vanno avanti già da tutta la mattina."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_negotiation_noun",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-negotiation",
+        "text": "the negotiation",
+        "lemma": "negotiation",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "A discussion or series of discussions in which conditions, prices, or decisions are worked out.",
+        "usage_note": "Only the negotiation or talks sense is modeled here, not the courtroom-trial sense.",
+        "examples": [
+          "The talks about the contract have already lasted all morning."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_negotiation_noun",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "b2_noun_verhandlung_negotiation_bare_variants",
+    "concept_id": "concept-b2-verhandlung-negotiation",
+    "pos": "noun",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-b2-trattativa-bare",
+        "text": "trattativa"
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-negotiation-bare",
+        "text": "negotiation"
+      }
+    }
+  },
+  {
+    "source_key": "b2_verb_verhandeln_negotiation",
+    "concept_id": "concept-b2-verhandeln-negotiation",
+    "pos": "verb",
+    "level_auto": "B2",
+    "domain_tags": ["Work", "Communication", "Social"],
+    "notes": "Advanced family expansion around negotiation language. This branch models verhandeln only in the negotiation sense of discussing terms or conditions, not the courtroom sense of trying a case.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-verhandeln-negotiation",
+        "text": "verhandeln",
+        "lemma": "verhandeln",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Mit einer anderen Seite ueber Bedingungen, Interessen oder Entscheidungen sprechen, um zu einer Loesung zu kommen.",
+        "usage_note": "Hier nur im Sinn von Bedingungen oder Interessen besprechen, nicht einen Fall vor Gericht behandeln.",
+        "examples": [
+          "Beide Seiten sprechen mehrere Stunden über die neuen Bedingungen."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_negotiate_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-negoziare",
+        "text": "negoziare",
+        "lemma": "negoziare",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Discutere con un'altra parte condizioni, interessi o decisioni per arrivare a un'intesa.",
+        "usage_note": "Qui solo nel senso di trattare o discutere condizioni per trovare un accordo.",
+        "examples": [
+          "Le due parti parlano per ore delle nuove condizioni."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_negotiate_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-negotiate",
+        "text": "to negotiate",
+        "lemma": "negotiate",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To discuss terms, interests, or decisions with another side in order to reach an agreement.",
+        "usage_note": "This covers discussing terms to reach an agreement.",
+        "examples": [
+          "The two sides talk for hours about the new terms."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_negotiate_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "b2_verb_verhandeln_negotiation_en_bare_variant",
+    "concept_id": "concept-b2-verhandeln-negotiation",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-b2-negotiate-bare",
+        "text": "negotiate"
+      }
+    }
+  },
+  {
+    "source_key": "c1_verb_aushandeln",
+    "concept_id": "concept-c1-aushandeln",
+    "pos": "verb",
+    "level_auto": "C1",
+    "domain_tags": ["Work", "Communication", "Social"],
+    "notes": "Advanced family expansion around negotiation language. This branch models aushandeln as negotiating specific terms until a concrete result is fixed. It stays separate from generic verhandeln.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-aushandeln",
+        "text": "aushandeln",
+        "lemma": "aushandeln",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Durch Verhandlungen schrittweise zu einem konkret festgelegten Ergebnis oder Detail kommen.",
+        "usage_note": "Hier ist das Ergebnis staerker im Fokus als beim allgemeineren verhandeln.",
+        "examples": [
+          "Nach mehreren Gesprächen steht der endgültige Preis endlich fest."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_hammer_out_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-pattuire",
+        "text": "pattuire",
+        "lemma": "pattuire",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Definire con trattative i dettagli concreti di un accordo fino a un risultato preciso.",
+        "usage_note": "Qui l'attenzione è sul definire negoziando un esito concreto, non sul discutere in generale.",
+        "examples": [
+          "Dopo diversi incontri, il prezzo finale è ormai fissato."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_hammer_out_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-hammer-out",
+        "text": "to hammer out",
+        "lemma": "hammer out",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To work out specific terms through negotiation until a concrete result is settled.",
+        "usage_note": "This is more outcome-focused than the broader verb to negotiate.",
+        "examples": [
+          "After several rounds of talks, the final price is now settled."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_hammer_out_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "c1_verb_aushandeln_en_bare_variant",
+    "concept_id": "concept-c1-aushandeln",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-c1-hammer-out-bare",
+        "text": "hammer out"
+      }
+    }
+  },
+  {
+    "source_key": "b2_verb_leisten_achieve",
+    "concept_id": "concept-b2-leisten-achieve",
+    "pos": "verb",
+    "level_auto": "B2",
+    "domain_tags": ["Work", "Education", "Abstract"],
+    "notes": "Advanced family expansion around concept-b1-leistung. This branch models leisten only in the sense of accomplishing, carrying out, or producing significant output. The afford sense in sich etwas leisten and other branches stay separate.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-leisten-achieve",
+        "text": "leisten",
+        "lemma": "leisten",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Mit Einsatz etwas schaffen, erreichen oder als Ergebnis hervorbringen.",
+        "usage_note": "Hier nur im Sinn von etwas erreichen oder zustande bringen, nicht im Sinn von sich etwas leisten = bezahlen koennen.",
+        "examples": [
+          "Trotz wenig Zeit schafft das kleine Team in kurzer Zeit sehr viel."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_accomplish_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-realizzare",
+        "text": "realizzare",
+        "lemma": "realizzare",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Riuscire a ottenere o portare a termine qualcosa con impegno e lavoro.",
+        "usage_note": "Qui solo nel senso di ottenere o compiere qualcosa, non nel senso economico di potersi permettere qualcosa.",
+        "examples": [
+          "Nonostante il poco tempo, il piccolo team ottiene molto in poche ore."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_accomplish_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-accomplish",
+        "text": "to accomplish",
+        "lemma": "accomplish",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To achieve, carry out, or produce something through effort.",
+        "usage_note": "Only the achieve or carry out sense is modeled here, not the afford sense.",
+        "examples": [
+          "Despite the limited time, the small team gets a lot done in just a few hours."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_accomplish_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "b2_verb_leisten_achieve_en_bare_variant",
+    "concept_id": "concept-b2-leisten-achieve",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-b2-accomplish-bare",
+        "text": "accomplish"
+      }
+    }
+  },
+  {
+    "source_key": "c1_verb_erbringen_provide",
+    "concept_id": "concept-c1-erbringen-provide",
+    "pos": "verb",
+    "level_auto": "C1",
+    "domain_tags": ["Work", "Communication", "Abstract"],
+    "notes": "Advanced family expansion around output and formal results language. This branch models erbringen in the formal sense of providing or producing a result, proof, service, or contribution. It stays separate from verbringen = spend time somewhere.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-erbringen-provide",
+        "text": "erbringen",
+        "lemma": "erbringen",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Etwas formell oder sachlich als Ergebnis, Nachweis, Leistung oder Beitrag liefern.",
+        "usage_note": "Hauefig in formellen, beruflichen oder sachlichen Kontexten, zum Beispiel fuer Nachweise, Leistungen oder Beitraege.",
+        "examples": [
+          "Der Bericht soll klar zeigen, welche Ergebnisse am Ende vorliegen."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_formal_provide_result_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-fornire",
+        "text": "fornire",
+        "lemma": "fornire",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Presentare o mettere a disposizione in modo formale un risultato, una prova, un servizio o un contributo.",
+        "usage_note": "Qui in senso formale e orientato al risultato, non come semplice dare quotidiano.",
+        "examples": [
+          "Il rapporto deve mostrare con chiarezza quali risultati sono disponibili alla fine."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_formal_provide_result_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-provide",
+        "text": "to provide",
+        "lemma": "provide",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To formally deliver or make available a result, proof, service, or contribution.",
+        "usage_note": "This covers the formal result-oriented sense, not every everyday use of give or bring.",
+        "examples": [
+          "The report is meant to show clearly which results are available in the end."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_formal_provide_result_verb",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "c1_verb_erbringen_provide_en_bare_variant",
+    "concept_id": "concept-c1-erbringen-provide",
+    "pos": "verb",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-c1-provide-bare",
+        "text": "provide"
+      }
+    }
+  },
+  {
+    "source_key": "c1_adj_leistungsfaehig",
+    "concept_id": "concept-c1-leistungsfaehig",
+    "pos": "adj",
+    "level_auto": "C1",
+    "domain_tags": ["Work", "Education", "Abstract"],
+    "notes": "Advanced family expansion around concept-b1-leistung. This branch models leistungsfähig in the sense of being able to perform strongly, effectively, or reliably under demand.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-leistungsfaehig",
+        "text": "leistungsfähig",
+        "lemma": "leistungsfähig",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In der Lage, auch unter Belastung stark, effektiv und zuverlaessig zu arbeiten oder Ergebnisse zu erzielen.",
+        "usage_note": "Kann sich auf Menschen, Teams, Systeme oder Geraete beziehen.",
+        "examples": [
+          "Das System bleibt auch bei hoher Belastung schnell und stabil."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_high_performance_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-performante",
+        "text": "performante",
+        "lemma": "performante",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Capace di lavorare o produrre risultati in modo forte, efficace e affidabile anche sotto carico.",
+        "usage_note": "Puo riferirsi a persone, team, sistemi o dispositivi.",
+        "examples": [
+          "Il sistema resta rapido e stabile anche sotto un carico elevato."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_high_performance_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-high-performing",
+        "text": "high-performing",
+        "lemma": "high-performing",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Able to work or produce results strongly, effectively, and reliably even under strain.",
+        "usage_note": "This can describe people, teams, systems, or devices.",
+        "examples": [
+          "The system stays fast and stable even under heavy load."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_high_performance_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "c1_noun_leistungsfaehigkeit",
+    "concept_id": "concept-c1-leistungsfaehigkeit",
+    "pos": "noun",
+    "level_auto": "C1",
+    "domain_tags": ["Work", "Education", "Abstract"],
+    "notes": "Advanced family expansion around concept-b1-leistung. This branch models Leistungsfähigkeit as the capacity to perform well, especially under requirements or strain.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-leistungsfaehigkeit",
+        "text": "Leistungsfähigkeit",
+        "lemma": "Leistungsfähigkeit",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Die Faehigkeit, unter Anforderungen oder Belastung gute und zuverlaessige Ergebnisse zu liefern.",
+        "usage_note": "Kann sich auf Menschen, Gruppen, Maschinen oder Systeme beziehen.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Leistungsfähigkeiten",
+        "examples": [
+          "Die Untersuchung zeigt, wie gut der Motor unter Belastung arbeitet."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_performance_capacity_noun",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-capacita-di-rendimento",
+        "text": "la capacità di rendimento",
+        "lemma": "capacità di rendimento",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "La capacità di fornire risultati buoni e affidabili anche in presenza di richieste o carico.",
+        "usage_note": "Puo riferirsi a persone, gruppi, macchine o sistemi.",
+        "examples": [
+          "L'analisi mostra quanto bene il motore lavori sotto carico."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_performance_capacity_noun",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-capacity-to-perform",
+        "text": "the capacity to perform",
+        "lemma": "capacity to perform",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "The ability to deliver good and reliable results even under requirements or strain.",
+        "usage_note": "This can refer to people, teams, machines, or systems.",
+        "examples": [
+          "The analysis shows how well the engine works under load."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_performance_capacity_noun",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "c1_noun_leistungsfaehigkeit_bare_variants",
+    "concept_id": "concept-c1-leistungsfaehigkeit",
+    "pos": "noun",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-c1-capacita-di-rendimento-bare",
+        "text": "capacità di rendimento"
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-capacity-to-perform-bare",
+        "text": "capacity to perform"
+      }
+    }
+  },
+  {
+    "source_key": "c2_adj_ueberragend",
+    "concept_id": "concept-c2-ueberragend",
+    "pos": "adj",
+    "level_auto": "C2",
+    "domain_tags": ["Work", "Education", "Abstract"],
+    "notes": "Advanced evaluation branch connected to the performance and achievement family. This branch models überragend as clearly superior, exceptional, or well above an already strong standard.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-ueberragend",
+        "text": "überragend",
+        "lemma": "überragend",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Deutlich besser als andere oder weit ueber einem bereits hohen Standard liegend.",
+        "usage_note": "Stark wertend und hoeher als nur gut oder sehr gut.",
+        "examples": [
+          "Unter vielen starken Beiträgen liegt seine Arbeit klar vorne."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_outstanding_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-eccezionale",
+        "text": "eccezionale",
+        "lemma": "eccezionale",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Molto al di sopra degli altri o nettamente oltre un livello già alto.",
+        "usage_note": "Valutazione forte, più intensa di semplicemente buono o molto buono.",
+        "examples": [
+          "Tra molti contributi forti, il suo lavoro risulta chiaramente davanti agli altri."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_outstanding_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-outstanding",
+        "text": "outstanding",
+        "lemma": "outstanding",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Clearly better than others or far above an already high standard.",
+        "usage_note": "A strong evaluative word, stronger than merely good or very good.",
+        "examples": [
+          "Among many strong contributions, his work stands clearly ahead of the rest."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_outstanding_adjective",
+          "reviewed_at": "2026-03-30"
+        }
+      }
+    }
+  }
+]

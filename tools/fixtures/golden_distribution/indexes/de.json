@@ -1,0 +1,22 @@
+{
+  "contract_version": "0.1.0",
+  "language_code": "de",
+  "generated_at": "2026-01-01T00:00:00.000Z",
+  "namespaces": [],
+  "chunks": [
+    {
+      "contract_version": "0.1.0",
+      "chunk_id": "lexicon.de.a1.golden",
+      "manifest_path": "chunks/de/lexicon.de.a1.golden/manifest.json",
+      "content_version": "1.0.0",
+      "content_hash": "sha256:7d2a589acaed5aaea1cc4f48421793d49f498f362614564b6ec78ca98cf8ffbf",
+      "levels_supported": [
+        "A1"
+      ],
+      "domains": [
+        "food"
+      ],
+      "updated_at": "2026-01-01T00:00:00.000Z"
+    }
+  ]
+}

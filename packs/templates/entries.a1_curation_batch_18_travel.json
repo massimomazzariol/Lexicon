@@ -1,0 +1,833 @@
+[
+  {
+    "source_key": "core_noun_stadt",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Travel",
+      "Places"
+    ],
+    "translations": {
+      "de": {
+        "text": "Stadt",
+        "definition": "Ein großer, dicht bebauter Ort, in dem viele Menschen leben.",
+        "examples": [
+          "Ich wohne mitten in der großen Stadt."
+        ],
+        "card_antonyms": [
+          "das Dorf",
+          "das Land"
+        ]
+      },
+      "en": {
+        "text": "the city",
+        "definition": "A large, densely populated place where people live.",
+        "examples": [
+          "I live right in the middle of the large city."
+        ]
+      },
+      "it": {
+        "text": "la città",
+        "definition": "Un luogo grande e densamente costruito in cui vivono molte persone.",
+        "examples": [
+          "Abito nel mezzo della grande città."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_land",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Travel",
+      "Places"
+    ],
+    "translations": {
+      "de": {
+        "text": "Land",
+        "definition": "Die ländliche Gegend außerhalb der Stadt oder ein ganzer Staat.",
+        "examples": [
+          "Meine Großeltern leben ruhig auf dem Land."
+        ],
+        "card_antonyms": [
+          "die Stadt"
+        ]
+      },
+      "en": {
+        "text": "the country",
+        "definition": "The rural area outside the city, or a whole nation.",
+        "examples": [
+          "My grandparents live peacefully in the country."
+        ]
+      },
+      "it": {
+        "text": "la campagna",
+        "definition": "L'area rurale fuori città o un intero stato.",
+        "examples": [
+          "I miei nonni vivono tranquillamente in campagna."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_weg",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Travel",
+      "Places"
+    ],
+    "translations": {
+      "de": {
+        "text": "Weg",
+        "definition": "Eine Route oder Spur, um von einem Ort zum anderen zu kommen.",
+        "examples": [
+          "Können Sie mir bitte den Weg zum Bahnhof zeigen?"
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the way",
+        "definition": "A route or track to get from one place to another.",
+        "examples": [
+          "Can you please show me the way to the train station?"
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la via",
+        "definition": "Un percorso o tracciato per andare da un luogo all'altro.",
+        "examples": [
+          "Può mostrarmi gentilmente la strada per la stazione?"
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_strasse",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Travel",
+      "Places"
+    ],
+    "translations": {
+      "de": {
+        "text": "Straße",
+        "definition": "Ein befestigter Weg für Autos und Menschen.",
+        "examples": [
+          "Die neue Straße ist sehr breit und sicher."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the street",
+        "definition": "A paved route for cars and people.",
+        "examples": [
+          "The new street is very wide and safe."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la strada",
+        "aliases": [
+          "la via"
+        ],
+        "definition": "Una via pavimentata per auto e persone.",
+        "examples": [
+          "La nuova strada è molto larga e sicura."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_platz",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Places"
+    ],
+    "translations": {
+      "de": {
+        "text": "Platz",
+        "definition": "Ein offener Bereich in einer Stadt oder ein Ort zum Sitzen.",
+        "examples": [
+          "Dieser große Platz im Zentrum ist sehr bekannt."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the square",
+        "definition": "An open area in a town or a space to sit.",
+        "examples": [
+          "This large square in the center is very famous."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la piazza",
+        "definition": "Un'area aperta in una città o un luogo dove sedersi.",
+        "examples": [
+          "Questa grande piazza in centro è molto famosa."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_zug",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Travel"
+    ],
+    "translations": {
+      "de": {
+        "text": "Zug",
+        "aliases": [
+          "die Bahn"
+        ],
+        "definition": "Ein Transportmittel auf Schienen.",
+        "examples": [
+          "Der nächste Zug fährt in zehn Minuten ab."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Vehicle type",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the train",
+        "definition": "A means of transportation on rails.",
+        "examples": [
+          "The next train departs in ten minutes."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Vehicle type",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "il treno",
+        "definition": "Un mezzo di trasporto su rotaie.",
+        "examples": [
+          "Il prossimo treno parte tra dieci minuti."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Vehicle type",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_bahnhof",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Travel",
+      "Places"
+    ],
+    "translations": {
+      "de": {
+        "text": "Bahnhof",
+        "definition": "Der Ort, an dem Züge ankommen und abfahren.",
+        "examples": [
+          "Wir treffen uns morgen am Hauptbahnhof."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Location type",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the train station",
+        "aliases": [
+          "the station",
+          "station"
+        ],
+        "definition": "The place where trains arrive and depart.",
+        "examples": [
+          "We will meet at the main train station tomorrow."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Location type",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la stazione",
+        "aliases": [
+          "la stazione dei treni"
+        ],
+        "definition": "Il luogo in cui i treni arrivano e partono.",
+        "examples": [
+          "Ci vediamo domani alla stazione principale."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Location type",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_fahren",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Travel",
+      "Movement"
+    ],
+    "translations": {
+      "de": {
+        "text": "fahren",
+        "definition": "Ein Fahrzeug steuern.",
+        "examples": [
+          "Ich fahre jeden Tag selbst mit dem Auto zur Arbeit."
+        ],
+        "card_antonyms": [
+          "gehen",
+          "halten"
+        ]
+      },
+      "en": {
+        "text": "to drive",
+        "definition": "To operate and steer a vehicle.",
+        "examples": [
+          "I drive to work every day."
+        ]
+      },
+      "it": {
+        "text": "guidare",
+        "definition": "Guidare e controllare un veicolo.",
+        "examples": [
+          "Guido ogni giorno per andare al lavoro."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_fliegen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Travel",
+      "Movement"
+    ],
+    "translations": {
+      "de": {
+        "text": "fliegen",
+        "definition": "Sich in der Luft fortbewegen, oft mit einem Flugzeug.",
+        "examples": [
+          "Wir fliegen im Sommer nach Spanien."
+        ],
+        "card_antonyms": [
+          "fahren",
+          "gehen"
+        ]
+      },
+      "en": {
+        "text": "to fly",
+        "aliases": [],
+        "definition": "To move through the air, often by plane.",
+        "examples": [
+          "We are flying to Spain in the summer."
+        ]
+      },
+      "it": {
+        "text": "volare",
+        "definition": "Muoversi in aria, spesso con un aereo.",
+        "examples": [
+          "Voliamo in Spagna quest'estate."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_weit",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Space"
+    ],
+    "translations": {
+      "de": {
+        "text": "weit",
+        "definition": "In großer Entfernung liegend.",
+        "examples": [
+          "Der Weg zum Bahnhof ist leider sehr weit."
+        ],
+        "card_antonyms": [
+          "nah"
+        ]
+      },
+      "en": {
+        "text": "far",
+        "aliases": [
+          "distant"
+        ],
+        "definition": "Situated at a great distance.",
+        "examples": [
+          "The way to the train station is unfortunately very far."
+        ]
+      },
+      "it": {
+        "text": "lontano",
+        "aliases": [
+          "distante"
+        ],
+        "definition": "Situato a grande distanza.",
+        "examples": [
+          "Purtroppo la strada per la stazione è molto lunga e lontana."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_nah",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Space"
+    ],
+    "translations": {
+      "de": {
+        "text": "nah",
+        "aliases": [
+          "nahe"
+        ],
+        "definition": "In kurzer Entfernung liegend.",
+        "examples": [
+          "Das neue Restaurant ist ganz nah an unserem Haus."
+        ],
+        "card_antonyms": [
+          "weit"
+        ]
+      },
+      "en": {
+        "text": "near",
+        "aliases": [
+          "close"
+        ],
+        "definition": "Located at a short distance.",
+        "examples": [
+          "The new restaurant is very near to our house."
+        ]
+      },
+      "it": {
+        "text": "vicino",
+        "definition": "Situato a breve distanza.",
+        "examples": [
+          "Il nuovo ristorante è molto vicino a casa nostra."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_schoen",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Characteristics"
+    ],
+    "translations": {
+      "de": {
+        "text": "schön",
+        "definition": "Angenehm für das Auge oder die Sinne; gutaussehend.",
+        "examples": [
+          "Sie hat ein sehr schönes rotes Kleid an."
+        ],
+        "card_antonyms": [
+          "hässlich"
+        ]
+      },
+      "en": {
+        "text": "beautiful",
+        "definition": "Pleasing the senses or mind aesthetically.",
+        "examples": [
+          "She is wearing a very beautiful red dress."
+        ]
+      },
+      "it": {
+        "text": "bello",
+        "definition": "Piacevole alla vista o ai sensi.",
+        "examples": [
+          "Indossa un vestito rosso molto bello."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_haesslich",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Characteristics"
+    ],
+    "translations": {
+      "de": {
+        "text": "hässlich",
+        "definition": "Unangenehm für das Auge; nicht schön.",
+        "examples": [
+          "Das alte Gebäude dort drüben ist hässlich."
+        ],
+        "card_antonyms": [
+          "schön",
+          "hübsch"
+        ]
+      },
+      "en": {
+        "text": "ugly",
+        "definition": "Unpleasant or repulsive, especially in appearance.",
+        "examples": [
+          "The old building over there is ugly."
+        ]
+      },
+      "it": {
+        "text": "brutto",
+        "aliases": [
+          "orrendo"
+        ],
+        "definition": "Sgradevole alla vista; non bello.",
+        "examples": [
+          "Il vecchio edificio laggiù è brutto."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_gross",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Characteristics",
+      "Space"
+    ],
+    "translations": {
+      "de": {
+        "text": "groß",
+        "definition": "Von beträchtlichem Ausmaß, Umfang oder Höhe.",
+        "examples": [
+          "Der große Baum steht direkt neben dem Haus."
+        ],
+        "card_antonyms": [
+          "klein"
+        ]
+      },
+      "en": {
+        "text": "big",
+        "aliases": [
+          "large"
+        ],
+        "definition": "Of considerable size, extent, or height.",
+        "examples": [
+          "The big tree stands right next to the house."
+        ]
+      },
+      "it": {
+        "text": "grande",
+        "definition": "Di notevoli dimensioni o altezza.",
+        "examples": [
+          "Il grande albero si trova proprio vicino alla casa."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_klein",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Characteristics",
+      "Space"
+    ],
+    "translations": {
+      "de": {
+        "text": "klein",
+        "definition": "Von geringem Ausmaß, Umfang oder Höhe.",
+        "examples": [
+          "Mein Bruder hat ein kleines süßes Auto."
+        ],
+        "card_antonyms": [
+          "groß"
+        ]
+      },
+      "en": {
+        "text": "small",
+        "definition": "Of a size that is less than normal or usual.",
+        "examples": [
+          "My brother has a sweet little car."
+        ]
+      },
+      "it": {
+        "text": "piccolo",
+        "definition": "Di dimensioni inferiori al normale.",
+        "examples": [
+          "Mio fratello ha una macchina piccola e carina."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_kalt",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Characteristics",
+      "Weather"
+    ],
+    "translations": {
+      "de": {
+        "text": "kalt",
+        "definition": "Von niedriger Temperatur.",
+        "examples": [
+          "Im Dezember ist es draußen sehr kalt."
+        ],
+        "card_antonyms": [
+          "heiß",
+          "warm"
+        ]
+      },
+      "en": {
+        "text": "cold",
+        "definition": "Of or at a low or relatively low temperature.",
+        "examples": [
+          "In December, it is very cold outside."
+        ]
+      },
+      "it": {
+        "text": "freddo",
+        "definition": "Di temperatura bassa.",
+        "examples": [
+          "A dicembre fa molto freddo fuori."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_heiss",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Characteristics",
+      "Weather"
+    ],
+    "translations": {
+      "de": {
+        "text": "heiß",
+        "definition": "Von sehr hoher Temperatur.",
+        "examples": [
+          "Im August ist die Sonne oft extrem heiß."
+        ],
+        "card_antonyms": [
+          "kalt"
+        ]
+      },
+      "en": {
+        "text": "hot",
+        "definition": "Having a high degree of heat or a high temperature.",
+        "examples": [
+          "In August, the sun is often extremely hot."
+        ]
+      },
+      "it": {
+        "text": "caldo",
+        "aliases": [
+          "bollente",
+          "caldo"
+        ],
+        "definition": "Un alto grado di calore o temperatura.",
+        "examples": [
+          "Ad agosto il sole è spesso estremamente caldo."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_nur",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "nur",
+        "definition": "Nichts weiter als; ausschließlich.",
+        "examples": [
+          "Ich habe leider nur fünf Euro dabei."
+        ],
+        "card_antonyms": [
+          "alles",
+          "viel"
+        ]
+      },
+      "en": {
+        "text": "only",
+        "aliases": [
+          "just"
+        ],
+        "definition": "Exclusively or solely; no more than.",
+        "examples": [
+          "Unfortunately, I only have five euros with me."
+        ]
+      },
+      "it": {
+        "text": "solo",
+        "aliases": [
+          "soltanto",
+          "solamente"
+        ],
+        "definition": "In modo esclusivo, nient'altro che.",
+        "examples": [
+          "Purtroppo ho con me solo cinque euro."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_schon",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Abstract",
+      "Time"
+    ],
+    "translations": {
+      "de": {
+        "text": "schon",
+        "aliases": [
+          "bereits"
+        ],
+        "definition": "Früher als erwartet, oder um etwas zu betonen.",
+        "examples": [
+          "Bist du wirklich schon fertig mit der Arbeit?"
+        ],
+        "card_antonyms": [
+          "noch nicht"
+        ]
+      },
+      "en": {
+        "text": "already",
+        "aliases": [
+          "yet"
+        ],
+        "definition": "Before or by now or the time in question.",
+        "examples": [
+          "Are you really already finished with the work?"
+        ]
+      },
+      "it": {
+        "text": "già",
+        "definition": "Prima o al momento in questione.",
+        "examples": [
+          "Sei davvero già finito con il lavoro?"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_noch",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Abstract",
+      "Time"
+    ],
+    "translations": {
+      "de": {
+        "text": "noch",
+        "definition": "Gibt an, dass etwas fortdauert, aber sich ändern könnte.",
+        "examples": [
+          "Mein Freund schläft noch tief und fest."
+        ],
+        "card_antonyms": [
+          "nicht mehr"
+        ]
+      },
+      "en": {
+        "text": "still",
+        "aliases": [
+          "yet"
+        ],
+        "definition": "Up to and including the present or the time mentioned.",
+        "examples": [
+          "My friend is still sleeping deeply and soundly."
+        ]
+      },
+      "it": {
+        "text": "ancora",
+        "definition": "Fino a questo momento, che indica continuazione.",
+        "examples": [
+          "Il mio amico dorme ancora profondamente."
+        ]
+      }
+    }
+  }
+]

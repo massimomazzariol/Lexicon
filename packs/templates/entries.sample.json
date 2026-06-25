@@ -1,0 +1,54 @@
+[
+  {
+    "source_key": "apple_noun",
+    "pos": "noun",
+    "level_auto": "A1",
+    "level_override": null,
+    "domain_tags": [
+      "Daily",
+      "Travel"
+    ],
+    "notes": "Sample entry",
+    "translations": {
+      "de": {
+        "text": "Apfel",
+        "definition": "Essbare Frucht eines Baumes",
+        "article_nom_sg_def": "der",
+        "gender": "m",
+        "plural": "Apfel",
+        "aliases": [
+          "der Apfel"
+        ],
+        "examples": [
+          {
+            "sentence": "Der Apfel ist frisch.",
+            "translation_lang": "it",
+            "translation_text": "La mela e fresca."
+          }
+        ]
+      },
+      "it": {
+        "text": "mela",
+        "definition": "Frutto commestibile del melo",
+        "aliases": [
+          "la mela",
+          "frutto mela"
+        ],
+        "examples": [
+          "La mela e sul tavolo."
+        ]
+      },
+      "en": {
+        "text": "apple",
+        "definition": "Edible fruit from an apple tree",
+        "aliases": [
+          "an apple",
+          "pome"
+        ],
+        "examples": [
+          "The apple is on the table."
+        ]
+      }
+    }
+  }
+]

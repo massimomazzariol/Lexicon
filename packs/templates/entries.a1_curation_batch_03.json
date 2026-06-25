@@ -1,0 +1,319 @@
+[
+  {
+    "concept_id": "5a3f0258-ae5f-5c70-4b43-84454023b3c7",
+    "source_key": "aehnlich",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "2f05857b-52bd-a5d2-66ec-4d5438747512",
+        "text": "ähnlich",
+        "aliases": [
+          "vergleichbar",
+          "gleichartig"
+        ],
+        "definition": "Fast gleich, mit deutlichen Gemeinsamkeiten.",
+        "examples": [
+          "Die beiden Kleider sehen fast gleich aus."
+        ]
+      },
+      "it": {
+        "lexeme_id": "0b36793f-984a-45e9-1469-04980b06c2f5",
+        "text": "simile",
+        "aliases": [
+          "analogo",
+          "somigliante"
+        ],
+        "definition": "Che ha caratteristiche molto vicine a qualcos'altro.",
+        "examples": [
+          "I due vestiti sembrano quasi uguali."
+        ]
+      },
+      "en": {
+        "lexeme_id": "c1f6243a-fec4-16d4-e093-67e18701bb51",
+        "text": "similar",
+        "aliases": [
+          "alike",
+          "comparable"
+        ],
+        "definition": "Having features that are almost the same.",
+        "examples": [
+          "The two dresses look almost the same."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "916e8799-a429-9dfd-3f4c-5553af33dbd9",
+    "source_key": "ansonsten",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "024dbcfa-9408-265a-053f-ad216fcae7ed",
+        "text": "ansonsten",
+        "aliases": [
+          "sonst",
+          "andernfalls"
+        ],
+        "definition": "Wenn nicht, dann passiert etwas anderes.",
+        "examples": [
+          "Beeil dich, sonst verpassen wir den Zug."
+        ]
+      },
+      "it": {
+        "lexeme_id": "0a9d4f3e-9622-3d19-5d2d-d5dd3c483da4",
+        "text": "per il resto",
+        "aliases": [
+          "altrimenti",
+          "in caso contrario"
+        ],
+        "definition": "Introduce cio che accade se una condizione non vale.",
+        "examples": [
+          "Sbrigati, altrimenti perdiamo il treno."
+        ]
+      },
+      "en": {
+        "lexeme_id": "beec14ba-f04c-1c21-157e-e9683b492d11",
+        "text": "otherwise",
+        "aliases": [
+          "or else",
+          "if not"
+        ],
+        "definition": "Used to say what happens if something is not true or done.",
+        "examples": [
+          "Hurry up, or else we miss the train."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "d0981aa3-9aed-3007-290a-3e2779bacea5",
+    "source_key": "ebenfalls",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "cd292b63-f86f-0432-3df6-5c62b820ff3c",
+        "text": "ebenfalls",
+        "aliases": [
+          "auch",
+          "gleichfalls"
+        ],
+        "definition": "Drueckt aus, dass etwas in gleicher Weise gilt.",
+        "examples": [
+          "Danke, dir auch!"
+        ]
+      },
+      "it": {
+        "lexeme_id": "e601c5c0-60e5-172f-aae9-f01affed005d",
+        "text": "altrettanto",
+        "aliases": [
+          "anche",
+          "pure"
+        ],
+        "definition": "Indica che la stessa cosa vale anche per un'altra persona.",
+        "examples": [
+          "Grazie, anche a te!"
+        ]
+      },
+      "en": {
+        "lexeme_id": "a2eec65a-3b32-fd71-5abe-32668be24804",
+        "text": "also",
+        "aliases": [
+          "as well",
+          "too"
+        ],
+        "definition": "Used to add that the same thing is true for someone else.",
+        "examples": [
+          "Thanks, you too!"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "f2dddaa7-908e-fe4c-9d44-508a3617791f",
+    "source_key": "sinnvoll",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "a08242e2-0b0c-f471-6125-497fa005a783",
+        "text": "sinnvoll",
+        "aliases": [
+          "nuetzlich",
+          "vernuenftig"
+        ],
+        "definition": "Praktisch und gut begruendet; hat einen klaren Nutzen.",
+        "examples": [
+          "Dieser Plan hilft uns wirklich weiter."
+        ],
+        "card_antonyms": [
+          "unsinnig"
+        ]
+      },
+      "it": {
+        "lexeme_id": "dd83315f-0ed2-7ca4-3876-baa1de1c61dc",
+        "text": "sensato",
+        "aliases": [
+          "ragionevole",
+          "utile"
+        ],
+        "definition": "Che ha logica e utilita pratica.",
+        "examples": [
+          "Questo piano e davvero utile."
+        ],
+        "card_antonyms": [
+          "insensato"
+        ]
+      },
+      "en": {
+        "lexeme_id": "7fb0c5b3-a503-0e81-5974-36244913cd48",
+        "text": "meaningful",
+        "aliases": [
+          "sensible",
+          "useful"
+        ],
+        "definition": "Reasonable and useful in practice.",
+        "examples": [
+          "This plan is actually useful."
+        ],
+        "card_antonyms": [
+          "senseless"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "e718be7a-3d76-3ce3-db35-35ba3b93eaa0",
+    "source_key": "wertvoll",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "f7075463-999f-0de8-65dd-7fd770afa0e8",
+        "text": "wertvoll",
+        "aliases": [
+          "kostbar",
+          "von hohem Wert"
+        ],
+        "definition": "Hat hohen materiellen oder ideellen Wert.",
+        "examples": [
+          "Deine Zeit ist kostbar."
+        ],
+        "card_antonyms": [
+          "wertlos"
+        ]
+      },
+      "it": {
+        "lexeme_id": "a22ef40d-9f80-7da1-a013-88886ab27c58",
+        "text": "prezioso",
+        "aliases": [
+          "di valore",
+          "importante"
+        ],
+        "definition": "Che ha grande valore o grande importanza.",
+        "examples": [
+          "Il tuo tempo e prezioso."
+        ],
+        "card_antonyms": [
+          "senza valore"
+        ]
+      },
+      "en": {
+        "lexeme_id": "66f9e276-6cf3-af22-48e2-952c7617c37d",
+        "text": "valuable",
+        "aliases": [
+          "precious",
+          "high-value"
+        ],
+        "definition": "Having high value or importance.",
+        "examples": [
+          "Your time is valuable."
+        ],
+        "card_antonyms": [
+          "worthless"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "25b5725b-13ce-48ce-2a99-7bb508a4de54",
+    "source_key": "wertlos",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "a06f50ee-5ea8-1d9a-469f-0dc1d9e47024",
+        "text": "wertlos",
+        "aliases": [
+          "ohne Wert",
+          "nutzlos"
+        ],
+        "definition": "Hat keinen brauchbaren Wert.",
+        "examples": [
+          "Ohne Akku ist das Geraet nutzlos."
+        ],
+        "card_antonyms": [
+          "wertvoll"
+        ]
+      },
+      "it": {
+        "lexeme_id": "20d82e34-d821-b472-3d4c-175d8b9a2d71",
+        "text": "senza valore",
+        "aliases": [
+          "inutile",
+          "privo di valore"
+        ],
+        "definition": "Che non ha utilita o importanza reale.",
+        "examples": [
+          "Senza batteria, il dispositivo e inutile."
+        ],
+        "card_antonyms": [
+          "prezioso"
+        ]
+      },
+      "en": {
+        "lexeme_id": "f1ea770f-3422-52d9-1e2b-e989315f8db1",
+        "text": "worthless",
+        "aliases": [
+          "valueless",
+          "useless"
+        ],
+        "definition": "Having no practical or real value.",
+        "examples": [
+          "Without a battery, the device is useless."
+        ],
+        "card_antonyms": [
+          "valuable"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+    "source_key": "kannst_du_mir_helfen",
+    "pos": "chunk",
+    "notes": "Phrase block: core help-request expression for A1 learners.",
+    "translations": {
+      "de": {
+        "lexeme_id": "6af33256-3a9c-7a65-8f25-45d142f728a0",
+        "text": "Kannst du mir helfen?",
+        "definition": "Hoefliche Frage, um Hilfe zu bitten.",
+        "examples": [
+          "Entschuldigung, ich brauche Hilfe."
+        ]
+      },
+      "it": {
+        "lexeme_id": "5bbfbec2-8512-79c6-6678-2f3e9654cd37",
+        "text": "Puoi aiutarmi?",
+        "definition": "Domanda di base per chiedere aiuto in modo diretto.",
+        "examples": [
+          "Scusa, ho bisogno di una mano."
+        ]
+      },
+      "en": {
+        "lexeme_id": "d91657d8-d4c2-db5c-bbae-d71f18cea59c",
+        "text": "Can you help me?",
+        "definition": "Basic polite question used to ask for help.",
+        "examples": [
+          "Excuse me, I need some help."
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,285 @@
+[
+  {
+    "concept_id": "concept-b1-doch-contradiction",
+    "source_key": "doch_contradiction",
+    "pos": "adv",
+    "level_auto": "B1",
+    "difficulty_score_auto": 45,
+    "domain_tags": [
+      "Daily",
+      "Social",
+      "Communication"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-doch-contradiction",
+        "text": "doch",
+        "definition": "Widerspricht einer Annahme oder Aussage und stellt die eigene Sicht als richtig dar.",
+        "examples": [
+          "Doch, das stimmt!"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-doch-contradiction",
+        "text": "eppure",
+        "aliases": [
+          "invece"
+        ],
+        "meaning_status": "functional",
+        "definition": "Introduce una contraddizione o una correzione rispetto a quanto appena detto o assunto.",
+        "usage_note": "Il tedesco 'doch' in funzione di contraddizione non ha un equivalente diretto in italiano. 'Eppure' e 'invece' rendono il senso correttivo, ma spesso il contrasto è espresso anche dall'intonazione.",
+        "examples": [
+          "Eppure, ho ragione io."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-doch-contradiction",
+        "text": "but",
+        "aliases": [
+          "actually"
+        ],
+        "meaning_status": "functional",
+        "definition": "Contradicts or corrects what has just been said, asserting one's own view as correct.",
+        "usage_note": "German 'doch' as a contradiction particle has no single-word equivalent in English. 'But' or 'actually' carry part of the meaning, but the contradiction is often expressed through sentence structure and intonation rather than a single word.",
+        "examples": [
+          "But that is exactly what I said."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "concept-b1-doch-encouragement",
+    "source_key": "doch_encouragement",
+    "pos": "adv",
+    "level_auto": "B1",
+    "difficulty_score_auto": 45,
+    "domain_tags": [
+      "Daily",
+      "Social",
+      "Communication"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-doch-encouragement",
+        "text": "doch",
+        "definition": "Mildert eine Aufforderung oder ermutigt jemanden, etwas zu tun.",
+        "examples": [
+          "Komm doch mit uns!"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-doch-encouragement",
+        "text": "dai",
+        "aliases": [
+          "su"
+        ],
+        "meaning_status": "functional",
+        "definition": "Incoraggia qualcuno o addolcisce un invito o un imperativo.",
+        "usage_note": "Il tedesco 'doch' in funzione di incoraggiamento non ha un equivalente particellare in italiano. 'Dai' o 'su' rendono lo spirito di invito morbido, ma sono espressioni e non particelle.",
+        "examples": [
+          "Dai, vieni anche tu!"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-doch-encouragement",
+        "text": "go ahead",
+        "aliases": [
+          "just"
+        ],
+        "meaning_status": "functional",
+        "definition": "Softens a request or encourages someone to do something.",
+        "usage_note": "German 'doch' as an encouragement particle has no single-word equivalent in English. 'Go ahead' or 'just' approximate the encouraging tone but are not grammatical particles.",
+        "examples": [
+          "Just come with us!"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "concept-b1-mal-softening",
+    "source_key": "mal_softening",
+    "pos": "adv",
+    "level_auto": "B1",
+    "difficulty_score_auto": 45,
+    "domain_tags": [
+      "Daily",
+      "Social",
+      "Communication"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-mal-softening",
+        "text": "mal",
+        "definition": "Macht eine Bitte oder Aufforderung freundlicher und weniger direkt.",
+        "examples": [
+          "Kannst du mir mal helfen?"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-mal-softening",
+        "text": "un attimo",
+        "aliases": [
+          "un momento"
+        ],
+        "meaning_status": "functional",
+        "definition": "Addolcisce una richiesta, indicando che il gesto richiesto è piccolo o veloce.",
+        "usage_note": "Il tedesco 'mal' come particella di addolcimento non ha un equivalente diretto in italiano. 'Un attimo' cattura l'idea di una richiesta piccola e non impegnativa. In contesti diversi si può anche usare il condizionale o un 'per favore'.",
+        "examples": [
+          "Puoi aiutarmi un attimo?"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-mal-softening",
+        "text": "just",
+        "meaning_status": "functional",
+        "definition": "Softens a request or instruction, making it sound smaller and less demanding.",
+        "usage_note": "German 'mal' as a softening particle is most closely rendered in English by 'just', which reduces the perceived weight of a request. Unlike German 'mal', English 'just' is not a grammatical particle.",
+        "examples": [
+          "Can you just help me for a second?"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "concept-b1-halt-eben-fatalism",
+    "source_key": "halt_eben_fatalism",
+    "pos": "adv",
+    "level_auto": "B1",
+    "difficulty_score_auto": 48,
+    "domain_tags": [
+      "Daily",
+      "Social",
+      "Communication"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-halt-eben-fatalism",
+        "text": "halt",
+        "aliases": [
+          "eben"
+        ],
+        "definition": "Drueckt eine resignierte Akzeptanz aus, dass etwas einfach so ist, wie es ist.",
+        "examples": [
+          "Das ist halt so."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-halt-eben-fatalism",
+        "text": "è così",
+        "aliases": [
+          "purtroppo"
+        ],
+        "meaning_status": "functional",
+        "definition": "Esprime una rassegnazione o accettazione di qualcosa che non si può cambiare.",
+        "usage_note": "Il tedesco 'halt' e 'eben' in senso fatalista non hanno un equivalente particellare in italiano. 'È così' o 'purtroppo' esprimono l'accettazione rassegnata, ma non sono particelle grammaticali.",
+        "examples": [
+          "È così, non si può fare niente."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-halt-eben-fatalism",
+        "text": "that's just how it is",
+        "meaning_status": "functional",
+        "definition": "Expresses resigned acceptance that something is simply the way it is and cannot be changed.",
+        "usage_note": "German 'halt' and 'eben' in their fatalistic sense have no grammatical equivalent in English. The pragmatic meaning is most naturally expressed through phrases like 'that's just how it is' or 'it is what it is'.",
+        "examples": [
+          "That's just how it is."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "concept-b1-ja-shared-knowledge",
+    "source_key": "ja_shared_knowledge",
+    "pos": "adv",
+    "level_auto": "B1",
+    "difficulty_score_auto": 48,
+    "domain_tags": [
+      "Daily",
+      "Social",
+      "Communication"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-ja-shared-knowledge",
+        "text": "ja",
+        "definition": "Signalisiert, dass der Sprecher etwas als bekannte oder gemeinsam geteilte Information behandelt.",
+        "examples": [
+          "Das weißt du ja."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-ja-shared-knowledge",
+        "text": "certo",
+        "aliases": [
+          "dopotutto"
+        ],
+        "meaning_status": "functional",
+        "definition": "Indica che il parlante considera qualcosa come un'informazione condivisa o già nota all'interlocutore.",
+        "usage_note": "Il tedesco 'ja' in funzione di conoscenza condivisa non ha un equivalente particellare in italiano. 'Certo' o 'dopotutto' si avvicinano all'idea, ma in italiano spesso si usa la struttura 'come sai' o l'intonazione.",
+        "examples": [
+          "Lo sai, certo."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-ja-shared-knowledge",
+        "text": "you know",
+        "aliases": [
+          "after all"
+        ],
+        "meaning_status": "functional",
+        "definition": "Signals that the speaker treats something as shared or already known information.",
+        "usage_note": "German 'ja' as a shared-knowledge marker has no single grammatical equivalent in English. 'You know' or 'after all' carry a similar pragmatic signal but are not particles.",
+        "examples": [
+          "You know how it works."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "concept-b2-wohl-probability",
+    "source_key": "wohl_probability",
+    "pos": "adv",
+    "level_auto": "B2",
+    "difficulty_score_auto": 52,
+    "domain_tags": [
+      "Daily",
+      "Social",
+      "Communication"
+    ],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-wohl-probability",
+        "text": "wohl",
+        "definition": "Drueckt eine Vermutung oder Wahrscheinlichkeit aus, oft mit leichter Unsicherheit.",
+        "examples": [
+          "Er ist wohl krank."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-wohl-probability",
+        "text": "probabilmente",
+        "aliases": [
+          "credo"
+        ],
+        "meaning_status": "approximate",
+        "definition": "Esprime una supposizione o probabilità, spesso con una leggera incertezza.",
+        "examples": [
+          "Probabilmente è malato."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-wohl-probability",
+        "text": "probably",
+        "aliases": [
+          "I suppose"
+        ],
+        "meaning_status": "approximate",
+        "definition": "Expresses a supposition or probability, often with a tone of mild uncertainty.",
+        "examples": [
+          "He is probably sick."
+        ]
+      }
+    }
+  }
+]

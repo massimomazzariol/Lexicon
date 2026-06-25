@@ -1,0 +1,54 @@
+[
+  {
+    "source_key": "b1_adj_empfindlich",
+    "concept_id": "concept-b1-empfindlich",
+    "pos": "adj",
+    "level_auto": "B1",
+    "domain_tags": ["Daily", "Characteristics", "Abstract"],
+    "notes": "Editorial addition from German lemma expansion. Modeled around the broad 'sensitive / easily affected' sense for people, skin, devices, materials, or topics; not split into a separate emotional-only concept. CEFR set editorially to B1 on 2026-03-21.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-empfindlich",
+        "text": "empfindlich",
+        "definition": "Reagiert schnell oder stark auf Berührung, Kritik, Hitze, Licht oder andere Einflüsse.",
+        "usage_note": "Kann sich auf Personen, Haut, Geräte, Materialien oder Themen beziehen.",
+        "examples": [
+          "Nach wenig Sonne wird ihre Haut sofort rot."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_sensitive_adjective",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-sensibile",
+        "text": "sensibile",
+        "definition": "Che reagisce facilmente o con forza a contatto, critiche, calore, luce o altri stimoli.",
+        "usage_note": "Può riferirsi a persone, pelle, dispositivi, materiali o temi.",
+        "examples": [
+          "Dopo poco sole, la sua pelle diventa subito rossa."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_sensitive_adjective",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-sensitive",
+        "text": "sensitive",
+        "definition": "Quick to react strongly to touch, criticism, heat, light, or other influences.",
+        "usage_note": "Can describe people, skin, devices, materials, or topics.",
+        "examples": [
+          "After a short time in the sun, her skin turns red right away."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_sensitive_adjective",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  }
+]

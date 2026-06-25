@@ -1,0 +1,614 @@
+[
+  {
+    "source_key": "antonym-policy-a1-uhr-device",
+    "concept_id": "concept-a1-uhr-device",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-uhr-device",
+        "text": "Uhr",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a1-orologio",
+        "text": "l'orologio",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a1-clock",
+        "text": "the clock",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "antonym-policy-a1-what-time-is-it",
+    "concept_id": "concept-a1-what-time-is-it",
+    "pos": "chunk",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-wie-spaet-ist-es",
+        "text": "Wie spät ist es?",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a1-che-ore-sono",
+        "text": "Che ore sono?",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a1-what-time-is-it",
+        "text": "What time is it?",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "antonym-policy-a1-uhrzeit",
+    "concept_id": "concept-a1-uhrzeit",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-uhrzeit",
+        "text": "Uhrzeit",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a1-ora-clock-time",
+        "text": "l'ora",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a1-time-clock-time",
+        "text": "the time",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "antonym-policy-a2-dringend",
+    "concept_id": "concept-a2-dringend",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-dringend",
+        "text": "dringend",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-urgente",
+        "text": "urgente",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-urgent",
+        "text": "urgent",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "antonym-policy-a2-lebendig",
+    "concept_id": "concept-a2-lebendig",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-lebendig",
+        "text": "lebendig",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-vivace",
+        "text": "vivace",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-lively",
+        "text": "lively",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "antonym-policy-a2-so-schnell-wie-moeglich",
+    "concept_id": "concept-a2-so-schnell-wie-moeglich",
+    "pos": "chunk",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-so-schnell-wie-moeglich",
+        "text": "so schnell wie möglich",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-il-piu-presto-possibile",
+        "text": "il più presto possibile",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-as-quickly-as-possible",
+        "text": "as quickly as possible",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "antonym-policy-a2-mitbringen",
+    "concept_id": "concept-a2-mitbringen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-mitbringen",
+        "text": "mitbringen",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-portare-con-se",
+        "text": "portare con sé",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-bring-along",
+        "text": "bring along",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "antonym-policy-a2-uebernachten",
+    "concept_id": "concept-a2-uebernachten",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-uebernachten",
+        "text": "übernachten",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-pernottare",
+        "text": "pernottare",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-stay-overnight",
+        "text": "stay overnight",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "antonym-policy-b1-vermutlich",
+    "concept_id": "concept-b1-vermutlich",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-vermutlich",
+        "text": "vermutlich",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-probabilmente",
+        "text": "probabilmente",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-probably",
+        "text": "probably",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "antonym-policy-b1-keinesfalls",
+    "concept_id": "concept-b1-keinesfalls",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-keinesfalls",
+        "text": "keinesfalls",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-assolutamente-no",
+        "text": "assolutamente no",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-under-no-circumstances",
+        "text": "under no circumstances",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "antonym-policy-b1-folglich",
+    "concept_id": "concept-b1-folglich",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-folglich",
+        "text": "folglich",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-di-conseguenza",
+        "text": "di conseguenza",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-consequently",
+        "text": "consequently",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "antonym-policy-b1-ausserdem",
+    "concept_id": "concept-b1-ausserdem",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-ausserdem",
+        "text": "außerdem",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-inoltre",
+        "text": "inoltre",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-moreover",
+        "text": "moreover",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "antonym-policy-b1-weltweit",
+    "concept_id": "concept-b1-weltweit",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-weltweit",
+        "text": "weltweit",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-in-tutto-il-mondo",
+        "text": "in tutto il mondo",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-worldwide",
+        "text": "worldwide",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "antonym-policy-b1-unter-anderem",
+    "concept_id": "concept-b1-unter-anderem",
+    "pos": "chunk",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-unter-anderem",
+        "text": "unter anderem",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-tra-l-altro",
+        "text": "tra l'altro",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-among-other-things",
+        "text": "among other things",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "antonym-policy-b1-auf-dauer",
+    "concept_id": "concept-b1-auf-dauer",
+    "pos": "chunk",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-auf-dauer",
+        "text": "auf Dauer",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-alla-lunga",
+        "text": "alla lunga",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-in-the-long-run",
+        "text": "in the long run",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "antonym-policy-b1-eine-rolle-spielen",
+    "concept_id": "concept-b1-eine-rolle-spielen",
+    "pos": "chunk",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-eine-rolle-spielen",
+        "text": "eine Rolle spielen",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-avere-un-ruolo",
+        "text": "avere un ruolo",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-play-a-role",
+        "text": "play a role",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "antonym-policy-b1-in-der-regel",
+    "concept_id": "concept-b1-in-der-regel",
+    "pos": "chunk",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-in-der-regel",
+        "text": "in der Regel",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-di-solito",
+        "text": "di solito",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-as-a-rule",
+        "text": "as a rule",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "antonym-policy-b1-nach-wie-vor",
+    "concept_id": "concept-b1-nach-wie-vor",
+    "pos": "chunk",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-nach-wie-vor",
+        "text": "nach wie vor",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-ancora",
+        "text": "ancora",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-still",
+        "text": "still",
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_lexical_opposite_for_concept",
+          "reviewed_at": "2026-03-21"
+        }
+      }
+    }
+  }
+]

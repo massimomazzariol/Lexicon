@@ -1,0 +1,910 @@
+[
+  {
+    "concept_id": "eb287814-640f-16ad-e3a6-7c3e3806d7f4",
+    "source_key": "anfangen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "dff9ac98-3968-059b-e60c-ab17f5b56aa8",
+        "text": "anfangen",
+        "aliases": [
+          "beginnen",
+          "loslegen"
+        ],
+        "definition": "Mit einer Taetigkeit starten.",
+        "examples": [
+          "Der Kurs geht um neun los."
+        ],
+        "card_antonyms": [
+          "aufhoeren"
+        ]
+      },
+      "it": {
+        "lexeme_id": "f171c66f-5959-abf6-7acc-f2f0365b7e24",
+        "text": "iniziare",
+        "aliases": [
+          "cominciare"
+        ],
+        "definition": "Dare inizio a un'azione.",
+        "examples": [
+          "Il corso parte alle nove."
+        ],
+        "card_antonyms": [
+          "smettere"
+        ]
+      },
+      "en": {
+        "lexeme_id": "8222f5d5-84d3-949a-2719-7d46da9a7bed",
+        "text": "start",
+        "aliases": [
+          "begin"
+        ],
+        "definition": "To begin an action or activity.",
+        "examples": [
+          "The class begins at nine."
+        ],
+        "card_antonyms": [
+          "stop"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "23f3cd66-40a2-652f-205a-7557f2a9e950",
+    "source_key": "aufhoeren",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "58dd8058-a528-adfe-52c7-31451b0c9f45",
+        "text": "aufhören",
+        "aliases": [
+          "beenden"
+        ],
+        "definition": "Eine Taetigkeit nicht weiterfuehren.",
+        "examples": [
+          "Nach zehn Minuten ist Schluss."
+        ],
+        "card_antonyms": [
+          "anfangen"
+        ]
+      },
+      "it": {
+        "lexeme_id": "78d22f0b-a4fb-29e7-da84-380452ecd44e",
+        "text": "smettere",
+        "aliases": [
+          "interrompere"
+        ],
+        "definition": "Non continuare piu un'azione.",
+        "examples": [
+          "Dopo dieci minuti basta cosi."
+        ],
+        "card_antonyms": [
+          "iniziare"
+        ]
+      },
+      "en": {
+        "lexeme_id": "159697b7-d38c-a6c6-fee4-84b73ad6bffe",
+        "text": "stop",
+        "aliases": [
+          "quit"
+        ],
+        "definition": "To end an action and not continue.",
+        "examples": [
+          "After ten minutes, that is enough."
+        ],
+        "card_antonyms": [
+          "start"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
+    "source_key": "deswegen",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "56021cab-833a-ec4a-db71-bb0daa6f98ff",
+        "text": "deswegen",
+        "aliases": [
+          "darum",
+          "daher"
+        ],
+        "definition": "Leitet eine logische Folge ein.",
+        "examples": [
+          "Der Zug hat Verspaetung, wir warten noch."
+        ],
+        "card_antonyms": [
+          "trotzdem"
+        ]
+      },
+      "it": {
+        "lexeme_id": "57b12dcd-358f-4794-367e-7f81b0a88a11",
+        "text": "per questo motivo",
+        "aliases": [
+          "percio"
+        ],
+        "definition": "Introduce una conseguenza logica.",
+        "examples": [
+          "Il treno e in ritardo, quindi aspettiamo ancora."
+        ],
+        "card_antonyms": [
+          "nonostante cio"
+        ]
+      },
+      "en": {
+        "lexeme_id": "d5a064e3-4987-1c94-7833-04136118e9b2",
+        "text": "therefore",
+        "aliases": [
+          "for this reason"
+        ],
+        "definition": "Introduces the logical result of what was said before.",
+        "examples": [
+          "The train is late, so we wait a bit longer."
+        ],
+        "card_antonyms": [
+          "nevertheless"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "03e06d4d-6e66-57de-675b-848282e41d06",
+    "source_key": "trotzdem",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "ee0c45d3-b4a9-93e3-48fb-997525c9ea62",
+        "text": "trotzdem",
+        "aliases": [
+          "dennoch"
+        ],
+        "definition": "Zeigt einen Gegensatz trotz einer Bedingung.",
+        "examples": [
+          "Es regnet, wir gehen aber raus."
+        ],
+        "card_antonyms": [
+          "deswegen"
+        ]
+      },
+      "it": {
+        "lexeme_id": "0a6af29b-b9a5-994b-cbbc-78994ed10e48",
+        "text": "nonostante ciò",
+        "aliases": [
+          "comunque"
+        ],
+        "definition": "Indica contrasto rispetto a cio che ci si aspetta.",
+        "examples": [
+          "Piove, ma usciamo lo stesso."
+        ],
+        "card_antonyms": [
+          "per questo motivo"
+        ]
+      },
+      "en": {
+        "lexeme_id": "a94e2e68-d914-8b4d-4858-ac7ea4501289",
+        "text": "nevertheless",
+        "aliases": [
+          "even so"
+        ],
+        "definition": "Shows contrast despite what was said before.",
+        "examples": [
+          "It is raining, but we still go out."
+        ],
+        "card_antonyms": [
+          "therefore"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "c1792d23-111c-1a16-efae-133d6bb4fb64",
+    "source_key": "eigentlich",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "db942f91-cdc6-acbe-cbad-d1a4b053ca00",
+        "text": "eigentlich",
+        "aliases": [
+          "tatsaechlich",
+          "im Grunde"
+        ],
+        "definition": "Korrigiert oder praezisiert eine Aussage.",
+        "examples": [
+          "Sie wohnt nicht in Hamburg, sondern in Berlin."
+        ]
+      },
+      "it": {
+        "lexeme_id": "0edcd4e2-bf9f-6e86-b185-f0aca838b4c1",
+        "text": "in realtà",
+        "aliases": [
+          "di fatto"
+        ],
+        "definition": "Serve a correggere un'idea precedente con il fatto reale.",
+        "examples": [
+          "La sua casa e a Berlino, non ad Amburgo."
+        ]
+      },
+      "en": {
+        "lexeme_id": "5a647523-f2d7-ebdd-c9d4-940c97e20571",
+        "text": "actually",
+        "aliases": [
+          "in fact"
+        ],
+        "definition": "Used to correct or refine a previous statement.",
+        "examples": [
+          "She lives in Berlin, not in Hamburg."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "68b4d02c-8d77-9e8b-58ca-8a06e4bcd361",
+    "source_key": "derzeit",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "b39afea2-b37f-3c6b-0841-843be5207623",
+        "text": "derzeit",
+        "aliases": [
+          "zurzeit"
+        ],
+        "definition": "Bezieht sich auf den aktuellen Zeitraum.",
+        "examples": [
+          "In dieser Woche arbeiten wir von zu Hause."
+        ]
+      },
+      "it": {
+        "lexeme_id": "bedc336c-37de-fab8-1756-85ddf16cfd4c",
+        "text": "attualmente",
+        "aliases": [
+          "al momento"
+        ],
+        "definition": "Indica il periodo presente.",
+        "examples": [
+          "In questo periodo lavoro da casa."
+        ]
+      },
+      "en": {
+        "lexeme_id": "c093ae73-dc6b-7e64-eb71-e8125ce095dc",
+        "text": "currently",
+        "aliases": [
+          "at present"
+        ],
+        "definition": "Refers to the present period of time.",
+        "examples": [
+          "These days I work from home."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "b5badb09-9fac-871c-a009-af06fbb2cef3",
+    "source_key": "lauf_noun",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "f7997e08-b0e2-3c89-ab19-8648a41bedc5",
+        "text": "Lauf",
+        "aliases": [
+          "Wettkampf"
+        ],
+        "definition": "Sportliche Etappe oder Distanz in einem Rennen.",
+        "examples": [
+          "Die 5-km-Strecke startet um acht Uhr."
+        ]
+      },
+      "it": {
+        "lexeme_id": "e2456532-e9e8-e131-cbb4-68aafdf2345b",
+        "text": "corsa",
+        "aliases": [
+          "prova"
+        ],
+        "definition": "Prova sportiva su una distanza definita.",
+        "examples": [
+          "La prova sui 5 km parte alle otto."
+        ]
+      },
+      "en": {
+        "lexeme_id": "fceb3a41-75f8-5186-74bd-5869696981e7",
+        "text": "race",
+        "aliases": [
+          "running event"
+        ],
+        "definition": "A competitive running event over a set distance.",
+        "examples": [
+          "The 5 km contest starts at eight."
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "79f6518e-8b4f-578e-f416-504b5f349185",
+    "source_key": "laufen_verb",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "83400edf-bac0-2f35-2f58-930df77d7f32",
+        "text": "laufen",
+        "aliases": [
+          "joggen",
+          "rennen"
+        ],
+        "definition": "Sich schnell zu Fuss bewegen.",
+        "examples": [
+          "Er ist jeden Morgen zu Fuss im Park unterwegs."
+        ],
+        "card_antonyms": [
+          "stehen bleiben"
+        ]
+      },
+      "it": {
+        "lexeme_id": "f52276b9-beb5-b027-352a-5b326974f640",
+        "text": "correre",
+        "aliases": [
+          "fare jogging"
+        ],
+        "definition": "Muoversi velocemente a piedi.",
+        "examples": [
+          "Ogni mattina fa movimento nel parco."
+        ],
+        "card_antonyms": [
+          "fermarsi"
+        ]
+      },
+      "en": {
+        "lexeme_id": "3d75d4a1-cca3-5522-86c3-cadccf9954d2",
+        "text": "run",
+        "aliases": [
+          "jog"
+        ],
+        "definition": "To move fast on foot.",
+        "examples": [
+          "She moves quickly through the park."
+        ],
+        "card_antonyms": [
+          "stand still"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "08116c81-5e80-e8d9-d48a-2dcfafa2dae1",
+    "source_key": "irgendetwas",
+    "pos": "chunk",
+    "translations": {
+      "de": {
+        "lexeme_id": "80b3b75e-ae26-a8a6-429b-eac2ba47aeca",
+        "text": "irgendetwas",
+        "aliases": [
+          "etwas"
+        ],
+        "definition": "Eine unbestimmte Sache.",
+        "examples": [
+          "Auf dem Tisch liegt ein Gegenstand."
+        ],
+        "card_antonyms": [
+          "nichts"
+        ]
+      },
+      "it": {
+        "lexeme_id": "37a4f034-2678-a6d5-1da4-30d81da02db5",
+        "text": "qualcosa",
+        "aliases": [
+          "una cosa"
+        ],
+        "definition": "Una cosa non specificata.",
+        "examples": [
+          "Sul tavolo c'e un oggetto."
+        ],
+        "card_antonyms": [
+          "niente"
+        ]
+      },
+      "en": {
+        "lexeme_id": "5e10f28a-2b0d-e432-fb91-1d108b2243f7",
+        "text": "something",
+        "aliases": [
+          "a thing"
+        ],
+        "definition": "An unspecified thing.",
+        "examples": [
+          "There is an object on the table."
+        ],
+        "card_antonyms": [
+          "nothing"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "29a483bf-d86a-a442-f816-17ee4e248a16",
+    "source_key": "irgendjemand",
+    "pos": "chunk",
+    "translations": {
+      "de": {
+        "lexeme_id": "4f36ce51-64f5-8c89-0d70-c876d69edd21",
+        "text": "irgendjemand",
+        "aliases": [
+          "jemand"
+        ],
+        "definition": "Eine unbestimmte Person.",
+        "examples": [
+          "An der Tuere klingelt eine Person."
+        ],
+        "card_antonyms": [
+          "niemand"
+        ]
+      },
+      "it": {
+        "lexeme_id": "2df4bf4f-099d-edc7-c384-c00781d2d4cd",
+        "text": "qualcuno",
+        "aliases": [
+          "una persona"
+        ],
+        "definition": "Una persona non identificata.",
+        "examples": [
+          "Alla porta sta suonando una persona."
+        ],
+        "card_antonyms": [
+          "nessuno"
+        ]
+      },
+      "en": {
+        "lexeme_id": "fb928c28-02fd-1b8e-26b9-c598582b3c50",
+        "text": "someone",
+        "aliases": [
+          "some person"
+        ],
+        "definition": "An unspecified person.",
+        "examples": [
+          "A person is ringing the doorbell."
+        ],
+        "card_antonyms": [
+          "no one"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "2de09df9-4a0c-8b2a-f080-6c52571b7064",
+    "source_key": "irgendwo",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "ce4f9080-639d-5a85-06e4-461da0dd689e",
+        "text": "irgendwo",
+        "aliases": [
+          "an einem Ort"
+        ],
+        "definition": "An einem nicht genauer genannten Ort.",
+        "examples": [
+          "Mein Schluessel ist nicht hier."
+        ],
+        "card_antonyms": [
+          "nirgendwo"
+        ]
+      },
+      "it": {
+        "lexeme_id": "01003f98-20ba-73b2-1640-d3b3f66a3a65",
+        "text": "da qualche parte",
+        "aliases": [
+          "in un posto"
+        ],
+        "definition": "In un luogo non specificato.",
+        "examples": [
+          "Le chiavi non sono qui."
+        ],
+        "card_antonyms": [
+          "da nessuna parte"
+        ]
+      },
+      "en": {
+        "lexeme_id": "dfa76c69-b33d-4532-bfec-738c08947f2c",
+        "text": "somewhere",
+        "aliases": [
+          "in some place"
+        ],
+        "definition": "In an unspecified place.",
+        "examples": [
+          "My keys are not here."
+        ],
+        "card_antonyms": [
+          "nowhere"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "548ac186-0a69-6839-73ff-5a0431f3aabc",
+    "source_key": "ueberall",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "0cc14daa-9480-3fcb-c601-4b50c5f1ad83",
+        "text": "überall",
+        "aliases": [
+          "an allen Orten"
+        ],
+        "definition": "An jedem Ort innerhalb eines Bereichs.",
+        "examples": [
+          "In jedem Zimmer ist Licht."
+        ],
+        "card_antonyms": [
+          "nirgendwo"
+        ]
+      },
+      "it": {
+        "lexeme_id": "7a4a8158-62f3-20a7-ee8d-0fd911903e33",
+        "text": "ovunque",
+        "aliases": [
+          "dappertutto"
+        ],
+        "definition": "In ogni luogo.",
+        "examples": [
+          "In ogni stanza c'e luce."
+        ],
+        "card_antonyms": [
+          "da nessuna parte"
+        ]
+      },
+      "en": {
+        "lexeme_id": "773f899b-09e6-d76d-f5d3-aa94ac17bdd7",
+        "text": "everywhere",
+        "aliases": [
+          "in every place"
+        ],
+        "definition": "In all places.",
+        "examples": [
+          "There is light in every room."
+        ],
+        "card_antonyms": [
+          "nowhere"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "7a5071b5-7f6f-27f4-2ef9-7008b01524d4",
+    "source_key": "draussen",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "e37bea89-4441-c3f3-357e-3c04161fc64c",
+        "text": "draußen",
+        "aliases": [
+          "im Freien"
+        ],
+        "definition": "Im Aussenbereich, nicht im Gebaeude.",
+        "examples": [
+          "Wir warten vor der Tuere."
+        ],
+        "card_antonyms": [
+          "drinnen"
+        ]
+      },
+      "it": {
+        "lexeme_id": "b4867295-a01c-b52d-5bb1-8470810d1676",
+        "text": "fuori",
+        "aliases": [
+          "all'aperto"
+        ],
+        "definition": "In uno spazio esterno.",
+        "examples": [
+          "Aspettiamo davanti alla porta."
+        ],
+        "card_antonyms": [
+          "dentro"
+        ]
+      },
+      "en": {
+        "lexeme_id": "9b647248-976a-289f-9c90-02d32ed56a28",
+        "text": "outside",
+        "aliases": [
+          "outdoors"
+        ],
+        "definition": "In an external area, not indoors.",
+        "examples": [
+          "We are waiting in front of the door."
+        ],
+        "card_antonyms": [
+          "inside"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "77962681-e561-09cc-772c-9c4285175bf9",
+    "source_key": "verheiratet",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "37f4e92f-7cf7-b2dc-6f67-562f065feeb1",
+        "text": "verheiratet",
+        "aliases": [
+          "in Ehe"
+        ],
+        "definition": "Mit einer Person rechtlich als Paar verbunden.",
+        "examples": [
+          "Sie leben zusammen seit vielen Jahren."
+        ],
+        "card_antonyms": [
+          "ledig"
+        ]
+      },
+      "it": {
+        "lexeme_id": "d66fa9d4-53f4-e76c-ef34-5345bfe8ac6f",
+        "text": "sposato",
+        "aliases": [
+          "coniugato"
+        ],
+        "definition": "Unito in matrimonio.",
+        "examples": [
+          "Vivono insieme da molti anni."
+        ],
+        "card_antonyms": [
+          "single"
+        ]
+      },
+      "en": {
+        "lexeme_id": "66c14c39-ffe3-0359-4810-5737f03d5b44",
+        "text": "married",
+        "aliases": [
+          "wedded"
+        ],
+        "definition": "Legally joined as spouses.",
+        "examples": [
+          "They have lived together for many years."
+        ],
+        "card_antonyms": [
+          "single"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "961ac32c-4e2b-36c8-3735-f91f2ddb9ece",
+    "source_key": "noch_nicht",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "82d5c96d-f1f5-d3e6-0578-f59e57b11b3d",
+        "text": "noch nicht",
+        "aliases": [
+          "bisher nicht"
+        ],
+        "definition": "Etwas ist bis jetzt nicht passiert.",
+        "examples": [
+          "Der Bus kommt spaeter."
+        ],
+        "card_antonyms": [
+          "schon"
+        ]
+      },
+      "it": {
+        "lexeme_id": "ff221476-350d-532c-a7f2-3debc402317a",
+        "text": "non ancora",
+        "aliases": [
+          "finora no"
+        ],
+        "definition": "Qualcosa non e avvenuto fino a questo momento.",
+        "examples": [
+          "L'autobus arriva piu tardi."
+        ],
+        "card_antonyms": [
+          "gia"
+        ]
+      },
+      "en": {
+        "lexeme_id": "014530b6-0532-44c0-96d2-f871a7f99cc0",
+        "text": "not yet",
+        "aliases": [
+          "still not"
+        ],
+        "definition": "Something has not happened up to now.",
+        "examples": [
+          "The bus comes later."
+        ],
+        "card_antonyms": [
+          "already"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "0bed6967-2ba5-ca39-d70b-646e23f07493",
+    "source_key": "immer_noch",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "c4ac4b90-4dd7-4272-1b3c-e1d723612b60",
+        "text": "immer noch",
+        "aliases": [
+          "weiterhin"
+        ],
+        "definition": "Eine Situation dauert weiter an.",
+        "examples": [
+          "Nach zwei Stunden arbeitet er weiter."
+        ],
+        "card_antonyms": [
+          "nicht mehr"
+        ]
+      },
+      "it": {
+        "lexeme_id": "31c4fae7-26e4-a7ee-ffb0-9aee40504360",
+        "text": "ancora",
+        "aliases": [
+          "tuttora"
+        ],
+        "definition": "Indica che una condizione continua.",
+        "examples": [
+          "Dopo due ore continua a lavorare."
+        ],
+        "card_antonyms": [
+          "non piu"
+        ]
+      },
+      "en": {
+        "lexeme_id": "a2c9b18c-c094-a91a-5db4-60655a5aa983",
+        "text": "still",
+        "aliases": [
+          "yet"
+        ],
+        "definition": "Shows that a state continues.",
+        "examples": [
+          "After two hours, he keeps working."
+        ],
+        "card_antonyms": [
+          "no longer"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "dce273cb-1477-41c8-14f3-84226c53e233",
+    "source_key": "meist",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "cb3cffcb-68f6-8851-dafb-78b1ee206375",
+        "text": "meist",
+        "aliases": [
+          "haeufig"
+        ],
+        "definition": "In den meisten Faellen.",
+        "examples": [
+          "Am Wochenende bleiben wir zu Hause."
+        ],
+        "card_antonyms": [
+          "selten"
+        ]
+      },
+      "it": {
+        "lexeme_id": "4c3d9e11-ecf3-3668-a048-1580995e3a0b",
+        "text": "per lo piu",
+        "aliases": [
+          "nella maggior parte dei casi"
+        ],
+        "definition": "Nella maggior parte delle situazioni.",
+        "examples": [
+          "Nel fine settimana restiamo a casa."
+        ],
+        "card_antonyms": [
+          "raramente"
+        ]
+      },
+      "en": {
+        "lexeme_id": "dfdbe419-d5fb-b47e-ac20-ef76f2f0f019",
+        "text": "mostly",
+        "aliases": [
+          "in most cases"
+        ],
+        "definition": "In most situations.",
+        "examples": [
+          "On weekends, we stay at home."
+        ],
+        "card_antonyms": [
+          "rarely"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "2e15a945-9821-6cd1-ef18-663740b7bee6",
+    "source_key": "zumindest",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "f4bddfd4-8616-01b9-a048-613f7e273d47",
+        "text": "zumindest",
+        "aliases": [
+          "wenigstens"
+        ],
+        "definition": "Markiert ein sicheres Minimum.",
+        "examples": [
+          "Ein Teil der Aufgabe ist fertig."
+        ],
+        "card_antonyms": [
+          "hoechstens"
+        ]
+      },
+      "it": {
+        "lexeme_id": "85268bbe-fef8-c509-f274-fceed1e8d3fe",
+        "text": "almeno",
+        "aliases": [
+          "perlomeno"
+        ],
+        "definition": "Indica un minimo garantito.",
+        "examples": [
+          "Una parte del compito e pronta."
+        ],
+        "card_antonyms": [
+          "al massimo"
+        ]
+      },
+      "en": {
+        "lexeme_id": "e65ccaaa-8b5d-9b47-0de4-67bf79c45e4b",
+        "text": "at least",
+        "aliases": [
+          "minimum"
+        ],
+        "definition": "Marks a guaranteed minimum.",
+        "examples": [
+          "One part of the task is done."
+        ],
+        "card_antonyms": [
+          "at most"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "5a3f0258-ae5f-5c70-4b43-84454023b3c7",
+    "source_key": "aehnlich",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "2f05857b-52bd-a5d2-66ec-4d5438747512",
+        "text": "ähnlich",
+        "aliases": [
+          "vergleichbar"
+        ],
+        "definition": "Mit klaren Gemeinsamkeiten, aber nicht identisch.",
+        "examples": [
+          "Die beiden Modelle haben fast den gleichen Stil."
+        ],
+        "card_antonyms": [
+          "verschieden"
+        ]
+      },
+      "it": {
+        "lexeme_id": "0b36793f-984a-45e9-1469-04980b06c2f5",
+        "text": "simile",
+        "aliases": [
+          "analogo"
+        ],
+        "definition": "Con caratteristiche vicine a un altro elemento.",
+        "examples": [
+          "I due modelli hanno quasi lo stesso stile."
+        ],
+        "card_antonyms": [
+          "diverso"
+        ]
+      },
+      "en": {
+        "lexeme_id": "c1f6243a-fec4-16d4-e093-67e18701bb51",
+        "text": "similar",
+        "aliases": [
+          "comparable"
+        ],
+        "definition": "Having close characteristics to another thing.",
+        "examples": [
+          "The two models have almost the same style."
+        ],
+        "card_antonyms": [
+          "different"
+        ]
+      }
+    }
+  }
+]

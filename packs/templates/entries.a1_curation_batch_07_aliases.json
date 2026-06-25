@@ -1,0 +1,105 @@
+[
+  {
+    "concept_id": "2bfef665-f822-93b9-3f9d-233a6f838aba",
+    "source_key": "Anfrage",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "37d22cbe-a17e-2925-15de-7b980b89a6cb",
+        "text": "Anfrage",
+        "aliases": [
+          "Erkundigung"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
+    "source_key": "Antrag",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "d466bf5b-c911-3bd6-a5a8-83d93e55cf34",
+        "text": "Antrag",
+        "aliases": [
+          "Gesuch"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "75fb9398-4b1a-dc12-4558-6e3555368393",
+    "source_key": "Aufzug",
+    "pos": "noun",
+    "translations": {
+      "it": {
+        "lexeme_id": "39c841eb-5832-a9dd-21de-cb226f333e5f",
+        "text": "l'ascensore",
+        "aliases": [
+          "elevatore"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "28155ced-1190-8879-d1e4-766d9865a842",
+    "source_key": "Bewerbung",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "17db3b10-1772-4ed4-7230-5d4cb910990f",
+        "text": "Bewerbung",
+        "aliases": [
+          "Kandidatur"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "8cdd7819-47ff-1fba-7ac4-dd44c3aec241",
+    "source_key": "Frage",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "ed521f14-02a6-6a3e-b8f4-19ddef0e332b",
+        "text": "Frage",
+        "aliases": [
+          "Fragestellung"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "ed8e2fd9-341b-1cad-7908-35e22a2f2388",
+    "source_key": "Gesuch",
+    "pos": "noun",
+    "translations": {
+      "de": {
+        "lexeme_id": "b57e4eb0-5a6c-2e12-2afa-dcec3ed83301",
+        "text": "Gesuch",
+        "aliases": [
+          "Antrag"
+        ]
+      }
+    }
+  },
+  {
+    "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+    "source_key": "Kannst du mir helfen?",
+    "pos": "chunk",
+    "translations": {
+      "de": {
+        "lexeme_id": "6af33256-3a9c-7a65-8f25-45d142f728a0",
+        "text": "Kannst du mir helfen?"
+      },
+      "it": {
+        "lexeme_id": "5bbfbec2-8512-79c6-6678-2f3e9654cd37",
+        "text": "Puoi aiutarmi?"
+      },
+      "en": {
+        "lexeme_id": "d91657d8-d4c2-db5c-bbae-d71f18cea59c",
+        "text": "Can you help me?"
+      }
+    }
+  }
+]

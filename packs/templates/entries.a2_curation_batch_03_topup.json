@@ -1,0 +1,373 @@
+[
+  {
+    "source_key": "a2_noun_veranstaltung",
+    "concept_id": "concept-a2-veranstaltung",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": ["Social", "Work", "Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-veranstaltung",
+        "text": "Veranstaltung",
+        "definition": "Ein organisiertes Ereignis oder Programm, an dem Menschen teilnehmen.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Veranstaltungen",
+        "examples": [
+          "Die Veranstaltung beginnt heute um acht Uhr."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-evento",
+        "text": "l'evento",
+        "definition": "Un evento o programma organizzato a cui partecipano delle persone.",
+        "examples": [
+          "L'evento comincia oggi alle otto."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-event",
+        "text": "the event",
+        "definition": "An organized event or program that people attend.",
+        "examples": [
+          "The event starts today at eight."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "a2_noun_ergebnis",
+    "concept_id": "concept-a2-ergebnis",
+    "pos": "noun",
+    "level_auto": "A2",
+    "domain_tags": ["Work", "Education", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-ergebnis",
+        "text": "Ergebnis",
+        "definition": "Das Resultat von Arbeit, Lernen oder einer Handlung.",
+        "article_nom_sg_def": "das",
+        "gender": "n",
+        "plural": "Ergebnisse",
+        "card_synonyms": ["Resultat"],
+        "examples": [
+          "Das Ergebnis ist besser als erwartet."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-risultato",
+        "text": "il risultato",
+        "definition": "Il risultato di un lavoro, di uno studio o di un'azione.",
+        "examples": [
+          "Il risultato è migliore del previsto."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-result",
+        "text": "the result",
+        "definition": "The result of work, study, or an action.",
+        "examples": [
+          "The result is better than expected."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_reagieren",
+    "concept_id": "concept-a2-reagieren",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": ["Social", "Communication", "Work"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-reagieren",
+        "text": "reagieren",
+        "definition": "Auf etwas antworten oder sich wegen etwas sichtbar verhalten.",
+        "examples": [
+          "Er reagiert ruhig auf die Kritik."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-reagire",
+        "text": "reagire",
+        "definition": "Rispondere a qualcosa o comportarsi in un certo modo per una situazione.",
+        "examples": [
+          "Lei reagisce con calma alle critiche."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-react",
+        "text": "react",
+        "definition": "To respond to something or behave in a certain way because of it.",
+        "examples": [
+          "She reacts calmly to criticism."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_mitbringen",
+    "concept_id": "concept-a2-mitbringen",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Social", "Home"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-mitbringen",
+        "text": "mitbringen",
+        "definition": "Etwas oder jemanden zusammen mit sich an einen Ort bringen.",
+        "examples": [
+          "Kannst du bitte Brot für das Abendessen mitbringen?"
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-portare-con-se",
+        "text": "portare con sé",
+        "definition": "Portare qualcosa o qualcuno con te in un posto.",
+        "examples": [
+          "Puoi portare con te del pane per la cena?"
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-bring-along",
+        "text": "bring along",
+        "definition": "To take something or someone with you to a place.",
+        "examples": [
+          "Can you bring along some bread for dinner?"
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_uebernachten",
+    "concept_id": "concept-a2-uebernachten",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": ["Travel", "Daily", "Places"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-uebernachten",
+        "text": "übernachten",
+        "definition": "Die Nacht an einem Ort verbringen.",
+        "examples": [
+          "Wir übernachten heute in einem kleinen Hotel."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-pernottare",
+        "text": "pernottare",
+        "definition": "Passare la notte in un posto.",
+        "examples": [
+          "Stanotte pernottiamo in un piccolo hotel."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-stay-overnight",
+        "text": "stay overnight",
+        "definition": "To spend the night in a place.",
+        "examples": [
+          "We are staying overnight in a small hotel tonight."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adj_deutlich",
+    "concept_id": "concept-a2-deutlich",
+    "pos": "adj",
+    "level_auto": "A2",
+    "domain_tags": ["Communication", "Work", "Daily"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-deutlich",
+        "text": "deutlich",
+        "definition": "Leicht zu erkennen, zu verstehen oder zu hören.",
+        "examples": [
+          "Bitte sprich etwas deutlicher."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-chiaro",
+        "text": "chiaro",
+        "definition": "Facile da capire, vedere o sentire.",
+        "examples": [
+          "Per favore parla in modo più chiaro."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-clear",
+        "text": "clear",
+        "definition": "Easy to understand, see, or hear.",
+        "examples": [
+          "Please speak more clearly."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adj_seltsam",
+    "concept_id": "concept-a2-seltsam",
+    "pos": "adj",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Social", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-seltsam",
+        "text": "seltsam",
+        "definition": "Ungewöhnlich oder ein bisschen merkwürdig.",
+        "card_synonyms": ["merkwürdig"],
+        "examples": [
+          "Das ist eine seltsame Frage."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-strano",
+        "text": "strano",
+        "definition": "Insolito o un po' stravagante.",
+        "examples": [
+          "È una domanda strana."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-strange",
+        "text": "strange",
+        "definition": "Unusual or a little odd.",
+        "examples": [
+          "That is a strange question."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adv_normalerweise",
+    "concept_id": "concept-a2-normalerweise",
+    "pos": "adv",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-normalerweise",
+        "text": "normalerweise",
+        "definition": "So, wie es meistens ist oder passiert.",
+        "examples": [
+          "Normalerweise trinke ich morgens nur Kaffee."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-normalmente",
+        "text": "normalmente",
+        "definition": "Nel modo in cui di solito succede qualcosa.",
+        "examples": [
+          "Normalmente al mattino bevo solo caffè."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-normally",
+        "text": "normally",
+        "definition": "In the way something usually happens.",
+        "examples": [
+          "Normally I only drink coffee in the morning."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adv_nirgendwo",
+    "concept_id": "concept-a2-nirgendwo",
+    "pos": "adv",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Travel", "Places"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-nirgendwo",
+        "text": "nirgendwo",
+        "definition": "An keinem Ort.",
+        "examples": [
+          "Ich finde meinen Schlüssel nirgendwo."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-da-nessuna-parte",
+        "text": "da nessuna parte",
+        "definition": "In nessun luogo.",
+        "examples": [
+          "Non trovo le mie chiavi da nessuna parte."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-nowhere",
+        "text": "nowhere",
+        "definition": "In no place.",
+        "examples": [
+          "I can find my keys nowhere."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adv_sogar",
+    "concept_id": "concept-a2-sogar",
+    "pos": "adv",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Communication", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-sogar",
+        "text": "sogar",
+        "definition": "Mehr als erwartet; auch in einem überraschenden Fall.",
+        "examples": [
+          "Sogar die Kinder haben die Regel verstanden."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-persino",
+        "text": "persino",
+        "definition": "Anche in un caso sorprendente o più del previsto.",
+        "examples": [
+          "Persino i bambini hanno capito la regola."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-even",
+        "text": "even",
+        "definition": "Also in a surprising case; more than expected.",
+        "examples": [
+          "Even the children understood the rule."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "a2_chunk_kein_problem",
+    "concept_id": "concept-a2-kein-problem",
+    "pos": "chunk",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Social", "Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-kein-problem",
+        "text": "kein Problem",
+        "definition": "Das ist in Ordnung; es gibt keine Schwierigkeit.",
+        "examples": [
+          "Kein Problem, ich kann dir später helfen."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-nessun-problema",
+        "text": "nessun problema",
+        "definition": "Va bene; non c'è nessuna difficoltà.",
+        "examples": [
+          "Nessun problema, posso aiutarti più tardi."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-no-problem",
+        "text": "no problem",
+        "definition": "That is fine; there is no difficulty.",
+        "examples": [
+          "No problem, I can help you later."
+        ]
+      }
+    }
+  }
+]

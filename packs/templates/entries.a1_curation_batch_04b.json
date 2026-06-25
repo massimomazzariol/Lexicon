@@ -1,0 +1,23 @@
+[
+  {
+    "concept_id": "29a483bf-d86a-a442-f816-17ee4e248a16",
+    "source_key": "irgendjemand_examples_patch",
+    "pos": "chunk",
+    "translations": {
+      "de": {
+        "lexeme_id": "4f36ce51-64f5-8c89-0d70-c876d69edd21",
+        "text": "irgendjemand"
+      },
+      "it": {
+        "lexeme_id": "2df4bf4f-099d-edc7-c384-c00781d2d4cd",
+        "text": "qualcuno",
+        "examples": ["Il campanello sta suonando."]
+      },
+      "en": {
+        "lexeme_id": "fb928c28-02fd-1b8e-26b9-c598582b3c50",
+        "text": "someone",
+        "examples": ["The doorbell is ringing."]
+      }
+    }
+  }
+]

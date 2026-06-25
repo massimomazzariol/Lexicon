@@ -1,0 +1,310 @@
+[
+  {
+    "source_key": "antonyms-a2-verbessern",
+    "concept_id": "concept-a2-verbessern",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-verbessern",
+        "text": "verbessern",
+        "card_antonyms": ["verschlechtern"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-migliorare",
+        "text": "migliorare",
+        "card_antonyms": ["peggiorare"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-improve-bare",
+        "text": "improve",
+        "card_antonyms": ["worsen"]
+      }
+    }
+  },
+  {
+    "source_key": "antonyms-a2-sparen",
+    "concept_id": "concept-a2-sparen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-sparen",
+        "text": "sparen",
+        "card_antonyms": ["verschwenden"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-risparmiare",
+        "text": "risparmiare",
+        "card_antonyms": ["sprecare"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-save-bare",
+        "text": "save",
+        "card_antonyms": ["waste"]
+      }
+    }
+  },
+  {
+    "source_key": "antonyms-a2-zurueckgeben",
+    "concept_id": "concept-a2-zurueckgeben",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-zurueckgeben",
+        "text": "zurückgeben",
+        "card_antonyms": ["behalten"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-restituire",
+        "text": "restituire",
+        "card_antonyms": ["tenere"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-give-back-bare",
+        "text": "give back",
+        "card_antonyms": ["keep"]
+      }
+    }
+  },
+  {
+    "source_key": "antonyms-a2-reagieren",
+    "concept_id": "concept-a2-reagieren",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-reagieren",
+        "text": "reagieren",
+        "card_antonyms": ["ignorieren"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-reagire",
+        "text": "reagire",
+        "card_antonyms": ["ignorare"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-react",
+        "text": "react",
+        "card_antonyms": ["ignore"]
+      }
+    }
+  },
+  {
+    "source_key": "antonyms-a2-verfuegbar",
+    "concept_id": "concept-a2-verfuegbar",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-verfuegbar",
+        "text": "verfügbar",
+        "card_antonyms": ["nicht verfügbar"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-disponibile",
+        "text": "disponibile",
+        "card_antonyms": ["non disponibile"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-available",
+        "text": "available",
+        "card_antonyms": ["unavailable"]
+      }
+    }
+  },
+  {
+    "source_key": "antonyms-a2-nirgendwo",
+    "concept_id": "concept-a2-nirgendwo",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a2-nirgendwo",
+        "text": "nirgendwo",
+        "card_antonyms": ["irgendwo"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a2-da-nessuna-parte",
+        "text": "da nessuna parte",
+        "card_antonyms": ["da qualche parte"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a2-nowhere",
+        "text": "nowhere",
+        "card_antonyms": ["somewhere"]
+      }
+    }
+  },
+  {
+    "source_key": "antonyms-b1-verhindern",
+    "concept_id": "concept-b1-verhindern",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-verhindern",
+        "text": "verhindern",
+        "card_antonyms": ["ermöglichen"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-impedire",
+        "text": "impedire",
+        "card_antonyms": ["permettere"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-prevent",
+        "text": "prevent",
+        "card_antonyms": ["enable"]
+      }
+    }
+  },
+  {
+    "source_key": "antonyms-b1-ablehnen",
+    "concept_id": "concept-b1-ablehnen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-ablehnen",
+        "text": "ablehnen",
+        "card_antonyms": ["akzeptieren"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-rifiutare",
+        "text": "rifiutare",
+        "card_antonyms": ["accettare"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-reject",
+        "text": "reject",
+        "card_antonyms": ["accept"]
+      }
+    }
+  },
+  {
+    "source_key": "antonyms-b1-bewusst",
+    "concept_id": "concept-b1-bewusst",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-bewusst",
+        "text": "bewusst",
+        "card_antonyms": ["unbewusst"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-consapevole",
+        "text": "consapevole",
+        "card_antonyms": ["inconsapevole"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-aware",
+        "text": "aware",
+        "card_antonyms": ["unaware"]
+      }
+    }
+  },
+  {
+    "source_key": "antonyms-b1-flexibel",
+    "concept_id": "concept-b1-flexibel",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-flexibel",
+        "text": "flexibel",
+        "card_antonyms": ["starr"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-flessibile",
+        "text": "flessibile",
+        "card_antonyms": ["rigido"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-flexible",
+        "text": "flexible",
+        "card_antonyms": ["rigid"]
+      }
+    }
+  },
+  {
+    "source_key": "antonyms-b1-geeignet",
+    "concept_id": "concept-b1-geeignet",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-geeignet",
+        "text": "geeignet",
+        "card_antonyms": ["ungeeignet"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-adatto",
+        "text": "adatto",
+        "card_antonyms": ["inadatto"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-suitable",
+        "text": "suitable",
+        "card_antonyms": ["unsuitable"]
+      }
+    }
+  },
+  {
+    "source_key": "antonyms-b1-angemessen",
+    "concept_id": "concept-b1-angemessen",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-angemessen",
+        "text": "angemessen",
+        "card_antonyms": ["unangemessen"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-adeguato",
+        "text": "adeguato",
+        "card_antonyms": ["inappropriato"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-appropriate",
+        "text": "appropriate",
+        "card_antonyms": ["inappropriate"]
+      }
+    }
+  },
+  {
+    "source_key": "antonyms-b1-langfristig",
+    "concept_id": "concept-b1-langfristig",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-langfristig",
+        "text": "langfristig",
+        "card_antonyms": ["kurzfristig"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-a-lungo-termine",
+        "text": "a lungo termine",
+        "card_antonyms": ["a breve termine"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-in-the-long-term",
+        "text": "in the long term",
+        "card_antonyms": ["short-term"]
+      }
+    }
+  },
+  {
+    "source_key": "antonyms-b1-gleichzeitig",
+    "concept_id": "concept-b1-gleichzeitig",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-gleichzeitig",
+        "text": "gleichzeitig",
+        "card_antonyms": ["nacheinander"]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-contemporaneamente",
+        "text": "contemporaneamente",
+        "card_antonyms": ["uno dopo l'altro"]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-simultaneously",
+        "text": "simultaneously",
+        "card_antonyms": ["one after another"]
+      }
+    }
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "source_key": "a1_answer_support_en_falsch_incorrect",
+    "concept_id": "434197ea-470c-0d8c-5882-c14d89eb9dfd",
+    "pos": "adj",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-falsch-incorrect-support",
+        "text": "incorrect"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_it_falsch_errato",
+    "concept_id": "434197ea-470c-0d8c-5882-c14d89eb9dfd",
+    "pos": "adj",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-a1-falsch-errato-support",
+        "text": "errato"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_heft_exercise_book",
+    "concept_id": "c63a2ccd-e3d1-50d7-80eb-2446ba7b9a38",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-heft-exercise-book-support",
+        "text": "the exercise book"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_lehrer_teacher",
+    "concept_id": "632b1356-e865-9aa6-ec1b-b86e243b8f5c",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-lehrer-teacher-support",
+        "text": "the teacher"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_en_schueler_student",
+    "concept_id": "f95fafb5-da7d-d06d-2ba0-364c18845067",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-schueler-student-support",
+        "text": "the student"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_it_schueler_alunno",
+    "concept_id": "f95fafb5-da7d-d06d-2ba0-364c18845067",
+    "pos": "noun",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-a1-schueler-alunno-support",
+        "text": "l'alunno"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_it_fragen_chiedere",
+    "concept_id": "27ea4876-e57e-7e6f-be3d-3a7e485e75b8",
+    "pos": "verb",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-a1-fragen-chiedere-support",
+        "text": "chiedere"
+      }
+    }
+  },
+  {
+    "source_key": "a1_answer_support_it_wort_vocabolo",
+    "concept_id": "f4df005a-fe7b-9056-ccfb-ff2884941202",
+    "pos": "noun",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-a1-wort-vocabolo-support",
+        "text": "il vocabolo"
+      }
+    }
+  }
+]

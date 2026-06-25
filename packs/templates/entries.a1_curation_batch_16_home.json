@@ -1,0 +1,873 @@
+[
+  {
+    "source_key": "core_noun_haus",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Home"
+    ],
+    "translations": {
+      "de": {
+        "text": "Haus",
+        "definition": "Ein Gebäude, in dem Menschen wohnen.",
+        "examples": [
+          "Wir haben ein großes neues Haus gekauft."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the house",
+        "definition": "A building where people live.",
+        "examples": [
+          "We bought a large new house."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la casa",
+        "aliases": [
+          "l'abitazione"
+        ],
+        "definition": "Un edificio in cui vivono le persone.",
+        "examples": [
+          "Abbiamo comprato una grande casa nuova."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct scalar opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_zimmer",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Home"
+    ],
+    "translations": {
+      "de": {
+        "text": "Zimmer",
+        "definition": "Ein Raum innerhalb eines Gebäudes.",
+        "examples": [
+          "Dein Zimmer ist sehr sauber und hell."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the room",
+        "definition": "A space within a building.",
+        "examples": [
+          "Your room is very clean and bright."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la stanza",
+        "aliases": [
+          "la camera"
+        ],
+        "definition": "Uno spazio all'interno di un edificio.",
+        "examples": [
+          "La tua stanza è molto pulita e luminosa."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "No direct opposite",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_kueche",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Home"
+    ],
+    "translations": {
+      "de": {
+        "text": "Küche",
+        "definition": "Der Raum im Haus, in dem Essen gekocht wird.",
+        "examples": [
+          "Meine Mutter steht gerade in der Küche."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Specific house room",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the kitchen",
+        "definition": "The room in the house where food is cooked.",
+        "examples": [
+          "My mother is currently standing in the kitchen."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Specific house room",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la cucina",
+        "definition": "La stanza della casa in cui si cucina il cibo.",
+        "examples": [
+          "Mia madre è attualmente in cucina."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Specific house room",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_bad",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Home"
+    ],
+    "translations": {
+      "de": {
+        "text": "Bad",
+        "aliases": [
+          "das Badezimmer"
+        ],
+        "definition": "Der Raum im Haus zum Waschen oder Duschen.",
+        "examples": [
+          "Ich brauche das Bad jetzt sofort."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Specific house room",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the bathroom",
+        "definition": "The room in the house for washing or showering.",
+        "examples": [
+          "I need the bathroom right now."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Specific house room",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "il bagno",
+        "definition": "La stanza della casa per lavarsi o fare la doccia.",
+        "examples": [
+          "Mi serve il bagno in questo momento."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Specific house room",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_tuer",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Home"
+    ],
+    "translations": {
+      "de": {
+        "text": "Tür",
+        "definition": "Der Eingang oder Ausgang eines Raumes oder Gebäudes.",
+        "examples": [
+          "Bitte schließen Sie langsam die Tür."
+        ],
+        "card_antonyms": [
+          "das Fenster"
+        ]
+      },
+      "en": {
+        "text": "the door",
+        "definition": "The entrance or exit of a room or building.",
+        "examples": [
+          "Please close the door slowly."
+        ]
+      },
+      "it": {
+        "text": "la porta",
+        "definition": "L'ingresso o l'uscita di una stanza o di un edificio.",
+        "examples": [
+          "Per favore, chiuda lentamente la porta."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_fenster",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Home"
+    ],
+    "translations": {
+      "de": {
+        "text": "Fenster",
+        "definition": "Eine Öffnung in der Wand für Licht und Luft.",
+        "examples": [
+          "Das offene Fenster lässt kalte Luft herein."
+        ],
+        "card_antonyms": [
+          "die Tür"
+        ]
+      },
+      "en": {
+        "text": "the window",
+        "definition": "An opening in the wall for light and air.",
+        "examples": [
+          "The open window lets cold air in."
+        ]
+      },
+      "it": {
+        "text": "la finestra",
+        "definition": "Un'apertura nel muro per la luce e l'aria.",
+        "examples": [
+          "La finestra aperta fa entrare l'aria fredda."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_bett",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Home",
+      "Furniture"
+    ],
+    "translations": {
+      "de": {
+        "text": "Bett",
+        "definition": "Ein Möbelstück, in dem man schläft.",
+        "examples": [
+          "Ich bin sehr müde und gehe früh ins Bett."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Specific furniture piece",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the bed",
+        "definition": "A piece of furniture in which one sleeps.",
+        "examples": [
+          "I am very tired and go to bed early."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Specific furniture piece",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "il letto",
+        "definition": "Un pezzo di arredamento in cui si dorme.",
+        "examples": [
+          "Sono molto stanco e vado a letto presto."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Specific furniture piece",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_tisch",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Home",
+      "Furniture"
+    ],
+    "translations": {
+      "de": {
+        "text": "Tisch",
+        "definition": "Ein Möbelstück mit einer flachen Platte, meist zum Essen oder Arbeiten.",
+        "examples": [
+          "Das Buch liegt auf dem großen Tisch."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Specific furniture piece",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the table",
+        "definition": "A piece of furniture with a flat top, usually for eating or working.",
+        "examples": [
+          "The book lies on the large table."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Specific furniture piece",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "il tavolo",
+        "definition": "Un pezzo di arredamento con un piano piatto, solitamente per mangiare o lavorare.",
+        "examples": [
+          "Il libro si trova sul grande tavolo."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Specific furniture piece",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_stuhl",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Home",
+      "Furniture"
+    ],
+    "translations": {
+      "de": {
+        "text": "Stuhl",
+        "definition": "Ein meist hölzernes Möbelstück zum Sitzen für eine Person.",
+        "examples": [
+          "Er setzt sich sofort auf den schwarzen Stuhl."
+        ],
+        "card_antonyms": [
+          "der Tisch"
+        ]
+      },
+      "en": {
+        "text": "the chair",
+        "definition": "A mostly wooden piece of furniture for one person to sit on.",
+        "examples": [
+          "He immediately sits on the black chair."
+        ]
+      },
+      "it": {
+        "text": "la sedia",
+        "definition": "Un pezzo di arredamento, solitamente di legno, per far sedere una persona.",
+        "examples": [
+          "Lui si siede subito sulla sedia nera."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_sessel",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Home",
+      "Furniture"
+    ],
+    "translations": {
+      "de": {
+        "text": "Sessel",
+        "definition": "Ein sehr weiches, bequemes Sitzmöbelstück für eine Person.",
+        "examples": [
+          "Mein Großvater liest oft bequem im Sessel."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Specific furniture piece",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the armchair",
+        "definition": "A very soft, comfortable piece of seating furniture for one person.",
+        "examples": [
+          "My grandfather often reads comfortably in the armchair."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Specific furniture piece",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "la poltrona",
+        "definition": "Un sedile molto morbido e comodo per una sola persona.",
+        "examples": [
+          "Mio nonno legge spesso comodamente in poltrona."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Specific furniture piece",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_noun_schrank",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Home",
+      "Furniture"
+    ],
+    "translations": {
+      "de": {
+        "text": "Schrank",
+        "definition": "Ein hohes Möbelstück zur Aufbewahrung von Dingen oder Kleidung.",
+        "examples": [
+          "Der Teller steht sicher oben im Schrank."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Specific furniture piece",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "the cupboard",
+        "aliases": [
+          "the closet",
+          "the cabinet",
+          "the wardrobe"
+        ],
+        "definition": "A tall piece of furniture for storing things or clothes.",
+        "examples": [
+          "The plate is safely stored up in the cupboard."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Specific furniture piece",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "l'armadio",
+        "aliases": [
+          "il mobiletto",
+          "la credenza"
+        ],
+        "definition": "Un mobile alto per riporre oggetti o vestiti.",
+        "examples": [
+          "Il piatto è riposto al sicuro in alto nell'armadio."
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "Specific furniture piece",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_oeffnen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Action"
+    ],
+    "translations": {
+      "de": {
+        "text": "öffnen",
+        "aliases": [
+          "aufmachen"
+        ],
+        "definition": "Zugang zu einem geschlossenen Raum oder Behälter schaffen.",
+        "examples": [
+          "Bitte öffnen Sie das Fenster ein kleines bisschen."
+        ],
+        "card_antonyms": [
+          "schließen"
+        ]
+      },
+      "en": {
+        "text": "to open",
+        "aliases": [],
+        "definition": "To provide access to a closed space or container.",
+        "examples": [
+          "Please open the window a little bit."
+        ]
+      },
+      "it": {
+        "text": "aprire",
+        "definition": "Fornire accesso a uno spazio o contenitore chiuso.",
+        "examples": [
+          "Per favore, apra un pochino la finestra."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_schliessen",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Action"
+    ],
+    "translations": {
+      "de": {
+        "text": "schließen",
+        "aliases": [
+          "zumachen"
+        ],
+        "definition": "Etwas nicht mehr offen sein lassen.",
+        "examples": [
+          "Du musst die Tür richtig schließen."
+        ],
+        "card_antonyms": [
+          "öffnen"
+        ]
+      },
+      "en": {
+        "text": "to close",
+        "aliases": [
+          "to shut",
+          "shut"
+        ],
+        "definition": "To make something no longer open.",
+        "examples": [
+          "You have to properly close the door."
+        ]
+      },
+      "it": {
+        "text": "chiudere",
+        "definition": "Azione per non lasciare più nulla di aperto.",
+        "examples": [
+          "Devi chiudere bene la porta."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_hier",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Space"
+    ],
+    "translations": {
+      "de": {
+        "text": "hier",
+        "definition": "An diesem bestimmten Ort; nahe beim Sprecher.",
+        "examples": [
+          "Wir bleiben heute Abend alle hier im Haus."
+        ],
+        "card_antonyms": [
+          "dort",
+          "da"
+        ]
+      },
+      "en": {
+        "text": "here",
+        "definition": "In, at, or to this place or position.",
+        "examples": [
+          "We are all staying here in the house tonight."
+        ]
+      },
+      "it": {
+        "text": "qui",
+        "aliases": [
+          "qua"
+        ],
+        "definition": "In questo determinato luogo; vicino a chi parla.",
+        "examples": [
+          "Noi rimaniamo tutti qui in casa stasera."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_dort",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Space"
+    ],
+    "translations": {
+      "de": {
+        "text": "dort",
+        "aliases": [
+          "da"
+        ],
+        "definition": "An einem anderen Ort; weiter weg vom Sprecher.",
+        "examples": [
+          "Dort hinten steht ja mein rotes Auto."
+        ],
+        "card_antonyms": [
+          "hier"
+        ]
+      },
+      "en": {
+        "text": "there",
+        "definition": "In, at, or to that place or position.",
+        "examples": [
+          "My red car is standing back there."
+        ]
+      },
+      "it": {
+        "text": "lì",
+        "aliases": [
+          "là"
+        ],
+        "definition": "In un altro luogo; più lontano da chi parla.",
+        "examples": [
+          "Laggiù c'è la mia auto rossa."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_sehr",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "sehr",
+        "definition": "In hohem Maße oder Grad.",
+        "examples": [
+          "Das Essen ist heute wirklich sehr heiß."
+        ],
+        "card_antonyms": [
+          "kaum",
+          "wenig"
+        ]
+      },
+      "en": {
+        "text": "very",
+        "definition": "In a high degree.",
+        "examples": [
+          "The food is really very hot today."
+        ]
+      },
+      "it": {
+        "text": "molto",
+        "definition": "In misura elevata.",
+        "examples": [
+          "Il cibo oggi è davvero molto caldo."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_gut",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "gut",
+        "definition": "Von hoher Qualität; angenehm oder positiv.",
+        "examples": [
+          "Er ist ein wirklich sehr guter Freund."
+        ],
+        "card_antonyms": [
+          "schlecht",
+          "böse"
+        ]
+      },
+      "en": {
+        "text": "good",
+        "definition": "To be desired or approved of; of high quality.",
+        "examples": [
+          "He is a really very good friend."
+        ]
+      },
+      "it": {
+        "text": "buono",
+        "aliases": [
+          "bravo",
+          "bene"
+        ],
+        "definition": "Di alta qualità; gradevole o positivo.",
+        "examples": [
+          "Lui è davvero un ottimo amico."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_adj_schlecht",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "schlecht",
+        "definition": "Von niedriger Qualität; nicht gut.",
+        "examples": [
+          "Das Wetter ist heute leider extrem schlecht."
+        ],
+        "card_antonyms": [
+          "gut"
+        ]
+      },
+      "en": {
+        "text": "bad",
+        "definition": "Of poor quality or a low standard.",
+        "examples": [
+          "The weather today is unfortunately extremely bad."
+        ]
+      },
+      "it": {
+        "text": "cattivo",
+        "definition": "Di bassa qualità; non buono.",
+        "examples": [
+          "Il tempo oggi è sfortunatamente molto brutto."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "core_verb_arbeiten_2",
+    "pos": "verb",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Action"
+    ],
+    "translations": {
+      "de": {
+        "text": "machen",
+        "definition": "Eine Handlung ausführen; etwas herstellen.",
+        "examples": [
+          "Was machst du heute Abend zu Hause?"
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "General action verb",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "en": {
+        "text": "to make",
+        "definition": "To perform an action; to construct or produce something.",
+        "examples": [
+          "What are you doing at home tonight?"
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "General action verb",
+          "reviewed_at": "2026-03-04"
+        }
+      },
+      "it": {
+        "text": "fare",
+        "definition": "Compiere un'azione; fabbricare o produrre qualcosa.",
+        "examples": [
+          "Cosa fai a casa stasera?"
+        ],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "General action verb",
+          "reviewed_at": "2026-03-04"
+        }
+      }
+    }
+  },
+  {
+    "source_key": "core_adv_ganz",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "translations": {
+      "de": {
+        "text": "ganz",
+        "aliases": [
+          "völlig"
+        ],
+        "definition": "Komplett, vollständig oder in hohem Maß.",
+        "examples": [
+          "Das ist eine ganz andere komplizierte Geschichte."
+        ],
+        "card_antonyms": [
+          "teilweise",
+          "halb"
+        ]
+      },
+      "en": {
+        "text": "whole",
+        "aliases": [
+          "entire",
+          "completely",
+          "entirely"
+        ],
+        "definition": "Entire, complete, or to a high degree.",
+        "examples": [
+          "That is an entirely different complicated story."
+        ]
+      },
+      "it": {
+        "text": "intero",
+        "aliases": [
+          "completamente",
+          "molto"
+        ],
+        "definition": "Completo, pienamente o in ampia misura.",
+        "examples": [
+          "Questa è una storia completamente diversa e complicata."
+        ]
+      }
+    }
+  }
+]

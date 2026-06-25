@@ -1,0 +1,165 @@
+[
+  {
+    "source_key": "a1_noun_uhr_device",
+    "concept_id": "concept-a1-uhr-device",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Time",
+      "Home"
+    ],
+    "notes": "Editorial addition from the ora/Uhr ambiguity audit. English is intentionally modeled as a broad timekeeping-device concept that accepts both clock and watch, because German Uhr and Italian orologio do not split that distinction here.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-uhr-device",
+        "text": "Uhr",
+        "definition": "Gerät, das die Uhrzeit anzeigt.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Uhren",
+        "examples": [
+          "An der Wand hängt ein Gerät, das die Zeit zeigt."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a1-orologio",
+        "text": "l'orologio",
+        "definition": "Strumento che indica l'ora.",
+        "examples": [
+          "Sul muro c'è uno strumento che segna il tempo."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a1-clock",
+        "text": "the clock",
+        "definition": "A device, such as a clock or a watch, that shows the time.",
+        "examples": [
+          "There is a device on the wall that shows the time."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "a1_noun_uhr_device_en_watch_variant",
+    "concept_id": "concept-a1-uhr-device",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a1-watch",
+        "text": "the watch"
+      }
+    }
+  },
+  {
+    "source_key": "a1_chunk_what_time_is_it",
+    "concept_id": "concept-a1-what-time-is-it",
+    "pos": "chunk",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Time",
+      "Communication"
+    ],
+    "notes": "Editorial addition from the ora/Uhr ambiguity audit. Phrase block for asking the time of day.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-wie-viel-uhr-ist-es",
+        "text": "Wie viel Uhr ist es?",
+        "definition": "Frage, um nach der Uhrzeit zu fragen.",
+        "examples": [
+          "Vor der Abfahrt ist der Akku leer, also spricht ein Tourist eine Passantin an."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a1-che-ora-e",
+        "text": "Che ora è?",
+        "definition": "Domanda per chiedere l'ora.",
+        "examples": [
+          "Senza telefono, un turista ferma una passante per capire se sia già tardi."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a1-what-time-is-it",
+        "text": "What time is it?",
+        "definition": "Question used to ask for the time.",
+        "examples": [
+          "Without a phone, a tourist stops a passer-by to see whether it is already late."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "a1_chunk_what_time_is_it_variant_de",
+    "concept_id": "concept-a1-what-time-is-it",
+    "pos": "chunk",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-wie-spaet-ist-es",
+        "text": "Wie spät ist es?"
+      }
+    }
+  },
+  {
+    "source_key": "a1_chunk_what_time_is_it_variant_it",
+    "concept_id": "concept-a1-what-time-is-it",
+    "pos": "chunk",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-a1-che-ore-sono",
+        "text": "Che ore sono?"
+      }
+    }
+  },
+  {
+    "source_key": "a1_noun_stunde_it_variant_ora",
+    "concept_id": "24b03fc5-f88c-d60b-acee-22ec75494a6c",
+    "pos": "noun",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-a1-ora-hour",
+        "text": "ora"
+      }
+    }
+  },
+  {
+    "source_key": "a1_noun_uhrzeit",
+    "concept_id": "concept-a1-uhrzeit",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Time",
+      "Communication"
+    ],
+    "notes": "Editorial addition from the ora/Uhr ambiguity audit. This is clock time or time of day, distinct from Stunde = hour and Uhr = device. CEFR confirmed editorially as A1 on 2026-03-21.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-uhrzeit",
+        "text": "Uhrzeit",
+        "definition": "Aktuelle Zeit eines Tages, wie sie auf der Uhr angezeigt wird.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "examples": [
+          "Ohne Handy wusste niemand, ob es schon Mittag war."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a1-ora-clock-time",
+        "text": "l'ora",
+        "definition": "L'ora del giorno indicata dall'orologio.",
+        "examples": [
+          "Senza telefono nessuno sapeva se fosse già mezzogiorno."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a1-time-clock-time",
+        "text": "the time",
+        "definition": "The time of day shown by a clock.",
+        "examples": [
+          "Without a phone, nobody knew whether it was already noon."
+        ]
+      }
+    }
+  }
+]

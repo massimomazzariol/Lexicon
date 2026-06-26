@@ -163,6 +163,18 @@ async function doFind() {
   }
 }
 
+// German nouns are stored as the bare lemma + a gender field; the definite article
+// (der/die/das) is derived from the gender for display - the same mapping the build uses.
+const DE_ARTICLE = { masc: 'der', m: 'der', fem: 'die', f: 'die', neut: 'das', n: 'das' };
+function deCitation(text, gender, pos) {
+  if (!text || /^(der|die|das)\s/i.test(text)) return text; // bare or already carries the article
+  if (pos === 'noun' && gender) {
+    const art = DE_ARTICLE[String(gender).toLowerCase()];
+    if (art) return `${art} ${text}`;
+  }
+  return text; // not a noun, or no gender on record: leave it bare (no invented article)
+}
+
 // 2b. BROWSE - list the words already in the lexicon (read-only, offline). Filter by
 // level and/or a text substring so you can see what is there without searching one by one.
 async function doBrowse() {
@@ -176,7 +188,7 @@ async function doBrowse() {
     const e = byConcept.get(lx.concept_id);
     if (!e) continue;
     const l = String(lx.lang).toLowerCase();
-    if (LANGS.includes(l) && !e.labels[l]) e.labels[l] = lx.text;
+    if (LANGS.includes(l) && !e.labels[l]) e.labels[l] = l === 'de' ? deCitation(lx.text, lx.gender, e.pos) : lx.text;
   }
   let rows = [...byConcept.values()];
   const level = await pick('Level', ['all', ...LEVELS]);
@@ -185,7 +197,7 @@ async function doBrowse() {
   if (filter) rows = rows.filter((r) => LANGS.some((l) => (r.labels[l] || '').toLowerCase().includes(filter)));
   if (!rows.length) { console.log(C.yellow('\nNo words match.')); return; }
   const lvlIdx = (l) => { const i = LEVELS.indexOf(l); return i < 0 ? 99 : i; };
-  const sortKey = (r) => r.labels.de || r.labels.en || r.labels.it || '';
+  const sortKey = (r) => key(r.labels.de || r.labels.en || r.labels.it || '');
   rows.sort((a, b) => lvlIdx(a.level) - lvlIdx(b.level) || sortKey(a).localeCompare(sortKey(b)));
   console.log(`\n${C.b(String(rows.length))} word(s)${level !== 'all' ? ' at ' + C.b(level) : ''}${filter ? ` matching "${filter}"` : ''}:\n`);
   for (const r of rows) {

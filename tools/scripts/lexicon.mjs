@@ -73,8 +73,11 @@ async function main() {
 }
 
 function header() {
-  const a = auditContent(read());
+  const data = read();
+  const a = auditContent(data);
   const c = countByCategory(a);
+  const reviewN = (data.concept_definitions || []).filter((d) => d.review_status === 'needs_review').length +
+    (data.examples || []).filter((e) => e.review_status === 'needs_review').length;
   const bar = '─'.repeat(54);
   const num = (n) => (n === 0 ? C.green('0') : C.yellow(String(n)));
   console.log('\n' + C.cyan(bar));
@@ -82,8 +85,11 @@ function header() {
   console.log(C.cyan(bar));
   console.log(' ' + C.b(String(a.totals.concepts)) + C.dim(' words total    ') +
     LEVELS.map((l) => `${C.gray(l)} ${C.b(String(a.perLevel[l] || 0))}`).join('   '));
-  console.log(' ' + C.dim('still needs work:') +
-    `  definitions ${num(c.spoilers)}   synonyms ${num(c.synonyms)}   examples ${num(c.examples)}`);
+  // Two different things: "to fill" = content gaps (Autopilot's job); "awaiting review" =
+  // AI items flagged needs_review, waiting for your OK in "Review AI suggestions".
+  console.log(' ' + C.dim('to fill:') +
+    `  definitions ${num(c.spoilers)}   synonyms ${num(c.synonyms)}   examples ${num(c.examples)}` +
+    C.dim('      awaiting review: ') + (reviewN ? C.yellow(String(reviewN)) : C.green('0')));
 }
 
 async function mainMenu() {
@@ -377,23 +383,48 @@ async function doFix() {
     ...(each ? ['--publish-each'] : ['--build']), ...(push ? ['--push'] : [])]);
 }
 
-// 6. REVIEW - walk the needs_review items, approve/reject (no AI).
+// 6. REVIEW - walk the needs_review items (definitions AND examples), approve/reject (no AI).
+// This is the human gate review_autopromote leaves behind: medium-confidence content that
+// is clean but not auto-shipped. It covers both definitions and examples (the autopilot's
+// "review queue" count includes both), so the queue here matches that number.
 async function doReview() {
   const data = read();
-  const pending = (data.concept_definitions || []).filter((d) => d.review_status === 'needs_review');
+  const labelFor = (conceptId) => {
+    const lx = (data.lexemes || []).filter((l) => cidOf(l.concept_id) === conceptId && l.is_active !== false);
+    return LANGS.map((l) => (lx.find((x) => x.lang === l) || {}).text).filter(Boolean).join(' / ') || conceptId;
+  };
+  const pending = [
+    ...(data.concept_definitions || []).filter((d) => d.review_status === 'needs_review').map((row) => ({ kind: 'def', row })),
+    ...(data.examples || []).filter((e) => e.review_status === 'needs_review').map((row) => ({ kind: 'ex', row })),
+  ];
   if (!pending.length) { console.log(C.green('\nNothing waiting for review. ✅')); return; }
-  console.log(`\n${C.b(String(pending.length))} item(s) awaiting review.  ` + C.dim('a = approve, r = reject (clears it), s = skip, q = stop'));
+  const defs = pending.filter((p) => p.kind === 'def').length;
+  console.log(`\n${C.b(String(pending.length))} item(s) awaiting review` +
+    C.dim(`  (${defs} definitions, ${pending.length - defs} examples)`) +
+    C.dim('.  a = approve, r = reject, s = skip, q = stop'));
   let changed = 0;
-  for (const d of pending) {
-    const cid = typeof d.concept_id === 'object' ? d.concept_id.id : d.concept_id;
-    console.log('\n' + C.cyan(`[${d.lang}]`) + ' ' + C.dim(cid));
-    console.log('  ' + C.b(d.short_definition ?? C.dim('(no definition)')));
-    console.log('  ' + C.dim('synonyms: ') + JSON.stringify(d.synonyms_json || []) + C.dim('  antonyms: ') + JSON.stringify(d.antonyms_json || []));
+  const removeEx = [];
+  for (const { kind, row } of pending) {
+    const conceptId = cidOf(row.concept_id);
+    console.log('\n' + C.cyan(`[${row.lang}]`) + ' ' + C.b(labelFor(conceptId)) + '  ' + C.dim(conceptId));
+    if (kind === 'def') {
+      console.log('  ' + (row.short_definition ? C.b(row.short_definition) : C.dim('(no definition)')));
+      if ((row.synonyms_json || []).length || (row.antonyms_json || []).length) {
+        console.log('  ' + C.dim('synonyms: ') + JSON.stringify(row.synonyms_json || []) + C.dim('  antonyms: ') + JSON.stringify(row.antonyms_json || []));
+      }
+    } else {
+      console.log('  ' + C.dim('example: ') + C.b(row.sentence || '(empty)'));
+    }
     const a = (await ask('  ' + C.cyan('[a]') + 'pprove / ' + C.cyan('[r]') + 'eject / ' + C.cyan('[s]') + 'kip / ' + C.cyan('[q]') + 'uit: ')).toLowerCase();
     if (a === 'q') break;
-    if (a === 'a') { d.review_status = 'reviewed'; changed++; }
-    else if (a === 'r') { d.short_definition = null; d.synonyms_json = []; d.antonyms_json = []; d.review_status = 'reviewed'; changed++; }
+    if (a === 'a') { row.review_status = 'reviewed'; changed++; }
+    else if (a === 'r') {
+      if (kind === 'def') { row.short_definition = null; row.synonyms_json = []; row.antonyms_json = []; row.review_status = 'reviewed'; }
+      else { removeEx.push(row); } // rejecting an example removes it entirely
+      changed++;
+    }
   }
+  if (removeEx.length) data.examples = (data.examples || []).filter((e) => !removeEx.includes(e));
   if (changed && (await confirm(`\nSave ${C.b(String(changed))} change(s)? ${C.dim('[y/N]')} `))) { writeFileSync(CONTENT, JSON.stringify(data, null, 2) + '\n'); console.log(C.green('Saved.')); }
 }
 

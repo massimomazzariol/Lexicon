@@ -227,7 +227,7 @@ function buildPrompt(c, lexBy, defBy, t) {
     'You are a meticulous trilingual (German/Italian/English) lexicographer. Output STRICT JSON only.',
     'NO SPOILERS - a definition/example for a language MUST NOT contain the headword, an inflection of it, or its translation in another language; examples use the word in their OWN language only.',
     'BETTER EMPTY THAN WRONG - leave a field empty ("" or []) if you cannot write a short, accurate, spoiler-free value. Never guess, never write filler, never use foreign words.',
-    'synonyms[lang] = the OTHER accepted answers for this German headword in that language. For the headword\'s OWN language: true lexical synonyms. For the OTHER languages: ALL its common translations, INCLUDING its distinct meanings - a German word often maps to several different words (e.g. halten → tenere, reggere, fermare, mantenere, durare). Citation form, different words, NOT inflections. [] if none.',
+    'synonyms[lang] = the OTHER accepted answers for this headword in that language. For the headword\'s OWN language: true lexical synonyms. For the OTHER languages: ALL its common translations, INCLUDING its distinct meanings - one word often maps to several different words (e.g. German halten -> Italian tenere, reggere, fermare, mantenere, durare). Citation form, different words, NOT inflections. [] if none.',
     'antonyms[lang] = direct opposites in that language. [] if none.'
   ].join('\n');
   const ask = [];

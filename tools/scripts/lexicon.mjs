@@ -1,6 +1,7 @@
 // Lexicon - THE single console. EPIC-ED-01.
 //
-// One clear menu to grow & tend the German vocabulary. Each item is THIN: it drives the
+// One clear menu to grow & tend the multilingual vocabulary (German/Italian/English
+// today, via language plugins). Each item is THIN: it drives the
 // engines we already have (draft/promote, eval_fix bandit+judge, interconnect, gate),
 // plus two small AI helpers (suggest words / correct+disambiguate a word). The "Autopilot"
 // item runs the autonomous engine (autopilot.mjs). The human is the gate. Generation needs
@@ -76,7 +77,7 @@ function header() {
   const bar = '─'.repeat(54);
   const num = (n) => (n === 0 ? C.green('0') : C.yellow(String(n)));
   console.log('\n' + C.cyan(bar));
-  console.log(' ' + C.b(C.cyan('LEXICON')) + C.dim('  ·  German vocabulary builder'));
+  console.log(' ' + C.b(C.cyan('LEXICON')) + C.dim('  ·  multilingual vocabulary builder'));
   console.log(C.cyan(bar));
   console.log(' ' + C.b(String(a.totals.concepts)) + C.dim(' words total    ') +
     LEVELS.map((l) => `${C.gray(l)} ${C.b(String(a.perLevel[l] || 0))}`).join('   '));
@@ -286,7 +287,7 @@ async function proposeWords(lang, level, n) {
   const model = await resolveModel();
   const res = await chat({
     system: 'You are a CEFR vocabulary expert. Output STRICT JSON only.',
-    user: `Propose ${n} common, distinct CEFR ${level} ${LANGNAME[lang]} headwords for a learner. Lemmas only; for German nouns include the article (der/die/das). Avoid rare/specialized terms and multi-word phrases. Return JSON: {"words":["...", ...]}.`
+    user: `Propose ${n} common, distinct CEFR ${level} ${LANGNAME[lang]} headwords for a learner. Lemmas only; for nouns in gendered languages include the definite article (e.g. German der/die/das, Italian il/la/lo). Avoid rare/specialized terms and multi-word phrases. Return JSON: {"words":["...", ...]}.`
   }, model);
   return (Array.isArray(res?.words) ? res.words : []).map((w) => String(w).trim()).filter(Boolean);
 }

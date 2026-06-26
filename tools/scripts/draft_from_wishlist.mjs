@@ -270,7 +270,7 @@ function surfaceKey(lang, raw) {
 
 function buildPrompt(entry, candidates) {
   const system = [
-    'You are a meticulous trilingual (German, Italian, English) lexicographer building a concept graph for a German-vocabulary learning app. Output STRICT JSON only - no prose, no markdown.',
+    'You are a meticulous trilingual (German, Italian, English) lexicographer building a concept graph for a multilingual vocabulary learning app. Output STRICT JSON only - no prose, no markdown.',
     '',
     'A CONCEPT is ONE language-neutral meaning. LEXEMES are its words in de/it/en.',
     '',

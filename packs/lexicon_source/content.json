@@ -7948,20 +7948,6 @@
       }
     },
     {
-      "concept_id": "concept-a1-werfen",
-      "pos": "verb",
-      "difficulty_score_auto": 20,
-      "level_auto": "A1",
-      "level_override": null,
-      "domain_tags": [],
-      "notes": null,
-      "review_status": "reviewed",
-      "metadata_json": {
-        "source": "ai",
-        "generated_at": "2026-06-26T12:01:38.689Z"
-      }
-    },
-    {
       "concept_id": "concept-a2-herausfinden",
       "pos": "verb",
       "difficulty_score_auto": 35,
@@ -39514,57 +39500,6 @@
       "is_active": true
     },
     {
-      "lexeme_id": "lexeme-de-a1-werfen",
-      "concept_id": "concept-a1-werfen",
-      "lang": "de",
-      "text": "geworfen",
-      "frequency_rank": null,
-      "lemma": "geworfen",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-it-a1-werfen",
-      "concept_id": "concept-a1-werfen",
-      "lang": "it",
-      "text": "lanciato",
-      "frequency_rank": null,
-      "lemma": "lanciato",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-en-a1-werfen",
-      "concept_id": "concept-a1-werfen",
-      "lang": "en",
-      "text": "thrown",
-      "frequency_rank": null,
-      "lemma": "thrown",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
       "lexeme_id": "lexeme-de-a2-herausfinden",
       "concept_id": "concept-a2-herausfinden",
       "lang": "de",
@@ -55851,36 +55786,6 @@
       "concept_id": "concept-a1-ubrigens",
       "lang": "en",
       "sentence": "By the way, I bought a new book.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "needs_review"
-    },
-    {
-      "example_id": "example-de-a1-werfen",
-      "concept_id": "concept-a1-werfen",
-      "lang": "de",
-      "sentence": "Er hat den Ball geworfen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "needs_review"
-    },
-    {
-      "example_id": "example-it-a1-werfen",
-      "concept_id": "concept-a1-werfen",
-      "lang": "it",
-      "sentence": "Ha lanciato la palla.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "needs_review"
-    },
-    {
-      "example_id": "example-en-a1-werfen",
-      "concept_id": "concept-a1-werfen",
-      "lang": "en",
-      "sentence": "He threw the ball.",
       "source": "ai",
       "generated_by": "ai",
       "notes": null,
@@ -86048,44 +85953,6 @@
       "concept_id": "concept-a1-ubrigens",
       "lang": "en",
       "short_definition": "Something mentioned casually.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a1-werfen",
-      "lang": "de",
-      "short_definition": "Etwas mit Kraft in eine Richtung bewegen.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a1-werfen",
-      "lang": "it",
-      "short_definition": "Spostare qualcosa con forza in una direzione.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [
-        "scagliato"
-      ],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a1-werfen",
-      "lang": "en",
-      "short_definition": "Move something with force in a direction.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -141499,60 +141366,6 @@
       "lang": "en",
       "surface": "by the way",
       "surface_search": "by the way",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "35d8c192-650b-3daa-b8fe-57c7b6b4e263",
-      "lexeme_id": "lexeme-de-a1-werfen",
-      "lang": "de",
-      "surface": "geworfen",
-      "surface_search": "geworfen",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "db46cde4-e9a2-cf65-5241-87971a5f63bd",
-      "lexeme_id": "lexeme-it-a1-werfen",
-      "lang": "it",
-      "surface": "lanciato",
-      "surface_search": "lanciato",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "6802f8bf-4572-ef8b-1bb7-1318c469ab08",
-      "lexeme_id": "lexeme-en-a1-werfen",
-      "lang": "en",
-      "surface": "thrown",
-      "surface_search": "thrown",
       "number_value": "none",
       "grammatical_case": "none",
       "definiteness": "none",

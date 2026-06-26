@@ -279,7 +279,7 @@ function buildPrompt(entry, candidates) {
     '2. `lemma` = the base form WITHOUT any article: "Apfel", "mela", "apple", "laufen", "run". NEVER put only an article in `text`. NEVER leave `text` empty.',
     '3. If the input term is an INFLECTED form (e.g. "geworfen", "gelaufen", a plural, a conjugation), resolve the CONCEPT to its lemma (e.g. "werfen") and use the lemma citation form in `text`. But do NOT strip separable/inseparable verb prefixes: "herausfinden" stays "herausfinden" (NEVER "finden"), "aufstehen" stays "aufstehen" (NEVER "stehen") - a prefixed verb is its OWN concept.',
     '4. Provide all three languages (de, it, en), each the single most natural translation. English verbs: base form ONLY - NEVER prefix with "to", no underscores ("run", "find out" - NEVER "to run" / "find_out").',
-    '5. `synonyms_de` / `antonyms_de`: other GERMAN lexemes (different words), in citation form. They MUST NOT include the headword itself or any inflection of it. [] if none.',
+    '5. `synonyms` / `antonyms`: per language ({de,it,en}), other lexemes IN THAT SAME LANGUAGE (different words), in citation form - e.g. synonyms for "glad": en ["happy","pleased"], de ["froh","zufrieden"], it ["contento","felice"]. Each language\'s list holds ONLY that language\'s words. A list MUST NOT include that language\'s own headword or any inflection of it. [] for a language with none (never guess - empty beats wrong).',
     '6. NO SPOILERS - be strict. A definition or example for a language MUST NOT contain: the headword itself, any inflection of it (e.g. a definition of "herausfinden" must not contain "herausfinden"/"herausgefunden"), or its translation in another language. Describe the meaning with OTHER words. Definitions are short. Examples show natural usage of the word in its OWN language only.',
     '6b. BETTER EMPTY THAN WRONG. If you cannot write a SHORT, ACCURATE, spoiler-free definition or example for a language - or you are unsure of a translation/synonym - leave that field EMPTY ("" or []). Never guess, never write filler or vague meta-text like "a word that expresses...". An empty field is fine; a wrong or spoiler one is not.',
     '7. On an "attach" match, the translations/definitions MUST describe the EXISTING concept\'s meaning - do not drift to a different word.',
@@ -313,8 +313,8 @@ const SHAPE = {
   concept: { pos: '', level: 'A1', gender: 'none', domain_tags: [] },
   lexemes: { de: { text: '', lemma: '' }, it: { text: '', lemma: '' }, en: { text: '', lemma: '' } },
   definitions: { de: '', it: '', en: '' },
-  synonyms_de: [],
-  antonyms_de: [],
+  synonyms: { de: [], it: [], en: [] },
+  antonyms: { de: [], it: [], en: [] },
   example: { de: '', it: '', en: '' }
 };
 
@@ -323,9 +323,9 @@ const EXAMPLE = {
   concept: { pos: 'noun', level: 'A1', gender: 'm', domain_tags: ['food'] },
   lexemes: { de: { text: 'der Apfel', lemma: 'Apfel' }, it: { text: 'la mela', lemma: 'mela' }, en: { text: 'the apple', lemma: 'apple' } },
   definitions: { de: 'Eine runde, knackige Frucht, oft rot oder grün.', it: 'Frutto tondo e croccante, spesso rosso o verde.', en: 'A round, crisp fruit, often red or green.' },
-  synonyms_de: [],
-  antonyms_de: [],
-  example: { de: 'Ich esse jeden Morgen einen Apfel.', it: 'Mangio una di questi frutti ogni mattina.', en: 'I eat one of these every morning.' }
+  synonyms: { de: [], it: [], en: [] },
+  antonyms: { de: [], it: [], en: [] },
+  example: { de: 'Ich esse jeden Morgen so eine Frucht.', it: 'Mangio uno di questi frutti ogni mattina.', en: 'I eat one of these every morning.' }
 };
 
 // ── guardrails ───────────────────────────────────────────────────────────────
@@ -347,22 +347,25 @@ function normalizeDraft(r) {
   // German gender follows the citation article - der/die/das is authoritative.
   const artGender = DE_ARTICLE_GENDER[str(r.lexemes?.de?.text).trim().toLowerCase().split(' ')[0]];
   if (artGender && r.concept) r.concept.gender = artGender;
-  // Drop the headword itself (text or lemma) from synonyms/antonyms; trim + dedup.
-  const heads = new Set(
-    [
-      normalizeSearch(stripArticle(normalizeSearch(r.lexemes?.de?.text ?? ''))),
-      normalizeSearch(r.lexemes?.de?.lemma ?? '')
-    ].filter(Boolean)
-  );
-  for (const field of ['synonyms_de', 'antonyms_de']) {
-    if (!Array.isArray(r[field])) continue;
-    const seen = new Set();
-    r[field] = r[field]
-      .map((w) => String(w).trim())
-      .filter(Boolean)
-      .filter((w) => !/[^\p{Script=Latin}\p{P}\s\d]/u.test(w)) // drop corrupted/mojibake entries
-      .filter((w) => !heads.has(normalizeSearch(stripArticle(normalizeSearch(w)))))
-      .filter((w) => (seen.has(w.toLowerCase()) ? false : seen.add(w.toLowerCase())));
+  // Drop each language's own headword (text or lemma) from its synonyms/antonyms; trim + dedup.
+  for (const field of ['synonyms', 'antonyms']) {
+    if (!r[field] || typeof r[field] !== 'object') continue;
+    for (const lang of ['de', 'it', 'en']) {
+      if (!Array.isArray(r[field][lang])) continue;
+      const heads = new Set(
+        [
+          normalizeSearch(stripArticle(normalizeSearch(r.lexemes?.[lang]?.text ?? ''))),
+          normalizeSearch(r.lexemes?.[lang]?.lemma ?? '')
+        ].filter(Boolean)
+      );
+      const seen = new Set();
+      r[field][lang] = r[field][lang]
+        .map((w) => String(w).trim())
+        .filter(Boolean)
+        .filter((w) => !/[^\p{Script=Latin}\p{P}\s\d]/u.test(w)) // drop corrupted/mojibake entries
+        .filter((w) => !heads.has(normalizeSearch(stripArticle(normalizeSearch(w)))))
+        .filter((w) => (seen.has(w.toLowerCase()) ? false : seen.add(w.toLowerCase())));
+    }
   }
   // A valid attach/duplicate id = one of the concepts we actually surfaced. Ids
   // are a MIX of UUIDs and readable "concept-..." slugs, so never pattern-match -
@@ -434,23 +437,21 @@ function validateDraft(r) {
     issues.push(`gender "${g}" contradicts the de article ("${r.lexemes.de.text}" → ${artGender})`);
   }
 
-  // Flag obviously corrupted synonyms/antonyms (non-Latin / control chars).
-  for (const field of ['synonyms_de', 'antonyms_de']) {
-    for (const w of r[field] ?? []) {
-      if (/[^\p{Script=Latin}\p{P}\s\d]/u.test(String(w))) issues.push(`${field} has a corrupted entry ("${w}")`);
-    }
-  }
-
-  // synonyms/antonyms must not be the headword itself (text OR lemma) or an inflection.
-  const heads = new Set(
-    [
-      normalizeSearch(stripArticle(normalizeSearch(r.lexemes?.de?.text ?? ''))),
-      normalizeSearch(r.lexemes?.de?.lemma ?? '')
-    ].filter(Boolean)
-  );
-  for (const field of ['synonyms_de', 'antonyms_de']) {
-    for (const w of r[field] ?? []) {
-      if (heads.has(normalizeSearch(stripArticle(normalizeSearch(w))))) issues.push(`${field} contains the headword ("${w}")`);
+  // Flag obviously corrupted synonyms/antonyms (non-Latin / control chars), and any
+  // language's list containing that language's own headword (text OR lemma) or an inflection.
+  for (const field of ['synonyms', 'antonyms']) {
+    for (const lang of ['de', 'it', 'en']) {
+      const list = r[field]?.[lang] ?? [];
+      const heads = new Set(
+        [
+          normalizeSearch(stripArticle(normalizeSearch(r.lexemes?.[lang]?.text ?? ''))),
+          normalizeSearch(r.lexemes?.[lang]?.lemma ?? '')
+        ].filter(Boolean)
+      );
+      for (const w of list) {
+        if (/[^\p{Script=Latin}\p{P}\s\d]/u.test(String(w))) issues.push(`${field}.${lang} has a corrupted entry ("${w}")`);
+        if (heads.has(normalizeSearch(stripArticle(normalizeSearch(w))))) issues.push(`${field}.${lang} contains the headword ("${w}")`);
+      }
     }
   }
   // Empty definitions/examples are ACCEPTABLE (better empty than wrong) - the

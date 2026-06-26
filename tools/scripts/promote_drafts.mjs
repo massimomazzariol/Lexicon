@@ -5,8 +5,8 @@
 // review `git diff packs/lexicon_source/content.json` and commit. It never commits.
 //
 // Record shape matches the hand-authored waves (tools/scripts/add_*_wave.mjs):
-// concept + 3 lexemes (de/it/en) + 3 concept_definitions (German synonyms/antonyms
-// live on the `de` definition) + per-language examples. Provenance: source "ai".
+// concept + 3 lexemes (de/it/en) + 3 concept_definitions (per-language synonyms/
+// antonyms live on each language's definition) + per-language examples. Provenance: source "ai".
 //
 // Usage:
 //   node tools/scripts/promote_drafts.mjs                  # preview the latest drafts
@@ -92,12 +92,11 @@ function main() {
         usedIds.add(lid);
         add.lexemes.push(lexeme(lid, cid, lang, lx, true));
         lexKeys.add(`${cid}|${lang}|${norm(lx.text)}`);
-        const isDe = lang === 'de';
         const shortDef = str(d.definitions?.[lang]).trim();
-        const syn = isDe ? d.synonyms_de ?? [] : [];
-        const ant = isDe ? d.antonyms_de ?? [] : [];
-        // Skip empty definitions (empty beats wrong). Still create the German def
-        // if it carries synonyms/antonyms even without a short definition.
+        const syn = d.synonyms?.[lang] ?? [];
+        const ant = d.antonyms?.[lang] ?? [];
+        // Skip empty definitions (empty beats wrong). Still create the def if it
+        // carries synonyms/antonyms even without a short definition.
         if (shortDef || syn.length || ant.length) {
           add.defs.push({
             concept_id: cid,

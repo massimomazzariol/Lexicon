@@ -212,7 +212,7 @@ export async function judgeBestFields({ wordLine, fields }, judgeModel) {
     'FIELDS:',
     block,
     '',
-    'Return JSON mapping each field path to a chosen label or "none", e.g. {"definitions.de":"A","synonyms_de":"none"}.'
+    'Return JSON mapping each field path to a chosen label or "none", e.g. {"definitions.de":"A","synonyms.it":"none"}.'
   ].join('\n');
   const res = await chat({ system, user }, judgeModel);
   return res && !res.parse_error ? res : {};

@@ -22,8 +22,9 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 import { resolve } from 'path';
 import { createHash } from 'crypto';
 import { LANGS, langList } from '../lib/languages.mjs';
+import { getAuthoringPlugin } from '../lib/language_plugins/authoring_plugins.mjs';
 import {
-  LLM_HOST, ARTICLES_BY_LANG, DE_ARTICLE_GENDER, normalizeSearch, stripArticle, hasSpoiler,
+  LLM_HOST, ARTICLES_BY_LANG, normalizeSearch, stripArticle, hasSpoiler,
   resolveModel, printModelRanking, chat, resolveEmbedModel, localEmbed, asString as str
 } from '../lib/authoring_core.mjs';
 
@@ -359,9 +360,8 @@ function normalizeDraft(r) {
   for (const k of ['text', 'lemma']) {
     if (en && typeof en[k] === 'string') en[k] = en[k].replace(/^to\s+/i, '').trim();
   }
-  // German gender follows the citation article - der/die/das is authoritative.
-  const artGender = DE_ARTICLE_GENDER[str(r.lexemes?.de?.text).trim().toLowerCase().split(' ')[0]];
-  if (artGender && r.concept) r.concept.gender = artGender;
+  // Language-specific concept inference (e.g. German gender from der/die/das) via plugins.
+  for (const lang of LANGS) getAuthoringPlugin(lang)?.inferConcept?.(r);
   // Drop each language's own headword (text or lemma) from its synonyms/antonyms; trim + dedup.
   for (const field of ['synonyms', 'antonyms']) {
     if (!r[field] || typeof r[field] !== 'object') continue;
@@ -444,13 +444,8 @@ function validateDraft(r) {
     issues.push(`en.text starts with "to" ("${r.lexemes.en.text}")`);
   }
 
-  // German article must agree with the gender field (catches "der Apfel" + gender "f").
-  const deArt = str(r.lexemes?.de?.text).trim().toLowerCase().split(' ')[0];
-  const artGender = DE_ARTICLE_GENDER[deArt];
-  const g = (r.concept?.gender ?? '').toLowerCase();
-  if (artGender && g && g !== 'none' && g !== artGender) {
-    issues.push(`gender "${g}" contradicts the de article ("${r.lexemes.de.text}" → ${artGender})`);
-  }
+  // Language-specific validation (e.g. German gender must agree with der/die/das) via plugins.
+  for (const lang of LANGS) issues.push(...(getAuthoringPlugin(lang)?.validate?.(r) ?? []));
 
   // Flag obviously corrupted synonyms/antonyms (non-Latin / control chars), and any
   // language's list containing that language's own headword (text OR lemma) or an inflection.

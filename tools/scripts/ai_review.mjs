@@ -10,12 +10,12 @@
 //
 //   node tools/scripts/ai_review.mjs                 # preview the queue + counts
 //   node tools/scripts/ai_review.mjs --apply         # judge + promote the confident ones
-//   node tools/scripts/ai_review.mjs --apply --delay 200 --model <name>
+//   node tools/scripts/ai_review.mjs --apply --judge <name>   # force a specific judge model
 
 import { readFileSync, writeFileSync } from 'fs';
 import { resolve } from 'path';
 import { LANGS, langName, langList } from '../lib/languages.mjs';
-import { chat, resolveModel, hasSpoiler, normalizeSearch, stripArticle, asString as str } from '../lib/authoring_core.mjs';
+import { chat, resolveModel, listChatModels, hasSpoiler, normalizeSearch, stripArticle, asString as str } from '../lib/authoring_core.mjs';
 
 const CONTENT = resolve(process.cwd(), 'packs/lexicon_source/content.json');
 const args = parseArgs(process.argv.slice(2));
@@ -36,8 +36,14 @@ async function main() {
   ];
   if (!items.length) { console.log('Review queue empty - nothing to auto-review.'); return; }
 
-  const model = args.dryRun ? null : await resolveModel(args.model);
-  console.log(`AI auto-review: ${items.length} item(s) in the queue · judge: ${model ?? 'dry-run'}`);
+  // The judge is the strongest installed model (listChatModels is size-desc) - a more
+  // independent reviewer than the single model that drafted the content. Override with
+  // --judge. With only one model installed the judge is the same family as the generator:
+  // still a re-check, just weaker; the note below makes that visible.
+  const allChat = args.dryRun ? [] : (await listChatModels()).map((m) => m.name);
+  const model = args.dryRun ? null : await resolveModel(args.judge ?? args.model ?? allChat[0]);
+  console.log(`AI auto-review: ${items.length} item(s) in the queue · judge: ${model ?? 'dry-run'}` +
+    (!args.dryRun && allChat.length < 2 ? ' (only one model installed - same family as the generator)' : ''));
 
   let kept = 0, held = 0, flagged = 0;
   for (const [i, { kind, row }] of items.entries()) {
@@ -85,6 +91,7 @@ function parseArgs(argv) {
     if (a === '--apply') o.apply = true;
     else if (a === '--dry-run') o.dryRun = true;
     else if (a === '--model') o.model = argv[++i];
+    else if (a === '--judge') o.judge = argv[++i];
     else if (a === '--delay') o.delay = Number(argv[++i]) || 0;
   }
   return o;

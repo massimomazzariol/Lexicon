@@ -17,6 +17,7 @@ import { readFileSync, writeFileSync, readdirSync, existsSync } from 'fs';
 import { resolve } from 'path';
 import { asString as str, AI_PROVENANCE } from '../lib/authoring_core.mjs';
 import { defaultDifficultyForLevel } from '../lib/lexicon_conventions.mjs';
+import { LANGS } from '../lib/languages.mjs';
 
 const REPO = process.cwd();
 const CONTENT_PATH = resolve(REPO, 'packs/lexicon_source/content.json');
@@ -85,7 +86,7 @@ function main() {
         review_status: REVIEW_STATUS,
         metadata_json: { source: 'ai', generated_at: now }
       });
-      for (const lang of ['de', 'it', 'en']) {
+      for (const lang of LANGS) {
         const lx = d.lexemes?.[lang];
         if (!lx?.text) continue;
         const lid = uniq(`lexeme-${lang}-${level}-${slug}`, usedIds);
@@ -129,7 +130,7 @@ function main() {
       const level = (d.concept?.level || 'A1').toLowerCase();
       const slug = slugify(d.lexemes?.de?.lemma || term);
       let added = 0;
-      for (const lang of ['de', 'it', 'en']) {
+      for (const lang of LANGS) {
         const lx = d.lexemes?.[lang];
         if (!lx?.text) continue;
         const key = `${cid}|${lang}|${norm(lx.text)}`;

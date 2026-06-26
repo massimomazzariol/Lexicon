@@ -6,6 +6,7 @@
 
 import { readFileSync } from 'fs';
 import { normalizeSearch, stripArticle, hasSpoiler } from '../lib/authoring_core.mjs';
+import { LANGS } from '../lib/languages.mjs';
 
 const d = JSON.parse(readFileSync('packs/lexicon_source/content.json', 'utf8'));
 const concepts = d.concepts || [];
@@ -33,7 +34,7 @@ for (const L of ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']) console.log(`  ${L}: ${byL
 let noEx = 0, noSyn = 0, noDef = 0, missLang = 0;
 for (const c of concepts) {
   const langs = new Set((lexBy.get(c.concept_id) || []).map((l) => l.lang));
-  if (!['de', 'it', 'en'].every((l) => langs.has(l))) missLang++;
+  if (!LANGS.every((l) => langs.has(l))) missLang++;
   const cdefs = defBy.get(c.concept_id) || [];
   if (cdefs.length === 0) noDef++;
   if ((exBy.get(c.concept_id) || []).length === 0) noEx++;
@@ -49,13 +50,13 @@ let crossLeak = 0; const leakSamples = [];
 for (const c of concepts) {
   const lx = lexBy.get(c.concept_id) || [];
   const surfByLang = {};
-  for (const l of ['de', 'it', 'en']) surfByLang[l] = lx.filter((x) => x.lang === l).flatMap((x) => [strip(x.text), norm(x.lemma)]).filter((s) => s.length >= 3);
+  for (const l of LANGS) surfByLang[l] = lx.filter((x) => x.lang === l).flatMap((x) => [strip(x.text), norm(x.lemma)]).filter((s) => s.length >= 3);
   for (const def of defBy.get(c.concept_id) || []) {
     if (hasSpoiler(def.short_definition, surfByLang[def.lang] || [], [])) {
       spoil++; if (spoilSamples.length < 6) spoilSamples.push(`${def.lang}: "${def.short_definition}"`);
     }
     // a syn/ant should be in the definition's own language; flag obvious other-lang words
-    const others = ['de', 'it', 'en'].filter((l) => l !== def.lang).flatMap((l) => surfByLang[l] || []);
+    const others = LANGS.filter((l) => l !== def.lang).flatMap((l) => surfByLang[l] || []);
     const oset = new Set(others);
     for (const w of [...(def.synonyms_json || []), ...(def.antonyms_json || [])]) {
       if (oset.has(strip(w))) { crossLeak++; if (leakSamples.length < 6) leakSamples.push(`${def.lang} syn/ant "${w}" (other-language)`); break; }

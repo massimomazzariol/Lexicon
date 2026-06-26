@@ -2887,6 +2887,52 @@
         "source": "ai",
         "generated_at": "2026-06-17T16:28:57.032Z"
       }
+    },
+    {
+      "concept_id": "concept-a1-ubrigens",
+      "pos": "adv",
+      "difficulty_score_auto": 20,
+      "level_auto": "A1",
+      "level_override": null,
+      "domain_tags": [
+        "conversation"
+      ],
+      "notes": null,
+      "review_status": "reviewed",
+      "metadata_json": {
+        "source": "ai",
+        "generated_at": "2026-06-26T12:00:26.633Z"
+      }
+    },
+    {
+      "concept_id": "concept-a1-werfen",
+      "pos": "verb",
+      "difficulty_score_auto": 20,
+      "level_auto": "A1",
+      "level_override": null,
+      "domain_tags": [],
+      "notes": null,
+      "review_status": "reviewed",
+      "metadata_json": {
+        "source": "ai",
+        "generated_at": "2026-06-26T12:01:38.689Z"
+      }
+    },
+    {
+      "concept_id": "concept-a1-darum",
+      "pos": "adv",
+      "difficulty_score_auto": 20,
+      "level_auto": "A1",
+      "level_override": null,
+      "domain_tags": [
+        "cause"
+      ],
+      "notes": null,
+      "review_status": "reviewed",
+      "metadata_json": {
+        "source": "ai",
+        "generated_at": "2026-06-26T12:04:34.196Z"
+      }
     }
   ],
   "lexemes": [
@@ -15529,6 +15575,159 @@
       "frequency_rank": null,
       "lemma": "stop",
       "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-de-a1-ubrigens",
+      "concept_id": "concept-a1-ubrigens",
+      "lang": "de",
+      "text": "übrigens",
+      "frequency_rank": null,
+      "lemma": "übrigens",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-it-a1-ubrigens",
+      "concept_id": "concept-a1-ubrigens",
+      "lang": "it",
+      "text": "a proposito",
+      "frequency_rank": null,
+      "lemma": "a proposito",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-en-a1-ubrigens",
+      "concept_id": "concept-a1-ubrigens",
+      "lang": "en",
+      "text": "by the way",
+      "frequency_rank": null,
+      "lemma": "by the way",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-de-a1-werfen",
+      "concept_id": "concept-a1-werfen",
+      "lang": "de",
+      "text": "geworfen",
+      "frequency_rank": null,
+      "lemma": "geworfen",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-it-a1-werfen",
+      "concept_id": "concept-a1-werfen",
+      "lang": "it",
+      "text": "lanciato",
+      "frequency_rank": null,
+      "lemma": "lanciato",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-en-a1-werfen",
+      "concept_id": "concept-a1-werfen",
+      "lang": "en",
+      "text": "thrown",
+      "frequency_rank": null,
+      "lemma": "thrown",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-de-a1-darum",
+      "concept_id": "concept-a1-darum",
+      "lang": "de",
+      "text": "darum",
+      "frequency_rank": null,
+      "lemma": "darum",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-it-a1-darum",
+      "concept_id": "concept-a1-darum",
+      "lang": "it",
+      "text": "per questo",
+      "frequency_rank": null,
+      "lemma": "per questo",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-en-a1-darum",
+      "concept_id": "concept-a1-darum",
+      "lang": "en",
+      "text": "therefore",
+      "frequency_rank": null,
+      "lemma": "therefore",
+      "pos": "adv",
       "gender": "none",
       "countability": "none",
       "register": "neutral",
@@ -41732,6 +41931,172 @@
       "lang": "en",
       "surface": "stop",
       "surface_search": "stop",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "fb1d75c9-50f0-7f2d-4a9c-c0cc1b0be1b3",
+      "lexeme_id": "lexeme-de-a1-ubrigens",
+      "lang": "de",
+      "surface": "übrigens",
+      "surface_search": "ubrigens",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "3885d28f-0b4f-8dda-5937-d918e3f70242",
+      "lexeme_id": "lexeme-it-a1-ubrigens",
+      "lang": "it",
+      "surface": "a proposito",
+      "surface_search": "a proposito",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "e4723424-86dc-da2a-df7d-8148b23af0ea",
+      "lexeme_id": "lexeme-en-a1-ubrigens",
+      "lang": "en",
+      "surface": "by the way",
+      "surface_search": "by the way",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "a9b36089-5006-ef0e-1099-f3ba242376a2",
+      "lexeme_id": "lexeme-de-a1-werfen",
+      "lang": "de",
+      "surface": "geworfen",
+      "surface_search": "geworfen",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core",
+        "verb_class": "simple",
+        "prefix": null,
+        "stem": "geworfen",
+        "aux": "haben"
+      }
+    },
+    {
+      "form_id": "99373cfe-6da8-e898-0eac-4d460b73475a",
+      "lexeme_id": "lexeme-it-a1-werfen",
+      "lang": "it",
+      "surface": "lanciato",
+      "surface_search": "lanciato",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "78317e1f-16b9-09f0-9b0e-12fdfbeb0b82",
+      "lexeme_id": "lexeme-en-a1-werfen",
+      "lang": "en",
+      "surface": "thrown",
+      "surface_search": "thrown",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "33815ae3-d768-a8d1-586e-b6f4a24bf94a",
+      "lexeme_id": "lexeme-de-a1-darum",
+      "lang": "de",
+      "surface": "darum",
+      "surface_search": "darum",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "de256ac8-017f-ad4d-23d8-1ba771417f7f",
+      "lexeme_id": "lexeme-it-a1-darum",
+      "lang": "it",
+      "surface": "per questo",
+      "surface_search": "per questo",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "1c5bf059-35af-1b62-d446-058d33d71a09",
+      "lexeme_id": "lexeme-en-a1-darum",
+      "lang": "en",
+      "surface": "therefore",
+      "surface_search": "therefore",
       "number_value": "none",
       "grammatical_case": "none",
       "definiteness": "none",
@@ -76143,6 +76508,222 @@
       "difficulty_override": null,
       "level_override": null,
       "editor_notes": null
+    },
+    {
+      "study_unit_id": "316435f4-9489-8584-75da-2f1de1fa651a",
+      "concept_id": "concept-a1-ubrigens",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "core_prod",
+      "source_form_id": "fb1d75c9-50f0-7f2d-4a9c-c0cc1b0be1b3",
+      "primary_expected_form_id": "3885d28f-0b4f-8dda-5937-d918e3f70242",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "4c09b3c7-a663-1225-220a-85ace0d74a66",
+      "concept_id": "concept-a1-ubrigens",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "3885d28f-0b4f-8dda-5937-d918e3f70242",
+      "primary_expected_form_id": "fb1d75c9-50f0-7f2d-4a9c-c0cc1b0be1b3",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "10ce5244-4dc7-3763-572c-4b512c515bee",
+      "concept_id": "concept-a1-ubrigens",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_prod",
+      "source_form_id": "e4723424-86dc-da2a-df7d-8148b23af0ea",
+      "primary_expected_form_id": "3885d28f-0b4f-8dda-5937-d918e3f70242",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "980574e6-6943-4508-174c-4c592710fc3f",
+      "concept_id": "concept-a1-ubrigens",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_rec",
+      "source_form_id": "3885d28f-0b4f-8dda-5937-d918e3f70242",
+      "primary_expected_form_id": "e4723424-86dc-da2a-df7d-8148b23af0ea",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "cd570578-6b62-ee4a-a6d4-1e4d5fe44936",
+      "concept_id": "concept-a1-werfen",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "core_prod",
+      "source_form_id": "a9b36089-5006-ef0e-1099-f3ba242376a2",
+      "primary_expected_form_id": "99373cfe-6da8-e898-0eac-4d460b73475a",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "34de346d-4122-eb3d-ade3-f0841d588888",
+      "concept_id": "concept-a1-werfen",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "99373cfe-6da8-e898-0eac-4d460b73475a",
+      "primary_expected_form_id": "a9b36089-5006-ef0e-1099-f3ba242376a2",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "cab321dc-76d5-a91f-bbdf-4abe4a43fc44",
+      "concept_id": "concept-a1-werfen",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_prod",
+      "source_form_id": "78317e1f-16b9-09f0-9b0e-12fdfbeb0b82",
+      "primary_expected_form_id": "99373cfe-6da8-e898-0eac-4d460b73475a",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "9e2c8096-1237-9775-eb8f-3878612929f6",
+      "concept_id": "concept-a1-werfen",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_rec",
+      "source_form_id": "99373cfe-6da8-e898-0eac-4d460b73475a",
+      "primary_expected_form_id": "78317e1f-16b9-09f0-9b0e-12fdfbeb0b82",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "20e0a1dd-fa60-c9fd-47a7-e1c0264bcbe1",
+      "concept_id": "concept-a1-darum",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "core_prod",
+      "source_form_id": "33815ae3-d768-a8d1-586e-b6f4a24bf94a",
+      "primary_expected_form_id": "de256ac8-017f-ad4d-23d8-1ba771417f7f",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "9b0672e9-0bbc-254c-4af7-b5528e3d7cae",
+      "concept_id": "concept-a1-darum",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "de256ac8-017f-ad4d-23d8-1ba771417f7f",
+      "primary_expected_form_id": "33815ae3-d768-a8d1-586e-b6f4a24bf94a",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "51119e30-7dd4-1a3d-96eb-bdcaa6e2d3f0",
+      "concept_id": "concept-a1-darum",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_prod",
+      "source_form_id": "1c5bf059-35af-1b62-d446-058d33d71a09",
+      "primary_expected_form_id": "de256ac8-017f-ad4d-23d8-1ba771417f7f",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "b50830fe-74d8-c64f-d692-1660c41e4b27",
+      "concept_id": "concept-a1-darum",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_rec",
+      "source_form_id": "de256ac8-017f-ad4d-23d8-1ba771417f7f",
+      "primary_expected_form_id": "1c5bf059-35af-1b62-d446-058d33d71a09",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
     }
   ],
   "examples": [
@@ -82308,10 +82889,7 @@
         "stop"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "79f6518e-8b4f-578e-f416-504b5f349185",
@@ -82349,10 +82927,7 @@
         "camminare lentamente"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "e329e8c3-374b-a9d6-ec94-7c17e329d222",
@@ -82425,10 +83000,7 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "25ce3d79-d199-4866-d355-30ab0c183666",
@@ -82551,10 +83123,7 @@
         "exit"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "62f4fd57-fcc0-8518-c58d-9ae9d5a67c46",
@@ -82591,10 +83160,7 @@
         "la partenza"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "c93359fa-c473-a404-22d8-d32702c89749",
@@ -82614,10 +83180,7 @@
         "stay seated"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "c93359fa-c473-a404-22d8-d32702c89749",
@@ -82653,10 +83216,7 @@
         "giacere"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "04049abe-87cf-262a-e411-181972f0abb3",
@@ -82678,10 +83238,7 @@
         "enter"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "04049abe-87cf-262a-e411-181972f0abb3",
@@ -82715,10 +83272,7 @@
         "salire"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "6bb4fa36-876a-6164-08c1-a9338bae6031",
@@ -82753,10 +83307,7 @@
         "distruggere"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "108c3ca7-5c1b-b740-7b9f-16bcc541a8c0",
@@ -82827,10 +83378,7 @@
         "already"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "0bed6967-2ba5-ca39-d70b-646e23f07493",
@@ -82866,10 +83414,7 @@
         "mai"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "3b1a3dc6-75a7-55a2-9ad9-09d0a75082a0",
@@ -82981,6 +83526,25 @@
     },
     {
       "concept_id": "7a5071b5-7f6f-27f4-2ef9-7008b01524d4",
+      "lang": "en",
+      "short_definition": "In an external area, not indoors.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "outdoor",
+        "exterior"
+      ],
+      "antonyms_json": [
+        "inside",
+        "indoor",
+        "interior"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "7a5071b5-7f6f-27f4-2ef9-7008b01524d4",
       "lang": "de",
       "short_definition": "Im Aussenbereich, nicht im Gebaeude.",
       "usage_note": null,
@@ -83013,10 +83577,7 @@
         "all'interno"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
@@ -83034,10 +83595,7 @@
         "Can you leave me alone?"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
@@ -83055,10 +83613,7 @@
         "Kannst du mich in Ruhe lassen?"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
@@ -83072,6 +83627,22 @@
       ],
       "antonyms_json": [
         "lasciami in pace"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "961ac32c-4e2b-36c8-3735-f91f2ddb9ece",
+      "lang": "en",
+      "short_definition": "Something has not happened up to now.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "still not"
+      ],
+      "antonyms_json": [
+        "already"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -83096,6 +83667,24 @@
       "hint_text": null
     },
     {
+      "concept_id": "961ac32c-4e2b-36c8-3735-f91f2ddb9ece",
+      "lang": "it",
+      "short_definition": "Qualcosa non e avvenuto fino a questo momento.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "ancora non"
+      ],
+      "antonyms_json": [
+        "gia",
+        "già",
+        "ormai"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
       "concept_id": "548ac186-0a69-6839-73ff-5a0431f3aabc",
       "lang": "en",
       "short_definition": "In all places.",
@@ -83110,10 +83699,7 @@
         "nowhere"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "548ac186-0a69-6839-73ff-5a0431f3aabc",
@@ -83145,10 +83731,7 @@
         "da nessuna parte"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "eb287814-640f-16ad-e3a6-7c3e3806d7f4",
@@ -83166,10 +83749,7 @@
         "finish"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "eb287814-640f-16ad-e3a6-7c3e3806d7f4",
@@ -83187,10 +83767,7 @@
         "cessare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "6bb4fa36-876a-6164-08c1-a9338bae6031",
@@ -83209,10 +83786,7 @@
         "ruin"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "8cdd7819-47ff-1fba-7ac4-dd44c3aec241",
@@ -83300,10 +83874,26 @@
         "reason": "No direct scalar opposite",
         "reviewed_at": "2026-03-03"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
+    },
+    {
+      "concept_id": "119b32bf-e698-b599-5463-c7b7942586d1",
+      "lang": "it",
+      "short_definition": "Liquido trasparente essenziale per la vita.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "l'acqua di mare",
+        "l'acqua dolce"
+      ],
+      "antonyms_json": [],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "No direct scalar opposite",
+        "reviewed_at": "2026-03-03"
+      },
+      "hint_text": null
     },
     {
       "concept_id": "7aada285-5265-d708-2313-43997bc60f0f",
@@ -83315,6 +83905,26 @@
       "synonyms_json": [
         "Laib",
         "Brötchen"
+      ],
+      "antonyms_json": [],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "No direct opposite",
+        "reviewed_at": "2026-03-03"
+      },
+      "hint_text": null
+    },
+    {
+      "concept_id": "7aada285-5265-d708-2313-43997bc60f0f",
+      "lang": "en",
+      "short_definition": "Baked food made of dough.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "loaf",
+        "roll",
+        "bun"
       ],
       "antonyms_json": [],
       "antonym_policy_json": {
@@ -83340,10 +83950,7 @@
         "reason": "No direct opposite",
         "reviewed_at": "2026-03-03"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "4f291b92-ca93-0d8c-bc8f-fc9d225384a0",
@@ -83359,6 +83966,40 @@
       "antonyms_json": [
         "Mann",
         "der Mann"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "4f291b92-ca93-0d8c-bc8f-fc9d225384a0",
+      "lang": "en",
+      "short_definition": "An adult female human.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "female",
+        "lady"
+      ],
+      "antonyms_json": [
+        "man"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "4f291b92-ca93-0d8c-bc8f-fc9d225384a0",
+      "lang": "it",
+      "short_definition": "Un essere umano adulto di sesso femminile.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "femmina",
+        "persona femminile"
+      ],
+      "antonyms_json": [
+        "uomo"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -83392,16 +84033,11 @@
         "adult male"
       ],
       "antonyms_json": [
-        "Frau",
-        "die Frau",
         "woman",
         "female"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "80baf5ef-6ee7-8a27-6f5c-b5d7b88415d4",
@@ -83414,16 +84050,11 @@
         "il maschio"
       ],
       "antonyms_json": [
-        "Frau",
-        "die Frau",
         "donna",
         "femmina"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "2c6d1583-9560-52cc-360a-ec0fb7fe1225",
@@ -83458,17 +84089,11 @@
         "youngster"
       ],
       "antonyms_json": [
-        "Erwachsener",
-        "der Erwachsene",
-        "adult",
         "grown-up",
         "senior"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "2c6d1583-9560-52cc-360a-ec0fb7fe1225",
@@ -83482,16 +84107,11 @@
         "nipote"
       ],
       "antonyms_json": [
-        "Erwachsener",
-        "der Erwachsene",
         "adulto",
         "persona adulta"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "5166779c-fea2-00fe-92da-00661e14de80",
@@ -83522,14 +84142,10 @@
         "canine"
       ],
       "antonyms_json": [
-        "Katze",
         "cat"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "5166779c-fea2-00fe-92da-00661e14de80",
@@ -83542,14 +84158,9 @@
         "il canino",
         "il cucciolo"
       ],
-      "antonyms_json": [
-        "Katze"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "f00e94e5-0159-bd1b-2f6c-98d060fb54c9",
@@ -83580,16 +84191,12 @@
         "housecat"
       ],
       "antonyms_json": [
-        "Hund",
         "dog",
         "bird",
         "rat"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "f00e94e5-0159-bd1b-2f6c-98d060fb54c9",
@@ -83601,14 +84208,9 @@
       "synonyms_json": [
         "il felino"
       ],
-      "antonyms_json": [
-        "Hund"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "841a0138-2699-37ac-2d82-cf0c66b5171e",
@@ -83643,16 +84245,11 @@
         "excellent"
       ],
       "antonyms_json": [
-        "schlecht",
-        "böse",
         "bad",
         "terrible"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "841a0138-2699-37ac-2d82-cf0c66b5171e",
@@ -83666,15 +84263,10 @@
         "eccellente"
       ],
       "antonyms_json": [
-        "schlecht",
-        "böse",
         "cattivo"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "2e769167-00e6-f086-d72a-4e96521fa4ce",
@@ -83705,15 +84297,11 @@
         "poor"
       ],
       "antonyms_json": [
-        "gut",
         "good",
         "excellent"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "2e769167-00e6-f086-d72a-4e96521fa4ce",
@@ -83727,16 +84315,12 @@
         "peggiore"
       ],
       "antonyms_json": [
-        "gut",
         "buono",
         "ottimo",
         "eccellente"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "91f2e21d-1055-c502-52eb-6895fe4406c4",
@@ -83769,15 +84353,11 @@
         "huge"
       ],
       "antonyms_json": [
-        "klein",
         "small",
         "tiny"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "91f2e21d-1055-c502-52eb-6895fe4406c4",
@@ -83791,16 +84371,12 @@
         "vasto"
       ],
       "antonyms_json": [
-        "klein",
         "piccolo",
         "ristretto",
         "modesto"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "4b93435e-acbe-2f6b-9afb-313c8a88845b",
@@ -83836,15 +84412,11 @@
         "smallish"
       ],
       "antonyms_json": [
-        "groß",
         "large",
         "huge"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "4b93435e-acbe-2f6b-9afb-313c8a88845b",
@@ -83859,14 +84431,10 @@
         "ridotto"
       ],
       "antonyms_json": [
-        "groß",
         "grande"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "a9d290b4-b955-81a7-48e4-6b0103a82703",
@@ -83899,15 +84467,11 @@
         "ingest"
       ],
       "antonyms_json": [
-        "trinken",
         "to fast",
         "to abstain from eating"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "a9d290b4-b955-81a7-48e4-6b0103a82703",
@@ -83921,15 +84485,11 @@
         "consumare"
       ],
       "antonyms_json": [
-        "trinken",
         "non mangiare",
         "astenersi"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "f12a03fc-6b3f-af98-a308-f29bd66e55ac",
@@ -83962,15 +84522,11 @@
         "quaff"
       ],
       "antonyms_json": [
-        "essen",
         "abstain",
         "refrain"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "f12a03fc-6b3f-af98-a308-f29bd66e55ac",
@@ -83983,14 +84539,10 @@
         "assapare"
       ],
       "antonyms_json": [
-        "essen",
         "astenersi"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "4775779b-a5cc-8aa3-5450-f10dc8d74714",
@@ -84031,10 +84583,7 @@
         "reason": "No direct logical opposite",
         "reviewed_at": "2026-03-03"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "4775779b-a5cc-8aa3-5450-f10dc8d74714",
@@ -84056,10 +84605,7 @@
         "reason": "No direct logical opposite",
         "reviewed_at": "2026-03-03"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "ed3cb78e-250a-50dc-44e1-b3cab1cf00ba",
@@ -84104,10 +84650,7 @@
         "reason": "No single direct opposite",
         "reviewed_at": "2026-03-03"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "ed3cb78e-250a-50dc-44e1-b3cab1cf00ba",
@@ -84129,10 +84672,7 @@
         "reason": "No single direct opposite",
         "reviewed_at": "2026-03-03"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "7f5957ca-0809-865b-57d2-de96cf0392eb",
@@ -84177,10 +84717,7 @@
         "reason": "Colors have no direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "7f5957ca-0809-865b-57d2-de96cf0392eb",
@@ -84202,10 +84739,7 @@
         "reason": "Colors have no direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "9d3ef2fe-beae-af51-b2f1-15508c1302ba",
@@ -84249,10 +84783,7 @@
         "reason": "Colors have no direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "9d3ef2fe-beae-af51-b2f1-15508c1302ba",
@@ -84274,10 +84805,7 @@
         "reason": "Colors have no direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "7132c2a6-c640-5a9f-859e-80ff8ee5ee38",
@@ -84321,10 +84849,7 @@
         "reason": "Colors have no direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "7132c2a6-c640-5a9f-859e-80ff8ee5ee38",
@@ -84346,10 +84871,7 @@
         "reason": "Colors have no direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "51d03b3b-92ee-3dc6-036e-76f257d5e1a5",
@@ -84393,10 +84915,7 @@
         "reason": "Colors have no direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "51d03b3b-92ee-3dc6-036e-76f257d5e1a5",
@@ -84418,10 +84937,7 @@
         "reason": "Colors have no direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "29e2704f-65fe-3f63-cd16-496af9d832d2",
@@ -84453,16 +84969,12 @@
         "dusky"
       ],
       "antonyms_json": [
-        "weiß",
         "white",
         "light",
         "bright"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "29e2704f-65fe-3f63-cd16-496af9d832d2",
@@ -84476,16 +84988,12 @@
         "oscuro"
       ],
       "antonyms_json": [
-        "weiß",
         "bianco",
         "chiaro",
         "luminoso"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "108d1fed-1c66-2bac-ccbe-ef989d0a502c",
@@ -84517,15 +85025,11 @@
         "light"
       ],
       "antonyms_json": [
-        "schwarz",
         "black",
         "dark"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "108d1fed-1c66-2bac-ccbe-ef989d0a502c",
@@ -84539,15 +85043,11 @@
         "pallido"
       ],
       "antonyms_json": [
-        "schwarz",
         "nero",
         "scuro"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "154140dc-6a12-f58d-e630-2d05193ddb1a",
@@ -84580,16 +85080,11 @@
         "aged"
       ],
       "antonyms_json": [
-        "jung",
-        "neu",
         "young",
         "new"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "154140dc-6a12-f58d-e630-2d05193ddb1a",
@@ -84602,16 +85097,11 @@
         "antico"
       ],
       "antonyms_json": [
-        "jung",
-        "neu",
         "giovane",
         "nuovo"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "41491802-4027-0f74-b392-e0f8f9a301fb",
@@ -84645,14 +85135,10 @@
         "current"
       ],
       "antonyms_json": [
-        "alt",
         "old"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "41491802-4027-0f74-b392-e0f8f9a301fb",
@@ -84666,14 +85152,10 @@
         "attuale"
       ],
       "antonyms_json": [
-        "alt",
         "vecchio"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "0dac5338-7ee7-54fe-72d6-a64e52cf943f",
@@ -84705,15 +85187,11 @@
         "mild"
       ],
       "antonyms_json": [
-        "kalt",
         "cold",
         "chilly"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "0dac5338-7ee7-54fe-72d6-a64e52cf943f",
@@ -84726,15 +85204,11 @@
         "tiepido"
       ],
       "antonyms_json": [
-        "kalt",
         "freddo",
         "fresco"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "3f777d3a-5323-3d49-40ca-1d04e8ff376a",
@@ -84768,15 +85242,10 @@
         "frigid"
       ],
       "antonyms_json": [
-        "heiß",
-        "warm",
         "hot"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "3f777d3a-5323-3d49-40ca-1d04e8ff376a",
@@ -84789,16 +85258,11 @@
         "gelido"
       ],
       "antonyms_json": [
-        "heiß",
-        "warm",
         "caldo",
         "tiepido"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "a1fca915-0802-770f-5d98-81fe56f6ec8f",
@@ -84816,10 +85280,7 @@
         "reason": "No direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "a1fca915-0802-770f-5d98-81fe56f6ec8f",
@@ -84840,10 +85301,7 @@
         "reason": "No direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "a1fca915-0802-770f-5d98-81fe56f6ec8f",
@@ -84905,10 +85363,7 @@
         "reason": "Vehicle type",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "02beeb9f-aeca-138c-b4c6-5b15f6c0ddb1",
@@ -84926,10 +85381,7 @@
         "reason": "Vehicle type",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "691b1d35-324e-dd44-4886-e365a7653034",
@@ -84961,16 +85413,11 @@
         "urban area"
       ],
       "antonyms_json": [
-        "das Dorf",
-        "das Land",
         "country",
         "rural area"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "691b1d35-324e-dd44-4886-e365a7653034",
@@ -84984,16 +85431,11 @@
         "centro urbano"
       ],
       "antonyms_json": [
-        "das Dorf",
-        "das Land",
         "campagna",
         "paese"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "1a2d6eb8-6a6d-b96f-49f8-e58293b71539",
@@ -85028,15 +85470,11 @@
         "rural areas"
       ],
       "antonyms_json": [
-        "die Stadt",
         "city",
         "urban areas"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "1a2d6eb8-6a6d-b96f-49f8-e58293b71539",
@@ -85049,15 +85487,11 @@
         "la provincia"
       ],
       "antonyms_json": [
-        "die Stadt",
         "città",
         "urbano"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "99a205ca-71d1-db40-a4dd-56e7b8dda321",
@@ -85099,10 +85533,7 @@
         "reason": "No single direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "99a205ca-71d1-db40-a4dd-56e7b8dda321",
@@ -85123,10 +85554,7 @@
         "reason": "No single direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "13bf153f-5b95-81b3-6ec2-646e49af8f3f",
@@ -85142,6 +85570,39 @@
       "antonyms_json": [
         "kommen",
         "stehen"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "13bf153f-5b95-81b3-6ec2-646e49af8f3f",
+      "lang": "en",
+      "short_definition": "To move on foot or leave a place.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [
+        "stay",
+        "remain"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "13bf153f-5b95-81b3-6ec2-646e49af8f3f",
+      "lang": "it",
+      "short_definition": "Muoversi a piedi o lasciare un luogo.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "venire",
+        "arrivare"
+      ],
+      "antonyms_json": [
+        "restare",
+        "rimanere"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -85173,15 +85634,11 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "gehen",
         "go away",
         "depart"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "a6a02266-de00-f0d8-462f-29e0e630ad11",
@@ -85195,15 +85652,11 @@
         "raggiungere"
       ],
       "antonyms_json": [
-        "gehen",
         "partire",
         "andare via"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "13f0479b-0b4b-23e7-be43-7c1fece87b8d",
@@ -85285,10 +85738,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "nehmen",
-        "bekommen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -85300,10 +85750,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "nehmen",
-        "bekommen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -85335,9 +85782,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "geben"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -85349,9 +85794,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "geben"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -85437,10 +85880,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "glauben",
-        "ahnen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -85452,10 +85892,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "glauben",
-        "ahnen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -85589,10 +86026,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "ausruhen",
-        "faulenzen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -85604,10 +86038,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "ausruhen",
-        "faulenzen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -85637,10 +86068,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "verlernen",
-        "vergessen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -85652,10 +86080,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "verlernen",
-        "vergessen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -85739,9 +86164,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Fuß"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "Body part",
@@ -85757,9 +86180,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Fuß"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "Body part",
@@ -85796,9 +86217,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Hand"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "Body part",
@@ -85814,9 +86233,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Hand"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "Body part",
@@ -85951,9 +86368,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Arm"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -85965,9 +86380,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Arm"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -85996,9 +86409,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "das Bein"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86010,9 +86421,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "das Bein"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86041,9 +86450,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Bauch"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86055,9 +86462,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Bauch"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86090,9 +86495,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Rücken"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "Body part",
@@ -86108,9 +86511,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Rücken"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "Body part",
@@ -86245,9 +86646,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Vogel"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86259,9 +86658,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Vogel"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86342,10 +86739,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "das T-Shirt",
-        "der Pullover"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86357,10 +86751,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "das T-Shirt",
-        "der Pullover"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86389,9 +86780,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Socken"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86403,9 +86792,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Socken"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86434,9 +86821,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Hose"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86448,9 +86833,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Hose"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86531,9 +86914,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "drücken"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86545,9 +86926,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "drücken"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86576,9 +86955,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "ziehen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86590,9 +86967,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "ziehen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86623,10 +86998,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "wachen",
-        "aufwachen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86638,10 +87010,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "wachen",
-        "aufwachen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86723,9 +87092,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "das Gemüse"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86737,9 +87104,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "das Gemüse"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86769,10 +87134,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "das Fleisch",
-        "das Obst"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86784,10 +87146,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "das Fleisch",
-        "das Obst"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86918,9 +87277,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "essen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86932,9 +87289,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "essen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86965,10 +87320,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "selten",
-        "nie"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86980,10 +87332,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "selten",
-        "nie"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87013,10 +87362,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "immer",
-        "oft"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87028,10 +87374,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "immer",
-        "oft"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87060,9 +87403,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "das Abendessen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87074,9 +87415,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "das Abendessen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87106,10 +87445,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "das Frühstück",
-        "das Abendessen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87121,10 +87457,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "das Frühstück",
-        "das Abendessen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87154,10 +87487,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "das Frühstück",
-        "das Mittagessen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87169,10 +87499,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "das Frühstück",
-        "das Mittagessen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87203,10 +87530,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "nie",
-        "selten"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87218,10 +87542,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "nie",
-        "selten"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87308,9 +87629,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "eklig"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87322,9 +87641,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "eklig"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87353,9 +87670,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "bringen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87367,9 +87682,7 @@
       "context_tags_json": [],
       "source": "ai",
       "synonyms_json": [],
-      "antonyms_json": [
-        "bringen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87399,10 +87712,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "holen",
-        "nehmen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87414,10 +87724,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "holen",
-        "nehmen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87446,9 +87753,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Kaffee"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87460,9 +87765,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Kaffee"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87492,9 +87795,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Tee"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87506,9 +87807,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Tee"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87592,11 +87891,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "sauer",
-        "salzig",
-        "bitter"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87608,11 +87903,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "sauer",
-        "salzig",
-        "bitter"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87641,9 +87932,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Nacht"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87655,9 +87944,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Nacht"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87687,9 +87974,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Tag"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87701,9 +87986,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Tag"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87732,9 +88015,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Abend"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87746,9 +88027,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Abend"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87777,9 +88056,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Morgen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87791,9 +88068,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Morgen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88029,10 +88304,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "gestern",
-        "morgen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88044,10 +88316,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "gestern",
-        "morgen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88079,10 +88348,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "heute",
-        "morgen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88094,10 +88360,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "heute",
-        "morgen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88127,9 +88390,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "gestern"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88141,9 +88402,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "gestern"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88176,10 +88435,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "später",
-        "dann"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88191,10 +88447,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "später",
-        "dann"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88225,10 +88478,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "jetzt",
-        "früher"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88240,10 +88490,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "jetzt",
-        "früher"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88323,9 +88570,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Mond"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88337,9 +88582,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Mond"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88472,9 +88715,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "langsam"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88486,9 +88727,7 @@
       "context_tags_json": [],
       "source": "ai",
       "synonyms_json": [],
-      "antonyms_json": [
-        "langsam"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88518,9 +88757,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "schnell"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88532,9 +88769,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "schnell"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88716,9 +88951,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "das Fenster"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88730,9 +88963,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "das Fenster"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88761,9 +88992,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Tür"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88775,9 +89004,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Tür"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88857,9 +89084,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Tisch"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88871,9 +89096,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Tisch"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89004,9 +89227,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "schließen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89018,9 +89239,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "schließen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89049,9 +89268,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "öffnen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89063,9 +89280,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "öffnen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89095,10 +89310,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "dort",
-        "da"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89110,10 +89322,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "dort",
-        "da"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89143,9 +89352,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "hier"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89157,9 +89364,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "hier"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89191,10 +89396,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "kaum",
-        "wenig"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89206,10 +89408,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "kaum",
-        "wenig"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89240,10 +89439,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "teilweise",
-        "halb"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89255,10 +89451,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "teilweise",
-        "halb"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89338,9 +89531,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Mutter"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89352,9 +89543,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Mutter"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89383,9 +89572,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Vater"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89397,9 +89584,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Vater"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89428,9 +89613,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Schwester"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89442,9 +89625,7 @@
       "context_tags_json": [],
       "source": "ai",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Schwester"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89473,9 +89654,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Bruder"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89487,9 +89666,7 @@
       "context_tags_json": [],
       "source": "ai",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Bruder"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89519,9 +89696,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Feind"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89533,9 +89708,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Feind"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89565,9 +89738,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Feindin"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89579,9 +89750,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Feindin"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89713,9 +89882,7 @@
       "context_tags_json": [],
       "source": "ai",
       "synonyms_json": [],
-      "antonyms_json": [
-        "verkennen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89727,9 +89894,7 @@
       "context_tags_json": [],
       "source": "ai",
       "synonyms_json": [],
-      "antonyms_json": [
-        "verkennen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89759,9 +89924,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "hassen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89773,9 +89936,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "hassen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89806,10 +89967,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "allein",
-        "getrennt"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89821,10 +89979,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "allein",
-        "getrennt"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89856,10 +90011,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "zusammen",
-        "gemeinsam"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89871,10 +90023,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "zusammen",
-        "gemeinsam"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89906,9 +90055,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "alt"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89920,9 +90067,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "alt"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90161,10 +90306,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "gehen",
-        "halten"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90176,10 +90318,7 @@
       "context_tags_json": [],
       "source": "ai",
       "synonyms_json": [],
-      "antonyms_json": [
-        "gehen",
-        "halten"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90209,10 +90348,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "fahren",
-        "gehen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90224,10 +90360,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "fahren",
-        "gehen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90257,9 +90390,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "nah"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90271,9 +90402,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "nah"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90304,9 +90433,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "weit"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90318,9 +90445,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "weit"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90352,9 +90477,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "hässlich"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90366,9 +90489,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "hässlich"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90401,10 +90522,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "schön",
-        "hübsch"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90416,10 +90534,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "schön",
-        "hübsch"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90451,9 +90566,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "kalt"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90465,9 +90578,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "kalt"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90499,10 +90610,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "alles",
-        "viel"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90514,10 +90622,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "alles",
-        "viel"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90546,9 +90651,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "noch nicht"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90593,9 +90696,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "nicht mehr"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90607,9 +90708,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "nicht mehr"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90740,9 +90839,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Schüler"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90754,9 +90851,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Schüler"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90785,9 +90880,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Lehrer"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90799,9 +90892,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Lehrer"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90986,9 +91077,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "schreiben"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91000,9 +91089,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "schreiben"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91033,9 +91120,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "lesen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91047,9 +91132,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "lesen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91078,9 +91161,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "antworten"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91092,9 +91173,7 @@
       "context_tags_json": [],
       "source": "ai",
       "synonyms_json": [],
-      "antonyms_json": [
-        "antworten"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91123,9 +91202,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "fragen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91137,9 +91214,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "fragen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91221,9 +91296,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "falsch"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91235,9 +91308,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "falsch"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91270,10 +91341,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "richtig",
-        "wahr"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91285,10 +91353,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "richtig",
-        "wahr"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91320,9 +91385,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "unwichtig"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91334,9 +91397,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "unwichtig"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91420,10 +91481,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "schwierig",
-        "kompliziert"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91435,10 +91493,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "schwierig",
-        "kompliziert"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91470,10 +91525,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "einfach",
-        "leicht"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91485,10 +91537,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "einfach",
-        "leicht"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91519,10 +91568,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "sicher",
-        "gewiss"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91534,10 +91580,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "sicher",
-        "gewiss"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91570,9 +91613,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Lösung"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91584,9 +91625,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Lösung"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91616,9 +91655,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Patient"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91630,9 +91667,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Patient"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91661,9 +91696,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Patientin"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91675,9 +91708,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Patientin"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91707,9 +91738,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Gesundheit"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91721,9 +91750,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Gesundheit"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91809,9 +91836,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "stören"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91823,9 +91848,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "stören"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91892,7 +91915,6 @@
       "source": "manual",
       "synonyms_json": [
         "krankhaft",
-        "ill",
         "kranke"
       ],
       "antonyms_json": [
@@ -91910,9 +91932,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "gesund"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91924,9 +91944,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "gesund"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91955,9 +91973,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "krank"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91969,9 +91985,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "krank"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -92001,10 +92015,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "sitzen",
-        "liegen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -92016,10 +92027,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "sitzen",
-        "liegen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -92050,10 +92058,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "stehen",
-        "liegen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -92065,10 +92070,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "stehen",
-        "liegen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -92560,6 +92562,120 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
+    },
+    {
+      "concept_id": "concept-a1-ubrigens",
+      "lang": "de",
+      "short_definition": "Etwas, das man nebenbei erwähnt.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a1-ubrigens",
+      "lang": "it",
+      "short_definition": "Qualcosa che si menziona incidentalmente.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [
+        "incidentalmente"
+      ],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a1-ubrigens",
+      "lang": "en",
+      "short_definition": "Something mentioned casually.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a1-werfen",
+      "lang": "de",
+      "short_definition": "Etwas mit Kraft in eine Richtung bewegen.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a1-werfen",
+      "lang": "it",
+      "short_definition": "Spostare qualcosa con forza in una direzione.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [
+        "scagliato"
+      ],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a1-werfen",
+      "lang": "en",
+      "short_definition": "Move something with force in a direction.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a1-darum",
+      "lang": "de",
+      "short_definition": "Aus diesem Grund.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a1-darum",
+      "lang": "it",
+      "short_definition": "Per questa ragione.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [
+        "così"
+      ],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a1-darum",
+      "lang": "en",
+      "short_definition": "For this reason.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
     }
   ],
   "clusters": [
@@ -92610,9 +92726,9 @@
       "auto": true
     },
     {
-      "cluster_id": "7cda0786-885a-497b-735f-6676a0b6c420",
+      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
       "lang": "de",
-      "label": "synonyms: deswegen +3",
+      "label": "synonyms: deswegen +4",
       "type": "semantic",
       "auto": true
     },
@@ -92834,9 +92950,23 @@
       "auto": true
     },
     {
+      "cluster_id": "dd757bd0-a589-478c-ecf5-eef19cf1d78a",
+      "lang": "it",
+      "label": "synonyms: per questo motivo +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
       "cluster_id": "b237664d-a06a-2463-6f08-0a6b9c1a4e74",
       "lang": "it",
       "label": "synonyms: prezioso",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "cb2d4c48-f4c3-ef5e-6a76-89a7eb2f6d02",
+      "lang": "it",
+      "label": "synonyms: chiamare +3",
       "type": "semantic",
       "auto": true
     },
@@ -92982,9 +93112,14 @@
       "position": 2
     },
     {
-      "cluster_id": "7cda0786-885a-497b-735f-6676a0b6c420",
-      "lexeme_id": "lex-de-daher",
+      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
+      "lexeme_id": "lexeme-de-a1-darum",
       "position": 2
+    },
+    {
+      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
+      "lexeme_id": "lex-de-daher",
+      "position": 3
     },
     {
       "cluster_id": "f14cfbc0-c7ea-330d-14b1-6a6e59418fe0",
@@ -93272,9 +93407,24 @@
       "position": 1
     },
     {
+      "cluster_id": "dd757bd0-a589-478c-ecf5-eef19cf1d78a",
+      "lexeme_id": "lexeme-it-a1-darum",
+      "position": 2
+    },
+    {
       "cluster_id": "b237664d-a06a-2463-6f08-0a6b9c1a4e74",
       "lexeme_id": "lex-it-importante",
       "position": 1
+    },
+    {
+      "cluster_id": "cb2d4c48-f4c3-ef5e-6a76-89a7eb2f6d02",
+      "lexeme_id": "lex-it-andare",
+      "position": 2
+    },
+    {
+      "cluster_id": "cb2d4c48-f4c3-ef5e-6a76-89a7eb2f6d02",
+      "lexeme_id": "lex-it-venire",
+      "position": 3
     },
     {
       "cluster_id": "d8471c73-3865-f1c3-d396-c4489f1933dc",

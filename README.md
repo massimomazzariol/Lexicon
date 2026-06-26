@@ -4,153 +4,76 @@
 [![Code License](https://img.shields.io/badge/code-Apache--2.0-blue.svg)](LICENSE)
 [![Content License](https://img.shields.io/badge/content-CC%20BY%204.0-green.svg)](LICENSE-CONTENT.md)
 
-Lexicon Platform is a reusable lexical content repository. It contains the
-canonical source material, language plugins, runtime pack builders, local
-lexicon storage, and the file-based distribution contract needed to ship
-language data into an application or service.
+Lexicon Platform is a standalone, reusable lexical content repository: a single
+curated source of vocabulary, built into versioned runtime packs and published as
+a file-based JSON distribution. Consumers integrate through that distribution
+only. They never depend on this repository's source or build, and it never
+reaches into a consumer (see `CONTRACT.md` and `docs/adr/`).
 
-It is a standalone platform. Consumers integrate through one thing only: its
-published, versioned distribution. They never depend on this repository's source
-or build, and this repository never reaches into a consumer (see `docs/adr/`).
+## Why this exists
 
-## Why This Exists
+Good lexical data for language learning does not exist in an open, reusable form.
+What is public is scattered and inconsistent (definitions vary by source, examples
+are uneven, CEFR levels are rarely coherent, and the relations between words are
+mostly missing), and the few coherent datasets are locked inside proprietary apps.
+Generating it live, per request, is slow, costly, non-deterministic, and
+offline-hostile, and a learner cannot tell a good entry from a bad one.
 
-Lexical knowledge for language learning is scattered and inconsistent: definitions
-vary by source, examples are uneven, CEFR levels are rarely assigned coherently, and
-the relations between words (synonyms, antonyms, sense families) are mostly missing.
-Assembling that live, per request, would be slow, costly, non-deterministic and
-offline-hostile... and a learner cannot tell a good entry from a bad one.
+Lexicon consolidates the knowledge once into a curated source of truth, then
+materialises it into static, versioned, downloadable packs:
 
-Lexicon solves this by **consolidating** the knowledge once into a single curated
-source of truth, then **materialising** it into static, versioned, downloadable packs.
-The payoff:
+- **Deterministic and reviewable** - a word always returns the same vetted entry;
+  the source is content-as-code, so every change is a reviewable diff.
+- **Leveled and interconnected** - CEFR levels (A1 to C2) and concept relations are
+  global judgments made once, not re-derived per request.
+- **Static and cheap to serve** - consumers download prebuilt packs and serve them
+  locally; no per-use generation, no live model call, no scaling cost.
 
-- **Deterministic and reviewable.** A word always returns the same vetted entry.
-  Quality is fixed once and only improves; the source is content-as-code, so every
-  change is a reviewable diff and nothing ships unreviewed.
-- **Leveled and interconnected, consistently.** CEFR levels (A1→C2) and concept
-  relations are global judgments made once and anchored to authoritative references,
-  not re-derived each time - which is exactly where ad-hoc generation is least reliable.
-- **Static, cacheable, predictable cost.** Consumers download the prebuilt packs once
-  and serve them locally; there is no per-use generation and no live model call, so it
-  scales to any number of users without scaling cost.
-- **A self-contained distribution**, not a live dependency on a generation service.
+Pay the curation cost once, serve quality forever.
 
-In short: pay the curation cost once, serve quality forever.
+## How it works
 
-## Engineering highlights
+- **Content-as-code.** One curated source pack builds into versioned runtime packs
+  plus the file-based distribution contract.
+- **Capability-driven language plugins.** Morphology (German noun declension,
+  separable verbs like `auf|stehen`) is rule-derived with curated irregulars; the
+  core stays language-neutral, so a new language is a plugin, not a core change.
+- **Reviewed, never auto-shipped.** Entries are staged `needs_review`; a guardrail
+  gate promotes only the clean ones, the build excludes the rest, and the final
+  check is the git diff.
 
-- **Content-as-code, deterministic packs.** A single curated source is built into
-  versioned runtime packs plus a file-based distribution contract. The same word
-  always returns the same vetted entry; every change is a reviewable diff.
-- **Capability-driven language plugins.** Language behaviour (noun declension,
-  separable-verb decomposition, ...) lives in per-language plugins that advertise
-  capabilities. The core stays language-neutral, so adding a language is a plugin,
-  not a core change.
-- **Deterministic morphology + curated irregulars.** German noun declension and
-  separable-verb decomposition (`auf|stehen`) are rule-derived; irregulars come from
-  curated overrides, never guessed. Stable form ids keyed on the grammatical slot so
-  surface edits never orphan a learner's progress.
-- **Reviewed, never auto-shipped.** Entries are staged as `needs_review`; a guardrail
-  gate promotes only the clean, corroborated ones, the build excludes the rest, and the
-  reviewer's final check is the git diff.
-- **Static distribution, predictable cost.** Prebuilt packs are downloaded and cached
-  by the consumer; no per-use generation and no live model call, scaling to any number
-  of users without scaling cost.
+## Authoring
 
-## Authoring & quality
+Content is grown and tended from a single console (`pnpm run lexicon`):
 
-Contributors grow the source pack by proposing entries. Nothing ships
-automatically: every record is staged as `needs_review`, a guardrail gate
-promotes only the clean ones, the pack build excludes anything still under
-review, and the reviewer's final check is the git diff.
+![Lexicon console](docs/assets/lexicon-console.svg)
 
-## What It Contains
+Nothing ships automatically: every record is reviewed (the git diff is the gate)
+before it is built into a pack.
 
-- canonical source packs
-- editorial templates and authoring tools
-- generated runtime packs
-- file-based distribution artifacts
+## Consuming the content
 
-## Start Here
-
-- `docs/README.md`: documentation map and reading order
-- `docs/guides/CONSUMER_GUIDE.md`: integration model for applications and services
-- `docs/guides/PACK_AUTHORING.md`: source pack authoring workflow
-- `CONTRACT.md`: the distribution contract (the only consumer contract)
-- `docs/reference/TOOLS.md`: tool catalog and workflow roles
-- `docs/reference/WORKFLOW_COMMANDS.md`: canonical command reference
-- `CHANGELOG.md`: platform, tooling, package, and release history
-- `docs/reference/CONTENT_CHANGELOG.md`: concept-first lexical-content history
-- `docs/guides/RELEASING.md`: release checklist and verification flow
-- `CONTRIBUTING.md`: contribution guide
-
-## Repository Layout
-
-- `docs/README.md`
-- `docs/guides/`
-- `docs/reference/`
-- `docs/policies/`
-- `packs/templates/`
-- `packs/lexicon_source/` current canonical source pack
-- `packs/lexicon_*_{a1,a2,b1,b2}/`
-- `tools/pipeline/`
-- `tools/reports/`
-- `tools/maintenance/`
-- `tools/lib/`
-
-## Consuming The Content
-
-Consumers integrate through one contract only: the **file-based JSON distribution**
+Integrate through one contract only: the file-based JSON distribution
 (`root_manifest.json` + per-language indexes + per-pack `manifest.json` and
-`content.json`). They never depend on this repository's source or build, and this
-repository never reaches into a consumer.
+`content.json`). Every manifest carries `contract_version`, so a consumer detects
+and rejects an incompatible distribution instead of drifting silently.
 
-- **Build** the distribution: `pnpm run release` (writes `dist/lexicon_distribution/`).
-- **Publish** it: `pnpm run publish -- --publish --tag <tag>` uploads each distribution
-  file as a flat asset to a GitHub Release.
-- **Integrate** it: fetch and parse the distribution per `CONTRACT.md` and
-  `docs/guides/CONSUMER_GUIDE.md`.
+- **Build:** `pnpm run release` writes `dist/lexicon_distribution/`
+- **Publish:** `pnpm run publish -- --publish --tag <tag>` uploads flat assets to a GitHub Release
+- **Integrate:** parse the distribution per `CONTRACT.md` and `docs/guides/CONSUMER_GUIDE.md`
 
-Every manifest carries `contract_version`, so a consumer can detect and reject an
-incompatible distribution instead of drifting silently.
+## Docs
 
-## Development Commands
-
-Use [docs/reference/WORKFLOW_COMMANDS.md](docs/reference/WORKFLOW_COMMANDS.md)
-as the command source of truth.
-
-Typical source-pack entrypoint:
-
-```bash
-pnpm node tools/pipeline/run_pack_pipeline.mjs \
-  --pack-dir packs/lexicon_source \
-  --with-forms
-```
-
-Detailed workflow:
-- `docs/guides/PACK_AUTHORING.md`
-- `docs/reference/TOOLS.md`
+- `CONTRACT.md` - the distribution contract (the only consumer contract)
+- `docs/README.md` - documentation map and reading order
+- `docs/guides/CONSUMER_GUIDE.md` - integrating the distribution
+- `docs/guides/PACK_AUTHORING.md` - source-pack authoring workflow
+- `docs/reference/WORKFLOW_COMMANDS.md` - canonical command reference
+- `docs/guides/RELEASING.md` - release + publish checklist
+- `CONTRIBUTING.md` - contribution guide
 
 ## Licensing
 
-Lexicon Platform uses a permissive split:
-
-- code in `packages/`, `tools/`, and local demo code is licensed under
-  `Apache-2.0`
-- lexical content, packs, and documentation are licensed under `CC BY 4.0`
-  unless noted otherwise
-
-This is intended to keep the repository open, reusable, and easy to extend,
-including in proprietary software, while preserving attribution to the source
-project.
-
-See:
-
-- `LICENSE`
-- `LICENSE-CONTENT.md`
-- `NOTICE`
-- `ATTRIBUTION.md`
-
-For the end-to-end integration flow, including local DB import, distribution,
-and hosting options, see `docs/guides/CONSUMER_GUIDE.md`.
+Code (`tools/`) is `Apache-2.0`; lexical content, packs, and docs are `CC BY 4.0`
+unless noted otherwise, keeping the repository open and reusable while preserving
+attribution. See `LICENSE`, `LICENSE-CONTENT.md`, `NOTICE`, `ATTRIBUTION.md`.

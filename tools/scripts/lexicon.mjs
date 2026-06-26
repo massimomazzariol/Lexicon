@@ -388,18 +388,30 @@ async function doFix() {
 // is clean but not auto-shipped. It covers both definitions and examples (the autopilot's
 // "review queue" count includes both), so the queue here matches that number.
 async function doReview() {
-  const data = read();
+  let data = read();
+  const queue = (d) => [
+    ...(d.concept_definitions || []).filter((x) => x.review_status === 'needs_review').map((row) => ({ kind: 'def', row })),
+    ...(d.examples || []).filter((x) => x.review_status === 'needs_review').map((row) => ({ kind: 'ex', row })),
+  ];
+  let pending = queue(data);
+  if (!pending.length) { console.log(C.green('\nNothing waiting for review. ✅')); return; }
+  // Offer the AI auto-review first: a judge promotes the items it is confident are correct
+  // and leaves only the doubtful ones for you. Needs the local LLM.
+  const aiAns = (await ask(`\n${C.b(String(pending.length))} in the queue. Let the ` + C.cyan('AI auto-review') +
+    C.dim(' them first (promotes the clear ones, leaves the doubtful for you)') + ` ${C.dim('[Y/n]')} `)).toLowerCase();
+  if (aiAns !== 'n') {
+    sh('ai_review.mjs', ['--apply']);
+    data = read();
+    pending = queue(data);
+    if (!pending.length) { console.log(C.green('\nThe AI cleared the whole queue. ✅')); return; }
+    console.log(C.dim(`\n${pending.length} left for you (the AI was unsure about these).`));
+  }
   const labelFor = (conceptId) => {
     const lx = (data.lexemes || []).filter((l) => cidOf(l.concept_id) === conceptId && l.is_active !== false);
     return LANGS.map((l) => (lx.find((x) => x.lang === l) || {}).text).filter(Boolean).join(' / ') || conceptId;
   };
-  const pending = [
-    ...(data.concept_definitions || []).filter((d) => d.review_status === 'needs_review').map((row) => ({ kind: 'def', row })),
-    ...(data.examples || []).filter((e) => e.review_status === 'needs_review').map((row) => ({ kind: 'ex', row })),
-  ];
-  if (!pending.length) { console.log(C.green('\nNothing waiting for review. ✅')); return; }
   const defs = pending.filter((p) => p.kind === 'def').length;
-  console.log(`\n${C.b(String(pending.length))} item(s) awaiting review` +
+  console.log(`\n${C.b(String(pending.length))} item(s) to review` +
     C.dim(`  (${defs} definitions, ${pending.length - defs} examples)`) +
     C.dim('.  a = approve, r = reject, s = skip, q = stop'));
   let changed = 0;

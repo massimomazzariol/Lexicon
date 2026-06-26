@@ -449,7 +449,7 @@ async function correctWord(word) {
   const model = await resolveModel();
   return chat({
     system: 'You are a trilingual (German/Italian/English) lexicographer. Output STRICT JSON only.',
-    user: `The user typed "${word}". If misspelled, correct it to the intended real word. Identify language (de/it/en), part of speech, and list its distinct senses as short glosses. Return JSON: {"corrected":"...","lang":"de|it|en","pos":"...","senses":["...", ...],"unknown":false}. If it is not a real word in any of the three languages, return {"unknown":true}.`
+    user: `The user typed "${word}". Do two things: (1) if misspelled, correct it to the intended real word; (2) reduce it to its DICTIONARY CITATION FORM (the lemma) - a verb to its infinitive (geworfen -> werfen, lief -> laufen), a noun to its nominative singular (Haeuser -> Haus), an inflected adjective to its base form (besseren -> besser). KEEP separable/inseparable verb prefixes (herausfinden stays herausfinden, NEVER finden; aufstehen stays aufstehen). Put that citation form in "corrected". Then identify language (de/it/en), part of speech, and list its distinct senses as short glosses. Return JSON: {"corrected":"<citation form>","lang":"de|it|en","pos":"...","senses":["...", ...],"unknown":false}. If it is not a real word in any of the three languages, return {"unknown":true}.`
   }, model);
 }
 

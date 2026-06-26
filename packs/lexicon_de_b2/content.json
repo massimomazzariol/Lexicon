@@ -25535,6 +25535,61 @@
       "confidence": "high",
       "notes": null,
       "review_status": "reviewed"
+    },
+    {
+      "example_id": "example-it-b2-nuance",
+      "concept_id": "concept-b2-nuance",
+      "lang": "it",
+      "sentence": "Ha notato una sfumatura nel tono di voce.",
+      "source": "ai",
+      "generated_by": "ai",
+      "notes": null,
+      "review_status": "reviewed",
+      "reviewed_by": "ai"
+    },
+    {
+      "example_id": "example-en-b2-dilemma",
+      "concept_id": "concept-b2-dilemma",
+      "lang": "en",
+      "sentence": "She was faced with a difficult decision between two unpleasant options.",
+      "source": "ai",
+      "generated_by": "ai",
+      "notes": null,
+      "review_status": "reviewed",
+      "reviewed_by": "ai"
+    },
+    {
+      "example_id": "example-de-b2-subtilitat",
+      "concept_id": "concept-b2-subtilitat",
+      "lang": "de",
+      "sentence": "Die Subtilität des Geschmacks ist beeindruckend.",
+      "source": "ai",
+      "generated_by": "ai",
+      "notes": null,
+      "review_status": "reviewed",
+      "reviewed_by": "ai"
+    },
+    {
+      "example_id": "example-it-b2-subtilitat",
+      "concept_id": "concept-b2-subtilitat",
+      "lang": "it",
+      "sentence": "La sottigliezza del sapore è impressionante.",
+      "source": "ai",
+      "generated_by": "ai",
+      "notes": null,
+      "review_status": "reviewed",
+      "reviewed_by": "ai"
+    },
+    {
+      "example_id": "example-en-b2-subtilitat",
+      "concept_id": "concept-b2-subtilitat",
+      "lang": "en",
+      "sentence": "The subtlety of the flavor is impressive.",
+      "source": "ai",
+      "generated_by": "ai",
+      "notes": null,
+      "review_status": "reviewed",
+      "reviewed_by": "ai"
     }
   ],
   "concept_definitions": [

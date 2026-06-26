@@ -26073,6 +26073,30 @@
       "translation_text": null
     },
     {
+      "example_id": "example-de-fix-schliesslich",
+      "concept_id": "fef8f67b-8883-20ff-c027-67735487d38d",
+      "lang": "de",
+      "sentence": "Schließlich erreichte er das Ziel.",
+      "source": "ai",
+      "generated_by": "ai",
+      "confidence": "medium",
+      "notes": null,
+      "review_status": "reviewed",
+      "reviewed_by": "ai"
+    },
+    {
+      "example_id": "example-it-fix-schliesslich",
+      "concept_id": "fef8f67b-8883-20ff-c027-67735487d38d",
+      "lang": "it",
+      "sentence": "Finalmente arrivammo alla soluzione.",
+      "source": "ai",
+      "generated_by": "ai",
+      "confidence": "medium",
+      "notes": null,
+      "review_status": "reviewed",
+      "reviewed_by": "ai"
+    },
+    {
       "example_id": "example-en-fix-schliesslich",
       "concept_id": "fef8f67b-8883-20ff-c027-67735487d38d",
       "lang": "en",
@@ -33347,9 +33371,9 @@
       "auto": true
     },
     {
-      "cluster_id": "c2b663d2-a7cf-0074-72b8-98a13c7eeaee",
+      "cluster_id": "12ae11f4-0773-89dc-f84b-9f0bbdaa260a",
       "lang": "it",
-      "label": "synonyms: la corsa",
+      "label": "synonyms: la corsa +2",
       "type": "semantic",
       "auto": true
     },
@@ -33725,7 +33749,7 @@
       "position": 0
     },
     {
-      "cluster_id": "c2b663d2-a7cf-0074-72b8-98a13c7eeaee",
+      "cluster_id": "12ae11f4-0773-89dc-f84b-9f0bbdaa260a",
       "lexeme_id": "lex-it-sfida",
       "position": 1
     },

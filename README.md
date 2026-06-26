@@ -51,34 +51,19 @@ In short: pay the curation cost once, serve quality forever.
   separable-verb decomposition (`auf|stehen`) are rule-derived; irregulars come from
   curated overrides, never guessed. Stable form ids keyed on the grammatical slot so
   surface edits never orphan a learner's progress.
-- **Self-optimising model selection, nothing hardcoded.** When several local models
-  are installed, a dueling-bandit learns from an LLM judge's per-field preferences and
-  routes work to whichever model is best on *this* content, exploring across runs.
-- **Human-gated generation.** Nothing AI-drafted ships unreviewed: records are
-  `needs_review`, a guardrail gate auto-promotes only the clean, corroborated ones, and
-  the build excludes the rest.
+- **Reviewed, never auto-shipped.** Entries are staged as `needs_review`; a guardrail
+  gate promotes only the clean, corroborated ones, the build excludes the rest, and the
+  reviewer's final check is the git diff.
 - **Static distribution, predictable cost.** Prebuilt packs are downloaded and cached
   by the consumer; no per-use generation and no live model call, scaling to any number
   of users without scaling cost.
 
 ## Authoring & quality
 
-Contributors grow the source pack by proposing entries (see `authoring/`). To make that
-fast, the repo ships an **optional local toolchain** for anyone running a local language
-model: it can draft entries and fill gaps, and - when several models are installed - a
-self-optimising selector (a dueling-bandit that learns from a judge's per-field
-preferences) routes work to whichever model is actually best on *this* content, with no
-hardcoded model choices.
-
-Nothing generated ships automatically. Every drafted record is marked `needs_review`; a
-guardrail gate auto-promotes only the clean ones and holds the rest for a human, and the
-pack build excludes anything still under review. The reviewer's final check is the git
-diff. Details in `authoring/README.md`.
-
-The toolchain is driven by a single console - `npm run lexicon` - with an
-interactive menu and an unattended autopilot. How to use it and how to read a run
-(the `definitions / synonyms / examples DE IT EN` output) are documented in
-`docs/CONSOLE.md`.
+Contributors grow the source pack by proposing entries. Nothing ships
+automatically: every record is staged as `needs_review`, a guardrail gate
+promotes only the clean ones, the pack build excludes anything still under
+review, and the reviewer's final check is the git diff.
 
 ## What It Contains
 

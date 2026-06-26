@@ -205,7 +205,7 @@ async function doBrowse() {
   if (filter) rows = rows.filter((r) => LANGS.some((l) => (r.labels[l] || '').toLowerCase().includes(filter)));
   if (!rows.length) { console.log(C.yellow('\nNo words match.')); return; }
   const lvlIdx = (l) => { const i = LEVELS.indexOf(l); return i < 0 ? 99 : i; };
-  const alpha = (r) => key(r.labels[sortLang] || r.labels.de || r.labels.en || r.labels.it || '');
+  const alpha = (r) => key(r.labels[sortLang] || LANGS.map((l) => r.labels[l]).find(Boolean) || '');
   rows.sort((a, b) => order === 'by level'
     ? (lvlIdx(a.level) - lvlIdx(b.level) || alpha(a).localeCompare(alpha(b)))
     : (alpha(a).localeCompare(alpha(b)) || lvlIdx(a.level) - lvlIdx(b.level)));

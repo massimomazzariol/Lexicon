@@ -1654,6 +1654,22 @@
         "source": "ai",
         "generated_at": "2026-06-17T16:49:42.909Z"
       }
+    },
+    {
+      "concept_id": "concept-a2-herausfinden",
+      "pos": "verb",
+      "difficulty_score_auto": 35,
+      "level_auto": "A2",
+      "level_override": null,
+      "domain_tags": [
+        "investigation"
+      ],
+      "notes": null,
+      "review_status": "reviewed",
+      "metadata_json": {
+        "source": "ai",
+        "generated_at": "2026-06-26T12:03:06.241Z"
+      }
     }
   ],
   "lexemes": [
@@ -7887,6 +7903,57 @@
       "frequency_rank": null,
       "lemma": "context",
       "pos": "noun",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-de-a2-herausfinden",
+      "concept_id": "concept-a2-herausfinden",
+      "lang": "de",
+      "text": "herausfinden",
+      "frequency_rank": null,
+      "lemma": "herausfinden",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-it-a2-herausfinden",
+      "concept_id": "concept-a2-herausfinden",
+      "lang": "it",
+      "text": "scoprire",
+      "frequency_rank": null,
+      "lemma": "scoprire",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-en-a2-herausfinden",
+      "concept_id": "concept-a2-herausfinden",
+      "lang": "en",
+      "text": "find out",
+      "frequency_rank": null,
+      "lemma": "find out",
+      "pos": "verb",
       "gender": "none",
       "countability": "none",
       "register": "neutral",
@@ -18765,6 +18832,64 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "01476932-0e79-70e4-542e-2b1b5e75c503",
+      "lexeme_id": "lexeme-de-a2-herausfinden",
+      "lang": "de",
+      "surface": "herausfinden",
+      "surface_search": "herausfinden",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core",
+        "verb_class": "simple",
+        "prefix": null,
+        "stem": "herausfinden",
+        "aux": "haben"
+      }
+    },
+    {
+      "form_id": "c71b145f-c535-92ce-88e3-976198fd075b",
+      "lexeme_id": "lexeme-it-a2-herausfinden",
+      "lang": "it",
+      "surface": "scoprire",
+      "surface_search": "scoprire",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "12527862-b756-5711-5894-2c92d4888abf",
+      "lexeme_id": "lexeme-en-a2-herausfinden",
+      "lang": "en",
+      "surface": "find out",
+      "surface_search": "find out",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
       }
     }
   ],
@@ -38308,6 +38433,78 @@
       "difficulty_override": null,
       "level_override": null,
       "editor_notes": null
+    },
+    {
+      "study_unit_id": "f40357ec-2731-afd9-9a18-9049ab583ed8",
+      "concept_id": "concept-a2-herausfinden",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_prod",
+      "source_form_id": "12527862-b756-5711-5894-2c92d4888abf",
+      "primary_expected_form_id": "01476932-0e79-70e4-542e-2b1b5e75c503",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "3ebbc073-e703-33a6-16c6-c7b3b42056ff",
+      "concept_id": "concept-a2-herausfinden",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_rec",
+      "source_form_id": "01476932-0e79-70e4-542e-2b1b5e75c503",
+      "primary_expected_form_id": "12527862-b756-5711-5894-2c92d4888abf",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "70ae5572-3367-57d9-d0f5-ef9d8e122729",
+      "concept_id": "concept-a2-herausfinden",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "core_prod",
+      "source_form_id": "c71b145f-c535-92ce-88e3-976198fd075b",
+      "primary_expected_form_id": "01476932-0e79-70e4-542e-2b1b5e75c503",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "0bffb714-c11d-93a5-b38d-bb446f17f1c6",
+      "concept_id": "concept-a2-herausfinden",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "01476932-0e79-70e4-542e-2b1b5e75c503",
+      "primary_expected_form_id": "c71b145f-c535-92ce-88e3-976198fd075b",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
     }
   ],
   "examples": [
@@ -39382,17 +39579,6 @@
       "sentence": "Why did you come here in the first place?",
       "translation_lang": null,
       "translation_text": null
-    },
-    {
-      "example_id": "example-it-fix-lauf",
-      "concept_id": "b5badb09-9fac-871c-a009-af06fbb2cef3",
-      "lang": "it",
-      "sentence": "Prova sportiva su una distanza definita.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
     },
     {
       "example_id": "example-en-fix-abstimmen",
@@ -41834,10 +42020,7 @@
         "stroll"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "b5badb09-9fac-871c-a009-af06fbb2cef3",
@@ -41874,10 +42057,7 @@
         "camminata"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
@@ -41896,10 +42076,7 @@
         "refrain from voting"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
@@ -41934,10 +42111,7 @@
         "rifiutare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
@@ -41955,10 +42129,7 @@
         "neglect"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
@@ -41995,10 +42166,7 @@
         "trascurare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "28155ced-1190-8879-d1e4-766d9865a842",
@@ -42016,10 +42184,7 @@
         "withdrawal"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "28155ced-1190-8879-d1e4-766d9865a842",
@@ -42054,10 +42219,7 @@
         "abbandono"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "08116c81-5e80-e8d9-d48a-2dcfafa2dae1",
@@ -42074,10 +42236,7 @@
         "nothing"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "08116c81-5e80-e8d9-d48a-2dcfafa2dae1",
@@ -42113,10 +42272,7 @@
         "nulla"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "29a483bf-d86a-a442-f816-17ee4e248a16",
@@ -42133,10 +42289,7 @@
         "no one"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "29a483bf-d86a-a442-f816-17ee4e248a16",
@@ -42172,10 +42325,7 @@
         "nessuno"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "2de09df9-4a0c-8b2a-f080-6c52571b7064",
@@ -42194,10 +42344,7 @@
         "a particular location"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "2de09df9-4a0c-8b2a-f080-6c52571b7064",
@@ -42233,10 +42380,7 @@
         "in un luogo ben definito"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "d0981aa3-9aed-3007-290a-3e2779bacea5",
@@ -42314,10 +42458,7 @@
         "infrequently"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "dce273cb-1477-41c8-14f3-84226c53e233",
@@ -42353,10 +42494,7 @@
         "di rado"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "5a3f0258-ae5f-5c70-4b43-84454023b3c7",
@@ -42426,10 +42564,7 @@
         "however"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
@@ -42465,10 +42600,7 @@
         "incontrariamente"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "06afc93e-f8f6-3698-72af-3185f7367f80",
@@ -42488,10 +42620,7 @@
         "absolutely not"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "06afc93e-f8f6-3698-72af-3185f7367f80",
@@ -42530,10 +42659,7 @@
         "assolutamente no"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "e26099e6-6292-9c2d-6b9a-69cf996ba8f7",
@@ -42552,10 +42678,7 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "e26099e6-6292-9c2d-6b9a-69cf996ba8f7",
@@ -42574,10 +42697,7 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "e26099e6-6292-9c2d-6b9a-69cf996ba8f7",
@@ -42663,10 +42783,7 @@
         "leave behind"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
@@ -42702,10 +42819,7 @@
         "dimenticare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "324d681d-6d2e-552f-6831-9758934c5d65",
@@ -42724,10 +42838,7 @@
         "remove"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "324d681d-6d2e-552f-6831-9758934c5d65",
@@ -42762,10 +42873,7 @@
         "rimuovere"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
@@ -42784,10 +42892,7 @@
         "leave alone"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
@@ -42823,10 +42928,7 @@
         "ignorare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
@@ -42843,10 +42945,7 @@
         "receive"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
@@ -42880,10 +42979,7 @@
         "ricevere"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "a73af94e-f267-9f64-bf2b-134fa2544a0c",
@@ -42901,10 +42997,7 @@
         "the predictable"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "a73af94e-f267-9f64-bf2b-134fa2544a0c",
@@ -42940,10 +43033,7 @@
         "abitudine"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "23f3cd66-40a2-652f-205a-7557f2a9e950",
@@ -42964,10 +43054,7 @@
         "persist"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "23f3cd66-40a2-652f-205a-7557f2a9e950",
@@ -43005,10 +43092,7 @@
         "proseguire"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "77962681-e561-09cc-772c-9c4285175bf9",
@@ -43025,10 +43109,7 @@
         "unmarried"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "77962681-e561-09cc-772c-9c4285175bf9",
@@ -43063,10 +43144,7 @@
         "nubile"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "87664a7f-b773-5acd-374e-4c359b635e7c",
@@ -43087,10 +43165,7 @@
         "rejection"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "87664a7f-b773-5acd-374e-4c359b635e7c",
@@ -43125,10 +43200,7 @@
         "richiesta"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
@@ -43211,10 +43283,7 @@
         "negazione"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "2bfef665-f822-93b9-3f9d-233a6f838aba",
@@ -43275,10 +43344,7 @@
         "reason": "Contextual meaning",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
@@ -43300,10 +43366,7 @@
         "reason": "Contextual meaning",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
@@ -43337,17 +43400,12 @@
         "wrap up"
       ],
       "antonyms_json": [
-        "anfangen",
-        "beginnen",
         "begin",
         "start",
         "prolong"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
@@ -43361,16 +43419,11 @@
         "terminare"
       ],
       "antonyms_json": [
-        "anfangen",
-        "beginnen",
         "iniziare",
         "prolungare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-entscheidung",
@@ -46878,9 +46931,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "normal"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -47702,6 +47753,32 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
+    },
+    {
+      "concept_id": "concept-a2-herausfinden",
+      "lang": "de",
+      "short_definition": "Etwas durch Nachforschung oder Überlegung entdecken.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [
+        "ermitteln"
+      ],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a2-herausfinden",
+      "lang": "en",
+      "short_definition": "Discover something through research or reasoning.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
     }
   ],
   "clusters": [
@@ -47798,9 +47875,9 @@
       "auto": true
     },
     {
-      "cluster_id": "7cda0786-885a-497b-735f-6676a0b6c420",
+      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
       "lang": "de",
-      "label": "synonyms: deswegen +3",
+      "label": "synonyms: deswegen +4",
       "type": "semantic",
       "auto": true
     },
@@ -48036,9 +48113,9 @@
       "auto": true
     },
     {
-      "cluster_id": "7acc3166-60b6-11ee-e844-e5ededc08a2a",
+      "cluster_id": "dd757bd0-a589-478c-ecf5-eef19cf1d78a",
       "lang": "it",
-      "label": "synonyms: per questo motivo",
+      "label": "synonyms: per questo motivo +2",
       "type": "semantic",
       "auto": true
     },
@@ -48050,9 +48127,9 @@
       "auto": true
     },
     {
-      "cluster_id": "48d24c09-8f26-7ff0-92c1-1e0ea530cf9c",
+      "cluster_id": "cb2d4c48-f4c3-ef5e-6a76-89a7eb2f6d02",
       "lang": "it",
-      "label": "synonyms: chiamare",
+      "label": "synonyms: chiamare +3",
       "type": "semantic",
       "auto": true
     },
@@ -48238,12 +48315,12 @@
       "position": 1
     },
     {
-      "cluster_id": "7cda0786-885a-497b-735f-6676a0b6c420",
+      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
       "lexeme_id": "lex-de-deswegen",
       "position": 0
     },
     {
-      "cluster_id": "7cda0786-885a-497b-735f-6676a0b6c420",
+      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
       "lexeme_id": "lex-de-deshalb",
       "position": 1
     },
@@ -48453,12 +48530,12 @@
       "position": 1
     },
     {
-      "cluster_id": "7acc3166-60b6-11ee-e844-e5ededc08a2a",
+      "cluster_id": "dd757bd0-a589-478c-ecf5-eef19cf1d78a",
       "lexeme_id": "lex-it-per-questo-motivo",
       "position": 0
     },
     {
-      "cluster_id": "7acc3166-60b6-11ee-e844-e5ededc08a2a",
+      "cluster_id": "dd757bd0-a589-478c-ecf5-eef19cf1d78a",
       "lexeme_id": "lex-it-percio",
       "position": 1
     },
@@ -48468,12 +48545,12 @@
       "position": 1
     },
     {
-      "cluster_id": "48d24c09-8f26-7ff0-92c1-1e0ea530cf9c",
+      "cluster_id": "cb2d4c48-f4c3-ef5e-6a76-89a7eb2f6d02",
       "lexeme_id": "lex-it-chiamare",
       "position": 0
     },
     {
-      "cluster_id": "48d24c09-8f26-7ff0-92c1-1e0ea530cf9c",
+      "cluster_id": "cb2d4c48-f4c3-ef5e-6a76-89a7eb2f6d02",
       "lexeme_id": "lex-it-raggiungere",
       "position": 1
     },

@@ -7930,6 +7930,68 @@
         "source": "ai",
         "generated_at": "2026-06-17T16:49:42.909Z"
       }
+    },
+    {
+      "concept_id": "concept-a1-ubrigens",
+      "pos": "adv",
+      "difficulty_score_auto": 20,
+      "level_auto": "A1",
+      "level_override": null,
+      "domain_tags": [
+        "conversation"
+      ],
+      "notes": null,
+      "review_status": "reviewed",
+      "metadata_json": {
+        "source": "ai",
+        "generated_at": "2026-06-26T12:00:26.633Z"
+      }
+    },
+    {
+      "concept_id": "concept-a1-werfen",
+      "pos": "verb",
+      "difficulty_score_auto": 20,
+      "level_auto": "A1",
+      "level_override": null,
+      "domain_tags": [],
+      "notes": null,
+      "review_status": "reviewed",
+      "metadata_json": {
+        "source": "ai",
+        "generated_at": "2026-06-26T12:01:38.689Z"
+      }
+    },
+    {
+      "concept_id": "concept-a2-herausfinden",
+      "pos": "verb",
+      "difficulty_score_auto": 35,
+      "level_auto": "A2",
+      "level_override": null,
+      "domain_tags": [
+        "investigation"
+      ],
+      "notes": null,
+      "review_status": "reviewed",
+      "metadata_json": {
+        "source": "ai",
+        "generated_at": "2026-06-26T12:03:06.241Z"
+      }
+    },
+    {
+      "concept_id": "concept-a1-darum",
+      "pos": "adv",
+      "difficulty_score_auto": 20,
+      "level_auto": "A1",
+      "level_override": null,
+      "domain_tags": [
+        "cause"
+      ],
+      "notes": null,
+      "review_status": "reviewed",
+      "metadata_json": {
+        "source": "ai",
+        "generated_at": "2026-06-26T12:04:34.196Z"
+      }
     }
   ],
   "lexemes": [
@@ -39399,6 +39461,210 @@
       "status": "approved",
       "notes": null,
       "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-de-a1-ubrigens",
+      "concept_id": "concept-a1-ubrigens",
+      "lang": "de",
+      "text": "übrigens",
+      "frequency_rank": null,
+      "lemma": "übrigens",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-it-a1-ubrigens",
+      "concept_id": "concept-a1-ubrigens",
+      "lang": "it",
+      "text": "a proposito",
+      "frequency_rank": null,
+      "lemma": "a proposito",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-en-a1-ubrigens",
+      "concept_id": "concept-a1-ubrigens",
+      "lang": "en",
+      "text": "by the way",
+      "frequency_rank": null,
+      "lemma": "by the way",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-de-a1-werfen",
+      "concept_id": "concept-a1-werfen",
+      "lang": "de",
+      "text": "geworfen",
+      "frequency_rank": null,
+      "lemma": "geworfen",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-it-a1-werfen",
+      "concept_id": "concept-a1-werfen",
+      "lang": "it",
+      "text": "lanciato",
+      "frequency_rank": null,
+      "lemma": "lanciato",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-en-a1-werfen",
+      "concept_id": "concept-a1-werfen",
+      "lang": "en",
+      "text": "thrown",
+      "frequency_rank": null,
+      "lemma": "thrown",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-de-a2-herausfinden",
+      "concept_id": "concept-a2-herausfinden",
+      "lang": "de",
+      "text": "herausfinden",
+      "frequency_rank": null,
+      "lemma": "herausfinden",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-it-a2-herausfinden",
+      "concept_id": "concept-a2-herausfinden",
+      "lang": "it",
+      "text": "scoprire",
+      "frequency_rank": null,
+      "lemma": "scoprire",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-en-a2-herausfinden",
+      "concept_id": "concept-a2-herausfinden",
+      "lang": "en",
+      "text": "find out",
+      "frequency_rank": null,
+      "lemma": "find out",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-de-a1-darum",
+      "concept_id": "concept-a1-darum",
+      "lang": "de",
+      "text": "darum",
+      "frequency_rank": null,
+      "lemma": "darum",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-it-a1-darum",
+      "concept_id": "concept-a1-darum",
+      "lang": "it",
+      "text": "per questo",
+      "frequency_rank": null,
+      "lemma": "per questo",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-en-a1-darum",
+      "concept_id": "concept-a1-darum",
+      "lang": "en",
+      "text": "therefore",
+      "frequency_rank": null,
+      "lemma": "therefore",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
     }
   ],
   "examples": [
@@ -55559,6 +55825,126 @@
       "generated_by": "ai",
       "notes": null,
       "review_status": "needs_review"
+    },
+    {
+      "example_id": "example-de-a1-ubrigens",
+      "concept_id": "concept-a1-ubrigens",
+      "lang": "de",
+      "sentence": "Ich habe übrigens ein neues Buch gekauft.",
+      "source": "ai",
+      "generated_by": "ai",
+      "notes": null,
+      "review_status": "needs_review"
+    },
+    {
+      "example_id": "example-it-a1-ubrigens",
+      "concept_id": "concept-a1-ubrigens",
+      "lang": "it",
+      "sentence": "A proposito, ho comprato un nuovo libro.",
+      "source": "ai",
+      "generated_by": "ai",
+      "notes": null,
+      "review_status": "needs_review"
+    },
+    {
+      "example_id": "example-en-a1-ubrigens",
+      "concept_id": "concept-a1-ubrigens",
+      "lang": "en",
+      "sentence": "By the way, I bought a new book.",
+      "source": "ai",
+      "generated_by": "ai",
+      "notes": null,
+      "review_status": "needs_review"
+    },
+    {
+      "example_id": "example-de-a1-werfen",
+      "concept_id": "concept-a1-werfen",
+      "lang": "de",
+      "sentence": "Er hat den Ball geworfen.",
+      "source": "ai",
+      "generated_by": "ai",
+      "notes": null,
+      "review_status": "needs_review"
+    },
+    {
+      "example_id": "example-it-a1-werfen",
+      "concept_id": "concept-a1-werfen",
+      "lang": "it",
+      "sentence": "Ha lanciato la palla.",
+      "source": "ai",
+      "generated_by": "ai",
+      "notes": null,
+      "review_status": "needs_review"
+    },
+    {
+      "example_id": "example-en-a1-werfen",
+      "concept_id": "concept-a1-werfen",
+      "lang": "en",
+      "sentence": "He threw the ball.",
+      "source": "ai",
+      "generated_by": "ai",
+      "notes": null,
+      "review_status": "needs_review"
+    },
+    {
+      "example_id": "example-de-a2-herausfinden",
+      "concept_id": "concept-a2-herausfinden",
+      "lang": "de",
+      "sentence": "Sie hat herausgefunden, dass er lügt.",
+      "source": "ai",
+      "generated_by": "ai",
+      "notes": null,
+      "review_status": "needs_review"
+    },
+    {
+      "example_id": "example-it-a2-herausfinden",
+      "concept_id": "concept-a2-herausfinden",
+      "lang": "it",
+      "sentence": "Ha scoperto che lui mente.",
+      "source": "ai",
+      "generated_by": "ai",
+      "notes": null,
+      "review_status": "needs_review"
+    },
+    {
+      "example_id": "example-en-a2-herausfinden",
+      "concept_id": "concept-a2-herausfinden",
+      "lang": "en",
+      "sentence": "She found out that he is lying.",
+      "source": "ai",
+      "generated_by": "ai",
+      "notes": null,
+      "review_status": "needs_review"
+    },
+    {
+      "example_id": "example-de-a1-darum",
+      "concept_id": "concept-a1-darum",
+      "lang": "de",
+      "sentence": "Ich habe keine Zeit, darum kann ich nicht kommen.",
+      "source": "ai",
+      "generated_by": "ai",
+      "notes": null,
+      "review_status": "needs_review"
+    },
+    {
+      "example_id": "example-it-a1-darum",
+      "concept_id": "concept-a1-darum",
+      "lang": "it",
+      "sentence": "Non ho tempo, quindi non posso venire.",
+      "source": "ai",
+      "generated_by": "ai",
+      "notes": null,
+      "review_status": "needs_review"
+    },
+    {
+      "example_id": "example-en-a1-darum",
+      "concept_id": "concept-a1-darum",
+      "lang": "en",
+      "sentence": "I don't have time, so I can't come.",
+      "source": "ai",
+      "generated_by": "ai",
+      "notes": null,
+      "review_status": "needs_review"
     }
   ],
   "clusters": [
@@ -55661,9 +56047,9 @@
       "auto": true
     },
     {
-      "cluster_id": "7cda0786-885a-497b-735f-6676a0b6c420",
+      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
       "lang": "de",
-      "label": "synonyms: deswegen +3",
+      "label": "synonyms: deswegen +4",
       "type": "semantic",
       "auto": true
     },
@@ -56214,9 +56600,9 @@
       "auto": true
     },
     {
-      "cluster_id": "7acc3166-60b6-11ee-e844-e5ededc08a2a",
+      "cluster_id": "dd757bd0-a589-478c-ecf5-eef19cf1d78a",
       "lang": "it",
-      "label": "synonyms: per questo motivo",
+      "label": "synonyms: per questo motivo +2",
       "type": "semantic",
       "auto": true
     },
@@ -56242,9 +56628,9 @@
       "auto": true
     },
     {
-      "cluster_id": "48d24c09-8f26-7ff0-92c1-1e0ea530cf9c",
+      "cluster_id": "cb2d4c48-f4c3-ef5e-6a76-89a7eb2f6d02",
       "lang": "it",
-      "label": "synonyms: chiamare",
+      "label": "synonyms: chiamare +3",
       "type": "semantic",
       "auto": true
     },
@@ -56633,24 +57019,29 @@
       "position": 2
     },
     {
-      "cluster_id": "7cda0786-885a-497b-735f-6676a0b6c420",
+      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
       "lexeme_id": "lex-de-deswegen",
       "position": 0
     },
     {
-      "cluster_id": "7cda0786-885a-497b-735f-6676a0b6c420",
+      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
       "lexeme_id": "lex-de-deshalb",
       "position": 1
     },
     {
-      "cluster_id": "7cda0786-885a-497b-735f-6676a0b6c420",
-      "lexeme_id": "lex-de-daher",
+      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
+      "lexeme_id": "lexeme-de-a1-darum",
       "position": 2
     },
     {
-      "cluster_id": "7cda0786-885a-497b-735f-6676a0b6c420",
-      "lexeme_id": "lex-de-folglich",
+      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
+      "lexeme_id": "lex-de-daher",
       "position": 3
+    },
+    {
+      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
+      "lexeme_id": "lex-de-folglich",
+      "position": 4
     },
     {
       "cluster_id": "9c3593ab-145b-ffb8-ee1c-e1064e8b599c",
@@ -57698,14 +58089,19 @@
       "position": 1
     },
     {
-      "cluster_id": "7acc3166-60b6-11ee-e844-e5ededc08a2a",
+      "cluster_id": "dd757bd0-a589-478c-ecf5-eef19cf1d78a",
       "lexeme_id": "lex-it-per-questo-motivo",
       "position": 0
     },
     {
-      "cluster_id": "7acc3166-60b6-11ee-e844-e5ededc08a2a",
+      "cluster_id": "dd757bd0-a589-478c-ecf5-eef19cf1d78a",
       "lexeme_id": "lex-it-percio",
       "position": 1
+    },
+    {
+      "cluster_id": "dd757bd0-a589-478c-ecf5-eef19cf1d78a",
+      "lexeme_id": "lexeme-it-a1-darum",
+      "position": 2
     },
     {
       "cluster_id": "a59e357c-6114-de82-bdd6-500c74588cb1",
@@ -57738,14 +58134,24 @@
       "position": 1
     },
     {
-      "cluster_id": "48d24c09-8f26-7ff0-92c1-1e0ea530cf9c",
+      "cluster_id": "cb2d4c48-f4c3-ef5e-6a76-89a7eb2f6d02",
       "lexeme_id": "lex-it-chiamare",
       "position": 0
     },
     {
-      "cluster_id": "48d24c09-8f26-7ff0-92c1-1e0ea530cf9c",
+      "cluster_id": "cb2d4c48-f4c3-ef5e-6a76-89a7eb2f6d02",
       "lexeme_id": "lex-it-raggiungere",
       "position": 1
+    },
+    {
+      "cluster_id": "cb2d4c48-f4c3-ef5e-6a76-89a7eb2f6d02",
+      "lexeme_id": "lex-it-andare",
+      "position": 2
+    },
+    {
+      "cluster_id": "cb2d4c48-f4c3-ef5e-6a76-89a7eb2f6d02",
+      "lexeme_id": "lex-it-venire",
+      "position": 3
     },
     {
       "cluster_id": "3a6700de-65a9-441b-13bb-48ce2db33875",
@@ -58002,10 +58408,7 @@
         "stop"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "79f6518e-8b4f-578e-f416-504b5f349185",
@@ -58043,10 +58446,7 @@
         "camminare lentamente"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "b5badb09-9fac-871c-a009-af06fbb2cef3",
@@ -58066,10 +58466,7 @@
         "stroll"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "b5badb09-9fac-871c-a009-af06fbb2cef3",
@@ -58106,10 +58503,7 @@
         "camminata"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "e329e8c3-374b-a9d6-ec94-7c17e329d222",
@@ -58182,10 +58576,7 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "25ce3d79-d199-4866-d355-30ab0c183666",
@@ -58288,10 +58679,7 @@
         "refrain from voting"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
@@ -58326,10 +58714,7 @@
         "rifiutare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "eb287814-640f-16ad-e3a6-7c3e3806d7f4",
@@ -58368,10 +58753,7 @@
         "exit"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "62f4fd57-fcc0-8518-c58d-9ae9d5a67c46",
@@ -58408,10 +58790,7 @@
         "la partenza"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "f4c57801-260c-4027-ff73-0b38dee09fac",
@@ -58428,10 +58807,7 @@
         "farewell"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "f4c57801-260c-4027-ff73-0b38dee09fac",
@@ -58465,10 +58841,7 @@
         "insulto"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "c93359fa-c473-a404-22d8-d32702c89749",
@@ -58488,10 +58861,7 @@
         "stay seated"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "c93359fa-c473-a404-22d8-d32702c89749",
@@ -58527,10 +58897,7 @@
         "giacere"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "04049abe-87cf-262a-e411-181972f0abb3",
@@ -58552,10 +58919,7 @@
         "enter"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "04049abe-87cf-262a-e411-181972f0abb3",
@@ -58589,10 +58953,7 @@
         "salire"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "6bb4fa36-876a-6164-08c1-a9338bae6031",
@@ -58627,10 +58988,7 @@
         "distruggere"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
@@ -58648,10 +59006,7 @@
         "neglect"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
@@ -58688,10 +59043,7 @@
         "trascurare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "28155ced-1190-8879-d1e4-766d9865a842",
@@ -58709,10 +59061,7 @@
         "withdrawal"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "28155ced-1190-8879-d1e4-766d9865a842",
@@ -58747,10 +59096,7 @@
         "abbandono"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "108c3ca7-5c1b-b740-7b9f-16bcc541a8c0",
@@ -58821,10 +59167,7 @@
         "nothing"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "08116c81-5e80-e8d9-d48a-2dcfafa2dae1",
@@ -58860,10 +59203,7 @@
         "nulla"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "29a483bf-d86a-a442-f816-17ee4e248a16",
@@ -58880,10 +59220,7 @@
         "no one"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "29a483bf-d86a-a442-f816-17ee4e248a16",
@@ -58919,10 +59256,7 @@
         "nessuno"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "2de09df9-4a0c-8b2a-f080-6c52571b7064",
@@ -58941,10 +59275,7 @@
         "a particular location"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "2de09df9-4a0c-8b2a-f080-6c52571b7064",
@@ -58980,10 +59311,7 @@
         "in un luogo ben definito"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "d0981aa3-9aed-3007-290a-3e2779bacea5",
@@ -59060,10 +59388,7 @@
         "at first"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "fef8f67b-8883-20ff-c027-67735487d38d",
@@ -59099,10 +59424,7 @@
         "all'inizio"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "2e15a945-9821-6cd1-ef18-663740b7bee6",
@@ -59122,10 +59444,7 @@
         "maximum"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "2e15a945-9821-6cd1-ef18-663740b7bee6",
@@ -59158,10 +59477,7 @@
         "al massimo"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "0bed6967-2ba5-ca39-d70b-646e23f07493",
@@ -59178,10 +59494,7 @@
         "already"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "0bed6967-2ba5-ca39-d70b-646e23f07493",
@@ -59217,10 +59530,7 @@
         "mai"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "c1792d23-111c-1a16-efae-133d6bb4fb64",
@@ -59293,10 +59603,7 @@
         "infrequently"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "dce273cb-1477-41c8-14f3-84226c53e233",
@@ -59332,10 +59639,7 @@
         "di rado"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "916e8799-a429-9dfd-3f4c-5553af33dbd9",
@@ -59521,10 +59825,7 @@
         "later"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "d44d4a04-9c80-66ac-6dae-10528f189ad5",
@@ -59556,10 +59857,7 @@
         "prima"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "5a3f0258-ae5f-5c70-4b43-84454023b3c7",
@@ -59630,10 +59928,7 @@
         "formerly"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "68b4d02c-8d77-9e8b-58ca-8a06e4bcd361",
@@ -59672,10 +59967,7 @@
         "in passato"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "7a5071b5-7f6f-27f4-2ef9-7008b01524d4",
@@ -59694,10 +59986,7 @@
         "interior"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "medium",
-      "review_status": "needs_review"
+      "hint_text": null
     },
     {
       "concept_id": "7a5071b5-7f6f-27f4-2ef9-7008b01524d4",
@@ -59733,10 +60022,7 @@
         "all'interno"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
@@ -59754,10 +60040,7 @@
         "however"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
@@ -59793,10 +60076,7 @@
         "incontrariamente"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
@@ -59814,10 +60094,7 @@
         "Can you leave me alone?"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
@@ -59835,10 +60112,7 @@
         "Kannst du mich in Ruhe lassen?"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
@@ -59874,10 +60148,7 @@
         "conversely"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "03e06d4d-6e66-57de-675b-848282e41d06",
@@ -59914,10 +60185,7 @@
         "d'altro canto"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",
@@ -59936,10 +60204,7 @@
         "I follow every word"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",
@@ -59976,10 +60241,7 @@
         "Comprendere perfettamente"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "76ddf07a-3708-809e-94da-35f0ec10678d",
@@ -59999,10 +60261,7 @@
         "the dispensability"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "76ddf07a-3708-809e-94da-35f0ec10678d",
@@ -60040,10 +60299,7 @@
         "inutilità"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "8f698c56-8c4a-4fde-1a01-9050abcb2a45",
@@ -60061,10 +60317,7 @@
         "abundance"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "8f698c56-8c4a-4fde-1a01-9050abcb2a45",
@@ -60101,10 +60354,7 @@
         "eccesso"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "99419c2d-e802-269c-bafb-4f54f91cde4c",
@@ -60125,10 +60375,7 @@
         "give up"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "99419c2d-e802-269c-bafb-4f54f91cde4c",
@@ -60166,10 +60413,7 @@
         "abbandonare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "961ac32c-4e2b-36c8-3735-f91f2ddb9ece",
@@ -60185,10 +60429,7 @@
         "already"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "medium",
-      "review_status": "needs_review"
+      "hint_text": null
     },
     {
       "concept_id": "961ac32c-4e2b-36c8-3735-f91f2ddb9ece",
@@ -60225,10 +60466,7 @@
         "ormai"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "medium",
-      "review_status": "needs_review"
+      "hint_text": null
     },
     {
       "concept_id": "06afc93e-f8f6-3698-72af-3185f7367f80",
@@ -60248,10 +60486,7 @@
         "absolutely not"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "06afc93e-f8f6-3698-72af-3185f7367f80",
@@ -60290,10 +60525,7 @@
         "assolutamente no"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "f2dddaa7-908e-fe4c-9d44-508a3617791f",
@@ -60463,10 +60695,7 @@
         "ignore"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "18e272ee-84df-dc32-fa8c-4335c5ffaf5c",
@@ -60504,10 +60733,7 @@
         "ignorare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "548ac186-0a69-6839-73ff-5a0431f3aabc",
@@ -60524,10 +60750,7 @@
         "nowhere"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "548ac186-0a69-6839-73ff-5a0431f3aabc",
@@ -60559,10 +60782,7 @@
         "da nessuna parte"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "e26099e6-6292-9c2d-6b9a-69cf996ba8f7",
@@ -60581,10 +60801,7 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "e26099e6-6292-9c2d-6b9a-69cf996ba8f7",
@@ -60603,10 +60820,7 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "e26099e6-6292-9c2d-6b9a-69cf996ba8f7",
@@ -60692,10 +60906,7 @@
         "leave behind"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
@@ -60731,10 +60942,7 @@
         "dimenticare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "324d681d-6d2e-552f-6831-9758934c5d65",
@@ -60753,10 +60961,7 @@
         "remove"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "324d681d-6d2e-552f-6831-9758934c5d65",
@@ -60791,10 +60996,7 @@
         "rimuovere"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
@@ -60813,10 +61015,7 @@
         "leave alone"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
@@ -60852,10 +61051,7 @@
         "ignorare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
@@ -60872,10 +61068,7 @@
         "receive"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
@@ -60909,10 +61102,7 @@
         "ricevere"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "a73af94e-f267-9f64-bf2b-134fa2544a0c",
@@ -60930,10 +61120,7 @@
         "the predictable"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "a73af94e-f267-9f64-bf2b-134fa2544a0c",
@@ -60969,10 +61156,7 @@
         "abitudine"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "23f3cd66-40a2-652f-205a-7557f2a9e950",
@@ -60993,10 +61177,7 @@
         "persist"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "23f3cd66-40a2-652f-205a-7557f2a9e950",
@@ -61034,10 +61215,7 @@
         "proseguire"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "dcac462c-da14-34b2-8201-977a04e36d35",
@@ -61056,10 +61234,7 @@
         "at first"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "dcac462c-da14-34b2-8201-977a04e36d35",
@@ -61094,10 +61269,7 @@
         "subito"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "77962681-e561-09cc-772c-9c4285175bf9",
@@ -61114,10 +61286,7 @@
         "unmarried"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "77962681-e561-09cc-772c-9c4285175bf9",
@@ -61152,10 +61321,7 @@
         "nubile"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "87664a7f-b773-5acd-374e-4c359b635e7c",
@@ -61176,10 +61342,7 @@
         "rejection"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "87664a7f-b773-5acd-374e-4c359b635e7c",
@@ -61214,10 +61377,7 @@
         "richiesta"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "eb287814-640f-16ad-e3a6-7c3e3806d7f4",
@@ -61235,10 +61395,7 @@
         "finish"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "eb287814-640f-16ad-e3a6-7c3e3806d7f4",
@@ -61256,10 +61413,7 @@
         "cessare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "6bb4fa36-876a-6164-08c1-a9338bae6031",
@@ -61278,10 +61432,7 @@
         "ruin"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "8cdd7819-47ff-1fba-7ac4-dd44c3aec241",
@@ -61412,10 +61563,7 @@
         "negazione"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "2bfef665-f822-93b9-3f9d-233a6f838aba",
@@ -61520,10 +61668,7 @@
         "reason": "No direct scalar opposite",
         "reviewed_at": "2026-03-03"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "119b32bf-e698-b599-5463-c7b7942586d1",
@@ -61542,10 +61687,7 @@
         "reason": "No direct scalar opposite",
         "reviewed_at": "2026-03-03"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "medium",
-      "review_status": "needs_review"
+      "hint_text": null
     },
     {
       "concept_id": "7aada285-5265-d708-2313-43997bc60f0f",
@@ -61584,10 +61726,7 @@
         "reason": "No direct opposite",
         "reviewed_at": "2026-03-03"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "medium",
-      "review_status": "needs_review"
+      "hint_text": null
     },
     {
       "concept_id": "7aada285-5265-d708-2313-43997bc60f0f",
@@ -61605,10 +61744,7 @@
         "reason": "No direct opposite",
         "reviewed_at": "2026-03-03"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "4f291b92-ca93-0d8c-bc8f-fc9d225384a0",
@@ -61643,10 +61779,7 @@
         "man"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "medium",
-      "review_status": "needs_review"
+      "hint_text": null
     },
     {
       "concept_id": "4f291b92-ca93-0d8c-bc8f-fc9d225384a0",
@@ -61663,10 +61796,7 @@
         "uomo"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "medium",
-      "review_status": "needs_review"
+      "hint_text": null
     },
     {
       "concept_id": "80baf5ef-6ee7-8a27-6f5c-b5d7b88415d4",
@@ -61701,10 +61831,7 @@
         "female"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "80baf5ef-6ee7-8a27-6f5c-b5d7b88415d4",
@@ -61721,10 +61848,7 @@
         "femmina"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "2c6d1583-9560-52cc-360a-ec0fb7fe1225",
@@ -61763,10 +61887,7 @@
         "senior"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "2c6d1583-9560-52cc-360a-ec0fb7fe1225",
@@ -61784,10 +61905,7 @@
         "persona adulta"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "5166779c-fea2-00fe-92da-00661e14de80",
@@ -61821,10 +61939,7 @@
         "cat"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "5166779c-fea2-00fe-92da-00661e14de80",
@@ -61839,10 +61954,7 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "f00e94e5-0159-bd1b-2f6c-98d060fb54c9",
@@ -61878,10 +61990,7 @@
         "rat"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "f00e94e5-0159-bd1b-2f6c-98d060fb54c9",
@@ -61895,10 +62004,7 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "841a0138-2699-37ac-2d82-cf0c66b5171e",
@@ -61937,10 +62043,7 @@
         "terrible"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "841a0138-2699-37ac-2d82-cf0c66b5171e",
@@ -61957,10 +62060,7 @@
         "cattivo"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "2e769167-00e6-f086-d72a-4e96521fa4ce",
@@ -61995,10 +62095,7 @@
         "excellent"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "2e769167-00e6-f086-d72a-4e96521fa4ce",
@@ -62017,10 +62114,7 @@
         "eccellente"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "91f2e21d-1055-c502-52eb-6895fe4406c4",
@@ -62057,10 +62151,7 @@
         "tiny"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "91f2e21d-1055-c502-52eb-6895fe4406c4",
@@ -62079,10 +62170,7 @@
         "modesto"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "4b93435e-acbe-2f6b-9afb-313c8a88845b",
@@ -62122,10 +62210,7 @@
         "huge"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "4b93435e-acbe-2f6b-9afb-313c8a88845b",
@@ -62143,10 +62228,7 @@
         "grande"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "a9d290b4-b955-81a7-48e4-6b0103a82703",
@@ -62183,10 +62265,7 @@
         "to abstain from eating"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "a9d290b4-b955-81a7-48e4-6b0103a82703",
@@ -62204,10 +62283,7 @@
         "astenersi"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "f12a03fc-6b3f-af98-a308-f29bd66e55ac",
@@ -62244,10 +62320,7 @@
         "refrain"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "f12a03fc-6b3f-af98-a308-f29bd66e55ac",
@@ -62263,10 +62336,7 @@
         "astenersi"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "4775779b-a5cc-8aa3-5450-f10dc8d74714",
@@ -62307,10 +62377,7 @@
         "reason": "No direct logical opposite",
         "reviewed_at": "2026-03-03"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "4775779b-a5cc-8aa3-5450-f10dc8d74714",
@@ -62332,10 +62399,7 @@
         "reason": "No direct logical opposite",
         "reviewed_at": "2026-03-03"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "ed3cb78e-250a-50dc-44e1-b3cab1cf00ba",
@@ -62380,10 +62444,7 @@
         "reason": "No single direct opposite",
         "reviewed_at": "2026-03-03"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "ed3cb78e-250a-50dc-44e1-b3cab1cf00ba",
@@ -62405,10 +62466,7 @@
         "reason": "No single direct opposite",
         "reviewed_at": "2026-03-03"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "7f5957ca-0809-865b-57d2-de96cf0392eb",
@@ -62453,10 +62511,7 @@
         "reason": "Colors have no direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "7f5957ca-0809-865b-57d2-de96cf0392eb",
@@ -62478,10 +62533,7 @@
         "reason": "Colors have no direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "9d3ef2fe-beae-af51-b2f1-15508c1302ba",
@@ -62525,10 +62577,7 @@
         "reason": "Colors have no direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "9d3ef2fe-beae-af51-b2f1-15508c1302ba",
@@ -62550,10 +62599,7 @@
         "reason": "Colors have no direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "7132c2a6-c640-5a9f-859e-80ff8ee5ee38",
@@ -62597,10 +62643,7 @@
         "reason": "Colors have no direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "7132c2a6-c640-5a9f-859e-80ff8ee5ee38",
@@ -62622,10 +62665,7 @@
         "reason": "Colors have no direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "51d03b3b-92ee-3dc6-036e-76f257d5e1a5",
@@ -62669,10 +62709,7 @@
         "reason": "Colors have no direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "51d03b3b-92ee-3dc6-036e-76f257d5e1a5",
@@ -62694,10 +62731,7 @@
         "reason": "Colors have no direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "29e2704f-65fe-3f63-cd16-496af9d832d2",
@@ -62734,10 +62768,7 @@
         "bright"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "29e2704f-65fe-3f63-cd16-496af9d832d2",
@@ -62756,10 +62787,7 @@
         "luminoso"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "108d1fed-1c66-2bac-ccbe-ef989d0a502c",
@@ -62795,10 +62823,7 @@
         "dark"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "108d1fed-1c66-2bac-ccbe-ef989d0a502c",
@@ -62816,10 +62841,7 @@
         "scuro"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "154140dc-6a12-f58d-e630-2d05193ddb1a",
@@ -62856,10 +62878,7 @@
         "new"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "154140dc-6a12-f58d-e630-2d05193ddb1a",
@@ -62876,10 +62895,7 @@
         "nuovo"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "41491802-4027-0f74-b392-e0f8f9a301fb",
@@ -62916,10 +62932,7 @@
         "old"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "41491802-4027-0f74-b392-e0f8f9a301fb",
@@ -62936,10 +62949,7 @@
         "vecchio"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "0dac5338-7ee7-54fe-72d6-a64e52cf943f",
@@ -62975,10 +62985,7 @@
         "chilly"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "0dac5338-7ee7-54fe-72d6-a64e52cf943f",
@@ -62995,10 +63002,7 @@
         "fresco"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "3f777d3a-5323-3d49-40ca-1d04e8ff376a",
@@ -63035,10 +63039,7 @@
         "hot"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "3f777d3a-5323-3d49-40ca-1d04e8ff376a",
@@ -63055,10 +63056,7 @@
         "tiepido"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "a1fca915-0802-770f-5d98-81fe56f6ec8f",
@@ -63076,10 +63074,7 @@
         "reason": "No direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "a1fca915-0802-770f-5d98-81fe56f6ec8f",
@@ -63100,10 +63095,7 @@
         "reason": "No direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "a1fca915-0802-770f-5d98-81fe56f6ec8f",
@@ -63165,10 +63157,7 @@
         "reason": "Vehicle type",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "02beeb9f-aeca-138c-b4c6-5b15f6c0ddb1",
@@ -63186,10 +63175,7 @@
         "reason": "Vehicle type",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "691b1d35-324e-dd44-4886-e365a7653034",
@@ -63225,10 +63211,7 @@
         "rural area"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "691b1d35-324e-dd44-4886-e365a7653034",
@@ -63246,10 +63229,7 @@
         "paese"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "1a2d6eb8-6a6d-b96f-49f8-e58293b71539",
@@ -63288,10 +63268,7 @@
         "urban areas"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "1a2d6eb8-6a6d-b96f-49f8-e58293b71539",
@@ -63308,10 +63285,7 @@
         "urbano"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "99a205ca-71d1-db40-a4dd-56e7b8dda321",
@@ -63353,10 +63327,7 @@
         "reason": "No single direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "99a205ca-71d1-db40-a4dd-56e7b8dda321",
@@ -63377,10 +63348,7 @@
         "reason": "No single direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
@@ -63424,10 +63392,7 @@
         "reason": "Contextual meaning",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
@@ -63449,10 +63414,7 @@
         "reason": "Contextual meaning",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "58284b76-2879-c670-ee71-409216781e51",
@@ -63496,10 +63458,7 @@
         "reason": "No direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "58284b76-2879-c670-ee71-409216781e51",
@@ -63520,10 +63479,7 @@
         "reason": "No direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "f73861a9-0a0c-eb72-c5e3-8628aa2e96bb",
@@ -63559,10 +63515,7 @@
         "mistrust"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "f73861a9-0a0c-eb72-c5e3-8628aa2e96bb",
@@ -63580,10 +63533,7 @@
         "sospettare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
@@ -63622,10 +63572,7 @@
         "prolong"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
@@ -63643,10 +63590,7 @@
         "prolungare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "13bf153f-5b95-81b3-6ec2-646e49af8f3f",
@@ -63679,10 +63623,7 @@
         "remain"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "medium",
-      "review_status": "needs_review"
+      "hint_text": null
     },
     {
       "concept_id": "13bf153f-5b95-81b3-6ec2-646e49af8f3f",
@@ -63700,10 +63641,7 @@
         "rimanere"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "medium",
-      "review_status": "needs_review"
+      "hint_text": null
     },
     {
       "concept_id": "a6a02266-de00-f0d8-462f-29e0e630ad11",
@@ -63736,10 +63674,7 @@
         "depart"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "a6a02266-de00-f0d8-462f-29e0e630ad11",
@@ -63757,10 +63692,7 @@
         "andare via"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed"
+      "hint_text": null
     },
     {
       "concept_id": "13f0479b-0b4b-23e7-be43-7c1fece87b8d",
@@ -80980,10 +80912,7 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "medium",
-      "review_status": "needs_review"
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-einsetzen",
@@ -86081,6 +86010,146 @@
       "concept_id": "concept-b2-subtilitat",
       "lang": "en",
       "short_definition": "A fine and delicate quality, often hard to notice.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a1-ubrigens",
+      "lang": "de",
+      "short_definition": "Etwas, das man nebenbei erwähnt.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a1-ubrigens",
+      "lang": "it",
+      "short_definition": "Qualcosa che si menziona incidentalmente.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [
+        "incidentalmente"
+      ],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a1-ubrigens",
+      "lang": "en",
+      "short_definition": "Something mentioned casually.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a1-werfen",
+      "lang": "de",
+      "short_definition": "Etwas mit Kraft in eine Richtung bewegen.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a1-werfen",
+      "lang": "it",
+      "short_definition": "Spostare qualcosa con forza in una direzione.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [
+        "scagliato"
+      ],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a1-werfen",
+      "lang": "en",
+      "short_definition": "Move something with force in a direction.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a2-herausfinden",
+      "lang": "de",
+      "short_definition": "Etwas durch Nachforschung oder Überlegung entdecken.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [
+        "ermitteln"
+      ],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a2-herausfinden",
+      "lang": "en",
+      "short_definition": "Discover something through research or reasoning.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a1-darum",
+      "lang": "de",
+      "short_definition": "Aus diesem Grund.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a1-darum",
+      "lang": "it",
+      "short_definition": "Per questa ragione.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [
+        "così"
+      ],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a1-darum",
+      "lang": "en",
+      "short_definition": "For this reason.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -141386,6 +141455,222 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "34ad5728-c01a-c19d-b3e4-7bbf715d4bba",
+      "lexeme_id": "lexeme-de-a1-ubrigens",
+      "lang": "de",
+      "surface": "übrigens",
+      "surface_search": "ubrigens",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "a235b2f1-f4b1-26a7-25ae-b1673050871a",
+      "lexeme_id": "lexeme-it-a1-ubrigens",
+      "lang": "it",
+      "surface": "a proposito",
+      "surface_search": "a proposito",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "63bc535c-73ba-49fb-58f1-d6328c56ba05",
+      "lexeme_id": "lexeme-en-a1-ubrigens",
+      "lang": "en",
+      "surface": "by the way",
+      "surface_search": "by the way",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "35d8c192-650b-3daa-b8fe-57c7b6b4e263",
+      "lexeme_id": "lexeme-de-a1-werfen",
+      "lang": "de",
+      "surface": "geworfen",
+      "surface_search": "geworfen",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "db46cde4-e9a2-cf65-5241-87971a5f63bd",
+      "lexeme_id": "lexeme-it-a1-werfen",
+      "lang": "it",
+      "surface": "lanciato",
+      "surface_search": "lanciato",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "6802f8bf-4572-ef8b-1bb7-1318c469ab08",
+      "lexeme_id": "lexeme-en-a1-werfen",
+      "lang": "en",
+      "surface": "thrown",
+      "surface_search": "thrown",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "b638b8cd-8226-8588-ec98-03a2d518295e",
+      "lexeme_id": "lexeme-de-a2-herausfinden",
+      "lang": "de",
+      "surface": "herausfinden",
+      "surface_search": "herausfinden",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "d68f0ac4-7791-a35f-2d17-f3ec80c777b1",
+      "lexeme_id": "lexeme-it-a2-herausfinden",
+      "lang": "it",
+      "surface": "scoprire",
+      "surface_search": "scoprire",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "8c3e6149-2409-02b1-6f9b-861b189b3aa3",
+      "lexeme_id": "lexeme-en-a2-herausfinden",
+      "lang": "en",
+      "surface": "find out",
+      "surface_search": "find out",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "1d3de900-149e-cb32-502a-5b3aeab03b2f",
+      "lexeme_id": "lexeme-de-a1-darum",
+      "lang": "de",
+      "surface": "darum",
+      "surface_search": "darum",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "7c67bff5-4f7b-4ba3-f1fe-6545cec01027",
+      "lexeme_id": "lexeme-it-a1-darum",
+      "lang": "it",
+      "surface": "per questo",
+      "surface_search": "per questo",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "0265b704-c357-326f-ea42-d89d0744af1b",
+      "lexeme_id": "lexeme-en-a1-darum",
+      "lang": "en",
+      "surface": "therefore",
+      "surface_search": "therefore",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
       }
     }
   ]

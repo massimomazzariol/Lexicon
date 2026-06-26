@@ -2,6 +2,8 @@
 // Generic local-LLM integration + text utils + spoiler detection only - no
 // content-shape or record-shape logic lives here.
 
+import { langList } from './languages.mjs';
+
 export const LLM_HOST = process.env.LLM_HOST ?? 'http://localhost:11434';
 
 // Provenance written to committed records. We mark records as machine-generated, but NEVER
@@ -202,7 +204,7 @@ export async function judgeBestFields({ wordLine, fields }, judgeModel) {
     })
     .join('\n');
   const system =
-    'You are a strict trilingual (German / Italian / English) lexicography judge. For each field you pick the LABEL of the single best candidate value, or "none" if every option is wrong. Output STRICT JSON only.';
+    `You are a strict multilingual (${langList()}) lexicography judge. For each field you pick the LABEL of the single best candidate value, or "none" if every option is wrong. Output STRICT JSON only.`;
   const user = [
     `WORD: ${wordLine}`,
     '',

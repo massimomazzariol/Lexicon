@@ -22,10 +22,10 @@ import {
 } from '../lib/authoring_core.mjs';
 import { loadBandit, saveBandit, selectCommittee, recordDuels, ranking, formatRanking } from '../lib/model_bandit.mjs';
 import { C } from '../lib/colors.mjs';
+import { LANGS, langList } from '../lib/languages.mjs';
 
 const CONTENT = resolve(process.cwd(), 'packs/lexicon_source/content.json');
 const args = parseArgs(process.argv.slice(2));
-const LANGS = ['de', 'it', 'en'];
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 main().catch((e) => { console.error('FATAL:', e?.message ?? e); process.exit(1); });
@@ -224,7 +224,7 @@ function buildPrompt(c, lexBy, defBy, t) {
   const lx = (l) => (lexBy.get(c.concept_id) || []).find((x) => x.lang === l)?.text ?? '?';
   const existingDef = (l) => (defBy.get(c.concept_id) || []).find((d) => d.lang === l)?.short_definition ?? '';
   const system = [
-    'You are a meticulous trilingual (German/Italian/English) lexicographer. Output STRICT JSON only.',
+    `You are a meticulous multilingual (${langList()}) lexicographer. Output STRICT JSON only.`,
     'NO SPOILERS - a definition/example for a language MUST NOT contain the headword, an inflection of it, or its translation in another language; examples use the word in their OWN language only.',
     'BETTER EMPTY THAN WRONG - leave a field empty ("" or []) if you cannot write a short, accurate, spoiler-free value. Never guess, never write filler, never use foreign words.',
     'synonyms[lang] = the OTHER accepted answers for this headword in that language. For the headword\'s OWN language: true lexical synonyms. For the OTHER languages: ALL its common translations, INCLUDING its distinct meanings - one word often maps to several different words (e.g. German halten -> Italian tenere, reggere, fermare, mantenere, durare). Citation form, different words, NOT inflections. [] if none.',

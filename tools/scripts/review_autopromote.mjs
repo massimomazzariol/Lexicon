@@ -17,10 +17,10 @@
 import { readFileSync, writeFileSync } from 'fs';
 import { resolve } from 'path';
 import { normalizeSearch, stripArticle, hasSpoiler, asString } from '../lib/authoring_core.mjs';
+import { LANGS } from '../lib/languages.mjs';
 
 const NEEDS = 'needs_review';
 const REVIEWED = 'reviewed';
-const LANGS = ['de', 'it', 'en'];
 const args = parseArgs(process.argv.slice(2));
 const CONTENT = args.file ? resolve(process.cwd(), args.file) : resolve(process.cwd(), 'packs/lexicon_source/content.json');
 

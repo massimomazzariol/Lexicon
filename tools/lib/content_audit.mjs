@@ -3,8 +3,9 @@
 // no model server - pure analysis of content.json. EPIC-ED-01.
 
 import { normalizeSearch, stripArticle, hasSpoiler } from './authoring_core.mjs';
+import { LANGS } from './languages.mjs';
 
-export const AUDIT_LANGS = ['de', 'it', 'en'];
+export const AUDIT_LANGS = LANGS;
 
 const cidOf = (x) => (x && typeof x === 'object' ? x.id : x);
 function group(a, f) { const m = new Map(); for (const x of a) { const k = f(x); (m.get(k) ?? m.set(k, []).get(k)).push(x); } return m; }

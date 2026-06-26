@@ -21,6 +21,7 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 import { resolve } from 'path';
 import { createHash } from 'crypto';
+import { LANGS, langList } from '../lib/languages.mjs';
 import {
   LLM_HOST, ARTICLES_BY_LANG, DE_ARTICLE_GENDER, normalizeSearch, stripArticle, hasSpoiler,
   resolveModel, printModelRanking, chat, resolveEmbedModel, localEmbed, asString as str
@@ -132,8 +133,8 @@ function composeConceptTexts(data) {
     const lexes = lexByConcept.get(c.concept_id) ?? [];
     const byLang = (l) => lexes.find((x) => x.lang === l)?.text ?? '';
     const def = defByConcept.get(c.concept_id) ?? {};
-    const label = byLang('de') || byLang('en') || byLang('it') || c.concept_id.slice(0, 8);
-    const text = [byLang('de'), byLang('it'), byLang('en'), def.en ?? '', def.it ?? '']
+    const label = LANGS.map(byLang).find(Boolean) || c.concept_id.slice(0, 8);
+    const text = [...LANGS.map(byLang), ...LANGS.map((l) => def[l] ?? '')]
       .map((s) => String(s).trim())
       .filter(Boolean)
       .join(' · ');
@@ -284,15 +285,15 @@ function surfaceKey(lang, raw) {
 
 function buildPrompt(entry, candidates) {
   const system = [
-    'You are a meticulous trilingual (German, Italian, English) lexicographer building a concept graph for a multilingual vocabulary learning app. Output STRICT JSON only - no prose, no markdown.',
+    `You are a meticulous multilingual (${langList()}) lexicographer building a concept graph for a multilingual vocabulary learning app. Output STRICT JSON only - no prose, no markdown.`,
     '',
-    'A CONCEPT is ONE language-neutral meaning. LEXEMES are its words in de/it/en.',
+    `A CONCEPT is ONE language-neutral meaning. LEXEMES are its words in ${LANGS.join('/')}.`,
     '',
     'HARD RULES:',
     '1. `text` = the full dictionary citation form. For NOUNS include the definite article: de "der Apfel", it "la mela", en "the apple". For other words, just the word: de "laufen", en "run". The German article MUST match the noun\'s real gender ("der Apfel" is masculine - NEVER "die Apfel"); set `gender` (m/f/n) to that same gender.',
     '2. `lemma` = the base form WITHOUT any article: "Apfel", "mela", "apple", "laufen", "run". NEVER put only an article in `text`. NEVER leave `text` empty.',
     '3. If the input term is an INFLECTED form (e.g. "geworfen", "gelaufen", a plural, a conjugation), resolve the CONCEPT to its lemma (e.g. "werfen") and use the lemma citation form in `text`. But do NOT strip separable/inseparable verb prefixes: "herausfinden" stays "herausfinden" (NEVER "finden"), "aufstehen" stays "aufstehen" (NEVER "stehen") - a prefixed verb is its OWN concept.',
-    '4. Provide all three languages (de, it, en), each the single most natural translation. English verbs: base form ONLY - NEVER prefix with "to", no underscores ("run", "find out" - NEVER "to run" / "find_out").',
+    `4. Provide all active languages (${LANGS.join(', ')}), each the single most natural translation. English verbs: base form ONLY - NEVER prefix with "to", no underscores ("run", "find out" - NEVER "to run" / "find_out").`,
     '5. `synonyms` / `antonyms`: per language ({de,it,en}), other lexemes IN THAT SAME LANGUAGE (different words), in citation form - e.g. synonyms for "glad": en ["happy","pleased"], de ["froh","zufrieden"], it ["contento","felice"]. Each language\'s list holds ONLY that language\'s words. A list MUST NOT include that language\'s own headword or any inflection of it. [] for a language with none (never guess - empty beats wrong).',
     '6. NO SPOILERS - be strict. A definition or example for a language MUST NOT contain: the headword itself, any inflection of it (e.g. a definition of "herausfinden" must not contain "herausfinden"/"herausgefunden"), or its translation in another language. Describe the meaning with OTHER words. Definitions are short. Examples show natural usage of the word in its OWN language only.',
     '6b. BETTER EMPTY THAN WRONG. If you cannot write a SHORT, ACCURATE, spoiler-free definition or example for a language - or you are unsure of a translation/synonym - leave that field EMPTY ("" or []). Never guess, never write filler or vague meta-text like "a word that expresses...". An empty field is fine; a wrong or spoiler one is not.',
@@ -325,11 +326,11 @@ function buildPrompt(entry, candidates) {
 const SHAPE = {
   match: { kind: 'new|attach|ambiguous|duplicate', concept_id: null, confidence: 0.0, reason: '' },
   concept: { pos: '', level: 'A1', gender: 'none', domain_tags: [] },
-  lexemes: { de: { text: '', lemma: '' }, it: { text: '', lemma: '' }, en: { text: '', lemma: '' } },
-  definitions: { de: '', it: '', en: '' },
-  synonyms: { de: [], it: [], en: [] },
-  antonyms: { de: [], it: [], en: [] },
-  example: { de: '', it: '', en: '' }
+  lexemes: Object.fromEntries(LANGS.map((l) => [l, { text: '', lemma: '' }])),
+  definitions: Object.fromEntries(LANGS.map((l) => [l, ''])),
+  synonyms: Object.fromEntries(LANGS.map((l) => [l, []])),
+  antonyms: Object.fromEntries(LANGS.map((l) => [l, []])),
+  example: Object.fromEntries(LANGS.map((l) => [l, '']))
 };
 
 const EXAMPLE = {
@@ -347,7 +348,7 @@ const EXAMPLE = {
 /** Safe, mechanical normalization of AI output (no meaning change). Fixes the
  *  trivial things automatically so the guardrails only flag real judgement calls. */
 function normalizeDraft(r) {
-  for (const lang of ['de', 'it', 'en']) {
+  for (const lang of LANGS) {
     const lex = r.lexemes?.[lang];
     if (!lex) continue;
     if (typeof lex.lemma === 'string') lex.lemma = lex.lemma.replace(/_/g, ' ').replace(/\s+/g, ' ').trim();
@@ -364,7 +365,7 @@ function normalizeDraft(r) {
   // Drop each language's own headword (text or lemma) from its synonyms/antonyms; trim + dedup.
   for (const field of ['synonyms', 'antonyms']) {
     if (!r[field] || typeof r[field] !== 'object') continue;
-    for (const lang of ['de', 'it', 'en']) {
+    for (const lang of LANGS) {
       if (!Array.isArray(r[field][lang])) continue;
       const heads = new Set(
         [
@@ -406,12 +407,12 @@ function normalizeDraft(r) {
   // it defines (or an inflection), and any definition/example that leaks another
   // language's answer surface. Blanked fields are simply left empty.
   const surf = {};
-  for (const l of ['de', 'it', 'en']) {
+  for (const l of LANGS) {
     const lx = r.lexemes?.[l] ?? {};
     surf[l] = [normalizeSearch(stripArticle(normalizeSearch(lx.text ?? ''))), normalizeSearch(lx.lemma ?? '')].filter(Boolean);
   }
-  for (const l of ['de', 'it', 'en']) {
-    const others = ['de', 'it', 'en'].filter((x) => x !== l).flatMap((x) => surf[x]);
+  for (const l of LANGS) {
+    const others = LANGS.filter((x) => x !== l).flatMap((x) => surf[x]);
     if (r.definitions && hasSpoiler(r.definitions[l], surf[l], others)) r.definitions[l] = '';
     if (r.example && hasSpoiler(r.example[l], [], others)) r.example[l] = '';
   }
@@ -431,7 +432,7 @@ function validateDraft(r) {
     else if (!(r.existing_candidates ?? []).includes(cid)) issues.push(`${kind} to a concept_id not among the surfaced candidates (${cid})`);
   }
 
-  for (const lang of ['de', 'it', 'en']) {
+  for (const lang of LANGS) {
     const lex = r.lexemes?.[lang];
     const text = str(lex?.text).trim();
     if (!text) issues.push(`${lang}.text empty`);
@@ -454,7 +455,7 @@ function validateDraft(r) {
   // Flag obviously corrupted synonyms/antonyms (non-Latin / control chars), and any
   // language's list containing that language's own headword (text OR lemma) or an inflection.
   for (const field of ['synonyms', 'antonyms']) {
-    for (const lang of ['de', 'it', 'en']) {
+    for (const lang of LANGS) {
       const list = r[field]?.[lang] ?? [];
       const heads = new Set(
         [

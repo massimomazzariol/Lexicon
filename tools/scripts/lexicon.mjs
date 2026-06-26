@@ -23,15 +23,14 @@ import { chat, resolveModel, normalizeSearch, stripArticle } from '../lib/author
 import { discoverConcepts } from '../lib/concept_discovery.mjs';
 import { diagnoseContent, repairContent } from '../lib/content_integrity.mjs';
 import { C } from '../lib/colors.mjs';
+import { LANGS, langName, langList } from '../lib/languages.mjs';
 
 const REPO = process.cwd();
 const CONTENT = resolve(REPO, 'packs/lexicon_source/content.json');
 const MANIFEST = resolve(REPO, 'packs/lexicon_source/manifest.json');
 const SCRIPTS = resolve(REPO, 'tools/scripts');
 const CACHE = resolve(REPO, 'authoring/.cache');
-const LANGS = ['de', 'it', 'en'];
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
-const LANGNAME = { de: 'German', it: 'Italian', en: 'English' };
 
 // ── the menu: [title, what it does, handler] ────────────────────────────────────
 const MENU = [
@@ -101,7 +100,7 @@ async function doSeed() {
   console.log(C.dim('\nThe AI will suggest common words for a level; you choose which to add.'));
   const lang = await pick('Language', LANGS);
   const level = await pick('Level', LEVELS);
-  const n = Number(await ask(`How many ${C.b(level)} ${LANGNAME[lang]} words to suggest? ${C.dim('[10]')} `)) || 10;
+  const n = Number(await ask(`How many ${C.b(level)} ${langName(lang)} words to suggest? ${C.dim('[10]')} `)) || 10;
   console.log(C.dim('Asking the model...'));
   const existing = surfaceSet(lang);
   const proposed = (await proposeWords(lang, level, n)).filter((w) => !existing.has(key(w)));
@@ -206,7 +205,7 @@ async function doBrowse() {
     : (alpha(a).localeCompare(alpha(b)) || lvlIdx(a.level) - lvlIdx(b.level)));
   const langOrder = [sortLang, ...LANGS.filter((l) => l !== sortLang)]; // chosen language first
   console.log(`\n${C.b(String(rows.length))} word(s)${level !== 'all' ? ' at ' + C.b(level) : ''}${filter ? ` matching "${filter}"` : ''}` +
-    C.dim(`  (by ${LANGNAME[sortLang]}, ${order})`) + ':');
+    C.dim(`  (by ${langName(sortLang)}, ${order})`) + ':');
   const PAGE = 40; // paginate so a large lexicon does not flood the terminal
   for (let i = 0; i < rows.length; i += PAGE) {
     console.log('');
@@ -441,15 +440,15 @@ async function proposeWords(lang, level, n) {
   const model = await resolveModel();
   const res = await chat({
     system: 'You are a CEFR vocabulary expert. Output STRICT JSON only.',
-    user: `Propose ${n} common, distinct CEFR ${level} ${LANGNAME[lang]} headwords for a learner. Lemmas only; for nouns in gendered languages include the definite article (e.g. German der/die/das, Italian il/la/lo). Avoid rare/specialized terms and multi-word phrases. Return JSON: {"words":["...", ...]}.`
+    user: `Propose ${n} common, distinct CEFR ${level} ${langName(lang)} headwords for a learner. Lemmas only; for nouns in gendered languages include the definite article (e.g. German der/die/das, Italian il/la/lo). Avoid rare/specialized terms and multi-word phrases. Return JSON: {"words":["...", ...]}.`
   }, model);
   return (Array.isArray(res?.words) ? res.words : []).map((w) => String(w).trim()).filter(Boolean);
 }
 async function correctWord(word) {
   const model = await resolveModel();
   return chat({
-    system: 'You are a trilingual (German/Italian/English) lexicographer. Output STRICT JSON only.',
-    user: `The user typed "${word}". Do two things: (1) if misspelled, correct it to the intended real word; (2) reduce it to its DICTIONARY CITATION FORM (the lemma) - a verb to its infinitive (geworfen -> werfen, lief -> laufen), a noun to its nominative singular (Haeuser -> Haus), an inflected adjective to its base form (besseren -> besser). KEEP separable/inseparable verb prefixes (herausfinden stays herausfinden, NEVER finden; aufstehen stays aufstehen). Put that citation form in "corrected". Then identify language (de/it/en), part of speech, and list its distinct senses as short glosses. Return JSON: {"corrected":"<citation form>","lang":"de|it|en","pos":"...","senses":["...", ...],"unknown":false}. If it is not a real word in any of the three languages, return {"unknown":true}.`
+    system: `You are a multilingual (${langList()}) lexicographer. Output STRICT JSON only.`,
+    user: `The user typed "${word}". Do two things: (1) if misspelled, correct it to the intended real word; (2) reduce it to its DICTIONARY CITATION FORM (the lemma) - a verb to its infinitive (e.g. German geworfen -> werfen, lief -> laufen), a noun to its base/singular (e.g. German Haeuser -> Haus), an inflected adjective to its base form (e.g. German besseren -> besser). KEEP separable/inseparable verb prefixes (e.g. German herausfinden stays herausfinden, NEVER finden; aufstehen stays aufstehen). Put that citation form in "corrected". Then identify language (one of: ${LANGS.join(', ')}), part of speech, and list its distinct senses as short glosses. Return JSON: {"corrected":"<citation form>","lang":"${LANGS.join('|')}","pos":"...","senses":["...", ...],"unknown":false}. If it is not a real word in any of these languages, return {"unknown":true}.`
   }, model);
 }
 

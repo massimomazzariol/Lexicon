@@ -16,9 +16,9 @@ import { readFileSync, writeFileSync, mkdirSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { createHash } from 'crypto';
 import { normalizeSearch, stripArticle } from '../lib/authoring_core.mjs';
+import { LANGS } from '../lib/languages.mjs';
 
 const CONTENT = resolve(process.cwd(), 'packs/lexicon_source/content.json');
-const LANGS = ['de', 'it', 'en'];
 const args = parseArgs(process.argv.slice(2));
 
 main();

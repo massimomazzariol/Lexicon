@@ -143,24 +143,38 @@ function composeConceptTexts(data) {
 }
 
 async function buildConceptEmbeddings(contentPath) {
-  const raw = readFileSync(contentPath, 'utf8');
-  const hash = createHash('md5').update(raw).digest('hex').slice(0, 12);
+  const data = JSON.parse(readFileSync(contentPath, 'utf8'));
+  const items = composeConceptTexts(data);
   const embModel = await resolveEmbedModel(args.embedModel);
   const cacheDir = resolve(REPO, 'authoring/.cache');
-  const cachePath = resolve(cacheDir, `concept-emb-${embModel.replace(/[^a-z0-9]/gi, '_')}-${hash}.json`);
+  // Per-concept cache keyed by each concept's text hash (not the whole-file hash), so
+  // adding/changing one word only embeds that one concept instead of re-embedding all
+  // of them. The cache file holds { embModel, vecs: { <textHash>: vector } }.
+  const cachePath = resolve(cacheDir, `concept-emb-${embModel.replace(/[^a-z0-9]/gi, '_')}.json`);
+  let cachedVecs = {};
   if (existsSync(cachePath)) {
-    const cached = JSON.parse(readFileSync(cachePath, 'utf8'));
-    console.log(`Embedding cache hit: ${cached.items.length} concepts (${embModel}).`);
-    return cached;
+    try {
+      const prev = JSON.parse(readFileSync(cachePath, 'utf8'));
+      if (prev.embModel === embModel && prev.vecs) cachedVecs = prev.vecs;
+    } catch { /* corrupt cache: rebuild from scratch */ }
   }
-  const data = JSON.parse(raw);
-  const items = composeConceptTexts(data);
-  console.log(`Embedding ${items.length} concepts with ${embModel} (first run for this content; caching)...`);
-  const vectors = await embedBatched(items.map((i) => i.text), embModel);
-  const result = { embModel, hash, items: items.map((it, i) => ({ concept_id: it.concept_id, label: it.label, vec: vectors[i] })) };
+  const textHash = (t) => createHash('md5').update(t).digest('hex').slice(0, 16);
+  const withHash = items.map((it) => ({ ...it, th: textHash(it.text) }));
+  const missing = withHash.filter((it) => !cachedVecs[it.th]);
+  if (missing.length === 0) {
+    console.log(`Embedding cache hit: ${items.length} concepts (${embModel}).`);
+  } else {
+    const reused = items.length - missing.length;
+    console.log(`Embedding ${missing.length} new/changed of ${items.length} concepts with ${embModel}${reused ? ` (reusing ${reused} cached)` : ' (first run)'}...`);
+    const vectors = await embedBatched(missing.map((i) => i.text), embModel);
+    missing.forEach((it, i) => { cachedVecs[it.th] = vectors[i]; });
+  }
+  // Persist only the vectors for the current concepts so the cache stays bounded.
+  const vecs = {};
+  for (const it of withHash) vecs[it.th] = cachedVecs[it.th];
   if (!existsSync(cacheDir)) mkdirSync(cacheDir, { recursive: true });
-  writeFileSync(cachePath, JSON.stringify(result));
-  return result;
+  writeFileSync(cachePath, JSON.stringify({ embModel, vecs }));
+  return { embModel, items: withHash.map((it) => ({ concept_id: it.concept_id, label: it.label, vec: cachedVecs[it.th] })) };
 }
 
 async function embedBatched(texts, model, batch = 64) {

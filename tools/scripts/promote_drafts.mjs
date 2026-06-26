@@ -69,7 +69,7 @@ function main() {
 
     if (kind === 'new') {
       const level = (d.concept?.level || 'A1').toLowerCase();
-      const slug = slugify(d.lexemes?.de?.lemma || d.lexemes?.de?.text || term);
+      const slug = slugify(LANGS.map((l) => d.lexemes?.[l]?.lemma || d.lexemes?.[l]?.text).find(Boolean) || term);
       const cid = uniq(`concept-${level}-${slug}`, usedIds);
       usedIds.add(cid);
       conceptIds.add(cid);
@@ -128,7 +128,7 @@ function main() {
         continue;
       }
       const level = (d.concept?.level || 'A1').toLowerCase();
-      const slug = slugify(d.lexemes?.de?.lemma || term);
+      const slug = slugify(LANGS.map((l) => d.lexemes?.[l]?.lemma || d.lexemes?.[l]?.text).find(Boolean) || term);
       let added = 0;
       for (const lang of LANGS) {
         const lx = d.lexemes?.[lang];

@@ -7,11 +7,11 @@
 // item runs the autonomous engine (autopilot.mjs). The human is the gate. Generation needs
 // a local LLM. Zero dependencies (readline + ANSI colors) so it runs straight after a pull.
 //
-//   npm run lexicon                       # this interactive menu
-//   npm run lexicon -- --auto [flags]     # headless: run the autopilot, no menu (for the box)
-//        e.g. npm run lexicon -- --auto --publish-each --push --cooldown 25 --chunk 20
+//   pnpm run lexicon                       # this interactive menu
+//   pnpm run lexicon -- --auto [flags]     # headless: run the autopilot, no menu (for the box)
+//        e.g. pnpm run lexicon -- --auto --publish-each --push --cooldown 25 --chunk 20
 //   (any autopilot flag - --yes/--push/--publish-each/--levels... - also implies --auto)
-//   NO_COLOR=1 npm run lexicon            # disable colors
+//   NO_COLOR=1 pnpm run lexicon            # disable colors
 
 import { readFileSync, writeFileSync, mkdirSync } from 'fs';
 import { resolve } from 'path';
@@ -38,6 +38,7 @@ const MENU = [
   ['Add common words for a level', 'the AI suggests CEFR words - you pick which to keep', doSeed],
   ['Find a word', 'check if a word already exists - typos & similar words are caught', doFind],
   ['Browse words', 'list the words already in the lexicon - filter by level or text', doBrowse],
+  ['Edit a word', 'change definitions, synonyms, antonyms, examples by hand - tracked, no AI', doEdit],
   ['Add one specific word', 'type a word (typos ok) - the AI corrects & connects it', doAdd],
   ['Grow from gaps', 'add words other entries point to but that are still missing', doExpand],
   ['Autopilot - fill what is missing', 'runs on its own: fills, publishes & pushes live, chunk by chunk', doFix],
@@ -53,8 +54,8 @@ const AUTOPILOT_FLAGS = ['--auto', '--yes', '-y', '--publish-each', '--push', '-
 const HEADLESS = RAW.some((a) => AUTOPILOT_FLAGS.includes(a));
 
 async function main() {
-  if (HEADLESS) return runAutopilot(RAW); // `npm run lexicon -- --auto ...` → engine, no menu
-  if (!process.stdin.isTTY) { console.log('Run `npm run lexicon` in a terminal for the menu, or `npm run lexicon -- --auto` for a headless run.'); return; }
+  if (HEADLESS) return runAutopilot(RAW); // `pnpm run lexicon -- --auto ...` → engine, no menu
+  if (!process.stdin.isTTY) { console.log('Run ' + C.yellow('pnpm run lexicon') + ' in a terminal for the menu, or ' + C.yellow('pnpm run lexicon -- --auto') + ' for a headless run.'); return; }
   healOnStartup(); // self-check: fix any content-integrity problems before the menu
   for (;;) {
     header();
@@ -220,6 +221,96 @@ async function doBrowse() {
   }
 }
 
+// 2c. EDIT - hand-edit an existing word's definition / synonyms / antonyms / examples.
+// Nothing is delegated to the AI. Every change is tracked (source 'human', editor = git
+// user.name, timestamp, optional reason) and marked reviewed (the human is the gate).
+async function doEdit() {
+  const data = read();
+  const raw = await ask('Word to edit: ');
+  if (!raw) return;
+  let summary;
+  try { summary = discoverConcepts({ manifest: readManifest(), content: data, term: raw, lang: '', partialLimit: 12 }); }
+  catch (e) { console.log(C.red('  ' + (e?.message ?? e))); return; }
+  if (!summary.concepts.length) { console.log(C.yellow('  Not found.')); return; }
+  let concept = summary.concepts[0];
+  if (summary.concepts.length > 1) {
+    const opts = summary.concepts.map((c) => LANGS.map((l) => c.labels?.[l]).filter(Boolean).join(' / ') + `  [${c.level} ${c.pos}]`);
+    const i = await menu('Which one?', opts);
+    if (i < 0) return;
+    concept = summary.concepts[i];
+  }
+  const conceptId = concept.concept_id;
+  const findDef = (lang) => data.concept_definitions.find((x) => cidOf(x.concept_id) === conceptId && x.lang === lang);
+  const defFor = (lang) => {
+    let d = findDef(lang);
+    if (!d) { d = { concept_id: conceptId, lang, short_definition: null, usage_note: null, context_tags_json: [], synonyms_json: [], antonyms_json: [], antonym_policy_json: null, hint_text: null }; data.concept_definitions.push(d); }
+    return d;
+  };
+  const examplesFor = (lang) => data.examples.filter((e) => cidOf(e.concept_id) === conceptId && e.lang === lang);
+
+  const touched = new Set();
+  let changed = false;
+  for (;;) {
+    console.log('\n' + C.cyan('-'.repeat(44)));
+    console.log(' ' + C.b(LANGS.map((l) => concept.labels?.[l]).filter(Boolean).join(' / ')) + C.dim(`  [${concept.level} ${concept.pos}]`));
+    for (const l of LANGS) {
+      const d = findDef(l);
+      const ex = examplesFor(l);
+      if (!d && !ex.length) continue;
+      console.log(' ' + C.gray(l) + '  ' + (d?.short_definition ? C.dim('"' + d.short_definition + '"') : C.dim('(no definition)')));
+      if (d?.synonyms_json?.length) console.log('      ' + C.cyan('syn: ') + d.synonyms_json.join(', '));
+      if (d?.antonyms_json?.length) console.log('      ' + C.dim('ant: ') + d.antonyms_json.join(', '));
+      ex.forEach((e, i) => console.log('      ' + C.dim(`ex${i + 1}: ` + e.sentence)));
+    }
+    const action = await menu('Edit what?',
+      ['Definition', 'Add synonym', 'Remove synonym', 'Add antonym', 'Remove antonym', 'Add example', 'Remove example', 'Save & quit', 'Quit without saving']);
+    if (action === 7) break;
+    if (action === 8) { console.log(C.dim('Discarded - nothing saved.')); return; }
+    if (action < 0) continue;
+    if (action === 0) {
+      const lang = await pick('Language', LANGS);
+      const cur = findDef(lang)?.short_definition || '';
+      const v = await ask(`New definition (${C.gray(lang)})${cur ? C.dim(' [current: "' + cur + '"]') : ''}: `);
+      if (v) { defFor(lang).short_definition = v.trim(); touched.add(defFor(lang)); changed = true; }
+    } else if (action === 1 || action === 3) {
+      const field = action === 1 ? 'synonyms_json' : 'antonyms_json';
+      const lang = await pick('Language', LANGS);
+      const w = await ask(`${action === 1 ? 'Synonym' : 'Antonym'} to ADD (${C.gray(lang)}): `);
+      if (w) { const d = defFor(lang); d[field] = [...new Set([...(d[field] || []), w.trim()])]; touched.add(d); changed = true; }
+    } else if (action === 2 || action === 4) {
+      const field = action === 2 ? 'synonyms_json' : 'antonyms_json';
+      const lang = await pick('Language', LANGS);
+      const d = findDef(lang);
+      if (!d?.[field]?.length) { console.log(C.dim('  none')); continue; }
+      const i = await menu('Remove which', d[field]);
+      if (i >= 0) { d[field].splice(i, 1); touched.add(d); changed = true; }
+    } else if (action === 5) {
+      const lang = await pick('Language', LANGS);
+      const s = await ask(`New example sentence (${C.gray(lang)}): `);
+      if (s) { const e = { example_id: `example-${lang}-${Date.now().toString(36)}`, concept_id: conceptId, lang, sentence: s.trim() }; data.examples.push(e); touched.add(e); changed = true; }
+    } else if (action === 6) {
+      const lang = await pick('Language', LANGS);
+      const ex = examplesFor(lang);
+      if (!ex.length) { console.log(C.dim('  none')); continue; }
+      const i = await menu('Remove which', ex.map((e) => e.sentence));
+      if (i >= 0) { const e = ex[i]; data.examples = data.examples.filter((x) => x !== e); touched.delete(e); changed = true; }
+    }
+  }
+  if (!changed) { console.log(C.dim('No changes.')); return; }
+  const reason = await ask('Reason for these edits ' + C.dim('(optional, Enter to skip)') + ': ');
+  const editor = gitEditor();
+  const at = new Date().toISOString();
+  for (const row of touched) {
+    row.source = 'human';
+    row.edited_by = editor;
+    row.edited_at = at;
+    if (reason) row.edit_reason = reason.trim();
+    row.review_status = 'reviewed';
+  }
+  writeFileSync(CONTENT, JSON.stringify(data, null, 2) + '\n');
+  console.log(C.green(`Saved ${touched.size} change(s)`) + C.dim(` as ${editor}. To ship: `) + C.yellow('pnpm run lexicon') + C.dim(' -> Publish.'));
+}
+
 // 3. ADD - type a word (typos ok); the AI corrects + disambiguates; you confirm.
 async function doAdd() {
   console.log(C.dim('\nType a word (typos are fine). The AI fixes it, finds its senses, then connects it.'));
@@ -316,7 +407,7 @@ async function doStatus() {
 // 8. PUBLISH - gate + build + push.
 async function doPublish() {
   console.log(C.dim('\nThis approves the clean AI content, rebuilds the packs, and (optionally) pushes to'));
-  console.log(C.dim('GitHub so the app can update via `npm run refresh`.'));
+  console.log(C.dim('GitHub so the app can update via ') + C.yellow('pnpm run refresh') + C.dim('.'));
   if (!(await confirm(C.b('Approve clean content + build packs?') + ` ${C.dim('[y/N]')} `))) return;
   sh('review_autopromote.mjs', ['--apply']);
   sh('rebuild_runtime_packs.mjs', ['--with-distribution'], 'pipeline');
@@ -327,7 +418,7 @@ function gitPush() {
   console.log('\n' + C.cyan('- git push -'));
   const ts = new Date().toISOString().slice(0, 16).replace('T', ' ');
   commitAndPush(REPO, { tag: `${ts} · console`, push: true }); // detailed message - see content_diff.mjs
-  console.log(C.yellow('⬆ PUSHED LIVE to GitHub') + C.dim(' - the app updates via `npm run refresh`.'));
+  console.log(C.yellow('⬆ PUSHED LIVE to GitHub') + C.dim(' - the app updates via ') + C.yellow('pnpm run refresh') + C.dim('.'));
 }
 
 // ---- shared: add words through the existing engine, then link + gate ----
@@ -377,7 +468,7 @@ function runAutopilot(raw) {
 }
 // Self-check on entry: heal duplicate / unscored / formless content so the next
 // Publish can't ship a pack the app rejects. No-op on a clean repo. Same checks
-// the autopilot runs headless; `npm run doctor` runs them on demand.
+// the autopilot runs headless; `pnpm run doctor` runs them on demand.
 function healOnStartup() {
   let content;
   try { content = read(); } catch { return; }
@@ -401,6 +492,13 @@ function healOnStartup() {
 function read() { return JSON.parse(readFileSync(CONTENT, 'utf8')); }
 function readManifest() { return JSON.parse(readFileSync(MANIFEST, 'utf8')); }
 function key(s) { return stripArticle(normalizeSearch(s)); }
+// A concept_id may be a plain string or a relation object {id}; normalize to the string id.
+const cidOf = (v) => (v && typeof v === 'object') ? (v.id ?? String(v)) : String(v);
+// Editor identity for human-edit provenance: the git user.name (never the email). 'human' if unset.
+function gitEditor() {
+  try { return String(spawnSync('git', ['config', 'user.name'], { encoding: 'utf8' }).stdout || '').trim() || 'human'; }
+  catch { return 'human'; }
+}
 function surfaceSet(lang) {
   const set = new Set();
   for (const lx of read().lexemes || []) if (String(lx.lang).toLowerCase() === lang) { set.add(key(lx.text)); set.add(key(lx.lemma)); }

@@ -1,7 +1,7 @@
-// autopilot - the autonomous engine behind `npm run lexicon`. EPIC-ED-01.
+// autopilot - the autonomous engine behind `pnpm run lexicon`. EPIC-ED-01.
 //
-// Not the user entry point: reach it via the console - `npm run lexicon` → menu →
-// "Fix / Fill (autopilot)", or headless `npm run lexicon -- --auto [flags]`.
+// Not the user entry point: reach it via the console - `pnpm run lexicon` → menu →
+// "Fix / Fill (autopilot)", or headless `pnpm run lexicon -- --auto [flags]`.
 // It does everything, in order, paced for the GPU, transparently:
 //   1. SEED   - for each level that has a local seed list, add the new words (populate)
 //   2. FIX    - rewrite spoiler definitions
@@ -12,9 +12,9 @@
 // deterministic. It asks the real decisions up front, then runs unattended for as long
 // as it takes. Resumable: fixed/added items drop out of the audit, so just re-run to continue.
 //
-//   npm run lexicon -- --auto --dry-run         # what it would do (no model needed)
-//   npm run lexicon -- --auto --yes             # unattended, defaults (for the box)
-//   npm run lexicon -- --auto --levels B2,C1,C2 --yes   # focus the empty upper levels
+//   pnpm run lexicon -- --auto --dry-run         # what it would do (no model needed)
+//   pnpm run lexicon -- --auto --yes             # unattended, defaults (for the box)
+//   pnpm run lexicon -- --auto --levels B2,C1,C2 --yes   # focus the empty upper levels
 //
 // Scope:  --lang de (seed language, default de) · --levels A1,B2 · --only spoilers,synonyms,examples
 //   · --no-seed (skip adding new words) · --add-dangling (also draft referenced-but-missing words)
@@ -71,8 +71,8 @@ async function main() {
   for (const c of cats) { const n = counts[c.key]; const ch = Math.ceil(n / chunk); totalChunks += ch; console.log(`  ${c.label.padEnd(20)} ${String(n).padStart(4)} now → ~${ch} chunk(s) of ${chunk}`); }
   console.log(`  then LINK (interconnect) → GATE (auto-promote)${args.addDangling ? ' → add dangling' : ''}${args.build ? ' → build' : ''}${args.push ? ' → git push' : ''}`);
   if (args.publishEach) console.log('  📦 PUBLISH after every chunk - the app sees new fields as they are generated');
-  if (args.push && args.publishEach) console.log('  ⬆ git push after EACH chunk - detailed commit per batch; serving machine gets it live via `npm run refresh`');
-  else if (args.push) console.log('  ⬆ git push at the end - detailed commit (what was created); serving machine gets it with `npm run refresh`');
+  if (args.push && args.publishEach) console.log('  ⬆ git push after EACH chunk - detailed commit per batch; serving machine gets it live via ' + C.yellow('pnpm run refresh'));
+  else if (args.push) console.log('  ⬆ git push at the end - detailed commit (what was created); serving machine gets it with ' + C.yellow('pnpm run refresh'));
   console.log(`\n~${totalChunks} fix-chunk(s) + ${withSeed.length} seed level(s) · pacing ${chunk}/chunk, ${args.delay ?? 800}ms/item, ${args.cooldown ?? 25}s cooldown. (Seeding adds more to fill afterwards.)`);
 
   if (args.dryRun) { console.log('\nDry run - plan only, nothing executed.'); return; }
@@ -142,14 +142,14 @@ async function main() {
   console.log('  ' + C.dim('per level now:  ') + ALL_LEVELS.map((l) => `${C.gray(l)} ${C.b(String(lv[l] || 0))}`).join('   '));
   console.log('  ' + C.dim('still needs work:  ') + `definitions ${num(after.spoilers)}   synonyms ${num(after.synonyms)}   examples ${num(after.examples)}`);
   console.log(args.build
-    ? 'Built + published the ✅ high-confidence tier. 👀 review queue + ✋ manual remain (`npm run lexicon` → Review queue).'
-    : 'Triage above: ✅ ship on build · 👀 review queue · ✋ you.  Build/publish: `npm run release` or `npm run lexicon` → Publish.');
+    ? 'Built + published the ✅ high-confidence tier. 👀 review queue + ✋ manual remain (' + C.yellow('pnpm run lexicon') + ' → Review queue).'
+    : 'Triage above: ✅ ship on build · 👀 review queue · ✋ you.  Build/publish: ' + C.yellow('pnpm run release') + ' or ' + C.yellow('pnpm run lexicon') + ' → Publish.');
 }
 
 function read() { return JSON.parse(readFileSync(CONTENT, 'utf8')); }
 // Heal duplicate / unscored content before a run so it never ships a pack the app
 // rejects. Forms are minted by regenerateForms() after SEED. Same checks as the
-// console's entry self-check and `npm run doctor`.
+// console's entry self-check and `pnpm run doctor`.
 function healContent() {
   const content = read();
   const issues = diagnoseContent(content);
@@ -187,7 +187,7 @@ function publishStep(tag) {
   run('review_autopromote.mjs', ['--apply']);
   pipeline('rebuild_runtime_packs.mjs', ['--with-distribution']);
   // With --push, stream each chunk across machines too: a per-chunk commit (detailed message)
-  // so the serving machine's `npm run refresh` picks up the new words live, not only at the end.
+  // so the serving machine's `pnpm run refresh` picks up the new words live, not only at the end.
   if (args.push) commitAndPush(REPO, { tag: `${tag} · live`, push: true });
 }
 function ask(q) { return new Promise((res) => { const rl = createInterface({ input: process.stdin, output: process.stdout }); rl.question(q, (a) => { rl.close(); res(String(a).trim().toLowerCase()); }); }); }

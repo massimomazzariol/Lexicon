@@ -94,7 +94,7 @@ function main() {
   step('gate', 'review_autopromote.mjs', ['--apply']);
   if (args.build) pipeline('rebuild_runtime_packs.mjs', ['--with-distribution']);
 
-  console.log(`\nDone. Review:  git diff packs/lexicon_source/content.json   then commit${args.build ? '' : '  (then `npm run release`)'}.`);
+  console.log(`\nDone. Review:  git diff packs/lexicon_source/content.json   then commit${args.build ? '' : '  (then `pnpm run release`)'}.`);
 }
 
 function step(label, script, argv) {

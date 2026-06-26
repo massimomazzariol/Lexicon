@@ -84,7 +84,7 @@ function main() {
 
   console.log('Confidence triage:');
   console.log(`  ✅ auto-published (high)     ${auto}`);
-  console.log(`  👀 review queue (medium)     ${review}   → \`npm run lexicon\` → ‘Review queue’`);
+  console.log(`  👀 review queue (medium)     ${review}   → \`pnpm run lexicon\` → ‘Review queue’`);
   console.log(`  ✋ needs your hands (failed) ${manual.length}`);
   if (manual.length) {
     console.log('\nNeeds your hands:');

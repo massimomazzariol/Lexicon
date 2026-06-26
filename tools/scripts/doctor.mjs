@@ -2,8 +2,8 @@
 // break the app (duplicate primary keys, unscored concepts, words with no forms)
 // and repairs them with --fix.
 //
-//   npm run doctor            # report only (exit 1 if problems)
-//   npm run doctor -- --fix   # repair in place, then mint any missing forms
+//   pnpm run doctor            # report only (exit 1 if problems)
+//   pnpm run doctor -- --fix   # repair in place, then mint any missing forms
 //
 // The console runs this automatically on entry and the autopilot heals at the
 // start of every run, so a clean repo never needs this by hand - it is here for
@@ -69,7 +69,7 @@ for (const issue of issues) {
 reportCollisions();
 
 if (!fix) {
-  console.log(C.dim('\nRun `npm run doctor -- --fix` to repair.'));
+  console.log(C.dim('\nRun ') + C.yellow('pnpm run doctor -- --fix') + C.dim(' to repair.'));
   process.exit(1);
 }
 

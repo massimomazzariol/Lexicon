@@ -37,6 +37,7 @@ const LANGNAME = { de: 'German', it: 'Italian', en: 'English' };
 const MENU = [
   ['Add common words for a level', 'the AI suggests CEFR words - you pick which to keep', doSeed],
   ['Find a word', 'check if a word already exists - typos & similar words are caught', doFind],
+  ['Browse words', 'list the words already in the lexicon - filter by level or text', doBrowse],
   ['Add one specific word', 'type a word (typos ok) - the AI corrects & connects it', doAdd],
   ['Grow from gaps', 'add words other entries point to but that are still missing', doExpand],
   ['Autopilot - fill what is missing', 'runs on its own: fills, publishes & pushes live, chunk by chunk', doFix],
@@ -162,6 +163,37 @@ async function doFind() {
   }
 }
 
+// 2b. BROWSE - list the words already in the lexicon (read-only, offline). Filter by
+// level and/or a text substring so you can see what is there without searching one by one.
+async function doBrowse() {
+  const data = read();
+  const byConcept = new Map();
+  for (const c of data.concepts || []) {
+    byConcept.set(c.concept_id, { level: c.level_override || c.level_auto || '?', pos: c.pos || '', labels: {} });
+  }
+  for (const lx of data.lexemes || []) {
+    if (lx.is_active === false) continue;
+    const e = byConcept.get(lx.concept_id);
+    if (!e) continue;
+    const l = String(lx.lang).toLowerCase();
+    if (LANGS.includes(l) && !e.labels[l]) e.labels[l] = lx.text;
+  }
+  let rows = [...byConcept.values()];
+  const level = await pick('Level', ['all', ...LEVELS]);
+  if (level !== 'all') rows = rows.filter((r) => r.level === level);
+  const filter = (await ask('Filter by text ' + C.dim('(optional, Enter for all)') + ': ')).toLowerCase();
+  if (filter) rows = rows.filter((r) => LANGS.some((l) => (r.labels[l] || '').toLowerCase().includes(filter)));
+  if (!rows.length) { console.log(C.yellow('\nNo words match.')); return; }
+  const lvlIdx = (l) => { const i = LEVELS.indexOf(l); return i < 0 ? 99 : i; };
+  const sortKey = (r) => r.labels.de || r.labels.en || r.labels.it || '';
+  rows.sort((a, b) => lvlIdx(a.level) - lvlIdx(b.level) || sortKey(a).localeCompare(sortKey(b)));
+  console.log(`\n${C.b(String(rows.length))} word(s)${level !== 'all' ? ' at ' + C.b(level) : ''}${filter ? ` matching "${filter}"` : ''}:\n`);
+  for (const r of rows) {
+    const labels = LANGS.map((l) => (r.labels[l] ? `${C.gray(l)} ${C.b(r.labels[l])}` : null)).filter(Boolean).join('  ');
+    console.log(`  ${C.cyan((r.level || '?').padEnd(2))} ${C.dim((r.pos || '').padEnd(5))} ${labels}`);
+  }
+}
+
 // 3. ADD - type a word (typos ok); the AI corrects + disambiguates; you confirm.
 async function doAdd() {
   console.log(C.dim('\nType a word (typos are fine). The AI fixes it, finds its senses, then connects it.'));
@@ -221,7 +253,10 @@ async function doFix() {
     each = (await ask(`Publish after each chunk (app fills in live)? ${C.dim('[Y/n]')} `)).toLowerCase() !== 'n';
     push = each && (await ask(`Push each chunk to GitHub? ${C.dim('[Y/n]')} `)).toLowerCase() !== 'n';
   }
-  console.log(C.green('\nStarting autopilot...') + C.dim('  (Ctrl-C to stop - it resumes where it left off)'));
+  console.log(push
+    ? C.yellow('\n⬆ PUSH LIVE') + C.dim(`: commits + pushes to GitHub ${each ? 'after each chunk - the app sees it as it goes.' : 'at the end.'}`)
+    : C.dim('\n· LOCAL ONLY: nothing is pushed to GitHub. Use Publish to ship when ready.'));
+  console.log(C.green('Starting autopilot...') + C.dim('  (Ctrl-C to stop - it resumes where it left off)'));
   sh('autopilot.mjs', ['--no-seed', '--yes', '--cooldown', String(cd), '--chunk', String(chunk),
     ...(each ? ['--publish-each'] : ['--build']), ...(push ? ['--push'] : [])]);
 }
@@ -266,6 +301,7 @@ function gitPush() {
   console.log('\n' + C.cyan('- git push -'));
   const ts = new Date().toISOString().slice(0, 16).replace('T', ' ');
   commitAndPush(REPO, { tag: `${ts} · console`, push: true }); // detailed message - see content_diff.mjs
+  console.log(C.yellow('⬆ PUSHED LIVE to GitHub') + C.dim(' - the app updates via `npm run refresh`.'));
 }
 
 // ---- shared: add words through the existing engine, then link + gate ----
@@ -279,7 +315,8 @@ async function addWords(items) {
   sh('generate_pack_forms.mjs', [], 'pipeline'); // new lexemes need their source forms (RH-18)
   sh('interconnect.mjs', ['--apply']);
   sh('review_autopromote.mjs', ['--apply']);
-  console.log(C.green('Done.') + C.dim(' See the ✅/👀/✋ triage above. Richer synonyms/examples come from Autopilot.'));
+  console.log(C.green('Done.') + C.dim(' Saved LOCALLY - nothing pushed to GitHub yet (use Publish to ship).'));
+  console.log(C.dim(' See the ✅/👀/✋ triage above. Richer synonyms/examples come from Autopilot.'));
 }
 
 // ---- AI helpers (the only model-facing logic here) ----

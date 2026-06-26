@@ -193,16 +193,30 @@ async function doBrowse() {
   let rows = [...byConcept.values()];
   const level = await pick('Level', ['all', ...LEVELS]);
   if (level !== 'all') rows = rows.filter((r) => r.level === level);
+  const sortLang = await pick('Show / sort by language', LANGS);
+  const order = await pick('Order', ['alphabetical', 'by level']);
   const filter = (await ask('Filter by text ' + C.dim('(optional, Enter for all)') + ': ')).toLowerCase();
   if (filter) rows = rows.filter((r) => LANGS.some((l) => (r.labels[l] || '').toLowerCase().includes(filter)));
   if (!rows.length) { console.log(C.yellow('\nNo words match.')); return; }
   const lvlIdx = (l) => { const i = LEVELS.indexOf(l); return i < 0 ? 99 : i; };
-  const sortKey = (r) => key(r.labels.de || r.labels.en || r.labels.it || '');
-  rows.sort((a, b) => lvlIdx(a.level) - lvlIdx(b.level) || sortKey(a).localeCompare(sortKey(b)));
-  console.log(`\n${C.b(String(rows.length))} word(s)${level !== 'all' ? ' at ' + C.b(level) : ''}${filter ? ` matching "${filter}"` : ''}:\n`);
-  for (const r of rows) {
-    const labels = LANGS.map((l) => (r.labels[l] ? `${C.gray(l)} ${C.b(r.labels[l])}` : null)).filter(Boolean).join('  ');
-    console.log(`  ${C.cyan((r.level || '?').padEnd(2))} ${C.dim((r.pos || '').padEnd(5))} ${labels}`);
+  const alpha = (r) => key(r.labels[sortLang] || r.labels.de || r.labels.en || r.labels.it || '');
+  rows.sort((a, b) => order === 'by level'
+    ? (lvlIdx(a.level) - lvlIdx(b.level) || alpha(a).localeCompare(alpha(b)))
+    : (alpha(a).localeCompare(alpha(b)) || lvlIdx(a.level) - lvlIdx(b.level)));
+  const langOrder = [sortLang, ...LANGS.filter((l) => l !== sortLang)]; // chosen language first
+  console.log(`\n${C.b(String(rows.length))} word(s)${level !== 'all' ? ' at ' + C.b(level) : ''}${filter ? ` matching "${filter}"` : ''}` +
+    C.dim(`  (by ${LANGNAME[sortLang]}, ${order})`) + ':');
+  const PAGE = 40; // paginate so a large lexicon does not flood the terminal
+  for (let i = 0; i < rows.length; i += PAGE) {
+    console.log('');
+    for (const r of rows.slice(i, i + PAGE)) {
+      const labels = langOrder.map((l) => (r.labels[l] ? `${C.gray(l)} ${C.b(r.labels[l])}` : null)).filter(Boolean).join('  ');
+      console.log(`  ${C.cyan((r.level || '?').padEnd(2))} ${C.dim((r.pos || '').padEnd(5))} ${labels}`);
+    }
+    if (i + PAGE < rows.length) {
+      const more = await ask(C.dim(`  -- ${Math.min(i + PAGE, rows.length)}/${rows.length} shown - Enter for more, `) + C.cyan('q') + C.dim(' to stop: '));
+      if (more.toLowerCase() === 'q') break;
+    }
   }
 }
 

@@ -69,7 +69,7 @@ async function main() {
   }
   let totalChunks = 0;
   for (const c of cats) { const n = counts[c.key]; const ch = Math.ceil(n / chunk); totalChunks += ch; console.log(`  ${c.label.padEnd(20)} ${String(n).padStart(4)} now → ~${ch} chunk(s) of ${chunk}`); }
-  console.log(`  then LINK (interconnect) → GATE (auto-promote)${args.addDangling ? ' → add dangling' : ''}${args.build ? ' → build' : ''}${args.push ? ' → git push' : ''}`);
+  console.log(`  then LINK (interconnect) → GATE (auto-promote)${args.addDangling ? ' → add dangling' : ''}${args.noAiReview ? '' : ' → AI-review'}${args.build ? ' → build' : ''}${args.push ? ' → git push' : ''}`);
   if (args.publishEach) console.log('  📦 PUBLISH after every chunk - the app sees new fields as they are generated');
   if (args.push && args.publishEach) console.log('  ⬆ git push after EACH chunk - detailed commit per batch; serving machine gets it live via ' + C.yellow('pnpm run refresh'));
   else if (args.push) console.log('  ⬆ git push at the end - detailed commit (what was created); serving machine gets it with ' + C.yellow('pnpm run refresh'));
@@ -131,6 +131,9 @@ async function main() {
     run('review_autopromote.mjs', ['--apply']);
     run('interconnect.mjs', ['--apply']);
   }
+  // 6b. AI auto-review: a judge promotes the medium-confidence queue it is confident about
+  // and leaves the doubtful for a human - the self-cleaning gate (opt out with --no-ai-review).
+  if (!args.noAiReview) run('ai_review.mjs', ['--apply', ...(args.delay ? ['--delay', String(args.delay)] : [])]);
   if (args.build || args.publishEach) pipeline('rebuild_runtime_packs.mjs', ['--with-distribution']);
   if (args.push) gitPush();
 
@@ -211,6 +214,7 @@ function parseArgs(argv) {
     else if (a === '--build') o.build = true;
     else if (a === '--publish-each') o.publishEach = true;
     else if (a === '--push') o.push = true;
+    else if (a === '--no-ai-review') o.noAiReview = true;
     else if (a === '--lang') o.lang = argv[++i];
     else if (a === '--only') o.only = argv[++i].split(',').map((s) => s.trim()).filter(Boolean);
     else if (a === '--levels') o.levels = argv[++i].split(',').map((s) => s.trim().toUpperCase()).filter(Boolean);

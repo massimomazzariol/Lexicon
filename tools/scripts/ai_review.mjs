@@ -8,6 +8,10 @@
 // Promoted items become review_status: reviewed (so the next build ships them), stamped
 // reviewed_by: "ai". Preview by default; --apply writes content.json; never commits.
 //
+// Verbose + resumable: prints a verdict per item, and with --apply it flushes progress
+// every few promotions and on Ctrl-C. Stopping is safe (finished work is saved) and a
+// re-run continues where it left off - reviewed items are no longer in the queue.
+//
 //   node tools/scripts/ai_review.mjs                 # preview the queue + counts
 //   node tools/scripts/ai_review.mjs --apply         # judge + promote the confident ones
 //   node tools/scripts/ai_review.mjs --apply --judge <name>   # force a specific judge model
@@ -45,27 +49,41 @@ async function main() {
   console.log(`AI auto-review: ${items.length} item(s) in the queue · judge: ${model ?? 'dry-run'}` +
     (!args.dryRun && allChat.length < 2 ? ' (only one model installed - same family as the generator)' : ''));
 
-  let kept = 0, held = 0, flagged = 0;
+  // Incremental + resumable: with --apply we flush content.json every few promotions and
+  // on Ctrl-C, so stopping never loses finished work. A re-run resumes automatically -
+  // promoted items are now 'reviewed', so they drop out of the queue and are not re-judged.
+  let kept = 0, held = 0, flagged = 0, sinceSave = 0, stopped = false;
+  const save = () => { if (args.apply && kept > 0) writeFileSync(CONTENT, JSON.stringify(data, null, 2) + '\n'); };
+  process.on('SIGINT', () => {
+    if (stopped) process.exit(130);          // a second Ctrl-C forces out immediately
+    console.log('\n  stopping after this item (saving progress)... press Ctrl-C again to force.');
+    stopped = true;
+  });
+
   for (const [i, { kind, row }] of items.entries()) {
+    if (stopped) break;
     const cid = cidOf(row.concept_id);
     const s = surfaces(cid);
     const value = kind === 'def' ? str(row.short_definition).trim() : str(row.sentence).trim();
     const own = s[row.lang] || [], other = otherSurf(s, row.lang);
+    process.stdout.write(`  [${i + 1}/${items.length}] ${kind} "${labelOf(cid)}" [${row.lang}] ... `);
     // Gate 1 - machine guardrail: empty example or a spoiler leak is never auto-promoted.
-    if (kind === 'ex' && !value) { held++; continue; }
-    if (value && hasSpoiler(value, kind === 'def' ? own : [], other)) { flagged++; continue; }
-    if (args.dryRun) continue;
+    if (kind === 'ex' && !value) { held++; console.log('held (empty)'); continue; }
+    if (value && hasSpoiler(value, kind === 'def' ? own : [], other)) { flagged++; console.log('flagged (spoiler leak)'); continue; }
+    if (args.dryRun) { console.log('(dry run)'); continue; }
     // Gate 2 - the judge.
     const verdict = await judge({ kind, lang: row.lang, label: labelOf(cid), value, syn: row.synonyms_json, ant: row.antonyms_json }, model);
-    if (verdict === 'keep') { row.review_status = 'reviewed'; row.reviewed_by = 'ai'; kept++; }
-    else held++;
+    if (verdict === 'keep') { row.review_status = 'reviewed'; row.reviewed_by = 'ai'; kept++; console.log('✅ promoted'); if (++sinceSave >= 10) { save(); sinceSave = 0; } }
+    else { held++; console.log('👀 held for you'); }
     if (args.delay && i < items.length - 1) await sleep(args.delay);
   }
+  save(); // final flush
 
-  console.log(`✅ promoted ${kept}` + (args.dryRun ? '' : ` · 👀 held for you ${held}`) + ` · ✋ machine-flagged ${flagged}`);
+  console.log(`\n✅ promoted ${kept}` + (args.dryRun ? '' : ` · 👀 held for you ${held}`) + ` · ✋ machine-flagged ${flagged}` +
+    (stopped ? ' · stopped early (progress saved - re-run to resume)' : ''));
   if (args.dryRun) { console.log('Dry run - no judge call, no write.'); return; }
-  if (args.apply && kept) { writeFileSync(CONTENT, JSON.stringify(data, null, 2) + '\n'); console.log('Wrote content.json. Review the git diff, then Publish.'); }
-  else if (!args.apply) console.log('Preview only. Re-run with --apply to promote.');
+  if (args.apply) console.log(kept ? 'Wrote content.json. Review the git diff, then Publish.' : 'Nothing promoted.');
+  else console.log('Preview only. Re-run with --apply to promote.');
 }
 
 async function judge(it, model) {

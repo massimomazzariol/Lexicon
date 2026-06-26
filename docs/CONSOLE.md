@@ -1,12 +1,12 @@
-# The console (`npm run lexicon`) and how to read a run
+# The console (`pnpm run lexicon`) and how to read a run
 
-One command drives everything: **`npm run lexicon`** opens an interactive,
+One command drives everything: **`pnpm run lexicon`** opens an interactive,
 colored menu. There is no separate command to remember.
 
 ```
-npm run lexicon                    # the menu (this console)
-npm run lexicon -- --auto [flags]  # headless: run the autopilot, no menu (e.g. on a build box)
-NO_COLOR=1 npm run lexicon         # turn colors off
+pnpm run lexicon                    # the menu (this console)
+pnpm run lexicon -- --auto [flags]  # headless: run the autopilot, no menu (e.g. on a build box)
+NO_COLOR=1 pnpm run lexicon         # turn colors off
 ```
 
 ## Content self-check (the "doctor")
@@ -19,8 +19,8 @@ ship a pack the app rejects. It catches and fixes: duplicate concept / definitio
 generator). Run it directly any time:
 
 ```
-npm run doctor            # report integrity problems (exit 1 if any)
-npm run doctor -- --fix   # repair in place, then mint missing forms
+pnpm run doctor            # report integrity problems (exit 1 if any)
+pnpm run doctor -- --fix   # repair in place, then mint missing forms
 ```
 
 ## The menu
@@ -84,6 +84,6 @@ yellow, errors in red.
 ## After a run
 
 - The Autopilot publishes and pushes per chunk, so content reaches GitHub as it
-  works. On the serving machine, `npm run refresh` pulls it and the app updates.
+  works. On the serving machine, `pnpm run refresh` pulls it and the app updates.
 - Nothing risky ships unreviewed: drafted records are `needs_review`; only the
   clean, corroborated ones are auto-promoted (menu item 6 shows the rest).

@@ -6,7 +6,7 @@
 // machen), and plain Levenshtein scores them as 2.
 //
 // Zero-dependency by design: the Lexicon console must run straight after a git
-// pull with no `npm install`, so we keep our own tiny implementation instead of
+// pull with no `pnpm install`, so we keep our own tiny implementation instead of
 // pulling a package.
 
 // Returns the OSA distance between `a` and `b`, capped: as soon as the best

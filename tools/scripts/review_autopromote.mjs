@@ -18,6 +18,7 @@ import { readFileSync, writeFileSync } from 'fs';
 import { resolve } from 'path';
 import { normalizeSearch, stripArticle, hasSpoiler, asString } from '../lib/authoring_core.mjs';
 import { LANGS } from '../lib/languages.mjs';
+import { loadVerbOverrides, buildSeparableByConcept, exampleDisclosesSeparable } from '../lib/german_verb_spoiler.mjs';
 
 const NEEDS = 'needs_review';
 const REVIEWED = 'reviewed';
@@ -38,6 +39,7 @@ function main() {
       ])
     );
   const otherSurf = (s, l) => LANGS.filter((x) => x !== l).flatMap((x) => s[x] || []);
+  const sepByConcept = buildSeparableByConcept(data, loadVerbOverrides(process.cwd())); // German separable-verb leak guard
 
   // Three confidence tiers, no git-diff step:
   //   ✅ auto  - clean AND confidence 'high' (eval_fix: several models offered + judge vetted) → reviewed → ships
@@ -63,6 +65,7 @@ function main() {
     const cid = cidOf(e.concept_id);
     const s = surfaces(cid);
     const reasons = exampleReasons(e, otherSurf(s, e.lang));
+    if (e.lang === 'de' && exampleDisclosesSeparable(e.sentence, sepByConcept.get(cid))) reasons.push('example uses the separable verb (would disclose the answer)');
     const t = tierOf(e, reasons);
     if (t === 'auto') { e.review_status = REVIEWED; auto++; }
     else if (t === 'review') review++;

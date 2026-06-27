@@ -72,9 +72,9 @@ async function main() {
     if (value && hasSpoiler(value, kind === 'def' ? own : [], other)) { flagged++; console.log('flagged (spoiler leak)'); continue; }
     if (args.dryRun) { console.log('(dry run)'); continue; }
     // Gate 2 - the judge.
-    const verdict = await judge({ kind, lang: row.lang, label: labelOf(cid), value, syn: row.synonyms_json, ant: row.antonyms_json }, model);
+    const { verdict, reason } = await judge({ kind, lang: row.lang, label: labelOf(cid), value, syn: row.synonyms_json, ant: row.antonyms_json }, model);
     if (verdict === 'keep') { row.review_status = 'reviewed'; row.reviewed_by = 'ai'; kept++; console.log('✅ promoted'); if (++sinceSave >= 10) { save(); sinceSave = 0; } }
-    else { held++; console.log('👀 held for you'); }
+    else { held++; console.log('👀 held' + (reason ? ` (${reason})` : '')); }
     if (args.delay && i < items.length - 1) await sleep(args.delay);
   }
   save(); // final flush
@@ -89,15 +89,22 @@ async function main() {
 async function judge(it, model) {
   const extra = it.kind === 'def' && ((it.syn?.length) || (it.ant?.length))
     ? ` Listed synonyms: ${JSON.stringify(it.syn || [])}. Listed antonyms: ${JSON.stringify(it.ant || [])}.` : '';
+  // Spoiler rule mirrors the build gate (review_autopromote): a definition must not contain
+  // the word OR its translation; an example MAY use the word itself (natural usage), it just
+  // must not leak the translation in another language.
+  const spoiler = it.kind === 'def'
+    ? 'free of spoilers (it must NOT contain the word itself or its translation in another language)'
+    : 'free of cross-language spoilers (it must NOT contain the translation in another language; using the word itself in the sentence is expected and fine)';
   const res = await chat({
-    system: `You are a strict multilingual (${langList()}) lexicography reviewer. Output STRICT JSON only.`,
+    system: `You are a multilingual (${langList()}) lexicography reviewer. Output STRICT JSON only.`,
     user: `Concept (its words across languages): ${it.label}.\n` +
       `Field under review: ${it.kind === 'def' ? 'definition' : 'example sentence'} in ${langName(it.lang)}.\n` +
       `Value: "${it.value}".${extra}\n` +
-      `Is this value CORRECT for this concept, written in ${langName(it.lang)}, natural, accurate, and free of spoilers (it must NOT contain the word itself or its translation)? ` +
-      `Reply JSON {"verdict":"keep"|"hold","reason":"<short>"}. Use "keep" ONLY if you are confident it is correct; use "hold" if it is wrong, unnatural, in the wrong language, or you are unsure.`
+      `Is this value CORRECT for this concept, written in ${langName(it.lang)}, natural, accurate, and ${spoiler}? ` +
+      `Reply JSON {"verdict":"keep"|"hold","reason":"<short>"}. Use "keep" when it is correct and natural; use "hold" only if it is wrong, unnatural, in the wrong language, leaks the translation, or you genuinely cannot judge it.`
   }, model);
-  return res && !res.parse_error && res.verdict === 'keep' ? 'keep' : 'hold';
+  if (!res || res.parse_error) return { verdict: 'hold', reason: 'judge parse error' };
+  return { verdict: res.verdict === 'keep' ? 'keep' : 'hold', reason: String(res.reason ?? '').replace(/\s+/g, ' ').trim().slice(0, 80) };
 }
 
 function group(a, f) { const m = new Map(); for (const x of a) { const k = f(x); (m.get(k) ?? m.set(k, []).get(k)).push(x); } return m; }

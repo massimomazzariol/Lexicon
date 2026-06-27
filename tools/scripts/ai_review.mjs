@@ -20,6 +20,7 @@ import { readFileSync, writeFileSync } from 'fs';
 import { resolve } from 'path';
 import { LANGS, langName, langList } from '../lib/languages.mjs';
 import { chat, resolveModel, listChatModels, hasSpoiler, normalizeSearch, stripArticle, asString as str } from '../lib/authoring_core.mjs';
+import { loadVerbOverrides, buildSeparableByConcept, exampleDisclosesSeparable } from '../lib/german_verb_spoiler.mjs';
 
 const CONTENT = resolve(process.cwd(), 'packs/lexicon_source/content.json');
 const args = parseArgs(process.argv.slice(2));
@@ -33,6 +34,7 @@ async function main() {
   const labelOf = (cid) => LANGS.map((l) => (lexBy.get(cid) || []).find((x) => x.lang === l)?.text).filter(Boolean).join(' / ') || cid;
   const surfaces = (cid) => Object.fromEntries(LANGS.map((l) => [l, (lexBy.get(cid) || []).filter((x) => x.lang === l).flatMap((x) => [stripArticle(normalizeSearch(x.text)), normalizeSearch(x.lemma)]).filter(Boolean)]));
   const otherSurf = (s, l) => LANGS.filter((x) => x !== l).flatMap((x) => s[x] || []);
+  const sepByConcept = buildSeparableByConcept(data, loadVerbOverrides(process.cwd())); // German separable-verb leak guard
 
   const items = [
     ...(data.concept_definitions || []).filter((d) => d.review_status === 'needs_review').map((row) => ({ kind: 'def', row })),
@@ -70,6 +72,7 @@ async function main() {
     // Gate 1 - machine guardrail: empty example or a spoiler leak is never auto-promoted.
     if (kind === 'ex' && !value) { held++; console.log('held (empty)'); continue; }
     if (value && hasSpoiler(value, kind === 'def' ? own : [], other)) { flagged++; console.log('flagged (spoiler leak)'); continue; }
+    if (kind === 'ex' && row.lang === 'de' && exampleDisclosesSeparable(value, sepByConcept.get(cid))) { flagged++; console.log('flagged (separable verb leak)'); continue; }
     if (args.dryRun) { console.log('(dry run)'); continue; }
     // Gate 2 - the judge.
     const { verdict, reason } = await judge({ kind, lang: row.lang, label: labelOf(cid), value, syn: row.synonyms_json, ant: row.antonyms_json }, model);

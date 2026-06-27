@@ -1803,6 +1803,375 @@
         "pl_core": "the agreements"
       },
       "notes": "approved plural b1 batch 01"
+    },
+    "lex-de-anfangen": {
+      "verb_class": "separable",
+      "prefix": "an",
+      "stem": "fangen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)",
+      "forms": {
+        "praes_2sg": "fängst",
+        "praes_3sg": "fängt",
+        "praet_3sg": "fing",
+        "partizip_ii": "gefangen"
+      }
+    },
+    "lex-de-anrufen": {
+      "verb_class": "separable",
+      "prefix": "an",
+      "stem": "rufen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)",
+      "forms": {
+        "praet_3sg": "rief",
+        "partizip_ii": "gerufen"
+      }
+    },
+    "lex-de-ansprechen": {
+      "verb_class": "separable",
+      "prefix": "an",
+      "stem": "sprechen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)",
+      "forms": {
+        "praes_2sg": "sprichst",
+        "praes_3sg": "spricht",
+        "praet_3sg": "sprach",
+        "partizip_ii": "gesprochen"
+      }
+    },
+    "lex-de-aufstehen": {
+      "verb_class": "separable",
+      "prefix": "auf",
+      "stem": "stehen",
+      "aux": "sein",
+      "notes": "separable verb decomposition (seeded)",
+      "forms": {
+        "praes_2sg": "stehst",
+        "praes_3sg": "steht",
+        "praet_3sg": "stand",
+        "partizip_ii": "gestanden"
+      }
+    },
+    "lex-de-aussteigen": {
+      "verb_class": "separable",
+      "prefix": "aus",
+      "stem": "steigen",
+      "aux": "sein",
+      "notes": "separable verb decomposition (seeded)",
+      "forms": {
+        "praet_3sg": "stieg",
+        "partizip_ii": "gestiegen"
+      }
+    },
+    "lex-de-durchhalten": {
+      "verb_class": "separable",
+      "prefix": "durch",
+      "stem": "halten",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)",
+      "forms": {
+        "praes_2sg": "hältst",
+        "praes_3sg": "hält",
+        "praet_3sg": "hielt",
+        "partizip_ii": "gehalten"
+      }
+    },
+    "lexeme-de-a2-herausfinden": {
+      "verb_class": "separable",
+      "prefix": "heraus",
+      "stem": "finden",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)",
+      "forms": {
+        "praet_3sg": "fand",
+        "partizip_ii": "gefunden"
+      }
+    },
+    "lex-de-hervorheben": {
+      "verb_class": "separable",
+      "prefix": "hervor",
+      "stem": "heben",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)",
+      "forms": {
+        "praet_3sg": "hob",
+        "partizip_ii": "gehoben"
+      }
+    },
+    "lex-de-mitbringen": {
+      "verb_class": "separable",
+      "prefix": "mit",
+      "stem": "bringen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)",
+      "forms": {
+        "praet_3sg": "brachte",
+        "partizip_ii": "gebracht"
+      }
+    },
+    "lex-de-stattfinden": {
+      "verb_class": "separable",
+      "prefix": "statt",
+      "stem": "finden",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)",
+      "forms": {
+        "praet_3sg": "fand",
+        "partizip_ii": "gefunden"
+      }
+    },
+    "lexeme-de-a1-stillstehen": {
+      "verb_class": "separable",
+      "prefix": "still",
+      "stem": "stehen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)",
+      "forms": {
+        "praes_2sg": "stehst",
+        "praes_3sg": "steht",
+        "praet_3sg": "stand",
+        "partizip_ii": "gestanden"
+      }
+    },
+    "lex-de-teilnehmen": {
+      "verb_class": "separable",
+      "prefix": "teil",
+      "stem": "nehmen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)",
+      "forms": {
+        "praes_2sg": "nimmst",
+        "praes_3sg": "nimmt",
+        "praet_3sg": "nahm",
+        "partizip_ii": "genommen"
+      }
+    },
+    "lex-de-umziehen": {
+      "verb_class": "separable",
+      "prefix": "um",
+      "stem": "ziehen",
+      "aux": "sein",
+      "notes": "separable verb decomposition (seeded)",
+      "forms": {
+        "praet_3sg": "zog",
+        "partizip_ii": "gezogen"
+      }
+    },
+    "lex-de-vorschlagen": {
+      "verb_class": "separable",
+      "prefix": "vor",
+      "stem": "schlagen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)",
+      "forms": {
+        "praes_2sg": "schlägst",
+        "praes_3sg": "schlägt",
+        "praet_3sg": "schlug",
+        "partizip_ii": "geschlagen"
+      }
+    },
+    "lex-de-zuruckgeben": {
+      "verb_class": "separable",
+      "prefix": "zurück",
+      "stem": "geben",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)",
+      "forms": {
+        "praes_2sg": "gibst",
+        "praes_3sg": "gibt",
+        "praet_3sg": "gab",
+        "partizip_ii": "gegeben"
+      }
+    },
+    "lex-de-zusammenhangen": {
+      "verb_class": "separable",
+      "prefix": "zusammen",
+      "stem": "hängen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)",
+      "forms": {
+        "praet_3sg": "hing",
+        "partizip_ii": "gehangen"
+      }
+    },
+    "lex-de-abwagen": {
+      "verb_class": "separable",
+      "prefix": "ab",
+      "stem": "wägen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)",
+      "forms": {
+        "praes_2sg": "wägst",
+        "praes_3sg": "wägt",
+        "praet_3sg": "wog",
+        "partizip_ii": "gewogen"
+      }
+    },
+    "lex-de-abholen": {
+      "verb_class": "separable",
+      "prefix": "ab",
+      "stem": "holen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)"
+    },
+    "lex-de-ablehnen": {
+      "verb_class": "separable",
+      "prefix": "ab",
+      "stem": "lehnen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)"
+    },
+    "lex-de-ableiten": {
+      "verb_class": "separable",
+      "prefix": "ab",
+      "stem": "leiten",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)"
+    },
+    "lex-de-absagen": {
+      "verb_class": "separable",
+      "prefix": "ab",
+      "stem": "sagen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)"
+    },
+    "lex-de-abstimmen": {
+      "verb_class": "separable",
+      "prefix": "ab",
+      "stem": "stimmen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)"
+    },
+    "lex-de-ankundigen": {
+      "verb_class": "separable",
+      "prefix": "an",
+      "stem": "kündigen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)"
+    },
+    "lex-de-aufhoren": {
+      "verb_class": "separable",
+      "prefix": "auf",
+      "stem": "hören",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)"
+    },
+    "lex-de-aufmachen": {
+      "verb_class": "separable",
+      "prefix": "auf",
+      "stem": "machen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)"
+    },
+    "lex-de-auswerten": {
+      "verb_class": "separable",
+      "prefix": "aus",
+      "stem": "werten",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)"
+    },
+    "lex-de-durchfuhren": {
+      "verb_class": "separable",
+      "prefix": "durch",
+      "stem": "führen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)"
+    },
+    "lex-de-einordnen": {
+      "verb_class": "separable",
+      "prefix": "ein",
+      "stem": "ordnen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)"
+    },
+    "lex-de-einschatzen": {
+      "verb_class": "separable",
+      "prefix": "ein",
+      "stem": "schätzen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)"
+    },
+    "lex-de-einsetzen": {
+      "verb_class": "separable",
+      "prefix": "ein",
+      "stem": "setzen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)"
+    },
+    "lex-de-festlegen": {
+      "verb_class": "separable",
+      "prefix": "fest",
+      "stem": "legen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)"
+    },
+    "lex-de-feststellen": {
+      "verb_class": "separable",
+      "prefix": "fest",
+      "stem": "stellen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)"
+    },
+    "lex-de-herausfordern": {
+      "verb_class": "separable",
+      "prefix": "heraus",
+      "stem": "fordern",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)"
+    },
+    "lex-de-klarstellen": {
+      "verb_class": "separable",
+      "prefix": "klar",
+      "stem": "stellen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)"
+    },
+    "lex-de-umsetzen": {
+      "verb_class": "separable",
+      "prefix": "um",
+      "stem": "setzen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)"
+    },
+    "lex-de-voraussetzen": {
+      "verb_class": "separable",
+      "prefix": "voraus",
+      "stem": "setzen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)"
+    },
+    "lex-de-vorbereiten": {
+      "verb_class": "separable",
+      "prefix": "vor",
+      "stem": "bereiten",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)",
+      "forms": {
+        "partizip_ii": "bereitet"
+      }
+    },
+    "lex-de-zumachen": {
+      "verb_class": "separable",
+      "prefix": "zu",
+      "stem": "machen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)"
+    },
+    "lex-de-zusammenfassen": {
+      "verb_class": "separable",
+      "prefix": "zusammen",
+      "stem": "fassen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)"
+    },
+    "lex-de-zustimmen": {
+      "verb_class": "separable",
+      "prefix": "zu",
+      "stem": "stimmen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)"
     }
   }
 }

@@ -7806,22 +7806,6 @@
       }
     },
     {
-      "concept_id": "concept-a2-eilen",
-      "pos": "verb",
-      "difficulty_score_auto": 35,
-      "level_auto": "A2",
-      "level_override": null,
-      "domain_tags": [
-        "motion"
-      ],
-      "notes": null,
-      "review_status": "reviewed",
-      "metadata_json": {
-        "source": "ai",
-        "generated_at": "2026-06-17T16:28:57.032Z"
-      }
-    },
-    {
       "concept_id": "concept-a2-sprinten",
       "pos": "verb",
       "difficulty_score_auto": 35,
@@ -8026,38 +8010,6 @@
       }
     },
     {
-      "concept_id": "concept-a1-eilen-2",
-      "pos": "verb",
-      "difficulty_score_auto": 20,
-      "level_auto": "A1",
-      "level_override": null,
-      "domain_tags": [
-        "motion"
-      ],
-      "notes": null,
-      "review_status": "reviewed",
-      "metadata_json": {
-        "source": "ai",
-        "generated_at": "2026-06-26T15:51:32.478Z"
-      }
-    },
-    {
-      "concept_id": "concept-a1-stehenbleiben",
-      "pos": "verb",
-      "difficulty_score_auto": 20,
-      "level_auto": "A1",
-      "level_override": null,
-      "domain_tags": [
-        "motion"
-      ],
-      "notes": null,
-      "review_status": "reviewed",
-      "metadata_json": {
-        "source": "ai",
-        "generated_at": "2026-06-26T15:51:32.478Z"
-      }
-    },
-    {
       "concept_id": "concept-a1-schlendern",
       "pos": "verb",
       "difficulty_score_auto": 20,
@@ -8071,22 +8023,6 @@
       "metadata_json": {
         "source": "ai",
         "generated_at": "2026-06-26T15:51:32.478Z"
-      }
-    },
-    {
-      "concept_id": "concept-a2-eilen-2",
-      "pos": "verb",
-      "difficulty_score_auto": 35,
-      "level_auto": "A2",
-      "level_override": null,
-      "domain_tags": [
-        "motion"
-      ],
-      "notes": null,
-      "review_status": "reviewed",
-      "metadata_json": {
-        "source": "ai",
-        "generated_at": "2026-06-26T16:06:46.969Z"
       }
     },
     {
@@ -39165,57 +39101,6 @@
       "is_active": true
     },
     {
-      "lexeme_id": "lexeme-de-a2-eilen",
-      "concept_id": "concept-a2-eilen",
-      "lang": "de",
-      "text": "eilen",
-      "frequency_rank": null,
-      "lemma": "eilen",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-it-a2-eilen",
-      "concept_id": "concept-a2-eilen",
-      "lang": "it",
-      "text": "affrettarsi",
-      "frequency_rank": null,
-      "lemma": "affrettarsi",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-en-a2-eilen",
-      "concept_id": "concept-a2-eilen",
-      "lang": "en",
-      "text": "hasten",
-      "frequency_rank": null,
-      "lemma": "hasten",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
       "lexeme_id": "lexeme-de-a2-sprinten",
       "concept_id": "concept-a2-sprinten",
       "lang": "de",
@@ -39930,108 +39815,6 @@
       "is_active": true
     },
     {
-      "lexeme_id": "lexeme-de-a1-eilen-2",
-      "concept_id": "concept-a1-eilen-2",
-      "lang": "de",
-      "text": "eilen",
-      "frequency_rank": null,
-      "lemma": "eilen",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-it-a1-eilen-2",
-      "concept_id": "concept-a1-eilen-2",
-      "lang": "it",
-      "text": "affrettarsi",
-      "frequency_rank": null,
-      "lemma": "affrettarsi",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-en-a1-eilen-2",
-      "concept_id": "concept-a1-eilen-2",
-      "lang": "en",
-      "text": "hasten",
-      "frequency_rank": null,
-      "lemma": "hasten",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-de-a1-stehenbleiben",
-      "concept_id": "concept-a1-stehenbleiben",
-      "lang": "de",
-      "text": "stehenbleiben",
-      "frequency_rank": null,
-      "lemma": "stehenbleiben",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-it-a1-stehenbleiben",
-      "concept_id": "concept-a1-stehenbleiben",
-      "lang": "it",
-      "text": "fermarsi",
-      "frequency_rank": null,
-      "lemma": "fermarsi",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-en-a1-stehenbleiben",
-      "concept_id": "concept-a1-stehenbleiben",
-      "lang": "en",
-      "text": "stop",
-      "frequency_rank": null,
-      "lemma": "stop",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
       "lexeme_id": "lexeme-de-a1-schlendern",
       "concept_id": "concept-a1-schlendern",
       "lang": "de",
@@ -40072,57 +39855,6 @@
       "text": "stroll",
       "frequency_rank": null,
       "lemma": "stroll",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-de-a2-eilen-2",
-      "concept_id": "concept-a2-eilen-2",
-      "lang": "de",
-      "text": "eilen",
-      "frequency_rank": null,
-      "lemma": "eilen",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-it-a2-eilen-2",
-      "concept_id": "concept-a2-eilen-2",
-      "lang": "it",
-      "text": "affrettarsi",
-      "frequency_rank": null,
-      "lemma": "affrettarsi",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-en-a2-eilen-2",
-      "concept_id": "concept-a2-eilen-2",
-      "lang": "en",
-      "text": "hasten",
-      "frequency_rank": null,
-      "lemma": "hasten",
       "pos": "verb",
       "gender": "none",
       "countability": "none",
@@ -56078,39 +55810,6 @@
       "reviewed_by": "ai"
     },
     {
-      "example_id": "example-de-a2-eilen",
-      "concept_id": "concept-a2-eilen",
-      "lang": "de",
-      "sentence": "Er eilte zum Bahnhof, um den Zug nicht zu verpassen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-it-a2-eilen",
-      "concept_id": "concept-a2-eilen",
-      "lang": "it",
-      "sentence": "Si affrettò alla stazione per non perdere il treno.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-en-a2-eilen",
-      "concept_id": "concept-a2-eilen",
-      "lang": "en",
-      "sentence": "He hurried to the station so as not to miss the train.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
       "example_id": "example-de-a2-sprinten",
       "concept_id": "concept-a2-sprinten",
       "lang": "de",
@@ -56459,50 +56158,6 @@
       "reviewed_by": "ai"
     },
     {
-      "example_id": "example-de-a1-eilen-2",
-      "concept_id": "concept-a1-eilen-2",
-      "lang": "de",
-      "sentence": "Wir müssen eilen, um den Bus zu erwischen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-it-a1-eilen-2",
-      "concept_id": "concept-a1-eilen-2",
-      "lang": "it",
-      "sentence": "Dobbiamo affrettarci per prendere l'autobus.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-en-a1-eilen-2",
-      "concept_id": "concept-a1-eilen-2",
-      "lang": "en",
-      "sentence": "We must hasten to catch the bus.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-en-a1-stehenbleiben",
-      "concept_id": "concept-a1-stehenbleiben",
-      "lang": "en",
-      "sentence": "The car stopped when it saw the stop sign.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
       "example_id": "example-de-a1-schlendern",
       "concept_id": "concept-a1-schlendern",
       "lang": "de",
@@ -56529,39 +56184,6 @@
       "concept_id": "concept-a1-schlendern",
       "lang": "en",
       "sentence": "We stroll through the park.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-de-a2-eilen-2",
-      "concept_id": "concept-a2-eilen-2",
-      "lang": "de",
-      "sentence": "Wir müssen uns beeilen, um den Bus zu erwischen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-it-a2-eilen-2",
-      "concept_id": "concept-a2-eilen-2",
-      "lang": "it",
-      "sentence": "Dobbiamo affrettarci per prendere l'autobus.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-en-a2-eilen-2",
-      "concept_id": "concept-a2-eilen-2",
-      "lang": "en",
-      "sentence": "We must hasten to catch the bus.",
       "source": "ai",
       "generated_by": "ai",
       "notes": null,
@@ -86439,44 +86061,6 @@
       "hint_text": null
     },
     {
-      "concept_id": "concept-a2-eilen",
-      "lang": "de",
-      "short_definition": "Sich schnell bewegen, um Zeit zu sparen.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [
-        "beeilen"
-      ],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a2-eilen",
-      "lang": "it",
-      "short_definition": "Muoversi velocemente per risparmiare tempo.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a2-eilen",
-      "lang": "en",
-      "short_definition": "Move quickly to save time.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
       "concept_id": "concept-a2-sprinten",
       "lang": "de",
       "short_definition": "Schnell und intensiv über eine kurze Distanz laufen.",
@@ -86945,82 +86529,6 @@
       "hint_text": null
     },
     {
-      "concept_id": "concept-a1-eilen-2",
-      "lang": "de",
-      "short_definition": "Sich schnell bewegen, um Zeit zu sparen.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [
-        "beilen"
-      ],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a1-eilen-2",
-      "lang": "it",
-      "short_definition": "Muoversi velocemente per risparmiare tempo.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a1-eilen-2",
-      "lang": "en",
-      "short_definition": "Move quickly to save time.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a1-stehenbleiben",
-      "lang": "de",
-      "short_definition": "Aufhören, sich zu bewegen.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a1-stehenbleiben",
-      "lang": "it",
-      "short_definition": "Smettendo di muoversi.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [
-        "arrestare"
-      ],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a1-stehenbleiben",
-      "lang": "en",
-      "short_definition": "Ceasing to move.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
       "concept_id": "concept-a1-schlendern",
       "lang": "de",
       "short_definition": "Gemächlich und ohne Eile gehen.",
@@ -87050,44 +86558,6 @@
       "concept_id": "concept-a1-schlendern",
       "lang": "en",
       "short_definition": "To walk slowly and without hurry.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a2-eilen-2",
-      "lang": "de",
-      "short_definition": "Sich schnell bewegen, um Zeit zu sparen.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [
-        "beeilen"
-      ],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a2-eilen-2",
-      "lang": "it",
-      "short_definition": "Muoversi velocemente per risparmiare tempo.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a2-eilen-2",
-      "lang": "en",
-      "short_definition": "Move quickly to save time.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -141794,60 +141264,6 @@
       }
     },
     {
-      "form_id": "7c9076f0-a166-a3cb-f0a1-9524a0914c7e",
-      "lexeme_id": "lexeme-de-a2-eilen",
-      "lang": "de",
-      "surface": "eilen",
-      "surface_search": "eilen",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "5003ed3c-5ebf-51d4-8e3d-24d7539e82d7",
-      "lexeme_id": "lexeme-it-a2-eilen",
-      "lang": "it",
-      "surface": "affrettarsi",
-      "surface_search": "affrettarsi",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "4191d600-f6ce-2d25-ec59-d133e755130a",
-      "lexeme_id": "lexeme-en-a2-eilen",
-      "lang": "en",
-      "surface": "hasten",
-      "surface_search": "hasten",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
       "form_id": "14b0dc57-2728-8435-562f-0439d7028bab",
       "lexeme_id": "lexeme-de-a2-sprinten",
       "lang": "de",
@@ -142939,114 +142355,6 @@
       }
     },
     {
-      "form_id": "c93c8058-f494-4649-4ec5-92b1f9774c91",
-      "lexeme_id": "lexeme-de-a1-eilen-2",
-      "lang": "de",
-      "surface": "eilen",
-      "surface_search": "eilen",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "3d416b8e-9d91-228d-4fc7-ce5bb5528968",
-      "lexeme_id": "lexeme-it-a1-eilen-2",
-      "lang": "it",
-      "surface": "affrettarsi",
-      "surface_search": "affrettarsi",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "e849a538-f032-f1b9-0743-be40eb6f77b5",
-      "lexeme_id": "lexeme-en-a1-eilen-2",
-      "lang": "en",
-      "surface": "hasten",
-      "surface_search": "hasten",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "645f8885-db89-a9a7-8bdd-cfecf9d14193",
-      "lexeme_id": "lexeme-de-a1-stehenbleiben",
-      "lang": "de",
-      "surface": "stehenbleiben",
-      "surface_search": "stehenbleiben",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "378528e0-a30f-70cc-4d2e-7d424d700dc4",
-      "lexeme_id": "lexeme-it-a1-stehenbleiben",
-      "lang": "it",
-      "surface": "fermarsi",
-      "surface_search": "fermarsi",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "c078633b-7190-0aa7-c71e-d2a4ff3ff4a2",
-      "lexeme_id": "lexeme-en-a1-stehenbleiben",
-      "lang": "en",
-      "surface": "stop",
-      "surface_search": "stop",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
       "form_id": "20958b6d-d3df-df4d-9595-242c69864e4e",
       "lexeme_id": "lexeme-de-a1-schlendern",
       "lang": "de",
@@ -143088,60 +142396,6 @@
       "lang": "en",
       "surface": "stroll",
       "surface_search": "stroll",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "86b842e4-618e-c9b6-53dd-eb3d22e1a47c",
-      "lexeme_id": "lexeme-de-a2-eilen-2",
-      "lang": "de",
-      "surface": "eilen",
-      "surface_search": "eilen",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "1d95e14c-511a-5eed-0cc7-8b27468a04f6",
-      "lexeme_id": "lexeme-it-a2-eilen-2",
-      "lang": "it",
-      "surface": "affrettarsi",
-      "surface_search": "affrettarsi",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "50fdc591-fc88-a2a4-7a7c-cd9323eadd12",
-      "lexeme_id": "lexeme-en-a2-eilen-2",
-      "lang": "en",
-      "surface": "hasten",
-      "surface_search": "hasten",
       "number_value": "none",
       "grammatical_case": "none",
       "definiteness": "none",

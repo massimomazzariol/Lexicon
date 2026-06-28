@@ -18,7 +18,7 @@ import { readFileSync, writeFileSync } from 'fs';
 import { resolve } from 'path';
 import { normalizeSearch, stripArticle, hasSpoiler, asString } from '../lib/authoring_core.mjs';
 import { LANGS } from '../lib/languages.mjs';
-import { loadVerbOverrides, buildSeparableByConcept, exampleDisclosesSeparable } from '../lib/german_verb_spoiler.mjs';
+import { loadVerbOverrides, buildSeparableByConcept, exampleDisclosesSeparable } from '../lib/language_plugins/de/verb_spoiler.mjs';
 
 const NEEDS = 'needs_review';
 const REVIEWED = 'reviewed';

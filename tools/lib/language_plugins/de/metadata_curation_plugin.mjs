@@ -1,4 +1,4 @@
-import { LEXICON_LEVELS } from '../lexicon_conventions.mjs';
+import { LEXICON_LEVELS } from '../../lexicon_conventions.mjs';
 
 const germanBaseDomainByWord = {
   ankunft: ['Travel'],

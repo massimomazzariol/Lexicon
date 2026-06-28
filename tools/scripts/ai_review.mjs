@@ -20,7 +20,7 @@ import { readFileSync, writeFileSync } from 'fs';
 import { resolve } from 'path';
 import { LANGS, langName, langList } from '../lib/languages.mjs';
 import { chat, resolveModel, listChatModels, hasSpoiler, normalizeSearch, stripArticle, asString as str } from '../lib/authoring_core.mjs';
-import { loadVerbOverrides, buildSeparableByConcept, exampleDisclosesSeparable } from '../lib/german_verb_spoiler.mjs';
+import { loadVerbOverrides, buildSeparableByConcept, exampleDisclosesSeparable } from '../lib/language_plugins/de/verb_spoiler.mjs';
 
 const CONTENT = resolve(process.cwd(), 'packs/lexicon_source/content.json');
 const args = parseArgs(process.argv.slice(2));

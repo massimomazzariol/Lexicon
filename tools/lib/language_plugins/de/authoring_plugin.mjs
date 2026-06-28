@@ -1,12 +1,12 @@
 // German authoring hooks for the drafter (authoring-time, language-specific).
 //
-// Build-time German morphology (forms, declension, ingest) lives in the
-// german_*_build_plugin / german_entry_ingest_plugin files and the build registry.
+// Build-time German morphology (forms, declension, ingest) lives in the sibling
+// de/*_build_plugin / de/entry_ingest_plugin files and the build registry.
 // This is the small AUTHORING seam the drafter needs: infer and validate the
 // German-specific concept fields while a draft is being written - here, the concept
 // gender, which German encodes in the citation article (der/die/das).
 
-import { DE_ARTICLE_GENDER, asString } from '../authoring_core.mjs';
+import { DE_ARTICLE_GENDER, asString } from '../../authoring_core.mjs';
 
 const articleOf = (record) => asString(record.lexemes?.de?.text).trim().toLowerCase().split(' ')[0];
 

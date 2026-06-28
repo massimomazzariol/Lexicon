@@ -1,0 +1,69 @@
+{
+  "strip_articles": [
+    "der",
+    "die",
+    "das",
+    "den",
+    "dem",
+    "des",
+    "ein",
+    "eine"
+  ],
+  "article_gender": {
+    "der": "m",
+    "die": "f",
+    "das": "n"
+  },
+  "definite_prefixes": [
+    "der ",
+    "die ",
+    "das ",
+    "dem ",
+    "den ",
+    "des "
+  ],
+  "indefinite_prefixes": [
+    "ein ",
+    "eine ",
+    "einen ",
+    "einem ",
+    "einer ",
+    "eines "
+  ],
+  "leading_prefixes": [
+    "der ",
+    "die ",
+    "das ",
+    "dem ",
+    "den ",
+    "des ",
+    "ein ",
+    "eine ",
+    "einen ",
+    "einem ",
+    "einer ",
+    "eines "
+  ],
+  "leading_tokens": [
+    "der",
+    "die",
+    "das",
+    "den",
+    "dem",
+    "des",
+    "ein",
+    "eine",
+    "einen",
+    "einem",
+    "eines"
+  ],
+  "default_neutral_definition": "Alltagssprache in einem neutralen Kontext.",
+  "default_safe_example": {
+    "default": "Eine Person reagiert in einer alltaeglichen Situation.",
+    "noun": "Mehrere Personen sprechen in Ruhe ueber dieselbe Sache.",
+    "verb": "Eine Person handelt in dieser Situation ganz bewusst.",
+    "adj": "In dieser Situation wirkt alles deutlich in dieser Art.",
+    "adv": "In dieser Situation geschieht es genau auf diese Weise.",
+    "chunk": "In dieser Situation sagt eine Person genau das."
+  }
+}

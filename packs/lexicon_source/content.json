@@ -8042,22 +8042,6 @@
       }
     },
     {
-      "concept_id": "concept-a2-sprinten-2",
-      "pos": "verb",
-      "difficulty_score_auto": 35,
-      "level_auto": "A2",
-      "level_override": null,
-      "domain_tags": [
-        "sports"
-      ],
-      "notes": null,
-      "review_status": "reviewed",
-      "metadata_json": {
-        "source": "ai",
-        "generated_at": "2026-06-26T16:06:46.969Z"
-      }
-    },
-    {
       "concept_id": "concept-a2-wettbewerb",
       "pos": "noun",
       "difficulty_score_auto": 35,
@@ -39901,57 +39885,6 @@
       "is_active": true
     },
     {
-      "lexeme_id": "lexeme-de-a2-sprinten-2",
-      "concept_id": "concept-a2-sprinten-2",
-      "lang": "de",
-      "text": "sprinten",
-      "frequency_rank": null,
-      "lemma": "sprinten",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-it-a2-sprinten-2",
-      "concept_id": "concept-a2-sprinten-2",
-      "lang": "it",
-      "text": "sprintare",
-      "frequency_rank": null,
-      "lemma": "sprintare",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-en-a2-sprinten-2",
-      "concept_id": "concept-a2-sprinten-2",
-      "lang": "en",
-      "text": "sprint",
-      "frequency_rank": null,
-      "lemma": "sprint",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
       "lexeme_id": "lexeme-de-a2-wettbewerb",
       "concept_id": "concept-a2-wettbewerb",
       "lang": "de",
@@ -56146,39 +56079,6 @@
       "reviewed_by": "ai"
     },
     {
-      "example_id": "example-de-a2-sprinten-2",
-      "concept_id": "concept-a2-sprinten-2",
-      "lang": "de",
-      "sentence": "Er sprintet zum Ziel.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-it-a2-sprinten-2",
-      "concept_id": "concept-a2-sprinten-2",
-      "lang": "it",
-      "sentence": "Corre veloce verso il traguardo.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-en-a2-sprinten-2",
-      "concept_id": "concept-a2-sprinten-2",
-      "lang": "en",
-      "sentence": "He sprints to the finish line.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
       "example_id": "example-de-a2-wettbewerb",
       "concept_id": "concept-a2-wettbewerb",
       "lang": "de",
@@ -58271,11 +58171,6 @@
       "cluster_id": "cf4e2f42-0119-315c-7ee7-d622be471a73",
       "lexeme_id": "lex-it-correre",
       "position": 0
-    },
-    {
-      "cluster_id": "cf4e2f42-0119-315c-7ee7-d622be471a73",
-      "lexeme_id": "lexeme-it-a2-sprinten-2",
-      "position": 1
     },
     {
       "cluster_id": "12ae11f4-0773-89dc-f84b-9f0bbdaa260a",
@@ -85976,7 +85871,9 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
-      "synonyms_json": [],
+      "synonyms_json": [
+        "sprintare"
+      ],
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
@@ -86491,44 +86388,6 @@
       "concept_id": "concept-a1-spazierengehen",
       "lang": "en",
       "short_definition": "A leisurely stroll outdoors.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a2-sprinten-2",
-      "lang": "de",
-      "short_definition": "Schnell und kurzzeitig rennen.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a2-sprinten-2",
-      "lang": "it",
-      "short_definition": "Correre velocemente per un breve periodo di tempo.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [
-        "scattare"
-      ],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a2-sprinten-2",
-      "lang": "en",
-      "short_definition": "Run quickly for a short period.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -142311,60 +142170,6 @@
       "lang": "en",
       "surface": "go for a walk",
       "surface_search": "go for a walk",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "60045dab-8acc-759b-599d-8699832d333d",
-      "lexeme_id": "lexeme-de-a2-sprinten-2",
-      "lang": "de",
-      "surface": "sprinten",
-      "surface_search": "sprinten",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "99dc98d1-8f3d-9c90-dcc6-25a01a2a574d",
-      "lexeme_id": "lexeme-it-a2-sprinten-2",
-      "lang": "it",
-      "surface": "sprintare",
-      "surface_search": "sprintare",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "d0d5d6eb-dc06-09c2-2852-24adbde34cc0",
-      "lexeme_id": "lexeme-en-a2-sprinten-2",
-      "lang": "en",
-      "surface": "sprint",
-      "surface_search": "sprint",
       "number_value": "none",
       "grammatical_case": "none",
       "definiteness": "none",

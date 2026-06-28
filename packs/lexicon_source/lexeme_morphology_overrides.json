@@ -2172,6 +2172,39 @@
       "stem": "stimmen",
       "aux": "haben",
       "notes": "separable verb decomposition (seeded)"
+    },
+    "lexeme-de-a1-stehenbleiben": {
+      "verb_class": "separable",
+      "prefix": "stehen",
+      "stem": "bleiben",
+      "aux": "sein",
+      "notes": "separable verb decomposition (seeded)",
+      "forms": {
+        "praet_3sg": "blieb",
+        "partizip_ii": "geblieben"
+      }
+    },
+    "lexeme-de-a1-spazierengehen": {
+      "verb_class": "separable",
+      "prefix": "spazieren",
+      "stem": "gehen",
+      "aux": "sein",
+      "notes": "separable verb decomposition (seeded)",
+      "forms": {
+        "praet_3sg": "ging",
+        "partizip_ii": "gegangen"
+      }
+    },
+    "lex-de-nachvollziehen": {
+      "verb_class": "separable",
+      "prefix": "nach",
+      "stem": "vollziehen",
+      "aux": "haben",
+      "notes": "separable verb decomposition (seeded)",
+      "forms": {
+        "praet_3sg": "vollzog",
+        "partizip_ii": "vollzogen"
+      }
     }
   }
 }

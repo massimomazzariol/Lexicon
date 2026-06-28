@@ -1,5 +1,4 @@
-﻿import crypto from 'node:crypto';
-import fs from 'node:fs';
+﻿import fs from 'node:fs';
 import path from 'node:path';
 
 import { handleCliHelp } from '../lib/cli_help.mjs';
@@ -9,9 +8,6 @@ import {
   formatEditorialInvariantViolation,
 } from '../lib/editorial_invariants.mjs';
 import {
-  getDefaultNeutralDefinition,
-  getDefaultSafeExample,
-  getDefaultSafeExampleCandidates,
   getLeadingArticleTokens,
 } from '../lib/language_text_conventions.mjs';
 
@@ -26,8 +22,6 @@ Options:
   --pack-dir <dir>         Canonical source pack directory. Default: packs/lexicon_source
   --out-dir <dir>          Directory for JSON and CSV QA reports. Default: docs/data
   --apply                  Apply approved cleanup changes to source content
-  --generate-missing-examples
-                           Also auto-generate fallback examples for missing rows
   --skip-example-cleanup   Leave spoiler examples untouched while still reporting them
   --label-lang <code>      Preferred label language for QA report rows
   -h, --help               Show this help message
@@ -39,7 +33,6 @@ function parseArgs(argv) {
     packDir: DEFAULT_PACK_DIR,
     outDir: DEFAULT_OUT_DIR,
     apply: false,
-    generateMissingExamples: false,
     skipExampleCleanup: false,
     labelLang: '',
   };
@@ -48,7 +41,6 @@ function parseArgs(argv) {
     if (arg === '--pack-dir') options.packDir = argv[++i];
     else if (arg === '--out-dir') options.outDir = argv[++i];
     else if (arg === '--apply') options.apply = true;
-    else if (arg === '--generate-missing-examples') options.generateMissingExamples = true;
     else if (arg === '--skip-example-cleanup') options.skipExampleCleanup = true;
     else if (arg === '--label-lang') options.labelLang = argv[++i];
   }
@@ -119,11 +111,6 @@ function normalizeSpoilerText(value, { stripDiacritics = true } = {}) {
     .replace(/[^\p{L}\p{N}]+/gu, ' ')
     .replace(/\s+/g, ' ')
     .trim();
-}
-
-function deterministicUuid(seed) {
-  const hash = crypto.createHash('sha1').update(seed).digest('hex');
-  return `${hash.slice(0, 8)}-${hash.slice(8, 12)}-${hash.slice(12, 16)}-${hash.slice(16, 20)}-${hash.slice(20, 32)}`;
 }
 
 const LEADING_ARTICLES = new Set(getLeadingArticleTokens());
@@ -217,29 +204,6 @@ function containsSpoiler(example, spoilerForms) {
 function isContextPlaceholderExample(sentence) {
   const normalized = normalizeText(sentence).toLowerCase();
   return /^(kontext|contesto|context)\s*:/.test(normalized);
-}
-
-function isGeneratedFallbackExample(sentence, lang) {
-  const normalized = normalizeText(sentence);
-  if (!normalized) return false;
-  return getDefaultSafeExampleCandidates(lang).includes(normalized);
-}
-
-function synthesizeSafeExample({ lang, pos, spoilerForms }) {
-  const candidates = [
-    getDefaultSafeExample(lang, pos),
-    getDefaultSafeExample(lang),
-  ];
-
-  for (const candidate of candidates) {
-    const normalized = normalizeText(candidate);
-    if (!normalized) continue;
-    if (!containsSpoiler(normalized, spoilerForms)) {
-      return normalized;
-    }
-  }
-
-  return '';
 }
 
 function ensureArray(root, key) {
@@ -510,7 +474,6 @@ function main() {
   const spoilerExamplesRemoved = [];
   const placeholderExamplesRemoved = [];
   const spoilerSynonymsRemoved = [];
-  const generatedExamples = [];
   const exampleAuthoringRequests = [];
   const missingDefinitions = [];
   const missingExamples = [];
@@ -532,6 +495,8 @@ function main() {
     const defKey = makeKey(conceptId, lang);
     const existingDef = definitionIndex.get(defKey);
     if (!existingDef) {
+      // A missing definition is reported for real authoring, never auto-filled with a
+      // generic sentence (no hardcoded fallback content).
       missingDefinitions.push({ concept_id: conceptId, lang });
       csvRows.push({
         issue_type: 'missing_definition',
@@ -539,20 +504,8 @@ function main() {
         lang,
         item_id: '',
         text: '',
-        action: options.apply ? 'added_fallback_definition' : 'needs_definition',
+        action: 'needs_definition',
       });
-      if (options.apply) {
-        const fallback = {
-          concept_id: conceptId,
-          lang,
-          short_definition: getDefaultNeutralDefinition(lang),
-          usage_note: null,
-          context_tags_json: [],
-          source: 'auto_fallback',
-        };
-        conceptDefinitions.push(fallback);
-        definitionIndex.set(defKey, fallback);
-      }
     }
 
     if (bucket.supports.length >= 10) {
@@ -634,9 +587,7 @@ function main() {
     const spoilerForms = buildSpoilerForms(blockedValues);
     const hasSpoiler = containsSpoiler(ex.sentence, spoilerForms);
     const isContextPlaceholder = isContextPlaceholderExample(ex.sentence);
-    const isFallbackPlaceholder = isGeneratedFallbackExample(ex.sentence, lang);
-    const isPlaceholder = isContextPlaceholder || isFallbackPlaceholder;
-    if (!hasSpoiler && !isPlaceholder) {
+    if (!hasSpoiler && !isContextPlaceholder) {
       continue;
     }
     if (!options.skipExampleCleanup) {
@@ -647,11 +598,7 @@ function main() {
       concept_id: conceptId,
       lang,
       sentence: ex.sentence,
-      reason: hasSpoiler
-        ? 'spoiler'
-        : isContextPlaceholder
-        ? 'context_label'
-        : 'auto_fallback',
+      reason: hasSpoiler ? 'spoiler' : 'context_label',
     };
     if (hasSpoiler) {
       spoilerExamplesRemoved.push(removalPayload);
@@ -685,6 +632,8 @@ function main() {
     );
     if (current.length > 0) continue;
 
+    // A missing example is reported for real authoring, never auto-filled with a generic
+    // sentence (no hardcoded fallback content).
     missingExamples.push({ concept_id: conceptId, lang });
     csvRows.push({
       issue_type: 'missing_example',
@@ -692,51 +641,7 @@ function main() {
       lang,
       item_id: '',
       text: '',
-      action:
-        options.apply && options.generateMissingExamples
-          ? 'generated'
-          : 'needs_author_example',
-    });
-
-    if (
-      !options.apply ||
-      options.skipExampleCleanup ||
-      !options.generateMissingExamples
-    ) {
-      continue;
-    }
-
-    const blockedValues = [
-      ...bucket.supports,
-      ...bucket.lexemes,
-    ];
-    const spoilerForms = buildSpoilerForms(blockedValues);
-    const pos = conceptPosById.get(conceptId) ?? '';
-    const sentence = synthesizeSafeExample({
-      lang,
-      pos,
-      spoilerForms,
-    });
-    const normalizedSentence = normalizeText(sentence);
-    if (!normalizedSentence || containsSpoiler(normalizedSentence, spoilerForms)) {
-      continue;
-    }
-    const exampleId = deterministicUuid(
-      `example:auto:${packId}:${conceptId}:${lang}:${normalizedSentence.toLowerCase()}`,
-    );
-    refreshedExamples.push({
-      example_id: exampleId,
-      concept_id: conceptId,
-      lang,
-      sentence: normalizedSentence,
-      translation_lang: null,
-      translation_text: null,
-    });
-    generatedExamples.push({
-      example_id: exampleId,
-      concept_id: conceptId,
-      lang,
-      sentence: normalizedSentence,
+      action: 'needs_author_example',
     });
   }
 
@@ -862,7 +767,6 @@ function main() {
   const report = {
     pack_id: packId,
     apply: options.apply,
-    generate_missing_examples: options.generateMissingExamples,
     timestamp,
     label_resolution: {
       requested_label_lang: normalizeLang(options.labelLang) || null,
@@ -885,7 +789,6 @@ function main() {
       spoiler_synonyms_removed: spoilerSynonymsRemoved.length,
       spoiler_examples_removed: spoilerExamplesRemoved.length,
       placeholder_examples_removed: placeholderExamplesRemoved.length,
-      generated_examples: generatedExamples.length,
       example_authoring_requests: exampleAuthoringRequests.length,
       missing_definitions: missingDefinitions.length,
       missing_examples: missingExamples.length,
@@ -900,7 +803,6 @@ function main() {
     spoiler_synonyms_removed: spoilerSynonymsRemoved,
     spoiler_examples_removed: spoilerExamplesRemoved,
     placeholder_examples_removed: placeholderExamplesRemoved,
-    generated_examples: generatedExamples,
     example_authoring_requests: exampleAuthoringRequests,
     missing_definitions: missingDefinitions,
     missing_examples: missingExamples,
@@ -938,7 +840,6 @@ function main() {
   console.log(JSON.stringify({
     ok: true,
     apply: options.apply,
-    generateMissingExamples: options.generateMissingExamples,
     packDir,
     reportJsonPath,
     reportCsvPath,

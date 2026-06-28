@@ -28,8 +28,6 @@ export const DE_ARTICLE_GENDER = de.article_gender;
 export const DEFINITE_ARTICLE_PREFIXES_BY_LANG = pick('definite_prefixes');
 export const INDEFINITE_ARTICLE_PREFIXES_BY_LANG = pick('indefinite_prefixes');
 export const LEADING_ARTICLE_PREFIXES_BY_LANG = pick('leading_prefixes');
-export const DEFAULT_NEUTRAL_DEFINITION_BY_LANG = pick('default_neutral_definition');
-export const DEFAULT_SAFE_EXAMPLE_BY_LANG = pick('default_safe_example');
 
 export const LEADING_ARTICLE_TOKENS = ['de', 'it', 'en'].flatMap(
   (lang) => BY_LANG[lang].leading_tokens ?? [],

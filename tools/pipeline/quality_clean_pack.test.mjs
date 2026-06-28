@@ -24,7 +24,6 @@ function runQualityTool({
   outDir,
   labelLang,
   apply = false,
-  generateMissingExamples = false,
 }) {
   const args = [
     qualityToolPath,
@@ -35,9 +34,6 @@ function runQualityTool({
   ];
   if (apply) {
     args.push('--apply');
-  }
-  if (generateMissingExamples) {
-    args.push('--generate-missing-examples');
   }
   if (labelLang) {
     args.push('--label-lang', labelLang);
@@ -312,7 +308,6 @@ test('quality_clean_pack replaces Context-style placeholder examples during appl
     });
 
     assert.equal(report.summary.placeholder_examples_removed, 3);
-    assert.equal(report.summary.generated_examples, 0);
     assert.equal(report.summary.example_authoring_requests, 3);
     assert.equal(report.summary.examples_before, 3);
     assert.equal(report.summary.examples_after, 0);
@@ -422,7 +417,7 @@ test('quality_clean_pack avoids false spoiler hits for short accented Italian fo
   }
 });
 
-test('quality_clean_pack can still auto-generate fallback examples when explicitly requested', () => {
+test('quality_clean_pack reports a missing example for authoring and never auto-fills it', () => {
   const tempRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'lexicon-quality-'));
   const packDir = path.join(tempRoot, 'lexicon_source');
   const outDir = path.join(tempRoot, 'reports-apply-generate');
@@ -473,17 +468,16 @@ test('quality_clean_pack can still auto-generate fallback examples when explicit
       packDir,
       outDir,
       apply: true,
-      generateMissingExamples: true,
     });
 
-    assert.equal(report.summary.generated_examples, 1);
-    assert.equal(report.summary.example_authoring_requests, 1);
-    assert.equal(report.summary.examples_after, 1);
+    // The missing example is reported for real authoring; nothing is auto-generated.
+    assert.equal(report.summary.missing_examples, 1);
+    assert.equal(report.summary.examples_after, 0);
 
     const cleanedContent = JSON.parse(
       fs.readFileSync(path.join(packDir, 'content.json'), 'utf8'),
     );
-    assert.equal(cleanedContent.examples[0].sentence, 'Several people calmly talk about the same thing.');
+    assert.equal((cleanedContent.examples ?? []).length, 0);
   } finally {
     fs.rmSync(tempRoot, { recursive: true, force: true });
   }

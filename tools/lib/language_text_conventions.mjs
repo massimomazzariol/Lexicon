@@ -9,8 +9,6 @@ import {
   INDEFINITE_ARTICLE_PREFIXES_BY_LANG,
   LEADING_ARTICLE_PREFIXES_BY_LANG,
   LEADING_ARTICLE_TOKENS,
-  DEFAULT_NEUTRAL_DEFINITION_BY_LANG,
-  DEFAULT_SAFE_EXAMPLE_BY_LANG,
 } from './language_plugins/conventions.mjs';
 
 function normalizeText(value) {
@@ -59,26 +57,4 @@ export function stripLeadingArticle(text, lang) {
 
 export function getLeadingArticleTokens() {
   return [...LEADING_ARTICLE_TOKENS];
-}
-
-export function getDefaultNeutralDefinition(lang) {
-  return (
-    DEFAULT_NEUTRAL_DEFINITION_BY_LANG[normalizeLang(lang)] ??
-    DEFAULT_NEUTRAL_DEFINITION_BY_LANG.en
-  );
-}
-
-export function getDefaultSafeExample(lang, pos = '') {
-  const defaults =
-    DEFAULT_SAFE_EXAMPLE_BY_LANG[normalizeLang(lang)] ??
-    DEFAULT_SAFE_EXAMPLE_BY_LANG.en;
-  const normalizedPos = normalizeText(pos).toLowerCase();
-  return defaults[normalizedPos] ?? defaults.default;
-}
-
-export function getDefaultSafeExampleCandidates(lang) {
-  const defaults =
-    DEFAULT_SAFE_EXAMPLE_BY_LANG[normalizeLang(lang)] ??
-    DEFAULT_SAFE_EXAMPLE_BY_LANG.en;
-  return [...new Set(Object.values(defaults).map((value) => normalizeText(value)).filter(Boolean))];
 }

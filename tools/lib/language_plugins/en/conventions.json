@@ -1,0 +1,34 @@
+{
+  "strip_articles": [
+    "the",
+    "a",
+    "an",
+    "to"
+  ],
+  "definite_prefixes": [
+    "the "
+  ],
+  "indefinite_prefixes": [
+    "an ",
+    "a "
+  ],
+  "leading_prefixes": [
+    "the ",
+    "an ",
+    "a "
+  ],
+  "leading_tokens": [
+    "the",
+    "a",
+    "an"
+  ],
+  "default_neutral_definition": "Everyday use in a neutral context.",
+  "default_safe_example": {
+    "default": "A person reacts in an everyday situation.",
+    "noun": "Several people calmly talk about the same thing.",
+    "verb": "A person acts quite deliberately in this situation.",
+    "adj": "In this situation, everything seems clearly that way.",
+    "adv": "In this situation, it happens exactly that way.",
+    "chunk": "In this situation, a person says exactly that."
+  }
+}

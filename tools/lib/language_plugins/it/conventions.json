@@ -1,0 +1,79 @@
+{
+  "strip_articles": [
+    "il",
+    "lo",
+    "la",
+    "i",
+    "gli",
+    "le",
+    "l'",
+    "un",
+    "uno",
+    "una"
+  ],
+  "definite_prefixes": [
+    "l'",
+    "lâ€™",
+    "il ",
+    "lo ",
+    "la ",
+    "i ",
+    "gli ",
+    "le "
+  ],
+  "indefinite_prefixes": [
+    "un ",
+    "uno ",
+    "una ",
+    "un'",
+    "unâ€™"
+  ],
+  "leading_prefixes": [
+    "dell'",
+    "all'",
+    "nell'",
+    "sull'",
+    "coll'",
+    "l'",
+    "lâ€™",
+    "il ",
+    "lo ",
+    "la ",
+    "i ",
+    "gli ",
+    "le ",
+    "un ",
+    "uno ",
+    "una ",
+    "un'",
+    "unâ€™",
+    "gli ",
+    "del ",
+    "della ",
+    "dello ",
+    "dei ",
+    "degli ",
+    "delle "
+  ],
+  "leading_tokens": [
+    "la",
+    "il",
+    "lo",
+    "i",
+    "gli",
+    "le",
+    "l",
+    "un",
+    "uno",
+    "una"
+  ],
+  "default_neutral_definition": "Uso quotidiano in un contesto neutro.",
+  "default_safe_example": {
+    "default": "Una persona reagisce in una situazione quotidiana.",
+    "noun": "Piu persone parlano con calma della stessa cosa.",
+    "verb": "Una persona agisce in questa situazione in modo consapevole.",
+    "adj": "In questa situazione, tutto appare chiaramente cosi.",
+    "adv": "In questa situazione, accade proprio in questo modo.",
+    "chunk": "In questa situazione, una persona dice proprio questo."
+  }
+}

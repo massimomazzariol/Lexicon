@@ -3,6 +3,7 @@
 // content-shape or record-shape logic lives here.
 
 import { langList } from './languages.mjs';
+import { ARTICLES_BY_LANG, ALL_ARTICLES, DE_ARTICLE_GENDER } from './language_plugins/conventions.mjs';
 
 export const LLM_HOST = process.env.LLM_HOST ?? 'http://localhost:11434';
 
@@ -12,13 +13,11 @@ export const LLM_HOST = process.env.LLM_HOST ?? 'http://localhost:11434';
 // cache (authoring/.cache, gitignored), never in content.json.
 export const AI_PROVENANCE = 'ai';
 
-export const ARTICLES_BY_LANG = {
-  de: ['der', 'die', 'das', 'den', 'dem', 'des', 'ein', 'eine'],
-  it: ['il', 'lo', 'la', 'i', 'gli', 'le', "l'", 'un', 'uno', 'una'],
-  en: ['the', 'a', 'an', 'to']
-};
-export const ALL_ARTICLES = new Set(Object.values(ARTICLES_BY_LANG).flat());
-export const DE_ARTICLE_GENDER = { der: 'm', die: 'f', das: 'n' };
+// Article tokens and the German article->gender map are language DATA: they live in each
+// language's language_plugins/<lang>/conventions.json (aggregated by conventions.mjs) and
+// are re-exported here for the authoring tools that import them from this module.
+// ALL_ARTICLES stays internal (only stripArticle below uses it).
+export { ARTICLES_BY_LANG, DE_ARTICLE_GENDER };
 
 // ── text ─────────────────────────────────────────────────────────────────────
 

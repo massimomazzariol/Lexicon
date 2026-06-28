@@ -11,8 +11,8 @@
 // resolved by an override. Strong/irregular forms and the haben/sein auxiliary are not derived
 // here - they come from lexeme_morphology_overrides.json (curated), never from a model.
 
-// Prefix lists are DATA, not logic: they live in german_verb_prefixes.json and are loaded here.
-import germanVerbPrefixes from './german_verb_prefixes.json' with { type: 'json' };
+// Prefix lists are DATA, not logic: they live in verb_prefixes.json and are loaded here.
+import germanVerbPrefixes from './verb_prefixes.json' with { type: 'json' };
 export const GERMAN_SEPARABLE_PREFIXES = germanVerbPrefixes.separable;
 export const GERMAN_INSEPARABLE_PREFIXES = germanVerbPrefixes.inseparable;
 export const GERMAN_VARIABLE_PREFIXES = germanVerbPrefixes.variable;

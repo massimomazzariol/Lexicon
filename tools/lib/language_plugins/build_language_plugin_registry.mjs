@@ -1,14 +1,14 @@
-import { germanEntryIngestPlugin } from './german_entry_ingest_plugin.mjs';
+import { germanEntryIngestPlugin } from './de/entry_ingest_plugin.mjs';
 import {
   buildLanguagePluginSupportsCapability,
   getBuildLanguagePluginCapabilities,
   getMissingBuildLanguageCapabilities,
   summarizeBuildLanguagePlugin,
 } from './build_language_plugin_capabilities.mjs';
-import { germanMetadataCurationPlugin } from './german_metadata_curation_plugin.mjs';
-import { germanNounBuildPlugin } from './german_noun_build_plugin.mjs';
-import { germanVerbBuildPlugin } from './german_verb_build_plugin.mjs';
-import { italianNounBuildPlugin } from './italian_noun_build_plugin.mjs';
+import { germanMetadataCurationPlugin } from './de/metadata_curation_plugin.mjs';
+import { germanNounBuildPlugin } from './de/noun_build_plugin.mjs';
+import { germanVerbBuildPlugin } from './de/verb_build_plugin.mjs';
+import { italianNounBuildPlugin } from './it/noun_build_plugin.mjs';
 
 const buildLanguagePlugins = [
   {

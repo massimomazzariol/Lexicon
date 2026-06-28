@@ -8,7 +8,7 @@
 
 import { readFileSync } from 'fs';
 import { resolve } from 'path';
-import { analyzeGermanVerb, conjugateGermanVerb } from './language_plugins/german_verb_build_plugin.mjs';
+import { analyzeGermanVerb, conjugateGermanVerb } from './verb_build_plugin.mjs';
 
 const tokenize = (s) =>
   String(s ?? '')

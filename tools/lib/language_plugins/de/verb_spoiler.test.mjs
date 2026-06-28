@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { separableSpoilerForms, exampleDisclosesSeparable } from './german_verb_spoiler.mjs';
+import { separableSpoilerForms, exampleDisclosesSeparable } from './verb_spoiler.mjs';
 
 const aufstehen = separableSpoilerForms('aufstehen', {
   verb_class: 'separable', prefix: 'auf', stem: 'stehen', aux: 'sein',

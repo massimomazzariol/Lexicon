@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { analyzeGermanVerb, germanVerbStemSet, conjugateGermanVerb } from './german_verb_build_plugin.mjs';
+import { analyzeGermanVerb, germanVerbStemSet, conjugateGermanVerb } from './verb_build_plugin.mjs';
 
 // Base verbs the lexicon "knows" - remainder validation checks against these.
 const knownStems = new Set(['stehen', 'rufen', 'bringen', 'kommen', 'fahren', 'freuen', 'holen', 'fangen', 'bereiten']);

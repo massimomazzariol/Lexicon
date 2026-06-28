@@ -2205,6 +2205,345 @@
         "praet_3sg": "vollzog",
         "partizip_ii": "vollzogen"
       }
+    },
+    "lex-de-beginnen": {
+      "aux": "haben",
+      "forms": {
+        "praet_3sg": "begann",
+        "partizip_ii": "begonnen"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-bringen": {
+      "aux": "haben",
+      "forms": {
+        "praet_3sg": "brachte",
+        "partizip_ii": "gebracht"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-denken": {
+      "aux": "haben",
+      "forms": {
+        "praet_3sg": "dachte",
+        "partizip_ii": "gedacht"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-essen": {
+      "aux": "haben",
+      "forms": {
+        "praes_2sg": "isst",
+        "praes_3sg": "isst",
+        "praet_3sg": "aß",
+        "partizip_ii": "gegessen"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-fahren": {
+      "aux": "sein",
+      "forms": {
+        "praes_2sg": "fährst",
+        "praes_3sg": "fährt",
+        "praet_3sg": "fuhr",
+        "partizip_ii": "gefahren"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-fliegen": {
+      "aux": "sein",
+      "forms": {
+        "praet_3sg": "flog",
+        "partizip_ii": "geflogen"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-geben": {
+      "aux": "haben",
+      "forms": {
+        "praes_2sg": "gibst",
+        "praes_3sg": "gibt",
+        "praet_3sg": "gab",
+        "partizip_ii": "gegeben"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-gehen": {
+      "aux": "sein",
+      "forms": {
+        "praet_3sg": "ging",
+        "partizip_ii": "gegangen"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-haben": {
+      "aux": "haben",
+      "forms": {
+        "praes_2sg": "hast",
+        "praes_3sg": "hat",
+        "praet_3sg": "hatte",
+        "partizip_ii": "gehabt"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-heissen": {
+      "aux": "haben",
+      "forms": {
+        "praet_3sg": "hieß",
+        "partizip_ii": "geheißen"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-helfen": {
+      "aux": "haben",
+      "forms": {
+        "praes_2sg": "hilfst",
+        "praes_3sg": "hilft",
+        "praet_3sg": "half",
+        "partizip_ii": "geholfen"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-kennen": {
+      "aux": "haben",
+      "forms": {
+        "praet_3sg": "kannte",
+        "partizip_ii": "gekannt"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-kommen": {
+      "aux": "sein",
+      "forms": {
+        "praet_3sg": "kam",
+        "partizip_ii": "gekommen"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-laufen": {
+      "aux": "sein",
+      "forms": {
+        "praes_2sg": "läufst",
+        "praes_3sg": "läuft",
+        "praet_3sg": "lief",
+        "partizip_ii": "gelaufen"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-lesen": {
+      "aux": "haben",
+      "forms": {
+        "praes_2sg": "liest",
+        "praes_3sg": "liest",
+        "praet_3sg": "las",
+        "partizip_ii": "gelesen"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-nehmen": {
+      "aux": "haben",
+      "forms": {
+        "praes_2sg": "nimmst",
+        "praes_3sg": "nimmt",
+        "praet_3sg": "nahm",
+        "partizip_ii": "genommen"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-schlafen": {
+      "aux": "haben",
+      "forms": {
+        "praes_2sg": "schläfst",
+        "praes_3sg": "schläft",
+        "praet_3sg": "schlief",
+        "partizip_ii": "geschlafen"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-schliessen": {
+      "aux": "haben",
+      "forms": {
+        "praet_3sg": "schloss",
+        "partizip_ii": "geschlossen"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-schreiben": {
+      "aux": "haben",
+      "forms": {
+        "praet_3sg": "schrieb",
+        "partizip_ii": "geschrieben"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-sehen": {
+      "aux": "haben",
+      "forms": {
+        "praes_2sg": "siehst",
+        "praes_3sg": "sieht",
+        "praet_3sg": "sah",
+        "partizip_ii": "gesehen"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-sein": {
+      "aux": "sein",
+      "forms": {
+        "praes_2sg": "bist",
+        "praes_3sg": "ist",
+        "praet_3sg": "war",
+        "partizip_ii": "gewesen"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-sitzen": {
+      "aux": "haben",
+      "forms": {
+        "praet_3sg": "saß",
+        "partizip_ii": "gesessen"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-trinken": {
+      "aux": "haben",
+      "forms": {
+        "praet_3sg": "trank",
+        "partizip_ii": "getrunken"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-ziehen": {
+      "aux": "haben",
+      "forms": {
+        "praet_3sg": "zog",
+        "partizip_ii": "gezogen"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-waschen": {
+      "aux": "haben",
+      "forms": {
+        "praes_2sg": "wäschst",
+        "praes_3sg": "wäscht",
+        "praet_3sg": "wusch",
+        "partizip_ii": "gewaschen"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-wissen": {
+      "aux": "haben",
+      "forms": {
+        "praes_2sg": "weißt",
+        "praes_3sg": "weiß",
+        "praet_3sg": "wusste",
+        "partizip_ii": "gewusst"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-zwingen": {
+      "aux": "haben",
+      "forms": {
+        "praet_3sg": "zwang",
+        "partizip_ii": "gezwungen"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-empfehlen": {
+      "aux": "haben",
+      "forms": {
+        "praes_2sg": "empfiehlst",
+        "praes_3sg": "empfiehlt",
+        "praet_3sg": "empfahl",
+        "partizip_ii": "empfohlen"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-entscheiden": {
+      "aux": "haben",
+      "forms": {
+        "praet_3sg": "entschied",
+        "partizip_ii": "entschieden"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-entstehen": {
+      "aux": "sein",
+      "forms": {
+        "praet_3sg": "entstand",
+        "partizip_ii": "entstanden"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-erwerben": {
+      "aux": "haben",
+      "forms": {
+        "praes_2sg": "erwirbst",
+        "praes_3sg": "erwirbt",
+        "praet_3sg": "erwarb",
+        "partizip_ii": "erworben"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-vergleichen": {
+      "aux": "haben",
+      "forms": {
+        "praet_3sg": "verglich",
+        "partizip_ii": "verglichen"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-verschieben": {
+      "aux": "haben",
+      "forms": {
+        "praet_3sg": "verschob",
+        "partizip_ii": "verschoben"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-verstehen": {
+      "aux": "haben",
+      "forms": {
+        "praet_3sg": "verstand",
+        "partizip_ii": "verstanden"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-missverstehen": {
+      "aux": "haben",
+      "forms": {
+        "praet_3sg": "missverstand",
+        "partizip_ii": "missverstanden"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-widersprechen": {
+      "aux": "haben",
+      "forms": {
+        "praes_2sg": "widersprichst",
+        "praes_3sg": "widerspricht",
+        "praet_3sg": "widersprach",
+        "partizip_ii": "widersprochen"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-widerstehen": {
+      "aux": "haben",
+      "forms": {
+        "praet_3sg": "widerstand",
+        "partizip_ii": "widerstanden"
+      },
+      "notes": "strong-verb principal parts (seeded)"
+    },
+    "lex-de-unterschreiben": {
+      "aux": "haben",
+      "forms": {
+        "praet_3sg": "unterschrieb",
+        "partizip_ii": "unterschrieben"
+      },
+      "notes": "strong-verb principal parts (seeded)",
+      "verb_class": "inseparable",
+      "prefix": "unter",
+      "stem": "schreiben"
     }
   }
 }

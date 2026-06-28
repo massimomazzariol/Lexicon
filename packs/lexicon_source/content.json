@@ -8073,22 +8073,6 @@
         "source": "ai",
         "generated_at": "2026-06-26T16:06:46.969Z"
       }
-    },
-    {
-      "concept_id": "concept-a2-wettbewerb-2",
-      "pos": "noun",
-      "difficulty_score_auto": 35,
-      "level_auto": "A2",
-      "level_override": null,
-      "domain_tags": [
-        "event"
-      ],
-      "notes": null,
-      "review_status": "reviewed",
-      "metadata_json": {
-        "source": "ai",
-        "generated_at": "2026-06-26T16:06:46.969Z"
-      }
     }
   ],
   "lexemes": [
@@ -40017,57 +40001,6 @@
       "status": "approved",
       "notes": null,
       "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-de-a2-wettbewerb-2",
-      "concept_id": "concept-a2-wettbewerb-2",
-      "lang": "de",
-      "text": "der Wettbewerb",
-      "frequency_rank": null,
-      "lemma": "Wettbewerb",
-      "pos": "noun",
-      "gender": "masc",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-it-a2-wettbewerb-2",
-      "concept_id": "concept-a2-wettbewerb-2",
-      "lang": "it",
-      "text": "il concorso",
-      "frequency_rank": null,
-      "lemma": "concorso",
-      "pos": "noun",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-en-a2-wettbewerb-2",
-      "concept_id": "concept-a2-wettbewerb-2",
-      "lang": "en",
-      "text": "contest",
-      "frequency_rank": null,
-      "lemma": "contest",
-      "pos": "noun",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
     }
   ],
   "examples": [
@@ -56277,39 +56210,6 @@
       "notes": null,
       "review_status": "reviewed",
       "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-de-a2-wettbewerb-2",
-      "concept_id": "concept-a2-wettbewerb-2",
-      "lang": "de",
-      "sentence": "Er hat an einem Wettbewerb teilgenommen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-it-a2-wettbewerb-2",
-      "concept_id": "concept-a2-wettbewerb-2",
-      "lang": "it",
-      "sentence": "Ha partecipato a un concorso.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-en-a2-wettbewerb-2",
-      "concept_id": "concept-a2-wettbewerb-2",
-      "lang": "en",
-      "sentence": "He participated in a contest.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
     }
   ],
   "clusters": [
@@ -58641,11 +58541,6 @@
       "cluster_id": "faa4100c-78bf-16dc-ac91-dc4e1d180aad",
       "lexeme_id": "lexeme-en-a2-wettbewerb",
       "position": 1
-    },
-    {
-      "cluster_id": "faa4100c-78bf-16dc-ac91-dc4e1d180aad",
-      "lexeme_id": "lexeme-en-a2-wettbewerb-2",
-      "position": 2
     },
     {
       "cluster_id": "9e526461-ad85-16db-398b-675389a40254",
@@ -86663,7 +86558,9 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
-      "synonyms_json": [],
+      "synonyms_json": [
+        "concorso"
+      ],
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
@@ -86675,45 +86572,9 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a2-wettbewerb-2",
-      "lang": "de",
-      "short_definition": "Ein Ereignis, bei dem mehrere Teilnehmer gegeneinander antreten.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
       "synonyms_json": [
-        "Wettstreit"
+        "contest"
       ],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a2-wettbewerb-2",
-      "lang": "it",
-      "short_definition": "Un evento in cui diversi partecipanti competono tra loro.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a2-wettbewerb-2",
-      "lang": "en",
-      "short_definition": "An event where multiple participants compete against each other.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
@@ -142628,127 +142489,6 @@
       "number_value": "sg",
       "grammatical_case": "none",
       "definiteness": "def",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:noun-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "sg_core"
-      }
-    },
-    {
-      "form_id": "6f3c0191-6e66-925e-015b-abc2cbb66e9b",
-      "lexeme_id": "lexeme-de-a2-wettbewerb-2",
-      "lang": "de",
-      "surface": "der Wettbewerb",
-      "surface_search": "der wettbewerb",
-      "number_value": "sg",
-      "grammatical_case": "nom",
-      "definiteness": "def",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "language-plugin:de:noun-morphology",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "nom_sg_def",
-        "grammar_tags": []
-      }
-    },
-    {
-      "form_id": "b3eb622c-71b3-53e2-e389-e6d887a54d17",
-      "lexeme_id": "lexeme-de-a2-wettbewerb-2",
-      "lang": "de",
-      "surface": "den Wettbewerb",
-      "surface_search": "den wettbewerb",
-      "number_value": "sg",
-      "grammatical_case": "acc",
-      "definiteness": "def",
-      "form_role": "extended",
-      "status": "approved",
-      "sort_order": 2,
-      "plugin_source": "language-plugin:de:noun-morphology",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "acc_sg_def",
-        "grammar_tags": [
-          "accusative",
-          "singular"
-        ]
-      }
-    },
-    {
-      "form_id": "dc6cc7c4-5eae-58a9-9bfb-757dccc89444",
-      "lexeme_id": "lexeme-de-a2-wettbewerb-2",
-      "lang": "de",
-      "surface": "dem Wettbewerb",
-      "surface_search": "dem wettbewerb",
-      "number_value": "sg",
-      "grammatical_case": "dat",
-      "definiteness": "def",
-      "form_role": "extended",
-      "status": "approved",
-      "sort_order": 3,
-      "plugin_source": "language-plugin:de:noun-morphology",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "dat_sg_def",
-        "grammar_tags": [
-          "dative",
-          "singular"
-        ]
-      }
-    },
-    {
-      "form_id": "89c1f4ee-0438-07df-d6f4-e58e351052e7",
-      "lexeme_id": "lexeme-de-a2-wettbewerb-2",
-      "lang": "de",
-      "surface": "des Wettbewerbs",
-      "surface_search": "des wettbewerbs",
-      "number_value": "sg",
-      "grammatical_case": "gen",
-      "definiteness": "def",
-      "form_role": "extended",
-      "status": "approved",
-      "sort_order": 4,
-      "plugin_source": "language-plugin:de:noun-morphology",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "gen_sg_def",
-        "grammar_tags": [
-          "genitive",
-          "singular"
-        ]
-      }
-    },
-    {
-      "form_id": "74ed1ff6-0fa0-cd2d-8219-e7a971807a1f",
-      "lexeme_id": "lexeme-it-a2-wettbewerb-2",
-      "lang": "it",
-      "surface": "il concorso",
-      "surface_search": "il concorso",
-      "number_value": "sg",
-      "grammatical_case": "none",
-      "definiteness": "def",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:noun-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "sg_core"
-      }
-    },
-    {
-      "form_id": "70d8689d-26db-6cb9-922a-515933ab3766",
-      "lexeme_id": "lexeme-en-a2-wettbewerb-2",
-      "lang": "en",
-      "surface": "contest",
-      "surface_search": "contest",
-      "number_value": "sg",
-      "grammatical_case": "none",
-      "definiteness": "bare",
       "form_role": "core",
       "status": "approved",
       "sort_order": 0,

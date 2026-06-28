@@ -11,14 +11,11 @@
 // resolved by an override. Strong/irregular forms and the haben/sein auxiliary are not derived
 // here - they come from lexeme_morphology_overrides.json (curated), never from a model.
 
-export const GERMAN_SEPARABLE_PREFIXES = [
-  'zurück', 'zusammen', 'vorbei', 'heraus', 'herein', 'herunter', 'herauf', 'hervor',
-  'hinaus', 'hinein', 'hinauf', 'hinunter', 'entgegen', 'weiter', 'empor', 'nieder',
-  'voraus', 'voran', 'davon', 'weg', 'los', 'her', 'hin', 'fort', 'heim', 'teil',
-  'fest', 'hoch', 'frei', 'mit', 'nach', 'vor', 'ab', 'an', 'auf', 'aus', 'bei', 'ein', 'zu'
-];
-export const GERMAN_INSEPARABLE_PREFIXES = ['miss', 'wider', 'emp', 'ent', 'ver', 'zer', 'be', 'ge', 'er'];
-export const GERMAN_VARIABLE_PREFIXES = ['durch', 'über', 'unter', 'hinter', 'wieder', 'um'];
+// Prefix lists are DATA, not logic: they live in german_verb_prefixes.json and are loaded here.
+import germanVerbPrefixes from './german_verb_prefixes.json' with { type: 'json' };
+export const GERMAN_SEPARABLE_PREFIXES = germanVerbPrefixes.separable;
+export const GERMAN_INSEPARABLE_PREFIXES = germanVerbPrefixes.inseparable;
+export const GERMAN_VARIABLE_PREFIXES = germanVerbPrefixes.variable;
 
 export const GERMAN_VERB_PLUGIN_SOURCE = 'language-plugin:de:verb-morphology';
 

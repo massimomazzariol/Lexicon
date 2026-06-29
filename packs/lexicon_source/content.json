@@ -62744,17 +62744,25 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [],
+      "synonyms_json": [
+        "rosso acceso",
+        "rosso vivo",
+        "rosso intenso"
+      ],
       "antonyms_json": [
         "bianco",
-        "nero"
+        "nero",
+        "grigio"
       ],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "Colors have no direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null
+      "hint_text": null,
+      "generated_by": "ai",
+      "confidence": "medium",
+      "review_status": "needs_review"
     },
     {
       "concept_id": "9d3ef2fe-beae-af51-b2f1-15508c1302ba",
@@ -63830,13 +63838,25 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [],
+      "synonyms_json": [
+        "travel",
+        "move",
+        "journey",
+        "proceed"
+      ],
       "antonyms_json": [
         "stay",
-        "remain"
+        "remain",
+        "to stay",
+        "to remain",
+        "to stop",
+        "to return"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "generated_by": "ai",
+      "confidence": "high",
+      "review_status": "reviewed"
     },
     {
       "concept_id": "13bf153f-5b95-81b3-6ec2-646e49af8f3f",
@@ -63881,13 +63901,20 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [],
+      "synonyms_json": [
+        "arrive",
+        "approach"
+      ],
       "antonyms_json": [
         "go away",
-        "depart"
+        "depart",
+        "leave"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "generated_by": "ai",
+      "confidence": "high",
+      "review_status": "reviewed"
     },
     {
       "concept_id": "a6a02266-de00-f0d8-462f-29e0e630ad11",
@@ -63934,14 +63961,23 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [],
-      "antonyms_json": [],
+      "synonyms_json": [
+        "to tell",
+        "to communicate"
+      ],
+      "antonyms_json": [
+        "not to say",
+        "to conceal"
+      ],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "No direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null
+      "hint_text": null,
+      "generated_by": "ai",
+      "confidence": "high",
+      "review_status": "reviewed"
     },
     {
       "concept_id": "13f0479b-0b4b-23e7-be43-7c1fece87b8d",
@@ -63950,14 +63986,20 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [],
+      "synonyms_json": [
+        "raccontare",
+        "comunicare"
+      ],
       "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "No direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null
+      "hint_text": null,
+      "generated_by": "ai",
+      "confidence": "high",
+      "review_status": "reviewed"
     },
     {
       "concept_id": "ca09ed6c-97c5-3209-56ec-117bb486ac72",
@@ -63986,10 +64028,19 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [],
-      "antonyms_json": [],
+      "synonyms_json": [
+        "to hand over",
+        "to pass on",
+        "to transfer"
+      ],
+      "antonyms_json": [
+        "take"
+      ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "generated_by": "ai",
+      "confidence": "high",
+      "review_status": "reviewed"
     },
     {
       "concept_id": "ca09ed6c-97c5-3209-56ec-117bb486ac72",
@@ -63998,10 +64049,20 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [],
-      "antonyms_json": [],
+      "synonyms_json": [
+        "concedere",
+        "trasferire",
+        "donare",
+        "lasciare"
+      ],
+      "antonyms_json": [
+        "prendere"
+      ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "generated_by": "ai",
+      "confidence": "high",
+      "review_status": "reviewed"
     },
     {
       "concept_id": "f392f36d-7108-8400-a824-a35262d7340a",

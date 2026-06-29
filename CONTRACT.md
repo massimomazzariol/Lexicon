@@ -119,6 +119,16 @@ Records carry `pack_id`-scoped ids and the fields shown in the golden fixture
 which is the canonical example of the payload shape. `*_json` fields may be a
 JSON value or a pre-encoded JSON string.
 
+Optional fields are additive and consumers MUST ignore unknown fields (the
+`contract_version` does not bump for an added optional field). Current optional
+field:
+
+- `concept_definitions[].synonym_tiers_json` - a map `{ "<answer_text>":
+  "exact" | "close" | "loose" }` giving each accepted alternative a correctness
+  tier for partial-credit grading. Absent or untiered entries default to
+  `"close"`. The primary translation is always `exact`. Keys are answer strings
+  (they may be other concepts' words or free phrases), not lexeme ids.
+
 ## GitHub Release asset naming (flattened)
 
 When the distribution is published to a GitHub Release, asset names cannot

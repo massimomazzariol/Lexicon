@@ -6,6 +6,7 @@
     "pipeline:dry": "node tools/pipeline/run_pack_pipeline.mjs --with-forms --dry-run",
     "rebuild": "node tools/pipeline/rebuild_runtime_packs.mjs",
     "content:gate": "node tools/scripts/review_autopromote.mjs",
+    "tier": "node tools/scripts/tier_synonyms.mjs",
     "doctor": "node tools/scripts/doctor.mjs",
     "lexicon": "node tools/scripts/lexicon.mjs",
     "release": "node tools/pipeline/rebuild_runtime_packs.mjs --with-distribution",

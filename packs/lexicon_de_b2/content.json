@@ -1477,7 +1477,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "strong-verb principal parts (seeded)",
       "is_active": true
     },
     {
@@ -1851,7 +1851,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -1919,7 +1919,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -1987,7 +1987,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -2055,7 +2055,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -2259,7 +2259,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "strong-verb principal parts (seeded)",
       "is_active": true
     },
     {
@@ -2395,7 +2395,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -2514,7 +2514,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -4265,7 +4265,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -4316,7 +4316,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "strong-verb principal parts (seeded)",
       "is_active": true
     },
     {
@@ -4877,7 +4877,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "strong-verb principal parts (seeded)",
       "is_active": true
     },
     {
@@ -4979,7 +4979,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -5285,7 +5285,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -5387,7 +5387,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -5574,7 +5574,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -5625,7 +5625,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -5676,7 +5676,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -25729,15 +25729,20 @@
       "context_tags_json": [],
       "source": "migrated_from_gloss_alias",
       "synonyms_json": [
+        "Ich verstehe kein Wort",
         "Ich verstehe nichts",
-        "Ich verstehe nicht ein Wort"
+        "Ich habe keinen Schimmer"
       ],
       "antonyms_json": [
         "Ich verstehe alles",
-        "Mir ist alles klar"
+        "Mir ist alles klar",
+        "Es ist mir alles klar"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "generated_by": "ai",
+      "confidence": "high",
+      "review_status": "reviewed"
     },
     {
       "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",

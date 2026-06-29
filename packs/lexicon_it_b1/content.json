@@ -2223,7 +2223,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "strong-verb principal parts (seeded)",
       "is_active": true
     },
     {
@@ -2937,7 +2937,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "strong-verb principal parts (seeded)",
       "is_active": true
     },
     {
@@ -3192,7 +3192,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -3345,7 +3345,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -3447,7 +3447,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -3498,7 +3498,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -3549,7 +3549,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -5334,7 +5334,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -5844,7 +5844,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -6762,7 +6762,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -28185,14 +28185,6 @@
       "translation_text": null
     },
     {
-      "example_id": "db52595e-8099-b716-a5cb-e605fd77fc16",
-      "concept_id": "concept-b1-feststellen",
-      "lang": "de",
-      "sentence": "Wir haben festgestellt, dass die Daten unvollständig sind.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
       "example_id": "c8339820-0ae0-9930-5ff8-6fb1f3f84182",
       "concept_id": "concept-b1-feststellen",
       "lang": "it",
@@ -28221,14 +28213,6 @@
       "concept_id": "concept-b1-behandeln",
       "lang": "it",
       "sentence": "L'articolo tratta un problema attuale.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "694b09e4-8dce-0c07-cb07-785f338eb412",
-      "concept_id": "concept-b1-ankuendigen",
-      "lang": "de",
-      "sentence": "Die Firma hat neue Änderungen angekündigt.",
       "translation_lang": null,
       "translation_text": null
     },
@@ -30128,17 +30112,6 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-de-fix-ablehnen",
-      "concept_id": "concept-b1-ablehnen",
-      "lang": "de",
-      "sentence": "Er hat die Einladung abgelehnt.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-it-fix-ablehnen",
       "concept_id": "concept-b1-ablehnen",
       "lang": "it",
@@ -30161,32 +30134,10 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-de-fix-durchfuhren",
-      "concept_id": "concept-b1-durchfuehren",
-      "lang": "de",
-      "sentence": "Er wird die Mission morgen durchführen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-en-fix-durchfuhren",
       "concept_id": "concept-b1-durchfuehren",
       "lang": "en",
       "sentence": "The project was carried out efficiently.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-umsetzen",
-      "concept_id": "concept-b1-umsetzen",
-      "lang": "de",
-      "sentence": "Der Entwickler hat das Konzept in ein funktionierendes System umgesetzt.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -31600,7 +31551,6 @@
       "context_tags_json": [],
       "source": "migrated_from_gloss_alias",
       "synonyms_json": [
-        "alla conclusione",
         "in ultima analisi"
       ],
       "antonyms_json": [
@@ -34144,7 +34094,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "über die Dauer hinweg",
         "langfristig"
       ],
       "antonyms_json": [
@@ -35516,9 +35465,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "Ausnahmefall"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "die Regel",
         "Regel",
@@ -36521,9 +36468,9 @@
       "auto": true
     },
     {
-      "cluster_id": "5ce44a53-0a03-7382-bfee-d5743adcd4d0",
+      "cluster_id": "c586b749-c86f-cbeb-72b7-1b6a98e20257",
       "lang": "de",
-      "label": "synonyms: immer noch +4",
+      "label": "synonyms: immer noch +2",
       "type": "semantic",
       "auto": true
     },
@@ -36615,13 +36562,6 @@
       "cluster_id": "026b9623-e414-063c-c248-b183d13c7fb1",
       "lang": "de",
       "label": "synonyms: vermeiden +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "783f34f5-1b0e-550f-ff6b-011d881e02ab",
-      "lang": "de",
-      "label": "synonyms: im Durchschnitt",
       "type": "semantic",
       "auto": true
     },
@@ -36914,14 +36854,14 @@
       "position": 2
     },
     {
-      "cluster_id": "5ce44a53-0a03-7382-bfee-d5743adcd4d0",
+      "cluster_id": "c586b749-c86f-cbeb-72b7-1b6a98e20257",
       "lexeme_id": "lex-de-trotzdem",
       "position": 1
     },
     {
-      "cluster_id": "5ce44a53-0a03-7382-bfee-d5743adcd4d0",
+      "cluster_id": "c586b749-c86f-cbeb-72b7-1b6a98e20257",
       "lexeme_id": "lex-de-stattdessen",
-      "position": 4
+      "position": 2
     },
     {
       "cluster_id": "cec21550-ff70-fe0b-2153-f1251ca58e37",
@@ -36992,11 +36932,6 @@
       "cluster_id": "026b9623-e414-063c-c248-b183d13c7fb1",
       "lexeme_id": "lex-de-verhindern",
       "position": 2
-    },
-    {
-      "cluster_id": "783f34f5-1b0e-550f-ff6b-011d881e02ab",
-      "lexeme_id": "lex-de-durchschnittlich",
-      "position": 1
     },
     {
       "cluster_id": "ac554226-03d5-1bf2-ea57-951a9b80229d",

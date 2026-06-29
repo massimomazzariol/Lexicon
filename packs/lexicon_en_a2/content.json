@@ -1594,22 +1594,6 @@
       "review_status": "reviewed"
     },
     {
-      "concept_id": "concept-a2-eilen",
-      "pos": "verb",
-      "difficulty_score_auto": 35,
-      "level_auto": "A2",
-      "level_override": null,
-      "domain_tags": [
-        "motion"
-      ],
-      "notes": null,
-      "review_status": "reviewed",
-      "metadata_json": {
-        "source": "ai",
-        "generated_at": "2026-06-17T16:28:57.032Z"
-      }
-    },
-    {
       "concept_id": "concept-a2-sprinten",
       "pos": "verb",
       "difficulty_score_auto": 35,
@@ -1688,38 +1672,6 @@
       }
     },
     {
-      "concept_id": "concept-a2-eilen-2",
-      "pos": "verb",
-      "difficulty_score_auto": 35,
-      "level_auto": "A2",
-      "level_override": null,
-      "domain_tags": [
-        "motion"
-      ],
-      "notes": null,
-      "review_status": "reviewed",
-      "metadata_json": {
-        "source": "ai",
-        "generated_at": "2026-06-26T16:06:46.969Z"
-      }
-    },
-    {
-      "concept_id": "concept-a2-sprinten-2",
-      "pos": "verb",
-      "difficulty_score_auto": 35,
-      "level_auto": "A2",
-      "level_override": null,
-      "domain_tags": [
-        "sports"
-      ],
-      "notes": null,
-      "review_status": "reviewed",
-      "metadata_json": {
-        "source": "ai",
-        "generated_at": "2026-06-26T16:06:46.969Z"
-      }
-    },
-    {
       "concept_id": "concept-a2-wettbewerb",
       "pos": "noun",
       "difficulty_score_auto": 35,
@@ -1728,22 +1680,6 @@
       "domain_tags": [
         "sport",
         "business"
-      ],
-      "notes": null,
-      "review_status": "reviewed",
-      "metadata_json": {
-        "source": "ai",
-        "generated_at": "2026-06-26T16:06:46.969Z"
-      }
-    },
-    {
-      "concept_id": "concept-a2-wettbewerb-2",
-      "pos": "noun",
-      "difficulty_score_auto": 35,
-      "level_auto": "A2",
-      "level_override": null,
-      "domain_tags": [
-        "event"
       ],
       "notes": null,
       "review_status": "reviewed",
@@ -1836,7 +1772,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -2499,7 +2435,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -2601,7 +2537,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -2754,7 +2690,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -3247,7 +3183,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "strong-verb principal parts (seeded)",
       "is_active": true
     },
     {
@@ -3298,7 +3234,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "strong-verb principal parts (seeded)",
       "is_active": true
     },
     {
@@ -3349,7 +3285,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "strong-verb principal parts (seeded)",
       "is_active": true
     },
     {
@@ -4471,7 +4407,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -4522,7 +4458,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -4573,7 +4509,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -4624,7 +4560,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "strong-verb principal parts (seeded)",
       "is_active": true
     },
     {
@@ -4879,7 +4815,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -5032,7 +4968,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "strong-verb principal parts (seeded)",
       "is_active": true
     },
     {
@@ -5083,7 +5019,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -5134,7 +5070,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -6409,7 +6345,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -7790,57 +7726,6 @@
       "is_active": true
     },
     {
-      "lexeme_id": "lexeme-de-a2-eilen",
-      "concept_id": "concept-a2-eilen",
-      "lang": "de",
-      "text": "eilen",
-      "frequency_rank": null,
-      "lemma": "eilen",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-it-a2-eilen",
-      "concept_id": "concept-a2-eilen",
-      "lang": "it",
-      "text": "affrettarsi",
-      "frequency_rank": null,
-      "lemma": "affrettarsi",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-en-a2-eilen",
-      "concept_id": "concept-a2-eilen",
-      "lang": "en",
-      "text": "hasten",
-      "frequency_rank": null,
-      "lemma": "hasten",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
       "lexeme_id": "lexeme-de-a2-sprinten",
       "concept_id": "concept-a2-sprinten",
       "lang": "de",
@@ -8007,7 +7892,7 @@
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "separable verb decomposition (seeded)",
       "is_active": true
     },
     {
@@ -8096,108 +7981,6 @@
       "is_active": true
     },
     {
-      "lexeme_id": "lexeme-de-a2-eilen-2",
-      "concept_id": "concept-a2-eilen-2",
-      "lang": "de",
-      "text": "eilen",
-      "frequency_rank": null,
-      "lemma": "eilen",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-it-a2-eilen-2",
-      "concept_id": "concept-a2-eilen-2",
-      "lang": "it",
-      "text": "affrettarsi",
-      "frequency_rank": null,
-      "lemma": "affrettarsi",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-en-a2-eilen-2",
-      "concept_id": "concept-a2-eilen-2",
-      "lang": "en",
-      "text": "hasten",
-      "frequency_rank": null,
-      "lemma": "hasten",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-de-a2-sprinten-2",
-      "concept_id": "concept-a2-sprinten-2",
-      "lang": "de",
-      "text": "sprinten",
-      "frequency_rank": null,
-      "lemma": "sprinten",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-it-a2-sprinten-2",
-      "concept_id": "concept-a2-sprinten-2",
-      "lang": "it",
-      "text": "sprintare",
-      "frequency_rank": null,
-      "lemma": "sprintare",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-en-a2-sprinten-2",
-      "concept_id": "concept-a2-sprinten-2",
-      "lang": "en",
-      "text": "sprint",
-      "frequency_rank": null,
-      "lemma": "sprint",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
       "lexeme_id": "lexeme-de-a2-wettbewerb",
       "concept_id": "concept-a2-wettbewerb",
       "lang": "de",
@@ -8238,57 +8021,6 @@
       "text": "the competition",
       "frequency_rank": null,
       "lemma": "competition",
-      "pos": "noun",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-de-a2-wettbewerb-2",
-      "concept_id": "concept-a2-wettbewerb-2",
-      "lang": "de",
-      "text": "der Wettbewerb",
-      "frequency_rank": null,
-      "lemma": "Wettbewerb",
-      "pos": "noun",
-      "gender": "masc",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-it-a2-wettbewerb-2",
-      "concept_id": "concept-a2-wettbewerb-2",
-      "lang": "it",
-      "text": "il concorso",
-      "frequency_rank": null,
-      "lemma": "concorso",
-      "pos": "noun",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-en-a2-wettbewerb-2",
-      "concept_id": "concept-a2-wettbewerb-2",
-      "lang": "en",
-      "text": "contest",
-      "frequency_rank": null,
-      "lemma": "contest",
       "pos": "noun",
       "gender": "none",
       "countability": "none",
@@ -18876,64 +18608,6 @@
       }
     },
     {
-      "form_id": "a24f9a37-efc1-c60c-bf59-33bb8365d39e",
-      "lexeme_id": "lexeme-de-a2-eilen",
-      "lang": "de",
-      "surface": "eilen",
-      "surface_search": "eilen",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core",
-        "verb_class": "simple",
-        "prefix": null,
-        "stem": "eilen",
-        "aux": "haben"
-      }
-    },
-    {
-      "form_id": "727e016e-9f87-97fd-959e-4d0f4fa0b9a2",
-      "lexeme_id": "lexeme-it-a2-eilen",
-      "lang": "it",
-      "surface": "affrettarsi",
-      "surface_search": "affrettarsi",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "5908251a-723d-c81d-ec42-ab480a42aa70",
-      "lexeme_id": "lexeme-en-a2-eilen",
-      "lang": "en",
-      "surface": "hasten",
-      "surface_search": "hasten",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
       "form_id": "148db4ae-ca76-b3ef-8244-28c7204f52ee",
       "lexeme_id": "lexeme-de-a2-sprinten",
       "lang": "de",
@@ -19350,122 +19024,6 @@
       }
     },
     {
-      "form_id": "707f72aa-200e-b70c-2822-31a8ee09d02b",
-      "lexeme_id": "lexeme-de-a2-eilen-2",
-      "lang": "de",
-      "surface": "eilen",
-      "surface_search": "eilen",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core",
-        "verb_class": "simple",
-        "prefix": null,
-        "stem": "eilen",
-        "aux": "haben"
-      }
-    },
-    {
-      "form_id": "abbd5edb-4191-5192-f00e-449314b42cfa",
-      "lexeme_id": "lexeme-it-a2-eilen-2",
-      "lang": "it",
-      "surface": "affrettarsi",
-      "surface_search": "affrettarsi",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "e83ee2bd-239a-05a2-6c38-57f4da244b06",
-      "lexeme_id": "lexeme-en-a2-eilen-2",
-      "lang": "en",
-      "surface": "hasten",
-      "surface_search": "hasten",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "daa52480-9575-fd60-f13a-6acae562a90c",
-      "lexeme_id": "lexeme-de-a2-sprinten-2",
-      "lang": "de",
-      "surface": "sprinten",
-      "surface_search": "sprinten",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core",
-        "verb_class": "simple",
-        "prefix": null,
-        "stem": "sprinten",
-        "aux": "haben"
-      }
-    },
-    {
-      "form_id": "64c5f976-40f5-5a18-f179-96418cae585f",
-      "lexeme_id": "lexeme-it-a2-sprinten-2",
-      "lang": "it",
-      "surface": "sprintare",
-      "surface_search": "sprintare",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "83d13c80-aabd-c5c4-8ab3-cc9b235ae1fa",
-      "lexeme_id": "lexeme-en-a2-sprinten-2",
-      "lang": "en",
-      "surface": "sprint",
-      "surface_search": "sprint",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
       "form_id": "7ed57821-c6f9-44a2-f15e-242f9cc7071f",
       "lexeme_id": "lexeme-de-a2-wettbewerb",
       "lang": "de",
@@ -19577,127 +19135,6 @@
       "number_value": "sg",
       "grammatical_case": "none",
       "definiteness": "def",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:noun-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "sg_core"
-      }
-    },
-    {
-      "form_id": "a7b13213-ea3d-f34e-f2be-a9bd7f53c114",
-      "lexeme_id": "lexeme-de-a2-wettbewerb-2",
-      "lang": "de",
-      "surface": "der Wettbewerb",
-      "surface_search": "der wettbewerb",
-      "number_value": "sg",
-      "grammatical_case": "nom",
-      "definiteness": "def",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "language-plugin:de:noun-morphology",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "nom_sg_def",
-        "grammar_tags": []
-      }
-    },
-    {
-      "form_id": "6d76d04a-8124-9e7a-ba9a-267f94585114",
-      "lexeme_id": "lexeme-de-a2-wettbewerb-2",
-      "lang": "de",
-      "surface": "den Wettbewerb",
-      "surface_search": "den wettbewerb",
-      "number_value": "sg",
-      "grammatical_case": "acc",
-      "definiteness": "def",
-      "form_role": "extended",
-      "status": "approved",
-      "sort_order": 2,
-      "plugin_source": "language-plugin:de:noun-morphology",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "acc_sg_def",
-        "grammar_tags": [
-          "accusative",
-          "singular"
-        ]
-      }
-    },
-    {
-      "form_id": "db79b191-1e05-e66b-2b72-8da9bc9f2ef3",
-      "lexeme_id": "lexeme-de-a2-wettbewerb-2",
-      "lang": "de",
-      "surface": "dem Wettbewerb",
-      "surface_search": "dem wettbewerb",
-      "number_value": "sg",
-      "grammatical_case": "dat",
-      "definiteness": "def",
-      "form_role": "extended",
-      "status": "approved",
-      "sort_order": 3,
-      "plugin_source": "language-plugin:de:noun-morphology",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "dat_sg_def",
-        "grammar_tags": [
-          "dative",
-          "singular"
-        ]
-      }
-    },
-    {
-      "form_id": "e43cb2e6-3a7c-e822-6930-2916e3b11819",
-      "lexeme_id": "lexeme-de-a2-wettbewerb-2",
-      "lang": "de",
-      "surface": "des Wettbewerbs",
-      "surface_search": "des wettbewerbs",
-      "number_value": "sg",
-      "grammatical_case": "gen",
-      "definiteness": "def",
-      "form_role": "extended",
-      "status": "approved",
-      "sort_order": 4,
-      "plugin_source": "language-plugin:de:noun-morphology",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "gen_sg_def",
-        "grammar_tags": [
-          "genitive",
-          "singular"
-        ]
-      }
-    },
-    {
-      "form_id": "b7094130-9e6e-c4b0-e5cd-33184f98b2c3",
-      "lexeme_id": "lexeme-it-a2-wettbewerb-2",
-      "lang": "it",
-      "surface": "il concorso",
-      "surface_search": "il concorso",
-      "number_value": "sg",
-      "grammatical_case": "none",
-      "definiteness": "def",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:noun-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "sg_core"
-      }
-    },
-    {
-      "form_id": "14c27ba8-58b9-b94a-15b6-2bab13e378e0",
-      "lexeme_id": "lexeme-en-a2-wettbewerb-2",
-      "lang": "en",
-      "surface": "contest",
-      "surface_search": "contest",
-      "number_value": "sg",
-      "grammatical_case": "none",
-      "definiteness": "bare",
       "form_role": "core",
       "status": "approved",
       "sort_order": 0,
@@ -29476,78 +28913,6 @@
       "editor_notes": null
     },
     {
-      "study_unit_id": "9b9f6078-11c6-6a11-3704-83a20201bee9",
-      "concept_id": "concept-a2-eilen",
-      "source_lang": "de",
-      "target_lang": "en",
-      "unit_kind": "core_prod",
-      "source_form_id": "a24f9a37-efc1-c60c-bf59-33bb8365d39e",
-      "primary_expected_form_id": "5908251a-723d-c81d-ec42-ab480a42aa70",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
-      "study_unit_id": "3e8b45f9-f605-edb1-bf74-ba62cf58295a",
-      "concept_id": "concept-a2-eilen",
-      "source_lang": "en",
-      "target_lang": "de",
-      "unit_kind": "core_rec",
-      "source_form_id": "5908251a-723d-c81d-ec42-ab480a42aa70",
-      "primary_expected_form_id": "a24f9a37-efc1-c60c-bf59-33bb8365d39e",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
-      "study_unit_id": "02e8f2bd-a10f-a31e-ad57-9bce487f5999",
-      "concept_id": "concept-a2-eilen",
-      "source_lang": "it",
-      "target_lang": "en",
-      "unit_kind": "core_prod",
-      "source_form_id": "727e016e-9f87-97fd-959e-4d0f4fa0b9a2",
-      "primary_expected_form_id": "5908251a-723d-c81d-ec42-ab480a42aa70",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
-      "study_unit_id": "ea7ecb9f-1ca2-b8a0-a143-77526e34fd08",
-      "concept_id": "concept-a2-eilen",
-      "source_lang": "en",
-      "target_lang": "it",
-      "unit_kind": "core_rec",
-      "source_form_id": "5908251a-723d-c81d-ec42-ab480a42aa70",
-      "primary_expected_form_id": "727e016e-9f87-97fd-959e-4d0f4fa0b9a2",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
       "study_unit_id": "ec532827-cd61-ef48-ae80-57917cb1d35f",
       "concept_id": "concept-a2-sprinten",
       "source_lang": "de",
@@ -29908,150 +29273,6 @@
       "editor_notes": null
     },
     {
-      "study_unit_id": "71754171-10d6-2a8d-a033-24280c177699",
-      "concept_id": "concept-a2-eilen-2",
-      "source_lang": "de",
-      "target_lang": "en",
-      "unit_kind": "core_prod",
-      "source_form_id": "707f72aa-200e-b70c-2822-31a8ee09d02b",
-      "primary_expected_form_id": "e83ee2bd-239a-05a2-6c38-57f4da244b06",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
-      "study_unit_id": "70283d7e-4c2f-86a4-805a-3560435ef5c5",
-      "concept_id": "concept-a2-eilen-2",
-      "source_lang": "en",
-      "target_lang": "de",
-      "unit_kind": "core_rec",
-      "source_form_id": "e83ee2bd-239a-05a2-6c38-57f4da244b06",
-      "primary_expected_form_id": "707f72aa-200e-b70c-2822-31a8ee09d02b",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
-      "study_unit_id": "b0080273-3966-1fe9-b58d-d8458fed897d",
-      "concept_id": "concept-a2-eilen-2",
-      "source_lang": "it",
-      "target_lang": "en",
-      "unit_kind": "core_prod",
-      "source_form_id": "abbd5edb-4191-5192-f00e-449314b42cfa",
-      "primary_expected_form_id": "e83ee2bd-239a-05a2-6c38-57f4da244b06",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
-      "study_unit_id": "6640d5ab-4314-c377-1963-97a83880db5f",
-      "concept_id": "concept-a2-eilen-2",
-      "source_lang": "en",
-      "target_lang": "it",
-      "unit_kind": "core_rec",
-      "source_form_id": "e83ee2bd-239a-05a2-6c38-57f4da244b06",
-      "primary_expected_form_id": "abbd5edb-4191-5192-f00e-449314b42cfa",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
-      "study_unit_id": "3a9ab712-8c0e-6fde-509e-26d6391981a2",
-      "concept_id": "concept-a2-sprinten-2",
-      "source_lang": "de",
-      "target_lang": "en",
-      "unit_kind": "core_prod",
-      "source_form_id": "daa52480-9575-fd60-f13a-6acae562a90c",
-      "primary_expected_form_id": "83d13c80-aabd-c5c4-8ab3-cc9b235ae1fa",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
-      "study_unit_id": "04430cee-a52b-42d8-ba15-84cf21c37cb4",
-      "concept_id": "concept-a2-sprinten-2",
-      "source_lang": "en",
-      "target_lang": "de",
-      "unit_kind": "core_rec",
-      "source_form_id": "83d13c80-aabd-c5c4-8ab3-cc9b235ae1fa",
-      "primary_expected_form_id": "daa52480-9575-fd60-f13a-6acae562a90c",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
-      "study_unit_id": "784e0fed-a4a5-ad26-349d-8ae9789a7781",
-      "concept_id": "concept-a2-sprinten-2",
-      "source_lang": "it",
-      "target_lang": "en",
-      "unit_kind": "core_prod",
-      "source_form_id": "64c5f976-40f5-5a18-f179-96418cae585f",
-      "primary_expected_form_id": "83d13c80-aabd-c5c4-8ab3-cc9b235ae1fa",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
-      "study_unit_id": "1e1216ba-b2ed-432b-5ec0-1064f6139319",
-      "concept_id": "concept-a2-sprinten-2",
-      "source_lang": "en",
-      "target_lang": "it",
-      "unit_kind": "core_rec",
-      "source_form_id": "83d13c80-aabd-c5c4-8ab3-cc9b235ae1fa",
-      "primary_expected_form_id": "64c5f976-40f5-5a18-f179-96418cae585f",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
       "study_unit_id": "679d191f-f623-8aff-b120-af8f7374d68c",
       "concept_id": "concept-a2-wettbewerb",
       "source_lang": "de",
@@ -30122,78 +29343,6 @@
       "difficulty_override": null,
       "level_override": null,
       "editor_notes": null
-    },
-    {
-      "study_unit_id": "65ad888d-03c4-25e4-6f85-4e73b709189f",
-      "concept_id": "concept-a2-wettbewerb-2",
-      "source_lang": "de",
-      "target_lang": "en",
-      "unit_kind": "core_prod",
-      "source_form_id": "a7b13213-ea3d-f34e-f2be-a9bd7f53c114",
-      "primary_expected_form_id": "14c27ba8-58b9-b94a-15b6-2bab13e378e0",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
-      "study_unit_id": "3ce942b7-f4db-6b9e-78f2-a9023db6d8f8",
-      "concept_id": "concept-a2-wettbewerb-2",
-      "source_lang": "en",
-      "target_lang": "de",
-      "unit_kind": "core_rec",
-      "source_form_id": "14c27ba8-58b9-b94a-15b6-2bab13e378e0",
-      "primary_expected_form_id": "a7b13213-ea3d-f34e-f2be-a9bd7f53c114",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
-      "study_unit_id": "97a414c0-5aae-c26f-101a-62d6c13ab11c",
-      "concept_id": "concept-a2-wettbewerb-2",
-      "source_lang": "it",
-      "target_lang": "en",
-      "unit_kind": "core_prod",
-      "source_form_id": "b7094130-9e6e-c4b0-e5cd-33184f98b2c3",
-      "primary_expected_form_id": "14c27ba8-58b9-b94a-15b6-2bab13e378e0",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
-      "study_unit_id": "2b3d7198-de02-dbcf-aab4-2a57f291137c",
-      "concept_id": "concept-a2-wettbewerb-2",
-      "source_lang": "en",
-      "target_lang": "it",
-      "unit_kind": "core_rec",
-      "source_form_id": "14c27ba8-58b9-b94a-15b6-2bab13e378e0",
-      "primary_expected_form_id": "b7094130-9e6e-c4b0-e5cd-33184f98b2c3",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
     }
   ],
   "examples": [
@@ -30218,14 +29367,6 @@
       "concept_id": "b5badb09-9fac-871c-a009-af06fbb2cef3",
       "lang": "de",
       "sentence": "Das Team hat eine Siegesserie.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "8e38a5ae-8b8f-06aa-8f89-38990d3d870f",
-      "concept_id": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
-      "lang": "de",
-      "sentence": "Hast du schon abgestimmt?",
       "translation_lang": null,
       "translation_text": null
     },
@@ -30270,22 +29411,6 @@
       "translation_text": null
     },
     {
-      "example_id": "9abc9e38-cef4-c297-5dd0-0a1362ab0630",
-      "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
-      "lang": "de",
-      "sentence": "Ich hole dich am Flughafen ab.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "358d73b7-ca5f-1e05-7ff5-8858a5d8144f",
-      "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
-      "lang": "de",
-      "sentence": "Sie hat ihr Paket von der Post abgeholt.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
       "example_id": "e4de78b1-c782-36fa-bc42-75c08a9b7056",
       "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
       "lang": "it",
@@ -30314,22 +29439,6 @@
       "concept_id": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
       "lang": "en",
       "sentence": "She phoned her mother in the evening.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "679e283a-1806-b886-df05-0c77cf76dc27",
-      "concept_id": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
-      "lang": "de",
-      "sentence": "Ich rufe dich später an.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "981cc108-1655-71a7-8f5b-0b888ff04373",
-      "concept_id": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
-      "lang": "de",
-      "sentence": "Sie hat ihre Mutter am Abend angerufen.",
       "translation_lang": null,
       "translation_text": null
     },
@@ -30398,14 +29507,6 @@
       "translation_text": null
     },
     {
-      "example_id": "e0265298-33a4-e11b-c32d-6c4fb1e9c3ed",
-      "concept_id": "23f3cd66-40a2-652f-205a-7557f2a9e950",
-      "lang": "de",
-      "sentence": "Er hat letztes Jahr aufgehört zu rauchen.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
       "example_id": "17281709-159c-9040-191b-7ef5dcd5cdf7",
       "concept_id": "23f3cd66-40a2-652f-205a-7557f2a9e950",
       "lang": "it",
@@ -30446,14 +29547,6 @@
       "translation_text": null
     },
     {
-      "example_id": "32ec5602-d0e0-1a46-38b2-aa647bae09ed",
-      "concept_id": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
-      "lang": "de",
-      "sentence": "Wir stimmen heute ueber den Vorschlag ab.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
       "example_id": "f72c0387-dd35-a249-e412-31fb6a5fb948",
       "concept_id": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
       "lang": "it",
@@ -30466,14 +29559,6 @@
       "concept_id": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
       "lang": "de",
       "sentence": "Bitte beachte die Regeln.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "9016a4c2-a377-2354-bfdd-abb64f8937cd",
-      "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
-      "lang": "de",
-      "sentence": "Ich hole dich um 18 Uhr ab.",
       "translation_lang": null,
       "translation_text": null
     },
@@ -32362,17 +31447,6 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-de-fix-vorbereiten",
-      "concept_id": "concept-a2-vorbereiten",
-      "lang": "de",
-      "sentence": "Ich habe das Essen vorbereitet, bevor die Gäste eintreffen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-it-fix-vorbereiten",
       "concept_id": "concept-a2-vorbereiten",
       "lang": "it",
@@ -32388,17 +31462,6 @@
       "concept_id": "concept-a2-vorbereiten",
       "lang": "en",
       "sentence": "He prepares the meal.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-absagen",
-      "concept_id": "concept-a2-absagen",
-      "lang": "de",
-      "sentence": "Der Flug wurde wegen schlechten Wetters abgesagt.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -32560,17 +31623,6 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-de-fix-stattfinden",
-      "concept_id": "concept-a2-stattfinden",
-      "lang": "de",
-      "sentence": "Jedes Jahr findet ein großes Fest in der Stadt statt.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-it-fix-stattfinden",
       "concept_id": "concept-a2-stattfinden",
       "lang": "it",
@@ -32718,17 +31770,6 @@
       "concept_id": "concept-a2-umziehen-verb",
       "lang": "en",
       "sentence": "She needs to move house because her home is too small.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-zuruckgeben",
-      "concept_id": "concept-a2-zurueckgeben",
-      "lang": "de",
-      "sentence": "Ich werde das Buch zurückgeben, sobald ich es gelesen habe.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -33517,17 +32558,6 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-de-fix-mitbringen",
-      "concept_id": "concept-a2-mitbringen",
-      "lang": "de",
-      "sentence": "Ich bringe meine Bücher mit, wenn ich ins Café gehe.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-it-fix-mitbringen",
       "concept_id": "concept-a2-mitbringen",
       "lang": "it",
@@ -33726,39 +32756,6 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-de-a2-eilen",
-      "concept_id": "concept-a2-eilen",
-      "lang": "de",
-      "sentence": "Er eilte zum Bahnhof, um den Zug nicht zu verpassen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-it-a2-eilen",
-      "concept_id": "concept-a2-eilen",
-      "lang": "it",
-      "sentence": "Si affrettò alla stazione per non perdere il treno.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-en-a2-eilen",
-      "concept_id": "concept-a2-eilen",
-      "lang": "en",
-      "sentence": "He hurried to the station so as not to miss the train.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
       "example_id": "example-de-a2-sprinten",
       "concept_id": "concept-a2-sprinten",
       "lang": "de",
@@ -33847,17 +32844,6 @@
       "reviewed_by": "ai"
     },
     {
-      "example_id": "example-de-a2-herausfinden",
-      "concept_id": "concept-a2-herausfinden",
-      "lang": "de",
-      "sentence": "Sie hat herausgefunden, dass er lügt.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
       "example_id": "example-it-a2-herausfinden",
       "concept_id": "concept-a2-herausfinden",
       "lang": "it",
@@ -33873,72 +32859,6 @@
       "concept_id": "concept-a2-herausfinden",
       "lang": "en",
       "sentence": "She found out that he is lying.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-de-a2-eilen-2",
-      "concept_id": "concept-a2-eilen-2",
-      "lang": "de",
-      "sentence": "Wir müssen uns beeilen, um den Bus zu erwischen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-it-a2-eilen-2",
-      "concept_id": "concept-a2-eilen-2",
-      "lang": "it",
-      "sentence": "Dobbiamo affrettarci per prendere l'autobus.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-en-a2-eilen-2",
-      "concept_id": "concept-a2-eilen-2",
-      "lang": "en",
-      "sentence": "We must hasten to catch the bus.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-de-a2-sprinten-2",
-      "concept_id": "concept-a2-sprinten-2",
-      "lang": "de",
-      "sentence": "Er sprintet zum Ziel.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-it-a2-sprinten-2",
-      "concept_id": "concept-a2-sprinten-2",
-      "lang": "it",
-      "sentence": "Corre veloce verso il traguardo.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-en-a2-sprinten-2",
-      "concept_id": "concept-a2-sprinten-2",
-      "lang": "en",
-      "sentence": "He sprints to the finish line.",
       "source": "ai",
       "generated_by": "ai",
       "notes": null,
@@ -33972,39 +32892,6 @@
       "concept_id": "concept-a2-wettbewerb",
       "lang": "en",
       "sentence": "He participated in the competition.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-de-a2-wettbewerb-2",
-      "concept_id": "concept-a2-wettbewerb-2",
-      "lang": "de",
-      "sentence": "Er hat an einem Wettbewerb teilgenommen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-it-a2-wettbewerb-2",
-      "concept_id": "concept-a2-wettbewerb-2",
-      "lang": "it",
-      "sentence": "Ha partecipato a un concorso.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-en-a2-wettbewerb-2",
-      "concept_id": "concept-a2-wettbewerb-2",
-      "lang": "en",
-      "sentence": "He participated in a contest.",
       "source": "ai",
       "generated_by": "ai",
       "notes": null,
@@ -34275,8 +33162,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "qualunque cosa",
-        "un po' di qualcosa"
+        "qualunque cosa"
       ],
       "antonyms_json": [
         "niente",
@@ -34602,8 +33488,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "perciò",
-        "per questo"
+        "perciò"
       ],
       "antonyms_json": [
         "nonostante cio",
@@ -34644,7 +33529,6 @@
         "sicher",
         "gewiss",
         "jedenfalls",
-        "auf alle Fälle",
         "sicherlich"
       ],
       "antonyms_json": [
@@ -34821,16 +33705,21 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "recarsi a prendere",
-        "dirigersi per prendere"
+        "prendere",
+        "portare via",
+        "recuperare"
       ],
       "antonyms_json": [
         "portare",
         "lasciare",
-        "dimenticare"
+        "dimenticare",
+        "abbandonare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "generated_by": "ai",
+      "confidence": "high",
+      "review_status": "reviewed"
     },
     {
       "concept_id": "324d681d-6d2e-552f-6831-9758934c5d65",
@@ -38036,8 +36925,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "im Transport",
-        "unterwegs sein"
+        "im Transport"
       ],
       "antonyms_json": [
         "am Ziel",
@@ -38347,7 +37235,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "so rasch wie möglich",
         "gleich"
       ],
       "antonyms_json": [
@@ -38513,7 +37400,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "durchschnittlich",
         "im Mittel"
       ],
       "antonyms_json": [],
@@ -38564,7 +37450,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "unter keinen Umständen",
         "keinesfalls"
       ],
       "antonyms_json": [
@@ -39107,10 +37992,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "kein Hindernis",
-        "keine Hürde"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "ein Problem",
         "eine Schwierigkeit"
@@ -39371,7 +38253,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "spitzig",
         "zuspitzt"
       ],
       "antonyms_json": [
@@ -39616,44 +38497,6 @@
       "hint_text": null
     },
     {
-      "concept_id": "concept-a2-eilen",
-      "lang": "de",
-      "short_definition": "Sich schnell bewegen, um Zeit zu sparen.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [
-        "beeilen"
-      ],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a2-eilen",
-      "lang": "it",
-      "short_definition": "Muoversi velocemente per risparmiare tempo.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a2-eilen",
-      "lang": "en",
-      "short_definition": "Move quickly to save time.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
       "concept_id": "concept-a2-sprinten",
       "lang": "de",
       "short_definition": "Schnell und intensiv über eine kurze Distanz laufen.",
@@ -39674,7 +38517,9 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
-      "synonyms_json": [],
+      "synonyms_json": [
+        "sprintare"
+      ],
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
@@ -39816,82 +38661,6 @@
       "hint_text": null
     },
     {
-      "concept_id": "concept-a2-eilen-2",
-      "lang": "de",
-      "short_definition": "Sich schnell bewegen, um Zeit zu sparen.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [
-        "beeilen"
-      ],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a2-eilen-2",
-      "lang": "it",
-      "short_definition": "Muoversi velocemente per risparmiare tempo.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a2-eilen-2",
-      "lang": "en",
-      "short_definition": "Move quickly to save time.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a2-sprinten-2",
-      "lang": "de",
-      "short_definition": "Schnell und kurzzeitig rennen.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a2-sprinten-2",
-      "lang": "it",
-      "short_definition": "Correre velocemente per un breve periodo di tempo.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [
-        "scattare"
-      ],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a2-sprinten-2",
-      "lang": "en",
-      "short_definition": "Run quickly for a short period.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
       "concept_id": "concept-a2-wettbewerb",
       "lang": "de",
       "short_definition": "Ein Ereignis, bei dem mehrere Teilnehmer gegeneinander antreten.",
@@ -39912,7 +38681,9 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
-      "synonyms_json": [],
+      "synonyms_json": [
+        "concorso"
+      ],
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
@@ -39924,45 +38695,9 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a2-wettbewerb-2",
-      "lang": "de",
-      "short_definition": "Ein Ereignis, bei dem mehrere Teilnehmer gegeneinander antreten.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
       "synonyms_json": [
-        "Wettstreit"
+        "contest"
       ],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a2-wettbewerb-2",
-      "lang": "it",
-      "short_definition": "Un evento in cui diversi partecipanti competono tra loro.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": null,
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a2-wettbewerb-2",
-      "lang": "en",
-      "short_definition": "An event where multiple participants compete against each other.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
@@ -40006,9 +38741,9 @@
       "type": "semantic"
     },
     {
-      "cluster_id": "08c22799-62d7-79ee-e7b6-a4ede4d87b46",
+      "cluster_id": "de705e60-9536-8d5a-7dcd-cd518f685269",
       "lang": "de",
-      "label": "synonyms: laufen +2",
+      "label": "synonyms: laufen +3",
       "type": "semantic",
       "auto": true
     },
@@ -40030,13 +38765,6 @@
       "cluster_id": "2390b3d0-39b3-82b6-f23a-32f71ed107b6",
       "lang": "de",
       "label": "synonyms: zumindest +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "5ce44a53-0a03-7382-bfee-d5743adcd4d0",
-      "lang": "de",
-      "label": "synonyms: immer noch +4",
       "type": "semantic",
       "auto": true
     },
@@ -40065,6 +38793,13 @@
       "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
       "lang": "de",
       "label": "synonyms: deswegen +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "06a56f3a-e1c4-5ac3-060f-16ac4794c147",
+      "lang": "de",
+      "label": "synonyms: Kannst du mir helfen?",
       "type": "semantic",
       "auto": true
     },
@@ -40118,6 +38853,13 @@
       "auto": true
     },
     {
+      "cluster_id": "bf4d0266-58f5-49bc-8b56-1f9009fed74e",
+      "lang": "de",
+      "label": "synonyms: noch",
+      "type": "semantic",
+      "auto": true
+    },
+    {
       "cluster_id": "35e2eacb-dee8-2e7c-4fd4-48e41f6aa366",
       "lang": "de",
       "label": "synonyms: wichtig +12",
@@ -40163,13 +38905,6 @@
       "cluster_id": "026b9623-e414-063c-c248-b183d13c7fb1",
       "lang": "de",
       "label": "synonyms: vermeiden +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "783f34f5-1b0e-550f-ff6b-011d881e02ab",
-      "lang": "de",
-      "label": "synonyms: im Durchschnitt",
       "type": "semantic",
       "auto": true
     },
@@ -40251,13 +38986,6 @@
       "auto": true
     },
     {
-      "cluster_id": "cf4e2f42-0119-315c-7ee7-d622be471a73",
-      "lang": "it",
-      "label": "synonyms: correre",
-      "type": "semantic",
-      "auto": true
-    },
-    {
       "cluster_id": "12ae11f4-0773-89dc-f84b-9f0bbdaa260a",
       "lang": "it",
       "label": "synonyms: la corsa +2",
@@ -40307,9 +39035,9 @@
       "auto": true
     },
     {
-      "cluster_id": "dd757bd0-a589-478c-ecf5-eef19cf1d78a",
+      "cluster_id": "7acc3166-60b6-11ee-e844-e5ededc08a2a",
       "lang": "it",
-      "label": "synonyms: per questo motivo +2",
+      "label": "synonyms: per questo motivo",
       "type": "semantic",
       "auto": true
     },
@@ -40317,6 +39045,20 @@
       "cluster_id": "abc143e9-b2dd-56a3-d4d8-07255bf5e88f",
       "lang": "it",
       "label": "synonyms: acquisire",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c4905f95-0a8d-4ebc-a781-3e95869ae1ad",
+      "lang": "it",
+      "label": "synonyms: non ancora",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c16d8014-8775-2fda-b1a1-35bb9f77af59",
+      "lang": "it",
+      "label": "synonyms: andare a prendere",
       "type": "semantic",
       "auto": true
     },
@@ -40363,16 +39105,16 @@
       "auto": true
     },
     {
-      "cluster_id": "ee00a0ca-adbe-2fd9-fe18-ecd417ad66a8",
+      "cluster_id": "ceac56d6-ef14-d3c2-cb8a-ff9806df0097",
       "lang": "en",
-      "label": "synonyms: run +2",
+      "label": "synonyms: run +3",
       "type": "semantic",
       "auto": true
     },
     {
-      "cluster_id": "faa4100c-78bf-16dc-ac91-dc4e1d180aad",
+      "cluster_id": "4553bdc8-c498-e5e2-51ff-98878f7cb73d",
       "lang": "en",
-      "label": "synonyms: the race +2",
+      "label": "synonyms: the race",
       "type": "semantic",
       "auto": true
     },
@@ -40466,9 +39208,14 @@
       "position": 3
     },
     {
-      "cluster_id": "08c22799-62d7-79ee-e7b6-a4ede4d87b46",
-      "lexeme_id": "lexeme-de-a2-rasen",
+      "cluster_id": "de705e60-9536-8d5a-7dcd-cd518f685269",
+      "lexeme_id": "lexeme-de-a2-sprinten",
       "position": 1
+    },
+    {
+      "cluster_id": "de705e60-9536-8d5a-7dcd-cd518f685269",
+      "lexeme_id": "lexeme-de-a2-rasen",
+      "position": 2
     },
     {
       "cluster_id": "cf94179f-7e7c-5d2b-268f-c02098ad11f2",
@@ -40489,11 +39236,6 @@
       "cluster_id": "2390b3d0-39b3-82b6-f23a-32f71ed107b6",
       "lexeme_id": "lex-de-mindestens",
       "position": 1
-    },
-    {
-      "cluster_id": "5ce44a53-0a03-7382-bfee-d5743adcd4d0",
-      "lexeme_id": "lex-de-bisher",
-      "position": 3
     },
     {
       "cluster_id": "cec21550-ff70-fe0b-2153-f1251ca58e37",
@@ -40518,6 +39260,11 @@
     {
       "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
       "lexeme_id": "lex-de-deshalb",
+      "position": 1
+    },
+    {
+      "cluster_id": "06a56f3a-e1c4-5ac3-060f-16ac4794c147",
+      "lexeme_id": "lex-de-anfrage",
       "position": 1
     },
     {
@@ -40576,6 +39323,11 @@
       "position": 2
     },
     {
+      "cluster_id": "bf4d0266-58f5-49bc-8b56-1f9009fed74e",
+      "lexeme_id": "lex-de-bisher",
+      "position": 1
+    },
+    {
       "cluster_id": "35e2eacb-dee8-2e7c-4fd4-48e41f6aa366",
       "lexeme_id": "lex-de-dringend",
       "position": 3
@@ -40618,11 +39370,6 @@
     {
       "cluster_id": "026b9623-e414-063c-c248-b183d13c7fb1",
       "lexeme_id": "lex-de-vermeiden",
-      "position": 0
-    },
-    {
-      "cluster_id": "783f34f5-1b0e-550f-ff6b-011d881e02ab",
-      "lexeme_id": "lex-de-im-durchschnitt",
       "position": 0
     },
     {
@@ -40686,11 +39433,6 @@
       "position": 0
     },
     {
-      "cluster_id": "cf4e2f42-0119-315c-7ee7-d622be471a73",
-      "lexeme_id": "lexeme-it-a2-sprinten-2",
-      "position": 1
-    },
-    {
       "cluster_id": "12ae11f4-0773-89dc-f84b-9f0bbdaa260a",
       "lexeme_id": "lex-it-corsa",
       "position": 0
@@ -40736,12 +39478,12 @@
       "position": 1
     },
     {
-      "cluster_id": "dd757bd0-a589-478c-ecf5-eef19cf1d78a",
+      "cluster_id": "7acc3166-60b6-11ee-e844-e5ededc08a2a",
       "lexeme_id": "lex-it-per-questo-motivo",
       "position": 0
     },
     {
-      "cluster_id": "dd757bd0-a589-478c-ecf5-eef19cf1d78a",
+      "cluster_id": "7acc3166-60b6-11ee-e844-e5ededc08a2a",
       "lexeme_id": "lex-it-percio",
       "position": 1
     },
@@ -40749,6 +39491,16 @@
       "cluster_id": "abc143e9-b2dd-56a3-d4d8-07255bf5e88f",
       "lexeme_id": "lex-it-guadagnare",
       "position": 1
+    },
+    {
+      "cluster_id": "c4905f95-0a8d-4ebc-a781-3e95869ae1ad",
+      "lexeme_id": "lex-it-finora",
+      "position": 1
+    },
+    {
+      "cluster_id": "c16d8014-8775-2fda-b1a1-35bb9f77af59",
+      "lexeme_id": "lex-it-andare-a-prendere",
+      "position": 0
     },
     {
       "cluster_id": "cb2d4c48-f4c3-ef5e-6a76-89a7eb2f6d02",
@@ -40796,24 +39548,24 @@
       "position": 0
     },
     {
-      "cluster_id": "ee00a0ca-adbe-2fd9-fe18-ecd417ad66a8",
-      "lexeme_id": "lexeme-en-a2-dart",
-      "position": 2
+      "cluster_id": "ceac56d6-ef14-d3c2-cb8a-ff9806df0097",
+      "lexeme_id": "lexeme-en-a2-sprinten",
+      "position": 1
     },
     {
-      "cluster_id": "faa4100c-78bf-16dc-ac91-dc4e1d180aad",
+      "cluster_id": "ceac56d6-ef14-d3c2-cb8a-ff9806df0097",
+      "lexeme_id": "lexeme-en-a2-dart",
+      "position": 3
+    },
+    {
+      "cluster_id": "4553bdc8-c498-e5e2-51ff-98878f7cb73d",
       "lexeme_id": "lex-en-race",
       "position": 0
     },
     {
-      "cluster_id": "faa4100c-78bf-16dc-ac91-dc4e1d180aad",
+      "cluster_id": "4553bdc8-c498-e5e2-51ff-98878f7cb73d",
       "lexeme_id": "lexeme-en-a2-wettbewerb",
       "position": 1
-    },
-    {
-      "cluster_id": "faa4100c-78bf-16dc-ac91-dc4e1d180aad",
-      "lexeme_id": "lexeme-en-a2-wettbewerb-2",
-      "position": 2
     },
     {
       "cluster_id": "9e526461-ad85-16db-398b-675389a40254",

@@ -81,20 +81,23 @@ async function main() {
   if (!args.dryRun && !model) { console.log('No local chat model available - is the LLM host running?'); return; }
   if (model) console.log(`Judge: ${model}\n`);
 
-  let written = 0, sinceSave = 0;
+  const total = work.length;
+  const started = Date.now();
+  let done = 0, written = 0, sinceSave = 0;
   const save = () => { if (args.apply && written > 0) writeFileSync(CONTENT, JSON.stringify(data, null, 2) + '\n'); };
   process.on('SIGINT', () => { console.log('\nInterrupted - flushing progress...'); save(); process.exit(130); });
 
   for (const def of work) {
+    done++;
     const synonyms = toArr(def.synonyms_json);
     const label = conceptPrimary.get(def.concept_id)?.label ?? def.concept_id;
     const primary = conceptPrimary.get(def.concept_id)?.byLang?.[def.lang] ?? '';
-    process.stdout.write(`${langName(def.lang)} "${primary || def.concept_id}" [${synonyms.length}] ... `);
+    process.stdout.write(`[${done}/${total}] ${langName(def.lang)} "${primary || def.concept_id}" [${synonyms.length}] ... `);
 
     if (args.dryRun) { console.log('(dry-run)'); continue; }
 
     const rated = await rateTiers({ synonyms, label, primary, lang: def.lang }, model);
-    if (!rated) { console.log('judge error - left for a later run'); continue; }
+    if (!rated) { console.log('judge error - left for a later run' + etaSuffix(started, done, total)); continue; }
 
     const stored = tiersToStore(synonyms, rated, def.synonym_tiers_json);
     if (args.apply) {
@@ -103,7 +106,7 @@ async function main() {
       if (++sinceSave >= 10) { save(); sinceSave = 0; }
     }
     const exceptions = Object.entries(stored);
-    console.log(exceptions.length ? exceptions.map(([s, t]) => `${s}=${t}`).join(', ') : 'all close');
+    console.log((exceptions.length ? exceptions.map(([s, t]) => `${s}=${t}`).join(', ') : 'all close') + etaSuffix(started, done, total));
     if (args.delay) await sleep(args.delay);
   }
 
@@ -144,6 +147,14 @@ async function rateTiers({ synonyms, label, primary, lang }, model) {
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/** Live ETA from the average time per completed item (empty for the first/last item). */
+function etaSuffix(startedMs, done, total) {
+  if (done <= 0 || done >= total) return '';
+  const avgMs = (Date.now() - startedMs) / done;
+  const leftMin = Math.max(1, Math.ceil((avgMs * (total - done)) / 60000));
+  return `  (~${leftMin}m left)`;
+}
 
 function parseArgs(argv) {
   const o = { apply: false, dryRun: false };

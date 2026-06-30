@@ -77,8 +77,9 @@ async function main() {
   console.log(`${work.length} definition(s) with untiered synonyms` + (args.limit ? ` (limited to ${args.limit})` : '') + '.');
   if (work.length === 0) return;
 
-  const model = args.dryRun ? null : await resolveModel(args.judge ?? args.model ?? (await listChatModels())[0]?.name);
-  if (!args.dryRun && !model) { console.log('No local chat model available - is the LLM host running?'); return; }
+  // Only --apply calls the LLM, so only --apply needs a model resolved.
+  const model = args.apply ? await resolveModel(args.judge ?? args.model ?? (await listChatModels())[0]?.name) : null;
+  if (args.apply && !model) { console.log('No local chat model available - is the LLM host running?'); return; }
   if (model) console.log(`Judge: ${model}\n`);
 
   const total = work.length;
@@ -94,7 +95,9 @@ async function main() {
     const primary = conceptPrimary.get(def.concept_id)?.byLang?.[def.lang] ?? '';
     process.stdout.write(`[${done}/${total}] ${langName(def.lang)} "${primary || def.concept_id}" [${synonyms.length}] ... `);
 
-    if (args.dryRun) { console.log('(dry-run)'); continue; }
+    // Only --apply spends the GPU. Without it this is a free preview (no LLM call),
+    // so a run without --apply can never silently burn time for nothing.
+    if (!args.apply) { console.log('(preview - re-run with --apply to write)'); continue; }
 
     const rated = await rateTiers({ synonyms, label, primary, lang: def.lang }, model);
     if (!rated) { console.log('judge error - left for a later run' + etaSuffix(started, done, total)); continue; }

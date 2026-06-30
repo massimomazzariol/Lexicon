@@ -246,27 +246,34 @@ function main() {
 
   const sourceManifest = readJson(path.join(sourcePackDir, 'manifest.json'));
   const sourceContent = readJson(path.join(sourcePackDir, 'content.json'));
-  const targetLevel = normalizeLevel(options.level);
-  if (!targetLevel) {
+  // "expressions" is a category, not a CEFR level: idioms / fixed phrases (pos='chunk')
+  // ship in their OWN pack across all levels, and the level packs exclude them, so a normal
+  // deck never mixes in an expression.
+  const isExpressions = String(options.level ?? '').trim().toLowerCase() === 'expressions';
+  const targetLevel = isExpressions ? 'expressions' : normalizeLevel(options.level);
+  if (!isExpressions && !targetLevel) {
     throw new Error(
-      `Unsupported level "${options.level}". Use ${LEXICON_LEVELS.join('/')}.`,
+      `Unsupported level "${options.level}". Use ${LEXICON_LEVELS.join('/')} or "expressions".`,
     );
   }
 
   const allConcepts = cloneJson(sourceContent.concepts ?? []);
-  const targetLevelRank = lexiconLevelRank(targetLevel);
+  const targetLevelRank = isExpressions ? -1 : lexiconLevelRank(targetLevel);
+  const isChunk = (concept) => normalizeLang(concept.pos) === 'chunk';
   const concepts = allConcepts
     .filter((concept) => {
       if (!isShippable(concept)) return false; // held for review → drop the whole word
+      if (isExpressions) return isChunk(concept); // expressions pack: every chunk, any level
+      if (isChunk(concept)) return false; // level packs: never an expression
       const conceptLevel = resolveConceptLevel(concept);
       const conceptRank = lexiconLevelRank(conceptLevel);
       return conceptRank >= 0 && conceptRank === targetLevelRank;
     })
-    .map((concept) => ({
-      ...concept,
-      level_auto: targetLevel,
-      level_override: null,
-    }));
+    .map((concept) =>
+      isExpressions
+        ? concept // keep each expression's real level
+        : { ...concept, level_auto: targetLevel, level_override: null },
+    );
   const conceptIds = new Set(concepts.map((concept) => concept.concept_id));
   const lexemes = cloneJson(sourceContent.lexemes ?? []).filter((row) =>
     conceptIds.has(row.concept_id) && isShippable(row),
@@ -514,9 +521,13 @@ function main() {
   }
 
   const levelsSupported = [targetLevel];
-  const relationChunkIds = lexiconLevelsBefore(targetLevel)
-    .map((level) => replaceLexiconPackIdLevel(options.packId, level))
-    .filter(Boolean);
+  // The expressions pack is standalone (no level-progression relations); a level pack
+  // relates to the earlier-level packs for review ordering.
+  const relationChunkIds = isExpressions
+    ? []
+    : lexiconLevelsBefore(targetLevel)
+        .map((level) => replaceLexiconPackIdLevel(options.packId, level))
+        .filter(Boolean);
 
   const destinationManifest = {
     pack_id: options.packId,

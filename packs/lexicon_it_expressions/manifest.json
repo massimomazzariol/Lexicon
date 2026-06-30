@@ -1,21 +1,18 @@
 {
-  "pack_id": "lexicon.en.b1.seed",
+  "pack_id": "lexicon.it.expressions.seed",
   "pack_role": "runtime",
-  "version": "1.0.50",
-  "pack_level": "B1",
+  "version": "1.0.1",
+  "pack_level": "expressions",
   "levels_supported": [
-    "B1"
+    "expressions"
   ],
-  "relation_chunk_ids": [
-    "lexicon.en.a1.seed",
-    "lexicon.en.a2.seed"
-  ],
+  "relation_chunk_ids": [],
   "languages_target_supported": [
-    "en"
+    "it"
   ],
   "gloss_languages_supported": [
     "de",
-    "it"
+    "en"
   ],
   "domains": [
     "Daily",
@@ -25,6 +22,6 @@
   ],
   "license_info": "internal",
   "content_file": "content.json",
-  "generated_at": "2026-06-30T09:54:45.473Z",
+  "generated_at": "2026-06-30T09:54:46.317Z",
   "schema_version": 2
 }

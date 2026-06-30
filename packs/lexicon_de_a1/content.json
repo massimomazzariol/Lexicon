@@ -98171,6 +98171,28 @@
       "review_status": "reviewed"
     },
     {
+      "example_id": "example-de-fix-hand",
+      "concept_id": "ccc568db-1da2-1dea-712e-ae8083a0ca60",
+      "lang": "de",
+      "sentence": "Er hob den Stift mit dem äußersten Teil des Arms zum Greifen.",
+      "source": "ai",
+      "generated_by": "ai",
+      "confidence": "medium",
+      "notes": null,
+      "review_status": "reviewed"
+    },
+    {
+      "example_id": "example-en-fix-hand",
+      "concept_id": "ccc568db-1da2-1dea-712e-ae8083a0ca60",
+      "lang": "en",
+      "sentence": "She waved with the end part of her arm beyond the wrist, including the palm, fingers, and thumb.",
+      "source": "ai",
+      "generated_by": "ai",
+      "confidence": "medium",
+      "notes": null,
+      "review_status": "reviewed"
+    },
+    {
       "example_id": "example-de-fix-schnee",
       "concept_id": "1dcf02c8-3505-2a8a-0093-ccad78a3c7ec",
       "lang": "de",
@@ -102416,6 +102438,33 @@
         "reviewed_at": "2026-03-04"
       },
       "hint_text": null
+    },
+    {
+      "concept_id": "7f5957ca-0809-865b-57d2-de96cf0392eb",
+      "lang": "it",
+      "short_definition": "Il colore del fuoco o del sangue.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "rosso acceso",
+        "rosso vivo",
+        "rosso intenso"
+      ],
+      "antonyms_json": [
+        "bianco",
+        "nero",
+        "grigio"
+      ],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "Colors have no direct scalar opposite",
+        "reviewed_at": "2026-03-04"
+      },
+      "hint_text": null,
+      "generated_by": "ai",
+      "confidence": "medium",
+      "review_status": "reviewed"
     },
     {
       "concept_id": "9d3ef2fe-beae-af51-b2f1-15508c1302ba",

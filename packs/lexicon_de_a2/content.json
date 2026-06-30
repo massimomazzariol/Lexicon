@@ -42918,7 +42918,11 @@
         "stroll"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "competition": "loose",
+        "rivalry": "loose"
+      }
     },
     {
       "concept_id": "b5badb09-9fac-871c-a009-af06fbb2cef3",
@@ -42935,7 +42939,11 @@
         "Stillstand"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Rennen": "exact",
+        "Wettkampf": "loose"
+      }
     },
     {
       "concept_id": "b5badb09-9fac-871c-a009-af06fbb2cef3",
@@ -42955,7 +42963,10 @@
         "camminata"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "sfida": "loose"
+      }
     },
     {
       "concept_id": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
@@ -42974,7 +42985,11 @@
         "refrain from voting"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "ballot": "loose",
+        "elect": "loose"
+      }
     },
     {
       "concept_id": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
@@ -42990,7 +43005,10 @@
         "ablehnen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "entscheiden": "loose"
+      }
     },
     {
       "concept_id": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
@@ -43009,7 +43027,11 @@
         "rifiutare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "esprimere": "loose",
+        "sostenere": "loose"
+      }
     },
     {
       "concept_id": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
@@ -43027,7 +43049,10 @@
         "neglect"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "notice": "loose"
+      }
     },
     {
       "concept_id": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
@@ -43046,7 +43071,11 @@
         "übersehen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "wahrnehmen": "loose",
+        "beobachten": "loose"
+      }
     },
     {
       "concept_id": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
@@ -43064,7 +43093,11 @@
         "trascurare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "osservare": "loose",
+        "considerare": "loose"
+      }
     },
     {
       "concept_id": "28155ced-1190-8879-d1e4-766d9865a842",
@@ -43082,7 +43115,10 @@
         "withdrawal"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "petition": "loose"
+      }
     },
     {
       "concept_id": "28155ced-1190-8879-d1e4-766d9865a842",
@@ -43098,7 +43134,8 @@
         "Absage"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "28155ced-1190-8879-d1e4-766d9865a842",
@@ -43117,7 +43154,11 @@
         "abbandono"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "domanda": "loose",
+        "richiesta": "loose"
+      }
     },
     {
       "concept_id": "08116c81-5e80-e8d9-d48a-2dcfafa2dae1",
@@ -43134,7 +43175,11 @@
         "nothing"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "anything": "exact",
+        "a thing": "loose"
+      }
     },
     {
       "concept_id": "08116c81-5e80-e8d9-d48a-2dcfafa2dae1",
@@ -43152,7 +43197,12 @@
         "nichts"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "etwas": "loose",
+        "ein Ding": "loose",
+        "einiges": "loose"
+      }
     },
     {
       "concept_id": "08116c81-5e80-e8d9-d48a-2dcfafa2dae1",
@@ -43169,7 +43219,10 @@
         "nulla"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "qualunque cosa": "loose"
+      }
     },
     {
       "concept_id": "29a483bf-d86a-a442-f816-17ee4e248a16",
@@ -43186,7 +43239,11 @@
         "no one"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "somebody": "exact",
+        "a person": "loose"
+      }
     },
     {
       "concept_id": "29a483bf-d86a-a442-f816-17ee4e248a16",
@@ -43205,7 +43262,12 @@
         "keiner"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "jemand": "exact",
+        "ein Mensch": "loose",
+        "eine Person": "loose"
+      }
     },
     {
       "concept_id": "29a483bf-d86a-a442-f816-17ee4e248a16",
@@ -43222,7 +43284,10 @@
         "nessuno"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "un individuo": "loose"
+      }
     },
     {
       "concept_id": "2de09df9-4a0c-8b2a-f080-6c52571b7064",
@@ -43241,7 +43306,11 @@
         "a particular location"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "some place": "loose",
+        "a certain spot": "loose"
+      }
     },
     {
       "concept_id": "2de09df9-4a0c-8b2a-f080-6c52571b7064",
@@ -43258,7 +43327,11 @@
         "nirgendwo"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "anonym": "loose",
+        "woanders": "loose"
+      }
     },
     {
       "concept_id": "2de09df9-4a0c-8b2a-f080-6c52571b7064",
@@ -43277,7 +43350,10 @@
         "in un luogo ben definito"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "in un certo punto": "loose"
+      }
     },
     {
       "concept_id": "d0981aa3-9aed-3007-290a-3e2779bacea5",
@@ -43297,7 +43373,11 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "as well": "exact",
+        "too": "exact"
+      }
     },
     {
       "concept_id": "d0981aa3-9aed-3007-290a-3e2779bacea5",
@@ -43316,7 +43396,11 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "auch": "exact",
+        "gleichfalls": "exact"
+      }
     },
     {
       "concept_id": "d0981aa3-9aed-3007-290a-3e2779bacea5",
@@ -43336,7 +43420,11 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "anche": "exact",
+        "allo stesso modo": "loose"
+      }
     },
     {
       "concept_id": "dce273cb-1477-41c8-14f3-84226c53e233",
@@ -43355,7 +43443,8 @@
         "infrequently"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "dce273cb-1477-41c8-14f3-84226c53e233",
@@ -43373,7 +43462,11 @@
         "nie"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "häufig": "loose",
+        "oft": "loose"
+      }
     },
     {
       "concept_id": "dce273cb-1477-41c8-14f3-84226c53e233",
@@ -43391,7 +43484,10 @@
         "di rado"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "in generale": "loose"
+      }
     },
     {
       "concept_id": "5a3f0258-ae5f-5c70-4b43-84454023b3c7",
@@ -43408,7 +43504,11 @@
         "different"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "alike": "exact",
+        "comparable": "loose"
+      }
     },
     {
       "concept_id": "5a3f0258-ae5f-5c70-4b43-84454023b3c7",
@@ -43426,7 +43526,10 @@
         "unterschiedlich"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "gleichartig": "loose"
+      }
     },
     {
       "concept_id": "5a3f0258-ae5f-5c70-4b43-84454023b3c7",
@@ -43443,7 +43546,10 @@
         "diverso"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "analogo": "loose"
+      }
     },
     {
       "concept_id": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
@@ -43461,7 +43567,11 @@
         "however"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "thus": "exact",
+        "hence": "exact"
+      }
     },
     {
       "concept_id": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
@@ -43478,7 +43588,11 @@
         "trotzdem"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "deshalb": "exact",
+        "darum": "exact"
+      }
     },
     {
       "concept_id": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
@@ -43496,7 +43610,10 @@
         "incontrariamente"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "perciò": "exact"
+      }
     },
     {
       "concept_id": "06afc93e-f8f6-3698-72af-3185f7367f80",
@@ -43516,7 +43633,12 @@
         "absolutely not"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "certainly": "exact",
+        "undoubtedly": "exact",
+        "without a doubt": "exact"
+      }
     },
     {
       "concept_id": "06afc93e-f8f6-3698-72af-3185f7367f80",
@@ -43535,7 +43657,10 @@
         "vielleicht"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "jedenfalls": "loose"
+      }
     },
     {
       "concept_id": "06afc93e-f8f6-3698-72af-3185f7367f80",
@@ -43554,7 +43679,11 @@
         "assolutamente no"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "comunque": "loose",
+        "senz'altro": "exact"
+      }
     },
     {
       "concept_id": "e26099e6-6292-9c2d-6b9a-69cf996ba8f7",
@@ -43573,7 +43702,11 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "in any way": "exact",
+        "in the least": "exact"
+      }
     },
     {
       "concept_id": "e26099e6-6292-9c2d-6b9a-69cf996ba8f7",
@@ -43592,7 +43725,10 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "gar nicht": "exact"
+      }
     },
     {
       "concept_id": "e26099e6-6292-9c2d-6b9a-69cf996ba8f7",
@@ -43610,7 +43746,10 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "affatto": "exact"
+      }
     },
     {
       "concept_id": "e65a87f9-7e04-cfff-d26c-a3b387c75ee5",
@@ -43626,7 +43765,10 @@
         "terrible"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "awesome": "exact"
+      }
     },
     {
       "concept_id": "e65a87f9-7e04-cfff-d26c-a3b387c75ee5",
@@ -43642,7 +43784,10 @@
         "schrecklich"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "fantastisch": "exact"
+      }
     },
     {
       "concept_id": "e65a87f9-7e04-cfff-d26c-a3b387c75ee5",
@@ -43658,7 +43803,8 @@
         "terribile"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
@@ -43678,7 +43824,11 @@
         "leave behind"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "fetch": "exact",
+        "retrieve": "loose"
+      }
     },
     {
       "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
@@ -43695,7 +43845,10 @@
         "zurücklassen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "holen": "loose"
+      }
     },
     {
       "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
@@ -43719,7 +43872,11 @@
       "hint_text": null,
       "generated_by": "ai",
       "confidence": "high",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "synonym_tiers_json": {
+        "prendere": "loose",
+        "portare via": "loose"
+      }
     },
     {
       "concept_id": "324d681d-6d2e-552f-6831-9758934c5d65",
@@ -43738,7 +43895,12 @@
         "remove"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "color": "loose",
+        "apply": "loose",
+        "daub": "loose"
+      }
     },
     {
       "concept_id": "324d681d-6d2e-552f-6831-9758934c5d65",
@@ -43755,7 +43917,11 @@
         "radieren"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "pinseln": "loose",
+        "streichen": "loose"
+      }
     },
     {
       "concept_id": "324d681d-6d2e-552f-6831-9758934c5d65",
@@ -43773,7 +43939,10 @@
         "rimuovere"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "applicare": "loose"
+      }
     },
     {
       "concept_id": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
@@ -43792,7 +43961,11 @@
         "leave alone"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "phone": "exact",
+        "contact": "loose"
+      }
     },
     {
       "concept_id": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
@@ -43809,7 +43982,11 @@
         "auflegen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "kontakieren": "loose",
+        "erreichen": "loose"
+      }
     },
     {
       "concept_id": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
@@ -43828,7 +44005,10 @@
         "ignorare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "raggiungere": "loose"
+      }
     },
     {
       "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
@@ -43845,7 +44025,10 @@
         "receive"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "dispatch": "exact"
+      }
     },
     {
       "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
@@ -43862,7 +44045,10 @@
         "empfangen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "zusenden": "exact"
+      }
     },
     {
       "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
@@ -43879,7 +44065,11 @@
         "ricevere"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "mandare": "exact",
+        "trasmettere": "loose"
+      }
     },
     {
       "concept_id": "a73af94e-f267-9f64-bf2b-134fa2544a0c",
@@ -43897,7 +44087,8 @@
         "the predictable"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "a73af94e-f267-9f64-bf2b-134fa2544a0c",
@@ -43915,7 +44106,10 @@
         "Vorhersehbarkeit"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "der Schreck": "loose"
+      }
     },
     {
       "concept_id": "a73af94e-f267-9f64-bf2b-134fa2544a0c",
@@ -43933,7 +44127,10 @@
         "abitudine"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "stupore": "loose"
+      }
     },
     {
       "concept_id": "23f3cd66-40a2-652f-205a-7557f2a9e950",
@@ -43954,7 +44151,12 @@
         "persist"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "cease": "exact",
+        "halt": "loose",
+        "end": "loose"
+      }
     },
     {
       "concept_id": "23f3cd66-40a2-652f-205a-7557f2a9e950",
@@ -43973,7 +44175,10 @@
         "weitermachen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "abbrechen": "loose"
+      }
     },
     {
       "concept_id": "23f3cd66-40a2-652f-205a-7557f2a9e950",
@@ -43992,7 +44197,10 @@
         "proseguire"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "cessare": "loose"
+      }
     },
     {
       "concept_id": "77962681-e561-09cc-772c-9c4285175bf9",
@@ -44009,7 +44217,10 @@
         "unmarried"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "wedded": "exact"
+      }
     },
     {
       "concept_id": "77962681-e561-09cc-772c-9c4285175bf9",
@@ -44026,7 +44237,10 @@
         "unverheiratet"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "vermählt": "exact"
+      }
     },
     {
       "concept_id": "77962681-e561-09cc-772c-9c4285175bf9",
@@ -44044,7 +44258,10 @@
         "nubile"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "coniugato": "exact"
+      }
     },
     {
       "concept_id": "87664a7f-b773-5acd-374e-4c359b635e7c",
@@ -44065,7 +44282,11 @@
         "rejection"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "invitation": "loose",
+        "suggestion": "loose"
+      }
     },
     {
       "concept_id": "87664a7f-b773-5acd-374e-4c359b635e7c",
@@ -44082,7 +44303,11 @@
         "Nachfrage"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Vorschlag": "loose",
+        "Möglichkeit": "loose"
+      }
     },
     {
       "concept_id": "87664a7f-b773-5acd-374e-4c359b635e7c",
@@ -44100,7 +44325,10 @@
         "richiesta"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "invito": "loose"
+      }
     },
     {
       "concept_id": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
@@ -44116,7 +44344,10 @@
         "Ablehnung"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Gesuch": "loose"
+      }
     },
     {
       "concept_id": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
@@ -44132,7 +44363,10 @@
         "rifiuto"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "istanza": "loose"
+      }
     },
     {
       "concept_id": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
@@ -44148,7 +44382,10 @@
         "rejection"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "petition": "loose"
+      }
     },
     {
       "concept_id": "2bfef665-f822-93b9-3f9d-233a6f838aba",
@@ -44164,7 +44401,8 @@
         "Antwort"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "2bfef665-f822-93b9-3f9d-233a6f838aba",
@@ -44183,7 +44421,11 @@
         "negazione"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "domanda": "loose",
+        "interrogazione": "loose"
+      }
     },
     {
       "concept_id": "2bfef665-f822-93b9-3f9d-233a6f838aba",
@@ -44200,7 +44442,10 @@
         "answer"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "enquiry": "exact"
+      }
     },
     {
       "concept_id": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
@@ -44221,7 +44466,10 @@
         "reason": "Contextual meaning",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "übereinstimmen": "exact"
+      }
     },
     {
       "concept_id": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
@@ -44244,7 +44492,10 @@
         "reason": "Contextual meaning",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "to suit": "loose"
+      }
     },
     {
       "concept_id": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
@@ -44266,7 +44517,11 @@
         "reason": "Contextual meaning",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "corrispondere": "exact",
+        "concordare": "loose"
+      }
     },
     {
       "concept_id": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
@@ -44285,7 +44540,10 @@
         "fortsetzen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "abschliessen": "loose"
+      }
     },
     {
       "concept_id": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
@@ -44305,7 +44563,11 @@
         "prolong"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "complete": "exact",
+        "wrap up": "loose"
+      }
     },
     {
       "concept_id": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
@@ -44323,7 +44585,8 @@
         "prolungare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-entscheidung",
@@ -44345,7 +44608,11 @@
         "reason": "No direct lexical opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Urteil": "loose",
+        "Auswahl": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-entscheidung",
@@ -44397,7 +44664,11 @@
         "reason": "Problem is related, not a strict opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Auflösung": "loose",
+        "Vorplatz": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-loesung",
@@ -44450,7 +44721,10 @@
         "reason": "No clean everyday opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "erläutern": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-erklaeren",
@@ -44503,7 +44777,10 @@
         "reason": "No clean lexical opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "bestimmen": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-entscheiden",
@@ -44554,7 +44831,10 @@
         "reason": "no_single_robust_opposite_for_compare_verb",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "abwägen": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-vergleichen",
@@ -44607,7 +44887,10 @@
         "reason": "No clean lexical opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "vorschlagen": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-empfehlen",
@@ -44673,7 +44956,8 @@
         "reason": "No clean lexical opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-reservieren",
@@ -44692,7 +44976,11 @@
         "reason": "No clean lexical opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "to book": "exact",
+        "book": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-moeglich",
@@ -44709,7 +44997,10 @@
         "unmöglich"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "realisierbar": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-moeglich",
@@ -44753,7 +45044,10 @@
         "unnötig"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "notwendig": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-noetig",
@@ -44769,7 +45063,8 @@
         "inutile"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-noetig",
@@ -44785,7 +45080,10 @@
         "unnecessary"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "needed": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-puenktlich",
@@ -44804,7 +45102,10 @@
         "unpünktlich"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "termingerecht": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-puenktlich",
@@ -44854,7 +45155,10 @@
         "reason": "Opposite is gradient and context-dependent",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "wohlwahrscheinlich": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-wahrscheinlich",
@@ -44920,7 +45224,10 @@
         "reason": "No direct lexical opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "specialmente": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-besonders",
@@ -44955,7 +45262,10 @@
         "reason": "No direct lexical opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "zuletzt": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-endlich",
@@ -45009,7 +45319,11 @@
         "reason": "Opposite is contextual",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "vorher": "loose",
+        "früh": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-im-voraus",
@@ -45064,7 +45378,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Erlebnis": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-erfahrung",
@@ -45116,7 +45433,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Aufforderung": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-einladung",
@@ -45167,7 +45487,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Botschaft": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-nachricht",
@@ -45218,7 +45541,11 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Verabredung": "exact",
+        "Gespräch": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-termin",
@@ -45272,7 +45599,11 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Chance": "loose",
+        "Alternativ": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-moeglichkeit",
@@ -45322,7 +45653,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-meinung",
@@ -45376,7 +45708,11 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Angewohnheit": "exact",
+        "Verhaltensweise": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-gewohnheit",
@@ -45429,7 +45765,11 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Eintrag": "loose",
+        "Registrierung": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-anmeldung",
@@ -45480,7 +45820,11 @@
         "Sofortigkeit"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Verzögerung": "exact",
+        "Hinausgezogenheit": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-verspaetung",
@@ -45527,7 +45871,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Verlegung": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-umzug",
@@ -45575,7 +45922,8 @@
         "Verbot"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-erlaubnis",
@@ -45625,7 +45973,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Idee": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-vorschlag",
@@ -45679,7 +46030,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Plauderei": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-gespraech",
@@ -45762,7 +46116,11 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "to take part": "exact",
+        "take part": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-vorbereiten",
@@ -45784,7 +46142,11 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "vorrichten": "loose",
+        "einrichten": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-vorbereiten",
@@ -45837,7 +46199,12 @@
         "erlauben"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "stornieren": "exact",
+        "aufheben": "loose",
+        "abschaffen": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-absagen",
@@ -45883,7 +46250,10 @@
         "vorverlegen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "aufschieben": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-verschieben",
@@ -45930,7 +46300,10 @@
         "verwässern"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "optimieren": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-verbessern",
@@ -45982,7 +46355,12 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "umgehen": "loose",
+        "entgehen": "loose",
+        "verhindern": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-vermeiden",
@@ -46036,7 +46414,10 @@
         "reason": "no_single_robust_opposite_across_place_and_goal_senses",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "gelangen": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-erreichen",
@@ -46119,7 +46500,11 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "to be absent": "exact",
+        "be absent": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-stattfinden",
@@ -46164,7 +46549,11 @@
         "be canceled"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "to happen": "exact",
+        "happen": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-sparen",
@@ -46181,7 +46570,8 @@
         "ausgeben"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-sparen",
@@ -46231,7 +46621,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "erwirtschaften": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-verdienen",
@@ -46285,7 +46678,11 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "zeichnen": "loose",
+        "unterzeichnen": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-unterschreiben",
@@ -46342,7 +46739,12 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "ziehen": "loose",
+        "verlegen": "loose",
+        "versetzen": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-umziehen-verb",
@@ -46419,7 +46821,11 @@
         "keep"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "to return": "exact",
+        "return": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-verfuegbar",
@@ -46439,7 +46845,10 @@
         "unbrauchbar"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "erreichbar": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-verfuegbar",
@@ -46485,7 +46894,11 @@
         "unoffiziell"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "amtlich": "exact",
+        "staatlich": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-offiziell",
@@ -46531,7 +46944,11 @@
         "gebührenpflichtig"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "umsonst": "exact",
+        "gratis": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-kostenlos",
@@ -46580,7 +46997,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "wichtig": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-dringend",
@@ -46633,7 +47053,12 @@
         "ineffektiv"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "funktional": "loose",
+        "effizient": "loose",
+        "nutzbringend": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-praktisch",
@@ -46677,7 +47102,10 @@
         "ähnlich"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "verschieden": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-unterschiedlich",
@@ -46736,7 +47164,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "frisch": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-lebendig",
@@ -46787,7 +47218,10 @@
         "unwohl"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "angenehm": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-bequem",
@@ -46838,7 +47272,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "darum": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-deshalb",
@@ -46887,7 +47324,10 @@
         "draußen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "innen": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-drinnen",
@@ -46936,7 +47376,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "im Transport": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-unterwegs",
@@ -46989,7 +47432,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "bislang": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-bisher",
@@ -47040,7 +47486,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "andererseits": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-sonst",
@@ -47088,7 +47537,8 @@
         "höchstens"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-mindestens",
@@ -47138,7 +47588,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "unvermittelt": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-ploetzlich",
@@ -47193,7 +47646,11 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "derzeit": "exact",
+        "aktuell": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-im-moment",
@@ -47246,7 +47703,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "gleich": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-so-schnell-wie-moeglich",
@@ -47303,7 +47763,11 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "hängt davon ab": "exact",
+        "je nach": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-es-kommt-darauf-an",
@@ -47358,7 +47822,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Hektik": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-unter-druck",
@@ -47408,7 +47875,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-im-durchschnitt",
@@ -47457,7 +47925,10 @@
         "selbstverständlich"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "keinesfalls": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-auf-keinen-fall",
@@ -47504,7 +47975,11 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Geschehen": "loose",
+        "Vorfall": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-veranstaltung",
@@ -47554,7 +48029,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Resultat": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-ergebnis",
@@ -47603,7 +48081,10 @@
         "ignorieren"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "antworten": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-reagieren",
@@ -47653,7 +48134,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "mitnehmen": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-mitbringen",
@@ -47707,7 +48191,11 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "die Nacht verbringen": "exact",
+        "in der Nacht bleiben": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-uebernachten",
@@ -47759,7 +48247,11 @@
         "verworren"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "einwandfrei": "loose",
+        "klar": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-deutlich",
@@ -47803,7 +48295,10 @@
         "normal"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "merkwürdig": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-seltsam",
@@ -47851,7 +48346,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "üblicherweise": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-normalerweise",
@@ -47901,7 +48399,11 @@
         "überall"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "überall": "loose",
+        "woanders": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-nirgendwo",
@@ -47951,7 +48453,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "selbst": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-sogar",
@@ -48053,7 +48558,10 @@
         "reason": "no_single_robust_opposite_for_comparison_noun",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Abgleich": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-vergleich",
@@ -48105,7 +48613,10 @@
         "reason": "no_single_robust_opposite_for_distance_noun",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Abstand": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-entfernung",
@@ -48160,7 +48671,11 @@
         "reason": "no_single_robust_opposite_for_formal_clean_verb",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "säubern": "exact",
+        "putzen": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-reinigen",
@@ -48211,7 +48726,10 @@
         "reason": "no_single_robust_opposite_for_rinse_verb",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "ausspülen": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-spuelen",
@@ -48261,7 +48779,10 @@
         "abgerundet"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "zuspitzt": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-spitz-pointed",
@@ -48312,7 +48833,11 @@
         "reason": "no_single_robust_opposite_for_tip_point_noun",
         "reviewed_at": "2026-03-26"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Kuppe": "loose",
+        "Ende": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-spitze-tip",
@@ -48362,7 +48887,10 @@
         "reason": "no_single_robust_opposite_for_gap_noun",
         "reviewed_at": "2026-04-17"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Zwischenraum": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-abstand",
@@ -48380,7 +48908,10 @@
         "reason": "no_single_robust_opposite_for_gap_noun",
         "reviewed_at": "2026-04-17"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "spazio": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-abstand",
@@ -48398,7 +48929,10 @@
         "reason": "no_single_robust_opposite_for_gap_noun",
         "reviewed_at": "2026-04-17"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "space": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-unterschied",
@@ -48415,7 +48949,10 @@
         "Ähnlichkeit"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Differenz": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-unterschied",
@@ -48462,7 +48999,11 @@
         "reason": "German modal particle - has no standard lexical antonym across the modeled languages",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "wirklich": "exact",
+        "eigentlich": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-ueberhaupt-emphatic-question",
@@ -48508,7 +49049,10 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "spurten": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-sprinten",
@@ -48522,7 +49066,10 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "sprintare": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-sprinten",
@@ -48548,7 +49095,10 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "hetzen": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-rasen",
@@ -48622,7 +49172,8 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-herausfinden",
@@ -48672,7 +49223,8 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-wettbewerb",
@@ -48686,7 +49238,10 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "concorso": "loose"
+      }
     },
     {
       "concept_id": "concept-a2-wettbewerb",
@@ -48700,7 +49255,8 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     }
   ],
   "clusters": [

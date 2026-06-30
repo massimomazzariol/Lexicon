@@ -111,7 +111,10 @@ async function main() {
   }
 
   save();
-  console.log(`\n${args.apply ? `Wrote tiers on ${written} definition(s).` : 'Preview only. Re-run with --apply to write.'}`);
+  const elapsedMin = ((Date.now() - started) / 60000);
+  const avgSec = done > 0 ? ((Date.now() - started) / done / 1000) : 0;
+  const timing = done > 0 ? ` in ${elapsedMin.toFixed(1)}m (avg ${avgSec.toFixed(1)}s/item over ${done})` : '';
+  console.log(`\n${args.apply ? `Wrote tiers on ${written} definition(s)${timing}.` : `Preview only${timing} - re-run with --apply to write.`}`);
 }
 
 /** concept_id -> { label: "de:.. / it:.. / en:..", byLang: {lang: primaryText} } from primary lexemes. */

@@ -31,21 +31,6 @@
       "review_status": "reviewed"
     },
     {
-      "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",
-      "pos": "chunk",
-      "difficulty_score_auto": 50,
-      "level_auto": "B2",
-      "level_override": null,
-      "domain_tags": [
-        "Social"
-      ],
-      "notes": null,
-      "metadata_json": {
-        "image_url": "/images/i_only_understand_train_station_idiom.jpg"
-      },
-      "review_status": "reviewed"
-    },
-    {
       "concept_id": "76ddf07a-3708-809e-94da-35f0ec10678d",
       "pos": "noun",
       "difficulty_score_auto": 50,
@@ -1335,57 +1320,6 @@
       "frequency_rank": null,
       "lemma": "attualmente",
       "pos": "adv",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lex-en-i-only-understand-train-station",
-      "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",
-      "lang": "en",
-      "text": "I only understand train station",
-      "frequency_rank": null,
-      "lemma": "I only understand train station",
-      "pos": "chunk",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lex-de-ich-verstehe-nur-bahnhof",
-      "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",
-      "lang": "de",
-      "text": "Ich verstehe nur Bahnhof",
-      "frequency_rank": null,
-      "lemma": "Ich verstehe nur Bahnhof",
-      "pos": "chunk",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lex-it-non-capisco-nulla",
-      "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",
-      "lang": "it",
-      "text": "Non capisco nulla",
-      "frequency_rank": null,
-      "lemma": "Non capisco nulla",
-      "pos": "chunk",
       "gender": "none",
       "countability": "none",
       "register": "neutral",
@@ -6159,60 +6093,6 @@
       "lang": "it",
       "surface": "attualmente",
       "surface_search": "attualmente",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "2bf13ecd-d124-c11e-144d-81be4fc25270",
-      "lexeme_id": "lex-en-i-only-understand-train-station",
-      "lang": "en",
-      "surface": "I only understand train station",
-      "surface_search": "i only understand train station",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "8bb701ff-d9f2-8dcf-5967-438beb57a0d2",
-      "lexeme_id": "lex-de-ich-verstehe-nur-bahnhof",
-      "lang": "de",
-      "surface": "Ich verstehe nur Bahnhof",
-      "surface_search": "ich verstehe nur bahnhof",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "4ac86f85-c98c-971f-4184-70650fc2d078",
-      "lexeme_id": "lex-it-non-capisco-nulla",
-      "lang": "it",
-      "surface": "Non capisco nulla",
-      "surface_search": "non capisco nulla",
       "number_value": "none",
       "grammatical_case": "none",
       "definiteness": "none",
@@ -12555,78 +12435,6 @@
       "unit_kind": "core_rec",
       "source_form_id": "a7daa711-ab1d-3f8d-0162-e14d81e40e2d",
       "primary_expected_form_id": "029b6410-726c-699e-8e42-407d7bfae80b",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
-      "study_unit_id": "56d6cffd-6952-bf14-1db4-34d9daa3608a",
-      "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",
-      "source_lang": "de",
-      "target_lang": "en",
-      "unit_kind": "core_prod",
-      "source_form_id": "8bb701ff-d9f2-8dcf-5967-438beb57a0d2",
-      "primary_expected_form_id": "2bf13ecd-d124-c11e-144d-81be4fc25270",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
-      "study_unit_id": "564ae536-5bd4-24c1-fa57-50c7ebdfc410",
-      "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",
-      "source_lang": "en",
-      "target_lang": "de",
-      "unit_kind": "core_rec",
-      "source_form_id": "2bf13ecd-d124-c11e-144d-81be4fc25270",
-      "primary_expected_form_id": "8bb701ff-d9f2-8dcf-5967-438beb57a0d2",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
-      "study_unit_id": "5a3dac32-8037-a278-8e4d-0b6c5e72d883",
-      "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",
-      "source_lang": "it",
-      "target_lang": "en",
-      "unit_kind": "core_prod",
-      "source_form_id": "4ac86f85-c98c-971f-4184-70650fc2d078",
-      "primary_expected_form_id": "2bf13ecd-d124-c11e-144d-81be4fc25270",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
-      "study_unit_id": "aa8d5552-7590-b258-4ec5-a87665c1c097",
-      "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",
-      "source_lang": "en",
-      "target_lang": "it",
-      "unit_kind": "core_rec",
-      "source_form_id": "2bf13ecd-d124-c11e-144d-81be4fc25270",
-      "primary_expected_form_id": "4ac86f85-c98c-971f-4184-70650fc2d078",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -20781,28 +20589,6 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-de-fix-ich-verstehe-nur-bahnhof",
-      "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",
-      "lang": "de",
-      "sentence": "Ich verstehe nur Bahnhof",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-ich-verstehe-nur-bahnhof",
-      "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",
-      "lang": "it",
-      "sentence": "Mentre parlavano velocemente, non capivo nulla.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-de-fix-notwendigkeit",
       "concept_id": "76ddf07a-3708-809e-94da-35f0ec10678d",
       "lang": "de",
@@ -20829,17 +20615,6 @@
       "concept_id": "76ddf07a-3708-809e-94da-35f0ec10678d",
       "lang": "en",
       "sentence": "The necessity of regular exercise for maintaining health is well-documented.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-ich-verstehe-nur-bahnhof",
-      "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",
-      "lang": "en",
-      "sentence": "I am sorry, I have no idea what you are talking about",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -21031,80 +20806,6 @@
       "antonym_policy_json": null,
       "hint_text": null,
       "synonym_tiers_json": {}
-    },
-    {
-      "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",
-      "lang": "en",
-      "short_definition": "Used to say that you do not understand anything being said.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "migrated_from_gloss_alias",
-      "synonyms_json": [
-        "I don't get it",
-        "I'm lost"
-      ],
-      "antonyms_json": [
-        "I understand everything",
-        "I understand completely",
-        "I follow every word"
-      ],
-      "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "I don't get it": "loose",
-        "I'm lost": "loose"
-      }
-    },
-    {
-      "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",
-      "lang": "de",
-      "short_definition": "Wird verwendet, um auszudrücken, dass man nichts versteht.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "migrated_from_gloss_alias",
-      "synonyms_json": [
-        "Ich verstehe kein Wort",
-        "Ich verstehe nichts",
-        "Ich habe keinen Schimmer"
-      ],
-      "antonyms_json": [
-        "Ich verstehe alles",
-        "Mir ist alles klar",
-        "Es ist mir alles klar"
-      ],
-      "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed",
-      "synonym_tiers_json": {
-        "Ich verstehe kein Wort": "exact",
-        "Ich verstehe nichts": "exact",
-        "Ich habe keinen Schimmer": "loose"
-      }
-    },
-    {
-      "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",
-      "lang": "it",
-      "short_definition": "Usato per dire che non si capisce nulla di ciò che viene detto.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "migrated_from_gloss_alias",
-      "synonyms_json": [
-        "Non capire un tubo",
-        "Non avere idea"
-      ],
-      "antonyms_json": [
-        "capisco tutto",
-        "Capire tutto",
-        "Comprendere perfettamente"
-      ],
-      "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Non capire un tubo": "exact",
-        "Non avere idea": "loose"
-      }
     },
     {
       "concept_id": "76ddf07a-3708-809e-94da-35f0ec10678d",

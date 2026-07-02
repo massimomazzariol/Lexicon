@@ -1,0 +1,1815 @@
+{
+  "concepts": [
+    {
+      "concept_id": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "pos": "chunk",
+      "difficulty_score_auto": 50,
+      "level_auto": "B1",
+      "level_override": null,
+      "domain_tags": [
+        "Daily"
+      ],
+      "notes": null,
+      "metadata_json": {
+        "image_url": "/images/in_the_end_idiom.jpg"
+      },
+      "review_status": "reviewed"
+    },
+    {
+      "concept_id": "concept-b1-unter-anderem",
+      "pos": "chunk",
+      "difficulty_score_auto": 50,
+      "level_auto": "B1",
+      "level_override": null,
+      "domain_tags": [
+        "Communication",
+        "Work",
+        "Travel"
+      ],
+      "notes": null,
+      "metadata_json": {},
+      "review_status": "reviewed"
+    },
+    {
+      "concept_id": "concept-b1-auf-dauer",
+      "pos": "chunk",
+      "difficulty_score_auto": 50,
+      "level_auto": "B1",
+      "level_override": null,
+      "domain_tags": [
+        "Daily",
+        "Work",
+        "Abstract"
+      ],
+      "notes": null,
+      "metadata_json": {},
+      "review_status": "reviewed"
+    },
+    {
+      "concept_id": "concept-b1-eine-rolle-spielen",
+      "pos": "chunk",
+      "difficulty_score_auto": 50,
+      "level_auto": "B1",
+      "level_override": null,
+      "domain_tags": [
+        "Work",
+        "Social",
+        "Abstract"
+      ],
+      "notes": null,
+      "metadata_json": {},
+      "review_status": "reviewed"
+    },
+    {
+      "concept_id": "concept-b1-in-der-regel",
+      "pos": "chunk",
+      "difficulty_score_auto": 50,
+      "level_auto": "B1",
+      "level_override": null,
+      "domain_tags": [
+        "Travel",
+        "Daily",
+        "Communication"
+      ],
+      "notes": null,
+      "metadata_json": {},
+      "review_status": "reviewed"
+    },
+    {
+      "concept_id": "concept-b1-nach-wie-vor",
+      "pos": "chunk",
+      "difficulty_score_auto": 50,
+      "level_auto": "B1",
+      "level_override": null,
+      "domain_tags": [
+        "Travel",
+        "Work",
+        "Abstract"
+      ],
+      "notes": null,
+      "metadata_json": {},
+      "review_status": "reviewed"
+    }
+  ],
+  "lexemes": [
+    {
+      "lexeme_id": "lex-en-in-the-end",
+      "concept_id": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "lang": "en",
+      "text": "in the end",
+      "frequency_rank": null,
+      "lemma": "in the end",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-am-ende",
+      "concept_id": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "lang": "de",
+      "text": "am Ende",
+      "frequency_rank": null,
+      "lemma": "am Ende",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-alla-fine",
+      "concept_id": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "lang": "it",
+      "text": "alla fine",
+      "frequency_rank": null,
+      "lemma": "alla fine",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-unter-anderem",
+      "concept_id": "concept-b1-unter-anderem",
+      "lang": "de",
+      "text": "unter anderem",
+      "frequency_rank": null,
+      "lemma": "unter anderem",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-tra-l-altro",
+      "concept_id": "concept-b1-unter-anderem",
+      "lang": "it",
+      "text": "tra l'altro",
+      "frequency_rank": null,
+      "lemma": "tra l'altro",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-en-among-other-things",
+      "concept_id": "concept-b1-unter-anderem",
+      "lang": "en",
+      "text": "among other things",
+      "frequency_rank": null,
+      "lemma": "among other things",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-auf-dauer",
+      "concept_id": "concept-b1-auf-dauer",
+      "lang": "de",
+      "text": "auf Dauer",
+      "frequency_rank": null,
+      "lemma": "auf Dauer",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-alla-lunga",
+      "concept_id": "concept-b1-auf-dauer",
+      "lang": "it",
+      "text": "alla lunga",
+      "frequency_rank": null,
+      "lemma": "alla lunga",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-en-in-the-long-run",
+      "concept_id": "concept-b1-auf-dauer",
+      "lang": "en",
+      "text": "in the long run",
+      "frequency_rank": null,
+      "lemma": "in the long run",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-rolle-spielen",
+      "concept_id": "concept-b1-eine-rolle-spielen",
+      "lang": "de",
+      "text": "eine Rolle spielen",
+      "frequency_rank": null,
+      "lemma": "Rolle spielen",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-avere-un-ruolo",
+      "concept_id": "concept-b1-eine-rolle-spielen",
+      "lang": "it",
+      "text": "avere un ruolo",
+      "frequency_rank": null,
+      "lemma": "avere un ruolo",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-en-play-a-role",
+      "concept_id": "concept-b1-eine-rolle-spielen",
+      "lang": "en",
+      "text": "play a role",
+      "frequency_rank": null,
+      "lemma": "play a role",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-in-der-regel",
+      "concept_id": "concept-b1-in-der-regel",
+      "lang": "de",
+      "text": "in der Regel",
+      "frequency_rank": null,
+      "lemma": "in der Regel",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-di-solito",
+      "concept_id": "concept-b1-in-der-regel",
+      "lang": "it",
+      "text": "di solito",
+      "frequency_rank": null,
+      "lemma": "di solito",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-en-as-a-rule",
+      "concept_id": "concept-b1-in-der-regel",
+      "lang": "en",
+      "text": "as a rule",
+      "frequency_rank": null,
+      "lemma": "as a rule",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-nach-wie-vor",
+      "concept_id": "concept-b1-nach-wie-vor",
+      "lang": "de",
+      "text": "nach wie vor",
+      "frequency_rank": null,
+      "lemma": "nach wie vor",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-ancora-3",
+      "concept_id": "concept-b1-nach-wie-vor",
+      "lang": "it",
+      "text": "ancora",
+      "frequency_rank": null,
+      "lemma": "ancora",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-en-still-3",
+      "concept_id": "concept-b1-nach-wie-vor",
+      "lang": "en",
+      "text": "still",
+      "frequency_rank": null,
+      "lemma": "still",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    }
+  ],
+  "lexeme_forms": [
+    {
+      "form_id": "240ccbd6-a87a-71c7-624d-660735ae6ad9",
+      "lexeme_id": "lex-en-in-the-end",
+      "lang": "en",
+      "surface": "in the end",
+      "surface_search": "in the end",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "ed607c29-424a-cfce-15f1-fcf670cb714c",
+      "lexeme_id": "lex-de-am-ende",
+      "lang": "de",
+      "surface": "am Ende",
+      "surface_search": "am ende",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "5507ae18-4b00-d29d-e482-7285fc1583dd",
+      "lexeme_id": "lex-it-alla-fine",
+      "lang": "it",
+      "surface": "alla fine",
+      "surface_search": "alla fine",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "50a822ce-bafe-60f2-b9d0-cb4924ad8a2f",
+      "lexeme_id": "lex-de-unter-anderem",
+      "lang": "de",
+      "surface": "unter anderem",
+      "surface_search": "unter anderem",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "7d87d8fd-9f30-e88e-cb75-f3a6e5170bdf",
+      "lexeme_id": "lex-it-tra-l-altro",
+      "lang": "it",
+      "surface": "tra l'altro",
+      "surface_search": "tra l'altro",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "52192f42-f950-636c-b3ef-0692b0b19e1f",
+      "lexeme_id": "lex-en-among-other-things",
+      "lang": "en",
+      "surface": "among other things",
+      "surface_search": "among other things",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "4ee99ac2-129c-cf40-b562-79a02da14239",
+      "lexeme_id": "lex-de-auf-dauer",
+      "lang": "de",
+      "surface": "auf Dauer",
+      "surface_search": "auf dauer",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "f3cf33e3-c00c-4503-3908-e427342e9843",
+      "lexeme_id": "lex-it-alla-lunga",
+      "lang": "it",
+      "surface": "alla lunga",
+      "surface_search": "alla lunga",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "35c52615-124d-e4e2-f846-147f0608b401",
+      "lexeme_id": "lex-en-in-the-long-run",
+      "lang": "en",
+      "surface": "in the long run",
+      "surface_search": "in the long run",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "09c580c9-526a-5d82-2d8e-c8f591f9661d",
+      "lexeme_id": "lex-de-rolle-spielen",
+      "lang": "de",
+      "surface": "eine Rolle spielen",
+      "surface_search": "eine rolle spielen",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "d0d3d6bc-9c6d-220b-8246-2bfad8a42017",
+      "lexeme_id": "lex-it-avere-un-ruolo",
+      "lang": "it",
+      "surface": "avere un ruolo",
+      "surface_search": "avere un ruolo",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "bf273d1b-4f43-9a75-8abe-af6851cda9fc",
+      "lexeme_id": "lex-en-play-a-role",
+      "lang": "en",
+      "surface": "play a role",
+      "surface_search": "play a role",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "a494c761-df2f-74df-644b-77e4e94f94a8",
+      "lexeme_id": "lex-de-in-der-regel",
+      "lang": "de",
+      "surface": "in der Regel",
+      "surface_search": "in der regel",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "b4ae2fa0-0641-9085-0a6a-20c2b0fd171b",
+      "lexeme_id": "lex-it-di-solito",
+      "lang": "it",
+      "surface": "di solito",
+      "surface_search": "di solito",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "a55ce936-3536-808a-f770-926e43eb1141",
+      "lexeme_id": "lex-en-as-a-rule",
+      "lang": "en",
+      "surface": "as a rule",
+      "surface_search": "as a rule",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "c5b7a188-beae-8fd4-0682-151840f9ccea",
+      "lexeme_id": "lex-de-nach-wie-vor",
+      "lang": "de",
+      "surface": "nach wie vor",
+      "surface_search": "nach wie vor",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "8a39e4f0-e0d7-6466-46f9-d92dbf6d8172",
+      "lexeme_id": "lex-it-ancora-3",
+      "lang": "it",
+      "surface": "ancora",
+      "surface_search": "ancora",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "aa03c399-7886-ab1d-720f-c37bc81e5467",
+      "lexeme_id": "lex-en-still-3",
+      "lang": "en",
+      "surface": "still",
+      "surface_search": "still",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    }
+  ],
+  "study_units": [
+    {
+      "study_unit_id": "25041025-616e-df50-ac8b-c54ed0c9285a",
+      "concept_id": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_prod",
+      "source_form_id": "240ccbd6-a87a-71c7-624d-660735ae6ad9",
+      "primary_expected_form_id": "ed607c29-424a-cfce-15f1-fcf670cb714c",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "7bf19083-e807-e47b-90c7-514ae4997275",
+      "concept_id": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_rec",
+      "source_form_id": "ed607c29-424a-cfce-15f1-fcf670cb714c",
+      "primary_expected_form_id": "240ccbd6-a87a-71c7-624d-660735ae6ad9",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "c9a5445a-7f13-2ce1-80b9-7e30b29ff2c1",
+      "concept_id": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "core_prod",
+      "source_form_id": "5507ae18-4b00-d29d-e482-7285fc1583dd",
+      "primary_expected_form_id": "ed607c29-424a-cfce-15f1-fcf670cb714c",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "f16a9e3a-6763-5920-03aa-a2ae8723543d",
+      "concept_id": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "ed607c29-424a-cfce-15f1-fcf670cb714c",
+      "primary_expected_form_id": "5507ae18-4b00-d29d-e482-7285fc1583dd",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "206fcc48-ba5f-20c2-41ee-3cdd52593ed1",
+      "concept_id": "concept-b1-unter-anderem",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_prod",
+      "source_form_id": "52192f42-f950-636c-b3ef-0692b0b19e1f",
+      "primary_expected_form_id": "50a822ce-bafe-60f2-b9d0-cb4924ad8a2f",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "744774d8-5767-602c-bd7b-6f30ee310084",
+      "concept_id": "concept-b1-unter-anderem",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_rec",
+      "source_form_id": "50a822ce-bafe-60f2-b9d0-cb4924ad8a2f",
+      "primary_expected_form_id": "52192f42-f950-636c-b3ef-0692b0b19e1f",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "c625b9ca-0912-63d2-dbe2-3602f63678bd",
+      "concept_id": "concept-b1-unter-anderem",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "core_prod",
+      "source_form_id": "7d87d8fd-9f30-e88e-cb75-f3a6e5170bdf",
+      "primary_expected_form_id": "50a822ce-bafe-60f2-b9d0-cb4924ad8a2f",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "169de292-9c61-eac1-33a4-b73aeaf6ee0d",
+      "concept_id": "concept-b1-unter-anderem",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "50a822ce-bafe-60f2-b9d0-cb4924ad8a2f",
+      "primary_expected_form_id": "7d87d8fd-9f30-e88e-cb75-f3a6e5170bdf",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "a7164841-3b2c-7cae-1987-4bd10ed35cd6",
+      "concept_id": "concept-b1-auf-dauer",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_prod",
+      "source_form_id": "35c52615-124d-e4e2-f846-147f0608b401",
+      "primary_expected_form_id": "4ee99ac2-129c-cf40-b562-79a02da14239",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "83e3f424-c482-ce64-65ce-76a167417836",
+      "concept_id": "concept-b1-auf-dauer",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_rec",
+      "source_form_id": "4ee99ac2-129c-cf40-b562-79a02da14239",
+      "primary_expected_form_id": "35c52615-124d-e4e2-f846-147f0608b401",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "59f94d0c-d719-67ce-8e74-7efda63ccd5b",
+      "concept_id": "concept-b1-auf-dauer",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "core_prod",
+      "source_form_id": "f3cf33e3-c00c-4503-3908-e427342e9843",
+      "primary_expected_form_id": "4ee99ac2-129c-cf40-b562-79a02da14239",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "46567c6f-11f8-f1aa-cd2b-02ced0a5ba00",
+      "concept_id": "concept-b1-auf-dauer",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "4ee99ac2-129c-cf40-b562-79a02da14239",
+      "primary_expected_form_id": "f3cf33e3-c00c-4503-3908-e427342e9843",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "232e3e62-adaa-e2fa-0fe8-2bd6d70a0ad4",
+      "concept_id": "concept-b1-eine-rolle-spielen",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_prod",
+      "source_form_id": "bf273d1b-4f43-9a75-8abe-af6851cda9fc",
+      "primary_expected_form_id": "09c580c9-526a-5d82-2d8e-c8f591f9661d",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "5ba9e143-4f9b-7594-c4c7-aca78b6e3641",
+      "concept_id": "concept-b1-eine-rolle-spielen",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_rec",
+      "source_form_id": "09c580c9-526a-5d82-2d8e-c8f591f9661d",
+      "primary_expected_form_id": "bf273d1b-4f43-9a75-8abe-af6851cda9fc",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "3f4ba042-0e9d-2b04-ebd0-fd4b5cc8e0f6",
+      "concept_id": "concept-b1-eine-rolle-spielen",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "core_prod",
+      "source_form_id": "d0d3d6bc-9c6d-220b-8246-2bfad8a42017",
+      "primary_expected_form_id": "09c580c9-526a-5d82-2d8e-c8f591f9661d",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "61405db8-36b2-2b21-e43e-45f36d72d0da",
+      "concept_id": "concept-b1-eine-rolle-spielen",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "09c580c9-526a-5d82-2d8e-c8f591f9661d",
+      "primary_expected_form_id": "d0d3d6bc-9c6d-220b-8246-2bfad8a42017",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "9a02887d-7868-21cd-571e-aa1d4c7bc601",
+      "concept_id": "concept-b1-in-der-regel",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_prod",
+      "source_form_id": "a55ce936-3536-808a-f770-926e43eb1141",
+      "primary_expected_form_id": "a494c761-df2f-74df-644b-77e4e94f94a8",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "f49f75c5-4cab-7bcb-d470-3919d7c4f265",
+      "concept_id": "concept-b1-in-der-regel",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_rec",
+      "source_form_id": "a494c761-df2f-74df-644b-77e4e94f94a8",
+      "primary_expected_form_id": "a55ce936-3536-808a-f770-926e43eb1141",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "0f950757-0eaa-ba33-fb55-c0c480a39ffa",
+      "concept_id": "concept-b1-in-der-regel",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "core_prod",
+      "source_form_id": "b4ae2fa0-0641-9085-0a6a-20c2b0fd171b",
+      "primary_expected_form_id": "a494c761-df2f-74df-644b-77e4e94f94a8",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "34cecbd5-bdc2-ab66-4341-50011223e0e0",
+      "concept_id": "concept-b1-in-der-regel",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "a494c761-df2f-74df-644b-77e4e94f94a8",
+      "primary_expected_form_id": "b4ae2fa0-0641-9085-0a6a-20c2b0fd171b",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "5c231b40-608b-bd32-9a7c-425d9a7625f8",
+      "concept_id": "concept-b1-nach-wie-vor",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_prod",
+      "source_form_id": "aa03c399-7886-ab1d-720f-c37bc81e5467",
+      "primary_expected_form_id": "c5b7a188-beae-8fd4-0682-151840f9ccea",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "575db4b5-fe44-045a-a18a-04673056cbcb",
+      "concept_id": "concept-b1-nach-wie-vor",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_rec",
+      "source_form_id": "c5b7a188-beae-8fd4-0682-151840f9ccea",
+      "primary_expected_form_id": "aa03c399-7886-ab1d-720f-c37bc81e5467",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "1284de5c-3d93-d73d-321e-31b9b3dc08e2",
+      "concept_id": "concept-b1-nach-wie-vor",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "core_prod",
+      "source_form_id": "8a39e4f0-e0d7-6466-46f9-d92dbf6d8172",
+      "primary_expected_form_id": "c5b7a188-beae-8fd4-0682-151840f9ccea",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "b7fea80c-a000-7a38-1ef7-dee1513aee13",
+      "concept_id": "concept-b1-nach-wie-vor",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "c5b7a188-beae-8fd4-0682-151840f9ccea",
+      "primary_expected_form_id": "8a39e4f0-e0d7-6466-46f9-d92dbf6d8172",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    }
+  ],
+  "examples": [
+    {
+      "example_id": "43bf1159-10e1-86cc-d619-8f49c92a330d",
+      "concept_id": "concept-b1-auf-dauer",
+      "lang": "en",
+      "sentence": "This saves money when you think about several years, not just today.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "example-de-fix-am-ende",
+      "concept_id": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "lang": "de",
+      "sentence": "Nach langen Überlegungen kam ich am Ende zu dem Schluss, dass es die richtige Entscheidung war.",
+      "source": "ai",
+      "generated_by": "ai",
+      "confidence": "high",
+      "notes": null,
+      "review_status": "reviewed"
+    },
+    {
+      "example_id": "example-it-fix-am-ende",
+      "concept_id": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "lang": "it",
+      "sentence": "Dopo lunghe riflessioni, alla fine ho concluso che fosse la decisione giusta.",
+      "source": "ai",
+      "generated_by": "ai",
+      "confidence": "high",
+      "notes": null,
+      "review_status": "reviewed"
+    },
+    {
+      "example_id": "example-en-fix-am-ende",
+      "concept_id": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "lang": "en",
+      "sentence": "In the end, he concluded that it was better to observe rather than act.",
+      "source": "ai",
+      "generated_by": "ai",
+      "confidence": "high",
+      "notes": null,
+      "review_status": "reviewed"
+    },
+    {
+      "example_id": "example-de-fix-unter-anderem",
+      "concept_id": "concept-b1-unter-anderem",
+      "lang": "de",
+      "sentence": "Er hat unter anderem Musik studiert.",
+      "source": "ai",
+      "generated_by": "ai",
+      "confidence": "high",
+      "notes": null,
+      "review_status": "reviewed"
+    },
+    {
+      "example_id": "example-it-fix-unter-anderem",
+      "concept_id": "concept-b1-unter-anderem",
+      "lang": "it",
+      "sentence": "Ha viaggiato in molti paesi, tra l'altro in Giappone.",
+      "source": "ai",
+      "generated_by": "ai",
+      "confidence": "high",
+      "notes": null,
+      "review_status": "reviewed"
+    },
+    {
+      "example_id": "example-en-fix-unter-anderem",
+      "concept_id": "concept-b1-unter-anderem",
+      "lang": "en",
+      "sentence": "She is interested in art, among other things.",
+      "source": "ai",
+      "generated_by": "ai",
+      "confidence": "high",
+      "notes": null,
+      "review_status": "reviewed"
+    },
+    {
+      "example_id": "example-de-fix-auf-dauer",
+      "concept_id": "concept-b1-auf-dauer",
+      "lang": "de",
+      "sentence": "Auf Dauer wird die Situation sich verbessern.",
+      "source": "ai",
+      "generated_by": "ai",
+      "confidence": "high",
+      "notes": null,
+      "review_status": "reviewed"
+    },
+    {
+      "example_id": "example-it-fix-auf-dauer",
+      "concept_id": "concept-b1-auf-dauer",
+      "lang": "it",
+      "sentence": "Alla lunga, il progetto sarà redditizio.",
+      "source": "ai",
+      "generated_by": "ai",
+      "confidence": "high",
+      "notes": null,
+      "review_status": "reviewed"
+    },
+    {
+      "example_id": "example-de-fix-rolle-spielen",
+      "concept_id": "concept-b1-eine-rolle-spielen",
+      "lang": "de",
+      "sentence": "Die Farbe spielt eine Rolle bei der Wahl des Outfits.",
+      "source": "ai",
+      "generated_by": "ai",
+      "confidence": "high",
+      "notes": null,
+      "review_status": "reviewed"
+    },
+    {
+      "example_id": "example-it-fix-rolle-spielen",
+      "concept_id": "concept-b1-eine-rolle-spielen",
+      "lang": "it",
+      "sentence": "Il colore ha un ruolo nella scelta dell'abbigliamento.",
+      "source": "ai",
+      "generated_by": "ai",
+      "confidence": "high",
+      "notes": null,
+      "review_status": "reviewed"
+    },
+    {
+      "example_id": "example-en-fix-rolle-spielen",
+      "concept_id": "concept-b1-eine-rolle-spielen",
+      "lang": "en",
+      "sentence": "The color plays a role in choosing an outfit.",
+      "source": "ai",
+      "generated_by": "ai",
+      "confidence": "high",
+      "notes": null,
+      "review_status": "reviewed"
+    },
+    {
+      "example_id": "example-de-fix-in-der-regel",
+      "concept_id": "concept-b1-in-der-regel",
+      "lang": "de",
+      "sentence": "Er kommt in der Regel pünktlich.",
+      "source": "ai",
+      "generated_by": "ai",
+      "confidence": "high",
+      "notes": null,
+      "review_status": "reviewed"
+    },
+    {
+      "example_id": "example-it-fix-in-der-regel",
+      "concept_id": "concept-b1-in-der-regel",
+      "lang": "it",
+      "sentence": "Di solito, i treni arrivano in orario.",
+      "source": "ai",
+      "generated_by": "ai",
+      "confidence": "high",
+      "notes": null,
+      "review_status": "reviewed"
+    },
+    {
+      "example_id": "example-en-fix-in-der-regel",
+      "concept_id": "concept-b1-in-der-regel",
+      "lang": "en",
+      "sentence": "As a rule, the meeting starts at 10 AM.",
+      "source": "ai",
+      "generated_by": "ai",
+      "confidence": "high",
+      "notes": null,
+      "review_status": "reviewed"
+    },
+    {
+      "example_id": "example-de-fix-nach-wie-vor",
+      "concept_id": "concept-b1-nach-wie-vor",
+      "lang": "de",
+      "sentence": "Die Probleme bestehen nach wie vor.",
+      "source": "ai",
+      "generated_by": "ai",
+      "confidence": "high",
+      "notes": null,
+      "review_status": "reviewed"
+    },
+    {
+      "example_id": "example-it-fix-nach-wie-vor",
+      "concept_id": "concept-b1-nach-wie-vor",
+      "lang": "it",
+      "sentence": "La situazione è ancora la stessa.",
+      "source": "ai",
+      "generated_by": "ai",
+      "confidence": "high",
+      "notes": null,
+      "review_status": "reviewed"
+    },
+    {
+      "example_id": "example-en-fix-nach-wie-vor",
+      "concept_id": "concept-b1-nach-wie-vor",
+      "lang": "en",
+      "sentence": "The situation remains unchanged.",
+      "source": "ai",
+      "generated_by": "ai",
+      "confidence": "high",
+      "notes": null,
+      "review_status": "reviewed"
+    }
+  ],
+  "concept_definitions": [
+    {
+      "concept_id": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "lang": "en",
+      "short_definition": "Used to indicate the final outcome after a process or events.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "migrated_from_gloss_alias",
+      "synonyms_json": [
+        "finally",
+        "ultimately"
+      ],
+      "antonyms_json": [
+        "at the beginning",
+        "initially",
+        "at first"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "synonym_tiers_json": {}
+    },
+    {
+      "concept_id": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "lang": "de",
+      "short_definition": "Wird verwendet, um das Endergebnis nach einem Prozess oder Ereignissen zu beschreiben.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "migrated_from_gloss_alias",
+      "synonyms_json": [
+        "zuletzt",
+        "schließlich"
+      ],
+      "antonyms_json": [
+        "am Anfang"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "zuletzt": "loose"
+      }
+    },
+    {
+      "concept_id": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "lang": "it",
+      "short_definition": "Usato per indicare il risultato finale dopo un processo o eventi.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "migrated_from_gloss_alias",
+      "synonyms_json": [
+        "in ultima analisi"
+      ],
+      "antonyms_json": [
+        "all'inizio",
+        "subito"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "in ultima analisi": "loose"
+      }
+    },
+    {
+      "concept_id": "concept-b1-unter-anderem",
+      "lang": "de",
+      "short_definition": "Zum Beispiel dies und noch weitere Dinge.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "darüber hinaus",
+        "ebenfalls",
+        "zudem"
+      ],
+      "antonyms_json": [
+        "nur",
+        "allein",
+        "nichts als"
+      ],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "no_single_robust_lexical_opposite_for_concept",
+        "reviewed_at": "2026-03-21"
+      },
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "darüber hinaus": "loose",
+        "ebenfalls": "loose"
+      }
+    },
+    {
+      "concept_id": "concept-b1-unter-anderem",
+      "lang": "it",
+      "short_definition": "Per esempio questo, insieme ad altre cose.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "no_single_robust_lexical_opposite_for_concept",
+        "reviewed_at": "2026-03-21"
+      },
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-b1-unter-anderem",
+      "lang": "en",
+      "short_definition": "For example this, along with other things.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "no_single_robust_lexical_opposite_for_concept",
+        "reviewed_at": "2026-03-21"
+      },
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-b1-auf-dauer",
+      "lang": "de",
+      "short_definition": "Wenn man an einen längeren Zeitraum denkt.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "langfristig"
+      ],
+      "antonyms_json": [
+        "kurzfristig",
+        "im Moment",
+        "sofort",
+        "auf kurzfristiger Basis"
+      ],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "no_single_robust_lexical_opposite_for_concept",
+        "reviewed_at": "2026-03-21"
+      },
+      "hint_text": null,
+      "synonym_tiers_json": {}
+    },
+    {
+      "concept_id": "concept-b1-auf-dauer",
+      "lang": "it",
+      "short_definition": "Se si considera un periodo più lungo.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "no_single_robust_lexical_opposite_for_concept",
+        "reviewed_at": "2026-03-21"
+      },
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-b1-auf-dauer",
+      "lang": "en",
+      "short_definition": "When thinking about a longer period of time.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "no_single_robust_lexical_opposite_for_concept",
+        "reviewed_at": "2026-03-21"
+      },
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-b1-eine-rolle-spielen",
+      "lang": "de",
+      "short_definition": "Wichtig oder relevant für etwas sein.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "teilnehmen",
+        "beeinflussen",
+        "wirken"
+      ],
+      "antonyms_json": [
+        "unwichtig sein",
+        "irrelevant sein",
+        "keine Funktion haben",
+        "unbedeutend sein"
+      ],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "no_single_robust_lexical_opposite_for_concept",
+        "reviewed_at": "2026-03-21"
+      },
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "teilnehmen": "loose"
+      }
+    },
+    {
+      "concept_id": "concept-b1-eine-rolle-spielen",
+      "lang": "it",
+      "short_definition": "Essere importante o rilevante per qualcosa.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "no_single_robust_lexical_opposite_for_concept",
+        "reviewed_at": "2026-03-21"
+      },
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-b1-eine-rolle-spielen",
+      "lang": "en",
+      "short_definition": "To be important or relevant for something.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "no_single_robust_lexical_opposite_for_concept",
+        "reviewed_at": "2026-03-21"
+      },
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-b1-in-der-regel",
+      "lang": "de",
+      "short_definition": "Normalerweise oder in den meisten Fällen.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "gewöhnlich",
+        "üblicherweise",
+        "normalerweise"
+      ],
+      "antonyms_json": [
+        "selten",
+        "nie",
+        "ausnahmsweise"
+      ],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "no_single_robust_lexical_opposite_for_concept",
+        "reviewed_at": "2026-03-21"
+      },
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "üblicherweise": "exact",
+        "normalerweise": "exact"
+      }
+    },
+    {
+      "concept_id": "concept-b1-in-der-regel",
+      "lang": "it",
+      "short_definition": "Normalmente o nella maggior parte dei casi.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "no_single_robust_lexical_opposite_for_concept",
+        "reviewed_at": "2026-03-21"
+      },
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-b1-in-der-regel",
+      "lang": "en",
+      "short_definition": "Usually or in most cases.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "no_single_robust_lexical_opposite_for_concept",
+        "reviewed_at": "2026-03-21"
+      },
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-b1-nach-wie-vor",
+      "lang": "de",
+      "short_definition": "Immer noch in unveränderter Weise.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "weiterhin",
+        "gleichbleibend",
+        "unverändert"
+      ],
+      "antonyms_json": [
+        "nicht mehr"
+      ],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "no_single_robust_lexical_opposite_for_concept",
+        "reviewed_at": "2026-03-21"
+      },
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "weiterhin": "exact",
+        "gleichbleibend": "loose",
+        "unverändert": "exact"
+      }
+    },
+    {
+      "concept_id": "concept-b1-nach-wie-vor",
+      "lang": "it",
+      "short_definition": "Tuttora nello stesso modo, senza cambiamenti.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "no_single_robust_lexical_opposite_for_concept",
+        "reviewed_at": "2026-03-21"
+      },
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-b1-nach-wie-vor",
+      "lang": "en",
+      "short_definition": "In the same state or condition as before; unchanged.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "ai",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "no_single_robust_lexical_opposite_for_concept",
+        "reviewed_at": "2026-03-21"
+      },
+      "hint_text": null
+    }
+  ],
+  "clusters": [
+    {
+      "cluster_id": "55255ad4-c6d5-d2c2-f25d-af8d91e95f01",
+      "lang": "de",
+      "label": "connector confusables",
+      "type": "confusables"
+    },
+    {
+      "cluster_id": "499d250c-b7ab-24f8-6ffa-f953e6519908",
+      "lang": "de",
+      "label": "synonyms: schließlich +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "343b1b87-0dbc-3cd5-15f0-57d445faa531",
+      "lang": "de",
+      "label": "synonyms: außerdem +3",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "36e311b4-f005-5fd7-baff-bf0d5d94d664",
+      "lang": "de",
+      "label": "synonyms: auf Dauer",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "27ddb271-39ee-033e-f984-94318c49e8d8",
+      "lang": "de",
+      "label": "synonyms: eine Rolle spielen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "18b421e6-3dfb-8fda-211d-f53ccfe5e442",
+      "lang": "de",
+      "label": "synonyms: in der Regel",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "d544fd87-710c-fb4a-441c-5e2073d266be",
+      "lang": "it",
+      "label": "synonyms: finalmente",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "f4ea9604-d713-9e81-f74f-6392a55c0ad0",
+      "lang": "it",
+      "label": "synonyms: per lo piu +2",
+      "type": "semantic",
+      "auto": true
+    }
+  ],
+  "cluster_members": [
+    {
+      "cluster_id": "55255ad4-c6d5-d2c2-f25d-af8d91e95f01",
+      "lexeme_id": "lex-de-am-ende",
+      "position": 6
+    },
+    {
+      "cluster_id": "499d250c-b7ab-24f8-6ffa-f953e6519908",
+      "lexeme_id": "lex-de-am-ende",
+      "position": 1
+    },
+    {
+      "cluster_id": "343b1b87-0dbc-3cd5-15f0-57d445faa531",
+      "lexeme_id": "lex-de-unter-anderem",
+      "position": 2
+    },
+    {
+      "cluster_id": "36e311b4-f005-5fd7-baff-bf0d5d94d664",
+      "lexeme_id": "lex-de-auf-dauer",
+      "position": 0
+    },
+    {
+      "cluster_id": "27ddb271-39ee-033e-f984-94318c49e8d8",
+      "lexeme_id": "lex-de-rolle-spielen",
+      "position": 0
+    },
+    {
+      "cluster_id": "18b421e6-3dfb-8fda-211d-f53ccfe5e442",
+      "lexeme_id": "lex-de-in-der-regel",
+      "position": 0
+    },
+    {
+      "cluster_id": "d544fd87-710c-fb4a-441c-5e2073d266be",
+      "lexeme_id": "lex-it-alla-fine",
+      "position": 1
+    },
+    {
+      "cluster_id": "f4ea9604-d713-9e81-f74f-6392a55c0ad0",
+      "lexeme_id": "lex-it-di-solito",
+      "position": 2
+    }
+  ]
+}

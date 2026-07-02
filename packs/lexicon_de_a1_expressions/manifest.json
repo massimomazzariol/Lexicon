@@ -1,27 +1,26 @@
 {
-  "pack_id": "lexicon.it.expressions.seed",
+  "pack_id": "lexicon.de.a1.expressions",
   "pack_role": "runtime",
-  "version": "1.0.2",
-  "pack_level": "expressions",
+  "version": "1.0.1",
+  "pack_level": "A1",
+  "kind": "expressions",
   "levels_supported": [
-    "expressions"
+    "A1"
   ],
   "relation_chunk_ids": [],
   "languages_target_supported": [
-    "it"
+    "de"
   ],
   "gloss_languages_supported": [
-    "de",
-    "en"
+    "en",
+    "it"
   ],
   "domains": [
     "Daily",
-    "Social",
-    "Travel",
-    "Work"
+    "Social"
   ],
   "license_info": "internal",
   "content_file": "content.json",
-  "generated_at": "2026-06-30T10:00:13.282Z",
+  "generated_at": "2026-07-02T08:07:04.804Z",
   "schema_version": 2
 }

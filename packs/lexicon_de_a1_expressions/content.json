@@ -1,0 +1,1080 @@
+{
+  "concepts": [
+    {
+      "concept_id": "b76697b4-0a3a-5cae-4129-c6b61ae0ccde",
+      "pos": "chunk",
+      "difficulty_score_auto": 20,
+      "level_auto": "A1",
+      "level_override": null,
+      "domain_tags": [
+        "Social"
+      ],
+      "notes": null,
+      "metadata_json": {
+        "image_url": "/images/listen_to_me_phrase.jpg"
+      }
+    },
+    {
+      "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+      "pos": "chunk",
+      "difficulty_score_auto": 20,
+      "level_auto": "A1",
+      "level_override": null,
+      "domain_tags": [
+        "Social"
+      ],
+      "notes": "Phrase block: core help-request expression for A1 learners.",
+      "metadata_json": {
+        "image_url": "/images/can_you_help_me_phrase.jpg"
+      },
+      "review_status": "reviewed"
+    },
+    {
+      "concept_id": "concept-a1-what-time-is-it",
+      "pos": "chunk",
+      "difficulty_score_auto": 20,
+      "level_auto": "A1",
+      "level_override": null,
+      "domain_tags": [
+        "Daily",
+        "Time",
+        "Communication"
+      ],
+      "notes": "Editorial addition from the ora/Uhr ambiguity audit. Phrase block for asking the time of day.",
+      "metadata_json": {},
+      "review_status": "reviewed"
+    }
+  ],
+  "lexemes": [
+    {
+      "lexeme_id": "lex-en-listen-to-me",
+      "concept_id": "b76697b4-0a3a-5cae-4129-c6b61ae0ccde",
+      "lang": "en",
+      "text": "listen to me",
+      "frequency_rank": null,
+      "lemma": "listen to me",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-hor-mir-zu",
+      "concept_id": "b76697b4-0a3a-5cae-4129-c6b61ae0ccde",
+      "lang": "de",
+      "text": "hör mir zu",
+      "frequency_rank": null,
+      "lemma": "hör mir zu",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-ascoltami",
+      "concept_id": "b76697b4-0a3a-5cae-4129-c6b61ae0ccde",
+      "lang": "it",
+      "text": "ascoltami",
+      "frequency_rank": null,
+      "lemma": "ascoltami",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-en-can-you-help-me",
+      "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+      "lang": "en",
+      "text": "Can you help me?",
+      "frequency_rank": null,
+      "lemma": "Can you help me?",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-kannst-du-mir-helfen",
+      "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+      "lang": "de",
+      "text": "Kannst du mir helfen?",
+      "frequency_rank": null,
+      "lemma": "Kannst du mir helfen?",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-puoi-aiutarmi",
+      "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+      "lang": "it",
+      "text": "Puoi aiutarmi?",
+      "frequency_rank": null,
+      "lemma": "Puoi aiutarmi?",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-wie-viel-uhr-ist-es",
+      "concept_id": "concept-a1-what-time-is-it",
+      "lang": "de",
+      "text": "Wie viel Uhr ist es?",
+      "frequency_rank": null,
+      "lemma": "Wie viel Uhr ist es?",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-che-ora-e",
+      "concept_id": "concept-a1-what-time-is-it",
+      "lang": "it",
+      "text": "Che ora è?",
+      "frequency_rank": null,
+      "lemma": "Che ora è?",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-en-what-time-is-it",
+      "concept_id": "concept-a1-what-time-is-it",
+      "lang": "en",
+      "text": "What time is it?",
+      "frequency_rank": null,
+      "lemma": "What time is it?",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-wie-spat-ist-es",
+      "concept_id": "concept-a1-what-time-is-it",
+      "lang": "de",
+      "text": "Wie spät ist es?",
+      "frequency_rank": null,
+      "lemma": "Wie spät ist es?",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-che-ore-sono",
+      "concept_id": "concept-a1-what-time-is-it",
+      "lang": "it",
+      "text": "Che ore sono?",
+      "frequency_rank": null,
+      "lemma": "Che ore sono?",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-hilfst-du-mir",
+      "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+      "lang": "de",
+      "text": "Hilfst du mir?",
+      "frequency_rank": null,
+      "lemma": "Hilfst du mir?",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-mi-puoi-aiutare",
+      "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+      "lang": "it",
+      "text": "Mi puoi aiutare?",
+      "frequency_rank": null,
+      "lemma": "Mi puoi aiutare?",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-en-could-you-help-me",
+      "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+      "lang": "en",
+      "text": "Could you help me?",
+      "frequency_rank": null,
+      "lemma": "Could you help me?",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    }
+  ],
+  "lexeme_forms": [
+    {
+      "form_id": "3cc2a933-54b5-282a-b9d3-4426532a68a4",
+      "lexeme_id": "lex-en-listen-to-me",
+      "lang": "en",
+      "surface": "listen to me",
+      "surface_search": "listen to me",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "ae65d0df-e513-26d7-5dff-588ca907cbf7",
+      "lexeme_id": "lex-de-hor-mir-zu",
+      "lang": "de",
+      "surface": "hör mir zu",
+      "surface_search": "hor mir zu",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "591b6c77-c87e-51f9-e6d0-53fb77095be7",
+      "lexeme_id": "lex-it-ascoltami",
+      "lang": "it",
+      "surface": "ascoltami",
+      "surface_search": "ascoltami",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "996cdc06-7aae-9869-9651-8c00b2917e89",
+      "lexeme_id": "lex-en-can-you-help-me",
+      "lang": "en",
+      "surface": "Can you help me?",
+      "surface_search": "can you help me?",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "e023de45-add8-a080-0c6a-cbb20b1f8598",
+      "lexeme_id": "lex-de-kannst-du-mir-helfen",
+      "lang": "de",
+      "surface": "Kannst du mir helfen?",
+      "surface_search": "kannst du mir helfen?",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "2d38efb1-812c-fa83-ec50-6f6fa172e875",
+      "lexeme_id": "lex-it-puoi-aiutarmi",
+      "lang": "it",
+      "surface": "Puoi aiutarmi?",
+      "surface_search": "puoi aiutarmi?",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "74d5c91f-f4d0-4fc3-dc99-6f720971d1dc",
+      "lexeme_id": "lex-de-wie-viel-uhr-ist-es",
+      "lang": "de",
+      "surface": "Wie viel Uhr ist es?",
+      "surface_search": "wie viel uhr ist es?",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "c4074d5f-69bf-f86c-3ec0-014a948a6059",
+      "lexeme_id": "lex-it-che-ora-e",
+      "lang": "it",
+      "surface": "Che ora è?",
+      "surface_search": "che ora e?",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "f323c0be-da6b-5a4b-c125-2d619ad2f133",
+      "lexeme_id": "lex-en-what-time-is-it",
+      "lang": "en",
+      "surface": "What time is it?",
+      "surface_search": "what time is it?",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "74e7fdf5-c8d2-7f0c-0841-21bdd28997c5",
+      "lexeme_id": "lex-de-wie-spat-ist-es",
+      "lang": "de",
+      "surface": "Wie spät ist es?",
+      "surface_search": "wie spat ist es?",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "42cfb7bb-276f-4f94-0351-5fa9dfe997f7",
+      "lexeme_id": "lex-it-che-ore-sono",
+      "lang": "it",
+      "surface": "Che ore sono?",
+      "surface_search": "che ore sono?",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "a8db9414-e980-b3f4-a551-fe5d5cbe17bf",
+      "lexeme_id": "lex-de-hilfst-du-mir",
+      "lang": "de",
+      "surface": "Hilfst du mir?",
+      "surface_search": "hilfst du mir?",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "9d6bd71f-b2ab-c4ea-abe6-9bb26ea229ea",
+      "lexeme_id": "lex-it-mi-puoi-aiutare",
+      "lang": "it",
+      "surface": "Mi puoi aiutare?",
+      "surface_search": "mi puoi aiutare?",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "95e71ec8-42e5-57dd-662c-f6253416ac19",
+      "lexeme_id": "lex-en-could-you-help-me",
+      "lang": "en",
+      "surface": "Could you help me?",
+      "surface_search": "could you help me?",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    }
+  ],
+  "study_units": [
+    {
+      "study_unit_id": "b014d7be-f51d-c1f5-23c4-73c2a8e6ceba",
+      "concept_id": "b76697b4-0a3a-5cae-4129-c6b61ae0ccde",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_prod",
+      "source_form_id": "3cc2a933-54b5-282a-b9d3-4426532a68a4",
+      "primary_expected_form_id": "ae65d0df-e513-26d7-5dff-588ca907cbf7",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "5827f050-5385-908b-43e0-242d36027972",
+      "concept_id": "b76697b4-0a3a-5cae-4129-c6b61ae0ccde",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_rec",
+      "source_form_id": "ae65d0df-e513-26d7-5dff-588ca907cbf7",
+      "primary_expected_form_id": "3cc2a933-54b5-282a-b9d3-4426532a68a4",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "ce7166e0-c748-3b3d-54c3-4eaddeffe443",
+      "concept_id": "b76697b4-0a3a-5cae-4129-c6b61ae0ccde",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "core_prod",
+      "source_form_id": "591b6c77-c87e-51f9-e6d0-53fb77095be7",
+      "primary_expected_form_id": "ae65d0df-e513-26d7-5dff-588ca907cbf7",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "36d0e815-d018-3c0d-1f65-7f1e616d67aa",
+      "concept_id": "b76697b4-0a3a-5cae-4129-c6b61ae0ccde",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "ae65d0df-e513-26d7-5dff-588ca907cbf7",
+      "primary_expected_form_id": "591b6c77-c87e-51f9-e6d0-53fb77095be7",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "79d5fa82-0d6e-833b-095e-7c0e0b43ca34",
+      "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_prod",
+      "source_form_id": "996cdc06-7aae-9869-9651-8c00b2917e89",
+      "primary_expected_form_id": "e023de45-add8-a080-0c6a-cbb20b1f8598",
+      "extra_expected_form_ids": [
+        "a8db9414-e980-b3f4-a551-fe5d5cbe17bf"
+      ],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "2dda6d89-32a2-3e17-3a20-6e3f0d4b5ea0",
+      "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_rec",
+      "source_form_id": "e023de45-add8-a080-0c6a-cbb20b1f8598",
+      "primary_expected_form_id": "996cdc06-7aae-9869-9651-8c00b2917e89",
+      "extra_expected_form_ids": [
+        "95e71ec8-42e5-57dd-662c-f6253416ac19"
+      ],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "04ce892c-5c83-2dc3-6ab1-1a5d1b846344",
+      "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "core_prod",
+      "source_form_id": "2d38efb1-812c-fa83-ec50-6f6fa172e875",
+      "primary_expected_form_id": "e023de45-add8-a080-0c6a-cbb20b1f8598",
+      "extra_expected_form_ids": [
+        "a8db9414-e980-b3f4-a551-fe5d5cbe17bf"
+      ],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "653a2770-b442-ae02-195e-7a1dc06da79b",
+      "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "e023de45-add8-a080-0c6a-cbb20b1f8598",
+      "primary_expected_form_id": "2d38efb1-812c-fa83-ec50-6f6fa172e875",
+      "extra_expected_form_ids": [
+        "9d6bd71f-b2ab-c4ea-abe6-9bb26ea229ea"
+      ],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "d03684b3-9df9-f329-59f8-2e80e8837669",
+      "concept_id": "concept-a1-what-time-is-it",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_prod",
+      "source_form_id": "f323c0be-da6b-5a4b-c125-2d619ad2f133",
+      "primary_expected_form_id": "74d5c91f-f4d0-4fc3-dc99-6f720971d1dc",
+      "extra_expected_form_ids": [
+        "74e7fdf5-c8d2-7f0c-0841-21bdd28997c5"
+      ],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "08f0b40f-6576-6583-316e-baf5039bb4b4",
+      "concept_id": "concept-a1-what-time-is-it",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_rec",
+      "source_form_id": "74d5c91f-f4d0-4fc3-dc99-6f720971d1dc",
+      "primary_expected_form_id": "f323c0be-da6b-5a4b-c125-2d619ad2f133",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "1457a4bc-d426-69ab-b96d-8e7f0ad2d637",
+      "concept_id": "concept-a1-what-time-is-it",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "core_prod",
+      "source_form_id": "c4074d5f-69bf-f86c-3ec0-014a948a6059",
+      "primary_expected_form_id": "74d5c91f-f4d0-4fc3-dc99-6f720971d1dc",
+      "extra_expected_form_ids": [
+        "74e7fdf5-c8d2-7f0c-0841-21bdd28997c5"
+      ],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "ff8d2c85-c284-d8ba-3c6d-b9fce2f54a5c",
+      "concept_id": "concept-a1-what-time-is-it",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "74d5c91f-f4d0-4fc3-dc99-6f720971d1dc",
+      "primary_expected_form_id": "c4074d5f-69bf-f86c-3ec0-014a948a6059",
+      "extra_expected_form_ids": [
+        "42cfb7bb-276f-4f94-0351-5fa9dfe997f7"
+      ],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    }
+  ],
+  "examples": [
+    {
+      "example_id": "b7f4e933-7deb-5e6d-7121-709cc81e5663",
+      "concept_id": "b76697b4-0a3a-5cae-4129-c6b61ae0ccde",
+      "lang": "de",
+      "sentence": "Ich erklaere es nur einmal.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "b055b788-9dfc-2286-0c42-12d47a7d0a7c",
+      "concept_id": "b76697b4-0a3a-5cae-4129-c6b61ae0ccde",
+      "lang": "it",
+      "sentence": "Lo spiego una sola volta.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "8df2730a-0065-9a43-5dd5-fa041d9f85d2",
+      "concept_id": "b76697b4-0a3a-5cae-4129-c6b61ae0ccde",
+      "lang": "en",
+      "sentence": "I will explain it only once.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "43281f96-32e1-610c-59c0-e77fda8ebcf4",
+      "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+      "lang": "de",
+      "sentence": "Entschuldigung, ich habe ein Problem.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "9402df98-1ba9-f99e-638f-903de212d170",
+      "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+      "lang": "it",
+      "sentence": "Scusa, ho un problema.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "4ba8bb8c-408f-bae7-de13-5b54a807b477",
+      "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+      "lang": "en",
+      "sentence": "Excuse me, I have a problem.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "bc5fe7d1-b58a-a062-f0cb-a68492f3154f",
+      "concept_id": "concept-a1-what-time-is-it",
+      "lang": "de",
+      "sentence": "Vor der Abfahrt ist der Akku leer, also spricht ein Tourist eine Passantin an.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "c66e36d7-1a1d-6c8c-eecd-d7355cb2f109",
+      "concept_id": "concept-a1-what-time-is-it",
+      "lang": "it",
+      "sentence": "Senza telefono, un turista ferma una passante per capire se sia già tardi.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "d4390158-4476-e4f5-b694-56ccbd27a894",
+      "concept_id": "concept-a1-what-time-is-it",
+      "lang": "en",
+      "sentence": "Without a phone, a tourist stops a passer-by to see whether it is already late.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "296c5619-db44-be1a-03af-0be40319f55c",
+      "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+      "lang": "de",
+      "sentence": "Entschuldigung, ich brauche Hilfe.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "04acb2b3-180a-7ca1-fe3f-b0f4775be794",
+      "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+      "lang": "en",
+      "sentence": "Excuse me, I can't open this door by myself.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "dad054ae-5e89-73ce-cc78-231949005783",
+      "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+      "lang": "it",
+      "sentence": "Scusa, non riesco ad aprire questa porta da solo.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "7bb010c3-28d7-ffcd-5f8e-80f4c4e9e5d0",
+      "concept_id": "concept-a1-what-time-is-it",
+      "lang": "de",
+      "sentence": "Vor der Abfahrt ist der Akku leer, also spricht ein Tourist eine Passantin an.",
+      "translation_lang": null,
+      "translation_text": null
+    }
+  ],
+  "concept_definitions": [
+    {
+      "concept_id": "b76697b4-0a3a-5cae-4129-c6b61ae0ccde",
+      "lang": "en",
+      "short_definition": "Request to pay attention while someone is speaking.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "pay attention"
+      ],
+      "antonyms_json": [
+        "ignore me"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "synonym_tiers_json": {}
+    },
+    {
+      "concept_id": "b76697b4-0a3a-5cae-4129-c6b61ae0ccde",
+      "lang": "de",
+      "short_definition": "Aufforderung, aufmerksam zu sein, wenn jemand spricht.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "hoer bitte zu"
+      ],
+      "antonyms_json": [
+        "ignorier mich"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "synonym_tiers_json": {}
+    },
+    {
+      "concept_id": "b76697b4-0a3a-5cae-4129-c6b61ae0ccde",
+      "lang": "it",
+      "short_definition": "Richiesta di fare attenzione mentre qualcuno parla.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "prestami attenzione"
+      ],
+      "antonyms_json": [
+        "ignorami"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "synonym_tiers_json": {}
+    },
+    {
+      "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+      "lang": "en",
+      "short_definition": "Polite question used to ask for help.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "Can you assist me?"
+      ],
+      "antonyms_json": [
+        "leave me alone",
+        "Can you leave me alone?"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "generated_by": "ai",
+      "confidence": "high",
+      "review_status": "reviewed",
+      "synonym_tiers_json": {
+        "Can you assist me?": "exact"
+      }
+    },
+    {
+      "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+      "lang": "de",
+      "short_definition": "Hoefliche Frage, um Unterstuetzung zu bitten.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "Anfrage",
+        "Bitte"
+      ],
+      "antonyms_json": [
+        "lass mich in ruhe",
+        "Kannst du mich in Ruhe lassen?"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "generated_by": "ai",
+      "confidence": "high",
+      "review_status": "reviewed",
+      "synonym_tiers_json": {
+        "Anfrage": "loose",
+        "Bitte": "loose"
+      }
+    },
+    {
+      "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+      "lang": "it",
+      "short_definition": "Domanda cortese per chiedere aiuto.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "dammi una mano"
+      ],
+      "antonyms_json": [
+        "lasciami in pace"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "dammi una mano": "loose"
+      }
+    },
+    {
+      "concept_id": "concept-a1-what-time-is-it",
+      "lang": "de",
+      "short_definition": "Frage, um nach der Uhrzeit zu fragen.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "Welche Zeit ist es?",
+        "Was ist die Uhrzeit?"
+      ],
+      "antonyms_json": [],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "no_single_robust_lexical_opposite_for_concept",
+        "reviewed_at": "2026-03-21"
+      },
+      "hint_text": null,
+      "synonym_tiers_json": {}
+    },
+    {
+      "concept_id": "concept-a1-what-time-is-it",
+      "lang": "it",
+      "short_definition": "Domanda per chiedere l'ora.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "no_single_robust_lexical_opposite_for_concept",
+        "reviewed_at": "2026-03-21"
+      },
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a1-what-time-is-it",
+      "lang": "en",
+      "short_definition": "Question used to ask for the time.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "no_single_robust_lexical_opposite_for_concept",
+        "reviewed_at": "2026-03-21"
+      },
+      "hint_text": null
+    }
+  ],
+  "clusters": [
+    {
+      "cluster_id": "06a56f3a-e1c4-5ac3-060f-16ac4794c147",
+      "lang": "de",
+      "label": "synonyms: Kannst du mir helfen?",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "9e526461-ad85-16db-398b-675389a40254",
+      "lang": "en",
+      "label": "synonyms: listen to me",
+      "type": "semantic",
+      "auto": true
+    }
+  ],
+  "cluster_members": [
+    {
+      "cluster_id": "06a56f3a-e1c4-5ac3-060f-16ac4794c147",
+      "lexeme_id": "lex-de-kannst-du-mir-helfen",
+      "position": 0
+    },
+    {
+      "cluster_id": "9e526461-ad85-16db-398b-675389a40254",
+      "lexeme_id": "lex-en-listen-to-me",
+      "position": 0
+    }
+  ]
+}

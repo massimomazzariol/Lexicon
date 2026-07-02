@@ -75,6 +75,7 @@ payloads.
     {
       "contract_version": "0.1.0",
       "chunk_id": "lexicon.de.a1.golden",
+      "kind": "vocab",
       "manifest_path": "chunks/de/lexicon.de.a1.golden/manifest.json",
       "content_version": "1.0.0",
       "content_hash": "sha256:<hex of the payload file>",
@@ -93,6 +94,7 @@ contract fields merged on top. Required fields:
 
 - `contract_version`
 - `chunk_id` (equals the index pointer `chunk_id`)
+- `kind` (`vocab` | `expressions`; also on the index pointer - see optional fields)
 - `language_code`
 - `pack_id`, `version`
 - `payload_path` (relative path to the chunk's `content.json`)
@@ -121,13 +123,20 @@ JSON value or a pre-encoded JSON string.
 
 Optional fields are additive and consumers MUST ignore unknown fields (the
 `contract_version` does not bump for an added optional field). Current optional
-field:
+fields:
 
 - `concept_definitions[].synonym_tiers_json` - a map `{ "<answer_text>":
   "exact" | "close" | "loose" }` giving each accepted alternative a correctness
   tier for partial-credit grading. Absent or untiered entries default to
   `"close"`. The primary translation is always `exact`. Keys are answer strings
   (they may be other concepts' words or free phrases), not lexeme ids.
+
+- `kind` - content kind of the chunk: `"vocab"` (default) or `"expressions"`
+  (idioms / fixed phrases). Present on BOTH the index chunk pointer and the chunk
+  manifest. Consumers use it to filter downloads (vocab by default; expressions
+  opt-in) without fetching each manifest. Absent = treat as `"vocab"`. Packs are
+  keyed per (language, level, kind): `lexicon.<lang>.<level>.seed` (vocab) and
+  `lexicon.<lang>.<level>.expressions`.
 
 ## GitHub Release asset naming (flattened)
 

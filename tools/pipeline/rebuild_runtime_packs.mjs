@@ -134,6 +134,10 @@ function main() {
 
     const targetLang = (manifest.languages_target_supported ?? [])[0];
     const level = manifest.pack_level ?? (manifest.levels_supported ?? [])[0];
+    const kind =
+      (manifest.kind ?? 'vocab').toString().trim().toLowerCase() === 'expressions'
+        ? 'expressions'
+        : 'vocab';
 
     if (!targetLang || !level || !manifest.pack_id || !manifest.version) {
       console.warn(`  [SKIP] ${dirName}: missing required manifest fields`);
@@ -149,6 +153,7 @@ function main() {
       '--pack-id', manifest.pack_id,
       '--target-lang', targetLang,
       '--level', level,
+      '--kind', kind,
       '--version', manifest.version,
     ];
     if (options.dryRun) buildArgs.push('--dry-run');

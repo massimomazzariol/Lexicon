@@ -24,6 +24,7 @@ Options:
   --pack-id <id>           Runtime pack id, for example lexicon.de.a1.seed
   --target-lang <code>     Runtime target language code, for example de or en
   --level <level>          CEFR level to extract, for example A1 or B1
+  --kind <kind>            Content kind: vocab (default) or expressions
   --version <version>      Runtime pack version string
   --generated-at <iso>     Override generated timestamp in the runtime manifest
   --dry-run                Compute the runtime pack summary without writing files
@@ -38,6 +39,7 @@ function parseArgs(argv) {
     packId: '',
     targetLang: '',
     level: '',
+    kind: 'vocab',
     version: '',
     generatedAt: new Date().toISOString(),
     dryRun: false,
@@ -50,6 +52,7 @@ function parseArgs(argv) {
     else if (arg === '--pack-id') options.packId = argv[++i];
     else if (arg === '--target-lang') options.targetLang = argv[++i];
     else if (arg === '--level') options.level = argv[++i];
+    else if (arg === '--kind') options.kind = argv[++i];
     else if (arg === '--version') options.version = argv[++i];
     else if (arg === '--generated-at') options.generatedAt = argv[++i];
     else if (arg === '--dry-run') options.dryRun = true;
@@ -246,34 +249,33 @@ function main() {
 
   const sourceManifest = readJson(path.join(sourcePackDir, 'manifest.json'));
   const sourceContent = readJson(path.join(sourcePackDir, 'content.json'));
-  // "expressions" is a category, not a CEFR level: idioms / fixed phrases (pos='chunk')
-  // ship in their OWN pack across all levels, and the level packs exclude them, so a normal
-  // deck never mixes in an expression.
-  const isExpressions = String(options.level ?? '').trim().toLowerCase() === 'expressions';
-  const targetLevel = isExpressions ? 'expressions' : normalizeLevel(options.level);
-  if (!isExpressions && !targetLevel) {
+  // Content kind partitions each CEFR level: expressions = idioms / fixed phrases
+  // (pos='chunk'); vocab = everything else. Each (level, kind) ships as its own pack, so a
+  // normal vocab deck never mixes in an expression and expressions download opt-in per level.
+  const kind =
+    String(options.kind ?? 'vocab').trim().toLowerCase() === 'expressions'
+      ? 'expressions'
+      : 'vocab';
+  const targetLevel = normalizeLevel(options.level);
+  if (!targetLevel) {
     throw new Error(
-      `Unsupported level "${options.level}". Use ${LEXICON_LEVELS.join('/')} or "expressions".`,
+      `Unsupported level "${options.level}". Use ${LEXICON_LEVELS.join('/')}.`,
     );
   }
 
   const allConcepts = cloneJson(sourceContent.concepts ?? []);
-  const targetLevelRank = isExpressions ? -1 : lexiconLevelRank(targetLevel);
+  const targetLevelRank = lexiconLevelRank(targetLevel);
   const isChunk = (concept) => normalizeLang(concept.pos) === 'chunk';
   const concepts = allConcepts
     .filter((concept) => {
       if (!isShippable(concept)) return false; // held for review → drop the whole word
-      if (isExpressions) return isChunk(concept); // expressions pack: every chunk, any level
-      if (isChunk(concept)) return false; // level packs: never an expression
       const conceptLevel = resolveConceptLevel(concept);
       const conceptRank = lexiconLevelRank(conceptLevel);
-      return conceptRank >= 0 && conceptRank === targetLevelRank;
+      if (conceptRank < 0 || conceptRank !== targetLevelRank) return false;
+      // vocab pack: non-chunks of this level; expressions pack: chunks of this level.
+      return kind === 'expressions' ? isChunk(concept) : !isChunk(concept);
     })
-    .map((concept) =>
-      isExpressions
-        ? concept // keep each expression's real level
-        : { ...concept, level_auto: targetLevel, level_override: null },
-    );
+    .map((concept) => ({ ...concept, level_auto: targetLevel, level_override: null }));
   const conceptIds = new Set(concepts.map((concept) => concept.concept_id));
   const lexemes = cloneJson(sourceContent.lexemes ?? []).filter((row) =>
     conceptIds.has(row.concept_id) && isShippable(row),
@@ -521,19 +523,18 @@ function main() {
   }
 
   const levelsSupported = [targetLevel];
-  // The expressions pack is standalone (no level-progression relations); a level pack
-  // relates to the earlier-level packs for review ordering.
-  const relationChunkIds = isExpressions
-    ? []
-    : lexiconLevelsBefore(targetLevel)
-        .map((level) => replaceLexiconPackIdLevel(options.packId, level))
-        .filter(Boolean);
+  // Each pack relates to the earlier-level packs of the SAME kind (same pack-id pattern with
+  // the level swapped): vocab -> earlier vocab, expressions -> earlier expressions.
+  const relationChunkIds = lexiconLevelsBefore(targetLevel)
+    .map((level) => replaceLexiconPackIdLevel(options.packId, level))
+    .filter(Boolean);
 
   const destinationManifest = {
     pack_id: options.packId,
     pack_role: 'runtime',
     version: options.version,
     pack_level: targetLevel,
+    kind,
     levels_supported: levelsSupported,
     relation_chunk_ids: relationChunkIds,
     languages_target_supported: [targetLang],

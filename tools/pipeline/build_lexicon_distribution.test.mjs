@@ -62,13 +62,25 @@ test('build_lexicon_distribution exports runtime packs as artifact-ready files',
     assert.deepEqual(
       deIndex.chunks.map((entry) => entry.chunk_id),
       [
+        'lexicon.de.a1.expressions',
         'lexicon.de.a1.seed',
+        'lexicon.de.a2.expressions',
         'lexicon.de.a2.seed',
+        'lexicon.de.b1.expressions',
         'lexicon.de.b1.seed',
+        'lexicon.de.b2.expressions',
         'lexicon.de.b2.seed',
-        'lexicon.de.expressions.seed',
       ],
     );
+
+    // Each chunk pointer carries its content kind so the app can filter downloads
+    // (vocab by default; expressions opt-in) without fetching every chunk manifest.
+    for (const chunk of deIndex.chunks) {
+      const expectedKind = chunk.chunk_id.endsWith('.expressions')
+        ? 'expressions'
+        : 'vocab';
+      assert.equal(chunk.kind, expectedKind, `kind for ${chunk.chunk_id}`);
+    }
 
     assert.equal(deA2Manifest.pack_id, 'lexicon.de.a2.seed');
     assert.equal(deA2Manifest.chunk_id, 'lexicon.de.a2.seed');

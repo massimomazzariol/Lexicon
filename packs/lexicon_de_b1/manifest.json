@@ -3,6 +3,7 @@
   "pack_role": "runtime",
   "version": "1.0.51",
   "pack_level": "B1",
+  "kind": "vocab",
   "levels_supported": [
     "B1"
   ],
@@ -25,6 +26,6 @@
   ],
   "license_info": "internal",
   "content_file": "content.json",
-  "generated_at": "2026-06-30T10:00:12.263Z",
+  "generated_at": "2026-07-02T08:07:05.439Z",
   "schema_version": 2
 }

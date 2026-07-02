@@ -1,14 +1,16 @@
 {
-  "pack_id": "lexicon.de.a2.seed",
+  "pack_id": "lexicon.de.b2.expressions",
   "pack_role": "runtime",
-  "version": "1.0.61",
-  "pack_level": "A2",
-  "kind": "vocab",
+  "version": "1.0.1",
+  "pack_level": "B2",
+  "kind": "expressions",
   "levels_supported": [
-    "A2"
+    "B2"
   ],
   "relation_chunk_ids": [
-    "lexicon.de.a1.seed"
+    "lexicon.de.a1.expressions",
+    "lexicon.de.a2.expressions",
+    "lexicon.de.b1.expressions"
   ],
   "languages_target_supported": [
     "de"
@@ -18,13 +20,10 @@
     "it"
   ],
   "domains": [
-    "Daily",
-    "Social",
-    "Travel",
-    "Work"
+    "Social"
   ],
   "license_info": "internal",
   "content_file": "content.json",
-  "generated_at": "2026-07-02T08:07:05.004Z",
+  "generated_at": "2026-07-02T08:07:06.101Z",
   "schema_version": 2
 }

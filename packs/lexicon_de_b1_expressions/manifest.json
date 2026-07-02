@@ -1,22 +1,22 @@
 {
-  "pack_id": "lexicon.it.b1.seed",
+  "pack_id": "lexicon.de.b1.expressions",
   "pack_role": "runtime",
-  "version": "1.0.51",
+  "version": "1.0.1",
   "pack_level": "B1",
-  "kind": "vocab",
+  "kind": "expressions",
   "levels_supported": [
     "B1"
   ],
   "relation_chunk_ids": [
-    "lexicon.it.a1.seed",
-    "lexicon.it.a2.seed"
+    "lexicon.de.a1.expressions",
+    "lexicon.de.a2.expressions"
   ],
   "languages_target_supported": [
-    "it"
+    "de"
   ],
   "gloss_languages_supported": [
-    "de",
-    "en"
+    "en",
+    "it"
   ],
   "domains": [
     "Daily",
@@ -26,6 +26,6 @@
   ],
   "license_info": "internal",
   "content_file": "content.json",
-  "generated_at": "2026-07-02T08:07:08.989Z",
+  "generated_at": "2026-07-02T08:07:05.676Z",
   "schema_version": 2
 }

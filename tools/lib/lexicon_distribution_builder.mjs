@@ -57,6 +57,7 @@ export function buildLexiconDistribution({
     const chunkPointer = {
       contract_version: '0.1.0',
       chunk_id: runtimePack.packId,
+      kind: normalizeKind(runtimePack.manifest.kind),
       manifest_path: toPosixRelative(resolvedOutDir, chunkManifestPath),
       content_version: runtimePack.version,
       content_hash: contentHash,
@@ -223,6 +224,12 @@ function sha256ForFile(filePath) {
 
 function toPosixRelative(rootDir, filePath) {
   return path.relative(rootDir, filePath).split(path.sep).join('/');
+}
+
+function normalizeKind(value) {
+  return value?.toString().trim().toLowerCase() === 'expressions'
+    ? 'expressions'
+    : 'vocab';
 }
 
 function normalizeNonEmptyString(value) {

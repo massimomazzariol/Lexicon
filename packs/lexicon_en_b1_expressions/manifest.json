@@ -1,17 +1,21 @@
 {
-  "pack_id": "lexicon.de.expressions.seed",
+  "pack_id": "lexicon.en.b1.expressions",
   "pack_role": "runtime",
-  "version": "1.0.2",
-  "pack_level": "expressions",
+  "version": "1.0.1",
+  "pack_level": "B1",
+  "kind": "expressions",
   "levels_supported": [
-    "expressions"
+    "B1"
   ],
-  "relation_chunk_ids": [],
+  "relation_chunk_ids": [
+    "lexicon.en.a1.expressions",
+    "lexicon.en.a2.expressions"
+  ],
   "languages_target_supported": [
-    "de"
+    "en"
   ],
   "gloss_languages_supported": [
-    "en",
+    "de",
     "it"
   ],
   "domains": [
@@ -22,6 +26,6 @@
   ],
   "license_info": "internal",
   "content_file": "content.json",
-  "generated_at": "2026-06-30T10:00:12.429Z",
+  "generated_at": "2026-07-02T08:07:07.412Z",
   "schema_version": 2
 }

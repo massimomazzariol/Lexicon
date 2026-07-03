@@ -58,9 +58,21 @@ Integrate through one contract only: the file-based JSON distribution
 `content.json`). Every manifest carries `contract_version`, so a consumer detects
 and rejects an incompatible distribution instead of drifting silently.
 
+Consumers only read a published distribution; they never build or publish one.
+Parse it per `CONTRACT.md` and `docs/guides/CONSUMER_GUIDE.md`.
+
+## Releasing (maintainers)
+
+Building and publishing are maintainer tasks, not consumer tasks. The publish
+script uploads to the GitHub Releases of this repository: `gh` resolves the
+target from the checkout's `origin` remote, so it needs `gh auth` with write
+access here (on a fork it publishes to the fork's own Releases). Without
+`--publish` the script is a dry run and changes nothing.
+
 - **Build:** `pnpm run release` writes `dist/lexicon_distribution/`
-- **Publish:** `pnpm run publish -- --publish --tag <tag>` uploads flat assets to a GitHub Release
-- **Integrate:** parse the distribution per `CONTRACT.md` and `docs/guides/CONSUMER_GUIDE.md`
+- **Publish:** `pnpm run publish -- --publish --tag <tag>` uploads flat assets
+  to the GitHub Release for that tag
+- **Checklist:** `docs/guides/RELEASING.md`
 
 ## Docs
 

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lexicon Platform - Content Explorer</title>
+<meta name="description" content="Browse the Lexicon Platform distribution: CEFR-leveled vocabulary and expressions for German, English, and Italian.">
+<style>
+  :root {
+    --bg: #f6f7f9; --panel: #ffffff; --text: #1a1d21; --muted: #6a7280;
+    --accent: #2563eb; --accent-soft: #dbeafe; --border: #e3e6ea;
+    --chip: #eef0f3; --chip-on: #2563eb; --chip-on-text: #ffffff;
+    --shadow: 0 1px 3px rgba(0,0,0,.08);
+    --lvl-a: #16a34a; --lvl-b: #d97706; --lvl-c: #dc2626;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101318; --panel: #181c23; --text: #e8eaed; --muted: #9aa3ad;
+      --accent: #60a5fa; --accent-soft: #1e3a5f; --border: #2a2f38;
+      --chip: #232832; --chip-on: #60a5fa; --chip-on-text: #101318;
+      --shadow: 0 1px 3px rgba(0,0,0,.4);
+    }
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    background: var(--bg); color: var(--text);
+    font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  header { padding: 28px 20px 8px; max-width: 1080px; margin: 0 auto; }
+  header h1 { font-size: 1.7rem; letter-spacing: -.02em; }
+  header h1 a { color: inherit; text-decoration: none; }
+  header p.tag { color: var(--muted); margin-top: 2px; }
+  header nav { margin-top: 6px; font-size: .88rem; }
+  header nav a { color: var(--accent); text-decoration: none; margin-right: 14px; }
+  header nav a:hover { text-decoration: underline; }
+  .controls {
+    max-width: 1080px; margin: 14px auto 0; padding: 0 20px;
+    display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+  }
+  .controls input[type=search] {
+    flex: 1 1 220px; padding: 9px 14px; border: 1px solid var(--border);
+    border-radius: 10px; background: var(--panel); color: var(--text); font-size: 1rem;
+  }
+  .controls select {
+    padding: 9px 12px; border: 1px solid var(--border); border-radius: 10px;
+    background: var(--panel); color: var(--text); font-size: .95rem;
+  }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip {
+    border: none; cursor: pointer; padding: 7px 13px; border-radius: 999px;
+    background: var(--chip); color: var(--text); font-size: .88rem;
+  }
+  .chip.on { background: var(--chip-on); color: var(--chip-on-text); font-weight: 600; }
+  main { max-width: 1080px; margin: 18px auto 60px; padding: 0 20px; }
+  .status { color: var(--muted); font-size: .9rem; margin-bottom: 12px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+  .card {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+    padding: 14px 16px; cursor: pointer; box-shadow: var(--shadow);
+    transition: transform .08s ease, border-color .08s ease;
+  }
+  .card:hover { transform: translateY(-2px); border-color: var(--accent); }
+  .card .lemma { font-size: 1.12rem; font-weight: 650; }
+  .card .meta { display: flex; gap: 6px; margin: 6px 0; flex-wrap: wrap; }
+  .badge {
+    font-size: .72rem; font-weight: 700; padding: 2px 8px; border-radius: 999px;
+    color: #fff; letter-spacing: .03em;
+  }
+  .badge.pos { background: var(--muted); }
+  .badge.lA { background: var(--lvl-a); } .badge.lB { background: var(--lvl-b); } .badge.lC { background: var(--lvl-c); }
+  .card .gloss { color: var(--muted); font-size: .9rem; }
+  dialog {
+    border: 1px solid var(--border); border-radius: 14px; background: var(--panel); color: var(--text);
+    max-width: 640px; width: calc(100vw - 40px); padding: 0; box-shadow: 0 10px 40px rgba(0,0,0,.25);
+  }
+  dialog::backdrop { background: rgba(0,0,0,.45); }
+  .detail { padding: 22px 24px; max-height: 80vh; overflow-y: auto; }
+  .detail h2 { font-size: 1.45rem; letter-spacing: -.02em; }
+  .detail .meta { display: flex; gap: 6px; margin: 8px 0 4px; flex-wrap: wrap; }
+  .detail section { margin-top: 16px; }
+  .detail h3 {
+    font-size: .78rem; text-transform: uppercase; letter-spacing: .08em;
+    color: var(--muted); margin-bottom: 6px;
+  }
+  .detail .lang-row { margin-bottom: 10px; }
+  .detail .lang-label {
+    display: inline-block; min-width: 2.2em; font-weight: 700; font-size: .8rem;
+    color: var(--accent); text-transform: uppercase;
+  }
+  .detail .note { color: var(--muted); font-size: .88rem; margin-left: 2.5em; }
+  .detail ul { padding-left: 1.3em; }
+  .detail li { margin-bottom: 4px; }
+  .forms { display: flex; flex-wrap: wrap; gap: 6px; }
+  .form-pill {
+    background: var(--chip); border-radius: 8px; padding: 4px 10px; font-size: .88rem;
+  }
+  .form-pill small { color: var(--muted); margin-left: 5px; }
+  .closer {
+    position: sticky; top: 0; float: right; margin: 8px 8px 0 0;
+    border: none; background: var(--chip); color: var(--text);
+    border-radius: 8px; padding: 5px 11px; cursor: pointer; font-size: .95rem;
+  }
+  footer {
+    max-width: 1080px; margin: 0 auto 40px; padding: 0 20px;
+    color: var(--muted); font-size: .84rem;
+  }
+  footer a { color: var(--accent); }
+  .empty { color: var(--muted); padding: 40px 0; text-align: center; }
+</style>
+</head>
+<body>
+<header>
+  <h1><a href="./">Lexicon Platform</a></h1>
+  <p class="tag">Curated, CEFR-leveled vocabulary as a file-based JSON distribution. This page reads the same distribution consumers download - nothing is generated live.</p>
+  <nav>
+    <a href="https://github.com/massimomazzariol/Lexicon">GitHub</a>
+    <a href="https://github.com/massimomazzariol/Lexicon/blob/main/CONTRACT.md">Distribution contract</a>
+    <a href="https://github.com/massimomazzariol/Lexicon/releases/latest">Latest release</a>
+  </nav>
+</header>
+
+<div class="controls">
+  <select id="lang" aria-label="Target language">
+    <option value="de">Learning German</option>
+    <option value="en">Learning English</option>
+    <option value="it">Learning Italian</option>
+  </select>
+  <input id="q" type="search" placeholder="Search a word or translation..." aria-label="Search">
+  <div class="chips" id="levels"></div>
+  <div class="chips" id="kinds">
+    <button class="chip on" data-kind="vocab">Vocabulary</button>
+    <button class="chip" data-kind="expressions">Expressions</button>
+  </div>
+</div>
+
+<main>
+  <div class="status" id="status">Loading distribution...</div>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" hidden>No entries match.</div>
+</main>
+
+<dialog id="dlg">
+  <button class="closer" onclick="dlg.close()">Close</button>
+  <div class="detail" id="detail"></div>
+</dialog>
+
+<footer>
+  Content licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> -
+  code <a href="https://github.com/massimomazzariol/Lexicon/blob/main/LICENSE">Apache-2.0</a>.
+  Every entry is curated and reviewed before it ships; see the
+  <a href="https://github.com/massimomazzariol/Lexicon#readme">project README</a> for how the pipeline works.
+</footer>
+
+<script>
+const LEVELS = ['A1','A2','B1','B2','C1','C2'];
+const DATA = './data/';
+const state = { lang: 'de', level: 'A1', kind: 'vocab', q: '' };
+// cache[lang] = { chunks: [indexChunk], packs: Map(chunk_id -> merged content), loading: Set }
+const cache = {};
+
+const $ = (id) => document.getElementById(id);
+const grid = $('grid'), statusEl = $('status'), emptyEl = $('empty'), dlg = $('dlg');
+
+function levelClass(l) { return 'l' + l[0]; }
+
+function chipRow(container, values, current, onPick) {
+  container.innerHTML = '';
+  for (const v of values) {
+    const b = document.createElement('button');
+    b.className = 'chip' + (v === current ? ' on' : '');
+    b.textContent = v;
+    b.onclick = () => onPick(v, b);
+    container.appendChild(b);
+  }
+}
+
+async function fetchJson(path) {
+  const res = await fetch(DATA + path);
+  if (!res.ok) throw new Error(path + ' -> HTTP ' + res.status);
+  return res.json();
+}
+
+async function loadIndex(lang) {
+  if (cache[lang]) return cache[lang];
+  const idx = await fetchJson('indexes/' + lang + '.json');
+  cache[lang] = { chunks: idx.chunks, packs: new Map(), loading: new Set() };
+  return cache[lang];
+}
+
+async function loadChunk(lang, chunk) {
+  const c = cache[lang];
+  if (c.packs.has(chunk.chunk_id) || c.loading.has(chunk.chunk_id)) return;
+  c.loading.add(chunk.chunk_id);
+  const contentPath = chunk.manifest_path.replace(/manifest\.json$/, 'content.json');
+  const content = await fetchJson(contentPath);
+  const byConcept = new Map();
+  for (const con of content.concepts || []) {
+    byConcept.set(con.concept_id, { concept: con, lexemes: [], defs: [], examples: [], forms: [] });
+  }
+  for (const lx of content.lexemes || []) byConcept.get(lx.concept_id)?.lexemes.push(lx);
+  for (const d of content.concept_definitions || []) byConcept.get(d.concept_id)?.defs.push(d);
+  for (const e of content.examples || []) byConcept.get(e.concept_id)?.examples.push(e);
+  const lexToConcept = new Map();
+  for (const lx of content.lexemes || []) lexToConcept.set(lx.lexeme_id, lx.concept_id);
+  for (const f of content.lexeme_forms || []) {
+    const cid = lexToConcept.get(f.lexeme_id);
+    if (cid) byConcept.get(cid)?.forms.push(f);
+  }
+  c.packs.set(chunk.chunk_id, { chunk, entries: [...byConcept.values()] });
+  c.loading.delete(chunk.chunk_id);
+}
+
+function visibleChunks(c) {
+  return c.chunks.filter((ch) => {
+    const kind = ch.kind || 'vocab';
+    if (kind !== state.kind) return false;
+    if (state.q) return true; // search spans every level
+    return (ch.levels_supported || []).includes(state.level);
+  });
+}
+
+function entryLemma(entry, lang) {
+  const primary = entry.lexemes.find((l) => l.lang === lang && l.is_primary) ||
+    entry.lexemes.find((l) => l.lang === lang);
+  return primary ? primary.text : '(no lemma)';
+}
+
+function entryGlosses(entry, lang) {
+  const out = [];
+  for (const l of entry.lexemes) {
+    if (l.lang !== lang && l.is_primary) out.push(l.text);
+  }
+  return out;
+}
+
+function matches(entry, q) {
+  q = q.toLowerCase();
+  return entry.lexemes.some((l) => l.text.toLowerCase().includes(q)) ||
+    entry.forms.some((f) => (f.surface || '').toLowerCase().includes(q));
+}
+
+async function render() {
+  const { lang } = state;
+  let c;
+  try { c = await loadIndex(lang); }
+  catch (err) { statusEl.textContent = 'Could not load the distribution: ' + err.message; return; }
+
+  const wanted = visibleChunks(c);
+  statusEl.textContent = 'Loading packs...';
+  await Promise.all(wanted.map((ch) => loadChunk(lang, ch).catch(() => {})));
+
+  let entries = [];
+  for (const ch of wanted) {
+    const pack = c.packs.get(ch.chunk_id);
+    if (pack) entries = entries.concat(pack.entries);
+  }
+  if (state.q) {
+    entries = entries.filter((e) => matches(e, state.q));
+  }
+  entries.sort((a, b) => entryLemma(a, lang).localeCompare(entryLemma(b, lang), lang));
+
+  grid.innerHTML = '';
+  for (const entry of entries) {
+    const con = entry.concept;
+    const level = con.level_override || con.level_auto || '?';
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML =
+      '<div class="lemma"></div>' +
+      '<div class="meta">' +
+      '<span class="badge ' + levelClass(level) + '">' + level + '</span>' +
+      '<span class="badge pos">' + (con.pos || '') + '</span>' +
+      '</div>' +
+      '<div class="gloss"></div>';
+    card.querySelector('.lemma').textContent = entryLemma(entry, lang);
+    card.querySelector('.gloss').textContent = entryGlosses(entry, lang).join(' · ');
+    card.onclick = () => showDetail(entry, lang);
+    grid.appendChild(card);
+  }
+  emptyEl.hidden = entries.length > 0;
+  const scope = state.q ? 'all levels' : state.level;
+  statusEl.textContent = entries.length + ' ' + state.kind + ' entries · ' + scope +
+    ' · ' + { de: 'German', en: 'English', it: 'Italian' }[lang];
+}
+
+function esc(s) { const d = document.createElement('div'); d.textContent = s ?? ''; return d.innerHTML; }
+
+function showDetail(entry, lang) {
+  const con = entry.concept;
+  const level = con.level_override || con.level_auto || '?';
+  let html = '<h2>' + esc(entryLemma(entry, lang)) + '</h2>';
+  html += '<div class="meta">' +
+    '<span class="badge ' + levelClass(level) + '">' + level + '</span>' +
+    '<span class="badge pos">' + esc(con.pos || '') + '</span>' +
+    (con.domain_tags || []).map((t) => '<span class="badge pos">' + esc(t) + '</span>').join('') +
+    '</div>';
+
+  const langsOrdered = [lang, ...['de', 'en', 'it'].filter((l) => l !== lang)];
+
+  html += '<section><h3>Translations</h3>';
+  for (const l of langsOrdered) {
+    const lex = entry.lexemes.filter((x) => x.lang === l);
+    if (!lex.length) continue;
+    html += '<div class="lang-row"><span class="lang-label">' + l + '</span> ' +
+      lex.map((x) => esc(x.text) + (x.is_primary ? '' : ' <small>(variant)</small>')).join(' · ') + '</div>';
+  }
+  html += '</section>';
+
+  const defs = entry.defs.filter((d) => d.short_definition || d.usage_note);
+  if (defs.length) {
+    html += '<section><h3>Definitions</h3>';
+    for (const l of langsOrdered) {
+      const d = defs.find((x) => x.lang === l);
+      if (!d) continue;
+      html += '<div class="lang-row"><span class="lang-label">' + l + '</span> ' + esc(d.short_definition || '') + '</div>';
+      if (d.usage_note) html += '<div class="note">' + esc(d.usage_note) + '</div>';
+    }
+    html += '</section>';
+  }
+
+  const targetForms = entry.forms.filter((f) => f.lang === lang && f.form_role !== 'core');
+  if (targetForms.length) {
+    html += '<section><h3>Forms</h3><div class="forms">' +
+      targetForms.slice(0, 24).map((f) =>
+        '<span class="form-pill">' + esc(f.surface) +
+        (f.tags_json && f.tags_json.slot_key ? '<small>' + esc(f.tags_json.slot_key) + '</small>' : '') +
+        '</span>').join('') +
+      '</div></section>';
+  }
+
+  const ex = entry.examples.filter((e) => e.sentence);
+  if (ex.length) {
+    html += '<section><h3>Examples</h3><ul>' +
+      ex.slice(0, 6).map((e) => '<li>' + esc(e.sentence) + (e.lang ? ' <small style="color:var(--muted)">(' + esc(e.lang) + ')</small>' : '') + '</li>').join('') +
+      '</ul></section>';
+  }
+
+  const syns = entry.defs.filter((d) => Array.isArray(d.synonyms_json) && d.synonyms_json.length);
+  if (syns.length) {
+    html += '<section><h3>Synonyms</h3>';
+    for (const d of syns) {
+      html += '<div class="lang-row"><span class="lang-label">' + esc(d.lang) + '</span> ' +
+        d.synonyms_json.map(esc).join(', ') + '</div>';
+    }
+    html += '</section>';
+  }
+
+  $('detail').innerHTML = html;
+  dlg.showModal();
+}
+
+// wire controls
+chipRow($('levels'), LEVELS, state.level, (v) => {
+  state.level = v;
+  [...$('levels').children].forEach((b) => b.classList.toggle('on', b.textContent === v));
+  render();
+});
+$('kinds').querySelectorAll('.chip').forEach((b) => {
+  b.onclick = () => {
+    state.kind = b.dataset.kind;
+    $('kinds').querySelectorAll('.chip').forEach((x) => x.classList.toggle('on', x === b));
+    render();
+  };
+});
+$('lang').onchange = (e) => { state.lang = e.target.value; render(); };
+let debounce;
+$('q').oninput = (e) => {
+  clearTimeout(debounce);
+  debounce = setTimeout(() => { state.q = e.target.value.trim(); render(); }, 200);
+};
+dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
+
+render();
+</script>
+</body>
+</html>

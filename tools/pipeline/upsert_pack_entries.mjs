@@ -367,6 +367,9 @@ function main() {
         domain_tags: domainTags,
         notes,
         metadata_json: metadata,
+        // Preserve the review gate state: an upsert must never silently
+        // un-review a shipped concept, and a new concept starts staged.
+        review_status: existingConcept?.review_status ?? 'needs_review',
       },
     );
     if (conceptResult.updated) conceptUpdated += 1;

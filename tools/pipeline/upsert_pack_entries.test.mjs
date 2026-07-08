@@ -263,6 +263,73 @@ test('upsert_pack_entries rejects English verb aliases that only drop the infini
   }
 });
 
+test('upsert_pack_entries preserves review_status on update and stages new concepts', () => {
+  const tempRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'lexicon-upsert-'));
+  const packDir = path.join(tempRoot, 'lexicon_source');
+  const entriesPath = path.join(tempRoot, 'entries.json');
+
+  try {
+    fs.mkdirSync(packDir, { recursive: true });
+    writeJson(path.join(packDir, 'manifest.json'), {
+      pack_id: 'lexicon.source',
+      version: 'test-version',
+      pack_role: 'source',
+    });
+    writeJson(path.join(packDir, 'content.json'), {
+      concepts: [
+        {
+          concept_id: 'concept-a1-shipped',
+          pos: 'adj',
+          difficulty_score_auto: 20,
+          level_auto: 'A1',
+          level_override: null,
+          domain_tags: ['Daily'],
+          notes: null,
+          metadata_json: {},
+          review_status: 'reviewed',
+        },
+      ],
+      lexemes: [],
+      examples: [],
+      concept_definitions: [],
+    });
+    writeJson(entriesPath, [
+      {
+        concept_id: 'concept-a1-shipped',
+        pos: 'adj',
+        translations: { en: { text: 'small' } },
+      },
+      {
+        source_key: 'brand_new_adj',
+        pos: 'adj',
+        translations: { en: { text: 'tiny' } },
+      },
+    ]);
+
+    execFileSync(
+      process.execPath,
+      [upsertPath, '--pack-dir', packDir, '--entries', entriesPath],
+      { cwd: repoRoot, stdio: 'pipe' },
+    );
+
+    const content = JSON.parse(
+      fs.readFileSync(path.join(packDir, 'content.json'), 'utf8'),
+    );
+    const shipped = content.concepts.find(
+      (row) => row.concept_id === 'concept-a1-shipped',
+    );
+    const fresh = content.concepts.find(
+      (row) => row.concept_id !== 'concept-a1-shipped',
+    );
+
+    assert.equal(shipped.review_status, 'reviewed');
+    assert.ok(fresh);
+    assert.equal(fresh.review_status, 'needs_review');
+  } finally {
+    fs.rmSync(tempRoot, { recursive: true, force: true });
+  }
+});
+
 test('upsert_pack_entries preserves existing lexeme metadata and supports explicit lexeme fields', () => {
   const tempRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'lexicon-upsert-'));
   const packDir = path.join(tempRoot, 'lexicon_source');

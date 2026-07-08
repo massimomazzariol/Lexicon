@@ -222,7 +222,8 @@
       "notes": null,
       "metadata_json": {
         "image_url": "/images/screen_noun.jpg"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "08116c81-5e80-e8d9-d48a-2dcfafa2dae1",
@@ -296,7 +297,8 @@
       "notes": null,
       "metadata_json": {
         "image_url": "/images/finally_adverb.jpg"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "2e15a945-9821-6cd1-ef18-663740b7bee6",
@@ -310,7 +312,8 @@
       "notes": null,
       "metadata_json": {
         "image_url": "/images/at_least_adverb.jpg"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "0bed6967-2ba5-ca39-d70b-646e23f07493",
@@ -324,7 +327,8 @@
       "notes": null,
       "metadata_json": {
         "image_url": "/images/still_adverb.jpg"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "c1792d23-111c-1a16-efae-133d6bb4fb64",
@@ -338,7 +342,8 @@
       "notes": null,
       "metadata_json": {
         "image_url": "/images/actually_adverb.jpg"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "dce273cb-1477-41c8-14f3-84226c53e233",
@@ -352,7 +357,8 @@
       "notes": null,
       "metadata_json": {
         "image_url": "/images/mostly_adverb.jpg"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "916e8799-a429-9dfd-3f4c-5553af33dbd9",
@@ -366,7 +372,8 @@
       "notes": null,
       "metadata_json": {
         "image_url": "/images/otherwise_adverb.jpg"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "3b1a3dc6-75a7-55a2-9ad9-09d0a75082a0",
@@ -380,7 +387,8 @@
       "notes": null,
       "metadata_json": {
         "image_url": "/images/excursion_noun.jpg"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "75fb9398-4b1a-dc12-4558-6e3555368393",
@@ -394,7 +402,8 @@
       "notes": null,
       "metadata_json": {
         "image_url": "/images/elevator_noun.jpg"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "d44d4a04-9c80-66ac-6dae-10528f189ad5",
@@ -468,7 +477,8 @@
       "notes": null,
       "metadata_json": {
         "image_url": "/images/therefore_adverb.jpg"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
@@ -602,7 +612,8 @@
       "notes": null,
       "metadata_json": {
         "image_url": "/images/meaningful_adjective.jpg"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "e718be7a-3d76-3ce3-db35-35ba3b93eaa0",
@@ -616,7 +627,8 @@
       "notes": null,
       "metadata_json": {
         "image_url": "/images/valuable_adjective.jpg"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "25b5725b-13ce-48ce-2a99-7bb508a4de54",
@@ -692,7 +704,8 @@
       "notes": null,
       "metadata_json": {
         "image_url": "/images/great_adjective.jpg"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
@@ -707,7 +720,8 @@
       "notes": null,
       "metadata_json": {
         "image_url": "/images/pick_up_verb.jpg"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "324d681d-6d2e-552f-6831-9758934c5d65",
@@ -783,7 +797,8 @@
       "notes": null,
       "metadata_json": {
         "image_url": "/images/stop_verb.jpg"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "dcac462c-da14-34b2-8201-977a04e36d35",
@@ -842,7 +857,8 @@
         "Social"
       ],
       "notes": "Question (not application/request form).",
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
@@ -854,7 +870,8 @@
         "Social"
       ],
       "notes": "Formal request/application in administrative contexts.",
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "2bfef665-f822-93b9-3f9d-233a6f838aba",
@@ -880,7 +897,8 @@
         "Social"
       ],
       "notes": "Formal petition/instance (often administrative, especially CH usage).",
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "119b32bf-e698-b599-5463-c7b7942586d1",
@@ -1979,7 +1997,8 @@
         "Abstract"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "159b0cd5-492f-4ed1-bcb4-facae13daef2",
@@ -2006,7 +2025,8 @@
         "Action"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "44edd51b-48a3-0deb-43bb-3af582b97253",
@@ -2924,7 +2944,8 @@
         "Weather"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "3afa0fc5-faa9-1677-c7ba-020ab75c129a",
@@ -4597,7 +4618,8 @@
         "Abstract"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b1-eindruck",
@@ -4656,7 +4678,8 @@
         "Daily"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b1-vereinbarung",
@@ -4685,7 +4708,8 @@
         "Abstract"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b1-vermitteln",
@@ -5058,7 +5082,8 @@
         "Abstract"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b1-keinesfalls",
@@ -5162,7 +5187,8 @@
         "Communication"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b1-langfristig",
@@ -5311,7 +5337,8 @@
         "Communication"
       ],
       "notes": "Editorial addition from the ora/Uhr ambiguity audit. This is clock time or time of day, distinct from Stunde = hour and Uhr = device. CEFR confirmed editorially as A1 on 2026-03-21.",
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-a2-vergleich",
@@ -5400,7 +5427,8 @@
         "Work"
       ],
       "notes": "Editorial addition from the Italian pulire/lavare ambiguity audit. Modeled around more formal or technical cleaning that removes dirt, residue, or other substances thoroughly. Kept separate from putzen = everyday household cleaning and waschen = washing with water.",
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-a2-spuelen",
@@ -5822,7 +5850,8 @@
         "Abstract"
       ],
       "notes": "Advanced communication expansion around explanation and misunderstanding. This branch models klarstellen in the sense of making something clear, explicit, or no longer open to confusion.",
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b2-eindeutig",
@@ -5866,7 +5895,8 @@
         "Abstract"
       ],
       "notes": "Advanced evaluation expansion around concept-b1-bewerten. This branch models einschätzen in the sense of judging or estimating something based on experience, information, or observation.",
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-c1-einschaetzung",
@@ -5880,7 +5910,8 @@
         "Abstract"
       ],
       "notes": "Advanced evaluation expansion around concept-b1-bewerten and concept-b2-einschaetzen. This branch models Einschätzung as an assessment or considered judgment.",
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b2-ueberzeugend",
@@ -5909,7 +5940,8 @@
         "Abstract"
       ],
       "notes": "Advanced family expansion around concept-b1-verantwortung and concept-b1-verantwortlich. This branch models verantwortungsvoll in the sense of acting with care, seriousness, and awareness of consequences.",
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b2-zuverlaessig",
@@ -5970,7 +6002,8 @@
         "Abstract"
       ],
       "notes": "Editorial addition from German lemma expansion. Modeled around the broad unsettling or creepy sense for places, stories, sounds, or situations; not split into a separate gore-only or stronger terrifying branch. CEFR set editorially to B1 on 2026-04-17.",
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-a2-abstand",
@@ -5984,7 +6017,8 @@
         "Space"
       ],
       "notes": "Editorial addition from German lemma expansion. Modeled around the gap or safe space between people or things, not the general route-length sense already covered by Entfernung. CEFR placed editorially at A2 on 2026-04-17.",
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-a2-unterschied",
@@ -5998,7 +6032,8 @@
         "Education"
       ],
       "notes": "Editorial addition aligned with the existing compare family. Modeled as the noun difference sense and kept separate from the adjective unterschiedlich. CEFR placed editorially at A2 on 2026-04-17.",
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b2-robust",
@@ -6012,7 +6047,8 @@
         "Work"
       ],
       "notes": "Editorial addition from German lemma expansion. Modeled around the broad strong, stable, and not easily damaged sense for people, materials, devices, or systems; not the military sense and not the food or flavor sense. CEFR set editorially to B2 on 2026-04-17.",
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b2-belastbar",
@@ -6281,7 +6317,8 @@
         "Communication"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b1-ausnahme",
@@ -6406,7 +6443,8 @@
         "Daily"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b1-stattdessen",
@@ -6586,7 +6624,8 @@
         "Communication"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b2-relevant",
@@ -6908,7 +6947,8 @@
         "Social"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b2-bedingung",
@@ -7384,7 +7424,8 @@
         "Education"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-c1-plausibel",
@@ -7694,7 +7735,8 @@
         "Communication"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b1-doch-encouragement",
@@ -7708,7 +7750,8 @@
         "Communication"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b1-mal-softening",
@@ -7722,7 +7765,8 @@
         "Communication"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b1-halt-eben-fatalism",
@@ -7736,7 +7780,8 @@
         "Communication"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b1-ja-shared-knowledge",
@@ -7750,7 +7795,8 @@
         "Communication"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b2-wohl-probability",
@@ -7764,7 +7810,8 @@
         "Communication"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-a1-stillstehen",
@@ -7828,7 +7875,8 @@
       "metadata_json": {
         "source": "ai",
         "generated_at": "2026-06-17T16:28:57.032Z"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-a2-kontext",
@@ -7940,7 +7988,8 @@
       "metadata_json": {
         "source": "ai",
         "generated_at": "2026-06-26T12:04:34.196Z"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-a1-eilen",

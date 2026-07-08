@@ -1,0 +1,518 @@
+[
+  {
+    "source_key": "c1_verb_bewaeltigen",
+    "concept_id": "concept-c1-bewaeltigen",
+    "pos": "verb",
+    "level_auto": "C1",
+    "domain_tags": ["Work", "Abstract", "Emotions"],
+    "notes": "Coping and mastering family. This branch models bewaeltigen as successfully dealing with a difficult task, load, or situation.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-bewaeltigen",
+        "text": "bewältigen",
+        "lemma": "bewältigen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Eine schwierige Aufgabe, Menge oder Situation erfolgreich meistern.",
+        "usage_note": "Typisch mit Herausforderungen, Arbeitspensum, Krisen oder Verlusten.",
+        "examples": ["Trotz der knappen Frist bringt sie das gesamte Pensum ohne Hilfe zu Ende."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_coping_verb",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-cope-with",
+        "text": "to cope with",
+        "lemma": "cope with",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To deal successfully with a difficult task, amount, or situation.",
+        "examples": ["She managed to cope with the workload despite the tight deadline."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-far-fronte-a",
+        "text": "far fronte a",
+        "lemma": "far fronte a",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Affrontare e gestire con successo un compito, una quantità o una situazione difficile.",
+        "examples": ["È riuscita a far fronte al carico di lavoro nonostante la scadenza ravvicinata."]
+      }
+    }
+  },
+  {
+    "source_key": "c1_verb_gewaehrleisten",
+    "concept_id": "concept-c1-gewaehrleisten",
+    "pos": "verb",
+    "level_auto": "C1",
+    "domain_tags": ["Work", "Communication"],
+    "notes": "Formal assurance family. This branch models gewaehrleisten as formally ensuring that a condition or standard holds.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-gewaehrleisten",
+        "text": "gewährleisten",
+        "lemma": "gewährleisten",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Dafür sorgen, dass etwas sicher vorhanden ist oder zuverlässig funktioniert.",
+        "usage_note": "Formeller als sicherstellen; typisch in Verträgen, Technik und Verwaltung.",
+        "examples": ["Das neue Verfahren sorgt dafür, dass alle Daten jederzeit geschützt bleiben."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_formal_assurance_verb",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-ensure",
+        "text": "to ensure",
+        "lemma": "ensure",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To make certain that a condition holds or that something works reliably.",
+        "examples": ["The new procedure ensures that all data remains protected at all times."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-garantire",
+        "text": "garantire",
+        "lemma": "garantire",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Assicurare formalmente che una condizione sia rispettata o che qualcosa funzioni in modo affidabile.",
+        "examples": ["La nuova procedura garantisce che tutti i dati restino protetti in ogni momento."]
+      }
+    }
+  },
+  {
+    "source_key": "c1_adj_anspruchsvoll",
+    "concept_id": "concept-c1-anspruchsvoll",
+    "pos": "adj",
+    "level_auto": "C1",
+    "domain_tags": ["Work", "Education", "Characteristics"],
+    "notes": "Demanding-quality family. This branch models anspruchsvoll for tasks, texts, or people that require a high standard.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-anspruchsvoll",
+        "text": "anspruchsvoll",
+        "lemma": "anspruchsvoll",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So beschaffen, dass hohe Fähigkeiten, Sorgfalt oder Qualität verlangt werden.",
+        "usage_note": "Sowohl für Aufgaben und Texte als auch für Personen mit hohen Erwartungen.",
+        "examples": ["Der Kurs verlangt von allen Teilnehmenden sehr viel Vorwissen und Konzentration."],
+        "card_antonyms": ["anspruchslos"],
+        "antonym_policy": {
+          "status": "curated",
+          "reason": "anspruchslos_is_the_direct_opposite",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-demanding",
+        "text": "demanding",
+        "lemma": "demanding",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Requiring a high level of skill, care, or quality.",
+        "examples": ["The course is demanding and expects a lot of prior knowledge."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-esigente",
+        "text": "esigente",
+        "lemma": "esigente",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Che richiede un livello elevato di capacità, cura o qualità.",
+        "examples": ["Il corso è esigente e richiede molte conoscenze pregresse."]
+      }
+    }
+  },
+  {
+    "source_key": "c1_verb_sich_bewaehren",
+    "concept_id": "concept-c1-sich-bewaehren",
+    "pos": "verb",
+    "level_auto": "C1",
+    "domain_tags": ["Work", "Abstract"],
+    "notes": "Proving-in-practice family. This branch models sich bewaehren as proving reliable or effective over time or under pressure.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-sich-bewaehren",
+        "text": "sich bewähren",
+        "lemma": "sich bewähren",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In der Praxis oder unter Belastung zeigen, dass man zuverlässig und geeignet ist.",
+        "usage_note": "Reflexiv; typisch für Methoden, Produkte und Personen über längere Zeit.",
+        "examples": ["Das einfache Verfahren zeigt auch nach Jahren im Alltag seinen Wert."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_prove_reliable_verb",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-prove-oneself",
+        "text": "to prove oneself",
+        "lemma": "prove oneself",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To show over time or under pressure that one is reliable and suitable.",
+        "examples": ["The simple method has proved itself over years of daily use."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-dimostrarsi-valido",
+        "text": "dimostrarsi valido",
+        "lemma": "dimostrarsi valido",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Mostrare nel tempo o sotto pressione di essere affidabile e adatto.",
+        "examples": ["Il metodo semplice si è dimostrato valido dopo anni di uso quotidiano."]
+      }
+    }
+  },
+  {
+    "source_key": "c1_noun_spielraum",
+    "concept_id": "concept-c1-spielraum",
+    "pos": "noun",
+    "level_auto": "C1",
+    "domain_tags": ["Work", "Abstract"],
+    "notes": "Latitude family. This branch models Spielraum as the room for manoeuvre within limits, not physical clearance.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-spielraum",
+        "text": "Spielraum",
+        "lemma": "Spielraum",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Der Bereich, in dem man frei entscheiden oder handeln kann, ohne Grenzen zu verletzen.",
+        "usage_note": "Hier nur der übertragene Sinn von Entscheidungsfreiheit, nicht der technische Abstand.",
+        "article_nom_sg_def": "der",
+        "gender": "m",
+        "plural": "Spielräume",
+        "examples": ["Der Vertrag lässt uns bei den Terminen noch etwas Freiheit."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_latitude_noun",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-leeway",
+        "text": "the leeway",
+        "lemma": "leeway",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "The freedom to decide or act within given limits.",
+        "examples": ["The contract still gives us some leeway on the deadlines."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-margine-di-manovra",
+        "text": "il margine di manovra",
+        "lemma": "margine di manovra",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "La libertà di decidere o agire entro limiti stabiliti.",
+        "examples": ["Il contratto ci lascia ancora un certo margine di manovra sulle scadenze."]
+      }
+    }
+  },
+  {
+    "source_key": "c1_adj_absehbar",
+    "concept_id": "concept-c1-absehbar",
+    "pos": "adj",
+    "level_auto": "C1",
+    "domain_tags": ["Work", "Abstract"],
+    "notes": "Foreseeability family. This branch models absehbar as predictable within a reasonable horizon.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-absehbar",
+        "text": "absehbar",
+        "lemma": "absehbar",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So beschaffen, dass man Verlauf oder Folgen schon jetzt erkennen kann.",
+        "usage_note": "Häufig in der Wendung in absehbarer Zeit.",
+        "examples": ["Die Folgen der Entscheidung lassen sich bereits heute gut erkennen."],
+        "card_antonyms": ["unabsehbar"],
+        "antonym_policy": {
+          "status": "curated",
+          "reason": "unabsehbar_is_the_direct_opposite",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-foreseeable",
+        "text": "foreseeable",
+        "lemma": "foreseeable",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Able to be predicted or anticipated from the present situation.",
+        "examples": ["The consequences of the decision are already foreseeable today."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-prevedibile",
+        "text": "prevedibile",
+        "lemma": "prevedibile",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Che si può prevedere o anticipare a partire dalla situazione attuale.",
+        "examples": ["Le conseguenze della decisione sono già prevedibili oggi."]
+      }
+    }
+  },
+  {
+    "source_key": "c1_noun_stellenwert",
+    "concept_id": "concept-c1-stellenwert",
+    "pos": "noun",
+    "level_auto": "C1",
+    "domain_tags": ["Work", "Abstract", "Communication"],
+    "notes": "Relative-importance family. This branch models Stellenwert as the rank or importance something holds within a larger whole.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-stellenwert",
+        "text": "Stellenwert",
+        "lemma": "Stellenwert",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Die Bedeutung oder der Rang, den etwas innerhalb eines größeren Ganzen hat.",
+        "usage_note": "Typisch: einen hohen oder geringen Rang in Gesellschaft, Arbeit oder Debatte haben.",
+        "article_nom_sg_def": "der",
+        "gender": "m",
+        "plural": "Stellenwerte",
+        "examples": ["Gesundheit hat in ihrem Leben inzwischen einen sehr hohen Rang."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_relative_importance_noun",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-standing",
+        "text": "the standing",
+        "lemma": "standing",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "The importance or rank something holds within a larger whole.",
+        "examples": ["Health now has a very high standing in her life."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-rilevanza",
+        "text": "la rilevanza",
+        "lemma": "rilevanza",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "L'importanza o il rango che qualcosa occupa all'interno di un insieme più grande.",
+        "examples": ["La salute ha ormai una grande rilevanza nella sua vita."]
+      }
+    }
+  },
+  {
+    "source_key": "c1_verb_verdeutlichen",
+    "concept_id": "concept-c1-verdeutlichen",
+    "pos": "verb",
+    "level_auto": "C1",
+    "domain_tags": ["Communication", "Education"],
+    "notes": "Clarity family, next to concept-b1-klaeren and concept-b2-klarstellen. This branch models verdeutlichen as making an idea easier to grasp, often with examples.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-verdeutlichen",
+        "text": "verdeutlichen",
+        "lemma": "verdeutlichen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Etwas so darstellen, dass es leichter zu verstehen ist, oft mit Beispielen oder Bildern.",
+        "usage_note": "Anders als klarstellen geht es nicht um Korrektur, sondern um besseres Verständnis.",
+        "examples": ["Mit einer einfachen Grafik macht sie den Zusammenhang sofort verständlich."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_clarify_by_example_verb",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-elucidate",
+        "text": "to elucidate",
+        "lemma": "elucidate",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To make an idea easier to understand, often with examples or images.",
+        "examples": ["She used a simple chart to elucidate the connection."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-esplicitare",
+        "text": "esplicitare",
+        "lemma": "esplicitare",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Rendere un'idea più facile da capire, spesso con esempi o immagini.",
+        "examples": ["Ha esplicitato il collegamento con un semplice grafico."]
+      }
+    }
+  },
+  {
+    "source_key": "c1_noun_kernaussage",
+    "concept_id": "concept-c1-kernaussage",
+    "pos": "noun",
+    "level_auto": "C1",
+    "domain_tags": ["Communication", "Education"],
+    "notes": "Argument-structure family. This branch models Kernaussage as the central claim of a text or talk.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-kernaussage",
+        "text": "Kernaussage",
+        "lemma": "Kernaussage",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Der zentrale Gedanke, den ein Text, ein Vortrag oder ein Argument vermitteln will.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Kernaussagen",
+        "examples": ["Am Ende fasst er den zentralen Gedanken des Vortrags in einem Satz zusammen."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_central_claim_noun",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-key-message",
+        "text": "the key message",
+        "lemma": "key message",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "The central idea a text, talk, or argument is meant to convey.",
+        "examples": ["He closed the talk by summing up its key message in one sentence."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-messaggio-chiave",
+        "text": "il messaggio chiave",
+        "lemma": "messaggio chiave",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "L'idea centrale che un testo, un discorso o un argomento vuole trasmettere.",
+        "examples": ["Ha chiuso il discorso riassumendo il messaggio chiave in una frase."]
+      }
+    }
+  },
+  {
+    "source_key": "c1_adj_eingehend",
+    "concept_id": "concept-c1-eingehend",
+    "pos": "adj",
+    "level_auto": "C1",
+    "domain_tags": ["Work", "Education", "Communication"],
+    "notes": "Depth-of-treatment family. This branch models eingehend as thorough and detailed examination or discussion.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-eingehend",
+        "text": "eingehend",
+        "lemma": "eingehend",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Sehr genau und mit vielen Einzelheiten durchgeführt.",
+        "usage_note": "Typisch mit prüfen, untersuchen, besprechen.",
+        "examples": ["Die Kommission prüft den Vorschlag Punkt für Punkt und sehr genau."],
+        "card_antonyms": ["oberflächlich"],
+        "antonym_policy": {
+          "status": "curated",
+          "reason": "oberflächlich_is_the_direct_opposite",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-in-depth",
+        "text": "in-depth",
+        "lemma": "in-depth",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Done very carefully and covering many details.",
+        "examples": ["The committee carried out an in-depth review of the proposal."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-approfondito",
+        "text": "approfondito",
+        "lemma": "approfondito",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Svolto con grande attenzione e ricco di dettagli.",
+        "examples": ["La commissione ha svolto un esame approfondito della proposta."]
+      }
+    }
+  },
+  {
+    "source_key": "c1_adj_aufschlussreich",
+    "concept_id": "concept-c1-aufschlussreich",
+    "pos": "adj",
+    "level_auto": "C1",
+    "domain_tags": ["Communication", "Education", "Abstract"],
+    "notes": "Informativeness family. This branch models aufschlussreich as revealing something one did not know before.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-aufschlussreich",
+        "text": "aufschlussreich",
+        "lemma": "aufschlussreich",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So beschaffen, dass man daraus viel Neues oder Verborgenes erfährt.",
+        "examples": ["Das Gespräch mit der Zeitzeugin brachte viele unerwartete Einblicke."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_revealing_adj",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-revealing",
+        "text": "revealing",
+        "lemma": "revealing",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Making known something that was not known before.",
+        "examples": ["The interview with the eyewitness was very revealing."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-rivelatore",
+        "text": "rivelatore",
+        "lemma": "rivelatore",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Che fa conoscere qualcosa che prima non si sapeva.",
+        "examples": ["L'intervista alla testimone è stata molto rivelatrice."]
+      }
+    }
+  }
+]

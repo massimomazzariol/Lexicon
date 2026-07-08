@@ -1,0 +1,939 @@
+[
+  {
+    "source_key": "c2_noun_gratwanderung",
+    "concept_id": "concept-c2-gratwanderung",
+    "pos": "noun",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Work", "Communication"],
+    "notes": "Figurative risk family. This branch models Gratwanderung as a delicate course between two failure modes, not literal mountain hiking.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-gratwanderung",
+        "text": "Gratwanderung",
+        "lemma": "Gratwanderung",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ein heikles Vorgehen zwischen zwei Risiken, bei dem jeder Fehltritt schadet.",
+        "usage_note": "Nur der übertragene Sinn, nicht das Wandern im Gebirge.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Gratwanderungen",
+        "examples": ["Zwischen Offenheit und Diskretion bewegt sich ihre Rede auf schmalem Grat."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_delicate_course_noun",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-balancing-act",
+        "text": "the balancing act",
+        "lemma": "balancing act",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "A delicate course between two risks where any misstep causes harm.",
+        "examples": ["Her speech was a balancing act between openness and discretion."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-equilibrismo",
+        "text": "l'equilibrismo",
+        "lemma": "equilibrismo",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Un percorso delicato tra due rischi, dove ogni passo falso provoca danni.",
+        "examples": ["Il suo discorso è stato un equilibrismo tra apertura e discrezione."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_noun_inbegriff",
+    "concept_id": "concept-c2-inbegriff",
+    "pos": "noun",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Communication"],
+    "notes": "Prototypicality family. This branch models Inbegriff as the purest embodiment of a quality.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-inbegriff",
+        "text": "Inbegriff",
+        "lemma": "Inbegriff",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Die reinste Verkörperung einer Eigenschaft oder Idee.",
+        "usage_note": "Fast immer mit Genitiv: der reinste Ausdruck von etwas sein.",
+        "article_nom_sg_def": "der",
+        "gender": "m",
+        "plural": "Inbegriffe",
+        "examples": ["Für viele ist dieses Haus die reinste Verkörperung von Luxus."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_embodiment_noun",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-epitome",
+        "text": "the epitome",
+        "lemma": "epitome",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "The purest embodiment of a quality or idea.",
+        "examples": ["For many, this house is the epitome of luxury."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-quintessenza",
+        "text": "la quintessenza",
+        "lemma": "quintessenza",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "L'incarnazione più pura di una qualità o di un'idea.",
+        "examples": ["Per molti questa casa è la quintessenza del lusso."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_noun_tragweite",
+    "concept_id": "concept-c2-tragweite",
+    "pos": "noun",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Work"],
+    "notes": "Consequence-scope family, next to concept-b1-auswirkung. This branch models Tragweite as how far the consequences of something reach.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-tragweite",
+        "text": "Tragweite",
+        "lemma": "Tragweite",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Das Ausmaß, in dem sich die Folgen einer Sache auswirken.",
+        "usage_note": "Typisch: die volle Bedeutung einer Entscheidung erst spät erkennen.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Tragweiten",
+        "examples": ["Erst Jahre später wurde klar, wie weit die Folgen dieser Entscheidung reichten."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_consequence_scope_noun",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-ramifications",
+        "text": "the ramifications",
+        "lemma": "ramifications",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "How far the consequences of something reach.",
+        "examples": ["Only years later did the full ramifications of the decision become clear."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-portata",
+        "text": "la portata",
+        "lemma": "portata",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "La misura in cui si estendono le conseguenze di qualcosa.",
+        "usage_note": "Qui solo nel senso figurato di ampiezza delle conseguenze, non la portata di un fiume o di un pranzo.",
+        "examples": ["Solo anni dopo divenne chiara la portata di quella decisione."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adj_unabdingbar",
+    "concept_id": "concept-c2-unabdingbar",
+    "pos": "adj",
+    "level_auto": "C2",
+    "domain_tags": ["Work", "Abstract"],
+    "notes": "Necessity family. This branch models unabdingbar as strictly necessary, with no possible waiver.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-unabdingbar",
+        "text": "unabdingbar",
+        "lemma": "unabdingbar",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So notwendig, dass darauf unter keinen Umständen verzichtet werden kann.",
+        "examples": ["Gegenseitiges Vertrauen ist für diese Zusammenarbeit absolut notwendig."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_strict_necessity_adj",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-indispensable",
+        "text": "indispensable",
+        "lemma": "indispensable",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So necessary that it cannot be given up under any circumstances.",
+        "examples": ["Mutual trust is indispensable for this collaboration."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-imprescindibile",
+        "text": "imprescindibile",
+        "lemma": "imprescindibile",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Così necessario che non se ne può fare a meno in nessuna circostanza.",
+        "examples": ["La fiducia reciproca è imprescindibile per questa collaborazione."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adj_akribisch",
+    "concept_id": "concept-c2-akribisch",
+    "pos": "adj",
+    "level_auto": "C2",
+    "domain_tags": ["Work", "Characteristics"],
+    "notes": "Care-and-precision family. This branch models akribisch as extremely careful down to the smallest detail.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-akribisch",
+        "text": "akribisch",
+        "lemma": "akribisch",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Mit äußerster Genauigkeit bis ins kleinste Detail.",
+        "examples": ["Sie dokumentiert jeden einzelnen Schritt des Experiments bis ins kleinste Detail."],
+        "card_antonyms": ["schlampig"],
+        "antonym_policy": {
+          "status": "curated",
+          "reason": "schlampig_is_the_colloquial_direct_opposite",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-meticulous",
+        "text": "meticulous",
+        "lemma": "meticulous",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Extremely careful, down to the smallest detail.",
+        "examples": ["She keeps meticulous records of every step of the experiment."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-meticoloso",
+        "text": "meticoloso",
+        "lemma": "meticoloso",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Estremamente accurato, fino al più piccolo dettaglio.",
+        "examples": ["Tiene una documentazione meticolosa di ogni fase dell'esperimento."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adj_stringent",
+    "concept_id": "concept-c2-stringent",
+    "pos": "adj",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Education", "Communication"],
+    "notes": "Logical-rigour family, next to concept-c1-stichhaltig. This branch models stringent as logically tight argumentation.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-stringent",
+        "text": "stringent",
+        "lemma": "stringent",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Logisch lückenlos und zwingend aufgebaut.",
+        "usage_note": "Für Argumentationen und Beweisführungen, nicht für strenge Regeln.",
+        "examples": ["Ihre Beweisführung ist lückenlos aufgebaut und lässt keine Einwände zu."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_logical_rigour_adj",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-rigorous",
+        "text": "rigorous",
+        "lemma": "rigorous",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Built with airtight, compelling logic.",
+        "examples": ["Her rigorous argument leaves no room for objections."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-stringente",
+        "text": "stringente",
+        "lemma": "stringente",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Costruito con logica serrata e convincente.",
+        "examples": ["La sua argomentazione stringente non lascia spazio a obiezioni."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adj_kohaerent",
+    "concept_id": "concept-c2-kohaerent",
+    "pos": "adj",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Communication"],
+    "notes": "Internal-consistency family, next to concept-c1-konsequent (which owns the IT label coerente). This branch models kohaerent as internally consistent and well connected.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-kohaerent",
+        "text": "kohärent",
+        "lemma": "kohärent",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In sich stimmig und ohne innere Widersprüche verbunden.",
+        "examples": ["Die einzelnen Kapitel fügen sich zu einem stimmigen Gesamtbild."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_internal_consistency_adj",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-coherent",
+        "text": "coherent",
+        "lemma": "coherent",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Internally consistent and well connected, without contradictions.",
+        "examples": ["The chapters form a coherent overall picture."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-coerente-logico",
+        "text": "coerente (logico)",
+        "lemma": "coerente",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Internamente consistente e ben collegato, senza contraddizioni.",
+        "examples": ["I capitoli formano un quadro complessivo coerente."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adj_praegnant",
+    "concept_id": "concept-c2-praegnant",
+    "pos": "adj",
+    "level_auto": "C2",
+    "domain_tags": ["Communication"],
+    "notes": "Concise-expression family. This branch models praegnant as saying much in few, sharply chosen words.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-praegnant",
+        "text": "prägnant",
+        "lemma": "prägnant",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Kurz und treffend formuliert, mit viel Inhalt in wenigen Worten.",
+        "examples": ["Ihre Zusammenfassung bringt das ganze Projekt in zwei Sätzen auf den Punkt."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_concise_expression_adj",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-incisive",
+        "text": "incisive",
+        "lemma": "incisive",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Expressed briefly and sharply, packing much into few words.",
+        "examples": ["Her incisive summary captures the whole project in two sentences."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-incisivo",
+        "text": "incisivo",
+        "lemma": "incisivo",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Espresso in modo breve e penetrante, con molto contenuto in poche parole.",
+        "examples": ["La sua sintesi incisiva racchiude l'intero progetto in due frasi."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adj_eloquent",
+    "concept_id": "concept-c2-eloquent",
+    "pos": "adj",
+    "level_auto": "C2",
+    "domain_tags": ["Communication", "Characteristics"],
+    "notes": "Speaking-skill family. This branch models eloquent as fluent and persuasive in speech.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-eloquent",
+        "text": "eloquent",
+        "lemma": "eloquent",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Sprachlich gewandt und überzeugend im Ausdruck.",
+        "examples": ["Er antwortet auf jede kritische Frage flüssig und überzeugend."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_speaking_skill_adj",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-eloquent",
+        "text": "eloquent",
+        "lemma": "eloquent",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Fluent and persuasive in expression.",
+        "examples": ["He gave an eloquent answer to every critical question."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-eloquente",
+        "text": "eloquente",
+        "lemma": "eloquente",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Fluente e persuasivo nell'espressione.",
+        "examples": ["Ha dato una risposta eloquente a ogni domanda critica."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adj_subtil",
+    "concept_id": "concept-c2-subtil",
+    "pos": "adj",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Communication"],
+    "notes": "Fine-distinction family, next to concept-b2-subtilitat. This branch models subtil as fine and hard to notice.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-subtil",
+        "text": "subtil",
+        "lemma": "subtil",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Fein und kaum merklich, nur bei genauem Hinsehen erkennbar.",
+        "examples": ["Der Unterschied zwischen den beiden Fassungen ist fein und leicht zu übersehen."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_fine_distinction_adj",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-subtle",
+        "text": "subtle",
+        "lemma": "subtle",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Fine and hard to notice, visible only on close inspection.",
+        "examples": ["The difference between the two versions is subtle and easy to miss."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-sottile",
+        "text": "sottile",
+        "lemma": "sottile",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Fine e difficile da notare, visibile solo osservando con attenzione.",
+        "usage_note": "Qui solo nel senso figurato di differenza o allusione appena percettibile, non di oggetto poco spesso.",
+        "examples": ["La differenza tra le due versioni è sottile e facile da non notare."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adj_vielschichtig",
+    "concept_id": "concept-c2-vielschichtig",
+    "pos": "adj",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract"],
+    "notes": "Complexity family. This branch models vielschichtig as having many layers or aspects.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-vielschichtig",
+        "text": "vielschichtig",
+        "lemma": "vielschichtig",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Aus vielen Ebenen oder Aspekten zusammengesetzt.",
+        "examples": ["Das Problem hat mehr Ebenen, als es auf den ersten Blick scheint."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_many_layers_adj",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-multilayered",
+        "text": "multilayered",
+        "lemma": "multilayered",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Made up of many layers or aspects.",
+        "examples": ["The problem is more multilayered than it first appears."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-sfaccettato",
+        "text": "sfaccettato",
+        "lemma": "sfaccettato",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Composto da molti livelli o aspetti.",
+        "examples": ["Il problema è più sfaccettato di quanto sembri a prima vista."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adj_widerspruechlich",
+    "concept_id": "concept-c2-widerspruechlich",
+    "pos": "adj",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Communication"],
+    "notes": "Contradiction family, next to concept-c1-implizieren cluster. This branch models widerspruechlich as containing statements that cannot all be true.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-widerspruechlich",
+        "text": "widersprüchlich",
+        "lemma": "widersprüchlich",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So beschaffen, dass sich die enthaltenen Aussagen gegenseitig ausschließen.",
+        "examples": ["Die beiden Zeugen erzählen Versionen, die sich gegenseitig ausschließen."],
+        "card_antonyms": ["stimmig"],
+        "antonym_policy": {
+          "status": "curated",
+          "reason": "stimmig_is_the_closest_robust_opposite",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-contradictory",
+        "text": "contradictory",
+        "lemma": "contradictory",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Containing statements that cannot all be true at once.",
+        "examples": ["The two witnesses gave contradictory accounts."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-contraddittorio",
+        "text": "contraddittorio",
+        "lemma": "contraddittorio",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Che contiene affermazioni che non possono essere tutte vere allo stesso tempo.",
+        "examples": ["I due testimoni hanno fornito versioni contraddittorie."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adj_unumstritten",
+    "concept_id": "concept-c2-unumstritten",
+    "pos": "adj",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Social"],
+    "notes": "Acceptance family. This branch models unumstritten as accepted by everyone, with no serious challenge.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-unumstritten",
+        "text": "unumstritten",
+        "lemma": "unumstritten",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Von allen anerkannt und ohne ernsthaften Widerspruch.",
+        "examples": ["Ihre fachliche Autorität wird von niemandem ernsthaft in Frage gestellt."],
+        "card_antonyms": ["umstritten"],
+        "antonym_policy": {
+          "status": "curated",
+          "reason": "umstritten_is_the_direct_opposite",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-undisputed",
+        "text": "undisputed",
+        "lemma": "undisputed",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Accepted by everyone, without serious challenge.",
+        "examples": ["Her professional authority is undisputed."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-indiscusso",
+        "text": "indiscusso",
+        "lemma": "indiscusso",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Riconosciuto da tutti, senza contestazioni serie.",
+        "examples": ["La sua autorità professionale è indiscussa."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adj_befangen",
+    "concept_id": "concept-c2-befangen",
+    "pos": "adj",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Work", "Social"],
+    "notes": "Impartiality family. This branch models befangen as unable to judge neutrally because of personal involvement, including the legal sense.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-befangen",
+        "text": "befangen",
+        "lemma": "befangen",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Wegen persönlicher Beteiligung nicht in der Lage, neutral zu urteilen.",
+        "usage_note": "Auch juristisch: ein Richter kann wegen Naehe zu einer Partei abgelehnt werden.",
+        "examples": ["Als enger Freund des Angeklagten darf er in diesem Fall nicht urteilen."],
+        "card_antonyms": ["unbefangen"],
+        "antonym_policy": {
+          "status": "curated",
+          "reason": "unbefangen_is_the_direct_opposite",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-biased",
+        "text": "biased",
+        "lemma": "biased",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Unable to judge neutrally because of personal involvement.",
+        "examples": ["As a close friend of the defendant, he is too biased to judge the case."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-prevenuto",
+        "text": "prevenuto",
+        "lemma": "prevenuto",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Incapace di giudicare in modo neutrale a causa di un coinvolgimento personale.",
+        "examples": ["Da amico stretto dell'imputato, è troppo prevenuto per giudicare il caso."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adv_rueckblickend",
+    "concept_id": "concept-c2-rueckblickend",
+    "pos": "adv",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Communication"],
+    "notes": "Retrospective-evaluation family. This branch models rueckblickend as judging something from a later point in time.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-rueckblickend",
+        "text": "rückblickend",
+        "lemma": "rückblickend",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Von einem späteren Zeitpunkt aus betrachtet und bewertet.",
+        "examples": ["Aus heutiger Sicht war der Umzug die beste Entscheidung ihres Lebens."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_retrospective_adv",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-in-hindsight",
+        "text": "in hindsight",
+        "lemma": "in hindsight",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Judged from a later point in time.",
+        "examples": ["In hindsight, the move was the best decision of her life."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-col-senno-di-poi",
+        "text": "col senno di poi",
+        "lemma": "col senno di poi",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Giudicato da un momento successivo nel tempo.",
+        "examples": ["Col senno di poi, il trasloco è stata la decisione migliore della sua vita."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_noun_diskrepanz",
+    "concept_id": "concept-c2-diskrepanz",
+    "pos": "noun",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Work"],
+    "notes": "Mismatch family, next to concept-a2-unterschied. This branch models Diskrepanz as a striking mismatch between two things that should align.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-diskrepanz",
+        "text": "Diskrepanz",
+        "lemma": "Diskrepanz",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ein auffälliges Missverhältnis zwischen Dingen, die eigentlich zusammenpassen sollten.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Diskrepanzen",
+        "examples": ["Zwischen Anspruch und Wirklichkeit klafft hier eine deutliche Lücke."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_mismatch_noun",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-discrepancy",
+        "text": "the discrepancy",
+        "lemma": "discrepancy",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "A striking mismatch between things that should align.",
+        "examples": ["There is a clear discrepancy between the plan and the results."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-discrepanza",
+        "text": "la discrepanza",
+        "lemma": "discrepanza",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Un divario evidente tra cose che dovrebbero corrispondere.",
+        "examples": ["C'è una chiara discrepanza tra il piano e i risultati."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_noun_zwickmuehle",
+    "concept_id": "concept-c2-zwickmuehle",
+    "pos": "noun",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Daily"],
+    "notes": "Dilemma family, next to concept-b2-dilemma. This branch models Zwickmuehle as a bind where every available option has a serious drawback.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-zwickmuehle",
+        "text": "Zwickmühle",
+        "lemma": "Zwickmühle",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Eine Lage, in der jede mögliche Entscheidung einen ernsten Nachteil hat.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Zwickmühlen",
+        "examples": ["Egal wie sie sich entscheidet, eine Seite wird enttäuscht sein."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_bind_noun",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-quandary",
+        "text": "the quandary",
+        "lemma": "quandary",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "A bind in which every available option has a serious drawback.",
+        "examples": ["She is in a quandary: whatever she decides, someone will be disappointed."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-impasse",
+        "text": "l'impasse",
+        "lemma": "impasse",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Una situazione in cui ogni opzione disponibile comporta uno svantaggio serio.",
+        "examples": ["È in un'impasse: qualunque cosa decida, qualcuno resterà deluso."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_noun_zwiespalt",
+    "concept_id": "concept-c2-zwiespalt",
+    "pos": "noun",
+    "level_auto": "C2",
+    "domain_tags": ["Emotions", "Abstract"],
+    "notes": "Inner-conflict family, next to concept-c2-ambivalent. This branch models Zwiespalt as being torn between two feelings or loyalties.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-zwiespalt",
+        "text": "Zwiespalt",
+        "lemma": "Zwiespalt",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Das Gefühl, zwischen zwei Empfindungen oder Loyalitäten hin- und hergerissen zu sein.",
+        "article_nom_sg_def": "der",
+        "gender": "m",
+        "plural": "Zwiespälte",
+        "examples": ["Sie fühlt sich zwischen Familie und Karriere hin- und hergerissen."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_inner_conflict_noun",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-inner-conflict",
+        "text": "the inner conflict",
+        "lemma": "inner conflict",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "The feeling of being torn between two feelings or loyalties.",
+        "examples": ["She feels an inner conflict between family and career."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-dissidio-interiore",
+        "text": "il dissidio interiore",
+        "lemma": "dissidio interiore",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "La sensazione di essere combattuti tra due sentimenti o lealtà.",
+        "examples": ["Vive un dissidio interiore tra famiglia e carriera."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_noun_konsens",
+    "concept_id": "concept-c2-konsens",
+    "pos": "noun",
+    "level_auto": "C2",
+    "domain_tags": ["Social", "Work", "Communication"],
+    "notes": "Agreement family, next to concept-b1-vereinbarung and concept-b2-einigung. This branch models Konsens as broad shared agreement within a group, not a negotiated deal.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-konsens",
+        "text": "Konsens",
+        "lemma": "Konsens",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Eine breite, von allen getragene Übereinstimmung innerhalb einer Gruppe.",
+        "usage_note": "Anders als eine Einigung wird er nicht ausgehandelt, sondern stellt sich als geteilte Haltung ein.",
+        "article_nom_sg_def": "der",
+        "gender": "m",
+        "plural": "Konsense",
+        "examples": ["In diesem Punkt sind sich inzwischen fast alle Fachleute einig."],
+        "card_antonyms": ["Dissens"],
+        "antonym_policy": {
+          "status": "curated",
+          "reason": "dissens_is_the_direct_opposite",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-consensus",
+        "text": "the consensus",
+        "lemma": "consensus",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Broad agreement shared by everyone in a group.",
+        "examples": ["There is now a broad consensus among experts on this point."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-consenso",
+        "text": "il consenso",
+        "lemma": "consenso",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Un ampio accordo condiviso da tutti all'interno di un gruppo.",
+        "examples": ["Su questo punto c'è ormai un ampio consenso tra gli esperti."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_noun_trugschluss",
+    "concept_id": "concept-c2-trugschluss",
+    "pos": "noun",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Education"],
+    "notes": "Reasoning-error family, next to concept-c1-schlussfolgerung. This branch models Trugschluss as a conclusion that seems valid but rests on flawed reasoning.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-trugschluss",
+        "text": "Trugschluss",
+        "lemma": "Trugschluss",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Eine Folgerung, die richtig wirkt, aber auf einem Denkfehler beruht.",
+        "article_nom_sg_def": "der",
+        "gender": "m",
+        "plural": "Trugschlüsse",
+        "examples": ["Aus zwei zufällig gleichzeitigen Ereignissen eine Ursache abzuleiten ist ein klassischer Denkfehler."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_reasoning_error_noun",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-fallacy",
+        "text": "the fallacy",
+        "lemma": "fallacy",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "A conclusion that seems valid but rests on flawed reasoning.",
+        "examples": ["Inferring a cause from mere coincidence is a classic fallacy."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-fallacia",
+        "text": "la fallacia",
+        "lemma": "fallacia",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Una conclusione che sembra valida ma si fonda su un errore di ragionamento.",
+        "examples": ["Dedurre una causa da una semplice coincidenza è una fallacia classica."]
+      }
+    }
+  }
+]

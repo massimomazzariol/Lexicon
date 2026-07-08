@@ -1,0 +1,930 @@
+[
+  {
+    "source_key": "c2_noun_paradebeispiel",
+    "concept_id": "concept-c2-paradebeispiel",
+    "pos": "noun",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Communication"],
+    "notes": "Prototypicality family, next to concept-c2-inbegriff. This branch models Paradebeispiel as the textbook case that proves a general point.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-paradebeispiel",
+        "text": "Paradebeispiel",
+        "lemma": "Paradebeispiel",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ein besonders typischer Fall, der eine allgemeine Aussage perfekt belegt.",
+        "article_nom_sg_def": "das",
+        "gender": "n",
+        "plural": "Paradebeispiele",
+        "examples": ["Dieses Projekt zeigt mustergültig, wie gute Planung Kosten senkt."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_textbook_case_noun",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-prime-example",
+        "text": "the prime example",
+        "lemma": "prime example",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "An especially typical case that perfectly proves a general point.",
+        "examples": ["This project is a prime example of how good planning cuts costs."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-esempio-lampante",
+        "text": "l'esempio lampante",
+        "lemma": "esempio lampante",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Un caso particolarmente tipico che dimostra perfettamente un'affermazione generale.",
+        "examples": ["Questo progetto è un esempio lampante di come una buona pianificazione riduca i costi."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_noun_zaesur",
+    "concept_id": "concept-c2-zaesur",
+    "pos": "noun",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract"],
+    "notes": "Historical-break family. This branch models Zaesur as a sharp break that divides a development into a before and an after.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-zaesur",
+        "text": "Zäsur",
+        "lemma": "Zäsur",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ein scharfer Einschnitt, der eine Entwicklung in ein Davor und ein Danach teilt.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Zäsuren",
+        "examples": ["Der Mauerfall teilt die Geschichte der Stadt in ein Davor und ein Danach."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_sharp_break_noun",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-caesura",
+        "text": "the caesura",
+        "lemma": "caesura",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "A sharp break that divides a development into a before and an after.",
+        "examples": ["The fall of the wall marks a caesura in the city's history."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-cesura",
+        "text": "la cesura",
+        "lemma": "cesura",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Una frattura netta che divide uno sviluppo in un prima e un dopo.",
+        "examples": ["La caduta del muro segna una cesura nella storia della città."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_verb_untermauern",
+    "concept_id": "concept-c2-untermauern",
+    "pos": "verb",
+    "level_auto": "C2",
+    "domain_tags": ["Communication", "Abstract"],
+    "notes": "Argument-support family, next to concept-c1-fundiert. This branch models untermauern as backing a claim with evidence.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-untermauern",
+        "text": "untermauern",
+        "lemma": "untermauern",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Eine Behauptung mit Belegen oder Argumenten stützen.",
+        "examples": ["Sie stützt ihre These mit Zahlen aus drei unabhängigen Studien."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_support_with_evidence_verb",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-underpin",
+        "text": "to underpin",
+        "lemma": "underpin",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To back a claim with evidence or arguments.",
+        "examples": ["She underpins her thesis with figures from three independent studies."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-suffragare",
+        "text": "suffragare",
+        "lemma": "suffragare",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Sostenere un'affermazione con prove o argomenti.",
+        "examples": ["Suffraga la sua tesi con dati di tre studi indipendenti."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_verb_entkraeften",
+    "concept_id": "concept-c2-entkraeften",
+    "pos": "verb",
+    "level_auto": "C2",
+    "domain_tags": ["Communication", "Abstract"],
+    "notes": "Argument-attack family, next to concept-c1-widerlegen. This branch models entkraeften as taking the force out of an argument without necessarily disproving it.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-entkraeften",
+        "text": "entkräften",
+        "lemma": "entkräften",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Einem Argument oder Verdacht die Überzeugungskraft nehmen.",
+        "usage_note": "Schwächer als widerlegen: das Gegenargument verliert sein Gewicht, muss aber nicht bewiesen falsch sein.",
+        "examples": ["Mit einem einzigen Beleg nimmt sie dem Verdacht jede Grundlage."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_defuse_argument_verb",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-invalidate",
+        "text": "to invalidate",
+        "lemma": "invalidate",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To take the persuasive force out of an argument or suspicion.",
+        "examples": ["A single piece of evidence invalidated the suspicion."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-invalidare",
+        "text": "invalidare",
+        "lemma": "invalidare",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Togliere forza persuasiva a un argomento o a un sospetto.",
+        "examples": ["Una sola prova ha invalidato il sospetto."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_verb_bekraeftigen",
+    "concept_id": "concept-c2-bekraeftigen",
+    "pos": "verb",
+    "level_auto": "C2",
+    "domain_tags": ["Communication"],
+    "notes": "Reaffirmation family. This branch models bekraeftigen as emphatically confirming a statement or intention already made.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-bekraeftigen",
+        "text": "bekräftigen",
+        "lemma": "bekräftigen",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Eine bereits gemachte Aussage oder Absicht nachdrücklich bestätigen.",
+        "examples": ["Die Ministerin bestätigt vor der Presse noch einmal nachdrücklich ihren Kurs."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_reaffirm_verb",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-reaffirm",
+        "text": "to reaffirm",
+        "lemma": "reaffirm",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To confirm emphatically a statement or intention already made.",
+        "examples": ["The minister reaffirmed her course before the press."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-ribadire",
+        "text": "ribadire",
+        "lemma": "ribadire",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Confermare con forza un'affermazione o un'intenzione già espressa.",
+        "examples": ["La ministra ha ribadito la sua linea davanti alla stampa."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_verb_veranschaulichen",
+    "concept_id": "concept-c2-veranschaulichen",
+    "pos": "verb",
+    "level_auto": "C2",
+    "domain_tags": ["Communication", "Education"],
+    "notes": "Clarity family, next to concept-c1-verdeutlichen. This branch models veranschaulichen as making something abstract vivid with images or comparisons.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-veranschaulichen",
+        "text": "veranschaulichen",
+        "lemma": "veranschaulichen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Etwas Abstraktes durch Bilder oder Vergleiche anschaulich machen.",
+        "usage_note": "Stärker bildhaft als verdeutlichen: es geht um das konkrete Vorstellbarmachen.",
+        "examples": ["Mit einem Alltagsvergleich macht der Professor die Theorie greifbar."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_make_vivid_verb",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-illustrate",
+        "text": "to illustrate",
+        "lemma": "illustrate",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To make something abstract vivid with images or comparisons.",
+        "examples": ["The professor illustrated the theory with an everyday comparison."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-illustrare",
+        "text": "illustrare",
+        "lemma": "illustrare",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Rendere vivido qualcosa di astratto con immagini o paragoni.",
+        "examples": ["Il professore ha illustrato la teoria con un paragone quotidiano."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_verb_muenden",
+    "concept_id": "concept-c2-muenden",
+    "pos": "verb",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract"],
+    "notes": "Outcome family. This branch models muenden (in + Akk.) as a development flowing into its final outcome; the river sense stays out of scope.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-muenden",
+        "text": "münden",
+        "lemma": "münden",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Als Entwicklung schließlich in ein bestimmtes Ergebnis übergehen.",
+        "usage_note": "Hier nur der übertragene Sinn mit in + Akkusativ, nicht der Fluss, der ins Meer fließt.",
+        "examples": ["Die monatelangen Proteste führen am Ende zu einer breiten Reform."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_flow_into_outcome_verb",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-culminate",
+        "text": "to culminate",
+        "lemma": "culminate",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To flow as a development into its final outcome.",
+        "examples": ["Months of protests culminated in a broad reform."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-sfociare",
+        "text": "sfociare",
+        "lemma": "sfociare",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Confluire, come sviluppo, nel proprio esito finale.",
+        "usage_note": "Qui solo il senso figurato di sfociare in un risultato, non il fiume che sfocia nel mare.",
+        "examples": ["Mesi di proteste sono sfociati in un'ampia riforma."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_verb_anfechten",
+    "concept_id": "concept-c2-anfechten",
+    "pos": "verb",
+    "level_auto": "C2",
+    "domain_tags": ["Work", "Abstract"],
+    "notes": "Formal-challenge family. This branch models anfechten as formally contesting a decision or contract, mainly the legal sense.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-anfechten",
+        "text": "anfechten",
+        "lemma": "anfechten",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Eine Entscheidung oder einen Vertrag auf offiziellem Weg für ungültig erklären lassen wollen.",
+        "examples": ["Die unterlegene Partei will das Urteil vor der nächsten Instanz angreifen."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_formal_challenge_verb",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-contest",
+        "text": "to contest",
+        "lemma": "contest",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To formally challenge a decision or contract as invalid.",
+        "examples": ["The losing party wants to contest the ruling."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-impugnare",
+        "text": "impugnare",
+        "lemma": "impugnare",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Contestare formalmente una decisione o un contratto come non valido.",
+        "usage_note": "Qui solo il senso giuridico, non impugnare un'arma o un attrezzo.",
+        "examples": ["La parte soccombente vuole impugnare la sentenza."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_noun_ermessen",
+    "concept_id": "concept-c2-ermessen",
+    "pos": "noun",
+    "level_auto": "C2",
+    "domain_tags": ["Work", "Abstract"],
+    "notes": "Discretion family, next to concept-c1-spielraum. This branch models Ermessen as the authority to decide by one's own judgment within rules.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-ermessen",
+        "text": "Ermessen",
+        "lemma": "Ermessen",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Die Befugnis, innerhalb von Regeln nach eigenem Urteil zu entscheiden.",
+        "usage_note": "Typisch: etwas liegt im eigenen Urteil einer Behörde oder Person.",
+        "article_nom_sg_def": "das",
+        "gender": "n",
+        "examples": ["Ob die Gebühr erlassen wird, entscheidet die Behörde nach eigenem Urteil."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_discretion_noun",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-discretion",
+        "text": "the discretion",
+        "lemma": "discretion",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "The authority to decide by one's own judgment within rules.",
+        "examples": ["Waiving the fee is at the authority's discretion."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-discrezionalita",
+        "text": "la discrezionalità",
+        "lemma": "discrezionalità",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Il potere di decidere secondo il proprio giudizio entro le regole.",
+        "examples": ["La riduzione della tariffa rientra nella discrezionalità dell'ente."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_noun_willkuer",
+    "concept_id": "concept-c2-willkuer",
+    "pos": "noun",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Social"],
+    "notes": "Arbitrariness family, the negative counterpart of concept-c2-ermessen. This branch models Willkuer as decisions made without rules or justification.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-willkuer",
+        "text": "Willkür",
+        "lemma": "Willkür",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Entscheiden ohne Regeln, Maßstab oder Begründung, allein nach Laune.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "examples": ["Die Strafen folgen keinem erkennbaren Maßstab, sondern der Laune des Chefs."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_arbitrariness_noun",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-arbitrariness",
+        "text": "the arbitrariness",
+        "lemma": "arbitrariness",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Deciding without rules, standards, or justification, on mere whim.",
+        "examples": ["The fines follow no visible standard, only the boss's arbitrariness."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-arbitrarieta",
+        "text": "l'arbitrarietà",
+        "lemma": "arbitrarietà",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Il decidere senza regole, criteri o giustificazioni, per puro capriccio.",
+        "examples": ["Le multe non seguono alcun criterio, solo l'arbitrarietà del capo."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adj_beharrlich",
+    "concept_id": "concept-c2-beharrlich",
+    "pos": "adj",
+    "level_auto": "C2",
+    "domain_tags": ["Characteristics", "Work"],
+    "notes": "Persistence family, next to concept-b2-ausdauer. This branch models beharrlich as steadily sticking to a goal despite resistance.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-beharrlich",
+        "text": "beharrlich",
+        "lemma": "beharrlich",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Trotz Widerstand ruhig und stetig am eigenen Ziel festhaltend.",
+        "examples": ["Trotz vieler Absagen verfolgt sie ihr Ziel Jahr für Jahr weiter."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_persistence_adj",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-persistent",
+        "text": "persistent",
+        "lemma": "persistent",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Steadily sticking to a goal despite resistance.",
+        "examples": ["Despite many rejections, she remained persistent year after year."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-tenace",
+        "text": "tenace",
+        "lemma": "tenace",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Che persegue con costanza il proprio obiettivo nonostante le resistenze.",
+        "examples": ["Nonostante molti rifiuti, è rimasta tenace anno dopo anno."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_noun_beharrlichkeit",
+    "concept_id": "concept-c2-beharrlichkeit",
+    "pos": "noun",
+    "level_auto": "C2",
+    "domain_tags": ["Characteristics", "Work"],
+    "notes": "Persistence family, noun of concept-c2-beharrlich.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-beharrlichkeit",
+        "text": "Beharrlichkeit",
+        "lemma": "Beharrlichkeit",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Das ruhige, stetige Festhalten an einem Ziel trotz Widerstand.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "examples": ["Ihr stilles Dranbleiben zahlt sich nach Jahren endlich aus."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_persistence_noun",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-tenacity",
+        "text": "the tenacity",
+        "lemma": "tenacity",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "The steady holding on to a goal despite resistance.",
+        "examples": ["Her quiet tenacity finally paid off after years."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-tenacia",
+        "text": "la tenacia",
+        "lemma": "tenacia",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Il perseverare con calma e costanza verso un obiettivo nonostante le resistenze.",
+        "examples": ["La sua tenacia silenziosa ha dato i suoi frutti dopo anni."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adj_verblueffend",
+    "concept_id": "concept-c2-verblueffend",
+    "pos": "adj",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Emotions"],
+    "notes": "Surprise family. This branch models verblueffend as so surprising that it briefly leaves one speechless.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-verblueffend",
+        "text": "verblüffend",
+        "lemma": "verblüffend",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So überraschend, dass man einen Moment sprachlos ist.",
+        "examples": ["Die Ähnlichkeit der beiden Gemälde lässt die Besucher einen Moment sprachlos zurück."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_astounding_adj",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-astounding",
+        "text": "astounding",
+        "lemma": "astounding",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So surprising that it briefly leaves one speechless.",
+        "examples": ["The resemblance between the two paintings is astounding."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-sbalorditivo",
+        "text": "sbalorditivo",
+        "lemma": "sbalorditivo",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Così sorprendente da lasciare per un attimo senza parole.",
+        "examples": ["La somiglianza tra i due dipinti è sbalorditiva."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adj_unverkennbar",
+    "concept_id": "concept-c2-unverkennbar",
+    "pos": "adj",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Characteristics"],
+    "notes": "Recognizability family, next to concept-b2-eindeutig (which owns IT inequivocabile). This branch models unverkennbar as so characteristic it cannot be mistaken for anything else.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-unverkennbar",
+        "text": "unverkennbar",
+        "lemma": "unverkennbar",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So charakteristisch, dass man es mit nichts anderem verwechseln kann.",
+        "examples": ["Schon nach zwei Takten erkennt man ihre Handschrift in der Musik."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_recognizability_adj",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-unmistakable",
+        "text": "unmistakable",
+        "lemma": "unmistakable",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So characteristic that it cannot be mistaken for anything else.",
+        "examples": ["Her style is unmistakable after just two bars of music."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-inconfondibile",
+        "text": "inconfondibile",
+        "lemma": "inconfondibile",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Così caratteristico da non poter essere confuso con nient'altro.",
+        "examples": ["Il suo stile è inconfondibile già dopo due battute."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_noun_feinheit",
+    "concept_id": "concept-c2-feinheit",
+    "pos": "noun",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Education"],
+    "notes": "Fine-distinction family, next to concept-c2-subtil and concept-b2-subtilitat. This branch models Feinheit as a small but meaningful detail of a subject.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-feinheit",
+        "text": "Feinheit",
+        "lemma": "Feinheit",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ein kleines, aber bedeutsames Detail einer Sache, das erst Kenner bemerken.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Feinheiten",
+        "examples": ["Die kleinen Unterschiede der Grammatik lernt man erst nach Jahren."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_fine_detail_noun",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-fine-point",
+        "text": "the fine point",
+        "lemma": "fine point",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "A small but meaningful detail of a subject, noticed only by experts.",
+        "examples": ["The fine points of the grammar take years to learn."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-finezza",
+        "text": "la finezza",
+        "lemma": "finezza",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Un dettaglio piccolo ma significativo di una materia, che solo gli esperti notano.",
+        "examples": ["Le finezze della grammatica si imparano solo dopo anni."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_noun_gespuer",
+    "concept_id": "concept-c2-gespuer",
+    "pos": "noun",
+    "level_auto": "C2",
+    "domain_tags": ["Characteristics", "Emotions"],
+    "notes": "Intuition family. This branch models Gespuer as a reliable instinctive feel for situations or people.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-gespuer",
+        "text": "Gespür",
+        "lemma": "Gespür",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ein sicheres, instinktives Gefühl für Situationen oder Menschen.",
+        "article_nom_sg_def": "das",
+        "gender": "n",
+        "examples": ["Sie merkt sofort, wann ein Kunde noch zögert."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_instinctive_feel_noun",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-intuition",
+        "text": "the intuition",
+        "lemma": "intuition",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "A reliable instinctive feel for situations or people.",
+        "examples": ["She has a fine intuition for when a customer is still hesitating."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-fiuto",
+        "text": "il fiuto",
+        "lemma": "fiuto",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Un sicuro istinto per le situazioni o le persone.",
+        "usage_note": "Qui solo il senso figurato di intuito, non l'olfatto degli animali.",
+        "examples": ["Ha un gran fiuto per capire quando un cliente esita ancora."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_noun_raffinesse",
+    "concept_id": "concept-c2-raffinesse",
+    "pos": "noun",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Characteristics"],
+    "notes": "Sophistication family. This branch models Raffinesse as refined, clever sophistication in design or execution.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-raffinesse",
+        "text": "Raffinesse",
+        "lemma": "Raffinesse",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ausgeklügelte, feine Durchdachtheit in Gestaltung oder Vorgehen.",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Raffinessen",
+        "examples": ["Das Menü besticht durch viele kleine, kluge Details."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_sophistication_noun",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-sophistication",
+        "text": "the sophistication",
+        "lemma": "sophistication",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Refined, clever thoughtfulness in design or execution.",
+        "examples": ["The menu impresses with its quiet sophistication."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-raffinatezza",
+        "text": "la raffinatezza",
+        "lemma": "raffinatezza",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ricercatezza intelligente e curata nella forma o nell'esecuzione.",
+        "examples": ["Il menù colpisce per la sua discreta raffinatezza."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adv_schlechthin",
+    "concept_id": "concept-c2-schlechthin",
+    "pos": "adv",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Communication"],
+    "notes": "Prototypicality family, adverb next to concept-c2-inbegriff. This branch models schlechthin as marking something as the purest instance of its kind.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-schlechthin",
+        "text": "schlechthin",
+        "lemma": "schlechthin",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Nachgestellt: kennzeichnet etwas als das reinste Beispiel seiner Art.",
+        "usage_note": "Steht nach dem Substantiv: das Beispiel einer Kategorie in Reinform.",
+        "examples": ["Für viele Fans ist dieses Stadion der Fußballtempel in Reinform."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_par_excellence_adv",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-par-excellence",
+        "text": "par excellence",
+        "lemma": "par excellence",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Placed after a noun: marks something as the purest example of its kind.",
+        "examples": ["For many fans, this stadium is the football temple par excellence."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-per-antonomasia",
+        "text": "per antonomasia",
+        "lemma": "per antonomasia",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Posposto al nome: indica qualcosa come l'esempio più puro della sua categoria.",
+        "examples": ["Per molti tifosi questo stadio è il tempio del calcio per antonomasia."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adv_gewissermassen",
+    "concept_id": "concept-c2-gewissermassen",
+    "pos": "adv",
+    "level_auto": "C2",
+    "domain_tags": ["Communication"],
+    "notes": "Hedging family, next to the B1 modal particles. This branch models gewissermassen as softening a bold or figurative formulation.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-gewissermassen",
+        "text": "gewissermaßen",
+        "lemma": "gewissermaßen",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Signalisiert, dass eine Formulierung bildlich oder nicht ganz wörtlich gemeint ist.",
+        "examples": ["Das Archiv ist, wenn man so will, das Gedächtnis der Stadt."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_hedging_adv",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-so-to-speak",
+        "text": "so to speak",
+        "lemma": "so to speak",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Signals that a formulation is figurative or not entirely literal.",
+        "examples": ["The archive is, so to speak, the memory of the city."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-per-cosi-dire",
+        "text": "per così dire",
+        "lemma": "per così dire",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Segnala che una formulazione è figurata o non del tutto letterale.",
+        "examples": ["L'archivio è, per così dire, la memoria della città."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adv_schlichtweg",
+    "concept_id": "concept-c2-schlichtweg",
+    "pos": "adv",
+    "level_auto": "C2",
+    "domain_tags": ["Communication"],
+    "notes": "Intensifier family. This branch models schlichtweg as bluntly intensifying a judgment with no qualification.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-schlichtweg",
+        "text": "schlichtweg",
+        "lemma": "schlichtweg",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Verstärkt ein Urteil ohne Einschränkung, oft bei klarer Ablehnung oder klarem Lob.",
+        "examples": ["Der Vorschlag ist ohne Wenn und Aber falsch."],
+        "antonym_policy": {
+          "status": "intentionally_none",
+          "reason": "no_single_robust_opposite_for_blunt_intensifier_adv",
+          "reviewed_at": "2026-07-08"
+        }
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-downright",
+        "text": "downright",
+        "lemma": "downright",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Bluntly intensifies a judgment with no qualification.",
+        "examples": ["The proposal is downright wrong."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-decisamente",
+        "text": "decisamente",
+        "lemma": "decisamente",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Intensifica un giudizio senza riserve.",
+        "examples": ["La proposta è decisamente sbagliata."]
+      }
+    }
+  }
+]

@@ -1,0 +1,782 @@
+[
+  {
+    "source_key": "c1_chunk_in_kauf_nehmen",
+    "concept_id": "concept-c1-in-kauf-nehmen",
+    "pos": "chunk",
+    "level_auto": "C1",
+    "domain_tags": ["Abstract", "Work"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-in-kauf-nehmen",
+        "text": "etwas in Kauf nehmen",
+        "lemma": "etwas in Kauf nehmen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Einen Nachteil bewusst akzeptieren, weil das Ziel ihn wert ist.",
+        "examples": ["Für die bessere Stelle akzeptiert er den langen Arbeitsweg."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-put-up-with",
+        "text": "to put up with something",
+        "lemma": "put up with",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To knowingly accept a drawback because the goal is worth it.",
+        "examples": ["He puts up with the long commute for the better job."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-mettere-in-conto",
+        "text": "mettere in conto",
+        "lemma": "mettere in conto",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Accettare consapevolmente uno svantaggio perché l'obiettivo lo vale.",
+        "examples": ["Ha messo in conto il lungo tragitto per il posto migliore."]
+      }
+    }
+  },
+  {
+    "source_key": "c1_chunk_nagel_auf_den_kopf",
+    "concept_id": "concept-c1-nagel-auf-den-kopf",
+    "pos": "chunk",
+    "level_auto": "C1",
+    "domain_tags": ["Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-nagel-auf-den-kopf",
+        "text": "den Nagel auf den Kopf treffen",
+        "lemma": "den Nagel auf den Kopf treffen",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Mit einer Aussage genau das Wesentliche einer Sache erfassen.",
+        "examples": ["Ihre kurze Bemerkung beschreibt das Problem haargenau."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-hit-the-nail",
+        "text": "to hit the nail on the head",
+        "lemma": "hit the nail on the head",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To capture the essence of something exactly with a remark.",
+        "examples": ["Her short remark hit the nail on the head."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-colpire-nel-segno",
+        "text": "colpire nel segno",
+        "lemma": "colpire nel segno",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Cogliere esattamente l'essenza di qualcosa con un'osservazione.",
+        "examples": ["La sua breve osservazione ha colpito nel segno."]
+      }
+    }
+  },
+  {
+    "source_key": "c1_chunk_sich_ins_zeug_legen",
+    "concept_id": "concept-c1-sich-ins-zeug-legen",
+    "pos": "chunk",
+    "level_auto": "C1",
+    "domain_tags": ["Work", "Action"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-sich-ins-zeug-legen",
+        "text": "sich ins Zeug legen",
+        "lemma": "sich ins Zeug legen",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Sich mit voller Kraft für etwas anstrengen.",
+        "examples": ["Vor der Eröffnung arbeitet das ganze Team bis spät in die Nacht."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-pull-out-all-stops",
+        "text": "to pull out all the stops",
+        "lemma": "pull out all the stops",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To make an all-out effort for something.",
+        "examples": ["The whole team pulled out all the stops before the opening."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-mettercela-tutta",
+        "text": "mettercela tutta",
+        "lemma": "mettercela tutta",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Impegnarsi con tutte le proprie forze per qualcosa.",
+        "examples": ["Tutta la squadra ce l'ha messa tutta prima dell'inaugurazione."]
+      }
+    }
+  },
+  {
+    "source_key": "c1_chunk_zwischen_den_zeilen",
+    "concept_id": "concept-c1-zwischen-den-zeilen",
+    "pos": "chunk",
+    "level_auto": "C1",
+    "domain_tags": ["Communication", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-zwischen-den-zeilen",
+        "text": "zwischen den Zeilen lesen",
+        "lemma": "zwischen den Zeilen lesen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Das Ungesagte hinter den Worten erkennen.",
+        "examples": ["Aus dem höflichen Brief hört sie die versteckte Kritik heraus."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-read-between-lines",
+        "text": "to read between the lines",
+        "lemma": "read between the lines",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To recognize what is left unsaid behind the words.",
+        "examples": ["Reading between the lines, she senses hidden criticism in the polite letter."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-leggere-tra-le-righe",
+        "text": "leggere tra le righe",
+        "lemma": "leggere tra le righe",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Riconoscere ciò che non viene detto dietro le parole.",
+        "examples": ["Leggendo tra le righe, coglie la critica nascosta nella lettera cortese."]
+      }
+    }
+  },
+  {
+    "source_key": "c1_chunk_lange_bank",
+    "concept_id": "concept-c1-lange-bank",
+    "pos": "chunk",
+    "level_auto": "C1",
+    "domain_tags": ["Work", "Daily"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-lange-bank",
+        "text": "etwas auf die lange Bank schieben",
+        "lemma": "etwas auf die lange Bank schieben",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Eine Aufgabe immer wieder unnötig verzögern.",
+        "examples": ["Den Zahnarzttermin verzögert er schon seit Monaten."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-put-off",
+        "text": "to put something off",
+        "lemma": "put off",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To keep delaying a task unnecessarily.",
+        "examples": ["He has been putting off the dentist appointment for months."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-calende-greche",
+        "text": "rimandare alle calende greche",
+        "lemma": "rimandare alle calende greche",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Continuare a rinviare un compito senza necessità.",
+        "examples": ["Rimanda l'appuntamento dal dentista alle calende greche."]
+      }
+    }
+  },
+  {
+    "source_key": "c1_chunk_den_rahmen_sprengen",
+    "concept_id": "concept-c1-den-rahmen-sprengen",
+    "pos": "chunk",
+    "level_auto": "C1",
+    "domain_tags": ["Communication", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-den-rahmen-sprengen",
+        "text": "den Rahmen sprengen",
+        "lemma": "den Rahmen sprengen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Über das hinausgehen, was in einem Kontext vorgesehen oder angemessen ist.",
+        "examples": ["Eine vollständige Antwort würde hier zu weit gehen."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-beyond-the-scope",
+        "text": "to go beyond the scope",
+        "lemma": "go beyond the scope",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To exceed what a context allows or intends.",
+        "examples": ["A complete answer would go beyond the scope of this talk."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-esulare-dall-ambito",
+        "text": "esulare dall'ambito",
+        "lemma": "esulare dall'ambito",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Andare oltre ciò che un contesto prevede o consente.",
+        "examples": ["Una risposta completa esulerebbe dall'ambito di questo intervento."]
+      }
+    }
+  },
+  {
+    "source_key": "c1_chunk_hand_in_hand",
+    "concept_id": "concept-c1-hand-in-hand",
+    "pos": "chunk",
+    "level_auto": "C1",
+    "domain_tags": ["Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-hand-in-hand",
+        "text": "Hand in Hand gehen",
+        "lemma": "Hand in Hand gehen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Sich gegenseitig ergänzen und gemeinsam auftreten.",
+        "examples": ["Wirtschaftliches Wachstum und Umweltschutz können sich gegenseitig verstärken."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-hand-in-hand",
+        "text": "to go hand in hand",
+        "lemma": "go hand in hand",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To complement each other and occur together.",
+        "examples": ["Economic growth and environmental protection can go hand in hand."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-di-pari-passo",
+        "text": "andare di pari passo",
+        "lemma": "andare di pari passo",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Completarsi a vicenda e procedere insieme.",
+        "examples": ["Crescita economica e tutela dell'ambiente possono andare di pari passo."]
+      }
+    }
+  },
+  {
+    "source_key": "c1_chunk_ins_detail_gehen",
+    "concept_id": "concept-c1-ins-detail-gehen",
+    "pos": "chunk",
+    "level_auto": "C1",
+    "domain_tags": ["Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-ins-detail-gehen",
+        "text": "ins Detail gehen",
+        "lemma": "ins Detail gehen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Eine Sache mit allen Einzelheiten besprechen.",
+        "examples": ["Für die Feinheiten des Vertrags bleibt heute keine Zeit."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-go-into-detail",
+        "text": "to go into detail",
+        "lemma": "go into detail",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To discuss a matter with all its particulars.",
+        "examples": ["There is no time today to go into detail about the contract."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-entrare-nei-dettagli",
+        "text": "entrare nei dettagli",
+        "lemma": "entrare nei dettagli",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Discutere una questione con tutti i suoi particolari.",
+        "examples": ["Oggi non c'è tempo per entrare nei dettagli del contratto."]
+      }
+    }
+  },
+  {
+    "source_key": "c1_chunk_wert_legen",
+    "concept_id": "concept-c1-wert-legen",
+    "pos": "chunk",
+    "level_auto": "C1",
+    "domain_tags": ["Abstract", "Characteristics"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-wert-legen",
+        "text": "auf etwas Wert legen",
+        "lemma": "auf etwas Wert legen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Etwas für besonders wichtig halten und entsprechend handeln.",
+        "examples": ["Pünktlichkeit ist ihr bei allen Terminen besonders wichtig."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-set-store-by",
+        "text": "to set store by something",
+        "lemma": "set store by",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To consider something especially important and act accordingly.",
+        "examples": ["She sets great store by punctuality."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-dare-importanza",
+        "text": "dare importanza a qualcosa",
+        "lemma": "dare importanza a qualcosa",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Considerare qualcosa particolarmente importante e agire di conseguenza.",
+        "examples": ["Dà grande importanza alla puntualità."]
+      }
+    }
+  },
+  {
+    "source_key": "c1_chunk_ins_leben_rufen",
+    "concept_id": "concept-c1-ins-leben-rufen",
+    "pos": "chunk",
+    "level_auto": "C1",
+    "domain_tags": ["Work", "Action"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c1-ins-leben-rufen",
+        "text": "etwas ins Leben rufen",
+        "lemma": "etwas ins Leben rufen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Eine Einrichtung oder Initiative neu gründen.",
+        "examples": ["Vor zehn Jahren gründete sie die Stiftung für junge Musiker."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c1-bring-into-being",
+        "text": "to bring something into being",
+        "lemma": "bring into being",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To newly found an institution or initiative.",
+        "examples": ["Ten years ago she brought the foundation for young musicians into being."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c1-dare-vita",
+        "text": "dare vita a qualcosa",
+        "lemma": "dare vita a qualcosa",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Fondare ex novo un'istituzione o un'iniziativa.",
+        "examples": ["Dieci anni fa ha dato vita alla fondazione per giovani musicisti."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_chunk_auf_den_zahn_fuehlen",
+    "concept_id": "concept-c2-auf-den-zahn-fuehlen",
+    "pos": "chunk",
+    "level_auto": "C2",
+    "domain_tags": ["Communication", "Social"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-auf-den-zahn-fuehlen",
+        "text": "jemandem auf den Zahn fühlen",
+        "lemma": "jemandem auf den Zahn fühlen",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Jemanden gründlich ausfragen, um seine wahren Absichten oder Kenntnisse zu prüfen.",
+        "examples": ["Im zweiten Gespräch prüft die Chefin sehr genau, was der Bewerber wirklich kann."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-grill-someone",
+        "text": "to grill someone",
+        "lemma": "grill someone",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To question someone thoroughly to test their true intentions or knowledge.",
+        "examples": ["In the second interview, the boss grilled the candidate on his real skills."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-sotto-torchio",
+        "text": "mettere qualcuno sotto torchio",
+        "lemma": "mettere qualcuno sotto torchio",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Interrogare a fondo qualcuno per verificarne le vere intenzioni o conoscenze.",
+        "examples": ["Nel secondo colloquio la direttrice ha messo il candidato sotto torchio."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_chunk_heisser_brei",
+    "concept_id": "concept-c2-heisser-brei",
+    "pos": "chunk",
+    "level_auto": "C2",
+    "domain_tags": ["Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-heisser-brei",
+        "text": "um den heißen Brei herumreden",
+        "lemma": "um den heißen Brei herumreden",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Das eigentliche Thema absichtlich nicht direkt ansprechen.",
+        "examples": ["Statt die Kündigung zu erwähnen, spricht er zehn Minuten über das Wetter."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-beat-around-bush",
+        "text": "to beat around the bush",
+        "lemma": "beat around the bush",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To deliberately avoid addressing the real topic directly.",
+        "examples": ["Instead of mentioning the dismissal, he beat around the bush for ten minutes."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-menare-il-can",
+        "text": "menare il can per l'aia",
+        "lemma": "menare il can per l'aia",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Evitare di proposito di affrontare direttamente il vero argomento.",
+        "examples": ["Invece di parlare del licenziamento, ha menato il can per l'aia per dieci minuti."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_chunk_kind_beim_namen",
+    "concept_id": "concept-c2-kind-beim-namen",
+    "pos": "chunk",
+    "level_auto": "C2",
+    "domain_tags": ["Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-kind-beim-namen",
+        "text": "das Kind beim Namen nennen",
+        "lemma": "das Kind beim Namen nennen",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ein unangenehmes Thema offen und direkt aussprechen.",
+        "examples": ["Sie sagt in der Sitzung offen, dass das Projekt gescheitert ist."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-call-a-spade",
+        "text": "to call a spade a spade",
+        "lemma": "call a spade a spade",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To state an uncomfortable matter openly and directly.",
+        "examples": ["In the meeting she called a spade a spade: the project had failed."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-pane-al-pane",
+        "text": "dire pane al pane",
+        "lemma": "dire pane al pane",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Dire apertamente e direttamente una cosa scomoda.",
+        "examples": ["In riunione ha detto pane al pane: il progetto era fallito."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_chunk_zweierlei_mass",
+    "concept_id": "concept-c2-zweierlei-mass",
+    "pos": "chunk",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Social"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-zweierlei-mass",
+        "text": "mit zweierlei Maß messen",
+        "lemma": "mit zweierlei Maß messen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Vergleichbare Fälle ungerecht nach unterschiedlichen Regeln beurteilen.",
+        "examples": ["Bei gleichen Fehlern bestraft er nur die neuen Mitarbeiter."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-double-standards",
+        "text": "to apply double standards",
+        "lemma": "apply double standards",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To judge comparable cases unfairly by different rules.",
+        "examples": ["He applies double standards: for the same mistakes, only new employees get punished."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-due-pesi-due-misure",
+        "text": "usare due pesi e due misure",
+        "lemma": "usare due pesi e due misure",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Giudicare casi paragonabili in modo ingiusto con regole diverse.",
+        "examples": ["Usa due pesi e due misure: per gli stessi errori punisce solo i nuovi assunti."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_chunk_spreu_vom_weizen",
+    "concept_id": "concept-c2-spreu-vom-weizen",
+    "pos": "chunk",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Work"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-spreu-vom-weizen",
+        "text": "die Spreu vom Weizen trennen",
+        "lemma": "die Spreu vom Weizen trennen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Das Wertvolle vom Wertlosen unterscheiden.",
+        "examples": ["Die schwere Prüfung zeigt schnell, wer wirklich vorbereitet ist."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-wheat-from-chaff",
+        "text": "to separate the wheat from the chaff",
+        "lemma": "separate the wheat from the chaff",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To distinguish the valuable from the worthless.",
+        "examples": ["The tough exam quickly separates the wheat from the chaff."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-grano-dal-loglio",
+        "text": "separare il grano dal loglio",
+        "lemma": "separare il grano dal loglio",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Distinguere ciò che ha valore da ciò che non ne ha.",
+        "examples": ["L'esame difficile separa in fretta il grano dal loglio."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_chunk_aus_dem_fenster_lehnen",
+    "concept_id": "concept-c2-aus-dem-fenster-lehnen",
+    "pos": "chunk",
+    "level_auto": "C2",
+    "domain_tags": ["Communication", "Social"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-aus-dem-fenster-lehnen",
+        "text": "sich aus dem Fenster lehnen",
+        "lemma": "sich aus dem Fenster lehnen",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Eine gewagte Aussage machen und damit ein persönliches Risiko eingehen.",
+        "examples": ["Mit ihrer frühen Prognose geht die Analystin ein großes Risiko ein."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-stick-neck-out",
+        "text": "to stick one's neck out",
+        "lemma": "stick one's neck out",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To make a bold statement and take a personal risk with it.",
+        "examples": ["The analyst stuck her neck out with such an early forecast."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-sbilanciarsi",
+        "text": "sbilanciarsi",
+        "lemma": "sbilanciarsi",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Fare un'affermazione azzardata assumendosene il rischio personale.",
+        "examples": ["L'analista si è sbilanciata con una previsione così anticipata."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_chunk_auf_granit_beissen",
+    "concept_id": "concept-c2-auf-granit-beissen",
+    "pos": "chunk",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Social"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-auf-granit-beissen",
+        "text": "auf Granit beißen",
+        "lemma": "auf Granit beißen",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Mit einem Anliegen auf völlig unnachgiebigen Widerstand stoßen.",
+        "examples": ["Mit seiner Bitte um mehr Budget kommt er bei der Verwaltung nicht weiter."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-brick-wall",
+        "text": "to hit a brick wall",
+        "lemma": "hit a brick wall",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To meet completely unyielding resistance with a request.",
+        "examples": ["His request for more budget hit a brick wall with the administration."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-sbattere-contro-un-muro",
+        "text": "sbattere contro un muro",
+        "lemma": "sbattere contro un muro",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Incontrare una resistenza del tutto inflessibile con una richiesta.",
+        "examples": ["La sua richiesta di più budget ha sbattuto contro un muro in amministrazione."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_chunk_im_sande_verlaufen",
+    "concept_id": "concept-c2-im-sande-verlaufen",
+    "pos": "chunk",
+    "level_auto": "C2",
+    "domain_tags": ["Abstract", "Work"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-im-sande-verlaufen",
+        "text": "im Sande verlaufen",
+        "lemma": "im Sande verlaufen",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ohne Ergebnis allmählich enden und vergessen werden.",
+        "examples": ["Die groß angekündigte Reform endet nach einem Jahr ohne jedes Ergebnis."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-fizzle-out",
+        "text": "to fizzle out",
+        "lemma": "fizzle out",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To gradually end without result and be forgotten.",
+        "examples": ["The much-announced reform fizzled out after a year."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-nulla-di-fatto",
+        "text": "finire in un nulla di fatto",
+        "lemma": "finire in un nulla di fatto",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Concludersi gradualmente senza risultato ed essere dimenticato.",
+        "examples": ["La riforma tanto annunciata è finita in un nulla di fatto dopo un anno."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_chunk_bogen_ueberspannen",
+    "concept_id": "concept-c2-bogen-ueberspannen",
+    "pos": "chunk",
+    "level_auto": "C2",
+    "domain_tags": ["Social", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-bogen-ueberspannen",
+        "text": "den Bogen überspannen",
+        "lemma": "den Bogen überspannen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Durch zu hohe Forderungen das bisher Erreichte gefährden.",
+        "examples": ["Mit der dritten Nachforderung bringt er den ganzen Vertrag in Gefahr."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-overplay-hand",
+        "text": "to overplay one's hand",
+        "lemma": "overplay one's hand",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To endanger what has been achieved by demanding too much.",
+        "examples": ["With his third extra demand he overplayed his hand and risked the deal."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-tirare-la-corda",
+        "text": "tirare troppo la corda",
+        "lemma": "tirare troppo la corda",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Mettere a rischio quanto ottenuto chiedendo troppo.",
+        "examples": ["Con la terza richiesta extra ha tirato troppo la corda e messo a rischio l'accordo."]
+      }
+    }
+  },
+  {
+    "source_key": "c2_chunk_wind_aus_den_segeln",
+    "concept_id": "concept-c2-wind-aus-den-segeln",
+    "pos": "chunk",
+    "level_auto": "C2",
+    "domain_tags": ["Communication", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-c2-wind-aus-den-segeln",
+        "text": "jemandem den Wind aus den Segeln nehmen",
+        "lemma": "jemandem den Wind aus den Segeln nehmen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Die stärksten Argumente eines Gegners vorwegnehmen und so entwerten.",
+        "examples": ["Indem sie die Schwächen selbst anspricht, lässt sie der Kritik keinen Raum."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-c2-wind-out-of-sails",
+        "text": "to take the wind out of someone's sails",
+        "lemma": "take the wind out of someone's sails",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To pre-empt an opponent's strongest arguments and so defuse them.",
+        "examples": ["By naming the weaknesses herself, she took the wind out of the critics' sails."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-c2-spiazzare",
+        "text": "spiazzare qualcuno",
+        "lemma": "spiazzare qualcuno",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Anticipare gli argomenti più forti di un avversario, togliendo loro efficacia.",
+        "examples": ["Nominando lei stessa i punti deboli, ha spiazzato i critici."]
+      }
+    }
+  }
+]

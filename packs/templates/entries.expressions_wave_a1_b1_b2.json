@@ -1,0 +1,782 @@
+[
+  {
+    "source_key": "a1_chunk_wie_gehts",
+    "concept_id": "concept-a1-wie-gehts",
+    "pos": "chunk",
+    "level_auto": "A1",
+    "domain_tags": ["Social", "Daily"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-wie-gehts",
+        "text": "Wie geht's?",
+        "lemma": "Wie geht's?",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Übliche Frage nach dem Befinden einer Person bei der Begrüßung.",
+        "examples": ["Beim Treffen fragt sie zuerst freundlich nach seinem Befinden."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a1-how-are-you",
+        "text": "How are you?",
+        "lemma": "How are you?",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "The usual greeting question about how someone is doing.",
+        "examples": ["She greets him with a friendly question about how he is doing."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a1-come-va",
+        "text": "Come va?",
+        "lemma": "Come va?",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "La domanda abituale sul benessere di una persona quando ci si saluta.",
+        "examples": ["Lo saluta chiedendogli gentilmente come sta."]
+      }
+    }
+  },
+  {
+    "source_key": "a1_chunk_bis_bald",
+    "concept_id": "concept-a1-bis-bald",
+    "pos": "chunk",
+    "level_auto": "A1",
+    "domain_tags": ["Social"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-bis-bald",
+        "text": "Bis bald!",
+        "lemma": "Bis bald!",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Freundlicher Abschiedsgruß, wenn man sich in naher Zukunft wiedersieht.",
+        "examples": ["Zum Abschied winkt er und verspricht ein baldiges Wiedersehen."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a1-see-you-soon",
+        "text": "See you soon!",
+        "lemma": "See you soon!",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "A friendly farewell used when you will meet again in the near future.",
+        "examples": ["He waves goodbye and promises to meet again shortly."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a1-a-presto",
+        "text": "A presto!",
+        "lemma": "A presto!",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Un saluto amichevole usato quando ci si rivedrà nel prossimo futuro.",
+        "examples": ["Saluta con la mano e promette di rivedersi tra poco."]
+      }
+    }
+  },
+  {
+    "source_key": "a1_chunk_keine_ahnung",
+    "concept_id": "concept-a1-keine-ahnung",
+    "pos": "chunk",
+    "level_auto": "A1",
+    "domain_tags": ["Social", "Daily"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-keine-ahnung",
+        "text": "keine Ahnung",
+        "lemma": "keine Ahnung",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Umgangssprachliche Antwort, wenn man etwas überhaupt nicht weiß.",
+        "examples": ["Auf die Frage nach dem Weg zuckt er nur mit den Schultern."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a1-no-idea",
+        "text": "no idea",
+        "lemma": "no idea",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "A casual answer when you do not know something at all.",
+        "examples": ["Asked for directions, he just shrugs."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a1-non-ne-ho-idea",
+        "text": "non ne ho idea",
+        "lemma": "non ne ho idea",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Una risposta informale quando non si sa affatto qualcosa.",
+        "examples": ["Alla domanda sulla strada, si limita ad alzare le spalle."]
+      }
+    }
+  },
+  {
+    "source_key": "a1_chunk_es_tut_mir_leid",
+    "concept_id": "concept-a1-es-tut-mir-leid",
+    "pos": "chunk",
+    "level_auto": "A1",
+    "domain_tags": ["Social"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-es-tut-mir-leid",
+        "text": "Es tut mir leid",
+        "lemma": "Es tut mir leid",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Feste Wendung, um sich zu entschuldigen oder Bedauern auszudrücken.",
+        "examples": ["Nach dem Missgeschick entschuldigt sie sich sofort bei ihm."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a1-im-sorry",
+        "text": "I'm sorry",
+        "lemma": "I'm sorry",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "The fixed phrase for apologizing or expressing regret.",
+        "examples": ["After the mishap, she apologizes to him right away."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a1-mi-dispiace",
+        "text": "mi dispiace",
+        "lemma": "mi dispiace",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "L'espressione fissa per scusarsi o esprimere rammarico.",
+        "examples": ["Dopo l'incidente, si scusa subito con lui."]
+      }
+    }
+  },
+  {
+    "source_key": "a1_chunk_herzlichen_glueckwunsch",
+    "concept_id": "concept-a1-herzlichen-glueckwunsch",
+    "pos": "chunk",
+    "level_auto": "A1",
+    "domain_tags": ["Social"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-herzlichen-glueckwunsch",
+        "text": "Herzlichen Glückwunsch!",
+        "lemma": "Herzlichen Glückwunsch!",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Feste Formel, um jemandem zu einem Erfolg oder Festtag zu gratulieren.",
+        "examples": ["Zum bestandenen Examen gratulieren ihr alle Kollegen."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a1-congratulations",
+        "text": "Congratulations!",
+        "lemma": "Congratulations!",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "The fixed formula for congratulating someone on a success or special day.",
+        "examples": ["All her colleagues congratulate her on passing the exam."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a1-congratulazioni",
+        "text": "Congratulazioni!",
+        "lemma": "Congratulazioni!",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "La formula fissa per congratularsi con qualcuno per un successo o una ricorrenza.",
+        "examples": ["Tutti i colleghi si congratulano con lei per l'esame superato."]
+      }
+    }
+  },
+  {
+    "source_key": "a1_chunk_guten_appetit",
+    "concept_id": "concept-a1-guten-appetit",
+    "pos": "chunk",
+    "level_auto": "A1",
+    "domain_tags": ["Food", "Social"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-guten-appetit",
+        "text": "Guten Appetit!",
+        "lemma": "Guten Appetit!",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Feste Formel vor dem Essen, mit der man eine angenehme Mahlzeit wünscht.",
+        "examples": ["Bevor alle anfangen zu essen, wünscht die Gastgeberin eine gute Mahlzeit."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a1-enjoy-your-meal",
+        "text": "Enjoy your meal!",
+        "lemma": "Enjoy your meal!",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "The fixed formula before eating, wishing a pleasant meal.",
+        "examples": ["Before everyone starts eating, the host wishes them a pleasant meal."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a1-buon-appetito",
+        "text": "Buon appetito!",
+        "lemma": "Buon appetito!",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "La formula fissa prima di mangiare, con cui si augura un buon pasto.",
+        "examples": ["Prima che tutti inizino a mangiare, la padrona di casa augura un buon pasto."]
+      }
+    }
+  },
+  {
+    "source_key": "a1_chunk_alles_klar",
+    "concept_id": "concept-a1-alles-klar",
+    "pos": "chunk",
+    "level_auto": "A1",
+    "domain_tags": ["Social", "Daily"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-a1-alles-klar",
+        "text": "alles klar",
+        "lemma": "alles klar",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Umgangssprachliche Bestätigung, dass man verstanden hat oder einverstanden ist.",
+        "examples": ["Er nickt kurz, um zu zeigen, dass er verstanden hat."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-a1-all-right-understood",
+        "text": "all right (understood)",
+        "lemma": "all right",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "A casual confirmation that you have understood or agree.",
+        "examples": ["He nods briefly to show he has understood."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-a1-tutto-chiaro",
+        "text": "tutto chiaro",
+        "lemma": "tutto chiaro",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Una conferma informale di aver capito o di essere d'accordo.",
+        "examples": ["Annuisce brevemente per mostrare di aver capito."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_chunk_auf_eigene_faust",
+    "concept_id": "concept-b1-auf-eigene-faust",
+    "pos": "chunk",
+    "level_auto": "B1",
+    "domain_tags": ["Daily", "Travel"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-auf-eigene-faust",
+        "text": "auf eigene Faust",
+        "lemma": "auf eigene Faust",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ohne fremde Hilfe oder Erlaubnis, in eigener Verantwortung.",
+        "examples": ["Statt mit der Gruppe erkundet sie die Stadt ganz allein."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-own-initiative",
+        "text": "on one's own initiative",
+        "lemma": "on one's own initiative",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Without outside help or permission, on one's own responsibility.",
+        "examples": ["Instead of joining the group, she explores the city on her own initiative."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-di-propria-iniziativa",
+        "text": "di propria iniziativa",
+        "lemma": "di propria iniziativa",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Senza aiuto o permesso altrui, sotto la propria responsabilità.",
+        "examples": ["Invece di seguire il gruppo, esplora la città di propria iniziativa."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_chunk_ab_und_zu",
+    "concept_id": "concept-b1-ab-und-zu",
+    "pos": "chunk",
+    "level_auto": "B1",
+    "domain_tags": ["Daily"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-ab-und-zu",
+        "text": "ab und zu",
+        "lemma": "ab und zu",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In unregelmäßigen, größeren Abständen; nicht oft.",
+        "examples": ["Sie besucht ihre alte Nachbarin nur noch selten, aber regelmäßig."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-now-and-then",
+        "text": "now and then",
+        "lemma": "now and then",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "At irregular, longer intervals; not often.",
+        "examples": ["She still visits her old neighbour now and then."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-ogni-tanto",
+        "text": "ogni tanto",
+        "lemma": "ogni tanto",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "A intervalli irregolari e distanziati; non spesso.",
+        "examples": ["Ogni tanto fa ancora visita alla sua vecchia vicina."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_chunk_auf_anhieb",
+    "concept_id": "concept-b1-auf-anhieb",
+    "pos": "chunk",
+    "level_auto": "B1",
+    "domain_tags": ["Daily", "Work"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-auf-anhieb",
+        "text": "auf Anhieb",
+        "lemma": "auf Anhieb",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Gleich beim ersten Versuch, ohne Wiederholung.",
+        "examples": ["Sie besteht die praktische Prüfung schon beim ersten Versuch."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-at-the-first-attempt",
+        "text": "at the first attempt",
+        "lemma": "at the first attempt",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Right at the first try, without repetition.",
+        "examples": ["She passed the practical exam at the first attempt."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-al-primo-colpo",
+        "text": "al primo colpo",
+        "lemma": "al primo colpo",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Subito al primo tentativo, senza ripetizioni.",
+        "examples": ["Ha superato l'esame pratico al primo colpo."]
+      }
+    }
+  },
+  {
+    "source_key": "b1_chunk_im_grossen_und_ganzen",
+    "concept_id": "concept-b1-im-grossen-und-ganzen",
+    "pos": "chunk",
+    "level_auto": "B1",
+    "domain_tags": ["Communication", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b1-im-grossen-und-ganzen",
+        "text": "im Großen und Ganzen",
+        "lemma": "im Großen und Ganzen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Insgesamt betrachtet, wenn man von Einzelheiten absieht.",
+        "examples": ["Abgesehen von kleinen Fehlern ist die Arbeit insgesamt gelungen."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b1-by-and-large",
+        "text": "by and large",
+        "lemma": "by and large",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Considered as a whole, setting details aside.",
+        "examples": ["By and large, the work turned out well, apart from small mistakes."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b1-nel-complesso",
+        "text": "nel complesso",
+        "lemma": "nel complesso",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Considerato nell'insieme, tralasciando i dettagli.",
+        "examples": ["Nel complesso il lavoro è riuscito bene, a parte piccoli errori."]
+      }
+    }
+  },
+  {
+    "source_key": "b2_chunk_die_daumen_druecken",
+    "concept_id": "concept-b2-die-daumen-druecken",
+    "pos": "chunk",
+    "level_auto": "B2",
+    "domain_tags": ["Social", "Emotions"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-die-daumen-druecken",
+        "text": "die Daumen drücken",
+        "lemma": "die Daumen drücken",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Jemandem symbolisch Glück und Erfolg wünschen.",
+        "examples": ["Vor der Prüfung wünscht ihr die ganze Familie viel Glück."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-fingers-crossed",
+        "text": "to keep one's fingers crossed",
+        "lemma": "keep one's fingers crossed",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To symbolically wish someone luck and success.",
+        "examples": ["The whole family is keeping their fingers crossed for her exam."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-incrociare-le-dita",
+        "text": "incrociare le dita",
+        "lemma": "incrociare le dita",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Augurare simbolicamente fortuna e successo a qualcuno.",
+        "examples": ["Tutta la famiglia incrocia le dita per il suo esame."]
+      }
+    }
+  },
+  {
+    "source_key": "b2_chunk_auf_dem_laufenden_sein",
+    "concept_id": "concept-b2-auf-dem-laufenden-sein",
+    "pos": "chunk",
+    "level_auto": "B2",
+    "domain_tags": ["Work", "Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-auf-dem-laufenden-sein",
+        "text": "auf dem Laufenden sein",
+        "lemma": "auf dem Laufenden sein",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Über den aktuellen Stand einer Sache informiert sein.",
+        "examples": ["Dank des Newsletters kennt sie immer den neuesten Stand des Projekts."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-up-to-date",
+        "text": "to be up to date",
+        "lemma": "be up to date",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To be informed about the current state of something.",
+        "examples": ["Thanks to the newsletter, she is always up to date on the project."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-essere-al-corrente",
+        "text": "essere al corrente",
+        "lemma": "essere al corrente",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Essere informati sullo stato attuale di qualcosa.",
+        "examples": ["Grazie alla newsletter è sempre al corrente del progetto."]
+      }
+    }
+  },
+  {
+    "source_key": "b2_chunk_ins_gespraech_kommen",
+    "concept_id": "concept-b2-ins-gespraech-kommen",
+    "pos": "chunk",
+    "level_auto": "B2",
+    "domain_tags": ["Social", "Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-ins-gespraech-kommen",
+        "text": "ins Gespräch kommen",
+        "lemma": "ins Gespräch kommen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Mit jemandem ungeplant zu reden beginnen und einen Austausch aufbauen.",
+        "examples": ["An der Bushaltestelle beginnen die beiden Fremden zu plaudern."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-get-talking",
+        "text": "to get talking",
+        "lemma": "get talking",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To start an unplanned conversation with someone.",
+        "examples": ["The two strangers got talking at the bus stop."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-attaccare-discorso",
+        "text": "attaccare discorso",
+        "lemma": "attaccare discorso",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Iniziare una conversazione non programmata con qualcuno.",
+        "examples": ["I due sconosciuti hanno attaccato discorso alla fermata dell'autobus."]
+      }
+    }
+  },
+  {
+    "source_key": "b2_chunk_auf_den_punkt_bringen",
+    "concept_id": "concept-b2-auf-den-punkt-bringen",
+    "pos": "chunk",
+    "level_auto": "B2",
+    "domain_tags": ["Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-auf-den-punkt-bringen",
+        "text": "auf den Punkt bringen",
+        "lemma": "auf den Punkt bringen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Das Wesentliche einer Sache kurz und treffend zusammenfassen.",
+        "examples": ["In einem einzigen Satz fasst er das ganze Problem treffend zusammen."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-in-a-nutshell",
+        "text": "to put it in a nutshell",
+        "lemma": "put it in a nutshell",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To sum up the essence of something briefly and precisely.",
+        "examples": ["He put the whole problem in a nutshell with a single sentence."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-andare-dritto-al-punto",
+        "text": "andare dritto al punto",
+        "lemma": "andare dritto al punto",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Riassumere l'essenziale di qualcosa in modo breve e preciso.",
+        "examples": ["Con una sola frase è andato dritto al punto del problema."]
+      }
+    }
+  },
+  {
+    "source_key": "b2_chunk_den_ueberblick_behalten",
+    "concept_id": "concept-b2-den-ueberblick-behalten",
+    "pos": "chunk",
+    "level_auto": "B2",
+    "domain_tags": ["Work", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-den-ueberblick-behalten",
+        "text": "den Überblick behalten",
+        "lemma": "den Überblick behalten",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Trotz vieler Details weiterhin das Ganze im Blick haben.",
+        "examples": ["Auch bei zwanzig parallelen Aufgaben verliert sie nie das Ganze aus den Augen."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-keep-track",
+        "text": "to keep track",
+        "lemma": "keep track",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To keep the whole picture in view despite many details.",
+        "examples": ["Even with twenty parallel tasks, she keeps track of everything."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-quadro-d-insieme",
+        "text": "mantenere il quadro d'insieme",
+        "lemma": "mantenere il quadro d'insieme",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Continuare a vedere l'insieme nonostante i molti dettagli.",
+        "examples": ["Anche con venti attività in parallelo mantiene il quadro d'insieme."]
+      }
+    }
+  },
+  {
+    "source_key": "b2_chunk_zur_verfuegung_stehen",
+    "concept_id": "concept-b2-zur-verfuegung-stehen",
+    "pos": "chunk",
+    "level_auto": "B2",
+    "domain_tags": ["Work"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-zur-verfuegung-stehen",
+        "text": "zur Verfügung stehen",
+        "lemma": "zur Verfügung stehen",
+        "register": "formal",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Für jemanden nutzbar oder erreichbar sein.",
+        "examples": ["Der Konferenzraum kann von allen Teams gebucht werden."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-be-available",
+        "text": "to be available",
+        "lemma": "be available",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To be usable by or reachable for someone.",
+        "examples": ["The conference room is available to all teams."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-essere-a-disposizione",
+        "text": "essere a disposizione",
+        "lemma": "essere a disposizione",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Essere utilizzabile o raggiungibile per qualcuno.",
+        "examples": ["La sala conferenze è a disposizione di tutti i team."]
+      }
+    }
+  },
+  {
+    "source_key": "b2_chunk_im_gegensatz_zu",
+    "concept_id": "concept-b2-im-gegensatz-zu",
+    "pos": "chunk",
+    "level_auto": "B2",
+    "domain_tags": ["Communication", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-im-gegensatz-zu",
+        "text": "im Gegensatz zu",
+        "lemma": "im Gegensatz zu",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Leitet einen Vergleich ein, der einen Unterschied betont.",
+        "examples": ["Anders als ihr Bruder steht sie gern früh auf."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-in-contrast-to",
+        "text": "in contrast to",
+        "lemma": "in contrast to",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Introduces a comparison that highlights a difference.",
+        "examples": ["In contrast to her brother, she likes getting up early."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-a-differenza-di",
+        "text": "a differenza di",
+        "lemma": "a differenza di",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Introduce un confronto che sottolinea una differenza.",
+        "examples": ["A differenza di suo fratello, le piace alzarsi presto."]
+      }
+    }
+  },
+  {
+    "source_key": "b2_chunk_unter_vier_augen",
+    "concept_id": "concept-b2-unter-vier-augen",
+    "pos": "chunk",
+    "level_auto": "B2",
+    "domain_tags": ["Social", "Communication"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-unter-vier-augen",
+        "text": "unter vier Augen",
+        "lemma": "unter vier Augen",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Nur zu zweit, ohne weitere Zuhörer.",
+        "examples": ["Den heiklen Punkt besprechen die beiden lieber allein im Büro."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-in-private",
+        "text": "in private",
+        "lemma": "in private",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Just the two of you, with no other listeners.",
+        "examples": ["They prefer to discuss the delicate point in private."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-a-quattrocchi",
+        "text": "a quattr'occhi",
+        "lemma": "a quattr'occhi",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Solo in due, senza altri ascoltatori.",
+        "examples": ["Preferiscono discutere il punto delicato a quattr'occhi."]
+      }
+    }
+  },
+  {
+    "source_key": "b2_chunk_es_liegt_auf_der_hand",
+    "concept_id": "concept-b2-es-liegt-auf-der-hand",
+    "pos": "chunk",
+    "level_auto": "B2",
+    "domain_tags": ["Communication", "Abstract"],
+    "translations": {
+      "de": {
+        "lexeme_id": "lexeme-de-b2-es-liegt-auf-der-hand",
+        "text": "es liegt auf der Hand",
+        "lemma": "es liegt auf der Hand",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Etwas ist so offensichtlich, dass es keiner Erklärung bedarf.",
+        "examples": ["Dass der Plan scheitern musste, konnte wirklich jeder sofort sehen."]
+      },
+      "en": {
+        "lexeme_id": "lexeme-en-b2-it-is-obvious",
+        "text": "it is obvious",
+        "lemma": "it is obvious",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Something is so evident that it needs no explanation.",
+        "examples": ["It is obvious that the plan was bound to fail."]
+      },
+      "it": {
+        "lexeme_id": "lexeme-it-b2-salta-agli-occhi",
+        "text": "salta agli occhi",
+        "lemma": "salta agli occhi",
+        "register": "colloquial",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Qualcosa è così evidente da non richiedere spiegazioni.",
+        "examples": ["Salta agli occhi che il piano era destinato a fallire."]
+      }
+    }
+  }
+]

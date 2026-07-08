@@ -1,0 +1,240 @@
+[
+  {
+    "concept_id": "fef8f67b-8883-20ff-c027-67735487d38d",
+    "pos": "adv",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-finally-2", "text": "in the end", "lemma": "in the end" },
+      "it": { "lexeme_id": "lex-it-finalmente-2", "text": "infine", "lemma": "infine" }
+    }
+  },
+  {
+    "concept_id": "2e15a945-9821-6cd1-ef18-663740b7bee6",
+    "pos": "adv",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-at-least", "text": "at least (concession)", "lemma": "at least" }
+    }
+  },
+  {
+    "concept_id": "concept-b1-immerhin",
+    "pos": "adv",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-at-least-3", "text": "at least (better than nothing)", "lemma": "at least" },
+      "it": { "lexeme_id": "lex-it-almeno-3", "text": "se non altro", "lemma": "se non altro" }
+    }
+  },
+  {
+    "concept_id": "0bed6967-2ba5-ca39-d70b-646e23f07493",
+    "pos": "adv",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-still", "text": "still (even now)", "lemma": "still" },
+      "it": { "lexeme_id": "lex-it-ancora", "text": "ancora adesso", "lemma": "ancora adesso" }
+    }
+  },
+  {
+    "concept_id": "concept-b1-nach-wie-vor",
+    "pos": "chunk",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-still-3", "text": "still (as before)", "lemma": "still" },
+      "it": { "lexeme_id": "lex-it-ancora-3", "text": "tuttora", "lemma": "tuttora" }
+    }
+  },
+  {
+    "concept_id": "concept-b1-ueberwiegend",
+    "pos": "adv",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-mostly", "text": "predominantly", "lemma": "predominantly" }
+    }
+  },
+  {
+    "concept_id": "916e8799-a429-9dfd-3f4c-5553af33dbd9",
+    "pos": "adv",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-otherwise", "text": "apart from that", "lemma": "apart from that" }
+    }
+  },
+  {
+    "concept_id": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
+    "pos": "adv",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-therefore-2", "text": "because of that", "lemma": "because of that" }
+    }
+  },
+  {
+    "concept_id": "2d050086-40f9-b407-fa9e-47ffceb49ec3",
+    "pos": "adv",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-therefore", "text": "hence", "lemma": "hence" }
+    }
+  },
+  {
+    "concept_id": "concept-a1-darum",
+    "pos": "adv",
+    "translations": {
+      "en": { "lexeme_id": "lexeme-en-a1-darum", "text": "that's why", "lemma": "that's why" }
+    }
+  },
+  {
+    "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
+    "pos": "verb",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-pick-up", "text": "to pick up (collect)", "lemma": "pick up" },
+      "it": { "lexeme_id": "lex-it-andare-a-prendere", "text": "andare a prendere (ritirare)", "lemma": "andare a prendere" }
+    }
+  },
+  {
+    "concept_id": "ef8d4042-0601-42ca-3e94-d4afed72544e",
+    "pos": "verb",
+    "translations": {
+      "it": { "lexeme_id": "lex-it-andare-a-prendere-2", "text": "andare a prendere (portare qui)", "lemma": "andare a prendere" }
+    }
+  },
+  {
+    "concept_id": "23f3cd66-40a2-652f-205a-7557f2a9e950",
+    "pos": "verb",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-stop", "text": "to stop (doing something)", "lemma": "stop" }
+    }
+  },
+  {
+    "concept_id": "concept-a1-stehen-bleiben",
+    "pos": "verb",
+    "translations": {
+      "en": { "lexeme_id": "lexeme-en-a1-stehen-bleiben", "text": "to stop (come to a halt)", "lemma": "stop" }
+    }
+  },
+  {
+    "concept_id": "44775ff0-28a7-af91-e216-740eb9cc5583",
+    "pos": "adj",
+    "translations": {
+      "it": { "lexeme_id": "lex-it-caldo-2", "text": "caldo (bollente)", "lemma": "caldo" }
+    }
+  },
+  {
+    "concept_id": "concept-a1-uhrzeit",
+    "pos": "noun",
+    "translations": {
+      "it": { "lexeme_id": "lex-it-ora-4", "text": "l'orario", "lemma": "orario" }
+    }
+  },
+  {
+    "concept_id": "concept-b1-vermutlich",
+    "pos": "adv",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-probably-2", "text": "presumably", "lemma": "presumably" },
+      "it": { "lexeme_id": "lex-it-probabilmente-2", "text": "presumibilmente", "lemma": "presumibilmente" }
+    }
+  },
+  {
+    "concept_id": "concept-b2-wohl-probability",
+    "pos": "adv",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-probably-3", "text": "probably (I suppose)", "lemma": "probably" },
+      "it": { "lexeme_id": "lex-it-probabilmente-3", "text": "probabilmente (direi)", "lemma": "probabilmente" }
+    }
+  },
+  {
+    "concept_id": "concept-b1-voraussetzung",
+    "pos": "noun",
+    "translations": {
+      "it": { "lexeme_id": "lex-it-requisito", "text": "il presupposto", "lemma": "presupposto" }
+    }
+  },
+  {
+    "concept_id": "concept-b1-auswirkung",
+    "pos": "noun",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-effect", "text": "the impact", "lemma": "impact" },
+      "it": { "lexeme_id": "lex-it-effetto", "text": "l'impatto", "lemma": "impatto" }
+    }
+  },
+  {
+    "concept_id": "concept-b2-einigung",
+    "pos": "noun",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-the-agreement", "text": "the settlement", "lemma": "settlement" },
+      "it": { "lexeme_id": "lex-it-l-accordo", "text": "l'intesa", "lemma": "intesa" }
+    }
+  },
+  {
+    "concept_id": "concept-b1-bewerten",
+    "pos": "verb",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-evaluate", "text": "to evaluate", "lemma": "evaluate" }
+    }
+  },
+  {
+    "concept_id": "concept-b2-einschaetzen",
+    "pos": "verb",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-to-assess", "text": "to gauge", "lemma": "gauge" },
+      "it": { "lexeme_id": "lex-it-valutare-2", "text": "valutare (stimare)", "lemma": "valutare" }
+    }
+  },
+  {
+    "concept_id": "concept-b2-verantwortungsvoll",
+    "pos": "adj",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-responsible-2", "text": "responsible (conscientious)", "lemma": "responsible" },
+      "it": { "lexeme_id": "lex-it-responsabile-2", "text": "responsabile (coscienzioso)", "lemma": "responsabile" }
+    }
+  },
+  {
+    "concept_id": "concept-b1-zudem",
+    "pos": "adv",
+    "translations": {
+      "it": { "lexeme_id": "lex-it-inoltre-2", "text": "per di più", "lemma": "per di più" }
+    }
+  },
+  {
+    "concept_id": "concept-a2-abstand",
+    "pos": "noun",
+    "translations": {
+      "it": { "lexeme_id": "lex-it-distanza", "text": "la distanza (intervallo)", "lemma": "distanza" }
+    }
+  },
+  {
+    "concept_id": "concept-a2-reinigen",
+    "pos": "verb",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-to-clean-2", "text": "to clean (thoroughly)", "lemma": "clean" },
+      "it": { "lexeme_id": "lex-it-pulire-2", "text": "pulire (a fondo)", "lemma": "pulire" }
+    }
+  },
+  {
+    "concept_id": "concept-b2-klarstellen",
+    "pos": "verb",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-to-clarify-2", "text": "to make clear", "lemma": "make clear" },
+      "it": { "lexeme_id": "lex-it-chiarire-2", "text": "mettere in chiaro", "lemma": "mettere in chiaro" }
+    }
+  },
+  {
+    "concept_id": "concept-c1-beurteilen",
+    "pos": "verb",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-to-assess-2", "text": "to appraise", "lemma": "appraise" }
+    }
+  },
+  {
+    "concept_id": "concept-c1-einschaetzung",
+    "pos": "noun",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-assessment", "text": "the estimation", "lemma": "estimation" },
+      "it": { "lexeme_id": "lex-it-valutazione", "text": "la stima (valutazione)", "lemma": "stima" }
+    }
+  },
+  {
+    "concept_id": "concept-b2-eindrucksvoll",
+    "pos": "adj",
+    "translations": {
+      "it": { "lexeme_id": "lex-it-notevole", "text": "impressionante", "lemma": "impressionante" }
+    }
+  },
+  {
+    "concept_id": "dce273cb-1477-41c8-14f3-84226c53e233",
+    "pos": "adv",
+    "translations": {
+      "it": { "lexeme_id": "lex-it-per-lo-piu", "text": "per lo più", "lemma": "per lo più" }
+    }
+  }
+]

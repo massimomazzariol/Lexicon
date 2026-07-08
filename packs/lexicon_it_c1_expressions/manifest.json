@@ -1,0 +1,31 @@
+{
+  "pack_id": "lexicon.it.c1.expressions",
+  "pack_role": "runtime",
+  "version": "1.0.0",
+  "pack_level": "C1",
+  "kind": "expressions",
+  "levels_supported": [
+    "C1"
+  ],
+  "relation_chunk_ids": [
+    "lexicon.it.a1.expressions",
+    "lexicon.it.a2.expressions",
+    "lexicon.it.b1.expressions",
+    "lexicon.it.b2.expressions"
+  ],
+  "languages_target_supported": [
+    "it"
+  ],
+  "gloss_languages_supported": [
+    "de",
+    "en"
+  ],
+  "domains": [
+    "Daily",
+    "Work"
+  ],
+  "license_info": "CC-BY-4.0",
+  "content_file": "content.json",
+  "generated_at": "2026-07-08T12:35:27.073Z",
+  "schema_version": 2
+}

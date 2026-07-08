@@ -1,0 +1,32 @@
+{
+  "pack_id": "lexicon.de.c1.seed",
+  "pack_role": "runtime",
+  "version": "1.0.0",
+  "pack_level": "C1",
+  "kind": "vocab",
+  "levels_supported": [
+    "C1"
+  ],
+  "relation_chunk_ids": [
+    "lexicon.de.a1.seed",
+    "lexicon.de.a2.seed",
+    "lexicon.de.b1.seed",
+    "lexicon.de.b2.seed"
+  ],
+  "languages_target_supported": [
+    "de"
+  ],
+  "gloss_languages_supported": [
+    "en",
+    "it"
+  ],
+  "domains": [
+    "Daily",
+    "Social",
+    "Work"
+  ],
+  "license_info": "CC-BY-4.0",
+  "content_file": "content.json",
+  "generated_at": "2026-07-08T12:35:24.118Z",
+  "schema_version": 2
+}

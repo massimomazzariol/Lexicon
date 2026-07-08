@@ -151,7 +151,7 @@ pnpm node tools/pipeline/quality_clean_pack.mjs \
 
 ## Runtime Packs And Distribution
 
-Rebuild all 12 runtime packs from the canonical source (auto-bumps patch version when
+Rebuild all 36 runtime packs from the canonical source (auto-bumps patch version when
 content changes):
 
 ```bash

@@ -1,7 +1,7 @@
 {
   "pack_id": "lexicon.de.a2.seed",
   "pack_role": "runtime",
-  "version": "1.0.61",
+  "version": "1.0.62",
   "pack_level": "A2",
   "kind": "vocab",
   "levels_supported": [
@@ -23,8 +23,8 @@
     "Travel",
     "Work"
   ],
-  "license_info": "internal",
+  "license_info": "CC-BY-4.0",
   "content_file": "content.json",
-  "generated_at": "2026-07-02T08:07:05.004Z",
+  "generated_at": "2026-07-08T12:35:23.355Z",
   "schema_version": 2
 }

@@ -2182,14 +2182,6 @@
       "translation_text": null
     },
     {
-      "example_id": "b017e024-26dc-2765-1ba5-0d2a525f2a14",
-      "concept_id": "29a483bf-d86a-a442-f816-17ee4e248a16",
-      "lang": "de",
-      "sentence": "An der Tuere klingelt eine Person.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
       "example_id": "f84f8a4c-1623-99fd-d811-e1b860458af1",
       "concept_id": "29a483bf-d86a-a442-f816-17ee4e248a16",
       "lang": "it",
@@ -2212,294 +2204,6 @@
       "sentence": "Non preoccuparti, va benissimo così.",
       "translation_lang": null,
       "translation_text": null
-    },
-    {
-      "example_id": "example-de-fix-auf-jeden-fall",
-      "concept_id": "06afc93e-f8f6-3698-72af-3185f7367f80",
-      "lang": "de",
-      "sentence": "Wir treffen uns auf jeden Fall morgen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "medium",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-it-fix-auf-jeden-fall",
-      "concept_id": "06afc93e-f8f6-3698-72af-3185f7367f80",
-      "lang": "it",
-      "sentence": "Verrò in ogni caso, anche se piove.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-auf-jeden-fall",
-      "concept_id": "06afc93e-f8f6-3698-72af-3185f7367f80",
-      "lang": "en",
-      "sentence": "I will definitely attend the meeting.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "medium",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-de-fix-im-voraus",
-      "concept_id": "concept-a2-im-voraus",
-      "lang": "de",
-      "sentence": "Ich habe mein Ticket im Voraus gekauft.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-im-voraus",
-      "concept_id": "concept-a2-im-voraus",
-      "lang": "it",
-      "sentence": "Ho pagato la fattura in anticipo.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-im-voraus",
-      "concept_id": "concept-a2-im-voraus",
-      "lang": "en",
-      "sentence": "She paid the bill in advance to avoid late fees.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-im-moment",
-      "concept_id": "concept-a2-im-moment",
-      "lang": "de",
-      "sentence": "Ich bin im Moment sehr beschäftigt.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-im-moment",
-      "concept_id": "concept-a2-im-moment",
-      "lang": "it",
-      "sentence": "Al momento non posso aiutarti, ma ti chiamo più tardi.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-im-moment",
-      "concept_id": "concept-a2-im-moment",
-      "lang": "en",
-      "sentence": "I can't help you at the moment, but I'll call you later.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-so-schnell-wie-moglich",
-      "concept_id": "concept-a2-so-schnell-wie-moeglich",
-      "lang": "de",
-      "sentence": "Er wird das Paket so schnell wie möglich abholen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-so-schnell-wie-moglich",
-      "concept_id": "concept-a2-so-schnell-wie-moeglich",
-      "lang": "it",
-      "sentence": "Lui arriverà il più presto possibile.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-so-schnell-wie-moglich",
-      "concept_id": "concept-a2-so-schnell-wie-moeglich",
-      "lang": "en",
-      "sentence": "He will come as soon as possible.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-es-kommt-darauf-an",
-      "concept_id": "concept-a2-es-kommt-darauf-an",
-      "lang": "de",
-      "sentence": "Es kommt darauf an, wie spät es ist.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-es-kommt-darauf-an",
-      "concept_id": "concept-a2-es-kommt-darauf-an",
-      "lang": "it",
-      "sentence": "Se vado in macchina o prendo il treno dipende dal traffico.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-es-kommt-darauf-an",
-      "concept_id": "concept-a2-es-kommt-darauf-an",
-      "lang": "en",
-      "sentence": "It depends on what the customer needs.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-unter-druck",
-      "concept_id": "concept-a2-unter-druck",
-      "lang": "de",
-      "sentence": "Der Student war unter Druck, weil er vor der Prüfung stand.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-unter-druck",
-      "concept_id": "concept-a2-unter-druck",
-      "lang": "it",
-      "sentence": "Lui lavora sotto pressione per completare il progetto nel tempo stabilito.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-unter-druck",
-      "concept_id": "concept-a2-unter-druck",
-      "lang": "en",
-      "sentence": "The employee was under pressure to meet the deadline.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-im-durchschnitt",
-      "concept_id": "concept-a2-im-durchschnitt",
-      "lang": "de",
-      "sentence": "Die Schüler haben im Durchschnitt 80% erreicht.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-im-durchschnitt",
-      "concept_id": "concept-a2-im-durchschnitt",
-      "lang": "it",
-      "sentence": "I prezzi sono aumentati in media del 5%.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-im-durchschnitt",
-      "concept_id": "concept-a2-im-durchschnitt",
-      "lang": "en",
-      "sentence": "The average price of a house is $300,000.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-auf-keinen-fall",
-      "concept_id": "concept-a2-auf-keinen-fall",
-      "lang": "de",
-      "sentence": "Das wird auf keinen Fall passieren.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-auf-keinen-fall",
-      "concept_id": "concept-a2-auf-keinen-fall",
-      "lang": "it",
-      "sentence": "Non succederà in nessun caso.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-auf-keinen-fall",
-      "concept_id": "concept-a2-auf-keinen-fall",
-      "lang": "en",
-      "sentence": "That will by no means happen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-kein-problem",
-      "concept_id": "concept-a2-kein-problem",
-      "lang": "de",
-      "sentence": "Kein Problem, ich helfe dir gerne.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-kein-problem",
-      "concept_id": "concept-a2-kein-problem",
-      "lang": "en",
-      "sentence": "I can do that, no problem.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
     }
   ],
   "concept_definitions": [
@@ -2518,11 +2222,7 @@
         "nothing"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "anything": "exact",
-        "a thing": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "08116c81-5e80-e8d9-d48a-2dcfafa2dae1",
@@ -2540,12 +2240,7 @@
         "nichts"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "etwas": "loose",
-        "ein Ding": "loose",
-        "einiges": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "08116c81-5e80-e8d9-d48a-2dcfafa2dae1",
@@ -2562,10 +2257,7 @@
         "nulla"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "qualunque cosa": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "29a483bf-d86a-a442-f816-17ee4e248a16",
@@ -2582,11 +2274,7 @@
         "no one"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "somebody": "exact",
-        "a person": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "29a483bf-d86a-a442-f816-17ee4e248a16",
@@ -2605,12 +2293,7 @@
         "keiner"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "jemand": "exact",
-        "ein Mensch": "loose",
-        "eine Person": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "29a483bf-d86a-a442-f816-17ee4e248a16",
@@ -2627,10 +2310,7 @@
         "nessuno"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "un individuo": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "06afc93e-f8f6-3698-72af-3185f7367f80",
@@ -2650,12 +2330,7 @@
         "absolutely not"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "certainly": "exact",
-        "undoubtedly": "exact",
-        "without a doubt": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "06afc93e-f8f6-3698-72af-3185f7367f80",
@@ -2674,10 +2349,7 @@
         "vielleicht"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "jedenfalls": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "06afc93e-f8f6-3698-72af-3185f7367f80",
@@ -2696,11 +2368,7 @@
         "assolutamente no"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "comunque": "loose",
-        "senz'altro": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-im-voraus",
@@ -2722,11 +2390,7 @@
         "reason": "Opposite is contextual",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "vorher": "loose",
-        "früh": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-im-voraus",
@@ -2781,11 +2445,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "derzeit": "exact",
-        "aktuell": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-im-moment",
@@ -2838,10 +2498,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "gleich": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-so-schnell-wie-moeglich",
@@ -2898,11 +2555,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "hängt davon ab": "exact",
-        "je nach": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-es-kommt-darauf-an",
@@ -2957,10 +2610,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Hektik": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-unter-druck",
@@ -3010,8 +2660,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-im-durchschnitt",
@@ -3060,10 +2709,7 @@
         "selbstverständlich"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "keinesfalls": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-auf-keinen-fall",
@@ -3151,27 +2797,6 @@
       "lang": "de",
       "label": "irgend-forms",
       "type": "prefix_family"
-    },
-    {
-      "cluster_id": "a8176da2-6d81-996d-09a0-2e656714bdf3",
-      "lang": "de",
-      "label": "synonyms: derzeit +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "ac554226-03d5-1bf2-ea57-951a9b80229d",
-      "lang": "de",
-      "label": "synonyms: auf keinen Fall",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "bf5fd169-358c-a0ab-55f5-2768cff491ae",
-      "lang": "it",
-      "label": "synonyms: attualmente",
-      "type": "semantic",
-      "auto": true
     }
   ],
   "cluster_members": [
@@ -3183,21 +2808,6 @@
     {
       "cluster_id": "cc35116a-c169-da9a-7833-d4f9568c2878",
       "lexeme_id": "lex-de-irgendjemand",
-      "position": 1
-    },
-    {
-      "cluster_id": "a8176da2-6d81-996d-09a0-2e656714bdf3",
-      "lexeme_id": "lex-de-im-moment",
-      "position": 1
-    },
-    {
-      "cluster_id": "ac554226-03d5-1bf2-ea57-951a9b80229d",
-      "lexeme_id": "lex-de-auf-keinen-fall",
-      "position": 0
-    },
-    {
-      "cluster_id": "bf5fd169-358c-a0ab-55f5-2768cff491ae",
-      "lexeme_id": "lex-it-al-momento",
       "position": 1
     }
   ]

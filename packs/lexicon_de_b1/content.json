@@ -42,7 +42,8 @@
       "notes": null,
       "metadata_json": {
         "image_url": "/images/actually_adverb.jpg"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "916e8799-a429-9dfd-3f4c-5553af33dbd9",
@@ -56,7 +57,8 @@
       "notes": null,
       "metadata_json": {
         "image_url": "/images/otherwise_adverb.jpg"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "d44d4a04-9c80-66ac-6dae-10528f189ad5",
@@ -115,7 +117,8 @@
       "notes": null,
       "metadata_json": {
         "image_url": "/images/meaningful_adjective.jpg"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "e718be7a-3d76-3ce3-db35-35ba3b93eaa0",
@@ -129,7 +132,8 @@
       "notes": null,
       "metadata_json": {
         "image_url": "/images/valuable_adjective.jpg"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "25b5725b-13ce-48ce-2a99-7bb508a4de54",
@@ -171,7 +175,8 @@
         "Social"
       ],
       "notes": "Formal petition/instance (often administrative, especially CH usage).",
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "58284b76-2879-c670-ee71-409216781e51",
@@ -963,20 +968,6 @@
         "Abstract"
       ],
       "notes": "Editorial addition from German lemma expansion. Modeled around the broad unsettling or creepy sense for places, stories, sounds, or situations; not split into a separate gore-only or stronger terrifying branch. CEFR set editorially to B1 on 2026-04-17.",
-      "metadata_json": {}
-    },
-    {
-      "concept_id": "concept-a2-ueberhaupt-general",
-      "pos": "adv",
-      "difficulty_score_auto": 35,
-      "level_auto": "B1",
-      "level_override": null,
-      "domain_tags": [
-        "Daily",
-        "Communication",
-        "Abstract"
-      ],
-      "notes": "ED-05: level raised to B1 on 2026-05-25. The discourse-level broadening use ('Überhaupt trinke ich wenig Kaffee.') is not a beginner pattern. See DL-012.",
       "metadata_json": {},
       "review_status": "reviewed"
     },
@@ -1183,10 +1174,11 @@
       "level_auto": "B1",
       "level_override": null,
       "domain_tags": [
+        "Daily",
         "Communication"
       ],
       "notes": null,
-      "metadata_json": null,
+      "metadata_json": {},
       "review_status": "reviewed"
     },
     {
@@ -1312,7 +1304,7 @@
         "Daily"
       ],
       "notes": null,
-      "metadata_json": null,
+      "metadata_json": {},
       "review_status": "reviewed"
     },
     {
@@ -1396,7 +1388,8 @@
         "Communication"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b1-doch-encouragement",
@@ -1410,7 +1403,8 @@
         "Communication"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b1-mal-softening",
@@ -1424,7 +1418,8 @@
         "Communication"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b1-halt-eben-fatalism",
@@ -1438,7 +1433,8 @@
         "Communication"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-b1-ja-shared-knowledge",
@@ -1452,7 +1448,8 @@
         "Communication"
       ],
       "notes": null,
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     }
   ],
   "lexemes": [
@@ -1460,9 +1457,9 @@
       "lexeme_id": "lex-en-finally-2",
       "concept_id": "fef8f67b-8883-20ff-c027-67735487d38d",
       "lang": "en",
-      "text": "finally",
+      "text": "eventually",
       "frequency_rank": null,
-      "lemma": "finally",
+      "lemma": "eventually",
       "pos": "adv",
       "gender": "none",
       "countability": "none",
@@ -1494,9 +1491,9 @@
       "lexeme_id": "lex-it-finalmente-2",
       "concept_id": "fef8f67b-8883-20ff-c027-67735487d38d",
       "lang": "it",
-      "text": "finalmente",
+      "text": "infine",
       "frequency_rank": null,
-      "lemma": "finalmente",
+      "lemma": "infine",
       "pos": "adv",
       "gender": "none",
       "countability": "none",
@@ -1511,9 +1508,9 @@
       "lexeme_id": "lex-en-at-least",
       "concept_id": "2e15a945-9821-6cd1-ef18-663740b7bee6",
       "lang": "en",
-      "text": "at least",
+      "text": "at least (concession)",
       "frequency_rank": null,
-      "lemma": "at least",
+      "lemma": "at least (concession)",
       "pos": "adv",
       "gender": "none",
       "countability": "none",
@@ -1613,9 +1610,9 @@
       "lexeme_id": "lex-en-otherwise",
       "concept_id": "916e8799-a429-9dfd-3f4c-5553af33dbd9",
       "lang": "en",
-      "text": "otherwise",
+      "text": "apart from that",
       "frequency_rank": null,
-      "lemma": "otherwise",
+      "lemma": "apart from that",
       "pos": "adv",
       "gender": "none",
       "countability": "none",
@@ -2395,9 +2392,9 @@
       "lexeme_id": "lex-it-requisito",
       "concept_id": "concept-b1-voraussetzung",
       "lang": "it",
-      "text": "il requisito",
+      "text": "il presupposto",
       "frequency_rank": null,
-      "lemma": "requisito",
+      "lemma": "presupposto",
       "pos": "noun",
       "gender": "none",
       "countability": "count",
@@ -2599,9 +2596,9 @@
       "lexeme_id": "lex-it-effetto",
       "concept_id": "concept-b1-auswirkung",
       "lang": "it",
-      "text": "l'effetto",
+      "text": "l'impatto",
       "frequency_rank": null,
-      "lemma": "effetto",
+      "lemma": "impatto",
       "pos": "noun",
       "gender": "none",
       "countability": "count",
@@ -2616,9 +2613,9 @@
       "lexeme_id": "lex-en-effect",
       "concept_id": "concept-b1-auswirkung",
       "lang": "en",
-      "text": "the effect",
+      "text": "the impact",
       "frequency_rank": null,
-      "lemma": "effect",
+      "lemma": "impact",
       "pos": "noun",
       "gender": "none",
       "countability": "count",
@@ -2718,9 +2715,9 @@
       "lexeme_id": "lex-en-evaluate",
       "concept_id": "concept-b1-bewerten",
       "lang": "en",
-      "text": "evaluate",
+      "text": "to evaluate",
       "frequency_rank": null,
-      "lemma": "evaluate",
+      "lemma": "to evaluate",
       "pos": "verb",
       "gender": "none",
       "countability": "none",
@@ -3976,9 +3973,9 @@
       "lexeme_id": "lex-it-probabilmente-2",
       "concept_id": "concept-b1-vermutlich",
       "lang": "it",
-      "text": "probabilmente",
+      "text": "presumibilmente",
       "frequency_rank": null,
-      "lemma": "probabilmente",
+      "lemma": "presumibilmente",
       "pos": "adv",
       "gender": "none",
       "countability": "none",
@@ -3993,9 +3990,9 @@
       "lexeme_id": "lex-en-probably-2",
       "concept_id": "concept-b1-vermutlich",
       "lang": "en",
-      "text": "probably",
+      "text": "presumably",
       "frequency_rank": null,
-      "lemma": "probably",
+      "lemma": "presumably",
       "pos": "adv",
       "gender": "none",
       "countability": "none",
@@ -4350,9 +4347,9 @@
       "lexeme_id": "lex-en-mostly",
       "concept_id": "concept-b1-ueberwiegend",
       "lang": "en",
-      "text": "mostly",
+      "text": "predominantly",
       "frequency_rank": null,
-      "lemma": "mostly",
+      "lemma": "predominantly",
       "pos": "adv",
       "gender": "none",
       "countability": "none",
@@ -4868,57 +4865,6 @@
       "countability": "none",
       "register": "neutral",
       "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lex-de-uberhaupt-2",
-      "concept_id": "concept-a2-ueberhaupt-general",
-      "lang": "de",
-      "text": "überhaupt",
-      "frequency_rank": null,
-      "lemma": "überhaupt",
-      "pos": "adv",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lex-it-in-generale",
-      "concept_id": "concept-a2-ueberhaupt-general",
-      "lang": "it",
-      "text": "in generale",
-      "frequency_rank": null,
-      "lemma": "in generale",
-      "pos": "adv",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "approximate",
-      "is_primary": true,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lex-en-in-general",
-      "concept_id": "concept-a2-ueberhaupt-general",
-      "lang": "en",
-      "text": "in general",
-      "frequency_rank": null,
-      "lemma": "in general",
-      "pos": "adv",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "approximate",
       "is_primary": true,
       "status": "approved",
       "notes": null,
@@ -5676,9 +5622,9 @@
       "lexeme_id": "lex-it-inoltre-2",
       "concept_id": "concept-b1-zudem",
       "lang": "it",
-      "text": "inoltre",
+      "text": "per di più",
       "frequency_rank": null,
-      "lemma": "inoltre",
+      "lemma": "per di più",
       "pos": "adv",
       "gender": "none",
       "countability": "none",
@@ -6118,9 +6064,9 @@
       "lexeme_id": "lex-en-at-least-3",
       "concept_id": "concept-b1-immerhin",
       "lang": "en",
-      "text": "at least",
+      "text": "at least (better than nothing)",
       "frequency_rank": null,
-      "lemma": "at least",
+      "lemma": "at least (better than nothing)",
       "pos": "adv",
       "gender": "none",
       "countability": "none",
@@ -6135,9 +6081,9 @@
       "lexeme_id": "lex-it-almeno-3",
       "concept_id": "concept-b1-immerhin",
       "lang": "it",
-      "text": "almeno",
+      "text": "se non altro",
       "frequency_rank": null,
-      "lemma": "almeno",
+      "lemma": "se non altro",
       "pos": "adv",
       "gender": "none",
       "countability": "none",
@@ -8672,8 +8618,8 @@
       "form_id": "374f10ba-198f-fc1a-f99b-e9a1cbf89ba0",
       "lexeme_id": "lex-it-requisito",
       "lang": "it",
-      "surface": "il requisito",
-      "surface_search": "il requisito",
+      "surface": "il presupposto",
+      "surface_search": "il presupposto",
       "number_value": "sg",
       "grammatical_case": "none",
       "definiteness": "def",
@@ -9464,8 +9410,8 @@
       "form_id": "fec6952c-6d80-6f63-e268-e188fbff4398",
       "lexeme_id": "lex-it-effetto",
       "lang": "it",
-      "surface": "l'effetto",
-      "surface_search": "l'effetto",
+      "surface": "l'impatto",
+      "surface_search": "l'impatto",
       "number_value": "sg",
       "grammatical_case": "none",
       "definiteness": "def",
@@ -9500,8 +9446,8 @@
       "form_id": "d6c4ea56-4775-89f0-c229-5ba7916c4054",
       "lexeme_id": "lex-en-effect",
       "lang": "en",
-      "surface": "the effect",
-      "surface_search": "the effect",
+      "surface": "the impact",
+      "surface_search": "the impact",
       "number_value": "sg",
       "grammatical_case": "none",
       "definiteness": "def",
@@ -12370,60 +12316,6 @@
       "lang": "en",
       "surface": "creepy",
       "surface_search": "creepy",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "8b8cab44-fffc-44e8-8d7b-e56e2933128f",
-      "lexeme_id": "lex-de-uberhaupt-2",
-      "lang": "de",
-      "surface": "überhaupt",
-      "surface_search": "uberhaupt",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "c2e49b6e-594a-bdfb-9e02-93fd0a46024f",
-      "lexeme_id": "lex-it-in-generale",
-      "lang": "it",
-      "surface": "in generale",
-      "surface_search": "in generale",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "41efef3d-41f7-37b1-1737-a791b22e9efe",
-      "lexeme_id": "lex-en-in-general",
-      "lang": "en",
-      "surface": "in general",
-      "surface_search": "in general",
       "number_value": "none",
       "grammatical_case": "none",
       "definiteness": "none",
@@ -25701,78 +25593,6 @@
       "editor_notes": null
     },
     {
-      "study_unit_id": "f72f3f73-bee0-9345-f4f2-06f501253690",
-      "concept_id": "concept-a2-ueberhaupt-general",
-      "source_lang": "en",
-      "target_lang": "de",
-      "unit_kind": "core_prod",
-      "source_form_id": "41efef3d-41f7-37b1-1737-a791b22e9efe",
-      "primary_expected_form_id": "8b8cab44-fffc-44e8-8d7b-e56e2933128f",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
-      "study_unit_id": "e7bbc531-a4fc-07c8-509b-563f2924eb08",
-      "concept_id": "concept-a2-ueberhaupt-general",
-      "source_lang": "de",
-      "target_lang": "en",
-      "unit_kind": "core_rec",
-      "source_form_id": "8b8cab44-fffc-44e8-8d7b-e56e2933128f",
-      "primary_expected_form_id": "41efef3d-41f7-37b1-1737-a791b22e9efe",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
-      "study_unit_id": "553b0a05-b9c7-ced0-ae77-6917afc38765",
-      "concept_id": "concept-a2-ueberhaupt-general",
-      "source_lang": "it",
-      "target_lang": "de",
-      "unit_kind": "core_prod",
-      "source_form_id": "c2e49b6e-594a-bdfb-9e02-93fd0a46024f",
-      "primary_expected_form_id": "8b8cab44-fffc-44e8-8d7b-e56e2933128f",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
-      "study_unit_id": "8cf81b8f-f013-3d77-9045-01d8bd08e8b9",
-      "concept_id": "concept-a2-ueberhaupt-general",
-      "source_lang": "de",
-      "target_lang": "it",
-      "unit_kind": "core_rec",
-      "source_form_id": "8b8cab44-fffc-44e8-8d7b-e56e2933128f",
-      "primary_expected_form_id": "c2e49b6e-594a-bdfb-9e02-93fd0a46024f",
-      "extra_expected_form_ids": [],
-      "acceptable_form_ids": [],
-      "is_core": true,
-      "status": "approved",
-      "grammar_tags_json": [],
-      "prompt_style": "translate",
-      "difficulty_override": null,
-      "level_override": null,
-      "editor_notes": null
-    },
-    {
       "study_unit_id": "5abd166b-f14c-12a8-ad0f-6720f3eb1679",
       "concept_id": "concept-b1-vorschlagen",
       "source_lang": "en",
@@ -32091,14 +31911,6 @@
       "translation_text": null
     },
     {
-      "example_id": "d916caa4-b4c1-9016-4d01-bc79d79acb20",
-      "concept_id": "03e06d4d-6e66-57de-675b-848282e41d06",
-      "lang": "en",
-      "sentence": "It is raining, but we still go out.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
       "example_id": "5b8ffba7-36d0-d621-6958-200c54f89930",
       "concept_id": "2e15a945-9821-6cd1-ef18-663740b7bee6",
       "lang": "de",
@@ -32150,7 +31962,7 @@
       "example_id": "dfb7145d-dc4b-3797-694a-a2052ae0c01f",
       "concept_id": "916e8799-a429-9dfd-3f4c-5553af33dbd9",
       "lang": "de",
-      "sentence": "Beeil dich, der Zug faehrt gleich.",
+      "sentence": "Beeil dich, der Zug fährt gleich.",
       "translation_lang": null,
       "translation_text": null
     },
@@ -32614,7 +32426,7 @@
       "example_id": "5bcc90d5-1282-1f80-9a55-f3ece72f2fd8",
       "concept_id": "concept-b1-spitz-cutting",
       "lang": "de",
-      "sentence": "Seine Bemerkung im Meeting klang fuer alle unnoetig hart.",
+      "sentence": "Seine Bemerkung im Meeting klang für alle unnötig hart.",
       "translation_lang": null,
       "translation_text": null
     },
@@ -32638,7 +32450,7 @@
       "example_id": "3be9e091-1286-92ef-e1a3-0f9d62efc814",
       "concept_id": "concept-b1-gruselig",
       "lang": "de",
-      "sentence": "Im dunklen Keller hoerte man ploetzlich langsame Schritte.",
+      "sentence": "Im dunklen Keller hörte man plötzlich langsame Schritte.",
       "translation_lang": null,
       "translation_text": null
     },
@@ -32923,14 +32735,6 @@
       "notes": null
     },
     {
-      "example_id": "example-de-b1-zusammenfassung",
-      "concept_id": "concept-b1-zusammenfassung",
-      "lang": "de",
-      "sentence": "Am Ende des Berichts gibt es eine kurze Übersicht über die wichtigsten Punkte.",
-      "source": "manual",
-      "notes": null
-    },
-    {
       "example_id": "example-en-b1-zusammenfassung",
       "concept_id": "concept-b1-zusammenfassung",
       "lang": "en",
@@ -32991,14 +32795,6 @@
       "concept_id": "concept-b1-zunaechst",
       "lang": "it",
       "sentence": "Prima di tutto dobbiamo occuparci delle cose più importanti.",
-      "source": "manual",
-      "notes": null
-    },
-    {
-      "example_id": "example-de-b1-zudem",
-      "concept_id": "concept-b1-zudem",
-      "lang": "de",
-      "sentence": "Das Produkt ist gut und hat außerdem einen günstigeren Preis als die Konkurrenz.",
       "source": "manual",
       "notes": null
     },
@@ -33067,14 +32863,6 @@
       "notes": null
     },
     {
-      "example_id": "example-de-b1-schritt",
-      "concept_id": "concept-b1-schritt",
-      "lang": "de",
-      "sentence": "Jede Maßnahme in diesem Prozess muss sorgfältig geplant werden.",
-      "source": "manual",
-      "notes": null
-    },
-    {
       "example_id": "example-en-b1-schritt",
       "concept_id": "concept-b1-schritt",
       "lang": "en",
@@ -33087,14 +32875,6 @@
       "concept_id": "concept-b1-schritt",
       "lang": "it",
       "sentence": "Ogni azione in questo processo deve essere pianificata con cura.",
-      "source": "manual",
-      "notes": null
-    },
-    {
-      "example_id": "example-de-b1-abschnitt",
-      "concept_id": "concept-b1-abschnitt",
-      "lang": "de",
-      "sentence": "Bitte lesen Sie den dritten Teil des Dokuments sorgfältig.",
       "source": "manual",
       "notes": null
     },
@@ -33135,14 +32915,6 @@
       "concept_id": "concept-b1-ablauf",
       "lang": "it",
       "sentence": "La sequenza dei singoli passaggi deve essere seguita con precisione.",
-      "source": "manual",
-      "notes": null
-    },
-    {
-      "example_id": "example-de-b1-ursache",
-      "concept_id": "concept-b1-ursache",
-      "lang": "de",
-      "sentence": "Man muss zuerst den Grund für das Problem finden, bevor man es lösen kann.",
       "source": "manual",
       "notes": null
     },
@@ -33355,242 +33127,10 @@
       "notes": null
     },
     {
-      "example_id": "7940cb01-51a1-2708-59f7-e0afc0c9a96f",
-      "concept_id": "concept-b1-doch-contradiction",
-      "lang": "de",
-      "sentence": "Doch, das stimmt!",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "762a00ee-8938-a85b-0755-b80b17d4c9b0",
-      "concept_id": "concept-b1-doch-contradiction",
-      "lang": "it",
-      "sentence": "Eppure, ho ragione io.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "73d4d4d2-09bb-6ca8-be9d-247cf00e1969",
-      "concept_id": "concept-b1-doch-contradiction",
-      "lang": "en",
-      "sentence": "But that is exactly what I said.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "0732f523-ae55-62e1-efbd-8be5c54a0dd5",
-      "concept_id": "concept-b1-doch-encouragement",
-      "lang": "de",
-      "sentence": "Komm doch mit uns!",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "6f819203-77fe-fe18-455e-cafc3baffe4e",
-      "concept_id": "concept-b1-doch-encouragement",
-      "lang": "it",
-      "sentence": "Dai, vieni anche tu!",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "4c2a2e67-cf91-fe6e-886d-2c1f9322607e",
-      "concept_id": "concept-b1-doch-encouragement",
-      "lang": "en",
-      "sentence": "Just come with us!",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "f317b5d9-5824-ecd9-f793-86a5130099cc",
-      "concept_id": "concept-b1-mal-softening",
-      "lang": "de",
-      "sentence": "Kannst du mir mal helfen?",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "9c70c749-634e-0f5c-4eee-c08296136f54",
-      "concept_id": "concept-b1-mal-softening",
-      "lang": "it",
-      "sentence": "Puoi aiutarmi un attimo?",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "a998a00a-8b5c-3421-c9a6-43a31fffd9ad",
-      "concept_id": "concept-b1-mal-softening",
-      "lang": "en",
-      "sentence": "Can you just help me for a second?",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "b97285b2-69f6-35d9-cfb3-abf95c4bcc4f",
-      "concept_id": "concept-b1-halt-eben-fatalism",
-      "lang": "de",
-      "sentence": "Das ist halt so.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "9477b423-05f0-6d29-a4d2-8936ca49be88",
-      "concept_id": "concept-b1-halt-eben-fatalism",
-      "lang": "it",
-      "sentence": "È così, non si può fare niente.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "dcd200d3-a705-1116-e09b-73e94ea6be53",
-      "concept_id": "concept-b1-halt-eben-fatalism",
-      "lang": "en",
-      "sentence": "That's just how it is.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "0302a5d8-fda0-e853-b3bd-300472f1f1cd",
-      "concept_id": "concept-b1-ja-shared-knowledge",
-      "lang": "de",
-      "sentence": "Das weißt du ja.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "432899a9-5998-b430-eb79-6facbd648c0a",
-      "concept_id": "concept-b1-ja-shared-knowledge",
-      "lang": "it",
-      "sentence": "Lo sai, certo.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "72b34fa3-2d07-ed2c-5471-c2432508e526",
-      "concept_id": "concept-b1-ja-shared-knowledge",
-      "lang": "en",
-      "sentence": "You know how it works.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "example-de-fix-schliesslich",
-      "concept_id": "fef8f67b-8883-20ff-c027-67735487d38d",
-      "lang": "de",
-      "sentence": "Schließlich erreichte er das Ziel.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "medium",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-it-fix-schliesslich",
-      "concept_id": "fef8f67b-8883-20ff-c027-67735487d38d",
-      "lang": "it",
-      "sentence": "Finalmente arrivammo alla soluzione.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "medium",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
       "example_id": "example-en-fix-schliesslich",
       "concept_id": "fef8f67b-8883-20ff-c027-67735487d38d",
       "lang": "en",
       "sentence": "Finally, I achieved the desired outcome.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-inzwischen",
-      "concept_id": "d44d4a04-9c80-66ac-6dae-10528f189ad5",
-      "lang": "de",
-      "sentence": "Inzwischen hat sich die Situation verändert.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-inzwischen",
-      "concept_id": "d44d4a04-9c80-66ac-6dae-10528f189ad5",
-      "lang": "it",
-      "sentence": "Nel frattempo, i bambini hanno finito i compiti.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-inzwischen",
-      "concept_id": "d44d4a04-9c80-66ac-6dae-10528f189ad5",
-      "lang": "en",
-      "sentence": "Meanwhile, the team worked on improving the software.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-bedarf",
-      "concept_id": "8f698c56-8c4a-4fde-1a01-9050abcb2a45",
-      "lang": "de",
-      "sentence": "Die Firma hat einen hohen Bedarf an qualifizierten Mitarbeitern.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-bedarf",
-      "concept_id": "8f698c56-8c4a-4fde-1a01-9050abcb2a45",
-      "lang": "it",
-      "sentence": "L'azienda ha un grande fabbisogno di personale specializzato.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-bedarf",
-      "concept_id": "8f698c56-8c4a-4fde-1a01-9050abcb2a45",
-      "lang": "en",
-      "sentence": "The company has a high demand for skilled workers.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-wertlos",
-      "concept_id": "25b5725b-13ce-48ce-2a99-7bb508a4de54",
-      "lang": "de",
-      "sentence": "Das Papier war wertlos, als ich versuchte, es zu verwenden.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-wertlos",
-      "concept_id": "25b5725b-13ce-48ce-2a99-7bb508a4de54",
-      "lang": "it",
-      "sentence": "Il foglio di carta era senza valore quando provai a usarlo.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -33609,43 +33149,10 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-en-fix-zwingen",
-      "concept_id": "58284b76-2879-c670-ee71-409216781e51",
-      "lang": "en",
-      "sentence": "The boss forced him to work overtime on weekends.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-de-fix-vertrauen",
       "concept_id": "f73861a9-0a0c-eb72-c5e3-8628aa2e96bb",
       "lang": "de",
       "sentence": "Ich vertraue ihm voll und ganz.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-vertrauen",
-      "concept_id": "f73861a9-0a0c-eb72-c5e3-8628aa2e96bb",
-      "lang": "en",
-      "sentence": "I trust her completely.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-gelegenheit",
-      "concept_id": "concept-b1-gelegenheit",
-      "lang": "de",
-      "sentence": "Er nutzte die Gelegenheit, um seine Fähigkeiten zu zeigen.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -33664,274 +33171,10 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-en-fix-gelegenheit",
-      "concept_id": "concept-b1-gelegenheit",
-      "lang": "en",
-      "sentence": "He had the opportunity to sell his old car.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-herausforderung",
-      "concept_id": "concept-b1-herausforderung",
-      "lang": "de",
-      "sentence": "Bei der Projektarbeit war es eine große Herausforderung, viele verschiedene Fächer zu integrieren.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-herausforderung",
-      "concept_id": "concept-b1-herausforderung",
-      "lang": "it",
-      "sentence": "Nel lavoro di progetto, la sfida era quella di integrare molteplici discipline.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-herausforderung",
-      "concept_id": "concept-b1-herausforderung",
-      "lang": "en",
-      "sentence": "In the project work, it was a big challenge to integrate many different subjects.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-zusammenhang",
-      "concept_id": "concept-b1-zusammenhang",
-      "lang": "de",
-      "sentence": "Die Ursache für das Feuer war der Zusammenhang zwischen dem defekten Kabel und dem brennbaren Material.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-zusammenhang",
-      "concept_id": "concept-b1-zusammenhang",
-      "lang": "it",
-      "sentence": "Il collegamento tra il fumo e l'allarme antincendio ha permesso di evacuare l'edificio in tempo.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-zusammenhang",
-      "concept_id": "concept-b1-zusammenhang",
-      "lang": "en",
-      "sentence": "The connection between the smoke and the fire alarm allowed for a timely evacuation of the building.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-vorgehen",
-      "concept_id": "concept-b1-vorgehen",
-      "lang": "de",
-      "sentence": "Das Vorgehen bei der Lösung des Problems war sehr methodisch.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-vorgehen",
-      "concept_id": "concept-b1-vorgehen",
-      "lang": "it",
-      "sentence": "Per risolvere il problema, abbiamo adottato un approccio sistematico che ha portato a risultati eccellenti.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-vorgehen",
-      "concept_id": "concept-b1-vorgehen",
-      "lang": "en",
-      "sentence": "He has developed a completely new approach to solving the problem.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-voraussetzung",
-      "concept_id": "concept-b1-voraussetzung",
-      "lang": "de",
-      "sentence": "Eine gute Kenntnis der Sprache ist eine Voraussetzung für den Erfolg.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-it-fix-voraussetzung",
       "concept_id": "concept-b1-voraussetzung",
       "lang": "it",
       "sentence": "Per guidare un'auto, è necessario avere una patente.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-voraussetzung",
-      "concept_id": "concept-b1-voraussetzung",
-      "lang": "en",
-      "sentence": "Taking introductory courses is a prerequisite for enrolling in advanced classes.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-eindruck",
-      "concept_id": "concept-b1-eindruck",
-      "lang": "de",
-      "sentence": "Der erste Eindruck vom Hotel war sehr positiv.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-eindruck",
-      "concept_id": "concept-b1-eindruck",
-      "lang": "it",
-      "sentence": "L'impressione che ho avuto del nuovo collega è stata molto buona.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-eindruck",
-      "concept_id": "concept-b1-eindruck",
-      "lang": "en",
-      "sentence": "The performance left a lasting impression on the audience.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-verantwortung",
-      "concept_id": "concept-b1-verantwortung",
-      "lang": "de",
-      "sentence": "Er hat die Verantwortung für das Projekt übernommen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-verantwortung",
-      "concept_id": "concept-b1-verantwortung",
-      "lang": "it",
-      "sentence": "La madre spiegò alla figlia che aveva la responsabilità di finire i compiti.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-verantwortung",
-      "concept_id": "concept-b1-verantwortung",
-      "lang": "en",
-      "sentence": "He bears full responsibility for his team.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-beschwerde",
-      "concept_id": "concept-b1-beschwerde",
-      "lang": "de",
-      "sentence": "Die Beschwerde wurde innerhalb von drei Tagen bearbeitet.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-beschwerde",
-      "concept_id": "concept-b1-beschwerde",
-      "lang": "it",
-      "sentence": "Il reclamo fu presentato al direttore.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-beschwerde",
-      "concept_id": "concept-b1-beschwerde",
-      "lang": "en",
-      "sentence": "He submitted a complaint about the poor service.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-vereinbarung",
-      "concept_id": "concept-b1-vereinbarung",
-      "lang": "de",
-      "sentence": "Die beiden Parteien haben sich auf eine neue Vereinbarung geeinigt, die den Frieden im Land fördern soll.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-vereinbarung",
-      "concept_id": "concept-b1-vereinbarung",
-      "lang": "it",
-      "sentence": "L'accordo è stato raggiunto tra le due parti.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-vereinbarung",
-      "concept_id": "concept-b1-vereinbarung",
-      "lang": "en",
-      "sentence": "The agreement was reached between the two parties.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -33961,50 +33204,6 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-en-fix-bewerten",
-      "concept_id": "concept-b1-bewerten",
-      "lang": "en",
-      "sentence": "The committee evaluated the proposals based on predefined criteria.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-verhindern",
-      "concept_id": "concept-b1-verhindern",
-      "lang": "de",
-      "sentence": "Er konnte den Unfall verhindern, indem er rechtzeitig bremste.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-verhindern",
-      "concept_id": "concept-b1-verhindern",
-      "lang": "it",
-      "sentence": "Stiamo impegnati a impedire la diffusione del virus.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-verhindern",
-      "concept_id": "concept-b1-verhindern",
-      "lang": "en",
-      "sentence": "We are working to prevent the spread of the virus.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-de-fix-fordern",
       "concept_id": "concept-b1-foerdern",
       "lang": "de",
@@ -34020,17 +33219,6 @@
       "concept_id": "concept-b1-foerdern",
       "lang": "it",
       "sentence": "Il governo favorisce l'uso di energie rinnovabili.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-fordern",
-      "concept_id": "concept-b1-foerdern",
-      "lang": "en",
-      "sentence": "The company promotes sustainable practices.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -34060,43 +33248,10 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-en-fix-uberzeugen",
-      "concept_id": "concept-b1-ueberzeugen",
-      "lang": "en",
-      "sentence": "The lawyer convinced the judge with clear evidence.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-de-fix-berucksichtigen",
       "concept_id": "concept-b1-beruecksichtigen",
       "lang": "de",
       "sentence": "Die Umweltauswirkungen müssen bei der Planung berücksichtigt werden.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-berucksichtigen",
-      "concept_id": "concept-b1-beruecksichtigen",
-      "lang": "en",
-      "sentence": "When designing a product, it is important to take into account the needs of the users",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-behandeln",
-      "concept_id": "concept-b1-behandeln",
-      "lang": "en",
-      "sentence": "The teacher took time to deal with each student's individual concerns. The company had to deal with a major crisis last quarter. She learned how to deal with stress effectively.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -34126,32 +33281,10 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-en-fix-erganzen",
-      "concept_id": "concept-b1-ergaenzen",
-      "lang": "en",
-      "sentence": "He supplements the information in his presentation.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-it-fix-ablehnen",
       "concept_id": "concept-b1-ablehnen",
       "lang": "it",
       "sentence": "Ha rifiutato l'invito.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-ablehnen",
-      "concept_id": "concept-b1-ablehnen",
-      "lang": "en",
-      "sentence": "He rejected the invitation.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -34170,142 +33303,10 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-it-fix-umsetzen",
-      "concept_id": "concept-b1-umsetzen",
-      "lang": "it",
-      "sentence": "Il governo ha deciso di attuare una serie di riforme economiche.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-umsetzen",
-      "concept_id": "concept-b1-umsetzen",
-      "lang": "en",
-      "sentence": "The company aims to implement the new system next year.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-entscheidend",
-      "concept_id": "concept-b1-entscheidend",
-      "lang": "de",
-      "sentence": "Der entscheidende Fehler im Spiel führte zum Sieg des Gegners.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-entscheidend",
-      "concept_id": "concept-b1-entscheidend",
-      "lang": "en",
-      "sentence": "The outcome of the election was crucial for the country's future.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-verantwortlich",
-      "concept_id": "concept-b1-verantwortlich",
-      "lang": "de",
-      "sentence": "Er ist verantwortlich für den Erfolg des Projekts.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-verantwortlich",
-      "concept_id": "concept-b1-verantwortlich",
-      "lang": "it",
-      "sentence": "Il professore è responsabile per il benessere degli studenti.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-verantwortlich",
-      "concept_id": "concept-b1-verantwortlich",
-      "lang": "en",
-      "sentence": "The manager is responsible for the project.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-begeistert",
-      "concept_id": "concept-b1-begeistert",
-      "lang": "de",
-      "sentence": "Er war begeistert von der Konzertleistung.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-it-fix-begeistert",
       "concept_id": "concept-b1-begeistert",
       "lang": "it",
       "sentence": "Gli studenti erano entusiasti del progetto.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-begeistert",
-      "concept_id": "concept-b1-begeistert",
-      "lang": "en",
-      "sentence": "He was enthusiastic about the concert performance.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-bewusst",
-      "concept_id": "concept-b1-bewusst",
-      "lang": "de",
-      "sentence": "Er war sich der Gefahr bewusst und handelte entsprechend.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-bewusst",
-      "concept_id": "concept-b1-bewusst",
-      "lang": "it",
-      "sentence": "Era consapevole del pericolo e agì di conseguenza.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-durchschnittlich",
-      "concept_id": "concept-b1-durchschnittlich",
-      "lang": "en",
-      "sentence": "The average temperature in July is around 25 degrees Celsius.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -34335,105 +33336,6 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-de-fix-flexibel",
-      "concept_id": "concept-b1-flexibel",
-      "lang": "de",
-      "sentence": "Das Unternehmen passt seine Prozesse flexibel an, um sich an Marktveränderungen anzupassen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-flexibel",
-      "concept_id": "concept-b1-flexibel",
-      "lang": "en",
-      "sentence": "The company's flexible approach allowed it to adapt quickly to market changes.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-umfangreich",
-      "concept_id": "concept-b1-umfangreich",
-      "lang": "en",
-      "sentence": "The research involved extensive data analysis. The company has extensive experience in the field.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-geeignet",
-      "concept_id": "concept-b1-geeignet",
-      "lang": "de",
-      "sentence": "Dieses Material ist geeignet für die Herstellung von Kleidung.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-geeignet",
-      "concept_id": "concept-b1-geeignet",
-      "lang": "it",
-      "sentence": "Questo prodotto è adatto ai bambini.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-geeignet",
-      "concept_id": "concept-b1-geeignet",
-      "lang": "en",
-      "sentence": "This product is suitable for children.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-angemessen",
-      "concept_id": "concept-b1-angemessen",
-      "lang": "de",
-      "sentence": "Die Kleidung war für das Wetter angemessen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-angemessen",
-      "concept_id": "concept-b1-angemessen",
-      "lang": "en",
-      "sentence": "Her response was appropriate given the circumstances.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-vermutlich",
-      "concept_id": "concept-b1-vermutlich",
-      "lang": "de",
-      "sentence": "Er wird vermutlich morgen kommen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-it-fix-vermutlich",
       "concept_id": "concept-b1-vermutlich",
       "lang": "it",
@@ -34456,164 +33358,10 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-de-fix-keinesfalls",
-      "concept_id": "concept-b1-keinesfalls",
-      "lang": "de",
-      "sentence": "Ich werde keinesfalls zustimmen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-keinesfalls",
-      "concept_id": "concept-b1-keinesfalls",
-      "lang": "it",
-      "sentence": "Non ci sarà assolutamente pioggia.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-keinesfalls",
-      "concept_id": "concept-b1-keinesfalls",
-      "lang": "en",
-      "sentence": "I will under no circumstances go.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-teilweise",
-      "concept_id": "concept-b1-teilweise",
-      "lang": "de",
-      "sentence": "Das Projekt ist teilweise abgeschlossen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-teilweise",
-      "concept_id": "concept-b1-teilweise",
-      "lang": "it",
-      "sentence": "Il progetto è parzialmente completato.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-teilweise",
-      "concept_id": "concept-b1-teilweise",
-      "lang": "en",
-      "sentence": "The project is partly finished.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-folglich",
-      "concept_id": "concept-b1-folglich",
-      "lang": "de",
-      "sentence": "Es regnete den ganzen Tag. Folglich blieben wir zu Hause.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-folglich",
-      "concept_id": "concept-b1-folglich",
-      "lang": "it",
-      "sentence": "È malato, di conseguenza non può lavorare.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-folglich",
-      "concept_id": "concept-b1-folglich",
-      "lang": "en",
-      "sentence": "He is sick, consequently he cannot work.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-dagegen",
-      "concept_id": "concept-b1-dagegen",
-      "lang": "de",
-      "sentence": "Er argumentiert dagegen, dass die Maßnahme notwendig ist.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-it-fix-dagegen",
       "concept_id": "concept-b1-dagegen",
       "lang": "it",
       "sentence": "Il ragionamento non è valido, ci sono molti esempi contrari.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-dagegen",
-      "concept_id": "concept-b1-dagegen",
-      "lang": "en",
-      "sentence": "He argues against it.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-ausserdem",
-      "concept_id": "concept-b1-ausserdem",
-      "lang": "de",
-      "sentence": "Es regnet, außerdem ist es kalt.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-ausserdem",
-      "concept_id": "concept-b1-ausserdem",
-      "lang": "it",
-      "sentence": "Ha piovuto molto e inoltre il vento è forte.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-ausserdem",
-      "concept_id": "concept-b1-ausserdem",
-      "lang": "en",
-      "sentence": "Moreover, the plan is cost-effective.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -34632,65 +33380,10 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-it-fix-weltweit",
-      "concept_id": "concept-b1-weltweit",
-      "lang": "it",
-      "sentence": "L'evento è stato seguito in tutto il mondo.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-weltweit",
-      "concept_id": "concept-b1-weltweit",
-      "lang": "en",
-      "sentence": "The product is available worldwide.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-uberwiegend",
-      "concept_id": "concept-b1-ueberwiegend",
-      "lang": "de",
-      "sentence": "Die Antworten waren überwiegend korrekt.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-uberwiegend",
-      "concept_id": "concept-b1-ueberwiegend",
-      "lang": "it",
-      "sentence": "Le risposte erano prevalentemente corrette.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-en-fix-uberwiegend",
       "concept_id": "concept-b1-ueberwiegend",
       "lang": "en",
       "sentence": "The answers were mostly correct.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-langfristig",
-      "concept_id": "concept-b1-langfristig",
-      "lang": "de",
-      "sentence": "Die Firma hat eine langfristige Strategie entwickelt.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -34707,83 +33400,6 @@
       "confidence": "high",
       "notes": null,
       "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-langfristig",
-      "concept_id": "concept-b1-langfristig",
-      "lang": "en",
-      "sentence": "The government is focusing on policies that benefit the country in the long term.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-gleichzeitig",
-      "concept_id": "concept-b1-gleichzeitig",
-      "lang": "de",
-      "sentence": "Er arbeitet und lernt gleichzeitig.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-gleichzeitig",
-      "concept_id": "concept-b1-gleichzeitig",
-      "lang": "it",
-      "sentence": "Sta lavorando e studiando contemporaneamente.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-gleichzeitig",
-      "concept_id": "concept-b1-gleichzeitig",
-      "lang": "en",
-      "sentence": "He is working and studying simultaneously.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-uberhaupt",
-      "concept_id": "concept-a2-ueberhaupt-general",
-      "lang": "de",
-      "sentence": "Er hat überhaupt keine Ahnung, was los ist.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-uberhaupt",
-      "concept_id": "concept-a2-ueberhaupt-general",
-      "lang": "it",
-      "sentence": "In generale, le persone amano il sole.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-uberhaupt",
-      "concept_id": "concept-a2-ueberhaupt-general",
-      "lang": "en",
-      "sentence": "In general, it's a good idea to plan ahead.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
     }
   ],
   "concept_definitions": [
@@ -34793,7 +33409,7 @@
       "short_definition": "Used to show that something is the last in a series of events or actions.",
       "usage_note": null,
       "context_tags_json": [],
-      "source": "ai",
+      "source": "manual",
       "synonyms_json": [
         "at last"
       ],
@@ -34803,10 +33419,7 @@
         "at first"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "at last": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "fef8f67b-8883-20ff-c027-67735487d38d",
@@ -34825,12 +33438,7 @@
         "anfangs"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "zuletzt": "loose",
-        "am Ende": "loose",
-        "letztendlich": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "fef8f67b-8883-20ff-c027-67735487d38d",
@@ -34838,7 +33446,7 @@
       "short_definition": "Usato per indicare il punto finale in una serie di eventi o azioni.",
       "usage_note": null,
       "context_tags_json": [],
-      "source": "migrated_from_gloss_alias",
+      "source": "manual",
       "synonyms_json": [
         "alla fine"
       ],
@@ -34847,10 +33455,7 @@
         "all'inizio"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "alla fine": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "2e15a945-9821-6cd1-ef18-663740b7bee6",
@@ -34870,12 +33475,7 @@
         "maximum"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "minimum": "loose",
-        "as a minimum": "exact",
-        "no less than": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "2e15a945-9821-6cd1-ef18-663740b7bee6",
@@ -34889,14 +33489,10 @@
         "mindestens"
       ],
       "antonyms_json": [
-        "hoechstens"
+        "höchstens"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "wenigstens": "exact",
-        "mindestens": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "2e15a945-9821-6cd1-ef18-663740b7bee6",
@@ -34912,10 +33508,7 @@
         "al massimo"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "minimo": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "c1792d23-111c-1a16-efae-133d6bb4fb64",
@@ -34933,13 +33526,12 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "c1792d23-111c-1a16-efae-133d6bb4fb64",
       "lang": "de",
-      "short_definition": "Wort fuer Korrektur oder Praezisierung einer Aussage.",
+      "short_definition": "Wort für Korrektur oder Präzisierung einer Aussage.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -34952,8 +33544,7 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "c1792d23-111c-1a16-efae-133d6bb4fb64",
@@ -34971,10 +33562,7 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "di fatto": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "916e8799-a429-9dfd-3f4c-5553af33dbd9",
@@ -34993,15 +33581,12 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "if not": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "916e8799-a429-9dfd-3f4c-5553af33dbd9",
       "lang": "de",
-      "short_definition": "Leitet die Folge ein, falls eine Bedingung nicht erfuellt ist.",
+      "short_definition": "Leitet die Folge ein, falls eine Bedingung nicht erfüllt ist.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -35015,10 +33600,7 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "andernfalls": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "916e8799-a429-9dfd-3f4c-5553af33dbd9",
@@ -35037,11 +33619,7 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "altrimenti": "exact",
-        "in caso contrario": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "d44d4a04-9c80-66ac-6dae-10528f189ad5",
@@ -35062,11 +33640,7 @@
         "later"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "in the interim": "exact",
-        "all the while": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "d44d4a04-9c80-66ac-6dae-10528f189ad5",
@@ -35082,10 +33656,7 @@
         "vorher"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "währenddessen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "d44d4a04-9c80-66ac-6dae-10528f189ad5",
@@ -35101,10 +33672,7 @@
         "prima"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "intanto": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "03e06d4d-6e66-57de-675b-848282e41d06",
@@ -35124,10 +33692,7 @@
         "conversely"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "however": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "03e06d4d-6e66-57de-675b-848282e41d06",
@@ -35145,10 +33710,7 @@
         "statt dessen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "dennoch": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "03e06d4d-6e66-57de-675b-848282e41d06",
@@ -35167,10 +33729,7 @@
         "d'altro canto"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "comunque": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "8f698c56-8c4a-4fde-1a01-9050abcb2a45",
@@ -35188,10 +33747,7 @@
         "abundance"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "need": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "8f698c56-8c4a-4fde-1a01-9050abcb2a45",
@@ -35205,16 +33761,12 @@
         "Bedürfnis"
       ],
       "antonyms_json": [
-        "Ueberfluss",
+        "Überfluss",
         "Überfluss",
         "Unbedarftheit"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Notwendigkeit": "loose",
-        "Bedürfnis": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "8f698c56-8c4a-4fde-1a01-9050abcb2a45",
@@ -35232,8 +33784,7 @@
         "eccesso"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "f2dddaa7-908e-fe4c-9d44-508a3617791f",
@@ -35250,30 +33801,24 @@
         "senseless"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "useful": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "f2dddaa7-908e-fe4c-9d44-508a3617791f",
       "lang": "de",
-      "short_definition": "Praktisch und gut begruendet; hat einen klaren Nutzen.",
+      "short_definition": "Praktisch und gut begründet; hat einen klaren Nutzen.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "nuetzlich",
-        "vernuenftig"
+        "nützlich",
+        "vernünftig"
       ],
       "antonyms_json": [
         "unsinnig"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "nuetzlich": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "f2dddaa7-908e-fe4c-9d44-508a3617791f",
@@ -35290,10 +33835,7 @@
         "insensato"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "utile": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "e718be7a-3d76-3ce3-db35-35ba3b93eaa0",
@@ -35310,10 +33852,7 @@
         "worthless"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "high-value": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "e718be7a-3d76-3ce3-db35-35ba3b93eaa0",
@@ -35330,10 +33869,7 @@
         "wertlos"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "von hohem Wert": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "e718be7a-3d76-3ce3-db35-35ba3b93eaa0",
@@ -35350,11 +33886,7 @@
         "senza valore"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "di valore": "exact",
-        "importante": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "25b5725b-13ce-48ce-2a99-7bb508a4de54",
@@ -35371,11 +33903,7 @@
         "valuable"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "valueless": "exact",
-        "useless": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "25b5725b-13ce-48ce-2a99-7bb508a4de54",
@@ -35392,11 +33920,7 @@
         "wertvoll"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "ohne Wert": "exact",
-        "nutzlos": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "25b5725b-13ce-48ce-2a99-7bb508a4de54",
@@ -35412,10 +33936,7 @@
         "prezioso"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "inutile": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "18e272ee-84df-dc32-fa8c-4335c5ffaf5c",
@@ -35433,10 +33954,7 @@
         "ignore"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "watch": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "18e272ee-84df-dc32-fa8c-4335c5ffaf5c",
@@ -35451,16 +33969,12 @@
         "besehen"
       ],
       "antonyms_json": [
-        "uebersehen",
+        "übersehen",
         "ignorieren",
         "übersehen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "anschauen": "loose",
-        "besehen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "18e272ee-84df-dc32-fa8c-4335c5ffaf5c",
@@ -35478,10 +33992,7 @@
         "ignorare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "studiare": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "ed8e2fd9-341b-1cad-7908-35e22a2f2388",
@@ -35497,8 +34008,7 @@
         "Ablehnung"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "ed8e2fd9-341b-1cad-7908-35e22a2f2388",
@@ -35514,10 +34024,7 @@
         "rifiuto"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "domanda formale": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "ed8e2fd9-341b-1cad-7908-35e22a2f2388",
@@ -35533,8 +34040,7 @@
         "rejection"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "58284b76-2879-c670-ee71-409216781e51",
@@ -35556,10 +34062,7 @@
         "reason": "No direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "verpflichten": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "58284b76-2879-c670-ee71-409216781e51",
@@ -35581,10 +34084,7 @@
         "reason": "No direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "compel": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "58284b76-2879-c670-ee71-409216781e51",
@@ -35605,8 +34105,7 @@
         "reason": "No direct scalar opposite",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "f73861a9-0a0c-eb72-c5e3-8628aa2e96bb",
@@ -35624,10 +34123,7 @@
         "zweifeln"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "gläubig sein": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "f73861a9-0a0c-eb72-c5e3-8628aa2e96bb",
@@ -35645,10 +34141,7 @@
         "mistrust"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "believe in": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "f73861a9-0a0c-eb72-c5e3-8628aa2e96bb",
@@ -35666,10 +34159,7 @@
         "sospettare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "credere": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-gelegenheit",
@@ -35688,10 +34178,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Möglichkeit": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-gelegenheit",
@@ -35743,11 +34230,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Aufgabe": "loose",
-        "Prüfung": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-herausforderung",
@@ -35801,10 +34284,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Beziehung": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-zusammenhang",
@@ -35855,10 +34335,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Vorgehensweise": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-vorgehen",
@@ -35908,10 +34385,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Bedingung": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-voraussetzung",
@@ -35964,8 +34438,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-eindruck",
@@ -36020,11 +34493,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Pflicht": "loose",
-        "Sorge": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-verantwortung",
@@ -36075,11 +34544,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Klage": "loose",
-        "Widerspruch": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-beschwerde",
@@ -36131,11 +34596,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Folge": "loose",
-        "Wirkung": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-auswirkung",
@@ -36143,7 +34604,7 @@
       "short_definition": "il risultato di un'azione o evento",
       "usage_note": null,
       "context_tags_json": [],
-      "source": "ai",
+      "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": {
@@ -36159,7 +34620,7 @@
       "short_definition": "the consequence caused by something",
       "usage_note": null,
       "context_tags_json": [],
-      "source": "ai",
+      "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": {
@@ -36190,11 +34651,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Übereinkunft": "exact",
-        "Einigung": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-vereinbarung",
@@ -36248,10 +34705,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "abwägen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-bewerten",
@@ -36305,10 +34759,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "mitteilen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-vermitteln",
@@ -36361,10 +34812,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "aufkommen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-entstehen",
@@ -36416,10 +34864,7 @@
         "zulassen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "hindern": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-verhindern",
@@ -36468,10 +34913,7 @@
         "verhindern"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "förderlich": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-foerdern",
@@ -36522,11 +34964,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "überreden": "loose",
-        "beeinflussen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-ueberzeugen",
@@ -36580,11 +35018,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "assertieren": "exact",
-        "vorgeben": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-behaupten",
@@ -36639,10 +35073,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "erkennen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-feststellen",
@@ -36692,8 +35123,7 @@
         "vernachlässigen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-beruecksichtigen",
@@ -36746,11 +35176,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "bearbeiten": "loose",
-        "bewältigen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-behandeln",
@@ -36807,11 +35233,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "melden": "loose",
-        "mitteilen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-ankuendigen",
@@ -36862,11 +35284,7 @@
         "vermindern"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "vollständig machen": "exact",
-        "erweitern": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-ergaenzen",
@@ -36914,11 +35332,7 @@
         "billigen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "zurückweisen": "exact",
-        "verwerfen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-ablehnen",
@@ -36970,10 +35384,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "durchsetzen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-durchfuehren",
@@ -37024,10 +35435,7 @@
         "verweigern"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "realisieren": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-umsetzen",
@@ -37074,10 +35482,7 @@
         "nebensächlich"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "kritisch": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-entscheidend",
@@ -37127,10 +35532,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "verpflichtet": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-verantwortlich",
@@ -37183,10 +35585,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "fasziniert": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-begeistert",
@@ -37235,10 +35634,7 @@
         "unbewusst"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "aufmerksam": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-bewusst",
@@ -37289,12 +35685,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "mittel": "exact",
-        "normal": "loose",
-        "gewöhnlich": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-durchschnittlich",
@@ -37344,10 +35735,7 @@
         "von anderen abhängig"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "eigenständig": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-unabhaengig",
@@ -37393,10 +35781,7 @@
         "unflexibel"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "veränderlich": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-flexibel",
@@ -37443,10 +35828,7 @@
         "eng"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "ausführlich": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-umfangreich",
@@ -37492,11 +35874,7 @@
         "unangemessen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "passend": "exact",
-        "angemessen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-geeignet",
@@ -37547,11 +35925,7 @@
         "sinnlos"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "passend": "exact",
-        "geeignet": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-angemessen",
@@ -37603,11 +35977,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "wahrscheinlich": "exact",
-        "voraussichtlich": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-vermutlich",
@@ -37660,11 +36030,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "auf gar keinen Fall": "exact",
-        "unter keinen Umständen": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-keinesfalls",
@@ -37714,10 +36080,7 @@
         "komplett"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "in Teilen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-teilweise",
@@ -37764,11 +36127,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "daher": "exact",
-        "deshalb": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-folglich",
@@ -37819,10 +36178,7 @@
         "pro"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "gegen": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-dagegen",
@@ -37873,11 +36229,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "darüber hinaus": "exact",
-        "zudem": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-ausserdem",
@@ -37931,11 +36283,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "global": "loose",
-        "internationale": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-weltweit",
@@ -37990,10 +36338,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "hauptsächlich": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-ueberwiegend",
@@ -38044,11 +36389,7 @@
         "momentan"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "auf lange Sicht": "exact",
-        "über die Dauer hinweg": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-langfristig",
@@ -38093,10 +36434,7 @@
         "hintereinander"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "zugleich": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-gleichzeitig",
@@ -38150,13 +36488,7 @@
         "reason": "no_single_robust_opposite_for_sensitive_adjective",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "reizbar": "loose",
-        "empfindsam": "exact",
-        "sensibel": "exact",
-        "empfänglich": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-empfindlich",
@@ -38194,7 +36526,7 @@
       "concept_id": "concept-b1-leistung",
       "lang": "de",
       "short_definition": "Das, was jemand oder etwas in Arbeit, Schule, Sport oder Technik erreicht oder zeigt.",
-      "usage_note": "Gemeint ist die gezeigte Qualitaet oder das erreichte Niveau, nicht der Verwaltungs- oder Versicherungssinn von Leistungen.",
+      "usage_note": "Gemeint ist die gezeigte Qualität oder das erreichte Niveau, nicht der Verwaltungs- oder Versicherungssinn von Leistungen.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
@@ -38211,10 +36543,7 @@
         "reason": "no_single_robust_opposite_for_performance_noun",
         "reviewed_at": "2026-03-27"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Erreichung": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-leistung",
@@ -38252,7 +36581,7 @@
       "concept_id": "concept-b1-spitze-lace",
       "lang": "de",
       "short_definition": "Ein feines, dekoratives Gewebe mit durchbrochenem Muster, das oft an Kleidung oder Stoffen verwendet wird.",
-      "usage_note": "Hier nur der Stoff- oder Textilsinn, nicht die Spitze eines Gegenstands und nicht die fuehrende Position.",
+      "usage_note": "Hier nur der Stoff- oder Textilsinn, nicht die Spitze eines Gegenstands und nicht die führende Position.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
@@ -38265,11 +36594,7 @@
         "reason": "no_single_robust_opposite_for_lace_textile_noun",
         "reviewed_at": "2026-03-27"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Kante": "loose",
-        "Rand": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-spitze-lace",
@@ -38306,8 +36631,8 @@
     {
       "concept_id": "concept-b1-spitze-top-position",
       "lang": "de",
-      "short_definition": "Die hoechste oder fuehrende Position in einer Rangordnung, Gruppe oder Entwicklung.",
-      "usage_note": "Hier geht es um die fuehrende oder oberste Stellung, nicht um die Spitze eines Gegenstands und nicht um Stoff.",
+      "short_definition": "Die höchste oder führende Position in einer Rangordnung, Gruppe oder Entwicklung.",
+      "usage_note": "Hier geht es um die führende oder oberste Stellung, nicht um die Spitze eines Gegenstands und nicht um Stoff.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
@@ -38326,11 +36651,7 @@
         "reason": "no_single_robust_opposite_for_leading_position_noun",
         "reviewed_at": "2026-03-27"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Höhepunkt": "loose",
-        "Krone": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-spitze-top-position",
@@ -38368,7 +36689,7 @@
       "concept_id": "concept-b1-spitz-cutting",
       "lang": "de",
       "short_definition": "So formuliert oder gesagt, dass es scharf, verletzend oder unangenehm wirkt.",
-      "usage_note": "Hier nur die uebertragene Bedeutung fuer Bemerkungen, Kritik oder Tonfall, nicht die physische Form.",
+      "usage_note": "Hier nur die übertragene Bedeutung für Bemerkungen, Kritik oder Tonfall, nicht die physische Form.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
@@ -38385,10 +36706,7 @@
         "reason": "no_single_robust_opposite_for_cutting_remark_adjective",
         "reviewed_at": "2026-03-27"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "verletzend": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-spitz-cutting",
@@ -38425,8 +36743,8 @@
     {
       "concept_id": "concept-b1-gruselig",
       "lang": "de",
-      "short_definition": "So unheimlich oder schaurig, dass es ein unangenehmes Angstgefuehl ausloest.",
-      "usage_note": "Typisch fuer Orte, Geschichten, Geraeusche oder Situationen mit duesterer Atmosphaere.",
+      "short_definition": "So unheimlich oder schaurig, dass es ein unangenehmes Angstgefühl auslöst.",
+      "usage_note": "Typisch für Orte, Geschichten, Geräusche oder Situationen mit düsterer Atmosphäre.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
@@ -38438,8 +36756,7 @@
         "reason": "no_single_robust_opposite_for_creepy_adjective",
         "reviewed_at": "2026-04-17"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-gruselig",
@@ -38473,64 +36790,6 @@
         "reason": "no_single_robust_opposite_for_creepy_adjective",
         "reviewed_at": "2026-04-17"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {}
-    },
-    {
-      "concept_id": "concept-a2-ueberhaupt-general",
-      "lang": "de",
-      "short_definition": "Spricht ueber etwas in sehr allgemeinen Zuegen.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "manual",
-      "synonyms_json": [
-        "allgemein",
-        "generell"
-      ],
-      "antonyms_json": [
-        "speziell",
-        "insbesondere"
-      ],
-      "antonym_policy_json": {
-        "status": "intentionally_none",
-        "reason": "German modal particle - has no standard lexical antonym across the modeled languages",
-        "reviewed_at": "2026-05-25"
-      },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "allgemein": "loose"
-      }
-    },
-    {
-      "concept_id": "concept-a2-ueberhaupt-general",
-      "lang": "it",
-      "short_definition": "Parla di qualcosa in termini ampi e non in un caso specifico.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "manual",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": {
-        "status": "intentionally_none",
-        "reason": "German modal particle - has no standard lexical antonym across the modeled languages",
-        "reviewed_at": "2026-05-25"
-      },
-      "hint_text": null
-    },
-    {
-      "concept_id": "concept-a2-ueberhaupt-general",
-      "lang": "en",
-      "short_definition": "Talks about something in broad terms rather than in one specific case.",
-      "usage_note": null,
-      "context_tags_json": [],
-      "source": "manual",
-      "synonyms_json": [],
-      "antonyms_json": [],
-      "antonym_policy_json": {
-        "status": "intentionally_none",
-        "reason": "German modal particle - has no standard lexical antonym across the modeled languages",
-        "reviewed_at": "2026-05-25"
-      },
       "hint_text": null
     },
     {
@@ -38549,10 +36808,7 @@
         "widerstreben"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "bringen vor": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-vorschlagen",
@@ -38602,11 +36858,7 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Kompetenz": "loose",
-        "Können": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-faehigkeit",
@@ -38667,14 +36919,7 @@
         "reason": "Discourse adverb or connective with no direct lexical antonym",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "gesamt": "loose",
-        "in Summe": "exact",
-        "im Ganzen": "exact",
-        "global": "loose",
-        "allgemein": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-insgesamt",
@@ -38724,11 +36969,7 @@
         "selten"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "periodisch": "loose",
-        "ständig": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-regelmaessig",
@@ -38773,10 +37014,7 @@
         "mangelhaft"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "genügend": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-ausreichend",
@@ -38822,11 +37060,7 @@
         "die Verschlechterung"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "die Optimierung": "loose",
-        "die Steigerung": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-verbesserung",
@@ -38874,10 +37108,7 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Zweck": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-ziel",
@@ -38932,10 +37163,7 @@
         "reason": "Verb without a single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "erläutern": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-klaeren",
@@ -38989,8 +37217,7 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-vorwurf",
@@ -39044,8 +37271,7 @@
         "reason": "Verb without a single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-umgehen",
@@ -39098,10 +37324,7 @@
         "reason": "Verb without a single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "erwähnen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-ansprechen",
@@ -39153,12 +37376,7 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Übersicht": "loose",
-        "Kurzfassung": "exact",
-        "Auszug": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-zusammenfassung",
@@ -39206,8 +37424,7 @@
         "sehr"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-kaum",
@@ -39258,10 +37475,7 @@
         "reason": "Discourse adverb or connective with no direct lexical antonym",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "erstens": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-zunaechst",
@@ -39312,11 +37526,7 @@
         "reason": "Discourse adverb or connective with no direct lexical antonym",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "außerdem": "exact",
-        "überdies": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-zudem",
@@ -39416,10 +37626,7 @@
         "reason": "Verb without a single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "erhoffen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-erwarten",
@@ -39473,11 +37680,7 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Akt": "loose",
-        "Maßnahme": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-schritt",
@@ -39528,11 +37731,7 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Teil": "loose",
-        "Kapitel": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-abschnitt",
@@ -39586,11 +37785,7 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Verlauf": "loose",
-        "Gang": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-ablauf",
@@ -39641,11 +37836,7 @@
         "die Folge"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Grund": "loose",
-        "Verursacher": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-ursache",
@@ -39693,13 +37884,7 @@
         "die Ursache"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Einfluss": "loose",
-        "Folge": "loose",
-        "Auswirkung": "exact",
-        "Konsequenz": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-wirkung",
@@ -39750,12 +37935,7 @@
         "Billigung"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Anmerkung": "loose",
-        "Zweifel": "loose",
-        "Urteil": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-kritik",
@@ -39802,11 +37982,7 @@
         "reason": "Discourse adverb or connective with no direct lexical antonym",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "zumindest": "exact",
-        "wenigstens": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-immerhin",
@@ -39859,11 +38035,7 @@
         "reason": "Discourse adverb or connective with no direct lexical antonym",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "anstelle dessen": "loose",
-        "trotzdem": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-stattdessen",
@@ -39919,10 +38091,7 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Einsatz": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-aufwand",
@@ -39974,11 +38143,7 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Rückwirkung": "loose",
-        "Urteil": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-rueckmeldung",
@@ -40029,11 +38194,7 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Hinweis": "loose",
-        "Mitteilung": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-notiz",
@@ -40088,10 +38249,7 @@
         "reason": "Verb without a single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "einbringen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-einsetzen",
@@ -40157,10 +38315,7 @@
         "reason": "German modal particle - has no standard lexical antonym across the modeled languages",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "invece": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-doch-contradiction",
@@ -40178,10 +38333,7 @@
         "reason": "German modal particle - has no standard lexical antonym across the modeled languages",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "actually": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-doch-encouragement",
@@ -40215,10 +38367,7 @@
         "reason": "German modal particle - has no standard lexical antonym across the modeled languages",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "su": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-doch-encouragement",
@@ -40236,10 +38385,7 @@
         "reason": "German modal particle - has no standard lexical antonym across the modeled languages",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "just": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-mal-softening",
@@ -40273,8 +38419,7 @@
         "reason": "German modal particle - has no standard lexical antonym across the modeled languages",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-mal-softening",
@@ -40295,7 +38440,7 @@
     {
       "concept_id": "concept-b1-halt-eben-fatalism",
       "lang": "de",
-      "short_definition": "Drueckt eine resignierte Akzeptanz aus, dass etwas einfach so ist, wie es ist.",
+      "short_definition": "Drückt eine resignierte Akzeptanz aus, dass etwas einfach so ist, wie es ist.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -40308,10 +38453,7 @@
         "reason": "German modal particle - has no standard lexical antonym across the modeled languages",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "eben": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-halt-eben-fatalism",
@@ -40329,10 +38471,7 @@
         "reason": "German modal particle - has no standard lexical antonym across the modeled languages",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "purtroppo": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-halt-eben-fatalism",
@@ -40382,10 +38521,7 @@
         "reason": "German modal particle - has no standard lexical antonym across the modeled languages",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "dopotutto": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-b1-ja-shared-knowledge",
@@ -40403,10 +38539,7 @@
         "reason": "German modal particle - has no standard lexical antonym across the modeled languages",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "after all": "loose"
-      }
+      "hint_text": null
     }
   ],
   "clusters": [
@@ -40421,335 +38554,6 @@
       "lang": "de",
       "label": "value polarity",
       "type": "confusables"
-    },
-    {
-      "cluster_id": "499d250c-b7ab-24f8-6ffa-f953e6519908",
-      "lang": "de",
-      "label": "synonyms: schließlich +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "2390b3d0-39b3-82b6-f23a-32f71ed107b6",
-      "lang": "de",
-      "label": "synonyms: zumindest +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "c586b749-c86f-cbeb-72b7-1b6a98e20257",
-      "lang": "de",
-      "label": "synonyms: immer noch +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "cec21550-ff70-fe0b-2153-f1251ca58e37",
-      "lang": "de",
-      "label": "synonyms: meist +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "d4e48cb5-295f-97ac-575e-870b63b15b43",
-      "lang": "de",
-      "label": "synonyms: ansonsten",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
-      "lang": "de",
-      "label": "synonyms: deswegen +4",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "9c3593ab-145b-ffb8-ee1c-e1064e8b599c",
-      "lang": "de",
-      "label": "synonyms: Bedarf",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "b7195aa6-ee08-b7cc-824b-42beb2240f87",
-      "lang": "de",
-      "label": "synonyms: Angebot +3",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "a849cff9-18a8-f8cd-1f9f-82d8ba917a27",
-      "lang": "de",
-      "label": "synonyms: Antrag",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "4058ba03-5a94-bad5-259d-41bf5d79e6ae",
-      "lang": "de",
-      "label": "synonyms: lesen",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "35e2eacb-dee8-2e7c-4fd4-48e41f6aa366",
-      "lang": "de",
-      "label": "synonyms: wichtig +12",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "014e14c1-c8ad-b44f-4498-8d5ba791eff3",
-      "lang": "de",
-      "label": "synonyms: Problem",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "09e5bc11-3f7e-8f96-7c2b-2b3ffb91e1df",
-      "lang": "de",
-      "label": "synonyms: vergleichen +6",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "63df83b7-fe0b-77ae-cb4e-629efbf43e8d",
-      "lang": "de",
-      "label": "synonyms: empfehlen",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "c1b879e2-d36a-59b9-82e4-37cb4b4cdfc6",
-      "lang": "de",
-      "label": "synonyms: wahrscheinlich",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "026b9623-e414-063c-c248-b183d13c7fb1",
-      "lang": "de",
-      "label": "synonyms: vermeiden +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "ac554226-03d5-1bf2-ea57-951a9b80229d",
-      "lang": "de",
-      "label": "synonyms: auf keinen Fall",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "6e0855b6-a499-9c65-d744-79fd83bd3fab",
-      "lang": "de",
-      "label": "synonyms: Voraussetzung +3",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "cc26fb89-ab3f-58fd-a28d-679bec9708a2",
-      "lang": "de",
-      "label": "synonyms: Auswirkung",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "80a93fdf-9f9e-5632-6ba8-ffee0c3807bd",
-      "lang": "de",
-      "label": "synonyms: Vereinbarung +5",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "f2a6e685-6449-6cbf-0d8a-b81e64e7cf54",
-      "lang": "de",
-      "label": "synonyms: feststellen",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "c82a7ca3-8db7-5a6f-473b-a27838c400a1",
-      "lang": "de",
-      "label": "synonyms: durchführen",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "36a3586f-8a35-308b-c6f7-37bf0c5f9c91",
-      "lang": "de",
-      "label": "synonyms: geeignet",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "343b1b87-0dbc-3cd5-15f0-57d445faa531",
-      "lang": "de",
-      "label": "synonyms: außerdem +3",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "36e311b4-f005-5fd7-baff-bf0d5d94d664",
-      "lang": "de",
-      "label": "synonyms: auf Dauer",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "9692afec-3bb5-d52a-4590-30cb790eec51",
-      "lang": "de",
-      "label": "synonyms: voraussetzen +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "7b765802-2bcf-34ed-241b-078594f1c4bf",
-      "lang": "de",
-      "label": "synonyms: beeindrucken",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "f67ebbef-55cf-8cf2-5480-d02ba2317ffe",
-      "lang": "de",
-      "label": "synonyms: überhaupt",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "c0d7ad32-1c62-a418-e2b0-77dc7f6052c1",
-      "lang": "de",
-      "label": "synonyms: die Kritik",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "12ae11f4-0773-89dc-f84b-9f0bbdaa260a",
-      "lang": "it",
-      "label": "synonyms: la corsa +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "9622262b-45f0-f5e7-f88f-ec9eedfcc8f6",
-      "lang": "it",
-      "label": "synonyms: votare",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "aa59367c-eefc-ceb9-add1-117eefdfbf56",
-      "lang": "it",
-      "label": "synonyms: prestare attenzione +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "d544fd87-710c-fb4a-441c-5e2073d266be",
-      "lang": "it",
-      "label": "synonyms: finalmente",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "f4ea9604-d713-9e81-f74f-6392a55c0ad0",
-      "lang": "it",
-      "label": "synonyms: per lo piu +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "279a0c74-5700-d367-b17e-560ade2d862f",
-      "lang": "it",
-      "label": "synonyms: per il resto",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "a59e357c-6114-de82-bdd6-500c74588cb1",
-      "lang": "it",
-      "label": "synonyms: il fabbisogno",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "b237664d-a06a-2463-6f08-0a6b9c1a4e74",
-      "lang": "it",
-      "label": "synonyms: prezioso",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "3a6700de-65a9-441b-13bb-48ce2db33875",
-      "lang": "it",
-      "label": "synonyms: inviare",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "98ae0808-e33b-007f-da3c-3c70ed4c9cda",
-      "lang": "it",
-      "label": "synonyms: la domanda formale",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "d8471c73-3865-f1c3-d396-c4489f1933dc",
-      "lang": "it",
-      "label": "synonyms: grande",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "23c98411-dcb1-d585-7b1e-ac09c5803d9d",
-      "lang": "it",
-      "label": "synonyms: eppure",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "cded68eb-26f2-a739-2124-71fc39cc93cb",
-      "lang": "en",
-      "label": "synonyms: the salutation",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "6df35ff4-ca45-0824-0352-f3ae718d1377",
-      "lang": "en",
-      "label": "synonyms: the application +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "a494d403-9001-753c-2ab2-22da94a26559",
-      "lang": "en",
-      "label": "synonyms: the necessity +3",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "b15a405c-8c14-9974-246d-fd8d7692dd8a",
-      "lang": "en",
-      "label": "synonyms: observe",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "bbec87fc-9220-ac80-5d5b-7387ec68f245",
-      "lang": "en",
-      "label": "synonyms: to make",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "a1274f48-2497-c028-0b04-6300077bed97",
-      "lang": "en",
-      "label": "synonyms: but",
-      "type": "semantic",
-      "auto": true
     }
   ],
   "cluster_members": [
@@ -40781,296 +38585,6 @@
     {
       "cluster_id": "7d913f02-f4a0-4e2c-03cf-fc4177852d7e",
       "lexeme_id": "lex-de-wertlos",
-      "position": 1
-    },
-    {
-      "cluster_id": "499d250c-b7ab-24f8-6ffa-f953e6519908",
-      "lexeme_id": "lex-de-schliesslich",
-      "position": 0
-    },
-    {
-      "cluster_id": "2390b3d0-39b3-82b6-f23a-32f71ed107b6",
-      "lexeme_id": "lex-de-zumindest",
-      "position": 0
-    },
-    {
-      "cluster_id": "2390b3d0-39b3-82b6-f23a-32f71ed107b6",
-      "lexeme_id": "lex-de-immerhin",
-      "position": 2
-    },
-    {
-      "cluster_id": "c586b749-c86f-cbeb-72b7-1b6a98e20257",
-      "lexeme_id": "lex-de-trotzdem",
-      "position": 1
-    },
-    {
-      "cluster_id": "c586b749-c86f-cbeb-72b7-1b6a98e20257",
-      "lexeme_id": "lex-de-stattdessen",
-      "position": 2
-    },
-    {
-      "cluster_id": "cec21550-ff70-fe0b-2153-f1251ca58e37",
-      "lexeme_id": "lex-de-regelmassig",
-      "position": 2
-    },
-    {
-      "cluster_id": "d4e48cb5-295f-97ac-575e-870b63b15b43",
-      "lexeme_id": "lex-de-ansonsten",
-      "position": 0
-    },
-    {
-      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
-      "lexeme_id": "lex-de-folglich",
-      "position": 4
-    },
-    {
-      "cluster_id": "9c3593ab-145b-ffb8-ee1c-e1064e8b599c",
-      "lexeme_id": "lex-de-bedarf",
-      "position": 0
-    },
-    {
-      "cluster_id": "b7195aa6-ee08-b7cc-824b-42beb2240f87",
-      "lexeme_id": "lex-de-gelegenheit",
-      "position": 3
-    },
-    {
-      "cluster_id": "a849cff9-18a8-f8cd-1f9f-82d8ba917a27",
-      "lexeme_id": "lex-de-gesuch",
-      "position": 1
-    },
-    {
-      "cluster_id": "4058ba03-5a94-bad5-259d-41bf5d79e6ae",
-      "lexeme_id": "lex-de-betrachten",
-      "position": 1
-    },
-    {
-      "cluster_id": "35e2eacb-dee8-2e7c-4fd4-48e41f6aa366",
-      "lexeme_id": "lex-de-entscheidend",
-      "position": 4
-    },
-    {
-      "cluster_id": "014e14c1-c8ad-b44f-4498-8d5ba791eff3",
-      "lexeme_id": "lex-de-herausforderung",
-      "position": 1
-    },
-    {
-      "cluster_id": "09e5bc11-3f7e-8f96-7c2b-2b3ffb91e1df",
-      "lexeme_id": "lex-de-bewerten",
-      "position": 2
-    },
-    {
-      "cluster_id": "63df83b7-fe0b-77ae-cb4e-629efbf43e8d",
-      "lexeme_id": "lex-de-vorschlagen",
-      "position": 1
-    },
-    {
-      "cluster_id": "c1b879e2-d36a-59b9-82e4-37cb4b4cdfc6",
-      "lexeme_id": "lex-de-vermutlich",
-      "position": 1
-    },
-    {
-      "cluster_id": "026b9623-e414-063c-c248-b183d13c7fb1",
-      "lexeme_id": "lex-de-umgehen",
-      "position": 1
-    },
-    {
-      "cluster_id": "026b9623-e414-063c-c248-b183d13c7fb1",
-      "lexeme_id": "lex-de-verhindern",
-      "position": 2
-    },
-    {
-      "cluster_id": "ac554226-03d5-1bf2-ea57-951a9b80229d",
-      "lexeme_id": "lex-de-keinesfalls",
-      "position": 1
-    },
-    {
-      "cluster_id": "6e0855b6-a499-9c65-d744-79fd83bd3fab",
-      "lexeme_id": "lex-de-voraussetzung",
-      "position": 0
-    },
-    {
-      "cluster_id": "cc26fb89-ab3f-58fd-a28d-679bec9708a2",
-      "lexeme_id": "lex-de-auswirkung",
-      "position": 0
-    },
-    {
-      "cluster_id": "cc26fb89-ab3f-58fd-a28d-679bec9708a2",
-      "lexeme_id": "lex-de-die-wirkung",
-      "position": 1
-    },
-    {
-      "cluster_id": "80a93fdf-9f9e-5632-6ba8-ffee0c3807bd",
-      "lexeme_id": "lex-de-vereinbarung",
-      "position": 0
-    },
-    {
-      "cluster_id": "f2a6e685-6449-6cbf-0d8a-b81e64e7cf54",
-      "lexeme_id": "lex-de-feststellen",
-      "position": 0
-    },
-    {
-      "cluster_id": "c82a7ca3-8db7-5a6f-473b-a27838c400a1",
-      "lexeme_id": "lex-de-durchfuhren",
-      "position": 0
-    },
-    {
-      "cluster_id": "c82a7ca3-8db7-5a6f-473b-a27838c400a1",
-      "lexeme_id": "lex-de-umsetzen",
-      "position": 1
-    },
-    {
-      "cluster_id": "36a3586f-8a35-308b-c6f7-37bf0c5f9c91",
-      "lexeme_id": "lex-de-geeignet",
-      "position": 0
-    },
-    {
-      "cluster_id": "36a3586f-8a35-308b-c6f7-37bf0c5f9c91",
-      "lexeme_id": "lex-de-angemessen",
-      "position": 1
-    },
-    {
-      "cluster_id": "343b1b87-0dbc-3cd5-15f0-57d445faa531",
-      "lexeme_id": "lex-de-ausserdem",
-      "position": 0
-    },
-    {
-      "cluster_id": "343b1b87-0dbc-3cd5-15f0-57d445faa531",
-      "lexeme_id": "lex-de-zudem",
-      "position": 1
-    },
-    {
-      "cluster_id": "36e311b4-f005-5fd7-baff-bf0d5d94d664",
-      "lexeme_id": "lex-de-langfristig",
-      "position": 1
-    },
-    {
-      "cluster_id": "9692afec-3bb5-d52a-4590-30cb790eec51",
-      "lexeme_id": "lex-de-fordern",
-      "position": 1
-    },
-    {
-      "cluster_id": "9692afec-3bb5-d52a-4590-30cb790eec51",
-      "lexeme_id": "lex-de-erwarten",
-      "position": 2
-    },
-    {
-      "cluster_id": "7b765802-2bcf-34ed-241b-078594f1c4bf",
-      "lexeme_id": "lex-de-uberzeugen",
-      "position": 1
-    },
-    {
-      "cluster_id": "f67ebbef-55cf-8cf2-5480-d02ba2317ffe",
-      "lexeme_id": "lex-de-eigentlich",
-      "position": 1
-    },
-    {
-      "cluster_id": "c0d7ad32-1c62-a418-e2b0-77dc7f6052c1",
-      "lexeme_id": "lex-de-die-kritik",
-      "position": 0
-    },
-    {
-      "cluster_id": "12ae11f4-0773-89dc-f84b-9f0bbdaa260a",
-      "lexeme_id": "lex-it-sfida",
-      "position": 1
-    },
-    {
-      "cluster_id": "9622262b-45f0-f5e7-f88f-ec9eedfcc8f6",
-      "lexeme_id": "lex-it-sostenere",
-      "position": 1
-    },
-    {
-      "cluster_id": "aa59367c-eefc-ceb9-add1-117eefdfbf56",
-      "lexeme_id": "lex-it-osservare",
-      "position": 1
-    },
-    {
-      "cluster_id": "aa59367c-eefc-ceb9-add1-117eefdfbf56",
-      "lexeme_id": "lex-it-considerare",
-      "position": 2
-    },
-    {
-      "cluster_id": "d544fd87-710c-fb4a-441c-5e2073d266be",
-      "lexeme_id": "lex-it-finalmente-2",
-      "position": 0
-    },
-    {
-      "cluster_id": "f4ea9604-d713-9e81-f74f-6392a55c0ad0",
-      "lexeme_id": "lex-it-in-generale",
-      "position": 1
-    },
-    {
-      "cluster_id": "279a0c74-5700-d367-b17e-560ade2d862f",
-      "lexeme_id": "lex-it-per-il-resto",
-      "position": 0
-    },
-    {
-      "cluster_id": "a59e357c-6114-de82-bdd6-500c74588cb1",
-      "lexeme_id": "lex-it-fabbisogno",
-      "position": 0
-    },
-    {
-      "cluster_id": "b237664d-a06a-2463-6f08-0a6b9c1a4e74",
-      "lexeme_id": "lex-it-prezioso",
-      "position": 0
-    },
-    {
-      "cluster_id": "3a6700de-65a9-441b-13bb-48ce2db33875",
-      "lexeme_id": "lex-it-trasmettere",
-      "position": 1
-    },
-    {
-      "cluster_id": "98ae0808-e33b-007f-da3c-3c70ed4c9cda",
-      "lexeme_id": "lex-it-istanza",
-      "position": 1
-    },
-    {
-      "cluster_id": "d8471c73-3865-f1c3-d396-c4489f1933dc",
-      "lexeme_id": "lex-it-ampio",
-      "position": 1
-    },
-    {
-      "cluster_id": "23c98411-dcb1-d585-7b1e-ac09c5803d9d",
-      "lexeme_id": "lex-it-eppure",
-      "position": 0
-    },
-    {
-      "cluster_id": "23c98411-dcb1-d585-7b1e-ac09c5803d9d",
-      "lexeme_id": "lex-it-invece",
-      "position": 1
-    },
-    {
-      "cluster_id": "cded68eb-26f2-a739-2124-71fc39cc93cb",
-      "lexeme_id": "lex-en-to-address",
-      "position": 1
-    },
-    {
-      "cluster_id": "6df35ff4-ca45-0824-0352-f3ae718d1377",
-      "lexeme_id": "lex-en-petition",
-      "position": 1
-    },
-    {
-      "cluster_id": "a494d403-9001-753c-2ab2-22da94a26559",
-      "lexeme_id": "lex-en-demand",
-      "position": 3
-    },
-    {
-      "cluster_id": "b15a405c-8c14-9974-246d-fd8d7692dd8a",
-      "lexeme_id": "lex-en-observe",
-      "position": 0
-    },
-    {
-      "cluster_id": "bbec87fc-9220-ac80-5d5b-7387ec68f245",
-      "lexeme_id": "lex-en-carry-out",
-      "position": 1
-    },
-    {
-      "cluster_id": "a1274f48-2497-c028-0b04-6300077bed97",
-      "lexeme_id": "lex-en-but",
-      "position": 0
-    },
-    {
-      "cluster_id": "a1274f48-2497-c028-0b04-6300077bed97",
-      "lexeme_id": "lex-en-actually",
       "position": 1
     }
   ]

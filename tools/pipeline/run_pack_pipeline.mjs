@@ -14,7 +14,7 @@ Runs the source-pack authoring pipeline: upsert → curate → sanitize → QA �
 This script operates on the canonical source pack only.
 
 To rebuild runtime packs after this pipeline, run:
-  pnpm run rebuild    # rebuilds all 12 runtime packs, auto-bumps version on change
+  pnpm run rebuild    # rebuilds all 36 runtime packs, auto-bumps version on change
   pnpm run release    # rebuild + build the distribution
 
 Options:

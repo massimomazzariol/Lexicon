@@ -164,7 +164,8 @@
       "notes": null,
       "metadata_json": {
         "image_url": "/images/great_adjective.jpg"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
@@ -300,7 +301,8 @@
         "Social"
       ],
       "notes": "Formal request/application in administrative contexts.",
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "2bfef665-f822-93b9-3f9d-233a6f838aba",
@@ -1399,7 +1401,8 @@
         "Space"
       ],
       "notes": "Editorial addition from German lemma expansion. Modeled around the gap or safe space between people or things, not the general route-length sense already covered by Entfernung. CEFR placed editorially at A2 on 2026-04-17.",
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-a2-unterschied",
@@ -1413,7 +1416,23 @@
         "Education"
       ],
       "notes": "Editorial addition aligned with the existing compare family. Modeled as the noun difference sense and kept separate from the adjective unterschiedlich. CEFR placed editorially at A2 on 2026-04-17.",
-      "metadata_json": {}
+      "metadata_json": {},
+      "review_status": "reviewed"
+    },
+    {
+      "concept_id": "concept-a2-ueberhaupt-general",
+      "pos": "adv",
+      "difficulty_score_auto": 35,
+      "level_auto": "A2",
+      "level_override": null,
+      "domain_tags": [
+        "Daily",
+        "Communication",
+        "Abstract"
+      ],
+      "notes": "ED-05: level raised to B1 on 2026-05-25. The discourse-level broadening use ('Überhaupt trinke ich wenig Kaffee.') is not a beginner pattern. See DL-012.",
+      "metadata_json": {},
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-a2-ueberhaupt-emphatic-question",
@@ -1452,7 +1471,9 @@
       "difficulty_score_auto": 35,
       "level_auto": "A2",
       "level_override": null,
-      "domain_tags": [],
+      "domain_tags": [
+        "Daily"
+      ],
       "notes": null,
       "review_status": "reviewed",
       "metadata_json": {
@@ -1871,9 +1892,9 @@
       "lexeme_id": "lex-it-per-lo-piu",
       "concept_id": "dce273cb-1477-41c8-14f3-84226c53e233",
       "lang": "it",
-      "text": "per lo piu",
+      "text": "per lo più",
       "frequency_rank": null,
-      "lemma": "per lo piu",
+      "lemma": "per lo più",
       "pos": "adv",
       "gender": "none",
       "countability": "none",
@@ -1939,9 +1960,9 @@
       "lexeme_id": "lex-en-therefore-2",
       "concept_id": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
       "lang": "en",
-      "text": "therefore",
+      "text": "because of that",
       "frequency_rank": null,
-      "lemma": "therefore",
+      "lemma": "because of that",
       "pos": "adv",
       "gender": "none",
       "countability": "none",
@@ -2092,9 +2113,9 @@
       "lexeme_id": "lex-en-pick-up",
       "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
       "lang": "en",
-      "text": "pick up",
+      "text": "to pick up (collect)",
       "frequency_rank": null,
-      "lemma": "pick up",
+      "lemma": "to pick up (collect)",
       "pos": "verb",
       "gender": "none",
       "countability": "none",
@@ -2126,9 +2147,9 @@
       "lexeme_id": "lex-it-andare-a-prendere",
       "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
       "lang": "it",
-      "text": "andare a prendere",
+      "text": "andare a prendere (ritirare)",
       "frequency_rank": null,
-      "lemma": "andare a prendere",
+      "lemma": "andare a prendere (ritirare)",
       "pos": "verb",
       "gender": "none",
       "countability": "none",
@@ -2347,9 +2368,9 @@
       "lexeme_id": "lex-en-stop",
       "concept_id": "23f3cd66-40a2-652f-205a-7557f2a9e950",
       "lang": "en",
-      "text": "stop",
+      "text": "to stop (doing something)",
       "frequency_rank": null,
-      "lemma": "stop",
+      "lemma": "to stop (doing something)",
       "pos": "verb",
       "gender": "none",
       "countability": "none",
@@ -6495,9 +6516,9 @@
       "lexeme_id": "lex-it-pulire-2",
       "concept_id": "concept-a2-reinigen",
       "lang": "it",
-      "text": "pulire",
+      "text": "pulire (a fondo)",
       "frequency_rank": null,
-      "lemma": "pulire",
+      "lemma": "pulire (a fondo)",
       "pos": "verb",
       "gender": "none",
       "countability": "none",
@@ -6512,9 +6533,9 @@
       "lexeme_id": "lex-en-to-clean-2",
       "concept_id": "concept-a2-reinigen",
       "lang": "en",
-      "text": "to clean",
+      "text": "to clean (thoroughly)",
       "frequency_rank": null,
-      "lemma": "to clean",
+      "lemma": "to clean (thoroughly)",
       "pos": "verb",
       "gender": "none",
       "countability": "none",
@@ -6784,9 +6805,9 @@
       "lexeme_id": "lex-it-distanza",
       "concept_id": "concept-a2-abstand",
       "lang": "it",
-      "text": "la distanza",
+      "text": "la distanza (intervallo)",
       "frequency_rank": null,
-      "lemma": "distanza",
+      "lemma": "distanza (intervallo)",
       "pos": "noun",
       "gender": "none",
       "countability": "none",
@@ -6929,6 +6950,57 @@
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-uberhaupt-2",
+      "concept_id": "concept-a2-ueberhaupt-general",
+      "lang": "de",
+      "text": "überhaupt",
+      "frequency_rank": null,
+      "lemma": "überhaupt",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-in-generale",
+      "concept_id": "concept-a2-ueberhaupt-general",
+      "lang": "it",
+      "text": "in generale",
+      "frequency_rank": null,
+      "lemma": "in generale",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "approximate",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-en-in-general",
+      "concept_id": "concept-a2-ueberhaupt-general",
+      "lang": "en",
+      "text": "in general",
+      "frequency_rank": null,
+      "lemma": "in general",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "approximate",
+      "is_primary": true,
       "status": "approved",
       "notes": null,
       "is_active": true
@@ -16970,8 +17042,8 @@
       "form_id": "76b0e9b3-317e-2604-243c-2ef65283587a",
       "lexeme_id": "lex-it-distanza",
       "lang": "it",
-      "surface": "la distanza",
-      "surface_search": "la distanza",
+      "surface": "la distanza (intervallo)",
+      "surface_search": "la distanza (intervallo)",
       "number_value": "sg",
       "grammatical_case": "none",
       "definiteness": "def",
@@ -17198,6 +17270,60 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "b23f30b3-b199-4728-3823-8c32b0206bed",
+      "lexeme_id": "lex-de-uberhaupt-2",
+      "lang": "de",
+      "surface": "überhaupt",
+      "surface_search": "uberhaupt",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "72a8c094-3c45-0a71-6c36-7b3f1021474d",
+      "lexeme_id": "lex-it-in-generale",
+      "lang": "it",
+      "surface": "in generale",
+      "surface_search": "in generale",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "2736917f-fc1a-465e-6607-c405500aed88",
+      "lexeme_id": "lex-en-in-general",
+      "lang": "en",
+      "surface": "in general",
+      "surface_search": "in general",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
       }
     },
     {
@@ -35928,6 +36054,78 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "a3bb4440-cd48-8560-67eb-c48477665b50",
+      "concept_id": "concept-a2-ueberhaupt-general",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_prod",
+      "source_form_id": "2736917f-fc1a-465e-6607-c405500aed88",
+      "primary_expected_form_id": "b23f30b3-b199-4728-3823-8c32b0206bed",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "b380e3d9-d388-cbf1-8133-1d086e173d36",
+      "concept_id": "concept-a2-ueberhaupt-general",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_rec",
+      "source_form_id": "b23f30b3-b199-4728-3823-8c32b0206bed",
+      "primary_expected_form_id": "2736917f-fc1a-465e-6607-c405500aed88",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "a800ba09-6b90-8b82-7485-6095ce4962ea",
+      "concept_id": "concept-a2-ueberhaupt-general",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "core_prod",
+      "source_form_id": "72a8c094-3c45-0a71-6c36-7b3f1021474d",
+      "primary_expected_form_id": "b23f30b3-b199-4728-3823-8c32b0206bed",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "566d3327-1f2c-49f9-b804-9ce5f7d9c291",
+      "concept_id": "concept-a2-ueberhaupt-general",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "b23f30b3-b199-4728-3823-8c32b0206bed",
+      "primary_expected_form_id": "72a8c094-3c45-0a71-6c36-7b3f1021474d",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "a8c87afe-3d3b-46a8-c1f1-5d59ed8268a5",
       "concept_id": "concept-a2-ueberhaupt-emphatic-question",
       "source_lang": "en",
@@ -37278,14 +37476,6 @@
       "translation_text": null
     },
     {
-      "example_id": "51dbaa37-83cc-794c-bc4e-160c459555d7",
-      "concept_id": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
-      "lang": "en",
-      "sentence": "She phoned her mother in the evening.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
       "example_id": "466980dd-4b84-713a-f795-5c49b40933de",
       "concept_id": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
       "lang": "it",
@@ -37473,7 +37663,7 @@
       "example_id": "51ac056e-d73d-6f23-c7ed-3c9be6a5e0c2",
       "concept_id": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
       "lang": "de",
-      "sentence": "Der Zug hat Verspaetung, wir warten noch.",
+      "sentence": "Der Zug hat Verspätung, wir warten noch.",
       "translation_lang": null,
       "translation_text": null
     },
@@ -37502,18 +37692,10 @@
       "translation_text": null
     },
     {
-      "example_id": "02c806ab-89ef-d0cc-95e3-d8a182486321",
-      "concept_id": "b5badb09-9fac-871c-a009-af06fbb2cef3",
-      "lang": "en",
-      "sentence": "The 5 km contest starts at eight.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
       "example_id": "0a0e7ead-910b-8836-7185-00b98958ef4b",
       "concept_id": "2de09df9-4a0c-8b2a-f080-6c52571b7064",
       "lang": "de",
-      "sentence": "Mein Schluessel ist nicht hier.",
+      "sentence": "Mein Schlüssel ist nicht hier.",
       "translation_lang": null,
       "translation_text": null
     },
@@ -37609,7 +37791,7 @@
       "example_id": "70d95392-2296-9bf0-4c56-40f97f9c3a69",
       "concept_id": "d0981aa3-9aed-3007-290a-3e2779bacea5",
       "lang": "de",
-      "sentence": "Danke, dir einen schoenen Abend.",
+      "sentence": "Danke, dir einen schönen Abend.",
       "translation_lang": null,
       "translation_text": null
     },
@@ -37794,14 +37976,6 @@
       "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
       "lang": "en",
       "sentence": "She went to the post office and brought the parcel home.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "9f942f76-819a-c09f-172b-426aa1b1d7f5",
-      "concept_id": "324d681d-6d2e-552f-6831-9758934c5d65",
-      "lang": "en",
-      "sentence": "They covered the walls with a fresh coat of color.",
       "translation_lang": null,
       "translation_text": null
     },
@@ -38049,7 +38223,7 @@
       "example_id": "f2c7085e-9367-ae82-e851-285588f0d7d7",
       "concept_id": "concept-a2-unterschied",
       "lang": "de",
-      "sentence": "Die beiden Geraete sehen aehnlich aus, funktionieren aber nicht gleich.",
+      "sentence": "Die beiden Geräte sehen ähnlich aus, funktionieren aber nicht gleich.",
       "translation_lang": null,
       "translation_text": null
     },
@@ -38142,150 +38316,6 @@
       "translation_text": null
     },
     {
-      "example_id": "example-en-fix-abstimmen",
-      "concept_id": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
-      "lang": "en",
-      "sentence": "When people vote, they choose someone to represent them in government.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-beachten",
-      "concept_id": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
-      "lang": "it",
-      "sentence": "Presta attenzione alle istruzioni del professore.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-beachten",
-      "concept_id": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
-      "lang": "en",
-      "sentence": "Pay attention to the details when you're reading the instructions.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-bewerbung",
-      "concept_id": "28155ced-1190-8879-d1e4-766d9865a842",
-      "lang": "it",
-      "sentence": "La candidatura per il ruolo di dirigente è stata presentata ieri.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-bewerbung",
-      "concept_id": "28155ced-1190-8879-d1e4-766d9865a842",
-      "lang": "en",
-      "sentence": "She submitted her application for the scholarship last week.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-ebenfalls",
-      "concept_id": "d0981aa3-9aed-3007-290a-3e2779bacea5",
-      "lang": "it",
-      "sentence": "Anche lui ha una macchina nuova.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-uberraschung",
-      "concept_id": "a73af94e-f267-9f64-bf2b-134fa2544a0c",
-      "lang": "de",
-      "sentence": "Am Freitagabend war es eine Überraschung, als wir das neue Restaurant entdeckten.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-uberraschung",
-      "concept_id": "a73af94e-f267-9f64-bf2b-134fa2544a0c",
-      "lang": "it",
-      "sentence": "La sorpresa fu un momento indimenticabile.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-uberraschung",
-      "concept_id": "a73af94e-f267-9f64-bf2b-134fa2544a0c",
-      "lang": "en",
-      "sentence": "It was a surprise when we discovered the new restaurant on Friday night.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-angebot",
-      "concept_id": "87664a7f-b773-5acd-374e-4c359b635e7c",
-      "lang": "it",
-      "sentence": "L'azienda ha fatto un'offerta generosa per il nuovo progetto.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "medium",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-en-fix-angebot",
-      "concept_id": "87664a7f-b773-5acd-374e-4c359b635e7c",
-      "lang": "en",
-      "sentence": "The company made me an excellent offer for my services.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-passen",
-      "concept_id": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
-      "lang": "de",
-      "sentence": "Die Farben passen gut zusammen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-passen",
-      "concept_id": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
-      "lang": "en",
-      "sentence": "These shoes match my new jacket.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-de-fix-beenden",
       "concept_id": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
       "lang": "de",
@@ -38297,76 +38327,10 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-en-fix-beenden",
-      "concept_id": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
-      "lang": "en",
-      "sentence": "She finished her homework before dinner.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-de-fix-entscheidung",
       "concept_id": "concept-a2-entscheidung",
       "lang": "de",
       "sentence": "Die Mannschaft hat sich für einen neuen Trainer entschieden.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-entscheidung",
-      "concept_id": "concept-a2-entscheidung",
-      "lang": "it",
-      "sentence": "Lei ha preso una decisione difficile.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-entscheidung",
-      "concept_id": "concept-a2-entscheidung",
-      "lang": "en",
-      "sentence": "She had to make a tough decision.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-losung",
-      "concept_id": "concept-a2-loesung",
-      "lang": "de",
-      "sentence": "Das Rätsel war schwer, aber die Lösung war einfach.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-losung",
-      "concept_id": "concept-a2-loesung",
-      "lang": "it",
-      "sentence": "Il problema era difficile ma la soluzione era semplice.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-losung",
-      "concept_id": "concept-a2-loesung",
-      "lang": "en",
-      "sentence": "The puzzle was hard but the solution was simple.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -38389,17 +38353,6 @@
       "concept_id": "concept-a2-erklaeren",
       "lang": "it",
       "sentence": "Lui spiega l'esercizio agli studenti.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-erklaren",
-      "concept_id": "concept-a2-erklaeren",
-      "lang": "en",
-      "sentence": "He explains the task to the children.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -38462,17 +38415,6 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-en-fix-empfehlen",
-      "concept_id": "concept-a2-empfehlen",
-      "lang": "en",
-      "sentence": "I recommend you try this restaurant.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-de-fix-reservieren",
       "concept_id": "concept-a2-reservieren",
       "lang": "de",
@@ -38495,50 +38437,6 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-en-fix-reservieren",
-      "concept_id": "concept-a2-reservieren",
-      "lang": "en",
-      "sentence": "I reserved a seat for the concert.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-moglich",
-      "concept_id": "concept-a2-moeglich",
-      "lang": "de",
-      "sentence": "Ein Wunder ist möglich.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-moglich",
-      "concept_id": "concept-a2-moeglich",
-      "lang": "it",
-      "sentence": "È possibile andare in ufficio domani.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-moglich",
-      "concept_id": "concept-a2-moeglich",
-      "lang": "en",
-      "sentence": "It is possible to go to the office tomorrow.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-de-fix-notig",
       "concept_id": "concept-a2-noetig",
       "lang": "de",
@@ -38550,384 +38448,10 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-it-fix-notig",
-      "concept_id": "concept-a2-noetig",
-      "lang": "it",
-      "sentence": "È necessario mangiare una buona colazione per avere energia durante la giornata.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-notig",
-      "concept_id": "concept-a2-noetig",
-      "lang": "en",
-      "sentence": "It is necessary to wear a helmet when riding a motorcycle.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-punktlich",
-      "concept_id": "concept-a2-puenktlich",
-      "lang": "de",
-      "sentence": "Der Zug fährt pünktlich ein.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-punktlich",
-      "concept_id": "concept-a2-puenktlich",
-      "lang": "it",
-      "sentence": "Il treno è arrivato puntuale.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-punktlich",
-      "concept_id": "concept-a2-puenktlich",
-      "lang": "en",
-      "sentence": "The train arrived on time.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-wahrscheinlich",
-      "concept_id": "concept-a2-wahrscheinlich",
-      "lang": "de",
-      "sentence": "Er wird wahrscheinlich kommen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-wahrscheinlich",
-      "concept_id": "concept-a2-wahrscheinlich",
-      "lang": "it",
-      "sentence": "Probabilmente andremo al mare domani.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-wahrscheinlich",
-      "concept_id": "concept-a2-wahrscheinlich",
-      "lang": "en",
-      "sentence": "He will probably pass the exam.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-besonders",
-      "concept_id": "concept-a2-besonders",
-      "lang": "de",
-      "sentence": "Ich habe besonders an diesem Tag viel Zeit gehabt.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-besonders",
-      "concept_id": "concept-a2-besonders",
-      "lang": "it",
-      "sentence": "Ella è soprattutto brava in arte.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-besonders",
-      "concept_id": "concept-a2-besonders",
-      "lang": "en",
-      "sentence": "He is especially good at swimming.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-endlich",
-      "concept_id": "concept-a2-endlich",
-      "lang": "de",
-      "sentence": "Nach vielen Jahren Arbeit konnte er sich endlich zur Ruhe setzen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-endlich",
-      "concept_id": "concept-a2-endlich",
-      "lang": "it",
-      "sentence": "Dopo tanta attesa, sono finalmente arrivato a casa.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-endlich",
-      "concept_id": "concept-a2-endlich",
-      "lang": "en",
-      "sentence": "After a long wait, he finally arrived.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-erfahrung",
-      "concept_id": "concept-a2-erfahrung",
-      "lang": "de",
-      "sentence": "Die Reise nach Italien war eine unvergessliche Erfahrung.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-erfahrung",
-      "concept_id": "concept-a2-erfahrung",
-      "lang": "it",
-      "sentence": "Il viaggio in Italia è stata un'esperienza indimenticabile.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-erfahrung",
-      "concept_id": "concept-a2-erfahrung",
-      "lang": "en",
-      "sentence": "The trip to Italy was an unforgettable experience.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-einladung",
-      "concept_id": "concept-a2-einladung",
-      "lang": "de",
-      "sentence": "Die Einladung zum Geburtstag war sehr herzlich formuliert.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-einladung",
-      "concept_id": "concept-a2-einladung",
-      "lang": "it",
-      "sentence": "L'invito alla festa era molto elegante.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-einladung",
-      "concept_id": "concept-a2-einladung",
-      "lang": "en",
-      "sentence": "He received an invitation to the birthday party.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-nachricht",
-      "concept_id": "concept-a2-nachricht",
-      "lang": "de",
-      "sentence": "Ich habe ihm eine Nachricht geschickt, um ihn zu informieren.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-nachricht",
-      "concept_id": "concept-a2-nachricht",
-      "lang": "it",
-      "sentence": "Gli ha inviato un messaggio per dirgli che sarebbe arrivato più tardi.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-nachricht",
-      "concept_id": "concept-a2-nachricht",
-      "lang": "en",
-      "sentence": "He sent her a message.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-termin",
-      "concept_id": "concept-a2-termin",
-      "lang": "de",
-      "sentence": "Morgen um zehn Uhr habe ich einen Termin mit dem Arzt.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-termin",
-      "concept_id": "concept-a2-termin",
-      "lang": "it",
-      "sentence": "Domani alle dieci ho un appuntamento con il medico.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-termin",
-      "concept_id": "concept-a2-termin",
-      "lang": "en",
-      "sentence": "I have an appointment with the doctor tomorrow at ten.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-moglichkeit",
-      "concept_id": "concept-a2-moeglichkeit",
-      "lang": "de",
-      "sentence": "Es gibt viele Möglichkeiten, um das Problem zu lösen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-moglichkeit",
-      "concept_id": "concept-a2-moeglichkeit",
-      "lang": "it",
-      "sentence": "Ci sono molte possibilità di risolvere questo problema.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-en-fix-moglichkeit",
       "concept_id": "concept-a2-moeglichkeit",
       "lang": "en",
       "sentence": "There are many possibilities for the future.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-meinung",
-      "concept_id": "concept-a2-meinung",
-      "lang": "de",
-      "sentence": "Ich habe eine andere Meinung als du.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-meinung",
-      "concept_id": "concept-a2-meinung",
-      "lang": "it",
-      "sentence": "Ho un'opinione diversa da te.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-meinung",
-      "concept_id": "concept-a2-meinung",
-      "lang": "en",
-      "sentence": "I have a different opinion than you.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-gewohnheit",
-      "concept_id": "concept-a2-gewohnheit",
-      "lang": "de",
-      "sentence": "Ich habe die Gewohnheit, jeden Morgen früh aufzustehen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-gewohnheit",
-      "concept_id": "concept-a2-gewohnheit",
-      "lang": "it",
-      "sentence": "Ha l'abitudine di alzarsi presto.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-gewohnheit",
-      "concept_id": "concept-a2-gewohnheit",
-      "lang": "en",
-      "sentence": "He has the habit of getting up early.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -38968,28 +38492,6 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-de-fix-verspatung",
-      "concept_id": "concept-a2-verspaetung",
-      "lang": "de",
-      "sentence": "Der Zug hatte eine halbe Stunde Verspätung, weil ein Baum auf die Gleise gefallen war.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-verspatung",
-      "concept_id": "concept-a2-verspaetung",
-      "lang": "it",
-      "sentence": "Il treno è arrivato con mezz'ora di ritardo a causa di un albero caduto sui binari.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-en-fix-verspatung",
       "concept_id": "concept-a2-verspaetung",
       "lang": "en",
@@ -39023,109 +38525,10 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-en-fix-umzug",
-      "concept_id": "concept-a2-umzug",
-      "lang": "en",
-      "sentence": "He has to move soon.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-erlaubnis",
-      "concept_id": "concept-a2-erlaubnis",
-      "lang": "de",
-      "sentence": "Die Lehrerin gab den Schülern die Erlaubnis, das Klassenzimmer zu verlassen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-erlaubnis",
-      "concept_id": "concept-a2-erlaubnis",
-      "lang": "it",
-      "sentence": "Il professore ha dato agli studenti il permesso di uscire dall'aula.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-erlaubnis",
-      "concept_id": "concept-a2-erlaubnis",
-      "lang": "en",
-      "sentence": "The teacher gave the students permission to leave the classroom.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-vorschlag",
-      "concept_id": "concept-a2-vorschlag",
-      "lang": "de",
-      "sentence": "Er machte einen Vorschlag, wie man das Problem lösen könnte.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-vorschlag",
-      "concept_id": "concept-a2-vorschlag",
-      "lang": "it",
-      "sentence": "Ha fatto una proposta per la prossima conferenza.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-en-fix-vorschlag",
       "concept_id": "concept-a2-vorschlag",
       "lang": "en",
       "sentence": "He suggested that we should start the project earlier.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-gesprach",
-      "concept_id": "concept-a2-gespraech",
-      "lang": "de",
-      "sentence": "Die beiden Freunde führten eine lange und angenehme Unterhaltung über ihre gemeinsamen Interessen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-gesprach",
-      "concept_id": "concept-a2-gespraech",
-      "lang": "it",
-      "sentence": "Abbiamo avuto una conversazione molto interessante sulle nuove tecnologie.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-gesprach",
-      "concept_id": "concept-a2-gespraech",
-      "lang": "en",
-      "sentence": "We had a long conversation about the new laws.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -39144,28 +38547,6 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-it-fix-teilnehmen",
-      "concept_id": "concept-a2-teilnehmen",
-      "lang": "it",
-      "sentence": "Lei vuole partecipare alla conferenza.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-teilnehmen",
-      "concept_id": "concept-a2-teilnehmen",
-      "lang": "en",
-      "sentence": "Every day, I participate in an online trivia contest.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-it-fix-vorbereiten",
       "concept_id": "concept-a2-vorbereiten",
       "lang": "it",
@@ -39177,131 +38558,10 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-en-fix-vorbereiten",
-      "concept_id": "concept-a2-vorbereiten",
-      "lang": "en",
-      "sentence": "He prepares the meal.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-it-fix-absagen",
       "concept_id": "concept-a2-absagen",
       "lang": "it",
       "sentence": "La festa è stata annullata.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-absagen",
-      "concept_id": "concept-a2-absagen",
-      "lang": "en",
-      "sentence": "I had to cancel the party because I was sick.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-verschieben",
-      "concept_id": "concept-a2-verschieben",
-      "lang": "de",
-      "sentence": "Wir müssen das Treffen auf nächste Woche verschieben, da der Chef krank ist.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-verschieben",
-      "concept_id": "concept-a2-verschieben",
-      "lang": "it",
-      "sentence": "Devo rimandare l'appuntamento perché il capo non sarà lì.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-verschieben",
-      "concept_id": "concept-a2-verschieben",
-      "lang": "en",
-      "sentence": "I will need to postpone this meeting until next week as we have a scheduling conflict.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-verbessern",
-      "concept_id": "concept-a2-verbessern",
-      "lang": "de",
-      "sentence": "Der Lehrer hat die Schüler ermutigt, ihre Arbeit zu verbessern.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-verbessern",
-      "concept_id": "concept-a2-verbessern",
-      "lang": "it",
-      "sentence": "Il professore ha incoraggiato gli studenti a migliorare il loro lavoro.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-verbessern",
-      "concept_id": "concept-a2-verbessern",
-      "lang": "en",
-      "sentence": "The teacher encouraged the students to improve their work.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-vermeiden",
-      "concept_id": "concept-a2-vermeiden",
-      "lang": "de",
-      "sentence": "Er versucht, den Fehler zu vermeiden.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-vermeiden",
-      "concept_id": "concept-a2-vermeiden",
-      "lang": "it",
-      "sentence": "Cerca di evitare il cibo spazzatura quando sei malato.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-vermeiden",
-      "concept_id": "concept-a2-vermeiden",
-      "lang": "en",
-      "sentence": "When I'm sick, I try to avoid eating.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -39324,39 +38584,6 @@
       "concept_id": "concept-a2-fehlen",
       "lang": "it",
       "sentence": "Il libro manca sul tavolo.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-fehlen",
-      "concept_id": "concept-a2-fehlen",
-      "lang": "en",
-      "sentence": "The book is missing from the shelf.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-stattfinden",
-      "concept_id": "concept-a2-stattfinden",
-      "lang": "it",
-      "sentence": "Il concerto avrà luogo la settimana prossima.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-stattfinden",
-      "concept_id": "concept-a2-stattfinden",
-      "lang": "en",
-      "sentence": "The concert will take place next week.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -39419,17 +38646,6 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-en-fix-verdienen",
-      "concept_id": "concept-a2-verdienen",
-      "lang": "en",
-      "sentence": "He earns a lot of money through his job.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-de-fix-unterschreiben",
       "concept_id": "concept-a2-unterschreiben",
       "lang": "de",
@@ -39452,28 +38668,6 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-en-fix-unterschreiben",
-      "concept_id": "concept-a2-unterschreiben",
-      "lang": "en",
-      "sentence": "Please sign here to confirm the form.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-umziehen",
-      "concept_id": "concept-a2-umziehen-verb",
-      "lang": "de",
-      "sentence": "Wir ziehen nächste Woche in eine neue Wohnung.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-it-fix-umziehen",
       "concept_id": "concept-a2-umziehen-verb",
       "lang": "it",
@@ -39485,65 +38679,10 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-en-fix-umziehen",
-      "concept_id": "concept-a2-umziehen-verb",
-      "lang": "en",
-      "sentence": "She needs to move house because her home is too small.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-it-fix-zuruckgeben",
       "concept_id": "concept-a2-zurueckgeben",
       "lang": "it",
       "sentence": "Ho restituito il libro alla biblioteca dopo averlo letto.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-zuruckgeben",
-      "concept_id": "concept-a2-zurueckgeben",
-      "lang": "en",
-      "sentence": "I will return the book to the library once I have finished reading it.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-verfugbar",
-      "concept_id": "concept-a2-verfuegbar",
-      "lang": "de",
-      "sentence": "Das Buch ist in der Bibliothek verfügbar.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-verfugbar",
-      "concept_id": "concept-a2-verfuegbar",
-      "lang": "it",
-      "sentence": "Il libro è disponibile nella libreria.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-verfugbar",
-      "concept_id": "concept-a2-verfuegbar",
-      "lang": "en",
-      "sentence": "The book is available in the library.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -39584,32 +38723,10 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-de-fix-kostenlos",
-      "concept_id": "concept-a2-kostenlos",
-      "lang": "de",
-      "sentence": "Der Eintritt zum Museum ist kostenlos.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-it-fix-kostenlos",
       "concept_id": "concept-a2-kostenlos",
       "lang": "it",
       "sentence": "Il software è disponibile gratuitamente per tutti gli utenti.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-kostenlos",
-      "concept_id": "concept-a2-kostenlos",
-      "lang": "en",
-      "sentence": "The museum entry is free.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -39639,76 +38756,10 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-en-fix-dringend",
-      "concept_id": "concept-a2-dringend",
-      "lang": "en",
-      "sentence": "The report must be submitted urgently.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-praktisch",
-      "concept_id": "concept-a2-praktisch",
-      "lang": "de",
-      "sentence": "Die Tasche ist sehr praktisch, weil sie viele Fächer hat.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-praktisch",
-      "concept_id": "concept-a2-praktisch",
-      "lang": "it",
-      "sentence": "Il nuovo strumento è molto pratico per il lavoro domestico.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-praktisch",
-      "concept_id": "concept-a2-praktisch",
-      "lang": "en",
-      "sentence": "The new tool is very practical for home use.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-unterschiedlich",
-      "concept_id": "concept-a2-unterschiedlich",
-      "lang": "de",
-      "sentence": "Die beiden Brüder sind in ihren Interessen unterschiedlich.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-it-fix-unterschiedlich",
       "concept_id": "concept-a2-unterschiedlich",
       "lang": "it",
       "sentence": "I due fratelli hanno gusti diversi.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-unterschiedlich",
-      "concept_id": "concept-a2-unterschiedlich",
-      "lang": "en",
-      "sentence": "The twins have different hobbies.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -39727,65 +38778,10 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-it-fix-lebendig",
-      "concept_id": "concept-a2-lebendig",
-      "lang": "it",
-      "sentence": "La festa era vivace e piena di entusiasmo.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-lebendig",
-      "concept_id": "concept-a2-lebendig",
-      "lang": "en",
-      "sentence": "The party was lively and full of excitement.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-bequem",
-      "concept_id": "concept-a2-bequem",
-      "lang": "de",
-      "sentence": "Der Sessel ist sehr bequem, weil er gut gepolstert ist.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-it-fix-bequem",
       "concept_id": "concept-a2-bequem",
       "lang": "it",
       "sentence": "Il divano è molto morbido e ci si può rilassare bene.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-bequem",
-      "concept_id": "concept-a2-bequem",
-      "lang": "en",
-      "sentence": "The sofa is very comfortable.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-deshalb",
-      "concept_id": "concept-a2-deshalb",
-      "lang": "de",
-      "sentence": "Es regnete den ganzen Tag, deshalb blieben wir zu Hause.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -39804,274 +38800,10 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-en-fix-deshalb",
-      "concept_id": "concept-a2-deshalb",
-      "lang": "en",
-      "sentence": "It is late, therefore he must get up.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-drinnen",
-      "concept_id": "concept-a2-drinnen",
-      "lang": "de",
-      "sentence": "Die Kinder spielen drinnen im Zimmer.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-drinnen",
-      "concept_id": "concept-a2-drinnen",
-      "lang": "it",
-      "sentence": "Lascia i bambini dentro mentre tu vai a comprare.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-drinnen",
-      "concept_id": "concept-a2-drinnen",
-      "lang": "en",
-      "sentence": "The cat is inside the house.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-unterwegs",
-      "concept_id": "concept-a2-unterwegs",
-      "lang": "de",
-      "sentence": "Er ist unterwegs zur Arbeit.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-unterwegs",
-      "concept_id": "concept-a2-unterwegs",
-      "lang": "it",
-      "sentence": "Siamo in viaggio da Roma a Milano.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-unterwegs",
-      "concept_id": "concept-a2-unterwegs",
-      "lang": "en",
-      "sentence": "He is on the way to work.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-bisher",
-      "concept_id": "concept-a2-bisher",
-      "lang": "de",
-      "sentence": "Bisher hat es keinen Regen gegeben.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-bisher",
-      "concept_id": "concept-a2-bisher",
-      "lang": "it",
-      "sentence": "Finora non ho avuto il tempo di leggere il libro.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-bisher",
-      "concept_id": "concept-a2-bisher",
-      "lang": "en",
-      "sentence": "So far, I haven't had time to read the book.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-sonst",
-      "concept_id": "concept-a2-sonst",
-      "lang": "de",
-      "sentence": "Wir müssen jetzt gehen, sonst verpassen wir den Zug.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-it-fix-sonst",
       "concept_id": "concept-a2-sonst",
       "lang": "it",
       "sentence": "Se non vieni, andiamo senza di te.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-sonst",
-      "concept_id": "concept-a2-sonst",
-      "lang": "en",
-      "sentence": "You need to arrive on time, otherwise you'll be late.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-mindestens",
-      "concept_id": "concept-a2-mindestens",
-      "lang": "de",
-      "sentence": "Er hat mindestens fünf Jahre gearbeitet.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-mindestens",
-      "concept_id": "concept-a2-mindestens",
-      "lang": "it",
-      "sentence": "Hai bisogno di almeno due persone per spostare il divano.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-mindestens",
-      "concept_id": "concept-a2-mindestens",
-      "lang": "en",
-      "sentence": "There are at least three apples left.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-plotzlich",
-      "concept_id": "concept-a2-ploetzlich",
-      "lang": "de",
-      "sentence": "Plötzlich begann es zu regnen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-plotzlich",
-      "concept_id": "concept-a2-ploetzlich",
-      "lang": "it",
-      "sentence": "Il gatto è improvvisamente saltato sul tavolo.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-plotzlich",
-      "concept_id": "concept-a2-ploetzlich",
-      "lang": "en",
-      "sentence": "Suddenly, the lights went out.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-veranstaltung",
-      "concept_id": "concept-a2-veranstaltung",
-      "lang": "de",
-      "sentence": "Jeder freut sich auf die große Veranstaltung am Wochenende.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-veranstaltung",
-      "concept_id": "concept-a2-veranstaltung",
-      "lang": "it",
-      "sentence": "Tutti sono entusiasti dell'evento che si terrà questo fine settimana.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-veranstaltung",
-      "concept_id": "concept-a2-veranstaltung",
-      "lang": "en",
-      "sentence": "The conference was a major event.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-ergebnis",
-      "concept_id": "concept-a2-ergebnis",
-      "lang": "de",
-      "sentence": "Nach vielen Stunden Arbeit war das Ergebnis sehr zufriedenstellend.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-ergebnis",
-      "concept_id": "concept-a2-ergebnis",
-      "lang": "it",
-      "sentence": "Il risultato della competizione è stato annunciato.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-ergebnis",
-      "concept_id": "concept-a2-ergebnis",
-      "lang": "en",
-      "sentence": "The result of the experiment was unexpected.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -40090,87 +38822,10 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-en-fix-mitbringen",
-      "concept_id": "concept-a2-mitbringen",
-      "lang": "en",
-      "sentence": "He always brings a bag along.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-ubernachten",
-      "concept_id": "concept-a2-uebernachten",
-      "lang": "de",
-      "sentence": "Wir übernachten in einem Hotel in der Nähe.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-ubernachten",
-      "concept_id": "concept-a2-uebernachten",
-      "lang": "en",
-      "sentence": "They decided to stay overnight at the cabin.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-it-fix-deutlich",
       "concept_id": "concept-a2-deutlich",
       "lang": "it",
       "sentence": "La sua voce era chiara anche da lontano.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-seltsam",
-      "concept_id": "concept-a2-seltsam",
-      "lang": "de",
-      "sentence": "Das Verhalten des Mannes war seltsam, er sprach mit den Bäumen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-seltsam",
-      "concept_id": "concept-a2-seltsam",
-      "lang": "en",
-      "sentence": "She has a strange habit of talking to herself.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-normalerweise",
-      "concept_id": "concept-a2-normalerweise",
-      "lang": "de",
-      "sentence": "Es regnet normalerweise im Herbst.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-normalerweise",
-      "concept_id": "concept-a2-normalerweise",
-      "lang": "it",
-      "sentence": "Normalmente, i bambini vanno a scuola alle otto.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -40189,65 +38844,10 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-de-fix-nirgendwo",
-      "concept_id": "concept-a2-nirgendwo",
-      "lang": "de",
-      "sentence": "Er ist nirgendwo zu finden.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-nirgendwo",
-      "concept_id": "concept-a2-nirgendwo",
-      "lang": "it",
-      "sentence": "Non si trova da nessuna parte.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
       "example_id": "example-en-fix-nirgendwo",
       "concept_id": "concept-a2-nirgendwo",
       "lang": "en",
       "sentence": "There was no one around, not even a car.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-de-fix-sogar",
-      "concept_id": "concept-a2-sogar",
-      "lang": "de",
-      "sentence": "Sogar ein schwieriges Problem wurde gelöst.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-it-fix-sogar",
-      "concept_id": "concept-a2-sogar",
-      "lang": "it",
-      "sentence": "Persino un problema difficile è stato risolto.",
-      "source": "ai",
-      "generated_by": "ai",
-      "confidence": "high",
-      "notes": null,
-      "review_status": "reviewed"
-    },
-    {
-      "example_id": "example-en-fix-sogar",
-      "concept_id": "concept-a2-sogar",
-      "lang": "en",
-      "sentence": "Even a tough problem was solved.",
       "source": "ai",
       "generated_by": "ai",
       "confidence": "high",
@@ -40287,65 +38887,10 @@
       "review_status": "reviewed"
     },
     {
-      "example_id": "example-de-a2-rasen",
-      "concept_id": "concept-a2-rasen",
-      "lang": "de",
-      "sentence": "Die Autos rasen über die Autobahn.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
       "example_id": "example-it-a2-rasen",
       "concept_id": "concept-a2-rasen",
       "lang": "it",
       "sentence": "Le auto corrono veloci sull'autostrada.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-en-a2-rasen",
-      "concept_id": "concept-a2-rasen",
-      "lang": "en",
-      "sentence": "The cars race down the highway.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-de-a2-kontext",
-      "concept_id": "concept-a2-kontext",
-      "lang": "de",
-      "sentence": "Der Kontext ist wichtig für das Verständnis des Textes.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-it-a2-kontext",
-      "concept_id": "concept-a2-kontext",
-      "lang": "it",
-      "sentence": "Il contesto è importante per la comprensione del testo.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-en-a2-kontext",
-      "concept_id": "concept-a2-kontext",
-      "lang": "en",
-      "sentence": "The context is important for understanding the text.",
       "source": "ai",
       "generated_by": "ai",
       "notes": null,
@@ -40373,39 +38918,6 @@
       "notes": null,
       "review_status": "reviewed",
       "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-de-a2-wettbewerb",
-      "concept_id": "concept-a2-wettbewerb",
-      "lang": "de",
-      "sentence": "Er hat am Wettbewerb teilgenommen.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-it-a2-wettbewerb",
-      "concept_id": "concept-a2-wettbewerb",
-      "lang": "it",
-      "sentence": "Ha partecipato alla competizione.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-en-a2-wettbewerb",
-      "concept_id": "concept-a2-wettbewerb",
-      "lang": "en",
-      "sentence": "He participated in the competition.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
     }
   ],
   "concept_definitions": [
@@ -40427,11 +38939,7 @@
         "stroll"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "competition": "loose",
-        "rivalry": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "b5badb09-9fac-871c-a009-af06fbb2cef3",
@@ -40448,11 +38956,7 @@
         "Stillstand"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Rennen": "exact",
-        "Wettkampf": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "b5badb09-9fac-871c-a009-af06fbb2cef3",
@@ -40472,10 +38976,7 @@
         "camminata"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "sfida": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
@@ -40494,11 +38995,7 @@
         "refrain from voting"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "ballot": "loose",
-        "elect": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
@@ -40514,10 +39011,7 @@
         "ablehnen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "entscheiden": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
@@ -40536,11 +39030,7 @@
         "rifiutare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "esprimere": "loose",
-        "sostenere": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
@@ -40558,15 +39048,12 @@
         "neglect"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "notice": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
       "lang": "de",
-      "short_definition": "Etwas oder jemanden bewusst wahrnehmen und beruecksichtigen.",
+      "short_definition": "Etwas oder jemanden bewusst wahrnehmen und berücksichtigen.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -40580,11 +39067,7 @@
         "übersehen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "wahrnehmen": "loose",
-        "beobachten": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
@@ -40602,11 +39085,7 @@
         "trascurare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "osservare": "loose",
-        "considerare": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "28155ced-1190-8879-d1e4-766d9865a842",
@@ -40624,10 +39103,7 @@
         "withdrawal"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "petition": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "28155ced-1190-8879-d1e4-766d9865a842",
@@ -40643,8 +39119,7 @@
         "Absage"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "28155ced-1190-8879-d1e4-766d9865a842",
@@ -40663,11 +39138,7 @@
         "abbandono"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "domanda": "loose",
-        "richiesta": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "2de09df9-4a0c-8b2a-f080-6c52571b7064",
@@ -40686,11 +39157,7 @@
         "a particular location"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "some place": "loose",
-        "a certain spot": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "2de09df9-4a0c-8b2a-f080-6c52571b7064",
@@ -40707,11 +39174,7 @@
         "nirgendwo"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "anonym": "loose",
-        "woanders": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "2de09df9-4a0c-8b2a-f080-6c52571b7064",
@@ -40730,10 +39193,7 @@
         "in un luogo ben definito"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "in un certo punto": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "d0981aa3-9aed-3007-290a-3e2779bacea5",
@@ -40753,16 +39213,12 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "as well": "exact",
-        "too": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "d0981aa3-9aed-3007-290a-3e2779bacea5",
       "lang": "de",
-      "short_definition": "Signalisiert, dass fuer eine zweite Person dasselbe gilt.",
+      "short_definition": "Signalisiert, dass für eine zweite Person dasselbe gilt.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -40776,11 +39232,7 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "auch": "exact",
-        "gleichfalls": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "d0981aa3-9aed-3007-290a-3e2779bacea5",
@@ -40800,11 +39252,7 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "anche": "exact",
-        "allo stesso modo": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "dce273cb-1477-41c8-14f3-84226c53e233",
@@ -40823,8 +39271,7 @@
         "infrequently"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "dce273cb-1477-41c8-14f3-84226c53e233",
@@ -40842,11 +39289,7 @@
         "nie"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "häufig": "loose",
-        "oft": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "dce273cb-1477-41c8-14f3-84226c53e233",
@@ -40864,10 +39307,7 @@
         "di rado"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "in generale": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "5a3f0258-ae5f-5c70-4b43-84454023b3c7",
@@ -40884,11 +39324,7 @@
         "different"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "alike": "exact",
-        "comparable": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "5a3f0258-ae5f-5c70-4b43-84454023b3c7",
@@ -40906,10 +39342,7 @@
         "unterschiedlich"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "gleichartig": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "5a3f0258-ae5f-5c70-4b43-84454023b3c7",
@@ -40926,10 +39359,7 @@
         "diverso"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "analogo": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
@@ -40947,11 +39377,7 @@
         "however"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "thus": "exact",
-        "hence": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
@@ -40968,11 +39394,7 @@
         "trotzdem"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "deshalb": "exact",
-        "darum": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
@@ -40990,10 +39412,7 @@
         "incontrariamente"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "perciò": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "e26099e6-6292-9c2d-6b9a-69cf996ba8f7",
@@ -41012,16 +39431,12 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "in any way": "exact",
-        "in the least": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "e26099e6-6292-9c2d-6b9a-69cf996ba8f7",
       "lang": "de",
-      "short_definition": "Verstaerkt mit einer Verneinung, dass etwas gar nicht der Fall ist.",
+      "short_definition": "Verstärkt mit einer Verneinung, dass etwas gar nicht der Fall ist.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -41035,10 +39450,7 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "gar nicht": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "e26099e6-6292-9c2d-6b9a-69cf996ba8f7",
@@ -41056,10 +39468,7 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "affatto": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "e65a87f9-7e04-cfff-d26c-a3b387c75ee5",
@@ -41075,10 +39484,7 @@
         "terrible"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "awesome": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "e65a87f9-7e04-cfff-d26c-a3b387c75ee5",
@@ -41094,10 +39500,7 @@
         "schrecklich"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "fantastisch": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "e65a87f9-7e04-cfff-d26c-a3b387c75ee5",
@@ -41113,8 +39516,7 @@
         "terribile"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
@@ -41124,7 +39526,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "collect",
         "fetch",
         "retrieve"
       ],
@@ -41134,11 +39535,7 @@
         "leave behind"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "fetch": "exact",
-        "retrieve": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
@@ -41155,10 +39552,7 @@
         "zurücklassen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "holen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
@@ -41168,7 +39562,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "prendere",
         "portare via",
         "recuperare"
       ],
@@ -41179,14 +39572,7 @@
         "abbandonare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "generated_by": "ai",
-      "confidence": "high",
-      "review_status": "reviewed",
-      "synonym_tiers_json": {
-        "prendere": "loose",
-        "portare via": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "324d681d-6d2e-552f-6831-9758934c5d65",
@@ -41205,12 +39591,7 @@
         "remove"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "color": "loose",
-        "apply": "loose",
-        "daub": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "324d681d-6d2e-552f-6831-9758934c5d65",
@@ -41227,11 +39608,7 @@
         "radieren"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "pinseln": "loose",
-        "streichen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "324d681d-6d2e-552f-6831-9758934c5d65",
@@ -41249,10 +39626,7 @@
         "rimuovere"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "applicare": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
@@ -41271,11 +39645,7 @@
         "leave alone"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "phone": "exact",
-        "contact": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
@@ -41292,11 +39662,7 @@
         "auflegen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "kontakieren": "loose",
-        "erreichen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
@@ -41315,10 +39681,7 @@
         "ignorare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "raggiungere": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
@@ -41335,10 +39698,7 @@
         "receive"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "dispatch": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
@@ -41355,10 +39715,7 @@
         "empfangen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "zusenden": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
@@ -41375,11 +39732,7 @@
         "ricevere"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "mandare": "exact",
-        "trasmettere": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "a73af94e-f267-9f64-bf2b-134fa2544a0c",
@@ -41397,8 +39750,7 @@
         "the predictable"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "a73af94e-f267-9f64-bf2b-134fa2544a0c",
@@ -41416,10 +39768,7 @@
         "Vorhersehbarkeit"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "der Schreck": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "a73af94e-f267-9f64-bf2b-134fa2544a0c",
@@ -41437,10 +39786,7 @@
         "abitudine"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "stupore": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "23f3cd66-40a2-652f-205a-7557f2a9e950",
@@ -41461,17 +39807,12 @@
         "persist"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "cease": "exact",
-        "halt": "loose",
-        "end": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "23f3cd66-40a2-652f-205a-7557f2a9e950",
       "lang": "de",
-      "short_definition": "Eine Taetigkeit nicht weiterfuehren.",
+      "short_definition": "Eine Tätigkeit nicht weiterführen.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -41485,10 +39826,7 @@
         "weitermachen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "abbrechen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "23f3cd66-40a2-652f-205a-7557f2a9e950",
@@ -41507,10 +39845,7 @@
         "proseguire"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "cessare": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "77962681-e561-09cc-772c-9c4285175bf9",
@@ -41527,10 +39862,7 @@
         "unmarried"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "wedded": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "77962681-e561-09cc-772c-9c4285175bf9",
@@ -41547,10 +39879,7 @@
         "unverheiratet"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "vermählt": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "77962681-e561-09cc-772c-9c4285175bf9",
@@ -41568,10 +39897,7 @@
         "nubile"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "coniugato": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "87664a7f-b773-5acd-374e-4c359b635e7c",
@@ -41592,11 +39918,7 @@
         "rejection"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "invitation": "loose",
-        "suggestion": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "87664a7f-b773-5acd-374e-4c359b635e7c",
@@ -41613,11 +39935,7 @@
         "Nachfrage"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Vorschlag": "loose",
-        "Möglichkeit": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "87664a7f-b773-5acd-374e-4c359b635e7c",
@@ -41635,10 +39953,7 @@
         "richiesta"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "invito": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
@@ -41654,10 +39969,7 @@
         "Ablehnung"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Gesuch": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
@@ -41673,10 +39985,7 @@
         "rifiuto"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "istanza": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
@@ -41692,10 +40001,7 @@
         "rejection"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "petition": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "2bfef665-f822-93b9-3f9d-233a6f838aba",
@@ -41711,8 +40017,7 @@
         "Antwort"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "2bfef665-f822-93b9-3f9d-233a6f838aba",
@@ -41731,11 +40036,7 @@
         "negazione"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "domanda": "loose",
-        "interrogazione": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "2bfef665-f822-93b9-3f9d-233a6f838aba",
@@ -41752,10 +40053,7 @@
         "answer"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "enquiry": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
@@ -41776,10 +40074,7 @@
         "reason": "Contextual meaning",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "übereinstimmen": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
@@ -41802,10 +40097,7 @@
         "reason": "Contextual meaning",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "to suit": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
@@ -41827,11 +40119,7 @@
         "reason": "Contextual meaning",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "corrispondere": "exact",
-        "concordare": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
@@ -41842,7 +40130,7 @@
       "source": "manual",
       "synonyms_json": [
         "erledigen",
-        "abschliessen"
+        "abschließen"
       ],
       "antonyms_json": [
         "anfangen",
@@ -41850,10 +40138,7 @@
         "fortsetzen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "abschliessen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
@@ -41873,11 +40158,7 @@
         "prolong"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "complete": "exact",
-        "wrap up": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
@@ -41895,8 +40176,7 @@
         "prolungare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-entscheidung",
@@ -41918,11 +40198,7 @@
         "reason": "No direct lexical opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Urteil": "loose",
-        "Auswahl": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-entscheidung",
@@ -41974,11 +40250,7 @@
         "reason": "Problem is related, not a strict opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Auflösung": "loose",
-        "Vorplatz": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-loesung",
@@ -42031,10 +40303,7 @@
         "reason": "No clean everyday opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "erläutern": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-erklaeren",
@@ -42087,10 +40356,7 @@
         "reason": "No clean lexical opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "bestimmen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-entscheiden",
@@ -42141,10 +40407,7 @@
         "reason": "no_single_robust_opposite_for_compare_verb",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "abwägen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-vergleichen",
@@ -42197,10 +40460,7 @@
         "reason": "No clean lexical opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "vorschlagen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-empfehlen",
@@ -42266,8 +40526,7 @@
         "reason": "No clean lexical opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-reservieren",
@@ -42286,11 +40545,7 @@
         "reason": "No clean lexical opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "to book": "exact",
-        "book": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-moeglich",
@@ -42307,10 +40562,7 @@
         "unmöglich"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "realisierbar": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-moeglich",
@@ -42354,10 +40606,7 @@
         "unnötig"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "notwendig": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-noetig",
@@ -42373,8 +40622,7 @@
         "inutile"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-noetig",
@@ -42390,10 +40638,7 @@
         "unnecessary"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "needed": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-puenktlich",
@@ -42412,10 +40657,7 @@
         "unpünktlich"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "termingerecht": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-puenktlich",
@@ -42465,10 +40707,7 @@
         "reason": "Opposite is gradient and context-dependent",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "wohlwahrscheinlich": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-wahrscheinlich",
@@ -42534,10 +40773,7 @@
         "reason": "No direct lexical opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "specialmente": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-besonders",
@@ -42572,10 +40808,7 @@
         "reason": "No direct lexical opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "zuletzt": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-endlich",
@@ -42630,10 +40863,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Erlebnis": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-erfahrung",
@@ -42685,10 +40915,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Aufforderung": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-einladung",
@@ -42739,10 +40966,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Botschaft": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-nachricht",
@@ -42793,11 +41017,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Verabredung": "exact",
-        "Gespräch": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-termin",
@@ -42851,11 +41071,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Chance": "loose",
-        "Alternativ": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-moeglichkeit",
@@ -42905,8 +41121,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-meinung",
@@ -42960,11 +41175,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Angewohnheit": "exact",
-        "Verhaltensweise": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-gewohnheit",
@@ -43017,11 +41228,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Eintrag": "loose",
-        "Registrierung": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-anmeldung",
@@ -43072,11 +41279,7 @@
         "Sofortigkeit"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Verzögerung": "exact",
-        "Hinausgezogenheit": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-verspaetung",
@@ -43123,10 +41326,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Verlegung": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-umzug",
@@ -43174,8 +41374,7 @@
         "Verbot"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-erlaubnis",
@@ -43225,10 +41424,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Idee": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-vorschlag",
@@ -43282,10 +41478,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Plauderei": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-gespraech",
@@ -43368,11 +41561,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "to take part": "exact",
-        "take part": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-vorbereiten",
@@ -43394,11 +41583,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "vorrichten": "loose",
-        "einrichten": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-vorbereiten",
@@ -43451,12 +41636,7 @@
         "erlauben"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "stornieren": "exact",
-        "aufheben": "loose",
-        "abschaffen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-absagen",
@@ -43502,10 +41682,7 @@
         "vorverlegen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "aufschieben": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-verschieben",
@@ -43552,10 +41729,7 @@
         "verwässern"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "optimieren": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-verbessern",
@@ -43607,12 +41781,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "umgehen": "loose",
-        "entgehen": "loose",
-        "verhindern": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-vermeiden",
@@ -43666,10 +41835,7 @@
         "reason": "no_single_robust_opposite_across_place_and_goal_senses",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "gelangen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-erreichen",
@@ -43752,11 +41918,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "to be absent": "exact",
-        "be absent": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-stattfinden",
@@ -43801,11 +41963,7 @@
         "be canceled"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "to happen": "exact",
-        "happen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-sparen",
@@ -43822,8 +41980,7 @@
         "ausgeben"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-sparen",
@@ -43873,10 +42030,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "erwirtschaften": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-verdienen",
@@ -43930,11 +42084,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "zeichnen": "loose",
-        "unterzeichnen": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-unterschreiben",
@@ -43991,12 +42141,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "ziehen": "loose",
-        "verlegen": "loose",
-        "versetzen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-umziehen-verb",
@@ -44073,11 +42218,7 @@
         "keep"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "to return": "exact",
-        "return": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-verfuegbar",
@@ -44097,10 +42238,7 @@
         "unbrauchbar"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "erreichbar": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-verfuegbar",
@@ -44146,11 +42284,7 @@
         "unoffiziell"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "amtlich": "exact",
-        "staatlich": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-offiziell",
@@ -44196,11 +42330,7 @@
         "gebührenpflichtig"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "umsonst": "exact",
-        "gratis": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-kostenlos",
@@ -44249,10 +42379,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "wichtig": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-dringend",
@@ -44305,12 +42432,7 @@
         "ineffektiv"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "funktional": "loose",
-        "effizient": "loose",
-        "nutzbringend": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-praktisch",
@@ -44354,10 +42476,7 @@
         "ähnlich"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "verschieden": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-unterschiedlich",
@@ -44416,10 +42535,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "frisch": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-lebendig",
@@ -44470,10 +42586,7 @@
         "unwohl"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "angenehm": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-bequem",
@@ -44524,10 +42637,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "darum": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-deshalb",
@@ -44576,10 +42686,7 @@
         "draußen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "innen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-drinnen",
@@ -44628,10 +42735,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "im Transport": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-unterwegs",
@@ -44684,10 +42788,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "bislang": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-bisher",
@@ -44738,10 +42839,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "andererseits": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-sonst",
@@ -44789,8 +42887,7 @@
         "höchstens"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-mindestens",
@@ -44840,10 +42937,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "unvermittelt": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-ploetzlich",
@@ -44894,11 +42988,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Geschehen": "loose",
-        "Vorfall": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-veranstaltung",
@@ -44948,10 +43038,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Resultat": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-ergebnis",
@@ -45000,10 +43087,7 @@
         "ignorieren"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "antworten": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-reagieren",
@@ -45053,10 +43137,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "mitnehmen": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-mitbringen",
@@ -45110,11 +43191,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "die Nacht verbringen": "exact",
-        "in der Nacht bleiben": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-uebernachten",
@@ -45166,11 +43243,7 @@
         "verworren"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "einwandfrei": "loose",
-        "klar": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-deutlich",
@@ -45214,10 +43287,7 @@
         "normal"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "merkwürdig": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-seltsam",
@@ -45265,10 +43335,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "üblicherweise": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-normalerweise",
@@ -45318,11 +43385,7 @@
         "überall"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "überall": "loose",
-        "woanders": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-nirgendwo",
@@ -45372,10 +43435,7 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "selbst": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-sogar",
@@ -45426,10 +43486,7 @@
         "reason": "no_single_robust_opposite_for_comparison_noun",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Abgleich": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-vergleich",
@@ -45481,10 +43538,7 @@
         "reason": "no_single_robust_opposite_for_distance_noun",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Abstand": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-entfernung",
@@ -45539,11 +43593,7 @@
         "reason": "no_single_robust_opposite_for_formal_clean_verb",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "säubern": "exact",
-        "putzen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-reinigen",
@@ -45594,10 +43644,7 @@
         "reason": "no_single_robust_opposite_for_rinse_verb",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "ausspülen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-spuelen",
@@ -45647,10 +43694,7 @@
         "abgerundet"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "zuspitzt": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-spitz-pointed",
@@ -45701,11 +43745,7 @@
         "reason": "no_single_robust_opposite_for_tip_point_noun",
         "reviewed_at": "2026-03-26"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Kuppe": "loose",
-        "Ende": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-spitze-tip",
@@ -45755,10 +43795,7 @@
         "reason": "no_single_robust_opposite_for_gap_noun",
         "reviewed_at": "2026-04-17"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Zwischenraum": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-abstand",
@@ -45776,10 +43813,7 @@
         "reason": "no_single_robust_opposite_for_gap_noun",
         "reviewed_at": "2026-04-17"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "spazio": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-abstand",
@@ -45797,10 +43831,7 @@
         "reason": "no_single_robust_opposite_for_gap_noun",
         "reviewed_at": "2026-04-17"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "space": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-unterschied",
@@ -45813,14 +43844,11 @@
         "Differenz"
       ],
       "antonyms_json": [
-        "Aehnlichkeit",
+        "Ähnlichkeit",
         "Ähnlichkeit"
       ],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "Differenz": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-unterschied",
@@ -45851,6 +43879,60 @@
       "hint_text": null
     },
     {
+      "concept_id": "concept-a2-ueberhaupt-general",
+      "lang": "de",
+      "short_definition": "Spricht über etwas in sehr allgemeinen Zügen.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "allgemein",
+        "generell"
+      ],
+      "antonyms_json": [
+        "speziell",
+        "insbesondere"
+      ],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "German modal particle - has no standard lexical antonym across the modeled languages",
+        "reviewed_at": "2026-05-25"
+      },
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a2-ueberhaupt-general",
+      "lang": "it",
+      "short_definition": "Parla di qualcosa in termini ampi e non in un caso specifico.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "German modal particle - has no standard lexical antonym across the modeled languages",
+        "reviewed_at": "2026-05-25"
+      },
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a2-ueberhaupt-general",
+      "lang": "en",
+      "short_definition": "Talks about something in broad terms rather than in one specific case.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "German modal particle - has no standard lexical antonym across the modeled languages",
+        "reviewed_at": "2026-05-25"
+      },
+      "hint_text": null
+    },
+    {
       "concept_id": "concept-a2-ueberhaupt-emphatic-question",
       "lang": "de",
       "short_definition": "Wird in einer betonten Frage benutzt, um etwas in Zweifel zu ziehen oder herauszufordern.",
@@ -45867,11 +43949,7 @@
         "reason": "German modal particle - has no standard lexical antonym across the modeled languages",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "wirklich": "exact",
-        "eigentlich": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-ueberhaupt-emphatic-question",
@@ -45917,10 +43995,7 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "spurten": "exact"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-sprinten",
@@ -45929,15 +44004,10 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
-      "synonyms_json": [
-        "sprintare"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "sprintare": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-sprinten",
@@ -45963,10 +44033,7 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "hetzen": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-rasen",
@@ -46040,8 +44107,7 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-herausfinden",
@@ -46091,8 +44157,7 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-wettbewerb",
@@ -46106,10 +44171,7 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {
-        "concorso": "loose"
-      }
+      "hint_text": null
     },
     {
       "concept_id": "concept-a2-wettbewerb",
@@ -46123,8 +44185,7 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null,
-      "synonym_tiers_json": {}
+      "hint_text": null
     }
   ],
   "clusters": [
@@ -46163,405 +44224,6 @@
       "lang": "de",
       "label": "travel movement",
       "type": "semantic"
-    },
-    {
-      "cluster_id": "de705e60-9536-8d5a-7dcd-cd518f685269",
-      "lang": "de",
-      "label": "synonyms: laufen +3",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "cf94179f-7e7c-5d2b-268f-c02098ad11f2",
-      "lang": "de",
-      "label": "synonyms: abstimmen +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "499d250c-b7ab-24f8-6ffa-f953e6519908",
-      "lang": "de",
-      "label": "synonyms: schließlich +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "2390b3d0-39b3-82b6-f23a-32f71ed107b6",
-      "lang": "de",
-      "label": "synonyms: zumindest +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "cec21550-ff70-fe0b-2153-f1251ca58e37",
-      "lang": "de",
-      "label": "synonyms: meist +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "d4e48cb5-295f-97ac-575e-870b63b15b43",
-      "lang": "de",
-      "label": "synonyms: ansonsten",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
-      "lang": "de",
-      "label": "synonyms: deswegen +4",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "06a56f3a-e1c4-5ac3-060f-16ac4794c147",
-      "lang": "de",
-      "label": "synonyms: Kannst du mir helfen?",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "f14cfbc0-c7ea-330d-14b1-6a6e59418fe0",
-      "lang": "de",
-      "label": "synonyms: abholen",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "4c80a846-58de-58d0-3780-3ca7821706fc",
-      "lang": "de",
-      "label": "synonyms: anrufen +4",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "a8ef5fb2-6846-89e6-1e4b-e0150eebfb59",
-      "lang": "de",
-      "label": "synonyms: aufhören",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "b7195aa6-ee08-b7cc-824b-42beb2240f87",
-      "lang": "de",
-      "label": "synonyms: Angebot +3",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "a849cff9-18a8-f8cd-1f9f-82d8ba917a27",
-      "lang": "de",
-      "label": "synonyms: Antrag",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "422e1e59-438b-4fc9-5b93-010f2ed87743",
-      "lang": "de",
-      "label": "synonyms: sagen",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "c5a70452-803a-2fe8-30b5-c5f367776c21",
-      "lang": "de",
-      "label": "synonyms: ziehen +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "bf4d0266-58f5-49bc-8b56-1f9009fed74e",
-      "lang": "de",
-      "label": "synonyms: noch",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "35e2eacb-dee8-2e7c-4fd4-48e41f6aa366",
-      "lang": "de",
-      "label": "synonyms: wichtig +12",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "56e457d0-6bf1-d718-afe3-90acbd412f04",
-      "lang": "de",
-      "label": "synonyms: Lösung +3",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "09e5bc11-3f7e-8f96-7c2b-2b3ffb91e1df",
-      "lang": "de",
-      "label": "synonyms: vergleichen +6",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "63df83b7-fe0b-77ae-cb4e-629efbf43e8d",
-      "lang": "de",
-      "label": "synonyms: empfehlen",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "c1b879e2-d36a-59b9-82e4-37cb4b4cdfc6",
-      "lang": "de",
-      "label": "synonyms: wahrscheinlich",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "a5c87a1e-adbc-4f42-0050-8af5eaf334c3",
-      "lang": "de",
-      "label": "synonyms: Termin",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "026b9623-e414-063c-c248-b183d13c7fb1",
-      "lang": "de",
-      "label": "synonyms: vermeiden +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "2e1ba454-c474-7425-f0e0-fabce4d35443",
-      "lang": "de",
-      "label": "synonyms: reagieren",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "a9aef1ff-2f45-8687-aeac-a21a832e84fe",
-      "lang": "de",
-      "label": "synonyms: nirgendwo",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "80a93fdf-9f9e-5632-6ba8-ffee0c3807bd",
-      "lang": "de",
-      "label": "synonyms: Vereinbarung +5",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "343b1b87-0dbc-3cd5-15f0-57d445faa531",
-      "lang": "de",
-      "label": "synonyms: außerdem +3",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "27ddb271-39ee-033e-f984-94318c49e8d8",
-      "lang": "de",
-      "label": "synonyms: eine Rolle spielen",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "18b421e6-3dfb-8fda-211d-f53ccfe5e442",
-      "lang": "de",
-      "label": "synonyms: in der Regel",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "2523e819-61de-e12e-0314-28a0167f88df",
-      "lang": "de",
-      "label": "synonyms: Entfernung",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "67fec8a8-5c8a-406d-bb13-5e54f215b100",
-      "lang": "de",
-      "label": "synonyms: waschen +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "c8b3d852-0988-2446-d881-59e25ab477bd",
-      "lang": "de",
-      "label": "synonyms: nachvollziehbar +9",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "f67ebbef-55cf-8cf2-5480-d02ba2317ffe",
-      "lang": "de",
-      "label": "synonyms: überhaupt",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "12ae11f4-0773-89dc-f84b-9f0bbdaa260a",
-      "lang": "it",
-      "label": "synonyms: la corsa +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "9622262b-45f0-f5e7-f88f-ec9eedfcc8f6",
-      "lang": "it",
-      "label": "synonyms: votare",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "aa59367c-eefc-ceb9-add1-117eefdfbf56",
-      "lang": "it",
-      "label": "synonyms: prestare attenzione +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "849065cf-1129-63d5-f75d-3c6835087baa",
-      "lang": "it",
-      "label": "synonyms: la candidatura +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "f4ea9604-d713-9e81-f74f-6392a55c0ad0",
-      "lang": "it",
-      "label": "synonyms: per lo piu +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "279a0c74-5700-d367-b17e-560ade2d862f",
-      "lang": "it",
-      "label": "synonyms: per il resto",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "7acc3166-60b6-11ee-e844-e5ededc08a2a",
-      "lang": "it",
-      "label": "synonyms: per questo motivo",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "abc143e9-b2dd-56a3-d4d8-07255bf5e88f",
-      "lang": "it",
-      "label": "synonyms: acquisire",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "c4905f95-0a8d-4ebc-a781-3e95869ae1ad",
-      "lang": "it",
-      "label": "synonyms: non ancora",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "c16d8014-8775-2fda-b1a1-35bb9f77af59",
-      "lang": "it",
-      "label": "synonyms: andare a prendere",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "cb2d4c48-f4c3-ef5e-6a76-89a7eb2f6d02",
-      "lang": "it",
-      "label": "synonyms: chiamare +3",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "3a6700de-65a9-441b-13bb-48ce2db33875",
-      "lang": "it",
-      "label": "synonyms: inviare",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "2605e97a-b240-a065-9ed4-598a80095219",
-      "lang": "it",
-      "label": "synonyms: l'offerta +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "98ae0808-e33b-007f-da3c-3c70ed4c9cda",
-      "lang": "it",
-      "label": "synonyms: la domanda formale",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "b06c1d87-d62f-fff4-2855-7b550ed1c15d",
-      "lang": "it",
-      "label": "synonyms: bianco",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "f08b0372-d2ab-04b6-171e-fc060956bc66",
-      "lang": "it",
-      "label": "synonyms: abbinare",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "ceac56d6-ef14-d3c2-cb8a-ff9806df0097",
-      "lang": "en",
-      "label": "synonyms: run +3",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "4553bdc8-c498-e5e2-51ff-98878f7cb73d",
-      "lang": "en",
-      "label": "synonyms: the race",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "9e526461-ad85-16db-398b-675389a40254",
-      "lang": "en",
-      "label": "synonyms: listen to me",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "6df35ff4-ca45-0824-0352-f3ae718d1377",
-      "lang": "en",
-      "label": "synonyms: the application +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "86dd31d6-57ab-9f4c-ee8b-af84d2b247d6",
-      "lang": "en",
-      "label": "synonyms: pick up",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "c320036e-4b4c-3fef-3bfc-b8058745f800",
-      "lang": "en",
-      "label": "synonyms: the offer +2",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "f4852373-2e6c-9da8-dbe6-e6ade98d5a79",
-      "lang": "en",
-      "label": "synonyms: good",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "4b90cd64-6f9b-abb1-2f3a-ac360d135aa2",
-      "lang": "en",
-      "label": "synonyms: to reserve",
-      "type": "semantic",
-      "auto": true
     }
   ],
   "cluster_members": [
@@ -46596,399 +44258,14 @@
       "position": 0
     },
     {
+      "cluster_id": "55255ad4-c6d5-d2c2-f25d-af8d91e95f01",
+      "lexeme_id": "lex-de-ebenfalls",
+      "position": 2
+    },
+    {
       "cluster_id": "96d5678e-4aff-9dcb-b4b2-de0f0f11a731",
       "lexeme_id": "lex-de-abholen",
       "position": 3
-    },
-    {
-      "cluster_id": "de705e60-9536-8d5a-7dcd-cd518f685269",
-      "lexeme_id": "lexeme-de-a2-sprinten",
-      "position": 1
-    },
-    {
-      "cluster_id": "de705e60-9536-8d5a-7dcd-cd518f685269",
-      "lexeme_id": "lexeme-de-a2-rasen",
-      "position": 2
-    },
-    {
-      "cluster_id": "cf94179f-7e7c-5d2b-268f-c02098ad11f2",
-      "lexeme_id": "lex-de-abstimmen",
-      "position": 0
-    },
-    {
-      "cluster_id": "cf94179f-7e7c-5d2b-268f-c02098ad11f2",
-      "lexeme_id": "lex-de-entscheiden",
-      "position": 1
-    },
-    {
-      "cluster_id": "499d250c-b7ab-24f8-6ffa-f953e6519908",
-      "lexeme_id": "lex-de-endlich",
-      "position": 2
-    },
-    {
-      "cluster_id": "2390b3d0-39b3-82b6-f23a-32f71ed107b6",
-      "lexeme_id": "lex-de-mindestens",
-      "position": 1
-    },
-    {
-      "cluster_id": "cec21550-ff70-fe0b-2153-f1251ca58e37",
-      "lexeme_id": "lex-de-meist",
-      "position": 0
-    },
-    {
-      "cluster_id": "d4e48cb5-295f-97ac-575e-870b63b15b43",
-      "lexeme_id": "lex-de-sonst",
-      "position": 1
-    },
-    {
-      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
-      "lexeme_id": "lex-de-deswegen",
-      "position": 0
-    },
-    {
-      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
-      "lexeme_id": "lex-de-deshalb",
-      "position": 1
-    },
-    {
-      "cluster_id": "06a56f3a-e1c4-5ac3-060f-16ac4794c147",
-      "lexeme_id": "lex-de-anfrage",
-      "position": 1
-    },
-    {
-      "cluster_id": "f14cfbc0-c7ea-330d-14b1-6a6e59418fe0",
-      "lexeme_id": "lex-de-abholen",
-      "position": 0
-    },
-    {
-      "cluster_id": "4c80a846-58de-58d0-3780-3ca7821706fc",
-      "lexeme_id": "lex-de-anrufen",
-      "position": 0
-    },
-    {
-      "cluster_id": "4c80a846-58de-58d0-3780-3ca7821706fc",
-      "lexeme_id": "lex-de-erreichen",
-      "position": 1
-    },
-    {
-      "cluster_id": "a8ef5fb2-6846-89e6-1e4b-e0150eebfb59",
-      "lexeme_id": "lex-de-aufhoren",
-      "position": 0
-    },
-    {
-      "cluster_id": "a8ef5fb2-6846-89e6-1e4b-e0150eebfb59",
-      "lexeme_id": "lex-de-beenden",
-      "position": 1
-    },
-    {
-      "cluster_id": "b7195aa6-ee08-b7cc-824b-42beb2240f87",
-      "lexeme_id": "lex-de-angebot",
-      "position": 0
-    },
-    {
-      "cluster_id": "b7195aa6-ee08-b7cc-824b-42beb2240f87",
-      "lexeme_id": "lex-de-vorschlag",
-      "position": 1
-    },
-    {
-      "cluster_id": "b7195aa6-ee08-b7cc-824b-42beb2240f87",
-      "lexeme_id": "lex-de-moglichkeit",
-      "position": 2
-    },
-    {
-      "cluster_id": "a849cff9-18a8-f8cd-1f9f-82d8ba917a27",
-      "lexeme_id": "lex-de-antrag",
-      "position": 0
-    },
-    {
-      "cluster_id": "422e1e59-438b-4fc9-5b93-010f2ed87743",
-      "lexeme_id": "lex-de-erklaren",
-      "position": 1
-    },
-    {
-      "cluster_id": "c5a70452-803a-2fe8-30b5-c5f367776c21",
-      "lexeme_id": "lex-de-umziehen",
-      "position": 2
-    },
-    {
-      "cluster_id": "bf4d0266-58f5-49bc-8b56-1f9009fed74e",
-      "lexeme_id": "lex-de-bisher",
-      "position": 1
-    },
-    {
-      "cluster_id": "35e2eacb-dee8-2e7c-4fd4-48e41f6aa366",
-      "lexeme_id": "lex-de-dringend",
-      "position": 3
-    },
-    {
-      "cluster_id": "56e457d0-6bf1-d718-afe3-90acbd412f04",
-      "lexeme_id": "lex-de-losung",
-      "position": 0
-    },
-    {
-      "cluster_id": "56e457d0-6bf1-d718-afe3-90acbd412f04",
-      "lexeme_id": "lex-de-ergebnis",
-      "position": 1
-    },
-    {
-      "cluster_id": "09e5bc11-3f7e-8f96-7c2b-2b3ffb91e1df",
-      "lexeme_id": "lex-de-vergleichen",
-      "position": 0
-    },
-    {
-      "cluster_id": "63df83b7-fe0b-77ae-cb4e-629efbf43e8d",
-      "lexeme_id": "lex-de-empfehlen",
-      "position": 0
-    },
-    {
-      "cluster_id": "c1b879e2-d36a-59b9-82e4-37cb4b4cdfc6",
-      "lexeme_id": "lex-de-wahrscheinlich",
-      "position": 0
-    },
-    {
-      "cluster_id": "a5c87a1e-adbc-4f42-0050-8af5eaf334c3",
-      "lexeme_id": "lex-de-termin",
-      "position": 0
-    },
-    {
-      "cluster_id": "a5c87a1e-adbc-4f42-0050-8af5eaf334c3",
-      "lexeme_id": "lex-de-gesprach",
-      "position": 1
-    },
-    {
-      "cluster_id": "026b9623-e414-063c-c248-b183d13c7fb1",
-      "lexeme_id": "lex-de-vermeiden",
-      "position": 0
-    },
-    {
-      "cluster_id": "2e1ba454-c474-7425-f0e0-fabce4d35443",
-      "lexeme_id": "lex-de-reagieren",
-      "position": 0
-    },
-    {
-      "cluster_id": "a9aef1ff-2f45-8687-aeac-a21a832e84fe",
-      "lexeme_id": "lex-de-nirgendwo",
-      "position": 0
-    },
-    {
-      "cluster_id": "80a93fdf-9f9e-5632-6ba8-ffee0c3807bd",
-      "lexeme_id": "lex-de-vergleich",
-      "position": 3
-    },
-    {
-      "cluster_id": "343b1b87-0dbc-3cd5-15f0-57d445faa531",
-      "lexeme_id": "lex-de-ebenfalls",
-      "position": 3
-    },
-    {
-      "cluster_id": "27ddb271-39ee-033e-f984-94318c49e8d8",
-      "lexeme_id": "lex-de-teilnehmen",
-      "position": 1
-    },
-    {
-      "cluster_id": "18b421e6-3dfb-8fda-211d-f53ccfe5e442",
-      "lexeme_id": "lex-de-normalerweise",
-      "position": 1
-    },
-    {
-      "cluster_id": "2523e819-61de-e12e-0314-28a0167f88df",
-      "lexeme_id": "lex-de-entfernung",
-      "position": 0
-    },
-    {
-      "cluster_id": "2523e819-61de-e12e-0314-28a0167f88df",
-      "lexeme_id": "lex-de-abstand",
-      "position": 1
-    },
-    {
-      "cluster_id": "67fec8a8-5c8a-406d-bb13-5e54f215b100",
-      "lexeme_id": "lex-de-reinigen",
-      "position": 1
-    },
-    {
-      "cluster_id": "c8b3d852-0988-2446-d881-59e25ab477bd",
-      "lexeme_id": "lex-de-deutlich",
-      "position": 2
-    },
-    {
-      "cluster_id": "f67ebbef-55cf-8cf2-5480-d02ba2317ffe",
-      "lexeme_id": "lex-de-uberhaupt",
-      "position": 0
-    },
-    {
-      "cluster_id": "12ae11f4-0773-89dc-f84b-9f0bbdaa260a",
-      "lexeme_id": "lex-it-corsa",
-      "position": 0
-    },
-    {
-      "cluster_id": "12ae11f4-0773-89dc-f84b-9f0bbdaa260a",
-      "lexeme_id": "lexeme-it-a2-wettbewerb",
-      "position": 2
-    },
-    {
-      "cluster_id": "9622262b-45f0-f5e7-f88f-ec9eedfcc8f6",
-      "lexeme_id": "lex-it-votare",
-      "position": 0
-    },
-    {
-      "cluster_id": "aa59367c-eefc-ceb9-add1-117eefdfbf56",
-      "lexeme_id": "lex-it-prestare-attenzione",
-      "position": 0
-    },
-    {
-      "cluster_id": "849065cf-1129-63d5-f75d-3c6835087baa",
-      "lexeme_id": "lex-it-candidatura",
-      "position": 0
-    },
-    {
-      "cluster_id": "849065cf-1129-63d5-f75d-3c6835087baa",
-      "lexeme_id": "lex-it-richiesta-di-informazioni",
-      "position": 2
-    },
-    {
-      "cluster_id": "f4ea9604-d713-9e81-f74f-6392a55c0ad0",
-      "lexeme_id": "lex-it-per-lo-piu",
-      "position": 0
-    },
-    {
-      "cluster_id": "279a0c74-5700-d367-b17e-560ade2d862f",
-      "lexeme_id": "lex-it-altrimenti",
-      "position": 1
-    },
-    {
-      "cluster_id": "7acc3166-60b6-11ee-e844-e5ededc08a2a",
-      "lexeme_id": "lex-it-per-questo-motivo",
-      "position": 0
-    },
-    {
-      "cluster_id": "7acc3166-60b6-11ee-e844-e5ededc08a2a",
-      "lexeme_id": "lex-it-percio",
-      "position": 1
-    },
-    {
-      "cluster_id": "abc143e9-b2dd-56a3-d4d8-07255bf5e88f",
-      "lexeme_id": "lex-it-guadagnare",
-      "position": 1
-    },
-    {
-      "cluster_id": "c4905f95-0a8d-4ebc-a781-3e95869ae1ad",
-      "lexeme_id": "lex-it-finora",
-      "position": 1
-    },
-    {
-      "cluster_id": "c16d8014-8775-2fda-b1a1-35bb9f77af59",
-      "lexeme_id": "lex-it-andare-a-prendere",
-      "position": 0
-    },
-    {
-      "cluster_id": "cb2d4c48-f4c3-ef5e-6a76-89a7eb2f6d02",
-      "lexeme_id": "lex-it-chiamare",
-      "position": 0
-    },
-    {
-      "cluster_id": "cb2d4c48-f4c3-ef5e-6a76-89a7eb2f6d02",
-      "lexeme_id": "lex-it-raggiungere",
-      "position": 1
-    },
-    {
-      "cluster_id": "3a6700de-65a9-441b-13bb-48ce2db33875",
-      "lexeme_id": "lex-it-inviare",
-      "position": 0
-    },
-    {
-      "cluster_id": "2605e97a-b240-a065-9ed4-598a80095219",
-      "lexeme_id": "lex-it-offerta",
-      "position": 0
-    },
-    {
-      "cluster_id": "2605e97a-b240-a065-9ed4-598a80095219",
-      "lexeme_id": "lex-it-proposta",
-      "position": 1
-    },
-    {
-      "cluster_id": "2605e97a-b240-a065-9ed4-598a80095219",
-      "lexeme_id": "lex-it-invito",
-      "position": 2
-    },
-    {
-      "cluster_id": "98ae0808-e33b-007f-da3c-3c70ed4c9cda",
-      "lexeme_id": "lex-it-domanda-formale",
-      "position": 0
-    },
-    {
-      "cluster_id": "b06c1d87-d62f-fff4-2855-7b550ed1c15d",
-      "lexeme_id": "lex-it-chiaro",
-      "position": 1
-    },
-    {
-      "cluster_id": "f08b0372-d2ab-04b6-171e-fc060956bc66",
-      "lexeme_id": "lex-it-abbinare",
-      "position": 0
-    },
-    {
-      "cluster_id": "ceac56d6-ef14-d3c2-cb8a-ff9806df0097",
-      "lexeme_id": "lexeme-en-a2-sprinten",
-      "position": 1
-    },
-    {
-      "cluster_id": "ceac56d6-ef14-d3c2-cb8a-ff9806df0097",
-      "lexeme_id": "lexeme-en-a2-dart",
-      "position": 3
-    },
-    {
-      "cluster_id": "4553bdc8-c498-e5e2-51ff-98878f7cb73d",
-      "lexeme_id": "lex-en-race",
-      "position": 0
-    },
-    {
-      "cluster_id": "4553bdc8-c498-e5e2-51ff-98878f7cb73d",
-      "lexeme_id": "lexeme-en-a2-wettbewerb",
-      "position": 1
-    },
-    {
-      "cluster_id": "9e526461-ad85-16db-398b-675389a40254",
-      "lexeme_id": "lex-en-pay-attention",
-      "position": 1
-    },
-    {
-      "cluster_id": "6df35ff4-ca45-0824-0352-f3ae718d1377",
-      "lexeme_id": "lex-en-application",
-      "position": 0
-    },
-    {
-      "cluster_id": "6df35ff4-ca45-0824-0352-f3ae718d1377",
-      "lexeme_id": "lex-en-formal-application",
-      "position": 2
-    },
-    {
-      "cluster_id": "86dd31d6-57ab-9f4c-ee8b-af84d2b247d6",
-      "lexeme_id": "lex-en-pick-up",
-      "position": 0
-    },
-    {
-      "cluster_id": "c320036e-4b4c-3fef-3bfc-b8058745f800",
-      "lexeme_id": "lex-en-offer",
-      "position": 0
-    },
-    {
-      "cluster_id": "c320036e-4b4c-3fef-3bfc-b8058745f800",
-      "lexeme_id": "lex-en-invitation",
-      "position": 1
-    },
-    {
-      "cluster_id": "c320036e-4b4c-3fef-3bfc-b8058745f800",
-      "lexeme_id": "lex-en-suggestion",
-      "position": 2
-    },
-    {
-      "cluster_id": "f4852373-2e6c-9da8-dbe6-e6ade98d5a79",
-      "lexeme_id": "lex-en-great",
-      "position": 1
-    },
-    {
-      "cluster_id": "4b90cd64-6f9b-abb1-2f3a-ac360d135aa2",
-      "lexeme_id": "lex-en-to-reserve",
-      "position": 0
     }
   ]
 }

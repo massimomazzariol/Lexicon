@@ -70,6 +70,10 @@ test('build_lexicon_distribution exports runtime packs as artifact-ready files',
         'lexicon.de.b1.seed',
         'lexicon.de.b2.expressions',
         'lexicon.de.b2.seed',
+        'lexicon.de.c1.expressions',
+        'lexicon.de.c1.seed',
+        'lexicon.de.c2.expressions',
+        'lexicon.de.c2.seed',
       ],
     );
 

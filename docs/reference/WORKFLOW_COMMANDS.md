@@ -175,7 +175,7 @@ pnpm run refresh
 ```
 
 Publish the built distribution to a GitHub Release (the only delivery channel;
-consumers fetch it from there - see docs/adr/0004). Dry run by default; pass
+consumers fetch it from there - see docs/adr/0002). Dry run by default; pass
 --publish and a tag to actually create/update the Release:
 
 ```bash

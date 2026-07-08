@@ -9,7 +9,7 @@ import { planReleaseAssets } from '../lib/distribution_release_assets.mjs';
 
 /**
  * Publishes a built Lexicon distribution to a GitHub Release as flat,
- * per-file assets (ADR-0004). Each distribution file becomes one Release asset
+ * per-file assets (ADR-0002). Each distribution file becomes one Release asset
  * whose name is the flattened relative path (see distribution_release_assets).
  *
  * GitHub Release asset names are the uploaded file's basename - there is no

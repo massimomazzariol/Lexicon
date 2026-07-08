@@ -131,6 +131,12 @@ fields:
   `"close"`. The primary translation is always `exact`. Keys are answer strings
   (they may be other concepts' words or free phrases), not lexeme ids.
 
+- `concepts[].metadata_json.image_url` - optional illustration path for a
+  concept (e.g. `/images/run_verb.jpg`). The distribution does not ship image
+  assets yet: the path is a stable identifier a consumer MAY resolve against
+  its own asset bundle. A consumer that cannot resolve it MUST treat the field
+  as absent (render nothing) rather than fetch it as a live URL.
+
 - `kind` - content kind of the chunk: `"vocab"` (default) or `"expressions"`
   (idioms / fixed phrases). Present on BOTH the index chunk pointer and the chunk
   manifest. Consumers use it to filter downloads (vocab by default; expressions

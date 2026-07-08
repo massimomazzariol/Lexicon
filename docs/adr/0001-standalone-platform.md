@@ -3,7 +3,7 @@
 - Status: Accepted
 - Date: 2026-06-23
 - Applies to: Lexicon
-- Related: ADR-0004
+- Related: ADR-0002
 
 ## Context
 
@@ -26,7 +26,7 @@ cross-compilation between Lexicon and a consumer.**
   knows nothing about any specific consumer.
 - A consumer fetches that distribution over HTTP and builds with no Lexicon repo
   or Lexicon package present.
-- The ONLY contract is the published JSON distribution format (see ADR-0004 and
+- The ONLY contract is the published JSON distribution format (see ADR-0002 and
   `CONTRACT.md`). The shared thing is data, not code.
 
 Locked sub-decisions:
@@ -34,7 +34,7 @@ Locked sub-decisions:
 1. **No shared code dependency.** A consumer integrates only via the
    distribution, never by depending on Lexicon's Dart packages or source.
 2. **Distribution via GitHub Releases**, published as per-chunk assets with
-   flattened names (see ADR-0004).
+   flattened names (see ADR-0002).
 3. **Contract guard.** The distribution format is versioned (`contract_version`)
    and conformance-tested, so a consumer detects an incompatible version instead
    of drifting silently.

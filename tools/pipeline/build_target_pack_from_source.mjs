@@ -31,6 +31,14 @@ Options:
   -h, --help               Show this help message
 `;
 
+function requireSourceLicenseInfo(sourceManifest) {
+  const licenseInfo = sourceManifest.license_info;
+  if (typeof licenseInfo !== 'string' || licenseInfo.trim() === '') {
+    throw new Error('source manifest.json is missing license_info; runtime packs must declare their content license');
+  }
+  return licenseInfo;
+}
+
 function parseArgs(argv) {
   handleCliHelp(argv, HELP_TEXT);
   const options = {
@@ -540,7 +548,7 @@ function main() {
     languages_target_supported: [targetLang],
     gloss_languages_supported: sourceLangs,
     domains: derivePackMacroDomainsFromConcepts(concepts),
-    license_info: sourceManifest.license_info ?? 'internal',
+    license_info: requireSourceLicenseInfo(sourceManifest),
     content_file: 'content.json',
     generated_at: options.generatedAt,
     schema_version: 2,

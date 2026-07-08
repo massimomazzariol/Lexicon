@@ -12,7 +12,7 @@ import path from 'node:path';
  *   chunks/<lang>/<pack_id>/content.json
  *   chunks/<lang>/<pack_id>/manifest.json
  *
- * When the distribution is published to a GitHub Release (ADR-0004), each file
+ * When the distribution is published to a GitHub Release (ADR-0002), each file
  * becomes one asset whose name is the relative path with '/' replaced by the
  * separator below. The consumer (admin_console) reverses this to map an
  * incoming '/lexicon/<rel-path>' request back to the flat asset to download.

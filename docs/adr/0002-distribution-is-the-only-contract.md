@@ -1,4 +1,4 @@
-# ADR-0004: The published distribution is the only consumer contract
+# ADR-0002: The published distribution is the only consumer contract
 
 - Status: Accepted
 - Date: 2026-06-23

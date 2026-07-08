@@ -1,8 +1,14 @@
 # Lexicon Platform
 
 [![CI](https://github.com/massimomazzariol/Lexicon/actions/workflows/ci.yml/badge.svg)](https://github.com/massimomazzariol/Lexicon/actions/workflows/ci.yml)
+[![Content explorer](https://img.shields.io/badge/demo-content%20explorer-brightgreen.svg)](https://massimomazzariol.github.io/Lexicon/)
 [![Code License](https://img.shields.io/badge/code-Apache--2.0-blue.svg)](LICENSE)
 [![Content License](https://img.shields.io/badge/content-CC%20BY%204.0-green.svg)](LICENSE-CONTENT.md)
+
+**[Browse the content live](https://massimomazzariol.github.io/Lexicon/)** - the
+explorer reads the exact distribution consumers download: 646 concepts across
+German, English, and Italian, CEFR-leveled A1 to C2, with definitions,
+morphological forms, examples, and idiomatic expressions.
 
 Lexicon Platform is a standalone, reusable lexical content repository: a single
 curated source of vocabulary, built into versioned runtime packs and published as

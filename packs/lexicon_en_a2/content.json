@@ -28978,11 +28978,7 @@
         "sfida",
         "competizione"
       ],
-      "antonyms_json": [
-        "fermo",
-        "passeggio",
-        "camminata"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -28994,13 +28990,10 @@
       "context_tags_json": [],
       "source": "ai",
       "synonyms_json": [
-        "ballot",
-        "elect"
+        "ballot"
       ],
       "antonyms_json": [
-        "reject",
-        "abstain",
-        "refrain from voting"
+        "abstain"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -29015,9 +29008,7 @@
       "synonyms_json": [
         "entscheiden"
       ],
-      "antonyms_json": [
-        "ablehnen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -29028,10 +29019,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
-      "synonyms_json": [
-        "esprimere",
-        "sostenere"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "respingere",
         "non votare",
@@ -29174,10 +29162,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "anonym",
-        "woanders"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "nirgendwo"
       ],
@@ -29415,9 +29400,7 @@
         "perciò"
       ],
       "antonyms_json": [
-        "nonostante cio",
-        "nonostante",
-        "incontrariamente"
+        "nonostante ciò"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -29591,7 +29574,6 @@
       "source": "ai",
       "synonyms_json": [
         "color",
-        "apply",
         "daub"
       ],
       "antonyms_json": [
@@ -29626,8 +29608,7 @@
       "context_tags_json": [],
       "source": "migrated_from_gloss_alias",
       "synonyms_json": [
-        "colorare",
-        "applicare"
+        "colorare"
       ],
       "antonyms_json": [
         "cancellare",
@@ -29663,7 +29644,7 @@
       "context_tags_json": [],
       "source": "migrated_from_gloss_alias",
       "synonyms_json": [
-        "kontakieren",
+        "kontaktieren",
         "erreichen"
       ],
       "antonyms_json": [
@@ -30074,9 +30055,7 @@
         "entsprechen",
         "übereinstimmen"
       ],
-      "antonyms_json": [
-        "misspassen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "Contextual meaning",
@@ -30249,8 +30228,7 @@
       "source": "manual",
       "synonyms_json": [
         "Auflösung",
-        "Ergebnis",
-        "Vorplatz"
+        "Ergebnis"
       ],
       "antonyms_json": [],
       "antonym_policy_json": {
@@ -30703,7 +30681,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "wohlwahrscheinlich",
         "vermutlich"
       ],
       "antonyms_json": [
@@ -31016,8 +30993,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "Verabredung",
-        "Gespräch"
+        "Verabredung"
       ],
       "antonyms_json": [],
       "antonym_policy_json": {
@@ -31068,7 +31044,7 @@
       "source": "manual",
       "synonyms_json": [
         "Chance",
-        "Alternativ"
+        "Alternative"
       ],
       "antonyms_json": [
         "Unmöglichkeit",
@@ -31278,8 +31254,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "Verzögerung",
-        "Hinausgezogenheit"
+        "Verzögerung"
       ],
       "antonyms_json": [
         "Pünktlichkeit",
@@ -31917,8 +31892,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "to be absent",
-        "be absent"
+        "to be absent"
       ],
       "antonyms_json": [],
       "antonym_policy_json": {
@@ -32080,13 +32054,10 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "zeichnen",
         "unterzeichnen",
         "unterfertigen"
       ],
-      "antonyms_json": [
-        "nicht unterschreiben"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "no_single_robust_lexical_opposite_for_concept",
@@ -32134,10 +32105,8 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "ziehen",
-        "verlegen",
         "umsiedeln",
-        "versetzen"
+        "verlegen"
       ],
       "antonyms_json": [
         "bleiben",
@@ -32732,11 +32701,10 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "im Transport"
+        "auf dem Weg"
       ],
       "antonyms_json": [
-        "am Ziel",
-        "stehen geblieben"
+        "am Ziel"
       ],
       "antonym_policy_json": {
         "status": "intentionally_none",
@@ -32838,7 +32806,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "andererseits",
         "falls nicht"
       ],
       "antonyms_json": [],
@@ -32986,10 +32953,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "Geschehen",
-        "Vorfall"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
@@ -33385,8 +33349,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "überall",
-        "woanders"
+        "nirgends"
       ],
       "antonyms_json": [
         "irgendwo",
@@ -33694,7 +33657,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "zuspitzt"
+        "zugespitzt"
       ],
       "antonyms_json": [
         "stumpf",
@@ -33852,7 +33815,6 @@
         "Differenz"
       ],
       "antonyms_json": [
-        "Ähnlichkeit",
         "Ähnlichkeit"
       ],
       "antonym_policy_json": null,

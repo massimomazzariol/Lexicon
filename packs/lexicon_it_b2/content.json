@@ -22022,8 +22022,7 @@
         "formula di inizio"
       ],
       "antonyms_json": [
-        "commiato",
-        "insulto"
+        "commiato"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -22061,7 +22060,6 @@
         "zurzeit"
       ],
       "antonyms_json": [
-        "früher",
         "früher",
         "zukünftig"
       ],
@@ -22138,7 +22136,7 @@
         "indispensabilità"
       ],
       "antonyms_json": [
-        "opzionalita",
+        "opzionalità",
         "inutilità"
       ],
       "antonym_policy_json": null,
@@ -22272,7 +22270,7 @@
         "frei",
         "locker",
         "unverbindlich",
-        "optionell"
+        "optional"
       ],
       "antonym_policy_json": {
         "status": "intentionally_none",
@@ -22483,13 +22481,9 @@
       "synonyms_json": [
         "fordern",
         "erfordern",
-        "nötigen",
         "verlangen"
       ],
-      "antonyms_json": [
-        "erlauben",
-        "vorbereiten"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "no_single_robust_opposite_for_require_as_precondition_verb",
@@ -22648,8 +22642,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "anfechten",
-        "prüfen"
+        "auf die Probe stellen"
       ],
       "antonyms_json": [
         "erleichtern",
@@ -22704,7 +22697,6 @@
       "synonyms_json": [
         "anspruchsvoll",
         "komplex",
-        "erfordert",
         "schwierig"
       ],
       "antonyms_json": [
@@ -22868,7 +22860,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "beegeistern",
+        "begeistern",
         "überzeugen"
       ],
       "antonyms_json": [
@@ -23654,7 +23646,6 @@
       "antonyms_json": [
         "die Begeisterung",
         "die Freude",
-        "Freude",
         "Zufriedenheit"
       ],
       "antonym_policy_json": null,
@@ -24417,12 +24408,10 @@
       "antonyms_json": [
         "implizit",
         "angedeutet",
-        "vag",
+        "vage",
         "unbestimmt",
-        "unscharf",
         "unklar",
         "zweideutig",
-        "vollkommen",
         "unpräzise"
       ],
       "antonym_policy_json": null,
@@ -25236,9 +25225,7 @@
       "antonyms_json": [
         "die Ruhe",
         "die Entspannung",
-        "Entspannung",
         "Gelassenheit",
-        "Ruhe",
         "Leichtigkeit"
       ],
       "antonym_policy_json": null,
@@ -25384,13 +25371,11 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "abwehren",
-        "gegenstehen"
+        "abwehren"
       ],
       "antonyms_json": [
         "nachgeben",
-        "erliegen",
-        "geben nach"
+        "erliegen"
       ],
       "antonym_policy_json": {
         "status": "intentionally_none",
@@ -25443,11 +25428,8 @@
         "Zähigkeit"
       ],
       "antonyms_json": [
-        "die Aufgabe",
-        "die Resignation",
-        "Gehorsamkeit",
-        "Müdigkeit",
-        "Aufgeben"
+        "das Aufgeben",
+        "die Resignation"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -25544,13 +25526,11 @@
       "source": "manual",
       "synonyms_json": [
         "versagen",
-        "misslingen",
-        "unten liegen"
+        "misslingen"
       ],
       "antonyms_json": [
         "gelingen",
-        "erfolgreich sein",
-        "erfolgen"
+        "erfolgreich sein"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -25592,8 +25572,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "beläden",
-        "lasten"
+        "beanspruchen"
       ],
       "antonyms_json": [
         "entlasten"
@@ -25749,7 +25728,7 @@
       "source": "ai",
       "synonyms_json": [
         "plausibel",
-        "gerechtigt"
+        "gerechtfertigt"
       ],
       "antonyms_json": [
         "unhaltbar",
@@ -25953,8 +25932,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "erleichtern",
-        "beschneiden"
+        "erleichtern"
       ],
       "antonyms_json": [
         "komplizieren",
@@ -26103,7 +26081,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "beschreiben",
         "auf den Punkt bringen"
       ],
       "antonyms_json": [

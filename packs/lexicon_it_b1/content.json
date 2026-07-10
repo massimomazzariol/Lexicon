@@ -28543,9 +28543,7 @@
         "Bedürfnis"
       ],
       "antonyms_json": [
-        "Überfluss",
-        "Überfluss",
-        "Unbedarftheit"
+        "Überfluss"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -28752,8 +28750,7 @@
       ],
       "antonyms_json": [
         "übersehen",
-        "ignorieren",
-        "übersehen"
+        "ignorieren"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -28897,8 +28894,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "sich verlassen",
-        "gläubig sein"
+        "sich verlassen"
       ],
       "antonyms_json": [
         "misstrauen",
@@ -29684,7 +29680,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "förderlich",
         "begünstigen"
       ],
       "antonyms_json": [
@@ -29788,7 +29783,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "assertieren",
         "vorgeben"
       ],
       "antonyms_json": [
@@ -31054,7 +31048,7 @@
       "source": "manual",
       "synonyms_json": [
         "global",
-        "internationale"
+        "international"
       ],
       "antonyms_json": [
         "lokal",
@@ -31583,7 +31577,7 @@
       "source": "manual",
       "synonyms_json": [
         "empfehlen",
-        "bringen vor"
+        "vorbringen"
       ],
       "antonyms_json": [
         "ablehnen",
@@ -31936,9 +31930,7 @@
         "erläutern"
       ],
       "antonyms_json": [
-        "verwirren",
-        "verdunkeln",
-        "unklarstellen"
+        "verwirren"
       ],
       "antonym_policy_json": {
         "status": "intentionally_none",
@@ -32352,10 +32344,7 @@
       "synonyms_json": [],
       "antonyms_json": [
         "die Regel",
-        "Regel",
-        "Normalfall",
-        "Allgemeinheit",
-        "Gewöhnlichkeit"
+        "der Normalfall"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -32712,9 +32701,7 @@
       ],
       "antonyms_json": [
         "das Lob",
-        "Lob",
-        "Anerkennung",
-        "Billigung"
+        "die Anerkennung"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -32806,12 +32793,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "anstelle dessen",
-        "trotzdem"
+        "anstelle dessen"
       ],
-      "antonyms_json": [
-        "dazu"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "Discourse adverb or connective with no direct lexical antonym",

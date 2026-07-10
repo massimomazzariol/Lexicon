@@ -1,7 +1,7 @@
 {
   "pack_id": "lexicon.en.c1.seed",
   "pack_role": "runtime",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "pack_level": "C1",
   "kind": "vocab",
   "levels_supported": [
@@ -27,6 +27,6 @@
   ],
   "license_info": "CC-BY-4.0",
   "content_file": "content.json",
-  "generated_at": "2026-07-08T12:35:25.563Z",
+  "generated_at": "2026-07-10T08:22:52.313Z",
   "schema_version": 2
 }

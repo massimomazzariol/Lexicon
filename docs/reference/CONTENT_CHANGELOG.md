@@ -38,6 +38,18 @@ one language as the owner of the change.
   The negative branch now keeps `per niente` as the canonical Italian label,
   with `affatto` reduced to same-branch support instead of being the primary.
 
+- `einfach` split by sense (2026-07-14)
+  Scope:
+  - adverb branch `einfach / simply / semplicemente`
+  - travel-ticket branch `einfach / one-way / di sola andata`
+  - plain-lifestyle branch `einfach / plain / sobrio`
+  Languages: `de`, `en`, `it`
+  Note: closes BUG-ED-04. The pre-existing concept kept its "easy/simple"
+  sense; the three other senses of `einfach` now have their own concepts
+  instead of being absent. A stale duplicate EN `just` lexeme left behind by
+  a mid-fix re-upsert was marked `deprecated`/inactive to resolve a
+  translation collision with `concept-b1-mal-softening`.
+
 - `core answer-support wave 01`
   Scope:
   - English bare infinitive answer support for selected A1 core verbs such as

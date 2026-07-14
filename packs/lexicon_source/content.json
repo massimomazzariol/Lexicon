@@ -9407,7 +9407,7 @@
       ],
       "notes": "Editorial polysemy split (BUG-ED-04 / VBR-149-2). The existing concept ec6fe4e3-fc8a-e7f0-0dcd-1bf1f7260b4a only models the adjective 'easy/simple' sense of einfach. This concept models the separate adverbial sense 'just/simply', used to say something happens plainly or without complication.",
       "metadata_json": {},
-      "review_status": "needs_review"
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-a1-einfach-oneway",
@@ -9421,7 +9421,7 @@
       ],
       "notes": "Editorial polysemy split (BUG-ED-04 / VBR-149-2). Models einfach in the travel-ticket sense 'single/one-way', distinct from both the 'easy/simple' concept (ec6fe4e3) and the adverbial 'just' concept (concept-a1-einfach-just).",
       "metadata_json": {},
-      "review_status": "needs_review"
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-a2-einfach-plain",
@@ -9436,7 +9436,7 @@
       ],
       "notes": "Editorial polysemy split (BUG-ED-04 / VBR-149-2). Models einfach in the figurative sense 'plain/modest' (lifestyle, taste), distinct from the physical-difficulty concept (ec6fe4e3), the adverbial concept (concept-a1-einfach-just), and the travel concept (concept-a1-einfach-oneway).",
       "metadata_json": {},
-      "review_status": "needs_review"
+      "review_status": "reviewed"
     }
   ],
   "lexemes": [

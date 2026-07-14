@@ -1545,6 +1545,21 @@
         "source": "ai",
         "generated_at": "2026-06-26T16:06:46.969Z"
       }
+    },
+    {
+      "concept_id": "concept-a2-einfach-plain",
+      "pos": "adj",
+      "difficulty_score_auto": 35,
+      "level_auto": "A2",
+      "level_override": null,
+      "domain_tags": [
+        "Daily",
+        "Abstract",
+        "Characteristics"
+      ],
+      "notes": "Editorial polysemy split (BUG-ED-04 / VBR-149-2). Models einfach in the figurative sense 'plain/modest' (lifestyle, taste), distinct from the physical-difficulty concept (ec6fe4e3), the adverbial concept (concept-a1-einfach-just), and the travel concept (concept-a1-einfach-oneway).",
+      "metadata_json": {},
+      "review_status": "reviewed"
     }
   ],
   "lexemes": [
@@ -7353,6 +7368,57 @@
       "frequency_rank": null,
       "lemma": "competition",
       "pos": "noun",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "1d94e6c7-c677-baf3-3db8-8d1dab097ebd",
+      "concept_id": "concept-a2-einfach-plain",
+      "lang": "de",
+      "text": "einfach",
+      "frequency_rank": null,
+      "lemma": "einfach",
+      "pos": "adj",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "c4c2c37b-9461-fae2-fbb7-c2565d9ada8c",
+      "concept_id": "concept-a2-einfach-plain",
+      "lang": "en",
+      "text": "plain",
+      "frequency_rank": null,
+      "lemma": "plain",
+      "pos": "adj",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "567778f0-2116-fc4c-08c6-5780e0344616",
+      "concept_id": "concept-a2-einfach-plain",
+      "lang": "it",
+      "text": "sobrio",
+      "frequency_rank": null,
+      "lemma": "sobrio",
+      "pos": "adj",
       "gender": "none",
       "countability": "none",
       "register": "neutral",
@@ -17915,6 +17981,60 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "7df56699-ee4c-4cee-3016-9a50b8808e15",
+      "lexeme_id": "1d94e6c7-c677-baf3-3db8-8d1dab097ebd",
+      "lang": "de",
+      "surface": "einfach",
+      "surface_search": "einfach",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "1b31aeb9-cb8a-e106-4bca-4a311c485c74",
+      "lexeme_id": "c4c2c37b-9461-fae2-fbb7-c2565d9ada8c",
+      "lang": "en",
+      "surface": "plain",
+      "surface_search": "plain",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "751ed243-3a15-4070-d2ce-1f1be437427d",
+      "lexeme_id": "567778f0-2116-fc4c-08c6-5780e0344616",
+      "lang": "it",
+      "surface": "sobrio",
+      "surface_search": "sobrio",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
       }
     }
   ],
@@ -31914,6 +32034,78 @@
       "difficulty_override": null,
       "level_override": null,
       "editor_notes": null
+    },
+    {
+      "study_unit_id": "876d36ce-18cf-9286-e103-34984482e6f3",
+      "concept_id": "concept-a2-einfach-plain",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "core_prod",
+      "source_form_id": "7df56699-ee4c-4cee-3016-9a50b8808e15",
+      "primary_expected_form_id": "751ed243-3a15-4070-d2ce-1f1be437427d",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "9cfe47e9-b6ea-69b3-1903-3ac01451c7f5",
+      "concept_id": "concept-a2-einfach-plain",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "751ed243-3a15-4070-d2ce-1f1be437427d",
+      "primary_expected_form_id": "7df56699-ee4c-4cee-3016-9a50b8808e15",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "53dc3fcc-f6ae-5257-99a6-b4c1fc678411",
+      "concept_id": "concept-a2-einfach-plain",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_prod",
+      "source_form_id": "1b31aeb9-cb8a-e106-4bca-4a311c485c74",
+      "primary_expected_form_id": "751ed243-3a15-4070-d2ce-1f1be437427d",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "3b303d99-e184-613b-f89d-1bebe9f0c506",
+      "concept_id": "concept-a2-einfach-plain",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_rec",
+      "source_form_id": "751ed243-3a15-4070-d2ce-1f1be437427d",
+      "primary_expected_form_id": "1b31aeb9-cb8a-e106-4bca-4a311c485c74",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
     }
   ],
   "examples": [
@@ -33448,6 +33640,46 @@
       "notes": null,
       "review_status": "reviewed",
       "reviewed_by": "ai"
+    },
+    {
+      "example_id": "f42ac9f1-14e9-53aa-bee1-80162132326e",
+      "concept_id": "concept-a2-einfach-plain",
+      "lang": "it",
+      "sentence": "Conduce una vita sobria in campagna.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "ca320afb-d419-450c-959a-29f0e9df6f0e",
+      "concept_id": "concept-a2-einfach-plain",
+      "lang": "it",
+      "sentence": "La stanza era sobria ma pulita.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "15d60a72-c859-a764-31af-6fac75052824",
+      "concept_id": "concept-a2-einfach-plain",
+      "lang": "de",
+      "sentence": "Sie führt ein bescheidenes Leben auf dem Land.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "9418f044-d8ef-de3d-1bbc-64dd4342c99f",
+      "concept_id": "concept-a2-einfach-plain",
+      "lang": "en",
+      "sentence": "She leads a modest life in the countryside.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "8b45fc3d-fd77-867d-7b1c-c7b5d0ff0edb",
+      "concept_id": "concept-a2-einfach-plain",
+      "lang": "it",
+      "sentence": "Conduce una vita modesta in campagna.",
+      "translation_lang": null,
+      "translation_text": null
     }
   ],
   "concept_definitions": [
@@ -38674,6 +38906,44 @@
       "source": "ai",
       "synonyms_json": [
         "contest"
+      ],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a2-einfach-plain",
+      "lang": "de",
+      "short_definition": "Bescheiden, ohne Luxus oder Verzierungen.",
+      "usage_note": "Hier nur im Sinne von 'schlicht, bescheiden' (z. B. Lebensstil); nicht 'leicht' (siehe Konzept ec6fe4e3).",
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a2-einfach-plain",
+      "lang": "en",
+      "short_definition": "Modest, without luxury or decoration.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a2-einfach-plain",
+      "lang": "it",
+      "short_definition": "Modesto, senza lusso o decorazioni.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "semplice"
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,

@@ -1,0 +1,147 @@
+[
+  {
+    "source_key": "a1_adv_einfach_just",
+    "concept_id": "concept-a1-einfach-just",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Daily",
+      "Abstract"
+    ],
+    "notes": "Editorial polysemy split (BUG-ED-04 / VBR-149-2). The existing concept ec6fe4e3-fc8a-e7f0-0dcd-1bf1f7260b4a only models the adjective 'easy/simple' sense of einfach. This concept models the separate adverbial sense 'just/simply', used to say something happens plainly or without complication.",
+    "translations": {
+      "de": {
+        "text": "einfach",
+        "lemma": "einfach",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Nur, schlicht - drückt aus, dass etwas ohne Umstände oder Überlegung geschieht.",
+        "usage_note": "Hier nur die adverbiale Bedeutung 'nur, schlicht'; nicht das Adjektiv 'leicht/unkompliziert' (siehe Konzept ec6fe4e3).",
+        "examples": [
+          "Ich habe es schlicht vergessen."
+        ]
+      },
+      "en": {
+        "text": "simply",
+        "lemma": "simply",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Without complication or fuss - used to say something happens plainly.",
+        "examples": [
+          "I just forgot about it."
+        ]
+      },
+      "it": {
+        "text": "semplicemente",
+        "lemma": "semplicemente",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Senza complicazioni, senza troppi pensieri.",
+        "examples": [
+          "Mi è sfuggito di mente, tutto qui."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "a1_adj_einfach_oneway",
+    "concept_id": "concept-a1-einfach-oneway",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": [
+      "Travel",
+      "Daily"
+    ],
+    "notes": "Editorial polysemy split (BUG-ED-04 / VBR-149-2). Models einfach in the travel-ticket sense 'single/one-way', distinct from both the 'easy/simple' concept (ec6fe4e3) and the adverbial 'just' concept (concept-a1-einfach-just).",
+    "translations": {
+      "de": {
+        "text": "einfach",
+        "lemma": "einfach",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Nur in eine Richtung, nicht hin und zurück - bei einer Fahrkarte oder Reise.",
+        "usage_note": "Hier nur im Sinne von 'nur eine Richtung' bei Fahrkarten/Reisen; nicht 'leicht' (siehe Konzept ec6fe4e3) und nicht das Adverb 'nur' (siehe concept-a1-einfach-just).",
+        "examples": [
+          "Ich brauche eine Fahrkarte ohne Rückfahrt nach Berlin."
+        ]
+      },
+      "en": {
+        "text": "one-way",
+        "lemma": "one-way",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Going in only one direction, not round trip - for a ticket or journey.",
+        "examples": [
+          "I only need to travel to Berlin, not back."
+        ]
+      },
+      "it": {
+        "text": "di sola andata",
+        "lemma": "di sola andata",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Solo in una direzione, non andata e ritorno - per un biglietto o un viaggio.",
+        "examples": [
+          "Mi serve un biglietto che non include il ritorno."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adj_einfach_plain",
+    "concept_id": "concept-a2-einfach-plain",
+    "pos": "adj",
+    "level_auto": "A2",
+    "domain_tags": [
+      "Daily",
+      "Abstract",
+      "Characteristics"
+    ],
+    "notes": "Editorial polysemy split (BUG-ED-04 / VBR-149-2). Models einfach in the figurative sense 'plain/modest' (lifestyle, taste), distinct from the physical-difficulty concept (ec6fe4e3), the adverbial concept (concept-a1-einfach-just), and the travel concept (concept-a1-einfach-oneway).",
+    "translations": {
+      "de": {
+        "text": "einfach",
+        "lemma": "einfach",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Bescheiden, ohne Luxus oder Verzierungen.",
+        "usage_note": "Hier nur im Sinne von 'schlicht, bescheiden' (z. B. Lebensstil); nicht 'leicht' (siehe Konzept ec6fe4e3).",
+        "examples": [
+          "Sie führt ein bescheidenes Leben auf dem Land."
+        ]
+      },
+      "en": {
+        "text": "plain",
+        "lemma": "plain",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Modest, without luxury or decoration.",
+        "examples": [
+          "She leads a modest life in the countryside."
+        ]
+      },
+      "it": {
+        "text": "sobrio",
+        "lemma": "sobrio",
+        "register": "neutral",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Modesto, senza lusso o decorazioni.",
+        "card_synonyms": [
+          "semplice"
+        ],
+        "examples": [
+          "Conduce una vita modesta in campagna."
+        ]
+      }
+    }
+  }
+]

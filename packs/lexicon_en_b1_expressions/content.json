@@ -2470,6 +2470,27 @@
       "lang": "de",
       "label": "connector confusables",
       "type": "confusables"
+    },
+    {
+      "cluster_id": "4192138d-5f88-d66b-a7eb-c53f3ed1cdfd",
+      "lang": "de",
+      "label": "synonyms: zuletzt +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "5d6f5a62-3356-ce80-7589-dd07f3807b21",
+      "lang": "it",
+      "label": "synonyms: per ultimo +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a04f4c02-2394-6499-c004-c8b023d0cdce",
+      "lang": "en",
+      "label": "synonyms: lastly +2",
+      "type": "semantic",
+      "auto": true
     }
   ],
   "cluster_members": [
@@ -2477,6 +2498,35 @@
       "cluster_id": "55255ad4-c6d5-d2c2-f25d-af8d91e95f01",
       "lexeme_id": "lex-de-am-ende",
       "position": 6
+    },
+    {
+      "cluster_id": "4192138d-5f88-d66b-a7eb-c53f3ed1cdfd",
+      "lexeme_id": "lex-de-am-ende",
+      "position": 2
+    },
+    {
+      "cluster_id": "5d6f5a62-3356-ce80-7589-dd07f3807b21",
+      "lexeme_id": "lex-it-alla-fine",
+      "position": 2
+    },
+    {
+      "cluster_id": "a04f4c02-2394-6499-c004-c8b023d0cdce",
+      "lexeme_id": "lex-en-in-the-end",
+      "position": 2
+    }
+  ],
+  "concept_relations": [
+    {
+      "relation_id": "8f3e51bb-5c46-8cc2-8fc7-066abd671089",
+      "relation_type": "synonym",
+      "concept_a": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "concept_b": "fef8f67b-8883-20ff-c027-67735487d38d",
+      "tier": "close",
+      "lang_scope_json": [
+        "de",
+        "it"
+      ],
+      "source": "resolved"
     }
   ]
 }

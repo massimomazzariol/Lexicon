@@ -306,6 +306,21 @@ function main() {
     clusterIds.has(row.cluster_id),
   );
 
+  // MT-C5 D7: an edge ships in EVERY pack that contains at least one of its
+  // endpoint concepts (duplication keeps chunks self-describing; the consumer
+  // unions per chunk and dedups by relation_id). D8 deprecate rule: an edge
+  // ships only while BOTH endpoints are shippable concepts somewhere - a held
+  // or deleted endpoint pulls the edge from every pack.
+  const shippableConceptIds = new Set(
+    allConcepts.filter((concept) => isShippable(concept)).map((concept) => concept.concept_id),
+  );
+  const conceptRelations = cloneJson(sourceContent.concept_relations ?? []).filter(
+    (edge) =>
+      (conceptIds.has(edge.concept_a) || conceptIds.has(edge.concept_b)) &&
+      shippableConceptIds.has(edge.concept_a) &&
+      shippableConceptIds.has(edge.concept_b),
+  );
+
   const allLangs = collectLangs(lexemes);
   if (!allLangs.includes(targetLang)) {
     throw new Error(
@@ -593,6 +608,7 @@ function main() {
     ),
     clusters,
     cluster_members: clusterMembers,
+    concept_relations: dedupeByKey(conceptRelations, (r) => r.relation_id, 'concept_relation'),
   };
 
   const report = {

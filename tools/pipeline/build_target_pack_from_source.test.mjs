@@ -237,3 +237,46 @@ test('build_target_pack_from_source uses plugin-backed grammar expansion only wh
     fs.rmSync(tempRoot, { recursive: true, force: true });
   }
 });
+
+test('build_target ships concept relations per D7 (either endpoint in the pack)', () => {
+  const tempRoot = fs.mkdtempSync(
+    path.join(os.tmpdir(), 'lexicon-build-target-pack-relations-'),
+  );
+  const destPackDir = path.join(tempRoot, 'lexicon_de_a2');
+
+  try {
+    const { content } = buildPack({
+      targetLang: 'de',
+      packId: 'lexicon.de.a2.seed',
+      destPackDir,
+    });
+
+    assert.ok(Array.isArray(content.concept_relations), 'pack carries concept_relations');
+    assert.ok(content.concept_relations.length > 0, 'A2 pack has at least one edge');
+
+    const packConceptIds = new Set(content.concepts.map((c) => c.concept_id));
+    for (const edge of content.concept_relations) {
+      assert.ok(
+        packConceptIds.has(edge.concept_a) || packConceptIds.has(edge.concept_b),
+        `edge ${edge.relation_id} has an endpoint in the pack`,
+      );
+    }
+
+    // The D7 duplication case: a cross-level edge (one endpoint OUTSIDE this
+    // pack) still ships here, and stays INERT consumer-side until the other
+    // level's chunk arrives. The MT-C5 pilot guarantees at least one:
+    // unwichtig (A2) <-> wichtig (A1).
+    const crossLevel = content.concept_relations.filter(
+      (edge) => !packConceptIds.has(edge.concept_a) || !packConceptIds.has(edge.concept_b),
+    );
+    assert.ok(crossLevel.length > 0, 'cross-level edges are duplicated into this pack');
+
+    // Shape sanity: ids are deterministic and pairs are ordered.
+    for (const edge of content.concept_relations) {
+      assert.ok(edge.concept_a < edge.concept_b, 'endpoints are ordered');
+      assert.match(edge.relation_id, /^[0-9a-f-]{36}$/);
+    }
+  } finally {
+    fs.rmSync(tempRoot, { recursive: true, force: true });
+  }
+});

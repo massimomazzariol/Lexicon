@@ -14529,6 +14529,255 @@
       "hint_text": null
     }
   ],
-  "clusters": [],
-  "cluster_members": []
+  "clusters": [
+    {
+      "cluster_id": "d47dd5e0-62da-15a7-cbca-654084b8e965",
+      "lang": "de",
+      "label": "synonyms: einschätzen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "f3648ffe-37a2-4bc6-2c54-ef1c8f28e86c",
+      "lang": "de",
+      "label": "synonyms: ableiten",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "27cedf41-eaeb-2ee2-4d6c-3565867a7491",
+      "lang": "de",
+      "label": "synonyms: die Beurteilung",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "8f6d4672-beb6-fe7d-0778-5fac13709fe6",
+      "lang": "de",
+      "label": "synonyms: strukturiert",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "71629f23-8f5d-e99b-c6e4-408490082b40",
+      "lang": "it",
+      "label": "synonyms: valutare (stimare)",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "4ef18b48-c473-41e4-927c-8889c9f6cbc2",
+      "lang": "it",
+      "label": "synonyms: derivare",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "3fbb9e20-fc78-681d-119f-524aabbd1cb4",
+      "lang": "it",
+      "label": "synonyms: la valutazione",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "12f9e80a-4a4b-65f6-a9fe-055743f7fa80",
+      "lang": "it",
+      "label": "synonyms: strutturato",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "b9dc24e3-d611-c3db-0c67-407d164800bd",
+      "lang": "en",
+      "label": "synonyms: to gauge",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "968e0371-9f8b-e02d-6fb3-922d2d305c36",
+      "lang": "en",
+      "label": "synonyms: to derive",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "6035d16f-8506-8241-2b9d-de2d756c39d8",
+      "lang": "en",
+      "label": "synonyms: the assessment",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "6d08e30c-da95-b888-7610-9077fb19afdc",
+      "lang": "en",
+      "label": "synonyms: structured",
+      "type": "semantic",
+      "auto": true
+    }
+  ],
+  "cluster_members": [
+    {
+      "cluster_id": "d47dd5e0-62da-15a7-cbca-654084b8e965",
+      "lexeme_id": "lex-de-beurteilen",
+      "position": 1
+    },
+    {
+      "cluster_id": "f3648ffe-37a2-4bc6-2c54-ef1c8f28e86c",
+      "lexeme_id": "lex-de-ableiten",
+      "position": 0
+    },
+    {
+      "cluster_id": "f3648ffe-37a2-4bc6-2c54-ef1c8f28e86c",
+      "lexeme_id": "lex-de-herleiten",
+      "position": 1
+    },
+    {
+      "cluster_id": "27cedf41-eaeb-2ee2-4d6c-3565867a7491",
+      "lexeme_id": "lex-de-die-beurteilung",
+      "position": 0
+    },
+    {
+      "cluster_id": "27cedf41-eaeb-2ee2-4d6c-3565867a7491",
+      "lexeme_id": "lex-de-einschatzung",
+      "position": 1
+    },
+    {
+      "cluster_id": "8f6d4672-beb6-fe7d-0778-5fac13709fe6",
+      "lexeme_id": "lex-de-strukturiert",
+      "position": 0
+    },
+    {
+      "cluster_id": "8f6d4672-beb6-fe7d-0778-5fac13709fe6",
+      "lexeme_id": "lex-de-systematisch",
+      "position": 1
+    },
+    {
+      "cluster_id": "71629f23-8f5d-e99b-c6e4-408490082b40",
+      "lexeme_id": "lex-it-giudicare",
+      "position": 1
+    },
+    {
+      "cluster_id": "4ef18b48-c473-41e4-927c-8889c9f6cbc2",
+      "lexeme_id": "lex-it-derivare",
+      "position": 0
+    },
+    {
+      "cluster_id": "4ef18b48-c473-41e4-927c-8889c9f6cbc2",
+      "lexeme_id": "lex-it-dedurre",
+      "position": 1
+    },
+    {
+      "cluster_id": "3fbb9e20-fc78-681d-119f-524aabbd1cb4",
+      "lexeme_id": "lex-it-la-valutazione",
+      "position": 0
+    },
+    {
+      "cluster_id": "3fbb9e20-fc78-681d-119f-524aabbd1cb4",
+      "lexeme_id": "lex-it-valutazione",
+      "position": 1
+    },
+    {
+      "cluster_id": "12f9e80a-4a4b-65f6-a9fe-055743f7fa80",
+      "lexeme_id": "lex-it-strutturato",
+      "position": 0
+    },
+    {
+      "cluster_id": "12f9e80a-4a4b-65f6-a9fe-055743f7fa80",
+      "lexeme_id": "lex-it-sistematico",
+      "position": 1
+    },
+    {
+      "cluster_id": "b9dc24e3-d611-c3db-0c67-407d164800bd",
+      "lexeme_id": "lex-en-to-assess-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "968e0371-9f8b-e02d-6fb3-922d2d305c36",
+      "lexeme_id": "lex-en-to-derive",
+      "position": 0
+    },
+    {
+      "cluster_id": "968e0371-9f8b-e02d-6fb3-922d2d305c36",
+      "lexeme_id": "lex-en-to-deduce",
+      "position": 1
+    },
+    {
+      "cluster_id": "6035d16f-8506-8241-2b9d-de2d756c39d8",
+      "lexeme_id": "lex-en-the-assessment",
+      "position": 0
+    },
+    {
+      "cluster_id": "6035d16f-8506-8241-2b9d-de2d756c39d8",
+      "lexeme_id": "lex-en-assessment",
+      "position": 1
+    },
+    {
+      "cluster_id": "6d08e30c-da95-b888-7610-9077fb19afdc",
+      "lexeme_id": "lex-en-structured",
+      "position": 0
+    },
+    {
+      "cluster_id": "6d08e30c-da95-b888-7610-9077fb19afdc",
+      "lexeme_id": "lex-en-systematic",
+      "position": 1
+    }
+  ],
+  "concept_relations": [
+    {
+      "relation_id": "456fba60-6328-8af6-a836-a8aa729f6b94",
+      "relation_type": "antonym",
+      "concept_a": "concept-b2-belegen",
+      "concept_b": "concept-c1-widerlegen",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "586022b6-6bed-a2aa-325f-e200cdcda768",
+      "relation_type": "synonym",
+      "concept_a": "concept-b2-einschaetzen",
+      "concept_b": "concept-c1-beurteilen",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "4ff1e07b-fe48-fb8c-0e36-8a92955a39b6",
+      "relation_type": "synonym",
+      "concept_a": "concept-c1-ableiten",
+      "concept_b": "concept-c1-herleiten",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "5e4ef675-bbe7-4f6b-aae8-ae3702082e45",
+      "relation_type": "synonym",
+      "concept_a": "concept-c1-beurteilung",
+      "concept_b": "concept-c1-einschaetzung",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "f9909706-4618-f162-b47b-acb4ba1e6cde",
+      "relation_type": "synonym",
+      "concept_a": "concept-c1-strukturiert",
+      "concept_b": "concept-c1-systematisch",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    }
+  ]
 }

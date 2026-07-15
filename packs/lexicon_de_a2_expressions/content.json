@@ -2803,5 +2803,18 @@
       "lexeme_id": "lex-de-irgendjemand",
       "position": 1
     }
+  ],
+  "concept_relations": [
+    {
+      "relation_id": "f8ae4470-5de7-6f51-81fd-bea281402060",
+      "relation_type": "antonym",
+      "concept_a": "06afc93e-f8f6-3698-72af-3185f7367f80",
+      "concept_b": "concept-b1-keinesfalls",
+      "lang_scope_json": [
+        "de",
+        "it"
+      ],
+      "source": "resolved"
+    }
   ]
 }

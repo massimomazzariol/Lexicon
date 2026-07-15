@@ -122,5 +122,19 @@
       "lexeme_id": "lx.de.apfel",
       "position": 0
     }
+  ],
+  "concept_relations": [
+    {
+      "relation_id": "rel.synonym.c.apple.c.pear",
+      "relation_type": "synonym",
+      "concept_a": "c.apple",
+      "concept_b": "c.pear",
+      "tier": "close",
+      "lang_scope_json": [
+        "de",
+        "it"
+      ],
+      "source": "resolved"
+    }
   ]
 }

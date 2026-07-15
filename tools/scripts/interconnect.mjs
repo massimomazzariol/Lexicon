@@ -1,21 +1,37 @@
-// Interconnection - turn textual synonyms/antonyms into real links + sense clusters.
-// DETERMINISTIC (exact string matching, no model - zero hallucination) - EPIC-ED-01.
+// Interconnection CLI - the MT-C5 graph front door. Thin wrapper: all logic
+// lives in tools/lib/concept_relations.mjs (see docs/planning/INTERCONNECTION_GRAPH.md).
 //
-// Synonyms/antonyms live as free text on each definition. This resolves each one to an
-// existing concept (exact match on lemma/surface, per language), builds per-language
-// synonym CLUSTERS (connected components = sense families), and reports:
-//   - dangling synonyms  → a word referenced but NOT in the lexicon = a word to add & connect
-//   - ambiguous synonyms → the word maps to >1 sense (needs a human hint), skipped (safe)
-//   - isolated concepts  → no synonym link at all
-// Read-only by default; --apply (re)builds the synonym clusters (idempotent). Never commits.
+// Report mode (default) triages every flat synonym/antonym string:
+//   a1 mutual+adjacent pairs  -> ready to auto-write as concept_relations edges
+//   a2 one-sided pairs        -> review queue (an undirected edge would assert
+//                                a direction no editor wrote)
+//   wide-span mutual pairs    -> review queue (adjacency rule: max 1 CEFR level;
+//                                usually a wrong link or a mis-leveled concept)
+//   conflicts / ambiguous     -> review queue
+//   dangling words            -> wishlist (bucket c) + Q1 promotion-bar yield
+//   phrases / self-references -> inventory (never edges)
 //
-//   node tools/scripts/interconnect.mjs            # report only
-//   node tools/scripts/interconnect.mjs --apply     # also (re)build synonym clusters
+// --apply (idempotent, locked, atomic):
+//   - regenerates `source:"resolved"` edges (manual/ai edges never touched)
+//   - rebuilds the DERIVED auto synonym clusters from the written edges (D6);
+//     hand-made clusters are untouched
+//
+//   node tools/scripts/interconnect.mjs                    # report only
+//   node tools/scripts/interconnect.mjs --apply            # write edges + clusters
+//   node tools/scripts/interconnect.mjs --queue-out authoring/relation_queue.json
+//   node tools/scripts/interconnect.mjs --dangling-out authoring/wishlist.jsonl
+//   node tools/scripts/interconnect.mjs --phrases-out authoring/phrases.json
 
 import { readFileSync, writeFileSync, mkdirSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { createHash } from 'crypto';
-import { normalizeSearch, stripArticle } from '../lib/authoring_core.mjs';
+import {
+  analyzeRelations,
+  applyResolvedEdges,
+  lintTransitiveContradictions,
+  synonymComponents,
+} from '../lib/concept_relations.mjs';
+import { writeJsonAtomic, withContentLock } from '../lib/content_store.mjs';
 import { LANGS } from '../lib/languages.mjs';
 
 const CONTENT = resolve(process.cwd(), 'packs/lexicon_source/content.json');
@@ -25,121 +41,114 @@ main();
 
 function main() {
   const data = JSON.parse(readFileSync(CONTENT, 'utf8'));
-  const cidOf = (x) => (x && typeof x === 'object' ? x.id : x);
-  const lexemes = data.lexemes || [];
-  const concepts = data.concepts || [];
+  const res = analyzeRelations(data);
+  const s = res.stats;
 
-  // Per-language surface → Set(concept_id), and each concept's primary lexeme per language.
-  const index = { de: new Map(), it: new Map(), en: new Map() };
-  const primaryLex = { de: new Map(), it: new Map(), en: new Map() };
-  for (const lx of lexemes) {
-    const l = String(lx.lang).toLowerCase();
-    if (!index[l]) continue;
-    for (const k of [key(lx.text), key(lx.lemma)]) if (k) (index[l].get(k) ?? index[l].set(k, new Set()).get(k)).add(lx.concept_id);
-    if (lx.is_primary || !primaryLex[l].has(lx.concept_id)) primaryLex[l].set(lx.concept_id, lx.lexeme_id);
-  }
+  const existingManual = (data.concept_relations ?? []).filter((e) => e.source !== 'resolved');
+  const lintInput = [...existingManual, ...res.autoEdges];
+  const contradictions = lintTransitiveContradictions(lintInput);
 
-  const synEdges = { de: [], it: [], en: [] };
-  let resolved = 0, dangling = 0, ambiguous = 0, selfref = 0, antResolved = 0, antDangling = 0;
-  const danglingSamples = [], ambiguousSamples = [];
-  const danglingWords = new Map(); // lang\tkey → { term, lang } : words referenced but missing
-
-  for (const d of data.concept_definitions || []) {
-    const L = String(d.lang).toLowerCase();
-    if (!index[L]) continue;
-    const C = cidOf(d.concept_id);
-    const handle = (list, isAnt) => {
-      for (const w of list || []) {
-        const k = key(w);
-        if (!k) continue;
-        const tg = index[L].get(k);
-        if (!tg) {
-          danglingWords.set(`${L}\t${k}`, { term: String(w).trim(), lang: L });
-          if (isAnt) antDangling++; else { dangling++; if (danglingSamples.length < 15) danglingSamples.push(`${L}: "${w}"`); }
-          continue;
-        }
-        const others = [...tg].filter((x) => x !== C);
-        if (others.length === 0) { selfref++; continue; }
-        if (others.length > 1) { if (!isAnt) { ambiguous++; if (ambiguousSamples.length < 10) ambiguousSamples.push(`${L}: "${w}" → ${others.length} senses`); } continue; }
-        if (isAnt) antResolved++; else { resolved++; synEdges[L].push([C, others[0]]); }
-      }
-    };
-    handle(d.synonyms_json, false);
-    handle(d.antonyms_json, true);
-  }
-
-  // Per-language synonym clusters = connected components over the synonym edges.
-  const newClusters = [], newMembers = [];
-  const clustered = new Set();
-  for (const L of LANGS) {
-    for (const cids of components(synEdges[L])) {
-      if (cids.length < 2) continue;
-      const memberLex = cids.map((c) => primaryLex[L].get(c)).filter(Boolean);
-      if (memberLex.length < 2) continue;
-      const cid = uuidFrom(`syn:${L}:${[...cids].sort().join('|')}`);
-      newClusters.push({ cluster_id: cid, lang: L, label: `synonyms: ${repLabel(cids, primaryLex[L], lexemes)}`, type: 'semantic', auto: true });
-      memberLex.forEach((lid, i) => newMembers.push({ cluster_id: cid, lexeme_id: lid, position: i }));
-      cids.forEach((c) => clustered.add(c));
-    }
-  }
+  console.log(`Flat references resolved: ${s.references} strings over ${s.pairs} concept pairs.`);
+  console.log(`Auto edges (mutual + adjacent): ${s.autoEdges}`);
+  console.log(`Review queue: ${s.oneSided} one-sided · ${s.wideSpan} wide-span (level rule) · ${s.conflicts} syn/ant conflicts · ${s.ambiguous} ambiguous`);
+  console.log(`Dangling words (wishlist): ${s.dangling} (${s.promotionCandidates} pass the Q1 promotion bar: 2+ concepts or 2+ languages)`);
+  console.log(`Phrases (answer-support only): ${s.phrases} · self-references: ${s.selfRef}`);
 
   const linked = new Set();
-  for (const L of LANGS) for (const [a, b] of synEdges[L]) { linked.add(a); linked.add(b); }
-  const isolated = concepts.filter((c) => !linked.has(c.concept_id)).length;
-  const handMade = (data.clusters || []).filter((c) => !c.auto).length;
+  for (const e of lintInput) { linked.add(e.concept_a); linked.add(e.concept_b); }
+  const isolated = (data.concepts ?? []).filter((c) => !linked.has(c.concept_id)).length;
+  const total = (data.concepts ?? []).length;
+  console.log(`Isolated concepts (no edge at all): ${isolated}/${total} (${pct(isolated, total)})`);
+  if (contradictions.length) {
+    console.log(`\nTransitive contradictions (synonym chain that is also an antonym pair) - review:`);
+    contradictions.slice(0, 10).forEach((c) => console.log('  - ' + c));
+    if (contradictions.length > 10) console.log(`  ... +${contradictions.length - 10} more`);
+  }
 
-  console.log(`Synonyms → links: ${resolved} resolved · ${ambiguous} ambiguous (multi-sense, skipped) · ${dangling} dangling (word not in lexicon) · ${selfref} self`);
-  console.log(`Antonyms → links: ${antResolved} resolved · ${antDangling} dangling`);
-  console.log(`Synonym clusters (sense families): ${newClusters.length} covering ${clustered.size} concept(s); hand-made clusters kept: ${handMade}`);
-  console.log(`Isolated concepts (no synonym link): ${isolated}/${concepts.length} (${pct(isolated, concepts.length)})`);
-  if (danglingSamples.length) { console.log('\nDangling synonyms - words referenced but missing (add & connect these):'); danglingSamples.forEach((s) => console.log('  - ' + s)); if (dangling > danglingSamples.length) console.log(`  ... +${dangling - danglingSamples.length} more`); }
-  if (ambiguousSamples.length) { console.log('\nAmbiguous synonyms - resolve to >1 sense (need disambiguation):'); ambiguousSamples.forEach((s) => console.log('  - ' + s)); }
-
-  // Optional: dump the dangling words as a ready wishlist (the words to add & connect next).
+  if (args.queueOut) {
+    const out = resolve(process.cwd(), args.queueOut);
+    mkdirSync(dirname(out), { recursive: true });
+    writeJsonAtomic(out, {
+      generated_at: new Date().toISOString(),
+      one_sided: res.queue.oneSided,
+      wide_span: res.queue.wideSpan,
+      conflicts: res.queue.conflicts,
+      ambiguous: res.queue.ambiguous,
+    });
+    console.log(`\nWrote review queue (${s.oneSided + s.wideSpan + s.conflicts + s.ambiguous} entries) -> ${args.queueOut}`);
+  }
   if (args.danglingOut) {
     const out = resolve(process.cwd(), args.danglingOut);
     mkdirSync(dirname(out), { recursive: true });
-    writeFileSync(out, [...danglingWords.values()].map((d) => JSON.stringify(d)).join('\n') + '\n');
-    console.log(`\nWrote ${danglingWords.size} dangling word(s) → ${args.danglingOut}  (feed to the drafter/populate to add & connect them).`);
+    writeFileSync(out, res.dangling.map((d) => JSON.stringify({ term: d.term, lang: d.lang })).join('\n') + '\n');
+    console.log(`Wrote ${s.dangling} dangling word(s) -> ${args.danglingOut} (feed to the drafter/populate).`);
+  }
+  if (args.phrasesOut) {
+    const out = resolve(process.cwd(), args.phrasesOut);
+    mkdirSync(dirname(out), { recursive: true });
+    writeJsonAtomic(out, res.phrases);
+    console.log(`Wrote ${s.phrases} phrase(s) -> ${args.phrasesOut}`);
   }
 
-  if (!args.apply) { console.log('\nReport only. Re-run with --apply to (re)build synonym clusters; review the git diff.'); return; }
+  if (!args.apply) {
+    console.log('\nReport only. Re-run with --apply to write resolved edges + derived clusters; review the git diff.');
+    return;
+  }
 
-  // Idempotent: drop previously auto-generated clusters (+ members), add the fresh ones. Hand-made clusters untouched.
-  const autoIds = new Set((data.clusters || []).filter((c) => c.auto).map((c) => c.cluster_id));
-  data.clusters = (data.clusters || []).filter((c) => !c.auto).concat(newClusters);
-  data.cluster_members = (data.cluster_members || []).filter((m) => !autoIds.has(m.cluster_id)).concat(newMembers);
-  writeFileSync(CONTENT, JSON.stringify(data, null, 2) + '\n');
-  console.log(`\nWrote ${newClusters.length} synonym clusters (${newMembers.length} members). Review: git diff packs/lexicon_source/content.json`);
+  withContentLock(CONTENT, () => {
+    // Re-read inside the lock: another writer may have finished in between.
+    const content = JSON.parse(readFileSync(CONTENT, 'utf8'));
+    const fresh = analyzeRelations(content);
+    const { written, skippedCovered } = applyResolvedEdges(content, fresh.autoEdges);
+    rebuildDerivedClusters(content);
+    writeJsonAtomic(CONTENT, content);
+    console.log(`\nWrote ${written.length} resolved edge(s) (${skippedCovered.length} pair(s) skipped: already covered by a manual/ai edge).`);
+    console.log(`Derived clusters rebuilt from synonym edges. Review: git diff packs/lexicon_source/content.json`);
+  }, { tool: 'interconnect' });
 }
 
-function components(edges) {
-  const parent = new Map();
-  const find = (x) => {
-    if (!parent.has(x)) parent.set(x, x);
-    let r = x;
-    while (parent.get(r) !== r) r = parent.get(r);
-    while (parent.get(x) !== r) { const n = parent.get(x); parent.set(x, r); x = n; }
-    return r;
-  };
-  const union = (a, b) => { const ra = find(a), rb = find(b); if (ra !== rb) parent.set(ra, rb); };
-  for (const [a, b] of edges) union(a, b);
-  const groups = new Map();
-  for (const x of parent.keys()) { const r = find(x); (groups.get(r) ?? groups.set(r, []).get(r)).push(x); }
-  return [...groups.values()];
+// D6: auto semantic clusters are a VIEW over the synonym edges - per language,
+// membership via each concept's primary lexeme. Same id recipe as before the
+// MT-C5 rework so regenerations diff minimally. Hand-made clusters untouched.
+function rebuildDerivedClusters(content) {
+  const primaryLex = new Map(LANGS.map((l) => [l, new Map()]));
+  for (const lx of content.lexemes ?? []) {
+    const lang = String(lx.lang ?? '').toLowerCase();
+    const byConcept = primaryLex.get(lang);
+    if (!byConcept) continue;
+    if (lx.is_primary || !byConcept.has(lx.concept_id)) byConcept.set(lx.concept_id, lx);
+  }
+  const components = synonymComponents(content.concept_relations ?? []);
+  const newClusters = [];
+  const newMembers = [];
+  for (const lang of LANGS) {
+    const byConcept = primaryLex.get(lang);
+    for (const conceptIds of components) {
+      const members = conceptIds.map((c) => byConcept.get(c)).filter(Boolean);
+      if (members.length < 2) continue;
+      const clusterId = uuidFrom(`syn:${lang}:${conceptIds.slice().sort().join('|')}`);
+      const label = members[0].text + (conceptIds.length > 2 ? ` +${conceptIds.length - 1}` : '');
+      newClusters.push({ cluster_id: clusterId, lang, label: `synonyms: ${label}`, type: 'semantic', auto: true });
+      members.forEach((lx, i) => newMembers.push({ cluster_id: clusterId, lexeme_id: lx.lexeme_id, position: i }));
+    }
+  }
+  const autoIds = new Set((content.clusters ?? []).filter((c) => c.auto).map((c) => c.cluster_id));
+  content.clusters = (content.clusters ?? []).filter((c) => !c.auto).concat(newClusters);
+  content.cluster_members = (content.cluster_members ?? []).filter((m) => !autoIds.has(m.cluster_id)).concat(newMembers);
 }
-function repLabel(cids, primMap, lexemes) {
-  const lx = lexemes.find((l) => l.lexeme_id === primMap.get(cids[0]));
-  return (lx?.text || cids[0]) + (cids.length > 2 ? ` +${cids.length - 1}` : '');
+
+function uuidFrom(seed) {
+  const h = createHash('sha1').update(seed).digest('hex');
+  return `${h.slice(0, 8)}-${h.slice(8, 12)}-${h.slice(12, 16)}-${h.slice(16, 20)}-${h.slice(20, 32)}`;
 }
-function uuidFrom(seed) { const h = createHash('sha1').update(seed).digest('hex'); return `${h.slice(0, 8)}-${h.slice(8, 12)}-${h.slice(12, 16)}-${h.slice(16, 20)}-${h.slice(20, 32)}`; }
-function key(s) { return stripArticle(normalizeSearch(s)); }
 function pct(n, t) { return t ? Math.round((100 * n) / t) + '%' : '0%'; }
 function parseArgs(argv) {
   const o = { apply: false };
-  for (let i = 0; i < argv.length; i++) {
+  for (let i = 0; i < argv.length; i += 1) {
     if (argv[i] === '--apply') o.apply = true;
+    else if (argv[i] === '--queue-out') o.queueOut = argv[++i];
     else if (argv[i] === '--dangling-out') o.danglingOut = argv[++i];
+    else if (argv[i] === '--phrases-out') o.phrasesOut = argv[++i];
   }
   return o;
 }

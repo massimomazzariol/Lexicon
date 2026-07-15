@@ -11,7 +11,10 @@
 //
 // Never commits. The survivor of each merge is stamped review_status: needs_review.
 
-import { readFileSync, writeFileSync } from 'fs';
+import { readFileSync } from 'fs';
+import { normalizeSearch, stripArticle } from '../lib/authoring_core.mjs';
+import { rewriteEdgesForMerge } from '../lib/concept_relations.mjs';
+import { writeJsonAtomic, withContentLock } from '../lib/content_store.mjs';
 import { resolve } from 'path';
 
 const CONTENT = resolve(process.cwd(), 'packs/lexicon_source/content.json');
@@ -24,9 +27,10 @@ const defs = data.concept_definitions || [];
 const examples = data.examples || [];
 const members = data.cluster_members || [];
 
-const norm = (s) => String(s ?? '').toLowerCase().normalize('NFKD').replace(/\p{Diacritic}/gu, '').replace(/ß/g, 'ss').trim();
-const ARTS = new Set(['der', 'die', 'das', 'ein', 'eine', 'il', 'lo', 'la', 'i', 'gli', 'le', "l'", 'the', 'a', 'an', 'to']);
-const strip = (s) => { const p = norm(s).split(' '); return p.length > 1 && ARTS.has(p[0]) ? p.slice(1).join(' ') : norm(s); };
+// Shared normalization (OVE-3): identical keys to the relation resolver, so
+// what dedup merges and what interconnect resolves never diverge.
+const norm = normalizeSearch;
+const strip = (s) => stripArticle(normalizeSearch(s));
 const cidOf = (x) => (x && typeof x === 'object' ? x.id : x);
 const grp = (a, f) => { const m = new Map(); for (const x of a) { const k = f(x); (m.get(k) ?? m.set(k, []).get(k)).push(x); } return m; };
 
@@ -104,6 +108,9 @@ for (const set of dupSets) {
     // drop the duplicate's lexemes (the primary already has this word) + concept
     for (const l of lexByC.get(dup) || []) delLexemes.add(l);
     delConcepts.add(dup);
+    // D8: retarget the duplicate's graph edges to the survivor (self-edges
+    // dropped, duplicate pairs collapsed keeping the human-touched edge).
+    rewriteEdgesForMerge(data, dup, primary);
   }
 }
 
@@ -122,7 +129,7 @@ data.concept_definitions = defs.filter((d) => !delDefs.has(d));
 data.examples = examples.filter((e) => !delExamples.has(e));
 data.cluster_members = members.filter((m) => !deadLexIds.has(m.lexeme_id));
 
-writeFileSync(CONTENT, JSON.stringify(data, null, 2) + '\n');
+withContentLock(CONTENT, () => writeJsonAtomic(CONTENT, data), { tool: 'dedup_concepts' });
 console.log(
   `\nMerged ${delConcepts.size} duplicate concept(s) (removed ${delLexemes.size} lexemes, ${delDefs.size} defs, ${delExamples.size} examples).` +
     '\nReview:  git diff packs/lexicon_source/content.json   then commit.'

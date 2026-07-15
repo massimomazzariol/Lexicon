@@ -244,3 +244,34 @@ test('diagnoseContent returns empty for healthy content', () => {
   };
   assert.deepEqual(diagnoseContent(content), []);
 });
+
+test('diagnoseContent surfaces concept relation invariant violations', () => {
+  const content = {
+    concepts: [{ concept_id: 'c1', level_auto: 'A1', difficulty_score_auto: 20 }],
+    lexemes: [{ lexeme_id: 'l1', concept_id: 'c1', lang: 'de', is_primary: true }],
+    lexeme_forms: [{ form_id: 'f1', lexeme_id: 'l1', lang: 'de', surface: 'x', tags_json: { slot_key: 'core' } }],
+    concept_definitions: [{ concept_id: 'c1', lang: 'de', short_definition: 'd' }],
+    concept_relations: [
+      { relation_id: 'bogus', relation_type: 'synonym', concept_a: 'c-ghost', concept_b: 'c1', tier: 'close', lang_scope_json: ['de'], source: 'resolved' },
+    ],
+  };
+  const kinds = new Set(diagnoseContent(content).map((i) => i.kind));
+  assert.ok(kinds.has('relation_orphan'));
+  assert.ok(kinds.has('relation_bad_id'));
+});
+
+test('repairContent drops orphan concept relations (heal loop rule 5)', () => {
+  const content = {
+    concepts: [{ concept_id: 'c1', level_auto: 'A1', difficulty_score_auto: 20 }],
+    lexemes: [{ lexeme_id: 'l1', concept_id: 'c1', lang: 'de', is_primary: true }],
+    lexeme_forms: [{ form_id: 'f1', lexeme_id: 'l1', lang: 'de', surface: 'x', tags_json: { slot_key: 'core' } }],
+    concept_definitions: [{ concept_id: 'c1', lang: 'de', short_definition: 'd' }],
+    concept_relations: [
+      { relation_id: 'bogus', relation_type: 'synonym', concept_a: 'c-ghost', concept_b: 'c1', tier: 'close', lang_scope_json: ['de'], source: 'resolved' },
+    ],
+  };
+  const { fixes } = repairContent(content);
+  assert.equal(content.concept_relations.length, 0);
+  assert.ok(fixes.some((f) => f.includes('orphan concept relation')));
+  assert.ok(!diagnoseContent(content).some((i) => i.kind === 'relation_orphan'));
+});

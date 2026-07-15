@@ -2975,6 +2975,32 @@
       "notes": "Editorial polysemy split (BUG-ED-04 / VBR-149-2). Models einfach in the travel-ticket sense 'single/one-way', distinct from both the 'easy/simple' concept (ec6fe4e3) and the adverbial 'just' concept (concept-a1-einfach-just).",
       "metadata_json": {},
       "review_status": "reviewed"
+    },
+    {
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "pos": "noun",
+      "difficulty_score_auto": 20,
+      "level_auto": "A1",
+      "level_override": null,
+      "domain_tags": [
+        "Daily"
+      ],
+      "notes": "MT-C5 pilot: the abitazione/Wohnhaus/dwelling sense dangling from Haus in all three languages. Level pinned to Haus's pack (design D7 pilot note).",
+      "metadata_json": {},
+      "review_status": "reviewed"
+    },
+    {
+      "concept_id": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "pos": "adj",
+      "difficulty_score_auto": 20,
+      "level_auto": "A1",
+      "level_override": null,
+      "domain_tags": [
+        "Daily"
+      ],
+      "notes": "MT-C5 pilot: antonym counterpart of the core word alt (A1).",
+      "metadata_json": {},
+      "review_status": "reviewed"
     }
   ],
   "lexemes": [
@@ -15809,6 +15835,108 @@
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "56cd7948-b81a-79ff-ff64-4bbb50a82791",
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "lang": "de",
+      "text": "Wohnhaus",
+      "frequency_rank": null,
+      "lemma": "Wohnhaus",
+      "pos": "noun",
+      "gender": "neut",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "cb6eb790-c7ea-722a-9459-362ab99e493f",
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "lang": "it",
+      "text": "l'abitazione",
+      "frequency_rank": null,
+      "lemma": "abitazione",
+      "pos": "noun",
+      "gender": "none",
+      "countability": "count",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": "approved plural",
+      "is_active": true
+    },
+    {
+      "lexeme_id": "bc7c66c2-66d1-e048-a060-89ff07850115",
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "lang": "en",
+      "text": "dwelling",
+      "frequency_rank": null,
+      "lemma": "dwelling",
+      "pos": "noun",
+      "gender": "none",
+      "countability": "count",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": "approved plural",
+      "is_active": true
+    },
+    {
+      "lexeme_id": "d0b32006-74f6-c390-4e99-91bdcd41a317",
+      "concept_id": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "lang": "de",
+      "text": "frisch",
+      "frequency_rank": null,
+      "lemma": "frisch",
+      "pos": "adj",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "95c3931d-dda5-6603-26c9-f66ab6363f5f",
+      "concept_id": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "lang": "it",
+      "text": "fresco",
+      "frequency_rank": null,
+      "lemma": "fresco",
+      "pos": "adj",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "dff6cc94-fb26-a7d2-2c7b-52093dae8bbf",
+      "concept_id": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "lang": "en",
+      "text": "fresh",
+      "frequency_rank": null,
+      "lemma": "fresh",
+      "pos": "adj",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
       "status": "approved",
       "notes": null,
       "is_active": true
@@ -42210,6 +42338,258 @@
       "tags_json": {
         "slot_key": "core"
       }
+    },
+    {
+      "form_id": "cbdd0ff7-abb6-efe3-0966-feca169c7f24",
+      "lexeme_id": "56cd7948-b81a-79ff-ff64-4bbb50a82791",
+      "lang": "de",
+      "surface": "das Wohnhaus",
+      "surface_search": "das wohnhaus",
+      "number_value": "sg",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_sg_def",
+        "grammar_tags": []
+      }
+    },
+    {
+      "form_id": "740b4cbd-31a6-bb50-1eba-008154567e7a",
+      "lexeme_id": "56cd7948-b81a-79ff-ff64-4bbb50a82791",
+      "lang": "de",
+      "surface": "die Wohnhäuser",
+      "surface_search": "die wohnhauser",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
+      "form_id": "c82742f5-723f-24eb-e658-3ec62e92d883",
+      "lexeme_id": "56cd7948-b81a-79ff-ff64-4bbb50a82791",
+      "lang": "de",
+      "surface": "das Wohnhaus",
+      "surface_search": "das wohnhaus",
+      "number_value": "sg",
+      "grammatical_case": "acc",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 2,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "acc_sg_def",
+        "grammar_tags": [
+          "accusative",
+          "singular"
+        ]
+      }
+    },
+    {
+      "form_id": "349db63c-bca2-c143-bfc4-401db4012461",
+      "lexeme_id": "56cd7948-b81a-79ff-ff64-4bbb50a82791",
+      "lang": "de",
+      "surface": "dem Wohnhaus",
+      "surface_search": "dem wohnhaus",
+      "number_value": "sg",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 3,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_sg_def",
+        "grammar_tags": [
+          "dative",
+          "singular"
+        ]
+      }
+    },
+    {
+      "form_id": "0b603759-7132-3b64-cae2-4608ef42b0f0",
+      "lexeme_id": "56cd7948-b81a-79ff-ff64-4bbb50a82791",
+      "lang": "de",
+      "surface": "des Wohnhauses",
+      "surface_search": "des wohnhauses",
+      "number_value": "sg",
+      "grammatical_case": "gen",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 4,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "gen_sg_def",
+        "grammar_tags": [
+          "genitive",
+          "singular"
+        ]
+      }
+    },
+    {
+      "form_id": "ca7c1da3-bbb5-8621-a673-071317c502a0",
+      "lexeme_id": "56cd7948-b81a-79ff-ff64-4bbb50a82791",
+      "lang": "de",
+      "surface": "den Wohnhäusern",
+      "surface_search": "den wohnhausern",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
+      "form_id": "472f8d36-545a-f693-8723-1012424c9bb8",
+      "lexeme_id": "cb6eb790-c7ea-722a-9459-362ab99e493f",
+      "lang": "it",
+      "surface": "l'abitazione",
+      "surface_search": "l'abitazione",
+      "number_value": "sg",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:noun-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "6cc8551d-4ff1-0a6a-d888-0ccd19328457",
+      "lexeme_id": "cb6eb790-c7ea-722a-9459-362ab99e493f",
+      "lang": "it",
+      "surface": "le abitazioni",
+      "surface_search": "le abitazioni",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
+      "form_id": "83432366-b9a2-f74c-246c-0b443da2f96b",
+      "lexeme_id": "bc7c66c2-66d1-e048-a060-89ff07850115",
+      "lang": "en",
+      "surface": "dwelling",
+      "surface_search": "dwelling",
+      "number_value": "sg",
+      "grammatical_case": "none",
+      "definiteness": "bare",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:noun-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "7d03c59e-690f-fb5c-66de-3fe59ec94ac8",
+      "lexeme_id": "bc7c66c2-66d1-e048-a060-89ff07850115",
+      "lang": "en",
+      "surface": "the dwellings",
+      "surface_search": "the dwellings",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
+      "form_id": "ec0c5a61-4613-1a16-36e8-4c7914bb8601",
+      "lexeme_id": "d0b32006-74f6-c390-4e99-91bdcd41a317",
+      "lang": "de",
+      "surface": "frisch",
+      "surface_search": "frisch",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "7873fb0f-51f4-f483-c9c3-b964c787a6be",
+      "lexeme_id": "95c3931d-dda5-6603-26c9-f66ab6363f5f",
+      "lang": "it",
+      "surface": "fresco",
+      "surface_search": "fresco",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "39c56a02-fbd3-db78-2f78-fa9434a8826c",
+      "lexeme_id": "dff6cc94-fb26-a7d2-2c7b-52093dae8bbf",
+      "lang": "en",
+      "surface": "fresh",
+      "surface_search": "fresh",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
     }
   ],
   "study_units": [
@@ -63065,6 +63445,222 @@
       "difficulty_override": null,
       "level_override": null,
       "editor_notes": null
+    },
+    {
+      "study_unit_id": "89697bd6-d1b7-5ad5-230f-12aa18fd8b1e",
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "cbdd0ff7-abb6-efe3-0966-feca169c7f24",
+      "primary_expected_form_id": "83432366-b9a2-f74c-246c-0b443da2f96b",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "f8c52b17-2fbd-e3bc-3a0a-18641437feeb",
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "83432366-b9a2-f74c-246c-0b443da2f96b",
+      "primary_expected_form_id": "cbdd0ff7-abb6-efe3-0966-feca169c7f24",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "5a74e02d-b05c-e51a-9dda-fe1fba6e6181",
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "740b4cbd-31a6-bb50-1eba-008154567e7a",
+      "primary_expected_form_id": "7d03c59e-690f-fb5c-66de-3fe59ec94ac8",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "c0bf2601-df66-2634-2606-29c53dfb0b0c",
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "7d03c59e-690f-fb5c-66de-3fe59ec94ac8",
+      "primary_expected_form_id": "740b4cbd-31a6-bb50-1eba-008154567e7a",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "e0351393-9767-1a47-0fdd-e31db7b008ff",
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "472f8d36-545a-f693-8723-1012424c9bb8",
+      "primary_expected_form_id": "83432366-b9a2-f74c-246c-0b443da2f96b",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "3672be35-114d-645c-d63b-7fd24522c3c7",
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "83432366-b9a2-f74c-246c-0b443da2f96b",
+      "primary_expected_form_id": "472f8d36-545a-f693-8723-1012424c9bb8",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "794ced2c-0cc6-0e55-d1e4-37d39dfb07cf",
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "6cc8551d-4ff1-0a6a-d888-0ccd19328457",
+      "primary_expected_form_id": "7d03c59e-690f-fb5c-66de-3fe59ec94ac8",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "562a18b8-339a-dece-a960-9764cd181e16",
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "7d03c59e-690f-fb5c-66de-3fe59ec94ac8",
+      "primary_expected_form_id": "6cc8551d-4ff1-0a6a-d888-0ccd19328457",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "4e711ada-464c-b15a-1163-cafa7ffc1aeb",
+      "concept_id": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "ec0c5a61-4613-1a16-36e8-4c7914bb8601",
+      "primary_expected_form_id": "39c56a02-fbd3-db78-2f78-fa9434a8826c",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "61a575f1-9852-7146-e234-340c1d6848e9",
+      "concept_id": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "39c56a02-fbd3-db78-2f78-fa9434a8826c",
+      "primary_expected_form_id": "ec0c5a61-4613-1a16-36e8-4c7914bb8601",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "59446e4b-71d7-06e3-2676-736771a611da",
+      "concept_id": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "7873fb0f-51f4-f483-c9c3-b964c787a6be",
+      "primary_expected_form_id": "39c56a02-fbd3-db78-2f78-fa9434a8826c",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "b5e744de-9bbb-d115-7d0f-a585c45eefea",
+      "concept_id": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "39c56a02-fbd3-db78-2f78-fa9434a8826c",
+      "primary_expected_form_id": "7873fb0f-51f4-f483-c9c3-b964c787a6be",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
     }
   ],
   "examples": [
@@ -75338,6 +75934,90 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
+    },
+    {
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "lang": "de",
+      "short_definition": "Gebäude, in dem Menschen dauerhaft leben.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "Haus"
+      ],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "lang": "it",
+      "short_definition": "Luogo in cui una persona vive stabilmente.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "casa"
+      ],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "lang": "en",
+      "short_definition": "A place where someone lives.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "house"
+      ],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "lang": "de",
+      "short_definition": "Gerade erst gemacht oder geerntet.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [
+        "alt"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "lang": "it",
+      "short_definition": "Fatto o raccolto da poco.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [
+        "vecchio"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "lang": "en",
+      "short_definition": "Just made or picked.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [
+        "old"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
     }
   ],
   "clusters": [
@@ -75358,69 +76038,6 @@
       "lang": "de",
       "label": "travel movement",
       "type": "semantic"
-    },
-    {
-      "cluster_id": "f779c71c-963c-7d73-9e33-d4a4f72b770a",
-      "lang": "de",
-      "label": "synonyms: jung",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "aeeca376-3089-ffc7-b22c-a61afc8a2f68",
-      "lang": "de",
-      "label": "synonyms: Wohnhaus",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "85bc2396-271e-f231-446b-844d1af8d59e",
-      "lang": "de",
-      "label": "synonyms: putzen",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "b9115b8e-f798-6ccf-1024-4c0d78b8c4ef",
-      "lang": "it",
-      "label": "synonyms: giovane",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "d23ac697-a6ad-533f-b1e8-6462e0eef81c",
-      "lang": "it",
-      "label": "synonyms: l'abitazione",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "076a637b-6587-fe47-b814-c322a20b1312",
-      "lang": "it",
-      "label": "synonyms: pulire",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "bfca0e6f-335f-c690-68ba-6d99427c500a",
-      "lang": "en",
-      "label": "synonyms: young",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "1ced80ac-5842-2ee1-a9a5-07c8b4f26654",
-      "lang": "en",
-      "label": "synonyms: dwelling",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "c63a16eb-9ab3-a4b7-da4d-4e00c1d65ff0",
-      "lang": "en",
-      "label": "synonyms: to clean",
-      "type": "semantic",
-      "auto": true
     }
   ],
   "cluster_members": [
@@ -75448,570 +76065,7 @@
       "cluster_id": "96d5678e-4aff-9dcb-b4b2-de0f0f11a731",
       "lexeme_id": "lex-de-ausflug",
       "position": 2
-    },
-    {
-      "cluster_id": "f779c71c-963c-7d73-9e33-d4a4f72b770a",
-      "lexeme_id": "lex-de-jung",
-      "position": 0
-    },
-    {
-      "cluster_id": "f779c71c-963c-7d73-9e33-d4a4f72b770a",
-      "lexeme_id": "lex-de-neu",
-      "position": 1
-    },
-    {
-      "cluster_id": "aeeca376-3089-ffc7-b22c-a61afc8a2f68",
-      "lexeme_id": "lex-de-haus",
-      "position": 1
-    },
-    {
-      "cluster_id": "85bc2396-271e-f231-446b-844d1af8d59e",
-      "lexeme_id": "lex-de-putzen",
-      "position": 0
-    },
-    {
-      "cluster_id": "b9115b8e-f798-6ccf-1024-4c0d78b8c4ef",
-      "lexeme_id": "lex-it-giovane",
-      "position": 0
-    },
-    {
-      "cluster_id": "b9115b8e-f798-6ccf-1024-4c0d78b8c4ef",
-      "lexeme_id": "lex-it-nuovo",
-      "position": 1
-    },
-    {
-      "cluster_id": "d23ac697-a6ad-533f-b1e8-6462e0eef81c",
-      "lexeme_id": "lex-it-casa",
-      "position": 1
-    },
-    {
-      "cluster_id": "076a637b-6587-fe47-b814-c322a20b1312",
-      "lexeme_id": "lex-it-pulire",
-      "position": 0
-    },
-    {
-      "cluster_id": "bfca0e6f-335f-c690-68ba-6d99427c500a",
-      "lexeme_id": "lex-en-young",
-      "position": 0
-    },
-    {
-      "cluster_id": "bfca0e6f-335f-c690-68ba-6d99427c500a",
-      "lexeme_id": "lex-en-new",
-      "position": 1
-    },
-    {
-      "cluster_id": "1ced80ac-5842-2ee1-a9a5-07c8b4f26654",
-      "lexeme_id": "lex-en-house",
-      "position": 1
-    },
-    {
-      "cluster_id": "c63a16eb-9ab3-a4b7-da4d-4e00c1d65ff0",
-      "lexeme_id": "lex-en-to-clean",
-      "position": 0
     }
   ],
-  "concept_relations": [
-    {
-      "relation_id": "a1ffc3e1-9706-f23d-42cb-13392251ea6a",
-      "relation_type": "antonym",
-      "concept_a": "0188bbb8-b392-68ad-77a0-7c6df578efbe",
-      "concept_b": "f1bdc3dd-6e83-6545-ebee-cf0453011f75",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "33259c09-7bd4-f32a-9150-17fd4b147a5e",
-      "relation_type": "antonym",
-      "concept_a": "04c5d87f-440f-3e11-14cb-853783408621",
-      "concept_b": "2703c468-988a-0cf9-31e2-00f228ecb187",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "06ddc2bd-0b9c-5eb3-e581-ed15c5bf0d87",
-      "relation_type": "antonym",
-      "concept_a": "05e8f99b-09b8-996b-4b00-2717128f2062",
-      "concept_b": "434197ea-470c-0d8c-5882-c14d89eb9dfd",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "974ce812-82aa-8838-5c00-159920102cbc",
-      "relation_type": "antonym",
-      "concept_a": "0d2589ee-2440-dbee-a208-b8c746185d20",
-      "concept_b": "acf43980-f6c2-a6a4-e106-aba177daf84b",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "0c357d2f-3fac-d271-8e9d-6916d06c9bbe",
-      "relation_type": "antonym",
-      "concept_a": "0dac5338-7ee7-54fe-72d6-a64e52cf943f",
-      "concept_b": "3f777d3a-5323-3d49-40ca-1d04e8ff376a",
-      "lang_scope_json": [
-        "de",
-        "en",
-        "it"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "24a311ae-a2eb-a6a3-689d-006d78ac3cae",
-      "relation_type": "antonym",
-      "concept_a": "108d1fed-1c66-2bac-ccbe-ef989d0a502c",
-      "concept_b": "29e2704f-65fe-3f63-cd16-496af9d832d2",
-      "lang_scope_json": [
-        "de",
-        "en",
-        "it"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "a2739ef8-48f7-285d-7537-07fa2e56610a",
-      "relation_type": "antonym",
-      "concept_a": "13bf153f-5b95-81b3-6ec2-646e49af8f3f",
-      "concept_b": "a6a02266-de00-f0d8-462f-29e0e630ad11",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "a31c3962-60d3-cbe1-6add-662998a4a10d",
-      "relation_type": "antonym",
-      "concept_a": "154140dc-6a12-f58d-e630-2d05193ddb1a",
-      "concept_b": "21c1c48d-eb39-b214-93fc-566062ee1668",
-      "lang_scope_json": [
-        "de",
-        "en",
-        "it"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "5d79cbd0-bc1f-80e1-646b-16394fd56052",
-      "relation_type": "antonym",
-      "concept_a": "154140dc-6a12-f58d-e630-2d05193ddb1a",
-      "concept_b": "41491802-4027-0f74-b392-e0f8f9a301fb",
-      "lang_scope_json": [
-        "de",
-        "en",
-        "it"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "9ff03082-6cff-1f55-30fa-6cec04891be7",
-      "relation_type": "antonym",
-      "concept_a": "16aaee01-9bbf-1a30-7b7c-b135254c6510",
-      "concept_b": "ee083d9e-ea66-863b-b518-a3aef3d873d7",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "13cd84cd-6d10-c21c-0b5c-7caa14f8792d",
-      "relation_type": "antonym",
-      "concept_a": "1a2d6eb8-6a6d-b96f-49f8-e58293b71539",
-      "concept_b": "691b1d35-324e-dd44-4886-e365a7653034",
-      "lang_scope_json": [
-        "de",
-        "en",
-        "it"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "0797d325-7cb4-f005-d3e7-f375370fd3ac",
-      "relation_type": "antonym",
-      "concept_a": "1bfa148c-3803-3983-08d0-4c51236600ad",
-      "concept_b": "c865d20f-a380-fca4-1e9a-946628371556",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "429d347f-f801-d557-f18e-ab8f630f07cc",
-      "relation_type": "antonym",
-      "concept_a": "1de04d05-f911-ac26-2bff-566fc90ed9f9",
-      "concept_b": "a0faf9d1-ed1c-9f28-6d77-f8ebbb94f052",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "9cea488e-20a8-fe49-bd54-28eaadbdcc60",
-      "relation_type": "antonym",
-      "concept_a": "23f3cd66-40a2-652f-205a-7557f2a9e950",
-      "concept_b": "eb287814-640f-16ad-e3a6-7c3e3806d7f4",
-      "lang_scope_json": [
-        "de",
-        "en",
-        "it"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "2f6f8256-fbaa-2f81-f914-50796435f7a2",
-      "relation_type": "antonym",
-      "concept_a": "27ea4876-e57e-7e6f-be3d-3a7e485e75b8",
-      "concept_b": "e1adcaf9-1698-837c-2419-e43587d33c11",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "13af4188-18a1-742e-90b1-8dcbc15a4c46",
-      "relation_type": "antonym",
-      "concept_a": "2cbb5355-1167-0a0a-0c9b-34a3252e6982",
-      "concept_b": "f7f87a5b-54c6-2d57-10b5-3cd69a26cc7d",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "7c945a94-8e67-3fa5-e4e2-3ca3204edb0b",
-      "relation_type": "antonym",
-      "concept_a": "2e769167-00e6-f086-d72a-4e96521fa4ce",
-      "concept_b": "841a0138-2699-37ac-2d82-cf0c66b5171e",
-      "lang_scope_json": [
-        "de",
-        "en",
-        "it"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "176ab2ba-b808-8e60-7168-d5baec854674",
-      "relation_type": "antonym",
-      "concept_a": "2e907009-86c6-df98-1b54-0446b3df23d7",
-      "concept_b": "e355f712-01a3-1015-eb00-b6d23f6f8459",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "8e0ac2fa-e965-1403-b914-9f8758ae4f5d",
-      "relation_type": "antonym",
-      "concept_a": "3cdf79c6-4a75-bf63-d8d2-defabc8505e3",
-      "concept_b": "8aec7ccd-d700-141c-9b69-4929aac41fbc",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "87e72eb8-ce37-f61f-a58d-69bf5dd6eda6",
-      "relation_type": "antonym",
-      "concept_a": "3f777d3a-5323-3d49-40ca-1d04e8ff376a",
-      "concept_b": "44775ff0-28a7-af91-e216-740eb9cc5583",
-      "lang_scope_json": [
-        "de",
-        "en"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "16b6382c-c442-00b4-a1d8-87924066a2b6",
-      "relation_type": "antonym",
-      "concept_a": "44edd51b-48a3-0deb-43bb-3af582b97253",
-      "concept_b": "ef8d4042-0601-42ca-3e94-d4afed72544e",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "9fe2eda2-a2eb-7e5d-2df7-6f622aa02ca5",
-      "relation_type": "antonym",
-      "concept_a": "4b93435e-acbe-2f6b-9afb-313c8a88845b",
-      "concept_b": "91f2e21d-1055-c502-52eb-6895fe4406c4",
-      "lang_scope_json": [
-        "de",
-        "en",
-        "it"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "cc23cec5-73cf-ac8d-0694-1edab009ceca",
-      "relation_type": "antonym",
-      "concept_a": "4e503e75-ea9e-4bba-5a31-09b34df4d303",
-      "concept_b": "ec6fe4e3-fc8a-e7f0-0dcd-1bf1f7260b4a",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "bc477d60-ac42-f5c9-99a3-39335a73b72e",
-      "relation_type": "antonym",
-      "concept_a": "4f291b92-ca93-0d8c-bc8f-fc9d225384a0",
-      "concept_b": "80baf5ef-6ee7-8a27-6f5c-b5d7b88415d4",
-      "lang_scope_json": [
-        "de",
-        "en",
-        "it"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "2042996a-31ba-136c-b07f-9934f61a511f",
-      "relation_type": "antonym",
-      "concept_a": "5166779c-fea2-00fe-92da-00661e14de80",
-      "concept_b": "f00e94e5-0159-bd1b-2f6c-98d060fb54c9",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "47a9122f-f7d1-20d8-54a6-09db1bf3ca9d",
-      "relation_type": "antonym",
-      "concept_a": "53755265-2825-a0ee-b1de-c5a680bdef75",
-      "concept_b": "6bdbb206-99e7-33fb-a26a-08985f3c7c79",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "05d97a55-beab-b939-7ccc-d4e80a1fe2b8",
-      "relation_type": "antonym",
-      "concept_a": "548ac186-0a69-6839-73ff-5a0431f3aabc",
-      "concept_b": "concept-a2-nirgendwo",
-      "lang_scope_json": [
-        "de",
-        "en",
-        "it"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "22d6f49c-6371-45a7-b3bd-0618e56e9884",
-      "relation_type": "antonym",
-      "concept_a": "5970f929-d3f8-99a9-ea06-a65bd7517888",
-      "concept_b": "7c543f94-d74e-9ac0-b2c6-ca36a56b6c70",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "b87c1a87-868c-ba49-b669-d130e6e4a020",
-      "relation_type": "antonym",
-      "concept_a": "616c3547-3dbf-bfe2-ea0a-4281482e7116",
-      "concept_b": "8296eafc-1921-0814-800a-cd8d880ff0bf",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "8ecdf001-5695-8398-ea41-35b8aa02b9b4",
-      "relation_type": "antonym",
-      "concept_a": "632b1356-e865-9aa6-ec1b-b86e243b8f5c",
-      "concept_b": "f95fafb5-da7d-d06d-2ba0-364c18845067",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "e393a1e8-1efe-7f4c-5f0e-878a99a5a1dc",
-      "relation_type": "antonym",
-      "concept_a": "6d361fa8-6b91-5bc2-d807-071ecd666ee8",
-      "concept_b": "87a180ff-f265-430e-bc0b-161b8604d068",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "86fb4fe3-fe9c-d4e3-bdac-ffc9aba2ca95",
-      "relation_type": "antonym",
-      "concept_a": "79f6518e-8b4f-578e-f416-504b5f349185",
-      "concept_b": "concept-a1-gehen",
-      "lang_scope_json": [
-        "en",
-        "it"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "3d8598ca-32e5-9967-4ba5-1c8d4d2ab540",
-      "relation_type": "antonym",
-      "concept_a": "7a5071b5-7f6f-27f4-2ef9-7008b01524d4",
-      "concept_b": "concept-a2-drinnen",
-      "lang_scope_json": [
-        "de",
-        "en",
-        "it"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "fa3f1493-aeb6-3007-eb8d-669f5a54ee0d",
-      "relation_type": "antonym",
-      "concept_a": "7c543f94-d74e-9ac0-b2c6-ca36a56b6c70",
-      "concept_b": "8c095125-c82a-103f-433f-7c32a1d70cba",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "cc0ef341-b7b4-dc31-bc14-9ee8ab04c9b8",
-      "relation_type": "antonym",
-      "concept_a": "7ce3ed3f-c71d-fbc8-e09c-e6200e4617c3",
-      "concept_b": "dc64b800-cb87-cdc6-9781-98c5997183b4",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "616630c3-4955-2ab8-48a0-84430fd3bd2f",
-      "relation_type": "antonym",
-      "concept_a": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
-      "concept_b": "eb287814-640f-16ad-e3a6-7c3e3806d7f4",
-      "lang_scope_json": [
-        "de",
-        "en",
-        "it"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "19fcfbf6-560d-f185-a5ba-460145702cad",
-      "relation_type": "antonym",
-      "concept_a": "82329b0f-c31c-baee-9d6e-914944d823c1",
-      "concept_b": "836f2a6d-c22c-3803-a53f-39cb9bdc3197",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "fe1fe52c-05fd-0272-52fc-61a22c2a7a7c",
-      "relation_type": "antonym",
-      "concept_a": "961ac32c-4e2b-36c8-3735-f91f2ddb9ece",
-      "concept_b": "e2d3c1e2-8f4d-c7a2-d131-2351cd0d30c9",
-      "lang_scope_json": [
-        "de",
-        "en",
-        "it"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "a7be2298-46fc-152a-5eb2-98906de94c8a",
-      "relation_type": "antonym",
-      "concept_a": "996b510f-0051-ed71-9975-155b8ec6f8ee",
-      "concept_b": "ccc568db-1da2-1dea-712e-ae8083a0ca60",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "6bf6422a-15af-b885-0341-f95fc1522953",
-      "relation_type": "antonym",
-      "concept_a": "ca09ed6c-97c5-3209-56ec-117bb486ac72",
-      "concept_b": "f392f36d-7108-8400-a824-a35262d7340a",
-      "lang_scope_json": [
-        "de",
-        "en",
-        "it"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "52b6e416-795a-08cd-1ffc-76ea63b30366",
-      "relation_type": "antonym",
-      "concept_a": "cd6bba6d-b8a8-e990-29d9-399bbf43d1ca",
-      "concept_b": "edf3aabe-397b-07a2-e9e2-64b43161ff71",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "6a5ee06c-a977-5a7f-122d-0a30049b4210",
-      "relation_type": "antonym",
-      "concept_a": "d5a6cfdf-d6ee-10c8-1d58-1fb0bafaae70",
-      "concept_b": "f62b0871-8768-d1b5-fc27-aa9b253d73eb",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "c9f850dd-44dd-1374-1892-42a55d5eaa4c",
-      "relation_type": "antonym",
-      "concept_a": "d8302f33-c204-cfed-38dd-fd9eca19c924",
-      "concept_b": "f2d7cb30-12e2-9c7d-8005-f7f2bdc4c13d",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "7525e46d-7813-63eb-a4b6-925da8dfa034",
-      "relation_type": "antonym",
-      "concept_a": "dc64b800-cb87-cdc6-9781-98c5997183b4",
-      "concept_b": "e57fdbbb-2876-2d18-1265-48a12931473a",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "59bbff62-9338-33e5-3482-10b963c121e9",
-      "relation_type": "antonym",
-      "concept_a": "e13a99f1-2497-a121-c0b7-deb837a0b0d1",
-      "concept_b": "e77cd55e-9d2d-e3c1-e012-1659eab9864a",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "91621ee8-c969-3f69-031c-c1f3cd2ab17d",
-      "relation_type": "synonym",
-      "concept_a": "21c1c48d-eb39-b214-93fc-566062ee1668",
-      "concept_b": "41491802-4027-0f74-b392-e0f8f9a301fb",
-      "tier": "close",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    },
-    {
-      "relation_id": "19778242-293a-9671-7472-3ae00c4e0c68",
-      "relation_type": "synonym",
-      "concept_a": "concept-a1-putzen",
-      "concept_b": "concept-a2-reinigen",
-      "tier": "close",
-      "lang_scope_json": [
-        "de"
-      ],
-      "source": "resolved"
-    }
-  ]
+  "concept_relations": []
 }

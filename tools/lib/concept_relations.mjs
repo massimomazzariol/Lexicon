@@ -133,14 +133,16 @@ export function analyzeRelations(content) {
         const key = surfaceKey(term);
         if (!key) continue;
         references += 1;
-        if (term.includes(' ')) {
-          // Multi-word phrases stay free-text answer support (bucket d) even
-          // when they happen to match a lexeme surface.
-          phrases.push({ term, lang, type, from: origin });
-          continue;
-        }
         const targets = byKey.get(key);
         if (!targets) {
+          // Unresolvable multi-word strings are answer-support phrases
+          // (bucket d) - they can never become concepts. Multi-word strings
+          // that DO resolve (real multi-word lexemes like "immer noch") are
+          // normal pairs and fall through below.
+          if (term.includes(' ')) {
+            phrases.push({ term, lang, type, from: origin });
+            continue;
+          }
           const dkey = `${lang}\t${key}`;
           if (!dangling.has(dkey)) dangling.set(dkey, { term, lang, key, from: new Set() });
           dangling.get(dkey).from.add(origin);

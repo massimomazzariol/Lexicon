@@ -34464,6 +34464,153 @@
       "lang": "de",
       "label": "travel movement",
       "type": "semantic"
+    },
+    {
+      "cluster_id": "4510efb0-4e8b-ff21-af30-b0c6930b0556",
+      "lang": "de",
+      "label": "synonyms: zumindest",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a849cff9-18a8-f8cd-1f9f-82d8ba917a27",
+      "lang": "de",
+      "label": "synonyms: Antrag",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "e6e39b6b-3e07-77c1-b891-fb1156b395a4",
+      "lang": "de",
+      "label": "synonyms: klar",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "85bc2396-271e-f231-446b-844d1af8d59e",
+      "lang": "de",
+      "label": "synonyms: putzen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "63df83b7-fe0b-77ae-cb4e-629efbf43e8d",
+      "lang": "de",
+      "label": "synonyms: empfehlen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "b36e0a40-66a8-bcc2-df3c-ca7d2a2f3b69",
+      "lang": "de",
+      "label": "synonyms: normalerweise",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c1b879e2-d36a-59b9-82e4-37cb4b4cdfc6",
+      "lang": "de",
+      "label": "synonyms: wahrscheinlich",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "e4f1320b-3399-f32b-2b43-b850c25e9b83",
+      "lang": "it",
+      "label": "synonyms: perlomeno",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "98ae0808-e33b-007f-da3c-3c70ed4c9cda",
+      "lang": "it",
+      "label": "synonyms: la domanda formale",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "5c8c931b-0ec0-9dca-0f11-6a8631a1425c",
+      "lang": "it",
+      "label": "synonyms: chiaro",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "076a637b-6587-fe47-b814-c322a20b1312",
+      "lang": "it",
+      "label": "synonyms: pulire",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "ba8e4475-97f0-adbf-57af-691b18172c40",
+      "lang": "it",
+      "label": "synonyms: consigliare",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "ad9ae94d-11d4-8f15-fdcb-af1e0cab4a77",
+      "lang": "it",
+      "label": "synonyms: normalmente",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "55a9d7ed-9827-eff8-34c7-4d599714c490",
+      "lang": "it",
+      "label": "synonyms: probabilmente",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "65d3cb85-dc45-71ba-fbaa-a8bfa5344e99",
+      "lang": "en",
+      "label": "synonyms: at least (concession)",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "28445bcd-c5d3-ecfa-d87d-3f083a28ca40",
+      "lang": "en",
+      "label": "synonyms: formal application",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "220bbef1-aeb7-8f32-358d-8c373c1b7655",
+      "lang": "en",
+      "label": "synonyms: clear",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c63a16eb-9ab3-a4b7-da4d-4e00c1d65ff0",
+      "lang": "en",
+      "label": "synonyms: to clean",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "e5bc9865-69dd-c5a9-355e-b98581ecf9fd",
+      "lang": "en",
+      "label": "synonyms: to recommend",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "ec127ed3-98cb-d37b-b59e-42ce4a0564b9",
+      "lang": "en",
+      "label": "synonyms: normally",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "8ed6c77d-180f-6895-a7d6-d08fa53ab4e0",
+      "lang": "en",
+      "label": "synonyms: probably",
+      "type": "semantic",
+      "auto": true
     }
   ],
   "cluster_members": [
@@ -34506,6 +34653,265 @@
       "cluster_id": "96d5678e-4aff-9dcb-b4b2-de0f0f11a731",
       "lexeme_id": "lex-de-abholen",
       "position": 3
+    },
+    {
+      "cluster_id": "4510efb0-4e8b-ff21-af30-b0c6930b0556",
+      "lexeme_id": "lex-de-mindestens",
+      "position": 1
+    },
+    {
+      "cluster_id": "a849cff9-18a8-f8cd-1f9f-82d8ba917a27",
+      "lexeme_id": "lex-de-antrag",
+      "position": 0
+    },
+    {
+      "cluster_id": "e6e39b6b-3e07-77c1-b891-fb1156b395a4",
+      "lexeme_id": "lex-de-deutlich",
+      "position": 1
+    },
+    {
+      "cluster_id": "85bc2396-271e-f231-446b-844d1af8d59e",
+      "lexeme_id": "lex-de-reinigen",
+      "position": 1
+    },
+    {
+      "cluster_id": "63df83b7-fe0b-77ae-cb4e-629efbf43e8d",
+      "lexeme_id": "lex-de-empfehlen",
+      "position": 0
+    },
+    {
+      "cluster_id": "b36e0a40-66a8-bcc2-df3c-ca7d2a2f3b69",
+      "lexeme_id": "lex-de-normalerweise",
+      "position": 0
+    },
+    {
+      "cluster_id": "c1b879e2-d36a-59b9-82e4-37cb4b4cdfc6",
+      "lexeme_id": "lex-de-wahrscheinlich",
+      "position": 0
+    },
+    {
+      "cluster_id": "e4f1320b-3399-f32b-2b43-b850c25e9b83",
+      "lexeme_id": "lex-it-almeno-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "98ae0808-e33b-007f-da3c-3c70ed4c9cda",
+      "lexeme_id": "lex-it-domanda-formale",
+      "position": 0
+    },
+    {
+      "cluster_id": "5c8c931b-0ec0-9dca-0f11-6a8631a1425c",
+      "lexeme_id": "lex-it-chiaro",
+      "position": 1
+    },
+    {
+      "cluster_id": "076a637b-6587-fe47-b814-c322a20b1312",
+      "lexeme_id": "lex-it-pulire-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "ba8e4475-97f0-adbf-57af-691b18172c40",
+      "lexeme_id": "lex-it-consigliare",
+      "position": 0
+    },
+    {
+      "cluster_id": "ad9ae94d-11d4-8f15-fdcb-af1e0cab4a77",
+      "lexeme_id": "lex-it-normalmente",
+      "position": 0
+    },
+    {
+      "cluster_id": "55a9d7ed-9827-eff8-34c7-4d599714c490",
+      "lexeme_id": "lex-it-probabilmente",
+      "position": 0
+    },
+    {
+      "cluster_id": "65d3cb85-dc45-71ba-fbaa-a8bfa5344e99",
+      "lexeme_id": "lex-en-at-least-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "28445bcd-c5d3-ecfa-d87d-3f083a28ca40",
+      "lexeme_id": "lex-en-formal-application",
+      "position": 0
+    },
+    {
+      "cluster_id": "220bbef1-aeb7-8f32-358d-8c373c1b7655",
+      "lexeme_id": "lex-en-clear",
+      "position": 1
+    },
+    {
+      "cluster_id": "c63a16eb-9ab3-a4b7-da4d-4e00c1d65ff0",
+      "lexeme_id": "lex-en-to-clean-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "e5bc9865-69dd-c5a9-355e-b98581ecf9fd",
+      "lexeme_id": "lex-en-to-recommend",
+      "position": 0
+    },
+    {
+      "cluster_id": "ec127ed3-98cb-d37b-b59e-42ce4a0564b9",
+      "lexeme_id": "lex-en-normally",
+      "position": 0
+    },
+    {
+      "cluster_id": "8ed6c77d-180f-6895-a7d6-d08fa53ab4e0",
+      "lexeme_id": "lex-en-probably",
+      "position": 0
+    }
+  ],
+  "concept_relations": [
+    {
+      "relation_id": "dad483de-4843-7245-0d21-b79cb157edb5",
+      "relation_type": "antonym",
+      "concept_a": "03e06d4d-6e66-57de-675b-848282e41d06",
+      "concept_b": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "ec96e739-5293-21be-9c9f-00b0cfdf7cc5",
+      "relation_type": "antonym",
+      "concept_a": "03e06d4d-6e66-57de-675b-848282e41d06",
+      "concept_b": "concept-a2-deshalb",
+      "lang_scope_json": [
+        "de",
+        "en"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "9cea488e-20a8-fe49-bd54-28eaadbdcc60",
+      "relation_type": "antonym",
+      "concept_a": "23f3cd66-40a2-652f-205a-7557f2a9e950",
+      "concept_b": "eb287814-640f-16ad-e3a6-7c3e3806d7f4",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "a047cfb9-5c9e-ed54-93a2-8aee1ae70956",
+      "relation_type": "antonym",
+      "concept_a": "2de09df9-4a0c-8b2a-f080-6c52571b7064",
+      "concept_b": "concept-a2-nirgendwo",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "05d97a55-beab-b939-7ccc-d4e80a1fe2b8",
+      "relation_type": "antonym",
+      "concept_a": "548ac186-0a69-6839-73ff-5a0431f3aabc",
+      "concept_b": "concept-a2-nirgendwo",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "a7289a28-984a-96e8-9379-aa9525c02ca8",
+      "relation_type": "antonym",
+      "concept_a": "5a3f0258-ae5f-5c70-4b43-84454023b3c7",
+      "concept_b": "concept-a2-unterschiedlich",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "3d8598ca-32e5-9967-4ba5-1c8d4d2ab540",
+      "relation_type": "antonym",
+      "concept_a": "7a5071b5-7f6f-27f4-2ef9-7008b01524d4",
+      "concept_b": "concept-a2-drinnen",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "616630c3-4955-2ab8-48a0-84430fd3bd2f",
+      "relation_type": "antonym",
+      "concept_a": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
+      "concept_b": "eb287814-640f-16ad-e3a6-7c3e3806d7f4",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "c9e39001-7477-d32d-c56c-f7fa3258a74f",
+      "relation_type": "synonym",
+      "concept_a": "2e15a945-9821-6cd1-ef18-663740b7bee6",
+      "concept_b": "concept-a2-mindestens",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "ac5fd30f-e68c-8721-e920-0c40ceb96c30",
+      "relation_type": "synonym",
+      "concept_a": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
+      "concept_b": "ed8e2fd9-341b-1cad-7908-35e22a2f2388",
+      "tier": "close",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "19778242-293a-9671-7472-3ae00c4e0c68",
+      "relation_type": "synonym",
+      "concept_a": "concept-a1-putzen",
+      "concept_b": "concept-a2-reinigen",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "e8911b23-7be8-259a-d7b3-ef32b02fea68",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-empfehlen",
+      "concept_b": "concept-b1-vorschlagen",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "9489073b-fd0f-ba82-a90e-74f698c6c620",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-wahrscheinlich",
+      "concept_b": "concept-b1-vermutlich",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
     }
   ]
 }

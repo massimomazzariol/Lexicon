@@ -144,6 +144,27 @@ fields:
   keyed per (language, level, kind): `lexicon.<lang>.<level>.seed` (vocab) and
   `lexicon.<lang>.<level>.expressions`.
 
+- `concept_relations[]` - optional top-level payload array: graph edges
+  between concepts (the interconnection graph). Record shape:
+  `relation_id` (opaque unique string, deterministic producer-side),
+  `relation_type` (`"synonym"` | `"antonym"` | `"related"`),
+  `concept_a` / `concept_b` (concept ids, lexicographically ordered, never
+  equal), `tier` (`"exact"` | `"close"` | `"loose"`, synonym edges only;
+  absent = `"close"`), `lang_scope_json` (`null` = asserted for every
+  language, or a non-empty array of language codes), `source` (provenance:
+  `"resolved"` | `"manual"` | `"ai"`).
+  Producer rule: an edge ships in EVERY chunk that contains at least one of
+  its endpoint concepts (duplication keeps chunks self-describing).
+  Consumer rules: dedup edges by `relation_id`; track the source chunk of
+  each imported edge and REPLACE that chunk's edge set on re-import - an
+  edge exists locally while at least one installed chunk carries it; an
+  edge whose other endpoint concept is not (yet) imported is stored but
+  INERT (renders nothing, grades nothing); an edge with an unknown
+  `relation_type` value is ignored with a log line; an edge missing a
+  required field or carrying a malformed value is dropped with a log line,
+  never a crash; a valid edge whose endpoint concept has no lexeme in the
+  requested language is inert for that language.
+
 ## GitHub Release asset naming (flattened)
 
 When the distribution is published to a GitHub Release, asset names cannot

@@ -9,6 +9,7 @@
 // `generate_pack_forms` (flagged via `needsFormGen`) since that is its job.
 
 import { defaultDifficultyForLevel } from './lexicon_conventions.mjs';
+import { diagnoseRelations, repairRelationOrphans } from './concept_relations.mjs';
 
 function isMeaningful(value) {
   return (
@@ -338,6 +339,10 @@ export function diagnoseContent(content) {
     });
   }
 
+  // Graph invariants (MT-C5 design section 5): orphan endpoints, self-edges,
+  // ordering/uniqueness, one type per pair, tier/scope/id shape, level span.
+  issues.push(...diagnoseRelations(content));
+
   const typography = { count: 0, samples: [] };
   _scanTypography(content, typography);
   if (typography.count) {
@@ -480,6 +485,11 @@ export function repairContent(content) {
       `normalized ${dashesNormalized} string(s) with em/en dashes or ellipsis`,
     );
   }
+
+  // Heal loop rule 5 (OVE-4): drop edges whose endpoint concept is gone -
+  // same shape as the four child-table orphan drops above.
+  const edgeOrphans = repairRelationOrphans(content);
+  if (edgeOrphans) fixes.push(`removed ${edgeOrphans} orphan concept relation(s)`);
 
   const needsFormGen = lexemesMissingForms(content).length > 0;
   return { content, fixes, needsFormGen };

@@ -15,7 +15,8 @@
 //   node tools/scripts/tier_synonyms.mjs --apply --limit 20 --delay 800   # one paced chunk
 //   node tools/scripts/tier_synonyms.mjs --apply --judge <model>          # force a judge model
 
-import { readFileSync, writeFileSync } from 'fs';
+import { readFileSync } from 'fs';
+import { writeJsonAtomic } from '../lib/content_store.mjs';
 import { resolve } from 'path';
 import { langName, langList } from '../lib/languages.mjs';
 import { chat, resolveModel, listChatModels, asString as str } from '../lib/authoring_core.mjs';
@@ -85,7 +86,9 @@ async function main() {
   const total = work.length;
   const started = Date.now();
   let done = 0, written = 0, sinceSave = 0;
-  const save = () => { if (args.apply && written > 0) writeFileSync(CONTENT, JSON.stringify(data, null, 2) + '\n'); };
+// Atomic replace (OVE-5): a Ctrl-C or crash mid-flush must never leave a
+// truncated content.json behind during long model runs.
+const save = () => { if (args.apply && written > 0) writeJsonAtomic(CONTENT, data); };
   process.on('SIGINT', () => { console.log('\nInterrupted - flushing progress...'); save(); process.exit(130); });
 
   for (const def of work) {

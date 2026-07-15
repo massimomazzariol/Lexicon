@@ -27,6 +27,22 @@ one language as the owner of the change.
 
 ### Added / Updated Concepts
 
+- MT-C5 interconnection graph, Phase 1 + pilot (2026-07-15): the source now
+  carries `concept_relations` edges (92: synonym / antonym, concept-level,
+  undirected, max one CEFR level apart). 81 came from deterministic
+  resolution of mutual flat synonym/antonym strings; 11 from the pilot batch
+  (`entries.mt_c5_pilot_batch_01.json`), which promoted 11 dangling senses to
+  full concepts across de/it/en: Wohnhaus/abitazione/dwelling (A1, the
+  VBR-140C case), ignorieren/ignorare/to ignore (A2), unwichtig (A2),
+  klar (A2), selten (A2), die Ablehnung/il rifiuto/rejection (B1),
+  frisch (A1), gewoehnlich/solitamente/usually (B1), uebersehen (B1),
+  zuletzt (B1), verlassen/lasciare/to leave (A2). Level note: Ablehnung was
+  drafted A2 and moved to B1 - the new level-adjacency invariant flagged the
+  mutual antonym pair with die Zusage (B2) as too far apart, and the flag was
+  editorially correct. Known accepted collision: klar and deutlich share
+  IT "chiaro" / EN "clear" (near-synonyms, now linked by a synonym edge;
+  grading accepts both with tiers, ED-07 precedent).
+
 - `überhaupt` split by function
   Scope:
   - negative-emphasis branch `überhaupt / at all / per niente`

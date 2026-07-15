@@ -9437,6 +9437,150 @@
       "notes": "Editorial polysemy split (BUG-ED-04 / VBR-149-2). Models einfach in the figurative sense 'plain/modest' (lifestyle, taste), distinct from the physical-difficulty concept (ec6fe4e3), the adverbial concept (concept-a1-einfach-just), and the travel concept (concept-a1-einfach-oneway).",
       "metadata_json": {},
       "review_status": "reviewed"
+    },
+    {
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "pos": "noun",
+      "difficulty_score_auto": 20,
+      "level_auto": "A1",
+      "level_override": null,
+      "domain_tags": [
+        "Daily"
+      ],
+      "notes": "MT-C5 pilot: the abitazione/Wohnhaus/dwelling sense dangling from Haus in all three languages. Level pinned to Haus's pack (design D7 pilot note).",
+      "metadata_json": {},
+      "review_status": "needs_review"
+    },
+    {
+      "concept_id": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "pos": "verb",
+      "difficulty_score_auto": 35,
+      "level_auto": "A2",
+      "level_override": null,
+      "domain_tags": [
+        "Daily"
+      ],
+      "notes": "MT-C5 pilot: most-referenced dangling sense (15+ concepts list it as antonym).",
+      "metadata_json": {},
+      "review_status": "needs_review"
+    },
+    {
+      "concept_id": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "pos": "adj",
+      "difficulty_score_auto": 35,
+      "level_auto": "A2",
+      "level_override": null,
+      "domain_tags": [
+        "Daily"
+      ],
+      "notes": "MT-C5 pilot: antonym counterpart of the core word wichtig (A1).",
+      "metadata_json": {},
+      "review_status": "needs_review"
+    },
+    {
+      "concept_id": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "pos": "adj",
+      "difficulty_score_auto": 35,
+      "level_auto": "A2",
+      "level_override": null,
+      "domain_tags": [
+        "Daily"
+      ],
+      "notes": "MT-C5 pilot: dangling synonym of deutlich (A2) and antonym anchor for unklar/vage.",
+      "metadata_json": {},
+      "review_status": "needs_review"
+    },
+    {
+      "concept_id": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "pos": "adv",
+      "difficulty_score_auto": 35,
+      "level_auto": "A2",
+      "level_override": null,
+      "domain_tags": [
+        "Daily"
+      ],
+      "notes": "MT-C5 pilot: antonym counterpart of the core words oft/immer (A1).",
+      "metadata_json": {},
+      "review_status": "needs_review"
+    },
+    {
+      "concept_id": "75aaec59-5c45-791b-c003-18dcee16a9cb",
+      "pos": "noun",
+      "difficulty_score_auto": 35,
+      "level_auto": "B1",
+      "level_override": null,
+      "domain_tags": [
+        "Daily"
+      ],
+      "notes": "MT-C5 pilot: dangling in all three languages (Ablehnung / rejection / rifiuto). Level B1: abstract noun, and the adjacency rule flagged the A2 draft against its mutual antonym die Zusage (B2) - the flag was right.",
+      "metadata_json": {},
+      "review_status": "needs_review"
+    },
+    {
+      "concept_id": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "pos": "adj",
+      "difficulty_score_auto": 20,
+      "level_auto": "A1",
+      "level_override": null,
+      "domain_tags": [
+        "Daily"
+      ],
+      "notes": "MT-C5 pilot: antonym counterpart of the core word alt (A1).",
+      "metadata_json": {},
+      "review_status": "needs_review"
+    },
+    {
+      "concept_id": "dd649122-0105-6628-92d8-b638d43a5204",
+      "pos": "adv",
+      "difficulty_score_auto": 50,
+      "level_auto": "B1",
+      "level_override": null,
+      "domain_tags": [
+        "Daily"
+      ],
+      "notes": "MT-C5 pilot: dangling synonym of normalerweise (A2).",
+      "metadata_json": {},
+      "review_status": "needs_review"
+    },
+    {
+      "concept_id": "de7729bf-7055-b380-9ec0-7e315525c625",
+      "pos": "verb",
+      "difficulty_score_auto": 50,
+      "level_auto": "B1",
+      "level_override": null,
+      "domain_tags": [
+        "Daily"
+      ],
+      "notes": "MT-C5 pilot: dangling antonym of beachten (A2).",
+      "metadata_json": {},
+      "review_status": "needs_review"
+    },
+    {
+      "concept_id": "b3840a69-b660-0e8d-81ee-3b3284ed29ff",
+      "pos": "adv",
+      "difficulty_score_auto": 50,
+      "level_auto": "B1",
+      "level_override": null,
+      "domain_tags": [
+        "Daily"
+      ],
+      "notes": "MT-C5 pilot: dangling synonym of schliesslich (B1).",
+      "metadata_json": {},
+      "review_status": "needs_review"
+    },
+    {
+      "concept_id": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
+      "pos": "verb",
+      "difficulty_score_auto": 35,
+      "level_auto": "A2",
+      "level_override": null,
+      "domain_tags": [
+        "Daily",
+        "Travel"
+      ],
+      "notes": "MT-C5 pilot: dangling antonym of kommen (A1) and neighbor of aussteigen.",
+      "metadata_json": {},
+      "review_status": "needs_review"
     }
   ],
   "lexemes": [
@@ -45985,7 +46129,7 @@
       "countability": "none",
       "register": "neutral",
       "meaning_status": "exact",
-      "is_primary": false,
+      "is_primary": true,
       "status": "deprecated",
       "notes": "superseded by simply (VBR-149-2 collision fix vs concept-b1-mal-softening)",
       "is_active": false
@@ -46116,6 +46260,575 @@
       "text": "simply",
       "frequency_rank": null,
       "lemma": "simply",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "56cd7948-b81a-79ff-ff64-4bbb50a82791",
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "lang": "de",
+      "text": "Wohnhaus",
+      "frequency_rank": null,
+      "lemma": "Wohnhaus",
+      "pos": "noun",
+      "gender": "neut",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true,
+      "article_nom_sg_def": "das",
+      "plural": "Wohnhäuser",
+      "n_declension": false,
+      "plural_adds_n_in_dative": true
+    },
+    {
+      "lexeme_id": "cb6eb790-c7ea-722a-9459-362ab99e493f",
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "lang": "it",
+      "text": "l'abitazione",
+      "frequency_rank": null,
+      "lemma": "abitazione",
+      "pos": "noun",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "bc7c66c2-66d1-e048-a060-89ff07850115",
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "lang": "en",
+      "text": "dwelling",
+      "frequency_rank": null,
+      "lemma": "dwelling",
+      "pos": "noun",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "05536226-c5eb-221d-f661-bc25963a549c",
+      "concept_id": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "lang": "de",
+      "text": "ignorieren",
+      "frequency_rank": null,
+      "lemma": "ignorieren",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "3d627141-a252-18a1-e31e-7bf153538a09",
+      "concept_id": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "lang": "it",
+      "text": "ignorare",
+      "frequency_rank": null,
+      "lemma": "ignorare",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "a18d7872-bced-d9fa-96ec-af6e6a317234",
+      "concept_id": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "lang": "en",
+      "text": "to ignore",
+      "frequency_rank": null,
+      "lemma": "to ignore",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "e84de543-93c1-567a-c0e9-e3ec257eb0c3",
+      "concept_id": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "lang": "de",
+      "text": "unwichtig",
+      "frequency_rank": null,
+      "lemma": "unwichtig",
+      "pos": "adj",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "8a859230-5905-0532-6738-f607ea8c8840",
+      "concept_id": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "lang": "it",
+      "text": "poco importante",
+      "frequency_rank": null,
+      "lemma": "poco importante",
+      "pos": "adj",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "97337444-1827-f8ba-4c5b-0bc7067c60d5",
+      "concept_id": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "lang": "en",
+      "text": "unimportant",
+      "frequency_rank": null,
+      "lemma": "unimportant",
+      "pos": "adj",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "9ac3cf4a-bc77-71ce-a8c7-e3428e9104db",
+      "concept_id": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "lang": "de",
+      "text": "klar",
+      "frequency_rank": null,
+      "lemma": "klar",
+      "pos": "adj",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "53b34736-adf3-128d-f12f-fe97320afc32",
+      "concept_id": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "lang": "it",
+      "text": "chiaro",
+      "frequency_rank": null,
+      "lemma": "chiaro",
+      "pos": "adj",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "c9f7ab9b-bb57-4d05-2282-0508f90bb0fe",
+      "concept_id": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "lang": "en",
+      "text": "clear",
+      "frequency_rank": null,
+      "lemma": "clear",
+      "pos": "adj",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "deed20a5-3f12-f07b-1d19-dfdebf076135",
+      "concept_id": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "lang": "de",
+      "text": "selten",
+      "frequency_rank": null,
+      "lemma": "selten",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "bb04a096-aa93-261c-2302-b1493affe939",
+      "concept_id": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "lang": "it",
+      "text": "raramente",
+      "frequency_rank": null,
+      "lemma": "raramente",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "a70f2393-ed21-2249-bcc2-619cc3fb7c49",
+      "concept_id": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "lang": "en",
+      "text": "rarely",
+      "frequency_rank": null,
+      "lemma": "rarely",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "89e32983-9a79-e9de-d3be-93279625610d",
+      "concept_id": "75aaec59-5c45-791b-c003-18dcee16a9cb",
+      "lang": "de",
+      "text": "die Ablehnung",
+      "frequency_rank": null,
+      "lemma": "Ablehnung",
+      "pos": "noun",
+      "gender": "fem",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true,
+      "article_nom_sg_def": "die",
+      "plural": "Ablehnungen",
+      "n_declension": false,
+      "plural_adds_n_in_dative": true
+    },
+    {
+      "lexeme_id": "5bc3c8a6-14b3-2e81-ca65-337bf3b1a931",
+      "concept_id": "75aaec59-5c45-791b-c003-18dcee16a9cb",
+      "lang": "it",
+      "text": "il rifiuto",
+      "frequency_rank": null,
+      "lemma": "rifiuto",
+      "pos": "noun",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "3fc1df3e-3e21-7e31-931d-84b64e748d21",
+      "concept_id": "75aaec59-5c45-791b-c003-18dcee16a9cb",
+      "lang": "en",
+      "text": "rejection",
+      "frequency_rank": null,
+      "lemma": "rejection",
+      "pos": "noun",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "d0b32006-74f6-c390-4e99-91bdcd41a317",
+      "concept_id": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "lang": "de",
+      "text": "frisch",
+      "frequency_rank": null,
+      "lemma": "frisch",
+      "pos": "adj",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "95c3931d-dda5-6603-26c9-f66ab6363f5f",
+      "concept_id": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "lang": "it",
+      "text": "fresco",
+      "frequency_rank": null,
+      "lemma": "fresco",
+      "pos": "adj",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "dff6cc94-fb26-a7d2-2c7b-52093dae8bbf",
+      "concept_id": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "lang": "en",
+      "text": "fresh",
+      "frequency_rank": null,
+      "lemma": "fresh",
+      "pos": "adj",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "ce618408-9b12-82c5-858f-4790fec88c93",
+      "concept_id": "dd649122-0105-6628-92d8-b638d43a5204",
+      "lang": "de",
+      "text": "gewöhnlich",
+      "frequency_rank": null,
+      "lemma": "gewöhnlich",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "1010dcf8-d4a6-a42a-5565-3a4e424e3ad6",
+      "concept_id": "dd649122-0105-6628-92d8-b638d43a5204",
+      "lang": "en",
+      "text": "usually",
+      "frequency_rank": null,
+      "lemma": "usually",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "0dd2356f-fdd4-842d-93c9-7ff3717d9f4c",
+      "concept_id": "de7729bf-7055-b380-9ec0-7e315525c625",
+      "lang": "de",
+      "text": "übersehen",
+      "frequency_rank": null,
+      "lemma": "übersehen",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "2aec3d06-2ec8-2afe-5ed7-257d7b92d029",
+      "concept_id": "de7729bf-7055-b380-9ec0-7e315525c625",
+      "lang": "it",
+      "text": "trascurare",
+      "frequency_rank": null,
+      "lemma": "trascurare",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "48b05925-7143-c213-9ca7-58a6e4646e28",
+      "concept_id": "de7729bf-7055-b380-9ec0-7e315525c625",
+      "lang": "en",
+      "text": "to overlook",
+      "frequency_rank": null,
+      "lemma": "to overlook",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "9b35d918-81bd-a1e4-c675-249ba1b1a733",
+      "concept_id": "b3840a69-b660-0e8d-81ee-3b3284ed29ff",
+      "lang": "de",
+      "text": "zuletzt",
+      "frequency_rank": null,
+      "lemma": "zuletzt",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "db3a20a0-0aa2-f624-3d85-e242a61ce3b5",
+      "concept_id": "b3840a69-b660-0e8d-81ee-3b3284ed29ff",
+      "lang": "it",
+      "text": "per ultimo",
+      "frequency_rank": null,
+      "lemma": "per ultimo",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "f11ddb93-9fe7-aaa2-8f48-f02ef3556269",
+      "concept_id": "b3840a69-b660-0e8d-81ee-3b3284ed29ff",
+      "lang": "en",
+      "text": "lastly",
+      "frequency_rank": null,
+      "lemma": "lastly",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "622be131-b3ac-1a62-479c-7d2910562cbb",
+      "concept_id": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
+      "lang": "de",
+      "text": "verlassen",
+      "frequency_rank": null,
+      "lemma": "verlassen",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "20f46a0d-6e76-96b5-e44e-dff1031793bd",
+      "concept_id": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
+      "lang": "it",
+      "text": "lasciare",
+      "frequency_rank": null,
+      "lemma": "lasciare",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "3819378a-d110-b42e-8c0f-188aaafc8a03",
+      "concept_id": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
+      "lang": "en",
+      "text": "to leave",
+      "frequency_rank": null,
+      "lemma": "to leave",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "c5a9de91-2fa8-4f2a-7105-396e7b218248",
+      "concept_id": "dd649122-0105-6628-92d8-b638d43a5204",
+      "lang": "it",
+      "text": "solitamente",
+      "frequency_rank": null,
+      "lemma": "solitamente",
       "pos": "adv",
       "gender": "none",
       "countability": "none",
@@ -55962,6 +56675,270 @@
       "sentence": "Conduce una vita modesta in campagna.",
       "translation_lang": null,
       "translation_text": null
+    },
+    {
+      "example_id": "37e01729-69b1-6842-0fc6-cf981a8a0ae0",
+      "concept_id": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "lang": "de",
+      "sentence": "Er ignoriert die Regeln.",
+      "translation_lang": "it",
+      "translation_text": "Lui ignora le regole."
+    },
+    {
+      "example_id": "3fe4a538-870f-37e3-afed-808302723bbc",
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "lang": "de",
+      "sentence": "Das Wohnhaus hat drei Stockwerke.",
+      "translation_lang": "it",
+      "translation_text": "L'edificio ha tre piani."
+    },
+    {
+      "example_id": "8245c26d-f748-933c-56ab-989400800936",
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "lang": "it",
+      "sentence": "L'abitazione si trova in centro.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "9ea4f16c-c29b-01a0-fe16-6d066dbdb65d",
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "lang": "en",
+      "sentence": "The dwelling has a small garden.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "824e898f-bb05-74d7-90c2-8f237a5ffb6c",
+      "concept_id": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "lang": "it",
+      "sentence": "Non puoi ignorare il problema.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "8e9a9204-08f4-3253-a695-432fbdf7df9b",
+      "concept_id": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "lang": "en",
+      "sentence": "Please do not ignore the warning.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "1b644f7c-6091-8a77-6ad0-d7376da7cf96",
+      "concept_id": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "lang": "de",
+      "sentence": "Das Detail ist unwichtig.",
+      "translation_lang": "it",
+      "translation_text": "Il dettaglio non conta."
+    },
+    {
+      "example_id": "78b83a44-9190-ec75-3514-9260f4e26ea7",
+      "concept_id": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "lang": "it",
+      "sentence": "Il colore della copertina e poco importante.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "899ad37f-ad37-f089-0805-ef1bcb148d4e",
+      "concept_id": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "lang": "en",
+      "sentence": "The order of the steps is unimportant.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "2c75f9c3-8ddf-ef67-47ec-7465af06631d",
+      "concept_id": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "lang": "de",
+      "sentence": "Die Antwort ist klar.",
+      "translation_lang": "it",
+      "translation_text": "La risposta e chiara."
+    },
+    {
+      "example_id": "9d9b54ff-a5ae-5061-8c1d-8577c8eb0cc1",
+      "concept_id": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "lang": "it",
+      "sentence": "Il messaggio e chiaro.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "bb0117f6-c91a-6c0a-623f-251e2f845c16",
+      "concept_id": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "lang": "en",
+      "sentence": "The instructions are clear.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "52d89482-449d-9353-251a-5a55c9fb0951",
+      "concept_id": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "lang": "de",
+      "sentence": "Wir essen selten Fleisch.",
+      "translation_lang": "it",
+      "translation_text": "Mangiamo carne quasi mai."
+    },
+    {
+      "example_id": "2228f8f9-2a50-bdd4-ea6b-09f9d4e29f78",
+      "concept_id": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "lang": "it",
+      "sentence": "Vado raramente al cinema.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "87590635-289c-dff9-8899-9ce29fc9ca50",
+      "concept_id": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "lang": "en",
+      "sentence": "He rarely arrives late.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "256f12d6-a065-bfb3-60f4-3b4f282ed4c4",
+      "concept_id": "75aaec59-5c45-791b-c003-18dcee16a9cb",
+      "lang": "de",
+      "sentence": "Die Ablehnung kam per Brief.",
+      "translation_lang": "it",
+      "translation_text": "La risposta negativa e arrivata per lettera."
+    },
+    {
+      "example_id": "69673ce6-d9a7-6490-f4b2-e4c6259acd6d",
+      "concept_id": "75aaec59-5c45-791b-c003-18dcee16a9cb",
+      "lang": "it",
+      "sentence": "Il rifiuto della domanda ci ha sorpreso.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "15ba9ee8-d36b-a017-ef93-378186bdde75",
+      "concept_id": "75aaec59-5c45-791b-c003-18dcee16a9cb",
+      "lang": "en",
+      "sentence": "The rejection arrived after two weeks.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "40115bc3-64ef-d28d-d801-6a6e8d907cf6",
+      "concept_id": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "lang": "de",
+      "sentence": "Das Brot ist frisch.",
+      "translation_lang": "it",
+      "translation_text": "Il pane e appena fatto."
+    },
+    {
+      "example_id": "bb1ae98f-dfe9-0cd7-6e1a-08df38e42f28",
+      "concept_id": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "lang": "it",
+      "sentence": "Il pesce fresco costa di piu.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "23436dcb-7b06-64de-0791-d6ec52f377dd",
+      "concept_id": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "lang": "en",
+      "sentence": "I bought fresh bread this morning.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "cac67fc6-3186-19a8-4b8b-4ccb3d66539a",
+      "concept_id": "dd649122-0105-6628-92d8-b638d43a5204",
+      "lang": "de",
+      "sentence": "Gewöhnlich stehe ich um sieben auf.",
+      "translation_lang": "it",
+      "translation_text": "Di solito mi alzo alle sette."
+    },
+    {
+      "example_id": "c7f69d7d-1d46-95d7-22aa-e1e25e68ae51",
+      "concept_id": "dd649122-0105-6628-92d8-b638d43a5204",
+      "lang": "it",
+      "sentence": "Di solito pranzo a casa.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f3a0f6a3-6813-e93d-755b-89cc0a63b644",
+      "concept_id": "dd649122-0105-6628-92d8-b638d43a5204",
+      "lang": "en",
+      "sentence": "I usually walk to work.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "8c964e44-f1e8-8862-37f7-0eae293fc745",
+      "concept_id": "de7729bf-7055-b380-9ec0-7e315525c625",
+      "lang": "de",
+      "sentence": "Ich habe den Fehler übersehen.",
+      "translation_lang": "it",
+      "translation_text": "Non ho notato l'errore."
+    },
+    {
+      "example_id": "4b74ffb0-170e-1fb7-f6af-342d8f18c4b7",
+      "concept_id": "de7729bf-7055-b380-9ec0-7e315525c625",
+      "lang": "it",
+      "sentence": "Non bisogna trascurare i dettagli.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "60ce6a95-8e66-6620-5271-be4e8cda022d",
+      "concept_id": "de7729bf-7055-b380-9ec0-7e315525c625",
+      "lang": "en",
+      "sentence": "It is easy to overlook a small mistake.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "7f64d9b3-40b4-739e-66a2-e7490c56c72e",
+      "concept_id": "b3840a69-b660-0e8d-81ee-3b3284ed29ff",
+      "lang": "de",
+      "sentence": "Zuletzt haben wir den Tisch gedeckt.",
+      "translation_lang": "it",
+      "translation_text": "Per ultimo abbiamo apparecchiato."
+    },
+    {
+      "example_id": "5c6afd01-bcd7-74bf-df40-cc590c912d65",
+      "concept_id": "b3840a69-b660-0e8d-81ee-3b3284ed29ff",
+      "lang": "it",
+      "sentence": "Per ultimo abbiamo salutato tutti.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "ac968a0b-0e01-3de5-83a6-d32b3354ea04",
+      "concept_id": "b3840a69-b660-0e8d-81ee-3b3284ed29ff",
+      "lang": "en",
+      "sentence": "Lastly, check the result.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "014a4dcd-9481-fd65-99e8-bfd53679a4e5",
+      "concept_id": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
+      "lang": "de",
+      "sentence": "Wir verlassen das Haus um acht.",
+      "translation_lang": "it",
+      "translation_text": "Usciamo di casa alle otto."
+    },
+    {
+      "example_id": "6ec164bf-ad5e-e982-cd97-aba57af22b50",
+      "concept_id": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
+      "lang": "it",
+      "sentence": "Devo lasciare la citta domani.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "d13b0051-319e-bc4a-5d0b-533149e159ce",
+      "concept_id": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
+      "lang": "en",
+      "sentence": "They leave the office at six.",
+      "translation_lang": null,
+      "translation_text": null
     }
   ],
   "clusters": [
@@ -56022,9 +56999,30 @@
       "auto": true
     },
     {
+      "cluster_id": "aeeca376-3089-ffc7-b22c-a61afc8a2f68",
+      "lang": "de",
+      "label": "synonyms: Wohnhaus",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "4192138d-5f88-d66b-a7eb-c53f3ed1cdfd",
+      "lang": "de",
+      "label": "synonyms: zuletzt +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
       "cluster_id": "a849cff9-18a8-f8cd-1f9f-82d8ba917a27",
       "lang": "de",
       "label": "synonyms: Antrag",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "e6e39b6b-3e07-77c1-b891-fb1156b395a4",
+      "lang": "de",
+      "label": "synonyms: klar",
       "type": "semantic",
       "auto": true
     },
@@ -56039,6 +57037,13 @@
       "cluster_id": "63df83b7-fe0b-77ae-cb4e-629efbf43e8d",
       "lang": "de",
       "label": "synonyms: empfehlen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "b36e0a40-66a8-bcc2-df3c-ca7d2a2f3b69",
+      "lang": "de",
+      "label": "synonyms: normalerweise",
       "type": "semantic",
       "auto": true
     },
@@ -56134,13 +57139,6 @@
       "auto": true
     },
     {
-      "cluster_id": "e962ff9d-5c6d-b802-7bea-6d22d6d175df",
-      "lang": "de",
-      "label": "synonyms: am Ende",
-      "type": "semantic",
-      "auto": true
-    },
-    {
       "cluster_id": "b9115b8e-f798-6ccf-1024-4c0d78b8c4ef",
       "lang": "it",
       "label": "synonyms: giovane",
@@ -56155,9 +57153,30 @@
       "auto": true
     },
     {
+      "cluster_id": "d23ac697-a6ad-533f-b1e8-6462e0eef81c",
+      "lang": "it",
+      "label": "synonyms: l'abitazione",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "5d6f5a62-3356-ce80-7589-dd07f3807b21",
+      "lang": "it",
+      "label": "synonyms: per ultimo +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
       "cluster_id": "98ae0808-e33b-007f-da3c-3c70ed4c9cda",
       "lang": "it",
       "label": "synonyms: la domanda formale",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "5c8c931b-0ec0-9dca-0f11-6a8631a1425c",
+      "lang": "it",
+      "label": "synonyms: chiaro",
       "type": "semantic",
       "auto": true
     },
@@ -56172,6 +57191,13 @@
       "cluster_id": "ba8e4475-97f0-adbf-57af-691b18172c40",
       "lang": "it",
       "label": "synonyms: consigliare",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "ad9ae94d-11d4-8f15-fdcb-af1e0cab4a77",
+      "lang": "it",
+      "label": "synonyms: normalmente",
       "type": "semantic",
       "auto": true
     },
@@ -56267,13 +57293,6 @@
       "auto": true
     },
     {
-      "cluster_id": "d544fd87-710c-fb4a-441c-5e2073d266be",
-      "lang": "it",
-      "label": "synonyms: alla fine",
-      "type": "semantic",
-      "auto": true
-    },
-    {
       "cluster_id": "bfca0e6f-335f-c690-68ba-6d99427c500a",
       "lang": "en",
       "label": "synonyms: young",
@@ -56288,9 +57307,30 @@
       "auto": true
     },
     {
+      "cluster_id": "1ced80ac-5842-2ee1-a9a5-07c8b4f26654",
+      "lang": "en",
+      "label": "synonyms: dwelling",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a04f4c02-2394-6499-c004-c8b023d0cdce",
+      "lang": "en",
+      "label": "synonyms: lastly +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
       "cluster_id": "28445bcd-c5d3-ecfa-d87d-3f083a28ca40",
       "lang": "en",
       "label": "synonyms: formal application",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "220bbef1-aeb7-8f32-358d-8c373c1b7655",
+      "lang": "en",
+      "label": "synonyms: clear",
       "type": "semantic",
       "auto": true
     },
@@ -56305,6 +57345,13 @@
       "cluster_id": "e5bc9865-69dd-c5a9-355e-b98581ecf9fd",
       "lang": "en",
       "label": "synonyms: to recommend",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "ec127ed3-98cb-d37b-b59e-42ce4a0564b9",
+      "lang": "en",
+      "label": "synonyms: normally",
       "type": "semantic",
       "auto": true
     },
@@ -56396,13 +57443,6 @@
       "cluster_id": "6d08e30c-da95-b888-7610-9077fb19afdc",
       "lang": "en",
       "label": "synonyms: structured",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "503aa971-328b-0478-8a9c-3d9e080d5d9c",
-      "lang": "en",
-      "label": "synonyms: in the end",
       "type": "semantic",
       "auto": true
     }
@@ -56539,6 +57579,31 @@
       "position": 1
     },
     {
+      "cluster_id": "aeeca376-3089-ffc7-b22c-a61afc8a2f68",
+      "lexeme_id": "56cd7948-b81a-79ff-ff64-4bbb50a82791",
+      "position": 0
+    },
+    {
+      "cluster_id": "aeeca376-3089-ffc7-b22c-a61afc8a2f68",
+      "lexeme_id": "lex-de-haus",
+      "position": 1
+    },
+    {
+      "cluster_id": "4192138d-5f88-d66b-a7eb-c53f3ed1cdfd",
+      "lexeme_id": "9b35d918-81bd-a1e4-c675-249ba1b1a733",
+      "position": 0
+    },
+    {
+      "cluster_id": "4192138d-5f88-d66b-a7eb-c53f3ed1cdfd",
+      "lexeme_id": "lex-de-schliesslich",
+      "position": 1
+    },
+    {
+      "cluster_id": "4192138d-5f88-d66b-a7eb-c53f3ed1cdfd",
+      "lexeme_id": "lex-de-am-ende",
+      "position": 2
+    },
+    {
       "cluster_id": "a849cff9-18a8-f8cd-1f9f-82d8ba917a27",
       "lexeme_id": "lex-de-antrag",
       "position": 0
@@ -56546,6 +57611,16 @@
     {
       "cluster_id": "a849cff9-18a8-f8cd-1f9f-82d8ba917a27",
       "lexeme_id": "lex-de-gesuch",
+      "position": 1
+    },
+    {
+      "cluster_id": "e6e39b6b-3e07-77c1-b891-fb1156b395a4",
+      "lexeme_id": "9ac3cf4a-bc77-71ce-a8c7-e3428e9104db",
+      "position": 0
+    },
+    {
+      "cluster_id": "e6e39b6b-3e07-77c1-b891-fb1156b395a4",
+      "lexeme_id": "lex-de-deutlich",
       "position": 1
     },
     {
@@ -56566,6 +57641,16 @@
     {
       "cluster_id": "63df83b7-fe0b-77ae-cb4e-629efbf43e8d",
       "lexeme_id": "lex-de-vorschlagen",
+      "position": 1
+    },
+    {
+      "cluster_id": "b36e0a40-66a8-bcc2-df3c-ca7d2a2f3b69",
+      "lexeme_id": "lex-de-normalerweise",
+      "position": 0
+    },
+    {
+      "cluster_id": "b36e0a40-66a8-bcc2-df3c-ca7d2a2f3b69",
+      "lexeme_id": "ce618408-9b12-82c5-858f-4790fec88c93",
       "position": 1
     },
     {
@@ -56704,16 +57789,6 @@
       "position": 1
     },
     {
-      "cluster_id": "e962ff9d-5c6d-b802-7bea-6d22d6d175df",
-      "lexeme_id": "lex-de-am-ende",
-      "position": 0
-    },
-    {
-      "cluster_id": "e962ff9d-5c6d-b802-7bea-6d22d6d175df",
-      "lexeme_id": "lex-de-schliesslich",
-      "position": 1
-    },
-    {
       "cluster_id": "b9115b8e-f798-6ccf-1024-4c0d78b8c4ef",
       "lexeme_id": "lex-it-giovane",
       "position": 0
@@ -56734,6 +57809,31 @@
       "position": 1
     },
     {
+      "cluster_id": "d23ac697-a6ad-533f-b1e8-6462e0eef81c",
+      "lexeme_id": "cb6eb790-c7ea-722a-9459-362ab99e493f",
+      "position": 0
+    },
+    {
+      "cluster_id": "d23ac697-a6ad-533f-b1e8-6462e0eef81c",
+      "lexeme_id": "lex-it-casa",
+      "position": 1
+    },
+    {
+      "cluster_id": "5d6f5a62-3356-ce80-7589-dd07f3807b21",
+      "lexeme_id": "db3a20a0-0aa2-f624-3d85-e242a61ce3b5",
+      "position": 0
+    },
+    {
+      "cluster_id": "5d6f5a62-3356-ce80-7589-dd07f3807b21",
+      "lexeme_id": "lex-it-finalmente-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "5d6f5a62-3356-ce80-7589-dd07f3807b21",
+      "lexeme_id": "lex-it-alla-fine",
+      "position": 2
+    },
+    {
       "cluster_id": "98ae0808-e33b-007f-da3c-3c70ed4c9cda",
       "lexeme_id": "lex-it-domanda-formale",
       "position": 0
@@ -56741,6 +57841,16 @@
     {
       "cluster_id": "98ae0808-e33b-007f-da3c-3c70ed4c9cda",
       "lexeme_id": "lex-it-istanza",
+      "position": 1
+    },
+    {
+      "cluster_id": "5c8c931b-0ec0-9dca-0f11-6a8631a1425c",
+      "lexeme_id": "53b34736-adf3-128d-f12f-fe97320afc32",
+      "position": 0
+    },
+    {
+      "cluster_id": "5c8c931b-0ec0-9dca-0f11-6a8631a1425c",
+      "lexeme_id": "lex-it-chiaro",
       "position": 1
     },
     {
@@ -56761,6 +57871,16 @@
     {
       "cluster_id": "ba8e4475-97f0-adbf-57af-691b18172c40",
       "lexeme_id": "lex-it-proporre",
+      "position": 1
+    },
+    {
+      "cluster_id": "ad9ae94d-11d4-8f15-fdcb-af1e0cab4a77",
+      "lexeme_id": "lex-it-normalmente",
+      "position": 0
+    },
+    {
+      "cluster_id": "ad9ae94d-11d4-8f15-fdcb-af1e0cab4a77",
+      "lexeme_id": "c5a9de91-2fa8-4f2a-7105-396e7b218248",
       "position": 1
     },
     {
@@ -56899,16 +58019,6 @@
       "position": 1
     },
     {
-      "cluster_id": "d544fd87-710c-fb4a-441c-5e2073d266be",
-      "lexeme_id": "lex-it-alla-fine",
-      "position": 0
-    },
-    {
-      "cluster_id": "d544fd87-710c-fb4a-441c-5e2073d266be",
-      "lexeme_id": "lex-it-finalmente-2",
-      "position": 1
-    },
-    {
       "cluster_id": "bfca0e6f-335f-c690-68ba-6d99427c500a",
       "lexeme_id": "lex-en-young",
       "position": 0
@@ -56929,6 +58039,31 @@
       "position": 1
     },
     {
+      "cluster_id": "1ced80ac-5842-2ee1-a9a5-07c8b4f26654",
+      "lexeme_id": "bc7c66c2-66d1-e048-a060-89ff07850115",
+      "position": 0
+    },
+    {
+      "cluster_id": "1ced80ac-5842-2ee1-a9a5-07c8b4f26654",
+      "lexeme_id": "lex-en-house",
+      "position": 1
+    },
+    {
+      "cluster_id": "a04f4c02-2394-6499-c004-c8b023d0cdce",
+      "lexeme_id": "f11ddb93-9fe7-aaa2-8f48-f02ef3556269",
+      "position": 0
+    },
+    {
+      "cluster_id": "a04f4c02-2394-6499-c004-c8b023d0cdce",
+      "lexeme_id": "lex-en-finally-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "a04f4c02-2394-6499-c004-c8b023d0cdce",
+      "lexeme_id": "lex-en-in-the-end",
+      "position": 2
+    },
+    {
       "cluster_id": "28445bcd-c5d3-ecfa-d87d-3f083a28ca40",
       "lexeme_id": "lex-en-formal-application",
       "position": 0
@@ -56936,6 +58071,16 @@
     {
       "cluster_id": "28445bcd-c5d3-ecfa-d87d-3f083a28ca40",
       "lexeme_id": "lex-en-petition",
+      "position": 1
+    },
+    {
+      "cluster_id": "220bbef1-aeb7-8f32-358d-8c373c1b7655",
+      "lexeme_id": "c9f7ab9b-bb57-4d05-2282-0508f90bb0fe",
+      "position": 0
+    },
+    {
+      "cluster_id": "220bbef1-aeb7-8f32-358d-8c373c1b7655",
+      "lexeme_id": "lex-en-clear",
       "position": 1
     },
     {
@@ -56956,6 +58101,16 @@
     {
       "cluster_id": "e5bc9865-69dd-c5a9-355e-b98581ecf9fd",
       "lexeme_id": "lex-en-to-suggest",
+      "position": 1
+    },
+    {
+      "cluster_id": "ec127ed3-98cb-d37b-b59e-42ce4a0564b9",
+      "lexeme_id": "lex-en-normally",
+      "position": 0
+    },
+    {
+      "cluster_id": "ec127ed3-98cb-d37b-b59e-42ce4a0564b9",
+      "lexeme_id": "1010dcf8-d4a6-a42a-5565-3a4e424e3ad6",
       "position": 1
     },
     {
@@ -57091,16 +58246,6 @@
     {
       "cluster_id": "6d08e30c-da95-b888-7610-9077fb19afdc",
       "lexeme_id": "lex-en-systematic",
-      "position": 1
-    },
-    {
-      "cluster_id": "503aa971-328b-0478-8a9c-3d9e080d5d9c",
-      "lexeme_id": "lex-en-in-the-end",
-      "position": 0
-    },
-    {
-      "cluster_id": "503aa971-328b-0478-8a9c-3d9e080d5d9c",
-      "lexeme_id": "lex-en-finally-2",
       "position": 1
     }
   ],
@@ -88157,6 +89302,440 @@
       "synonyms_json": [
         "semplice"
       ],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "lang": "de",
+      "short_definition": "Gebäude, in dem Menschen dauerhaft leben.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "Haus"
+      ],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "lang": "it",
+      "short_definition": "Luogo in cui una persona vive stabilmente.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "casa"
+      ],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "lang": "en",
+      "short_definition": "A place where someone lives.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "house"
+      ],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "lang": "de",
+      "short_definition": "Absichtlich so tun, als ob etwas nicht da wäre.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [
+        "beachten"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "lang": "it",
+      "short_definition": "Fare finta che qualcosa non esista.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "lang": "en",
+      "short_definition": "To act as if something is not there.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "lang": "de",
+      "short_definition": "Ohne Bedeutung für die Sache.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [
+        "wichtig"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "lang": "it",
+      "short_definition": "Che non merita attenzione.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [
+        "importante"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "lang": "en",
+      "short_definition": "Not worth attention.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [
+        "important"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "lang": "de",
+      "short_definition": "Leicht zu verstehen.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "deutlich"
+      ],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "lang": "it",
+      "short_definition": "Facile da capire.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "lang": "en",
+      "short_definition": "Easy to understand.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "lang": "de",
+      "short_definition": "Fast nie.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [
+        "oft"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "lang": "it",
+      "short_definition": "Quasi mai.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [
+        "spesso"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "lang": "en",
+      "short_definition": "Almost never.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [
+        "often"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "75aaec59-5c45-791b-c003-18dcee16a9cb",
+      "lang": "de",
+      "short_definition": "Die Antwort Nein auf eine Bitte.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [
+        "Zusage"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "75aaec59-5c45-791b-c003-18dcee16a9cb",
+      "lang": "it",
+      "short_definition": "La risposta negativa a una richiesta.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "75aaec59-5c45-791b-c003-18dcee16a9cb",
+      "lang": "en",
+      "short_definition": "A negative answer to a request.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "lang": "de",
+      "short_definition": "Gerade erst gemacht oder geerntet.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [
+        "alt"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "lang": "it",
+      "short_definition": "Fatto o raccolto da poco.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [
+        "vecchio"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "lang": "en",
+      "short_definition": "Just made or picked.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [
+        "old"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "dd649122-0105-6628-92d8-b638d43a5204",
+      "lang": "de",
+      "short_definition": "So wie an den meisten Tagen.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "normalerweise"
+      ],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "dd649122-0105-6628-92d8-b638d43a5204",
+      "lang": "it",
+      "short_definition": "Come nella maggior parte dei giorni.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "dd649122-0105-6628-92d8-b638d43a5204",
+      "lang": "en",
+      "short_definition": "As on most days.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "de7729bf-7055-b380-9ec0-7e315525c625",
+      "lang": "de",
+      "short_definition": "Etwas nicht bemerken, obwohl es da ist.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [
+        "beachten"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "de7729bf-7055-b380-9ec0-7e315525c625",
+      "lang": "it",
+      "short_definition": "Non notare qualcosa che esiste.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "de7729bf-7055-b380-9ec0-7e315525c625",
+      "lang": "en",
+      "short_definition": "To fail to notice something.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "b3840a69-b660-0e8d-81ee-3b3284ed29ff",
+      "lang": "de",
+      "short_definition": "Am Ende einer Reihe von Schritten.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [
+        "schließlich"
+      ],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "b3840a69-b660-0e8d-81ee-3b3284ed29ff",
+      "lang": "it",
+      "short_definition": "Alla fine di una serie.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "b3840a69-b660-0e8d-81ee-3b3284ed29ff",
+      "lang": "en",
+      "short_definition": "At the end of a sequence.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
+      "lang": "de",
+      "short_definition": "Von einem Ort weggehen.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [
+        "kommen"
+      ],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
+      "lang": "it",
+      "short_definition": "Andare via da un luogo.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
+      "lang": "en",
+      "short_definition": "To go away from a place.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
@@ -150847,24 +152426,6 @@
       }
     },
     {
-      "form_id": "987c61b6-8fca-bf9c-b387-9da61bd97e33",
-      "lexeme_id": "75a71c85-17a7-f20c-ce09-ba2356df6e0a",
-      "lang": "en",
-      "surface": "just",
-      "surface_search": "just",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
       "form_id": "5a61edd5-bf26-dfa3-03a9-a088b32b931e",
       "lexeme_id": "c35746a1-1075-2f76-0789-41fa4a9d171b",
       "lang": "it",
@@ -150996,6 +152557,816 @@
       "lang": "en",
       "surface": "simply",
       "surface_search": "simply",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "0f647c23-acfe-3eff-273d-6f2b91180b66",
+      "lexeme_id": "56cd7948-b81a-79ff-ff64-4bbb50a82791",
+      "lang": "de",
+      "surface": "das Wohnhaus",
+      "surface_search": "das wohnhaus",
+      "number_value": "sg",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_sg_def",
+        "grammar_tags": []
+      }
+    },
+    {
+      "form_id": "b4251741-b8c7-ce9a-77ca-f1b271d41cb7",
+      "lexeme_id": "56cd7948-b81a-79ff-ff64-4bbb50a82791",
+      "lang": "de",
+      "surface": "die Wohnhäuser",
+      "surface_search": "die wohnhauser",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
+      "form_id": "119ddac7-0a74-98b2-a9da-784b0856eb1d",
+      "lexeme_id": "56cd7948-b81a-79ff-ff64-4bbb50a82791",
+      "lang": "de",
+      "surface": "das Wohnhaus",
+      "surface_search": "das wohnhaus",
+      "number_value": "sg",
+      "grammatical_case": "acc",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 2,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "acc_sg_def",
+        "grammar_tags": [
+          "accusative",
+          "singular"
+        ]
+      }
+    },
+    {
+      "form_id": "f7586ad9-5f07-f59d-41c9-9fbf041042ff",
+      "lexeme_id": "56cd7948-b81a-79ff-ff64-4bbb50a82791",
+      "lang": "de",
+      "surface": "dem Wohnhaus",
+      "surface_search": "dem wohnhaus",
+      "number_value": "sg",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 3,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_sg_def",
+        "grammar_tags": [
+          "dative",
+          "singular"
+        ]
+      }
+    },
+    {
+      "form_id": "75f3820a-74ab-3f7f-3e90-2366973c5465",
+      "lexeme_id": "56cd7948-b81a-79ff-ff64-4bbb50a82791",
+      "lang": "de",
+      "surface": "des Wohnhauses",
+      "surface_search": "des wohnhauses",
+      "number_value": "sg",
+      "grammatical_case": "gen",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 4,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "gen_sg_def",
+        "grammar_tags": [
+          "genitive",
+          "singular"
+        ]
+      }
+    },
+    {
+      "form_id": "6481afce-9e13-8d4c-7392-e2f8eb5ef832",
+      "lexeme_id": "56cd7948-b81a-79ff-ff64-4bbb50a82791",
+      "lang": "de",
+      "surface": "den Wohnhäusern",
+      "surface_search": "den wohnhausern",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
+      "form_id": "c332308a-ea12-3638-d7a9-cddfabbae316",
+      "lexeme_id": "cb6eb790-c7ea-722a-9459-362ab99e493f",
+      "lang": "it",
+      "surface": "l'abitazione",
+      "surface_search": "l'abitazione",
+      "number_value": "sg",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:noun-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "25eedf1d-16be-4fb2-5799-20b2046a7ee0",
+      "lexeme_id": "bc7c66c2-66d1-e048-a060-89ff07850115",
+      "lang": "en",
+      "surface": "dwelling",
+      "surface_search": "dwelling",
+      "number_value": "sg",
+      "grammatical_case": "none",
+      "definiteness": "bare",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:noun-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "a2a3d8a7-2562-b3e2-8068-fb92197c367f",
+      "lexeme_id": "05536226-c5eb-221d-f661-bc25963a549c",
+      "lang": "de",
+      "surface": "ignorieren",
+      "surface_search": "ignorieren",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "e8c9c0c0-b528-dc43-a5bb-e96cb6a4511b",
+      "lexeme_id": "3d627141-a252-18a1-e31e-7bf153538a09",
+      "lang": "it",
+      "surface": "ignorare",
+      "surface_search": "ignorare",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "27e51ab6-e45f-20cd-462b-6c3554610af2",
+      "lexeme_id": "a18d7872-bced-d9fa-96ec-af6e6a317234",
+      "lang": "en",
+      "surface": "to ignore",
+      "surface_search": "to ignore",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "c610304b-99d9-0a1a-690d-63d28bba2d3f",
+      "lexeme_id": "e84de543-93c1-567a-c0e9-e3ec257eb0c3",
+      "lang": "de",
+      "surface": "unwichtig",
+      "surface_search": "unwichtig",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "b242666f-f472-d4f8-871d-dad32067c336",
+      "lexeme_id": "8a859230-5905-0532-6738-f607ea8c8840",
+      "lang": "it",
+      "surface": "poco importante",
+      "surface_search": "poco importante",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "b292342a-4938-7a7c-b442-7e35f2d4f624",
+      "lexeme_id": "97337444-1827-f8ba-4c5b-0bc7067c60d5",
+      "lang": "en",
+      "surface": "unimportant",
+      "surface_search": "unimportant",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "2293c04a-4e87-2a55-f1ea-49277b379ca3",
+      "lexeme_id": "9ac3cf4a-bc77-71ce-a8c7-e3428e9104db",
+      "lang": "de",
+      "surface": "klar",
+      "surface_search": "klar",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "c3772d2a-300a-431c-7b5d-999cac8e2e45",
+      "lexeme_id": "53b34736-adf3-128d-f12f-fe97320afc32",
+      "lang": "it",
+      "surface": "chiaro",
+      "surface_search": "chiaro",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "fe151e78-14d7-f75c-2ab7-3498389140fb",
+      "lexeme_id": "c9f7ab9b-bb57-4d05-2282-0508f90bb0fe",
+      "lang": "en",
+      "surface": "clear",
+      "surface_search": "clear",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "8c9c19f1-b0e9-c7ce-c272-676449a72a3a",
+      "lexeme_id": "deed20a5-3f12-f07b-1d19-dfdebf076135",
+      "lang": "de",
+      "surface": "selten",
+      "surface_search": "selten",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "2457f642-d7e1-2208-aaff-7fe60a8a28a9",
+      "lexeme_id": "bb04a096-aa93-261c-2302-b1493affe939",
+      "lang": "it",
+      "surface": "raramente",
+      "surface_search": "raramente",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "f54be91c-b4dc-8f03-787a-b2dbe67fe2d1",
+      "lexeme_id": "a70f2393-ed21-2249-bcc2-619cc3fb7c49",
+      "lang": "en",
+      "surface": "rarely",
+      "surface_search": "rarely",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "fff4e3e2-a98d-17e7-e10e-e8e4741f1023",
+      "lexeme_id": "89e32983-9a79-e9de-d3be-93279625610d",
+      "lang": "de",
+      "surface": "die Ablehnung",
+      "surface_search": "die ablehnung",
+      "number_value": "sg",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_sg_def",
+        "grammar_tags": []
+      }
+    },
+    {
+      "form_id": "c354db3b-18d3-079e-4e64-ba055b0de7fe",
+      "lexeme_id": "89e32983-9a79-e9de-d3be-93279625610d",
+      "lang": "de",
+      "surface": "die Ablehnungen",
+      "surface_search": "die ablehnungen",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
+      "form_id": "7facd3d9-6884-4aa7-b5e7-47f8be7a0413",
+      "lexeme_id": "89e32983-9a79-e9de-d3be-93279625610d",
+      "lang": "de",
+      "surface": "die Ablehnung",
+      "surface_search": "die ablehnung",
+      "number_value": "sg",
+      "grammatical_case": "acc",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 2,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "acc_sg_def",
+        "grammar_tags": [
+          "accusative",
+          "singular"
+        ]
+      }
+    },
+    {
+      "form_id": "58942431-9edf-833b-8186-dcaea4df3efa",
+      "lexeme_id": "89e32983-9a79-e9de-d3be-93279625610d",
+      "lang": "de",
+      "surface": "der Ablehnung",
+      "surface_search": "der ablehnung",
+      "number_value": "sg",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 3,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_sg_def",
+        "grammar_tags": [
+          "dative",
+          "singular"
+        ]
+      }
+    },
+    {
+      "form_id": "33c84cf4-ec2e-fd32-480f-60f7cdca3c29",
+      "lexeme_id": "89e32983-9a79-e9de-d3be-93279625610d",
+      "lang": "de",
+      "surface": "der Ablehnung",
+      "surface_search": "der ablehnung",
+      "number_value": "sg",
+      "grammatical_case": "gen",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 4,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "gen_sg_def",
+        "grammar_tags": [
+          "genitive",
+          "singular"
+        ]
+      }
+    },
+    {
+      "form_id": "9c07e4bc-2698-454f-ed74-f957c00ed1a4",
+      "lexeme_id": "89e32983-9a79-e9de-d3be-93279625610d",
+      "lang": "de",
+      "surface": "den Ablehnungen",
+      "surface_search": "den ablehnungen",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
+      "form_id": "5425a495-a1e5-a6a2-8182-a1b287a1c4d8",
+      "lexeme_id": "5bc3c8a6-14b3-2e81-ca65-337bf3b1a931",
+      "lang": "it",
+      "surface": "il rifiuto",
+      "surface_search": "il rifiuto",
+      "number_value": "sg",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:noun-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "d7be93e7-e714-914b-0056-8fbfab6b05bc",
+      "lexeme_id": "3fc1df3e-3e21-7e31-931d-84b64e748d21",
+      "lang": "en",
+      "surface": "rejection",
+      "surface_search": "rejection",
+      "number_value": "sg",
+      "grammatical_case": "none",
+      "definiteness": "bare",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:noun-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "90adba60-c451-7379-1d76-7ae65978b93a",
+      "lexeme_id": "d0b32006-74f6-c390-4e99-91bdcd41a317",
+      "lang": "de",
+      "surface": "frisch",
+      "surface_search": "frisch",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "217d461f-8c94-4152-b665-35951e15c2ea",
+      "lexeme_id": "95c3931d-dda5-6603-26c9-f66ab6363f5f",
+      "lang": "it",
+      "surface": "fresco",
+      "surface_search": "fresco",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "6543e685-e10a-bfaf-65cd-ad5de47f4ea6",
+      "lexeme_id": "dff6cc94-fb26-a7d2-2c7b-52093dae8bbf",
+      "lang": "en",
+      "surface": "fresh",
+      "surface_search": "fresh",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "a67039e0-6b5d-f591-6a26-5fda2f6d7a26",
+      "lexeme_id": "ce618408-9b12-82c5-858f-4790fec88c93",
+      "lang": "de",
+      "surface": "gewöhnlich",
+      "surface_search": "gewohnlich",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "19cb8ccc-b98d-ab0a-065c-302fc7af9bb8",
+      "lexeme_id": "1010dcf8-d4a6-a42a-5565-3a4e424e3ad6",
+      "lang": "en",
+      "surface": "usually",
+      "surface_search": "usually",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "2868f19a-ba86-acfa-097c-43122c4e11ca",
+      "lexeme_id": "0dd2356f-fdd4-842d-93c9-7ff3717d9f4c",
+      "lang": "de",
+      "surface": "übersehen",
+      "surface_search": "ubersehen",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "3aa5c0be-25cd-f3c5-2140-c548abf8e895",
+      "lexeme_id": "2aec3d06-2ec8-2afe-5ed7-257d7b92d029",
+      "lang": "it",
+      "surface": "trascurare",
+      "surface_search": "trascurare",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "ab39e18b-8034-cde0-45ee-eec78c4a809d",
+      "lexeme_id": "48b05925-7143-c213-9ca7-58a6e4646e28",
+      "lang": "en",
+      "surface": "to overlook",
+      "surface_search": "to overlook",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "33a364b8-6d98-da9e-0d6d-ff749319cbf8",
+      "lexeme_id": "9b35d918-81bd-a1e4-c675-249ba1b1a733",
+      "lang": "de",
+      "surface": "zuletzt",
+      "surface_search": "zuletzt",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "9f88913c-56ca-3213-f24a-056d9f8d7c76",
+      "lexeme_id": "db3a20a0-0aa2-f624-3d85-e242a61ce3b5",
+      "lang": "it",
+      "surface": "per ultimo",
+      "surface_search": "per ultimo",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "4c908882-edb1-24ff-c1f5-09260f4c9577",
+      "lexeme_id": "f11ddb93-9fe7-aaa2-8f48-f02ef3556269",
+      "lang": "en",
+      "surface": "lastly",
+      "surface_search": "lastly",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "4ce05ab2-f2a9-6b30-1e50-d6494faddaa1",
+      "lexeme_id": "622be131-b3ac-1a62-479c-7d2910562cbb",
+      "lang": "de",
+      "surface": "verlassen",
+      "surface_search": "verlassen",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "0ae645fc-135c-d71a-92ca-401894df5bb5",
+      "lexeme_id": "20f46a0d-6e76-96b5-e44e-dff1031793bd",
+      "lang": "it",
+      "surface": "lasciare",
+      "surface_search": "lasciare",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "81b6b38d-9a9b-d180-8c3c-16c30c03bc59",
+      "lexeme_id": "3819378a-d110-b42e-8c0f-188aaafc8a03",
+      "lang": "en",
+      "surface": "to leave",
+      "surface_search": "to leave",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "e09755bd-a65d-b4d7-6389-ada876be0dd1",
+      "lexeme_id": "c5a9de91-2fa8-4f2a-7105-396e7b218248",
+      "lang": "it",
+      "surface": "solitamente",
+      "surface_search": "solitamente",
       "number_value": "none",
       "grammatical_case": "none",
       "definiteness": "none",
@@ -151143,6 +153514,18 @@
       "source": "resolved"
     },
     {
+      "relation_id": "2b61df4c-51e4-9a50-0454-f9c237c68d0f",
+      "relation_type": "antonym",
+      "concept_a": "154140dc-6a12-f58d-e630-2d05193ddb1a",
+      "concept_b": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
       "relation_id": "9ff03082-6cff-1f55-30fa-6cec04891be7",
       "relation_type": "antonym",
       "concept_a": "16aaee01-9bbf-1a30-7b7c-b135254c6510",
@@ -151263,6 +153646,18 @@
       "source": "resolved"
     },
     {
+      "relation_id": "d09675db-4ffe-24f5-5d15-f6b2cbc992a2",
+      "relation_type": "antonym",
+      "concept_a": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "concept_b": "8c095125-c82a-103f-433f-7c32a1d70cba",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
       "relation_id": "8e0ac2fa-e965-1403-b914-9f8758ae4f5d",
       "relation_type": "antonym",
       "concept_a": "3cdf79c6-4a75-bf63-d8d2-defabc8505e3",
@@ -151280,6 +153675,18 @@
       "lang_scope_json": [
         "de",
         "en"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "94de0879-ab1a-51bb-19a2-86ffc6325778",
+      "relation_type": "antonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
       ],
       "source": "resolved"
     },
@@ -151382,6 +153789,18 @@
       "source": "resolved"
     },
     {
+      "relation_id": "93068de5-c23f-c389-6983-77037abb84bc",
+      "relation_type": "antonym",
+      "concept_a": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "concept_b": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
       "relation_id": "b87c1a87-868c-ba49-b669-d130e6e4a020",
       "relation_type": "antonym",
       "concept_a": "616c3547-3dbf-bfe2-ea0a-4281482e7116",
@@ -151408,6 +153827,18 @@
       "concept_b": "87a180ff-f265-430e-bc0b-161b8604d068",
       "lang_scope_json": [
         "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "0ae8ef79-eb40-ab05-caf2-194ea2cee010",
+      "relation_type": "antonym",
+      "concept_a": "75aaec59-5c45-791b-c003-18dcee16a9cb",
+      "concept_b": "concept-b2-zusage",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
       ],
       "source": "resolved"
     },
@@ -151495,6 +153926,28 @@
       "concept_b": "ccc568db-1da2-1dea-712e-ae8083a0ca60",
       "lang_scope_json": [
         "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "95dc3113-d6ec-5a22-cf02-aaca2c31ec53",
+      "relation_type": "antonym",
+      "concept_a": "a6a02266-de00-f0d8-462f-29e0e630ad11",
+      "concept_b": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
+      "lang_scope_json": [
+        "de",
+        "en"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "08a9bb2e-7132-87d9-bd23-2152637eeb0c",
+      "relation_type": "antonym",
+      "concept_a": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
+      "concept_b": "de7729bf-7055-b380-9ec0-7e315525c625",
+      "lang_scope_json": [
+        "de",
+        "it"
       ],
       "source": "resolved"
     },
@@ -151703,6 +154156,30 @@
       "source": "resolved"
     },
     {
+      "relation_id": "8819a833-1c22-5d4f-3b8a-7b1342abeb10",
+      "relation_type": "synonym",
+      "concept_a": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "concept_b": "e329e8c3-374b-a9d6-ec94-7c17e329d222",
+      "tier": "close",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "af5783fa-1311-5187-b57c-bbf1e4ae0a4f",
+      "relation_type": "synonym",
+      "concept_a": "b3840a69-b660-0e8d-81ee-3b3284ed29ff",
+      "concept_b": "fef8f67b-8883-20ff-c027-67735487d38d",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
       "relation_id": "ac5fd30f-e68c-8721-e920-0c40ceb96c30",
       "relation_type": "synonym",
       "concept_a": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
@@ -151712,6 +154189,17 @@
         "de",
         "en",
         "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "50a71692-ed0a-b4f2-bf7a-b461684173c6",
+      "relation_type": "synonym",
+      "concept_a": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "concept_b": "concept-a2-deutlich",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
       ],
       "source": "resolved"
     },
@@ -151731,6 +154219,17 @@
       "relation_type": "synonym",
       "concept_a": "concept-a2-empfehlen",
       "concept_b": "concept-b1-vorschlagen",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "9e01a1cf-6cdb-02c7-281a-3f2354a29eb5",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-normalerweise",
+      "concept_b": "dd649122-0105-6628-92d8-b638d43a5204",
       "tier": "close",
       "lang_scope_json": [
         "de"

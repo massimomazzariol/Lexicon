@@ -1,0 +1,359 @@
+[
+  {
+    "source_key": "wohnhaus_dwelling",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": ["Daily"],
+    "notes": "MT-C5 pilot: the abitazione/Wohnhaus/dwelling sense dangling from Haus in all three languages. Level pinned to Haus's pack (design D7 pilot note).",
+    "translations": {
+      "de": {
+        "text": "Wohnhaus",
+        "article_nom_sg_def": "das",
+        "gender": "n",
+        "plural": "Wohnhäuser",
+        "definition": "Gebäude, in dem Menschen dauerhaft leben.",
+        "card_synonyms": ["Haus"],
+        "examples": [
+          {
+            "sentence": "Das Wohnhaus hat drei Stockwerke.",
+            "translation_lang": "it",
+            "translation_text": "L'edificio ha tre piani."
+          }
+        ]
+      },
+      "it": {
+        "text": "l'abitazione",
+        "gender": "f",
+        "definition": "Luogo in cui una persona vive stabilmente.",
+        "card_synonyms": ["casa"],
+        "examples": ["L'abitazione si trova in centro."]
+      },
+      "en": {
+        "text": "dwelling",
+        "definition": "A place where someone lives.",
+        "card_synonyms": ["house"],
+        "examples": ["The dwelling has a small garden."]
+      }
+    }
+  },
+  {
+    "source_key": "ignorieren",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": ["Daily"],
+    "notes": "MT-C5 pilot: most-referenced dangling sense (15+ concepts list it as antonym).",
+    "translations": {
+      "de": {
+        "text": "ignorieren",
+        "definition": "Absichtlich so tun, als ob etwas nicht da wäre.",
+        "card_antonyms": ["beachten"],
+        "examples": [
+          {
+            "sentence": "Er ignoriert die Regeln.",
+            "translation_lang": "it",
+            "translation_text": "Lui ignora le regole."
+          }
+        ]
+      },
+      "it": {
+        "text": "ignorare",
+        "definition": "Fare finta che qualcosa non esista.",
+        "examples": ["Non puoi ignorare il problema."]
+      },
+      "en": {
+        "text": "to ignore",
+        "definition": "To act as if something is not there.",
+        "examples": ["Please do not ignore the warning."]
+      }
+    }
+  },
+  {
+    "source_key": "unwichtig",
+    "pos": "adj",
+    "level_auto": "A2",
+    "domain_tags": ["Daily"],
+    "notes": "MT-C5 pilot: antonym counterpart of the core word wichtig (A1).",
+    "translations": {
+      "de": {
+        "text": "unwichtig",
+        "definition": "Ohne Bedeutung für die Sache.",
+        "card_antonyms": ["wichtig"],
+        "examples": [
+          {
+            "sentence": "Das Detail ist unwichtig.",
+            "translation_lang": "it",
+            "translation_text": "Il dettaglio non conta."
+          }
+        ]
+      },
+      "it": {
+        "text": "poco importante",
+        "definition": "Che non merita attenzione.",
+        "card_antonyms": ["importante"],
+        "examples": ["Il colore della copertina e poco importante."]
+      },
+      "en": {
+        "text": "unimportant",
+        "definition": "Not worth attention.",
+        "card_antonyms": ["important"],
+        "examples": ["The order of the steps is unimportant."]
+      }
+    }
+  },
+  {
+    "source_key": "klar_adj",
+    "pos": "adj",
+    "level_auto": "A2",
+    "domain_tags": ["Daily"],
+    "notes": "MT-C5 pilot: dangling synonym of deutlich (A2) and antonym anchor for unklar/vage.",
+    "translations": {
+      "de": {
+        "text": "klar",
+        "definition": "Leicht zu verstehen.",
+        "card_synonyms": ["deutlich"],
+        "examples": [
+          {
+            "sentence": "Die Antwort ist klar.",
+            "translation_lang": "it",
+            "translation_text": "La risposta e chiara."
+          }
+        ]
+      },
+      "it": {
+        "text": "chiaro",
+        "definition": "Facile da capire.",
+        "examples": ["Il messaggio e chiaro."]
+      },
+      "en": {
+        "text": "clear",
+        "definition": "Easy to understand.",
+        "examples": ["The instructions are clear."]
+      }
+    }
+  },
+  {
+    "source_key": "selten",
+    "pos": "adv",
+    "level_auto": "A2",
+    "domain_tags": ["Daily"],
+    "notes": "MT-C5 pilot: antonym counterpart of the core words oft/immer (A1).",
+    "translations": {
+      "de": {
+        "text": "selten",
+        "definition": "Fast nie.",
+        "card_antonyms": ["oft"],
+        "examples": [
+          {
+            "sentence": "Wir essen selten Fleisch.",
+            "translation_lang": "it",
+            "translation_text": "Mangiamo carne quasi mai."
+          }
+        ]
+      },
+      "it": {
+        "text": "raramente",
+        "definition": "Quasi mai.",
+        "card_antonyms": ["spesso"],
+        "examples": ["Vado raramente al cinema."]
+      },
+      "en": {
+        "text": "rarely",
+        "definition": "Almost never.",
+        "card_antonyms": ["often"],
+        "examples": ["He rarely arrives late."]
+      }
+    }
+  },
+  {
+    "source_key": "ablehnung",
+    "pos": "noun",
+    "level_auto": "B1",
+    "domain_tags": ["Daily"],
+    "notes": "MT-C5 pilot: dangling in all three languages (Ablehnung / rejection / rifiuto). Level B1: abstract noun, and the adjacency rule flagged the A2 draft against its mutual antonym die Zusage (B2) - the flag was right.",
+    "translations": {
+      "de": {
+        "text": "die Ablehnung",
+        "article_nom_sg_def": "die",
+        "gender": "f",
+        "plural": "Ablehnungen",
+        "definition": "Die Antwort Nein auf eine Bitte.",
+        "card_antonyms": ["Zusage"],
+        "examples": [
+          {
+            "sentence": "Die Ablehnung kam per Brief.",
+            "translation_lang": "it",
+            "translation_text": "La risposta negativa e arrivata per lettera."
+          }
+        ]
+      },
+      "it": {
+        "text": "il rifiuto",
+        "gender": "m",
+        "definition": "La risposta negativa a una richiesta.",
+        "examples": ["Il rifiuto della domanda ci ha sorpreso."]
+      },
+      "en": {
+        "text": "rejection",
+        "definition": "A negative answer to a request.",
+        "examples": ["The rejection arrived after two weeks."]
+      }
+    }
+  },
+  {
+    "source_key": "frisch",
+    "pos": "adj",
+    "level_auto": "A1",
+    "domain_tags": ["Daily"],
+    "notes": "MT-C5 pilot: antonym counterpart of the core word alt (A1).",
+    "translations": {
+      "de": {
+        "text": "frisch",
+        "definition": "Gerade erst gemacht oder geerntet.",
+        "card_antonyms": ["alt"],
+        "examples": [
+          {
+            "sentence": "Das Brot ist frisch.",
+            "translation_lang": "it",
+            "translation_text": "Il pane e appena fatto."
+          }
+        ]
+      },
+      "it": {
+        "text": "fresco",
+        "definition": "Fatto o raccolto da poco.",
+        "card_antonyms": ["vecchio"],
+        "examples": ["Il pesce fresco costa di piu."]
+      },
+      "en": {
+        "text": "fresh",
+        "definition": "Just made or picked.",
+        "card_antonyms": ["old"],
+        "examples": ["I bought fresh bread this morning."]
+      }
+    }
+  },
+  {
+    "source_key": "gewoehnlich",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": ["Daily"],
+    "notes": "MT-C5 pilot: dangling synonym of normalerweise (A2).",
+    "translations": {
+      "de": {
+        "text": "gewöhnlich",
+        "definition": "So wie an den meisten Tagen.",
+        "card_synonyms": ["normalerweise"],
+        "examples": [
+          {
+            "sentence": "Gewöhnlich stehe ich um sieben auf.",
+            "translation_lang": "it",
+            "translation_text": "Di solito mi alzo alle sette."
+          }
+        ]
+      },
+      "it": {
+        "text": "solitamente",
+        "definition": "Come nella maggior parte dei giorni.",
+        "examples": ["Di solito pranzo a casa."]
+      },
+      "en": {
+        "text": "usually",
+        "definition": "As on most days.",
+        "examples": ["I usually walk to work."]
+      }
+    }
+  },
+  {
+    "source_key": "uebersehen",
+    "pos": "verb",
+    "level_auto": "B1",
+    "domain_tags": ["Daily"],
+    "notes": "MT-C5 pilot: dangling antonym of beachten (A2).",
+    "translations": {
+      "de": {
+        "text": "übersehen",
+        "definition": "Etwas nicht bemerken, obwohl es da ist.",
+        "card_antonyms": ["beachten"],
+        "examples": [
+          {
+            "sentence": "Ich habe den Fehler übersehen.",
+            "translation_lang": "it",
+            "translation_text": "Non ho notato l'errore."
+          }
+        ]
+      },
+      "it": {
+        "text": "trascurare",
+        "definition": "Non notare qualcosa che esiste.",
+        "examples": ["Non bisogna trascurare i dettagli."]
+      },
+      "en": {
+        "text": "to overlook",
+        "definition": "To fail to notice something.",
+        "examples": ["It is easy to overlook a small mistake."]
+      }
+    }
+  },
+  {
+    "source_key": "zuletzt",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": ["Daily"],
+    "notes": "MT-C5 pilot: dangling synonym of schliesslich (B1).",
+    "translations": {
+      "de": {
+        "text": "zuletzt",
+        "definition": "Am Ende einer Reihe von Schritten.",
+        "card_synonyms": ["schließlich"],
+        "examples": [
+          {
+            "sentence": "Zuletzt haben wir den Tisch gedeckt.",
+            "translation_lang": "it",
+            "translation_text": "Per ultimo abbiamo apparecchiato."
+          }
+        ]
+      },
+      "it": {
+        "text": "per ultimo",
+        "definition": "Alla fine di una serie.",
+        "examples": ["Per ultimo abbiamo salutato tutti."]
+      },
+      "en": {
+        "text": "lastly",
+        "definition": "At the end of a sequence.",
+        "examples": ["Lastly, check the result."]
+      }
+    }
+  },
+  {
+    "source_key": "verlassen_verb",
+    "pos": "verb",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Travel"],
+    "notes": "MT-C5 pilot: dangling antonym of kommen (A1) and neighbor of aussteigen.",
+    "translations": {
+      "de": {
+        "text": "verlassen",
+        "definition": "Von einem Ort weggehen.",
+        "card_antonyms": ["kommen"],
+        "examples": [
+          {
+            "sentence": "Wir verlassen das Haus um acht.",
+            "translation_lang": "it",
+            "translation_text": "Usciamo di casa alle otto."
+          }
+        ]
+      },
+      "it": {
+        "text": "lasciare",
+        "definition": "Andare via da un luogo.",
+        "examples": ["Devo lasciare la citta domani."]
+      },
+      "en": {
+        "text": "to leave",
+        "definition": "To go away from a place.",
+        "examples": ["They leave the office at six."]
+      }
+    }
+  }
+]

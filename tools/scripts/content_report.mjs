@@ -78,3 +78,40 @@ dups.slice(0, 12).forEach(([k, ids]) => console.log(`  - ${k} → ${ids.join(', 
 
 const inCluster = new Set(members.map((m) => lexemes.find((l) => l.lexeme_id === m.lexeme_id)?.concept_id).filter(Boolean));
 console.log(`\nINTERCONNECTION: ${inCluster.size}/${concepts.length} concepts in a cluster (${pct(inCluster.size)}) · ${clusters.length} clusters total`);
+
+// --- Graph metrics (MT-C5 / E3) ---------------------------------------------
+// Edge counts by type, isolation overall and per CEFR level (both all-edge and
+// synonym-only, per OV-5), plus what still waits in the review pipeline.
+{
+  const edges = d.concept_relations || [];
+  const byType = {};
+  for (const e of edges) byType[e.relation_type] = (byType[e.relation_type] || 0) + 1;
+  const typeLine = Object.entries(byType).map(([t, n]) => `${t} ${n}`).join(' · ') || 'none';
+
+  const linkedAll = new Set();
+  const linkedSyn = new Set();
+  for (const e of edges) {
+    linkedAll.add(e.concept_a).add(e.concept_b);
+    if (e.relation_type === 'synonym') linkedSyn.add(e.concept_a).add(e.concept_b);
+  }
+  const levelOf = (c) => c.level_override || c.level_auto || '?';
+  const perLevel = new Map();
+  for (const c of concepts) {
+    const L = levelOf(c);
+    if (!perLevel.has(L)) perLevel.set(L, { total: 0, isolatedAll: 0, isolatedSyn: 0 });
+    const row = perLevel.get(L);
+    row.total += 1;
+    if (!linkedAll.has(c.concept_id)) row.isolatedAll += 1;
+    if (!linkedSyn.has(c.concept_id)) row.isolatedSyn += 1;
+  }
+  const isolatedAll = concepts.length - linkedAll.size;
+  const isolatedSyn = concepts.length - linkedSyn.size;
+  console.log(`\nGRAPH (concept_relations): ${edges.length} edges (${typeLine})`);
+  console.log(`  isolated concepts: any-edge ${isolatedAll}/${concepts.length} (${pct(isolatedAll)}) · synonym-only ${isolatedSyn}/${concepts.length} (${pct(isolatedSyn)})`);
+  for (const L of ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']) {
+    const row = perLevel.get(L);
+    if (!row) continue;
+    console.log(`    ${L}: any-edge ${row.isolatedAll}/${row.total} isolated · synonym-only ${row.isolatedSyn}/${row.total}`);
+  }
+  console.log('  review pipeline: run `node tools/scripts/interconnect.mjs` for queue depth, dangling words and promotion-bar yield');
+}

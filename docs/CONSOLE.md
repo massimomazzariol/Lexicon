@@ -13,7 +13,7 @@ NO_COLOR=1 pnpm run lexicon         # turn colors off
 
 The console checks content integrity **on entry** and heals it before showing the
 menu; the autopilot does the same at the start of every run. So a publish can't
-ship a pack the app rejects. It catches and fixes: duplicate concept / definition
+ship a pack a consumer would reject. It catches and fixes: duplicate concept / definition
 / lexeme rows (keeping the reviewed/richest), concepts with no difficulty score
 (set from the level), and active words with no forms (minted via the form
 generator). Run it directly any time:
@@ -37,7 +37,7 @@ pnpm run doctor -- --fix   # repair in place, then mint missing forms
 | 8 | Review AI suggestions | approve or reject the items waiting for a human |
 | 9 | Review word links | decide the queued links between words - one key per pair |
 | 10 | Status report | what is done and what still needs work (incl. graph metrics + plural coverage) |
-| 11 | Publish | build the packs + push to GitHub so the app updates |
+| 11 | Publish | build the packs + push to GitHub so consumers can pick them up |
 
 **Find before you add:** item `2` is a read-only, offline lookup. It tells you
 whether a word is already a headword, already present as a synonym/antonym, or
@@ -109,6 +109,6 @@ yellow, errors in red.
 
 - The Autopilot publishes locally per chunk; content reaches GitHub only when
   you push (opt-in per chunk, or menu Publish). On the serving machine,
-  `pnpm run refresh` pulls it and the app updates.
+  `pnpm run refresh` pulls it for serving.
 - Nothing risky ships unreviewed: drafted records are `needs_review`; only the
   clean, corroborated ones are auto-promoted (menu item 8 shows the rest).

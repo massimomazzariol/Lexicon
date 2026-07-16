@@ -1,9 +1,9 @@
 // Source-content integrity: detect (and safely repair) the data problems that
-// otherwise reach a pack and break the app - duplicate primary keys, unscored
+// otherwise reach a pack and break a consumer - duplicate primary keys, unscored
 // concepts, and words with no forms (not studyable).
 //
 // These all came from one place: the AI-draft promotion path adds rows without
-// the invariants `upsert` enforces. Rather than chase each symptom in the app,
+// the invariants `upsert` enforces. Rather than chase each symptom downstream,
 // the console + autopilot run `diagnoseContent` on entry and `repairContent`
 // to heal, so bad data never ships. Form minting is delegated to
 // `generate_pack_forms` (flagged via `needsFormGen`) since that is its job.

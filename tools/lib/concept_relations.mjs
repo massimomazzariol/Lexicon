@@ -31,7 +31,7 @@ export const DEFAULT_TIER = 'close';
 export const MAX_LEVEL_SPAN = 1; // ADVISORY threshold: a wider span often means a
 // mis-leveled concept, so the report flags it - but it no longer blocks writes
 // (user decision 2026-07-16: the dictionary records the language; level pacing
-// is the consumer's job - the app only loads packs up to the unlocked level).
+// is the consumer's job - a consumer loads only the packs it wants to serve).
 
 const LEVEL_INDEX = new Map(LEXICON_LEVELS.map((level, i) => [level, i]));
 

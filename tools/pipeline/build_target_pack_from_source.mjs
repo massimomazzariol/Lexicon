@@ -569,7 +569,7 @@ function main() {
     schema_version: 2,
   };
 
-  // Defensive: the app imports these into tables with primary keys, so a duplicate
+  // Defensive: consumers import these into keyed tables, so a duplicate
   // row makes the whole pack import fail. The source should already be clean; if a
   // dup slips through (e.g. a duplicated source concept), keep the first and warn
   // loudly rather than ship an unimportable pack. Never silently - the warning is

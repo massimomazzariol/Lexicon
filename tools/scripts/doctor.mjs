@@ -1,5 +1,5 @@
 // Content doctor - checks the source pack for integrity problems that would
-// break the app (duplicate primary keys, unscored concepts, words with no forms)
+// break a consumer (duplicate primary keys, unscored concepts, words with no forms)
 // and repairs them with --fix.
 //
 //   pnpm run doctor            # report only (exit 1 if problems)

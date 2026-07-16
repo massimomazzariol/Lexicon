@@ -77,7 +77,7 @@ test('build_lexicon_distribution exports runtime packs as artifact-ready files',
       ],
     );
 
-    // Each chunk pointer carries its content kind so the app can filter downloads
+    // Each chunk pointer carries its content kind so a consumer can filter downloads
     // (vocab by default; expressions opt-in) without fetching every chunk manifest.
     for (const chunk of deIndex.chunks) {
       const expectedKind = chunk.chunk_id.endsWith('.expressions')

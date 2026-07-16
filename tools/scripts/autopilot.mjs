@@ -71,7 +71,7 @@ async function main() {
   let totalChunks = 0;
   for (const c of cats) { const n = counts[c.key]; const ch = Math.ceil(n / chunk); totalChunks += ch; console.log(`  ${c.label.padEnd(20)} ${String(n).padStart(4)} now → ~${ch} chunk(s) of ${chunk}`); }
   console.log(`  then LINK (interconnect) → GATE (auto-promote)${args.addDangling ? ' → add dangling' : ''}${args.noAiReview ? '' : ' → AI-review'}${args.build ? ' → build' : ''}${args.push ? ' → git push' : ''}`);
-  if (args.publishEach) console.log('  📦 PUBLISH after every chunk - the app sees new fields as they are generated');
+  if (args.publishEach) console.log('  📦 PUBLISH after every chunk - consumers see new fields as they are generated');
   if (args.push && args.publishEach) console.log('  ⬆ git push after EACH chunk - detailed commit per batch; serving machine gets it live via ' + C.yellow('pnpm run refresh'));
   else if (args.push) console.log('  ⬆ git push at the end - detailed commit (what was created); serving machine gets it with ' + C.yellow('pnpm run refresh'));
   console.log(`\n~${totalChunks} fix-chunk(s) + ${withSeed.length} seed level(s) · pacing ${chunk}/chunk, ${args.delay ?? 800}ms/item, ${args.cooldown ?? 25}s cooldown. (Seeding adds more to fill afterwards.)`);
@@ -114,7 +114,7 @@ async function main() {
       const cur = countByCategory(auditContent(read()), levels)[c.key];
       if (cur >= prev) { console.log(C.yellow(`  no further progress on ${c.label} (${cur} remain - needs a human or better sources). Moving on.`)); break; }
       prev = cur;
-      if (args.publishEach) publishStep(`${c.label} chunk ${round}`); // stream the ✅ tier to the app as we go
+      if (args.publishEach) publishStep(`${c.label} chunk ${round}`); // stream the ✅ tier to consumers as we go
     }
   }
 
@@ -162,7 +162,7 @@ async function main() {
 }
 
 function read() { return JSON.parse(readFileSync(CONTENT, 'utf8')); }
-// Heal duplicate / unscored content before a run so it never ships a pack the app
+// Heal duplicate / unscored content before a run so it never ships a pack a consumer
 // rejects. Forms are minted by regenerateForms() after SEED. Same checks as the
 // console's entry self-check and `pnpm run doctor`.
 function healContent() {
@@ -194,8 +194,8 @@ function regenerateForms() {
   console.log(C.dim('  ...syncing source forms so new lexemes have their forms (RH-18)...'));
   pipeline('generate_pack_forms.mjs', []);
 }
-// Stream results to the app mid-run: link → triage → build, so the ✅ tier of each chunk
-// reaches the runtime packs (and the app) immediately, instead of only at the end.
+// Stream results downstream mid-run: link → triage → build, so the ✅ tier of each
+// chunk reaches the runtime packs (and any consumer) immediately, instead of only at the end.
 function publishStep(tag) {
   console.log(`\n📦 publish (${tag}) → link · triage · build...`);
   run('interconnect.mjs', ['--apply']);

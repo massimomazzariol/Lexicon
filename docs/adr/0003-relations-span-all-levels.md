@@ -18,19 +18,19 @@ language. Roughly a quarter of the reviewed link candidates were held back
 by span alone.
 
 The consumer-side concern turned out to be already solved by construction:
-consumers load packs level by level, and the distribution contract makes an
-edge inert when its other endpoint is not present. A beginner who has not
-loaded the C2 pack never sees or grades against the C2 word; the link
-activates by itself when that level is unlocked.
+packs are distributed per level, and the distribution contract makes an
+edge inert when its other endpoint is not present. A consumer that has not
+loaded the C2 pack never surfaces the C2 word; the link activates by itself
+once that pack is loaded.
 
 ## Decision
 
 - The graph records relations between concepts at ANY two levels. The
   write-time adjacency rule is removed everywhere (automatic writer, review
   queue decisions, integrity invariants).
-- Level pacing is a consumer concern. The reference consumer behavior is:
-  load packs up to the learner's unlocked level; edges into unloaded packs
-  are inert (already mandated by the distribution contract).
+- Level pacing is a consumer concern. The contract already gives consumers
+  the tool: load only the packs you want to serve; edges into unloaded
+  packs are inert.
 - A wide span remains an editorial SIGNAL: the analyzer reports written
   pairs spanning 2+ levels in a `levelCheck` advisory list, because a wide
   span still often means one concept sits at the wrong level. It warns; it

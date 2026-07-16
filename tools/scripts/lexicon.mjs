@@ -45,7 +45,7 @@ const MENU = [
   ['Review AI suggestions', 'approve or reject the items waiting for a human', doReview],
   ['Review word links', 'decide the queued links between words - one key per pair', () => doReviewLinks({ repo: REPO })],
   ['Status report', 'see what is done and what still needs work', doStatus],
-  ['Publish', 'build the packs + push to GitHub so the app updates', doPublish],
+  ['Publish', 'build the packs + push to GitHub so consumers can pick them up', doPublish],
   ['Quit', '', null]
 ];
 
@@ -398,7 +398,7 @@ async function doFix() {
     push = each && (await ask(`Push each chunk to GitHub? ${C.dim('[y/N]')} `)).toLowerCase() === 'y';
   }
   console.log(push
-    ? C.yellow('\n⬆ PUSH LIVE') + C.dim(`: commits + pushes to GitHub ${each ? 'after each chunk - the app sees it as it goes.' : 'at the end.'}`)
+    ? C.yellow('\n⬆ PUSH LIVE') + C.dim(`: commits + pushes to GitHub ${each ? 'after each chunk - consumers see it as it goes.' : 'at the end.'}`)
     : C.dim('\n· LOCAL ONLY: nothing is pushed to GitHub. Use Publish to ship when ready.'));
   console.log(C.green('Starting autopilot...') + C.dim('  (Ctrl-C to stop - it resumes where it left off)'));
   sh('autopilot.mjs', ['--no-seed', '--yes', '--cooldown', String(cd), '--chunk', String(chunk),
@@ -471,7 +471,7 @@ async function doStatus() {
 // 8. PUBLISH - gate + build + push.
 async function doPublish() {
   console.log(C.dim('\nThis approves the clean AI content, rebuilds the packs, and (optionally) pushes to'));
-  console.log(C.dim('GitHub so the app can update via ') + C.yellow('pnpm run refresh') + C.dim('.'));
+  console.log(C.dim('GitHub so a serving machine can update via ') + C.yellow('pnpm run refresh') + C.dim('.'));
   if (!(await confirm(C.b('Approve clean content + build packs?') + ` ${C.dim('[y/N]')} `))) return;
   sh('review_autopromote.mjs', ['--apply']);
   sh('rebuild_runtime_packs.mjs', ['--with-distribution'], 'pipeline');
@@ -482,7 +482,7 @@ function gitPush() {
   console.log('\n' + C.cyan('- git push -'));
   const ts = new Date().toISOString().slice(0, 16).replace('T', ' ');
   commitAndPush(REPO, { tag: `${ts} · console`, push: true }); // detailed message - see content_diff.mjs
-  console.log(C.yellow('⬆ PUSHED LIVE to GitHub') + C.dim(' - the app updates via ') + C.yellow('pnpm run refresh') + C.dim('.'));
+  console.log(C.yellow('⬆ PUSHED LIVE to GitHub') + C.dim(' - serving machines update via ') + C.yellow('pnpm run refresh') + C.dim('.'));
 }
 
 // ---- shared: add words through the existing engine, then link + gate ----
@@ -531,7 +531,7 @@ function runAutopilot(raw) {
   sh('autopilot.mjs', flags);
 }
 // Self-check on entry: heal duplicate / unscored / formless content so the next
-// Publish can't ship a pack the app rejects. No-op on a clean repo. Same checks
+// Publish can't ship a pack a consumer would reject. No-op on a clean repo. Same checks
 // the autopilot runs headless; `pnpm run doctor` runs them on demand.
 function healOnStartup() {
   let content;

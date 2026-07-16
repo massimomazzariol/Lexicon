@@ -74,12 +74,12 @@ test('reject is recorded, never written', () => {
   assert.equal(rejected.length, 1);
 });
 
-test('wide-span decisions are refused with the fix-the-level hint', () => {
+test('wide-span decisions write normally (span stopped being a blocker 2026-07-16)', () => {
   const entries = [{ concept_a: 'c-haus', concept_b: 'c-gebaeude', decision: 'synonym' }];
   const { toWrite, refused } = decideQueueEntries(entries, content());
-  assert.equal(toWrite.length, 0);
-  assert.equal(refused.length, 1);
-  assert.match(refused[0][1], /fix the concept level first/);
+  assert.equal(refused.length, 0);
+  assert.equal(toWrite.length, 1);
+  assert.equal(toWrite[0].relation_type, 'synonym');
 });
 
 test('a pair that already has an edge is refused (one relation per pair)', () => {

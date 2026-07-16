@@ -76,9 +76,10 @@ test('duplicate definitions per (concept, lang) are fine for analysis input', ()
 test('mutual adjacent pair becomes an auto edge with merged scope and conservative tier', () => {
   const res = analyzeRelations(fixture());
   const syn = res.autoEdges.filter((e) => e.relation_type === 'synonym');
-  assert.equal(syn.length, 1);
-  const e = syn[0];
-  assert.equal(pairKey(e.concept_a, e.concept_b), 'c-haus|c-wohnhaus');
+  // Two since 2026-07-16: the wide-span mutual pair writes too (advisory only).
+  assert.equal(syn.length, 2);
+  const e = syn.find((x) => pairKey(x.concept_a, x.concept_b) === 'c-haus|c-wohnhaus');
+  assert.ok(e);
   assert.deepEqual(e.lang_scope_json, ['de', 'it']); // evidence, never null
   assert.equal(e.tier, 'loose'); // exact vs loose -> most conservative
   assert.equal(e.source, 'resolved');
@@ -93,11 +94,15 @@ test('conflict pair (synonym AND antonym) produces no edge and lands in the queu
   assert.ok(!res.autoEdges.some((e) => pairKey(e.concept_a, e.concept_b) === 'c-gross|c-klein'));
 });
 
-test('mutual wide-span pair goes to the wideSpan queue (adjacency rule)', () => {
+test('mutual wide-span pair auto-writes and lands in the levelCheck advisory', () => {
   const res = analyzeRelations(fixture());
-  assert.equal(res.queue.wideSpan.length, 1);
-  assert.equal(pairKey(res.queue.wideSpan[0].concept_a, res.queue.wideSpan[0].concept_b), 'c-gebaeude|c-haus');
-  assert.equal(res.queue.wideSpan[0].span, 4);
+  assert.equal(res.queue.wideSpan.length, 0);
+  const wide = res.autoEdges.find((e) => pairKey(e.concept_a, e.concept_b) === 'c-gebaeude|c-haus');
+  assert.ok(wide, 'the wide pair is written');
+  assert.equal(wide.source, 'resolved');
+  const advisory = res.levelCheck.find((e) => pairKey(e.concept_a, e.concept_b) === 'c-gebaeude|c-haus');
+  assert.ok(advisory, 'the wide pair is flagged for a level check');
+  assert.equal(advisory.span, 4);
 });
 
 test('buckets: ambiguous, dangling (with promotion yield), phrases, self-reference', () => {
@@ -183,7 +188,6 @@ test('diagnoseRelations catches every invariant violation', () => {
   for (const kind of [
     'relation_orphan', 'relation_unordered', 'relation_bad_id',
     'relation_bad_tier', 'relation_bad_lang_scope', 'relation_bad_source',
-    'relation_level_span',
   ]) {
     assert.ok(kinds.has(kind), `expected ${kind}`);
   }

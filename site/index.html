@@ -353,14 +353,13 @@ async function loadChunk(lang, chunk) {
   c.loading.delete(chunk.chunk_id);
 }
 
-// Edges only span adjacent CEFR levels, so loading the neighbour-level chunks
-// of the same kind resolves every linkable target before the modal renders.
-async function ensureNeighborChunks(lang, level) {
+// Edges may link any two CEFR levels (the graph records the language; level
+// pacing is a consumer concern), so resolve linked targets by loading every
+// chunk of the current kind - a handful of small files, cached after the
+// first modal.
+async function ensureKindChunks(lang) {
   const c = cache[lang];
-  const li = LEVELS.indexOf(level);
-  const want = new Set([LEVELS[li - 1], level, LEVELS[li + 1]].filter(Boolean));
-  const targets = c.chunks.filter((ch) => (ch.kind || 'vocab') === state.kind &&
-    (ch.levels_supported || []).some((L) => want.has(L)));
+  const targets = c.chunks.filter((ch) => (ch.kind || 'vocab') === state.kind);
   await Promise.all(targets.map((ch) => loadChunk(lang, ch).catch(() => {})));
 }
 
@@ -445,7 +444,7 @@ function esc(s) { const d = document.createElement('div'); d.textContent = s ?? 
 async function showDetail(entry, lang) {
   const con = entry.concept;
   const level = con.level_override || con.level_auto || '?';
-  await ensureNeighborChunks(lang, level);
+  await ensureKindChunks(lang);
   let html = '<h2>' + esc(entryLemma(entry, lang)) + '</h2>';
   html += '<div class="meta">' +
     '<span class="lvl ' + levelClass(level) + '">' + level + '</span>' +

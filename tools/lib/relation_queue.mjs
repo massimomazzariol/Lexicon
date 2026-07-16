@@ -15,8 +15,6 @@ import {
   relationId,
   normalizePair,
   pairKey,
-  levelSpan,
-  MAX_LEVEL_SPAN,
   DEFAULT_TIER,
   sortEdges,
 } from './concept_relations.mjs';
@@ -31,15 +29,14 @@ export function flattenQueue(queue) {
 }
 
 /**
- * Turn decided entries into manual edges, enforcing the same invariants as
- * the automatic writer: one relation per pair, and the level-adjacency rule
- * (a wide-span decision is refused - fixing the concept level is the cure,
- * not overriding the rule). Pure function, no I/O. Entries without a
+ * Turn decided entries into manual edges, enforcing the same invariant as
+ * the automatic writer: one relation per pair. (Level span stopped being a
+ * write blocker on 2026-07-16 - it is an advisory signal now.)
+ * Pure function, no I/O. Entries without a
  * `decision` field are skipped (still pending). `source` says WHO decided:
  * 'manual' for a human, 'ai' when a model made the call - honest provenance.
  */
 export function decideQueueEntries(entries, content, { source = 'manual' } = {}) {
-  const conceptById = new Map((content.concepts ?? []).map((c) => [c.concept_id, c]));
   const covered = new Set((content.concept_relations ?? []).map((e) => pairKey(e.concept_a, e.concept_b)));
   const toWrite = [];
   const rejected = [];
@@ -58,11 +55,6 @@ export function decideQueueEntries(entries, content, { source = 'manual' } = {})
     }
     if (covered.has(pairKey(a, b))) {
       refused.push([entry, 'pair already has an edge (one relation per pair)']);
-      continue;
-    }
-    const span = levelSpan(conceptById.get(a), conceptById.get(b));
-    if (span === null || span > MAX_LEVEL_SPAN) {
-      refused.push([entry, `level span ${span ?? 'unknown'} exceeds ${MAX_LEVEL_SPAN} - fix the concept level first`]);
       continue;
     }
     covered.add(pairKey(a, b));

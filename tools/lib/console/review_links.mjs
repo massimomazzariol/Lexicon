@@ -93,14 +93,11 @@ export async function doReviewLinks({ repo = process.cwd() } = {}) {
     const entry = pending[i];
     renderCard(entry, i, pending.length, idx);
     const wideSpan = typeof entry.span === 'number' && entry.span > MAX_LEVEL_SPAN;
-    let allowed = ['s', 'a', 'r', 'x', 'enter', 'q'];
     if (wideSpan) {
-      console.log('  ' + C.yellow(`⚠ span ${entry.span} exceeds the adjacency rule (max ${MAX_LEVEL_SPAN}) - `) +
-        C.yellow('a link cannot be written; fix the concept level first.') +
-        C.dim('  [x] reject / [Enter] skip / [q] quit'));
-      allowed = ['x', 'enter', 'q'];
+      console.log('  ' + C.yellow(`⚠ wide level span (${entry.span}) - the link is writable, but `) +
+        C.yellow('double-check the levels: one of the two often sits at the wrong one.'));
     }
-    const key = await readKey(allowed);
+    const key = await readKey(['s', 'a', 'r', 'x', 'enter', 'q']);
     if (key === 'q') break;
     if (key === 'enter') continue;
     const decision = KEY_TO_DECISION[key];

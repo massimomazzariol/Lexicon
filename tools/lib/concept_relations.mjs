@@ -28,7 +28,10 @@ export const RELATION_SOURCES = Object.freeze(['resolved', 'manual', 'ai']);
 // Grading tiers, most conservative LAST (used by mergeTiers).
 export const RELATION_TIERS = Object.freeze(['exact', 'close', 'loose']);
 export const DEFAULT_TIER = 'close';
-export const MAX_LEVEL_SPAN = 1; // the adjacency rule: A1<->A1/A2, A2<->A1/A2/B1, ...
+export const MAX_LEVEL_SPAN = 1; // ADVISORY threshold: a wider span often means a
+// mis-leveled concept, so the report flags it - but it no longer blocks writes
+// (user decision 2026-07-16: the dictionary records the language; level pacing
+// is the consumer's job - the app only loads packs up to the unlocked level).
 
 const LEVEL_INDEX = new Map(LEXICON_LEVELS.map((level, i) => [level, i]));
 
@@ -174,8 +177,9 @@ export function analyzeRelations(content) {
 
   const autoEdges = [];
   const oneSided = [];
-  const wideSpan = [];
+  const wideSpan = []; // kept for queue-file compatibility; always empty now
   const conflicts = [];
+  const levelCheck = []; // advisory: written pairs whose span is wide or unknown
 
   // A pair already decided by a human or AI edge (source manual/ai) never
   // re-enters the QUEUE buckets: the queue holds only pairs still needing a
@@ -205,12 +209,10 @@ export function analyzeRelations(content) {
       if (!decided) oneSided.push({ ...base, asserted_by: [...rec.directions] });
       continue;
     }
-    // A null span (unknown level) is NOT auto-writable: the adjacency rule
-    // cannot be checked, so a human confirms it via the queue.
-    if (span === null || span > MAX_LEVEL_SPAN) {
-      if (!decided) wideSpan.push(base);
-      continue;
-    }
+    // A wide or unknown span no longer blocks the write; it is still worth a
+    // human glance (one concept often sits at the wrong level), so it lands
+    // in the levelCheck advisory list alongside the edge.
+    if (span === null || span > MAX_LEVEL_SPAN) levelCheck.push(base);
     autoEdges.push({
       relation_id: relationId(type, a, b),
       relation_type: type,
@@ -246,6 +248,7 @@ export function analyzeRelations(content) {
   return {
     autoEdges: sortEdges(autoEdges),
     queue: { oneSided, wideSpan, conflicts, ambiguous },
+    levelCheck,
     dangling: danglingList,
     danglingGroups: [...groups.values()].map((g) => ({ concepts: g.concepts, langs: [...g.langs].sort(), terms: g.terms })),
     promotionCandidates,
@@ -257,6 +260,7 @@ export function analyzeRelations(content) {
       autoEdges: autoEdges.length,
       oneSided: oneSided.length,
       wideSpan: wideSpan.length,
+      levelCheck: levelCheck.length,
       conflicts: conflicts.length,
       ambiguous: ambiguous.length,
       dangling: danglingList.length,
@@ -440,11 +444,9 @@ export function diagnoseRelations(content) {
     }).map((e) => e.relation_id));
   push('relation_bad_id', 'relation_id does not match its deterministic recipe',
     edges.filter((e) => e.relation_id !== relationId(e.relation_type, e.concept_a, e.concept_b)).map((e) => e.relation_id));
-  push('relation_level_span', `edges spanning more than ${MAX_LEVEL_SPAN} CEFR level(s) (adjacency rule)`,
-    edges.filter((e) => {
-      const span = levelSpan(conceptById.get(e.concept_a), conceptById.get(e.concept_b));
-      return span !== null && span > MAX_LEVEL_SPAN;
-    }).map((e) => e.relation_id));
+  // The former relation_level_span invariant (adjacency) was retired on
+  // 2026-07-16: wide spans are an advisory (analyzeRelations().levelCheck),
+  // not an integrity error - level pacing is the consumer's concern.
 
   return issues;
 }

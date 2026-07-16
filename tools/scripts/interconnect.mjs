@@ -51,7 +51,16 @@ function main() {
 
   console.log(`Flat references resolved: ${s.references} strings over ${s.pairs} concept pairs.`);
   console.log(`Auto edges (mutual + adjacent): ${s.autoEdges}`);
-  console.log(`Review queue: ${s.oneSided} one-sided · ${s.wideSpan} wide-span (level rule) · ${s.conflicts} syn/ant conflicts · ${s.ambiguous} ambiguous`);
+  const rejectsFile = loadRejects(resolve(process.cwd(), DEFAULT_REJECTS_REL));
+  const reportQueue = filterQueueByRejects({
+    one_sided: res.queue.oneSided,
+    wide_span: res.queue.wideSpan,
+    conflicts: res.queue.conflicts,
+  }, rejectsFile);
+  const remembered = (rejectsFile.pairs ?? []).length;
+  console.log(`Review queue: ${reportQueue.one_sided.length} one-sided · ${reportQueue.conflicts.length} syn/ant conflicts · ${s.ambiguous} ambiguous` +
+    (remembered ? ` · ${remembered} rejected pair(s) remembered` : ''));
+  if (s.levelCheck) console.log(`Level check advised: ${s.levelCheck} written pair(s) span 2+ CEFR levels - one side may be mis-leveled`);
   console.log(`Dangling words (wishlist): ${s.dangling} (${s.promotionCandidates} pass the Q1 promotion bar: 2+ concepts or 2+ languages)`);
   console.log(`Phrases (answer-support only): ${s.phrases} · self-references: ${s.selfRef}`);
 
@@ -71,12 +80,7 @@ function main() {
     mkdirSync(dirname(out), { recursive: true });
     // Rejected pairs write no edge, so the analyzer keeps finding them in the
     // flat strings; the reject memory keeps them out of the human's queue.
-    const rejects = loadRejects(resolve(process.cwd(), DEFAULT_REJECTS_REL));
-    const filtered = filterQueueByRejects({
-      one_sided: res.queue.oneSided,
-      wide_span: res.queue.wideSpan,
-      conflicts: res.queue.conflicts,
-    }, rejects);
+    const filtered = reportQueue;
     writeJsonAtomic(out, {
       generated_at: new Date().toISOString(),
       ...filtered,

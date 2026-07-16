@@ -28,8 +28,10 @@ import { createHash } from 'crypto';
 import {
   analyzeRelations,
   applyResolvedEdges,
+  stripConsumedSupportStrings,
   lintTransitiveContradictions,
   synonymComponents,
+  pairKey,
 } from '../lib/concept_relations.mjs';
 import { writeJsonAtomic, withContentLock } from '../lib/content_store.mjs';
 import { filterQueueByRejects, loadRejects, DEFAULT_REJECTS_REL } from '../lib/relation_queue.mjs';
@@ -112,9 +114,15 @@ function main() {
     const content = JSON.parse(readFileSync(CONTENT, 'utf8'));
     const fresh = analyzeRelations(content);
     const { written, skippedCovered } = applyResolvedEdges(content, fresh.autoEdges);
+    // Phase 5: decided pairs consume their flat strings - the edge (or the
+    // remembered reject) is the record now.
+    const rej = loadRejects(resolve(process.cwd(), DEFAULT_REJECTS_REL));
+    const rejectedPairs = new Set((rej.pairs ?? []).map((p) => pairKey(p.concept_a, p.concept_b)));
+    const stripped = stripConsumedSupportStrings(content, { rejectedPairs });
     rebuildDerivedClusters(content);
     writeJsonAtomic(CONTENT, content);
-    console.log(`\nWrote ${written.length} resolved edge(s) (${skippedCovered.length} pair(s) skipped: already covered by a manual/ai edge).`);
+    console.log(`\nWrote ${written.length} resolved edge(s) (${skippedCovered.length} pair(s) already covered).`);
+    console.log(`Consumed ${stripped.removed} flat string(s) now carried by edges or rejects (${stripped.kept} kept: dangling/ambiguous/phrases).`);
     console.log(`Derived clusters rebuilt from synonym edges. Review: git diff packs/lexicon_source/content.json`);
   }, { tool: 'interconnect' });
 }

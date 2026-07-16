@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {
   analyzeRelations,
   applyResolvedEdges,
+  stripConsumedSupportStrings,
   rewriteEdgesForMerge,
   lintTransitiveContradictions,
   synonymComponents,
@@ -138,7 +139,8 @@ test('applyResolvedEdges is idempotent and never touches manual/ai edges', () =>
   const after = content.concept_relations.slice();
   const second = applyResolvedEdges(content, analyzeRelations(content).autoEdges);
   assert.deepEqual(content.concept_relations, after); // idempotent
-  assert.equal(second.skippedCovered.length, 1);
+  // Phase 5 semantics: every already-written pair reports as covered.
+  assert.equal(second.skippedCovered.length, autoEdges.length);
 });
 
 test('rewriteEdgesForMerge retargets, drops self-edges, collapses duplicates', () => {
@@ -228,4 +230,30 @@ test('REGRESSION: pairs decided by a manual or ai edge leave the queue buckets',
     source: 'ai',
   }];
   assert.equal(analyzeRelations(content).queue.oneSided.length, 0);
+});
+
+test('Phase 5: a decided pair consumes its flat strings, undecided ones stay', () => {
+  const content = fixture();
+  // Write the graph from the fixture's mutual pairs first.
+  applyResolvedEdges(content, analyzeRelations(content).autoEdges);
+  const before = content.concept_definitions
+    .reduce((n, d) => n + (d.synonyms_json?.length ?? 0) + (d.antonyms_json?.length ?? 0), 0);
+  const { removed, kept } = stripConsumedSupportStrings(content);
+  assert.ok(removed > 0, 'edged pairs consumed');
+  assert.equal(removed + kept, before);
+  // Strings resolving to an edged pair are gone from both sides.
+  const haus = content.concept_definitions.find((d) => d.concept_id === 'c-haus' && d.lang === 'de');
+  assert.ok(!(haus.synonyms_json ?? []).includes('Wohnhaus'));
+  // A second run removes nothing more (idempotent).
+  const again = stripConsumedSupportStrings(content);
+  assert.equal(again.removed, 0);
+});
+
+test('Phase 5: a remembered reject consumes the string too', () => {
+  const content = fixture();
+  const rejectedPairs = new Set([pairKey('c-haus', 'c-wohnhaus')]);
+  const { removed } = stripConsumedSupportStrings(content, { rejectedPairs });
+  assert.ok(removed >= 1);
+  const haus = content.concept_definitions.find((d) => d.concept_id === 'c-haus' && d.lang === 'de');
+  assert.ok(!(haus.synonyms_json ?? []).includes('Wohnhaus'));
 });

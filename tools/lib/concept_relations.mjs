@@ -282,26 +282,75 @@ export function sortEdges(edges) {
 }
 
 /**
- * Idempotent write of the resolved edges into `content.concept_relations`:
- * drops every `source: "resolved"` edge, re-adds the given ones, and skips any
- * pair already covered by a manual/ai edge (of ANY type - one relation per
- * pair). Mutates `content`; returns { written, skippedCovered }.
+ * Write the resolved edges into `content.concept_relations`. Since Phase 5
+ * (a flat string is consumed once its pair is decided), edges are the source
+ * of truth and are PERMANENT: every existing edge is kept regardless of
+ * source, and the given auto edges only add pairs that have none yet.
+ * Removing an edge is an editorial act (reject, delete, merge cascade),
+ * never a regeneration side effect. Mutates `content`;
+ * returns { written, skippedCovered }.
  */
 export function applyResolvedEdges(content, autoEdges) {
   const existing = content.concept_relations ?? [];
-  const kept = existing.filter((e) => e.source !== 'resolved');
-  const covered = new Set(kept.map((e) => pairKey(e.concept_a, e.concept_b)));
+  const covered = new Set(existing.map((e) => pairKey(e.concept_a, e.concept_b)));
   const written = [];
   const skippedCovered = [];
   for (const edge of autoEdges) {
-    if (covered.has(pairKey(edge.concept_a, edge.concept_b))) {
+    const pk = pairKey(edge.concept_a, edge.concept_b);
+    if (covered.has(pk)) {
       skippedCovered.push(edge);
       continue;
     }
+    covered.add(pk);
     written.push(edge);
   }
-  content.concept_relations = sortEdges([...kept, ...written]);
+  content.concept_relations = sortEdges([...existing, ...written]);
   return { written, skippedCovered };
+}
+
+/**
+ * Phase 5: a flat synonym/antonym string is CONSUMED once its pair has been
+ * decided - an edge of any type supersedes it, a remembered reject refutes
+ * it. Removes those strings (and their tier entries) from the definitions.
+ * Dangling strings stay (answer-support for words not in the lexicon yet),
+ * ambiguous strings stay (pending a sense hint), phrases stay by design.
+ * Mutates `content`; returns { removed, kept }.
+ */
+export function stripConsumedSupportStrings(content, { rejectedPairs = new Set() } = {}) {
+  const index = buildSurfaceIndex(content);
+  const edged = new Set((content.concept_relations ?? []).map((e) => pairKey(e.concept_a, e.concept_b)));
+  let removed = 0;
+  let kept = 0;
+  for (const def of content.concept_definitions ?? []) {
+    const lang = String(def.lang ?? '').toLowerCase();
+    const byKey = index.get(lang);
+    if (!byKey) continue;
+    const origin = def.concept_id;
+    const strip = (field) => {
+      const list = parseList(def[field]);
+      if (!list.length) return;
+      const survivors = [];
+      for (const raw of list) {
+        const term = String(raw ?? '').trim();
+        const targets = [...(byKey.get(surfaceKey(term)) ?? [])].filter((id) => id !== origin);
+        const decided = targets.length === 1 &&
+          (edged.has(pairKey(origin, targets[0])) || rejectedPairs.has(pairKey(origin, targets[0])));
+        if (decided) {
+          removed += 1;
+          if (def.synonym_tiers_json && typeof def.synonym_tiers_json === 'object') {
+            delete def.synonym_tiers_json[term];
+          }
+        } else {
+          survivors.push(raw);
+          kept += 1;
+        }
+      }
+      def[field] = survivors;
+    };
+    strip('synonyms_json');
+    strip('antonyms_json');
+  }
+  return { removed, kept };
 }
 
 /**

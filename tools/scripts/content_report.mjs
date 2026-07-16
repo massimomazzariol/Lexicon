@@ -32,13 +32,21 @@ console.log('PER LEVEL (goal ≥100):');
 for (const L of ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']) console.log(`  ${L}: ${byLevel[L] || 0}${(byLevel[L] || 0) < 100 ? `  (need +${100 - (byLevel[L] || 0)})` : ''}`);
 
 let noEx = 0, noSyn = 0, noDef = 0, missLang = 0;
+// Phase 5: a synonym-type edge counts as synonym coverage (flat strings are
+// consumed once a pair is decided).
+const synEdged = new Set();
+for (const e of d.concept_relations || []) {
+  if (e.relation_type !== 'synonym') continue;
+  synEdged.add(e.concept_a).add(e.concept_b);
+}
 for (const c of concepts) {
   const langs = new Set((lexBy.get(c.concept_id) || []).map((l) => l.lang));
   if (!LANGS.every((l) => langs.has(l))) missLang++;
   const cdefs = defBy.get(c.concept_id) || [];
   if (cdefs.length === 0) noDef++;
   if ((exBy.get(c.concept_id) || []).length === 0) noEx++;
-  if (cdefs.reduce((s, x) => s + (x.synonyms_json || []).length, 0) === 0) noSyn++;
+  const flat = cdefs.reduce((s, x) => s + (x.synonyms_json || []).length, 0);
+  if (flat === 0 && !synEdged.has(c.concept_id)) noSyn++;
 }
 const pct = (n) => `${Math.round((100 * n) / concepts.length)}%`;
 console.log(`\nCOMPLETENESS: missing a language ${missLang} · no definition ${noDef} · no example ${noEx} (${pct(noEx)}) · no synonyms ${noSyn} (${pct(noSyn)})`);

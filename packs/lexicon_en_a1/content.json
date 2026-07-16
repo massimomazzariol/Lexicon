@@ -3829,7 +3829,7 @@
       "lemma": "Wasser",
       "pos": "noun",
       "gender": "neut",
-      "countability": "none",
+      "countability": "mass",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -5291,12 +5291,12 @@
       "lemma": "campagna",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": "plural blocked: semantic mismatch with Länder",
+      "notes": "plural blocked: semantic mismatch with Länder; approved plural",
       "is_active": true
     },
     {
@@ -6277,7 +6277,7 @@
       "lemma": "Rücken",
       "pos": "noun",
       "gender": "masc",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -6294,12 +6294,12 @@
       "lemma": "back",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -6311,12 +6311,12 @@
       "lemma": "schiena",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -6600,12 +6600,12 @@
       "lemma": "pants",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": "plural blocked: pluralia tantum mapping",
+      "notes": "plural blocked: pluralia tantum mapping; approved plural",
       "is_active": true
     },
     {
@@ -6617,12 +6617,12 @@
       "lemma": "pantaloni",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": "plural blocked: pluralia tantum mapping",
+      "notes": "plural blocked: pluralia tantum mapping; approved plural",
       "is_active": true
     },
     {
@@ -6991,7 +6991,7 @@
       "lemma": "Fleisch",
       "pos": "noun",
       "gender": "neut",
-      "countability": "none",
+      "countability": "mass",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -7042,7 +7042,7 @@
       "lemma": "Gemüse",
       "pos": "noun",
       "gender": "neut",
-      "countability": "none",
+      "countability": "mass",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -7144,7 +7144,7 @@
       "lemma": "Käse",
       "pos": "noun",
       "gender": "masc",
-      "countability": "none",
+      "countability": "mass",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -7399,7 +7399,7 @@
       "lemma": "Mittagessen",
       "pos": "noun",
       "gender": "neut",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -7416,12 +7416,12 @@
       "lemma": "lunch",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -7433,12 +7433,12 @@
       "lemma": "pranzo",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -7450,7 +7450,7 @@
       "lemma": "Abendessen",
       "pos": "noun",
       "gender": "neut",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -7467,12 +7467,12 @@
       "lemma": "dinner",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -7484,12 +7484,12 @@
       "lemma": "cena",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -7858,7 +7858,7 @@
       "lemma": "Kuchen",
       "pos": "noun",
       "gender": "masc",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -7875,12 +7875,12 @@
       "lemma": "cake",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -7892,12 +7892,12 @@
       "lemma": "torta",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -8062,7 +8062,7 @@
       "lemma": "Morgen",
       "pos": "noun",
       "gender": "masc",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -8079,12 +8079,12 @@
       "lemma": "morning",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -8096,12 +8096,12 @@
       "lemma": "mattino",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -8742,7 +8742,7 @@
       "lemma": "Regen",
       "pos": "noun",
       "gender": "masc",
-      "countability": "none",
+      "countability": "mass",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -8793,7 +8793,7 @@
       "lemma": "Schnee",
       "pos": "noun",
       "gender": "masc",
-      "countability": "none",
+      "countability": "mass",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -8946,7 +8946,7 @@
       "lemma": "Zimmer",
       "pos": "noun",
       "gender": "neut",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -9150,7 +9150,7 @@
       "lemma": "Fenster",
       "pos": "noun",
       "gender": "neut",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -9167,12 +9167,12 @@
       "lemma": "window",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -9184,12 +9184,12 @@
       "lemma": "finestra",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -9303,7 +9303,7 @@
       "lemma": "Sessel",
       "pos": "noun",
       "gender": "masc",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -11394,7 +11394,7 @@
       "lemma": "Lehrer",
       "pos": "noun",
       "gender": "masc",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -11411,12 +11411,12 @@
       "lemma": "male teacher",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -11428,12 +11428,12 @@
       "lemma": "insegnante",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -11445,7 +11445,7 @@
       "lemma": "Schüler",
       "pos": "noun",
       "gender": "masc",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -11462,12 +11462,12 @@
       "lemma": "male student",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -11479,12 +11479,12 @@
       "lemma": "studente",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -13043,7 +13043,7 @@
       "lemma": "Uhrzeit",
       "pos": "noun",
       "gender": "fem",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -13060,12 +13060,12 @@
       "lemma": "orario",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -13077,7 +13077,7 @@
       "lemma": "time",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "mass",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -13451,7 +13451,7 @@
       "lemma": "Wagen",
       "pos": "noun",
       "gender": "masc",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
@@ -13468,12 +13468,12 @@
       "lemma": "automobile",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -13485,7 +13485,7 @@
       "lemma": "Bahn",
       "pos": "noun",
       "gender": "fem",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
@@ -13502,7 +13502,7 @@
       "lemma": "Doktor",
       "pos": "noun",
       "gender": "masc",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
@@ -13519,12 +13519,12 @@
       "lemma": "physician",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -13536,12 +13536,12 @@
       "lemma": "dottore",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -13927,7 +13927,7 @@
       "lemma": "Badezimmer",
       "pos": "noun",
       "gender": "neut",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
@@ -14080,12 +14080,12 @@
       "lemma": "kid",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -14096,8 +14096,8 @@
       "frequency_rank": null,
       "lemma": "Mama",
       "pos": "noun",
-      "gender": "none",
-      "countability": "none",
+      "gender": "fem",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
@@ -14114,12 +14114,12 @@
       "lemma": "mom",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -14131,12 +14131,12 @@
       "lemma": "mum",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -14148,12 +14148,12 @@
       "lemma": "mamma",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -14164,8 +14164,8 @@
       "frequency_rank": null,
       "lemma": "Papa",
       "pos": "noun",
-      "gender": "none",
-      "countability": "none",
+      "gender": "masc",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
@@ -14182,12 +14182,12 @@
       "lemma": "dad",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -14199,12 +14199,12 @@
       "lemma": "papà",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -14437,12 +14437,12 @@
       "lemma": "mattina",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -14658,12 +14658,12 @@
       "lemma": "station",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -14675,12 +14675,12 @@
       "lemma": "station",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -14692,12 +14692,12 @@
       "lemma": "stazione dei treni",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -14709,12 +14709,12 @@
       "lemma": "via",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -14828,12 +14828,12 @@
       "lemma": "drug store",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -14845,12 +14845,12 @@
       "lemma": "chemist",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -14862,12 +14862,12 @@
       "lemma": "drugstore",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -14879,7 +14879,7 @@
       "lemma": "Medizin",
       "pos": "noun",
       "gender": "fem",
-      "countability": "none",
+      "countability": "mass",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
@@ -14896,12 +14896,12 @@
       "lemma": "medicina",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -14913,12 +14913,12 @@
       "lemma": "medicinale",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -14981,12 +14981,12 @@
       "lemma": "medicine",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -15049,12 +15049,12 @@
       "lemma": "kid",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -15066,12 +15066,12 @@
       "lemma": "bimbo",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -15117,12 +15117,12 @@
       "lemma": "exercise book",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -15134,12 +15134,12 @@
       "lemma": "teacher",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -15151,12 +15151,12 @@
       "lemma": "student",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -15168,12 +15168,12 @@
       "lemma": "alunno",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -15202,12 +15202,12 @@
       "lemma": "vocabolo",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -20907,6 +20907,24 @@
       }
     },
     {
+      "form_id": "0b95344e-34b8-2415-1387-8cb3a9b2f981",
+      "lexeme_id": "lex-it-campagna",
+      "lang": "it",
+      "surface": "le campagne",
+      "surface_search": "le campagne",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "95d32888-4568-6149-64c6-a56dd4487a9e",
       "lexeme_id": "lex-de-machen",
       "lang": "de",
@@ -23008,6 +23026,25 @@
       }
     },
     {
+      "form_id": "b9bdd7d3-ee0b-2105-5f7a-93b95a953507",
+      "lexeme_id": "lex-de-rucken",
+      "lang": "de",
+      "surface": "die Rücken",
+      "surface_search": "die rucken",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
       "form_id": "849a3ceb-a7b8-5ae0-5983-e720663f38ec",
       "lexeme_id": "lex-de-rucken",
       "lang": "de",
@@ -23074,6 +23111,28 @@
       }
     },
     {
+      "form_id": "62257f05-11ec-bf92-c5d1-d3b2493785de",
+      "lexeme_id": "lex-de-rucken",
+      "lang": "de",
+      "surface": "den Rücken",
+      "surface_search": "den rucken",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "f305c0d1-02ed-71bb-df76-7a908116efbd",
       "lexeme_id": "lex-en-back",
       "lang": "en",
@@ -23092,6 +23151,24 @@
       }
     },
     {
+      "form_id": "bcf07417-53f7-15a8-98df-86960c2894fe",
+      "lexeme_id": "lex-en-back",
+      "lang": "en",
+      "surface": "the backs",
+      "surface_search": "the backs",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "4e79f605-b01e-2989-5861-7ac4dcabac07",
       "lexeme_id": "lex-it-schiena",
       "lang": "it",
@@ -23107,6 +23184,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "77050e29-a4a2-081f-57df-368e7832dcdf",
+      "lexeme_id": "lex-it-schiena",
+      "lang": "it",
+      "surface": "le schiene",
+      "surface_search": "le schiene",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -24244,6 +24339,24 @@
       }
     },
     {
+      "form_id": "c0c4f13a-0e27-11ad-c420-2ff626a554a3",
+      "lexeme_id": "lex-en-pants",
+      "lang": "en",
+      "surface": "the pants",
+      "surface_search": "the pants",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "be772cb3-fdb3-5e90-0d5e-0cc8cb576ef0",
       "lexeme_id": "lex-it-pantaloni",
       "lang": "it",
@@ -24259,6 +24372,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "1e9245e1-bb70-52d1-9e7c-c71a090e6c0c",
+      "lexeme_id": "lex-it-pantaloni",
+      "lang": "it",
+      "surface": "i pantaloni",
+      "surface_search": "i pantaloni",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -26172,6 +26303,25 @@
       }
     },
     {
+      "form_id": "387813d4-13a3-ec5b-03fe-050d4a434b3d",
+      "lexeme_id": "lex-de-mittagessen",
+      "lang": "de",
+      "surface": "die Mittagessen",
+      "surface_search": "die mittagessen",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
       "form_id": "c53ec518-188b-b3b6-907a-5e901dbe3578",
       "lexeme_id": "lex-de-mittagessen",
       "lang": "de",
@@ -26238,6 +26388,28 @@
       }
     },
     {
+      "form_id": "c4fc7c55-7e71-ff8b-645f-977077f320db",
+      "lexeme_id": "lex-de-mittagessen",
+      "lang": "de",
+      "surface": "den Mittagessen",
+      "surface_search": "den mittagessen",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "818b1723-fe44-bc54-66ba-91c39e739cc5",
       "lexeme_id": "lex-en-lunch",
       "lang": "en",
@@ -26253,6 +26425,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "9bfe3aa5-e1f4-5052-b1a4-16aaa72c7b9e",
+      "lexeme_id": "lex-en-lunch",
+      "lang": "en",
+      "surface": "the lunches",
+      "surface_search": "the lunches",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -26274,6 +26464,24 @@
       }
     },
     {
+      "form_id": "c1545347-745e-8c77-bf89-6b75edd5d37f",
+      "lexeme_id": "lex-it-pranzo",
+      "lang": "it",
+      "surface": "i pranzi",
+      "surface_search": "i pranzi",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "109caa24-ad9a-d09a-253f-ad91d5f52cb5",
       "lexeme_id": "lex-de-abendessen",
       "lang": "de",
@@ -26289,6 +26497,25 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "nom_sg_def",
+        "grammar_tags": []
+      }
+    },
+    {
+      "form_id": "16277c29-850c-ca9f-ffe9-9fb8cc9eb1c7",
+      "lexeme_id": "lex-de-abendessen",
+      "lang": "de",
+      "surface": "die Abendessen",
+      "surface_search": "die abendessen",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
         "grammar_tags": []
       }
     },
@@ -26359,6 +26586,28 @@
       }
     },
     {
+      "form_id": "93494423-06d1-eab4-cc82-f5018a04d39b",
+      "lexeme_id": "lex-de-abendessen",
+      "lang": "de",
+      "surface": "den Abendessen",
+      "surface_search": "den abendessen",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "67554ee9-7ff9-7e2c-44c7-ea4e1a00486c",
       "lexeme_id": "lex-en-dinner",
       "lang": "en",
@@ -26377,6 +26626,24 @@
       }
     },
     {
+      "form_id": "221704f9-0aa2-703c-99ca-fc2436c01034",
+      "lexeme_id": "lex-en-dinner",
+      "lang": "en",
+      "surface": "the dinners",
+      "surface_search": "the dinners",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "d7412563-6def-348c-42e7-c0ed06e3df27",
       "lexeme_id": "lex-it-cena",
       "lang": "it",
@@ -26392,6 +26659,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "c97697c7-9421-a984-ffff-fa5e81fe7514",
+      "lexeme_id": "lex-it-cena",
+      "lang": "it",
+      "surface": "le cene",
+      "surface_search": "le cene",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -27088,6 +27373,25 @@
       }
     },
     {
+      "form_id": "e60f5ebb-8788-e803-0fe9-6ad91b8be92f",
+      "lexeme_id": "lex-de-kuchen",
+      "lang": "de",
+      "surface": "die Kuchen",
+      "surface_search": "die kuchen",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
       "form_id": "aaf83155-f15b-6397-87af-d937afa0ada9",
       "lexeme_id": "lex-de-kuchen",
       "lang": "de",
@@ -27154,6 +27458,28 @@
       }
     },
     {
+      "form_id": "39a9c094-ffee-cd6c-dcd6-65ccbd202c69",
+      "lexeme_id": "lex-de-kuchen",
+      "lang": "de",
+      "surface": "den Kuchen",
+      "surface_search": "den kuchen",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "254260da-ecb0-04c9-31ad-87ecfb2a59cc",
       "lexeme_id": "lex-en-cake",
       "lang": "en",
@@ -27172,6 +27498,24 @@
       }
     },
     {
+      "form_id": "591c3cf0-7699-e60a-29a9-223c73cc9876",
+      "lexeme_id": "lex-en-cake",
+      "lang": "en",
+      "surface": "the cakes",
+      "surface_search": "the cakes",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "5c733c4c-7a4f-818d-a228-c80c970da92b",
       "lexeme_id": "lex-it-torta",
       "lang": "it",
@@ -27187,6 +27531,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "e2c7d7a6-0f01-795c-4d1e-df7da9187190",
+      "lexeme_id": "lex-it-torta",
+      "lang": "it",
+      "surface": "le torte",
+      "surface_search": "le torte",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -27659,6 +28021,25 @@
       }
     },
     {
+      "form_id": "981f8fb5-4c43-c0ce-a642-7474bfd67b56",
+      "lexeme_id": "lex-de-morgen-2",
+      "lang": "de",
+      "surface": "die Morgen",
+      "surface_search": "die morgen",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
       "form_id": "d51cd6bf-4260-5237-e615-a04b0c6a4f67",
       "lexeme_id": "lex-de-morgen-2",
       "lang": "de",
@@ -27725,6 +28106,28 @@
       }
     },
     {
+      "form_id": "2502830a-332b-e6b4-a18c-da2cd61ba8b5",
+      "lexeme_id": "lex-de-morgen-2",
+      "lang": "de",
+      "surface": "den Morgen",
+      "surface_search": "den morgen",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "19d78989-f6f3-ecff-4a0d-089478b18cad",
       "lexeme_id": "lex-en-morning",
       "lang": "en",
@@ -27743,6 +28146,24 @@
       }
     },
     {
+      "form_id": "78b4c257-18ea-073b-4791-fd4f93f53ebf",
+      "lexeme_id": "lex-en-morning",
+      "lang": "en",
+      "surface": "the mornings",
+      "surface_search": "the mornings",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "af23070f-9f26-1ff7-3f20-e5ee3c188537",
       "lexeme_id": "lex-it-mattino",
       "lang": "it",
@@ -27758,6 +28179,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "76bd07c0-3b4d-a504-fecd-fece60786ca7",
+      "lexeme_id": "lex-it-mattino",
+      "lang": "it",
+      "surface": "i mattini",
+      "surface_search": "i mattini",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -29660,6 +30099,25 @@
       }
     },
     {
+      "form_id": "8cdf1fc2-dcff-df79-77b6-6a6d34f34e5a",
+      "lexeme_id": "lex-de-zimmer",
+      "lang": "de",
+      "surface": "die Zimmer",
+      "surface_search": "die zimmer",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
       "form_id": "34cf70f5-63a3-c604-54ce-0bea300a4256",
       "lexeme_id": "lex-de-zimmer",
       "lang": "de",
@@ -29722,6 +30180,28 @@
         "grammar_tags": [
           "genitive",
           "singular"
+        ]
+      }
+    },
+    {
+      "form_id": "37e943cf-3571-5702-34b3-5d64677d20e4",
+      "lexeme_id": "lex-de-zimmer",
+      "lang": "de",
+      "surface": "den Zimmern",
+      "surface_search": "den zimmern",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
         ]
       }
     },
@@ -30411,6 +30891,25 @@
       }
     },
     {
+      "form_id": "5b265dd9-16eb-93ab-af14-391fb687618e",
+      "lexeme_id": "lex-de-fenster",
+      "lang": "de",
+      "surface": "die Fenster",
+      "surface_search": "die fenster",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
       "form_id": "7cb76a14-de70-6e3c-78b9-bdbd01b3a78f",
       "lexeme_id": "lex-de-fenster",
       "lang": "de",
@@ -30477,6 +30976,28 @@
       }
     },
     {
+      "form_id": "45346669-0981-3a9f-9673-6cb4dace591b",
+      "lexeme_id": "lex-de-fenster",
+      "lang": "de",
+      "surface": "den Fenstern",
+      "surface_search": "den fenstern",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "4f7f8da1-3c46-ef2b-ce3d-bd546f8b6387",
       "lexeme_id": "lex-en-window",
       "lang": "en",
@@ -30495,6 +31016,24 @@
       }
     },
     {
+      "form_id": "6ca3942f-918f-a237-1088-81de354b88ba",
+      "lexeme_id": "lex-en-window",
+      "lang": "en",
+      "surface": "the windows",
+      "surface_search": "the windows",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "ef7b75a6-0fd2-6837-90a8-aa38b61da384",
       "lexeme_id": "lex-it-finestra",
       "lang": "it",
@@ -30510,6 +31049,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "fe07a6c9-0f4a-c9be-699d-91a5d3ac6034",
+      "lexeme_id": "lex-it-finestra",
+      "lang": "it",
+      "surface": "le finestre",
+      "surface_search": "le finestre",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -30928,6 +31485,25 @@
       }
     },
     {
+      "form_id": "ec54105d-0b3b-f703-8797-081b1b5e198f",
+      "lexeme_id": "lex-de-sessel",
+      "lang": "de",
+      "surface": "die Sessel",
+      "surface_search": "die sessel",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
       "form_id": "2424c521-50b6-09f5-bb03-52d50c0d53d0",
       "lexeme_id": "lex-de-sessel",
       "lang": "de",
@@ -30990,6 +31566,28 @@
         "grammar_tags": [
           "genitive",
           "singular"
+        ]
+      }
+    },
+    {
+      "form_id": "e7237072-c712-d274-3fb3-6b3ef360a40e",
+      "lexeme_id": "lex-de-sessel",
+      "lang": "de",
+      "surface": "den Sesseln",
+      "surface_search": "den sesseln",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
         ]
       }
     },
@@ -35271,6 +35869,25 @@
       }
     },
     {
+      "form_id": "0381dbed-350e-743e-749d-2a4b5269da48",
+      "lexeme_id": "lex-de-lehrer",
+      "lang": "de",
+      "surface": "die Lehrer",
+      "surface_search": "die lehrer",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
       "form_id": "7c0b9b99-72be-50c5-23b7-9ef36f19bca8",
       "lexeme_id": "lex-de-lehrer",
       "lang": "de",
@@ -35337,6 +35954,28 @@
       }
     },
     {
+      "form_id": "86a2218e-57e5-df47-cd9a-c59969f20698",
+      "lexeme_id": "lex-de-lehrer",
+      "lang": "de",
+      "surface": "den Lehrern",
+      "surface_search": "den lehrern",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "29ae740e-5379-1e57-d66a-293e787b17c1",
       "lexeme_id": "lex-en-male-teacher",
       "lang": "en",
@@ -35352,6 +35991,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "152b52ae-c97f-b576-2169-2f5faa82feeb",
+      "lexeme_id": "lex-en-male-teacher",
+      "lang": "en",
+      "surface": "the male teachers",
+      "surface_search": "the male teachers",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -35373,6 +36030,24 @@
       }
     },
     {
+      "form_id": "e8f728d3-0de0-82ac-a3da-7ac4184a5c0f",
+      "lexeme_id": "lex-it-insegnante",
+      "lang": "it",
+      "surface": "gli insegnanti",
+      "surface_search": "gli insegnanti",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "c605580e-3cb4-d3b7-44d4-f42b6050b160",
       "lexeme_id": "lex-de-schuler",
       "lang": "de",
@@ -35388,6 +36063,25 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "nom_sg_def",
+        "grammar_tags": []
+      }
+    },
+    {
+      "form_id": "528c1bb9-7e19-7cc1-b133-f74d6d0d5987",
+      "lexeme_id": "lex-de-schuler",
+      "lang": "de",
+      "surface": "die Schüler",
+      "surface_search": "die schuler",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
         "grammar_tags": []
       }
     },
@@ -35458,6 +36152,28 @@
       }
     },
     {
+      "form_id": "89ecd619-90ed-bfe6-d34c-9fe93c70ea0d",
+      "lexeme_id": "lex-de-schuler",
+      "lang": "de",
+      "surface": "den Schülern",
+      "surface_search": "den schulern",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "ce440b81-e33e-c51a-b036-0cd9da66ec04",
       "lexeme_id": "lex-en-male-student",
       "lang": "en",
@@ -35476,6 +36192,24 @@
       }
     },
     {
+      "form_id": "d743e2ea-4234-7cf9-0272-406929cb81e1",
+      "lexeme_id": "lex-en-male-student",
+      "lang": "en",
+      "surface": "the male students",
+      "surface_search": "the male students",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "27e56fc6-4e18-1342-8b40-deb8fae8fa58",
       "lexeme_id": "lex-it-studente",
       "lang": "it",
@@ -35491,6 +36225,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "8d08e644-7d02-c895-5272-6288d5362e30",
+      "lexeme_id": "lex-it-studente",
+      "lang": "it",
+      "surface": "gli studenti",
+      "surface_search": "gli studenti",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -39041,6 +39793,25 @@
       }
     },
     {
+      "form_id": "f5288418-6ce8-9c31-b353-1bce984b6191",
+      "lexeme_id": "lex-de-uhrzeit",
+      "lang": "de",
+      "surface": "die Uhrzeiten",
+      "surface_search": "die uhrzeiten",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
       "form_id": "a27e8182-4156-7ec1-4f54-030cfe2c14d6",
       "lexeme_id": "lex-de-uhrzeit",
       "lang": "de",
@@ -39107,6 +39878,28 @@
       }
     },
     {
+      "form_id": "4eafdd27-4029-5be3-966e-f711e57656f7",
+      "lexeme_id": "lex-de-uhrzeit",
+      "lang": "de",
+      "surface": "den Uhrzeiten",
+      "surface_search": "den uhrzeiten",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "d980b87c-e544-7340-c26e-93b041d38681",
       "lexeme_id": "lex-it-ora-4",
       "lang": "it",
@@ -39122,6 +39915,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "1929b2a4-77b8-af96-759c-d95029770883",
+      "lexeme_id": "lex-it-ora-4",
+      "lang": "it",
+      "surface": "gli orari",
+      "surface_search": "gli orari",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -39566,6 +40377,25 @@
       }
     },
     {
+      "form_id": "672d87ef-6614-478e-718a-e1f0ced53939",
+      "lexeme_id": "lex-de-der-wagen",
+      "lang": "de",
+      "surface": "die Wagen",
+      "surface_search": "die wagen",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
       "form_id": "e1d98f69-71c6-958a-9aa3-2350df365a2a",
       "lexeme_id": "lex-de-der-wagen",
       "lang": "de",
@@ -39632,6 +40462,28 @@
       }
     },
     {
+      "form_id": "196506a3-e142-36e1-cc0b-0f913da559bc",
+      "lexeme_id": "lex-de-der-wagen",
+      "lang": "de",
+      "surface": "den Wagen",
+      "surface_search": "den wagen",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "becb5cbf-b828-984c-15f5-26c8ea11cc88",
       "lexeme_id": "lex-en-the-automobile",
       "lang": "en",
@@ -39650,6 +40502,24 @@
       }
     },
     {
+      "form_id": "822ed32a-a11d-be1d-fcf0-62c64711c64f",
+      "lexeme_id": "lex-en-the-automobile",
+      "lang": "en",
+      "surface": "the automobiles",
+      "surface_search": "the automobiles",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "65cc52b2-0262-be8c-6fa8-cdcf89d11525",
       "lexeme_id": "lex-de-die-bahn",
       "lang": "de",
@@ -39665,6 +40535,25 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "nom_sg_def",
+        "grammar_tags": []
+      }
+    },
+    {
+      "form_id": "24cd1a00-ac97-69e8-29d4-04df2ea78ae8",
+      "lexeme_id": "lex-de-die-bahn",
+      "lang": "de",
+      "surface": "die Bahnen",
+      "surface_search": "die bahnen",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
         "grammar_tags": []
       }
     },
@@ -39735,6 +40624,28 @@
       }
     },
     {
+      "form_id": "234dea3b-faf0-8b97-092b-1ddab88e7b3e",
+      "lexeme_id": "lex-de-die-bahn",
+      "lang": "de",
+      "surface": "den Bahnen",
+      "surface_search": "den bahnen",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "410afaa4-9ec7-f4fd-2153-b75308f4fa08",
       "lexeme_id": "lex-de-der-doktor",
       "lang": "de",
@@ -39750,6 +40661,25 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "nom_sg_def",
+        "grammar_tags": []
+      }
+    },
+    {
+      "form_id": "8af2883a-3d19-79b4-626f-2c0fff9fffc9",
+      "lexeme_id": "lex-de-der-doktor",
+      "lang": "de",
+      "surface": "die Doktoren",
+      "surface_search": "die doktoren",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
         "grammar_tags": []
       }
     },
@@ -39820,6 +40750,28 @@
       }
     },
     {
+      "form_id": "673fc5dc-ff40-8fc1-f297-a6a29dd7ef05",
+      "lexeme_id": "lex-de-der-doktor",
+      "lang": "de",
+      "surface": "den Doktoren",
+      "surface_search": "den doktoren",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "55c64006-4823-ef02-eea0-50fc46389996",
       "lexeme_id": "lex-en-the-physician",
       "lang": "en",
@@ -39838,6 +40790,24 @@
       }
     },
     {
+      "form_id": "a6173da4-d2fe-8deb-3dca-4423ddad10f6",
+      "lexeme_id": "lex-en-the-physician",
+      "lang": "en",
+      "surface": "the physicians",
+      "surface_search": "the physicians",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "9b172d03-dc64-406a-5859-04611100f62f",
       "lexeme_id": "lex-it-dottore",
       "lang": "it",
@@ -39853,6 +40823,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "0a03af6b-2e2f-b970-f316-795571385807",
+      "lexeme_id": "lex-it-dottore",
+      "lang": "it",
+      "surface": "i dottori",
+      "surface_search": "i dottori",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -40271,6 +41259,25 @@
       }
     },
     {
+      "form_id": "e12735b7-1d29-2e16-04c2-661b5f534a64",
+      "lexeme_id": "lex-de-das-badezimmer",
+      "lang": "de",
+      "surface": "die Badezimmer",
+      "surface_search": "die badezimmer",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
       "form_id": "f9f21278-b76a-7eb6-fe7d-2d6f9fc2ea93",
       "lexeme_id": "lex-de-das-badezimmer",
       "lang": "de",
@@ -40333,6 +41340,28 @@
         "grammar_tags": [
           "genitive",
           "singular"
+        ]
+      }
+    },
+    {
+      "form_id": "12c599ef-aacb-a3dc-1e8c-34c5c4909f50",
+      "lexeme_id": "lex-de-das-badezimmer",
+      "lang": "de",
+      "surface": "den Badezimmern",
+      "surface_search": "den badezimmern",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
         ]
       }
     },
@@ -40507,6 +41536,150 @@
       }
     },
     {
+      "form_id": "4890b6a8-7dc6-b44d-86fb-f46bf9932af1",
+      "lexeme_id": "lex-en-the-kid",
+      "lang": "en",
+      "surface": "the kids",
+      "surface_search": "the kids",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
+      "form_id": "daa68df4-3a23-4e1c-43cc-ee501132ba05",
+      "lexeme_id": "lex-de-mama",
+      "lang": "de",
+      "surface": "die Mama",
+      "surface_search": "die mama",
+      "number_value": "sg",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_sg_def",
+        "grammar_tags": []
+      }
+    },
+    {
+      "form_id": "1550eb44-a268-f2bf-eda3-4fbb00d828da",
+      "lexeme_id": "lex-de-mama",
+      "lang": "de",
+      "surface": "die Mamas",
+      "surface_search": "die mamas",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
+      "form_id": "77fe5d20-4b82-2e68-242e-f49e8aa7410b",
+      "lexeme_id": "lex-de-mama",
+      "lang": "de",
+      "surface": "die Mama",
+      "surface_search": "die mama",
+      "number_value": "sg",
+      "grammatical_case": "acc",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 2,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "acc_sg_def",
+        "grammar_tags": [
+          "accusative",
+          "singular"
+        ]
+      }
+    },
+    {
+      "form_id": "4094a6ee-da9e-e96b-7447-41fd9f79a33b",
+      "lexeme_id": "lex-de-mama",
+      "lang": "de",
+      "surface": "der Mama",
+      "surface_search": "der mama",
+      "number_value": "sg",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 3,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_sg_def",
+        "grammar_tags": [
+          "dative",
+          "singular"
+        ]
+      }
+    },
+    {
+      "form_id": "ad7d1b23-ec7f-1a7d-6d01-1296f5c27473",
+      "lexeme_id": "lex-de-mama",
+      "lang": "de",
+      "surface": "der Mama",
+      "surface_search": "der mama",
+      "number_value": "sg",
+      "grammatical_case": "gen",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 4,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "gen_sg_def",
+        "grammar_tags": [
+          "genitive",
+          "singular"
+        ]
+      }
+    },
+    {
+      "form_id": "65bc5dcb-8ad0-399e-f0d6-b80dde873322",
+      "lexeme_id": "lex-de-mama",
+      "lang": "de",
+      "surface": "den Mamas",
+      "surface_search": "den mamas",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "03a4f33b-33e5-a5b4-b753-c879d23691bd",
       "lexeme_id": "lex-en-mom",
       "lang": "en",
@@ -40522,6 +41695,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "32a216f2-bdba-0a81-50af-6a1b72e4fcc7",
+      "lexeme_id": "lex-en-mom",
+      "lang": "en",
+      "surface": "moms",
+      "surface_search": "moms",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "bare",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -40543,6 +41734,24 @@
       }
     },
     {
+      "form_id": "48e2b8aa-2d29-69ba-e415-b91496293faa",
+      "lexeme_id": "lex-en-mum",
+      "lang": "en",
+      "surface": "mums",
+      "surface_search": "mums",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "bare",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "729b6ba9-bcf7-320c-e621-dfa1f683f39a",
       "lexeme_id": "lex-it-la-mamma",
       "lang": "it",
@@ -40558,6 +41767,150 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "e66e174c-6fbd-4f6e-b679-915437a35970",
+      "lexeme_id": "lex-it-la-mamma",
+      "lang": "it",
+      "surface": "le mamme",
+      "surface_search": "le mamme",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
+      "form_id": "5dcff0d3-283d-12f5-60b3-8732d8f369bb",
+      "lexeme_id": "lex-de-papa",
+      "lang": "de",
+      "surface": "der Papa",
+      "surface_search": "der papa",
+      "number_value": "sg",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_sg_def",
+        "grammar_tags": []
+      }
+    },
+    {
+      "form_id": "4dc1c562-e0c5-ab9c-7171-95e8ddd26fe7",
+      "lexeme_id": "lex-de-papa",
+      "lang": "de",
+      "surface": "die Papas",
+      "surface_search": "die papas",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
+      "form_id": "fc19d099-4c47-b2a0-f1da-2c2e7a0f1ba3",
+      "lexeme_id": "lex-de-papa",
+      "lang": "de",
+      "surface": "den Papa",
+      "surface_search": "den papa",
+      "number_value": "sg",
+      "grammatical_case": "acc",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 2,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "acc_sg_def",
+        "grammar_tags": [
+          "accusative",
+          "singular"
+        ]
+      }
+    },
+    {
+      "form_id": "2d8f66d1-4918-ac7a-f163-8c5f1a955e01",
+      "lexeme_id": "lex-de-papa",
+      "lang": "de",
+      "surface": "dem Papa",
+      "surface_search": "dem papa",
+      "number_value": "sg",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 3,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_sg_def",
+        "grammar_tags": [
+          "dative",
+          "singular"
+        ]
+      }
+    },
+    {
+      "form_id": "2628dbd1-268c-1fd7-6bbc-4b422f0378a1",
+      "lexeme_id": "lex-de-papa",
+      "lang": "de",
+      "surface": "des Papas",
+      "surface_search": "des papas",
+      "number_value": "sg",
+      "grammatical_case": "gen",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 4,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "gen_sg_def",
+        "grammar_tags": [
+          "genitive",
+          "singular"
+        ]
+      }
+    },
+    {
+      "form_id": "1962f89a-9fc4-f31f-b50d-d382ec9f95d3",
+      "lexeme_id": "lex-de-papa",
+      "lang": "de",
+      "surface": "den Papas",
+      "surface_search": "den papas",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
       }
     },
     {
@@ -40579,6 +41932,24 @@
       }
     },
     {
+      "form_id": "f314c395-5f19-55ca-9918-6c25cfc5f75b",
+      "lexeme_id": "lex-en-dad",
+      "lang": "en",
+      "surface": "dads",
+      "surface_search": "dads",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "bare",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "4222a8d4-ba91-2996-3849-9dd9e9101619",
       "lexeme_id": "lex-it-il-papa",
       "lang": "it",
@@ -40594,6 +41965,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "ae1dd8bf-3c7d-440a-36bd-b4fd22c877b2",
+      "lexeme_id": "lex-it-il-papa",
+      "lang": "it",
+      "surface": "i papà",
+      "surface_search": "i papa",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -40853,6 +42242,24 @@
       }
     },
     {
+      "form_id": "7e6bbad3-0c98-52b7-237d-33ee3fd39608",
+      "lexeme_id": "lex-it-la-mattina",
+      "lang": "it",
+      "surface": "le mattine",
+      "surface_search": "le mattine",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "853280e8-a0ae-850f-4d1c-c23fedf4cfd8",
       "lexeme_id": "lex-en-just",
       "lang": "en",
@@ -41033,6 +42440,24 @@
       }
     },
     {
+      "form_id": "13556831-a12c-5e84-fa01-727d1337e941",
+      "lexeme_id": "lex-en-the-station",
+      "lang": "en",
+      "surface": "the stations",
+      "surface_search": "the stations",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "5e8b78a7-93e7-9aa6-1437-e3eb0ad67d39",
       "lexeme_id": "lex-en-station",
       "lang": "en",
@@ -41048,6 +42473,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "294a4dd7-5aa5-1de7-adf6-15330f61d258",
+      "lexeme_id": "lex-en-station",
+      "lang": "en",
+      "surface": "stations",
+      "surface_search": "stations",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "bare",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -41069,6 +42512,24 @@
       }
     },
     {
+      "form_id": "5c24515c-0857-117b-e22e-0ceee4a06625",
+      "lexeme_id": "lex-it-la-stazione-dei-treni",
+      "lang": "it",
+      "surface": "le stazioni dei treni",
+      "surface_search": "le stazioni dei treni",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "2a5a5493-c3a7-f8af-1d3f-a1a428a101f4",
       "lexeme_id": "lex-it-la-via",
       "lang": "it",
@@ -41084,6 +42545,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "da53354f-d5fa-181e-84a1-e6fd4a889784",
+      "lexeme_id": "lex-it-la-via",
+      "lang": "it",
+      "surface": "le vie",
+      "surface_search": "le vie",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -41213,6 +42692,24 @@
       }
     },
     {
+      "form_id": "0281cd4b-8832-fe3b-8867-7c91c8996fb9",
+      "lexeme_id": "lex-en-the-drug-store",
+      "lang": "en",
+      "surface": "the drug stores",
+      "surface_search": "the drug stores",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "1ba74be0-7fcb-3786-4d72-f4fbd3d0e9b7",
       "lexeme_id": "lex-en-the-chemist",
       "lang": "en",
@@ -41231,6 +42728,24 @@
       }
     },
     {
+      "form_id": "e6c1f1de-1e7c-7535-df80-450061d6a13b",
+      "lexeme_id": "lex-en-the-chemist",
+      "lang": "en",
+      "surface": "the chemists",
+      "surface_search": "the chemists",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "43af2b7e-6ca3-b1e4-f32c-caae9cee80b7",
       "lexeme_id": "lex-en-the-drugstore",
       "lang": "en",
@@ -41246,6 +42761,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "22273bd1-44d9-9656-0c65-6fa1c3f20469",
+      "lexeme_id": "lex-en-the-drugstore",
+      "lang": "en",
+      "surface": "the drugstores",
+      "surface_search": "the drugstores",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -41352,6 +42885,24 @@
       }
     },
     {
+      "form_id": "4d5b92f4-cdde-e5d9-1ede-80ff9eecd711",
+      "lexeme_id": "lex-it-la-medicina",
+      "lang": "it",
+      "surface": "le medicine",
+      "surface_search": "le medicine",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "fbd87b13-d207-8669-d16c-362ca6a417f1",
       "lexeme_id": "lex-it-il-medicinale",
       "lang": "it",
@@ -41367,6 +42918,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "2e009b72-f136-02c1-4819-eac370a9af7f",
+      "lexeme_id": "lex-it-il-medicinale",
+      "lang": "it",
+      "surface": "i medicinali",
+      "surface_search": "i medicinali",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -41442,6 +43011,24 @@
       }
     },
     {
+      "form_id": "2fd89f93-7cef-9504-3a94-325cb70d9c6e",
+      "lexeme_id": "lex-en-the-medicine",
+      "lang": "en",
+      "surface": "the medicines",
+      "surface_search": "the medicines",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "2b457e25-956f-c77f-63d7-c569b4725fe4",
       "lexeme_id": "lex-en-well",
       "lang": "en",
@@ -41514,6 +43101,24 @@
       }
     },
     {
+      "form_id": "450fce90-3620-53ba-1e09-64d78d0fd2ae",
+      "lexeme_id": "lex-en-kid",
+      "lang": "en",
+      "surface": "kids",
+      "surface_search": "kids",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "bare",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "d225e839-0c34-fce2-5200-b323d3da96bf",
       "lexeme_id": "lex-it-bimbo",
       "lang": "it",
@@ -41529,6 +43134,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "73fdf567-eac9-c70d-3599-c1053d8344b7",
+      "lexeme_id": "lex-it-bimbo",
+      "lang": "it",
+      "surface": "i bimbi",
+      "surface_search": "i bimbi",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -41586,6 +43209,24 @@
       }
     },
     {
+      "form_id": "4c94bc2b-4607-c88b-3c60-f93101bda82b",
+      "lexeme_id": "lex-en-the-exercise-book",
+      "lang": "en",
+      "surface": "the exercise books",
+      "surface_search": "the exercise books",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "c74dfc28-9269-66bd-f805-772d554b1850",
       "lexeme_id": "lex-en-the-teacher",
       "lang": "en",
@@ -41601,6 +43242,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "52294c2f-8758-ee5a-2b0b-0d2abf45793e",
+      "lexeme_id": "lex-en-the-teacher",
+      "lang": "en",
+      "surface": "the teachers",
+      "surface_search": "the teachers",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -41622,6 +43281,24 @@
       }
     },
     {
+      "form_id": "01a49c4f-96ca-cb32-68c5-058be535ad99",
+      "lexeme_id": "lex-en-the-student",
+      "lang": "en",
+      "surface": "the students",
+      "surface_search": "the students",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "06a3dc03-a7fe-bd14-01bc-b8824e782d75",
       "lexeme_id": "lex-it-l-alunno",
       "lang": "it",
@@ -41637,6 +43314,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "88e84136-a004-7638-7247-a26f313c21ad",
+      "lexeme_id": "lex-it-l-alunno",
+      "lang": "it",
+      "surface": "gli alunni",
+      "surface_search": "gli alunni",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -41673,6 +43368,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "8f914dd0-d864-47d1-423a-7a86d9571579",
+      "lexeme_id": "lex-it-il-vocabolo",
+      "lang": "it",
+      "surface": "i vocaboli",
+      "surface_search": "i vocaboli",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -44818,7 +46531,10 @@
       "unit_kind": "core_prod",
       "source_form_id": "ff2e2741-eea8-0408-cd4f-06e2446719b4",
       "primary_expected_form_id": "a3b1dbe0-111d-1c06-4082-be8d50846890",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "4890b6a8-7dc6-b44d-86fb-f46bf9932af1",
+        "450fce90-3620-53ba-1e09-64d78d0fd2ae"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -44895,7 +46611,10 @@
       "unit_kind": "core_prod",
       "source_form_id": "db876563-269c-7ab5-9b95-dd4acc285a6b",
       "primary_expected_form_id": "a3b1dbe0-111d-1c06-4082-be8d50846890",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "4890b6a8-7dc6-b44d-86fb-f46bf9932af1",
+        "450fce90-3620-53ba-1e09-64d78d0fd2ae"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -44913,7 +46632,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "a3b1dbe0-111d-1c06-4082-be8d50846890",
       "primary_expected_form_id": "db876563-269c-7ab5-9b95-dd4acc285a6b",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "73fdf567-eac9-c70d-3599-c1053d8344b7"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -46575,7 +48296,9 @@
       "unit_kind": "core_prod",
       "source_form_id": "a3e120bf-fa4f-a24d-3be1-51d15a8b3af1",
       "primary_expected_form_id": "d50c4832-0685-016f-c129-13e02327c31a",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "822ed32a-a11d-be1d-fcf0-62c64711c64f"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -46593,7 +48316,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "d50c4832-0685-016f-c129-13e02327c31a",
       "primary_expected_form_id": "a3e120bf-fa4f-a24d-3be1-51d15a8b3af1",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "672d87ef-6614-478e-718a-e1f0ced53939"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -46649,7 +48374,9 @@
       "unit_kind": "core_prod",
       "source_form_id": "55006ae7-db9e-0054-13a4-8fb1414b77d4",
       "primary_expected_form_id": "d50c4832-0685-016f-c129-13e02327c31a",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "822ed32a-a11d-be1d-fcf0-62c64711c64f"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -46741,7 +48468,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "4288d5a8-3dee-0fba-8300-4d0f5c287540",
       "primary_expected_form_id": "f081681f-c178-178e-486e-3749c92e5892",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "24cd1a00-ac97-69e8-29d4-04df2ea78ae8"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -47065,6 +48794,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "ac9b7614-6071-3a28-1cfa-fc7b650b4911",
       "primary_expected_form_id": "174b8487-d3a1-4c82-7f30-19e6e905c087",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "45212d54-fb4d-69b8-b7fe-90eb679ef85e",
+      "concept_id": "1a2d6eb8-6a6d-b96f-49f8-e58293b71539",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "0b95344e-34b8-2415-1387-8cb3a9b2f981",
+      "primary_expected_form_id": "551f05fd-7c36-1297-2307-cbd03955419f",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "def7cbae-3b78-2085-8f8b-876ce61da656",
+      "concept_id": "1a2d6eb8-6a6d-b96f-49f8-e58293b71539",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "551f05fd-7c36-1297-2307-cbd03955419f",
+      "primary_expected_form_id": "0b95344e-34b8-2415-1387-8cb3a9b2f981",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -49032,6 +50797,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "89aadd8f-f691-e7b0-241b-c2de47dd320b",
+      "concept_id": "1de04d05-f911-ac26-2bff-566fc90ed9f9",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "b9bdd7d3-ee0b-2105-5f7a-93b95a953507",
+      "primary_expected_form_id": "bcf07417-53f7-15a8-98df-86960c2894fe",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "8c820542-3cfd-3ed9-9c39-c0b270174e34",
+      "concept_id": "1de04d05-f911-ac26-2bff-566fc90ed9f9",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "bcf07417-53f7-15a8-98df-86960c2894fe",
+      "primary_expected_form_id": "b9bdd7d3-ee0b-2105-5f7a-93b95a953507",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "ae70b296-b710-388a-7d2b-518137a5039e",
       "concept_id": "1de04d05-f911-ac26-2bff-566fc90ed9f9",
       "source_lang": "it",
@@ -49057,6 +50858,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "f305c0d1-02ed-71bb-df76-7a908116efbd",
       "primary_expected_form_id": "4e79f605-b01e-2989-5861-7ac4dcabac07",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "46a2306b-769a-057e-17ed-88476825f25d",
+      "concept_id": "1de04d05-f911-ac26-2bff-566fc90ed9f9",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "77050e29-a4a2-081f-57df-368e7832dcdf",
+      "primary_expected_form_id": "bcf07417-53f7-15a8-98df-86960c2894fe",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "ac236252-97bb-d622-f6bf-208c378ce9e3",
+      "concept_id": "1de04d05-f911-ac26-2bff-566fc90ed9f9",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "bcf07417-53f7-15a8-98df-86960c2894fe",
+      "primary_expected_form_id": "77050e29-a4a2-081f-57df-368e7832dcdf",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -49824,6 +51661,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "eeb6d82b-00cd-dfb8-5ea3-1a3eabf070c7",
+      "concept_id": "4e9b4dec-1eb5-7c46-723d-73d5d88059ed",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "64a1e35f-fdf9-ee67-475f-c5247096c750",
+      "primary_expected_form_id": "c0c4f13a-0e27-11ad-c420-2ff626a554a3",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "a32af424-de39-d54f-ebc2-f4ec63d6f79d",
+      "concept_id": "4e9b4dec-1eb5-7c46-723d-73d5d88059ed",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "c0c4f13a-0e27-11ad-c420-2ff626a554a3",
+      "primary_expected_form_id": "64a1e35f-fdf9-ee67-475f-c5247096c750",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "fd76e67a-73be-fb06-78ca-b980aee736d7",
       "concept_id": "4e9b4dec-1eb5-7c46-723d-73d5d88059ed",
       "source_lang": "it",
@@ -49849,6 +51722,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "d60ed95b-c886-d9ad-06c7-71deecb98c12",
       "primary_expected_form_id": "be772cb3-fdb3-5e90-0d5e-0cc8cb576ef0",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "39d601df-ffcd-ff63-9be7-95b3b9f4dc5f",
+      "concept_id": "4e9b4dec-1eb5-7c46-723d-73d5d88059ed",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "1e9245e1-bb70-52d1-9e7c-c71a090e6c0c",
+      "primary_expected_form_id": "c0c4f13a-0e27-11ad-c420-2ff626a554a3",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "57ff30f5-c6e9-07bd-4e4f-d0b360959bb4",
+      "concept_id": "4e9b4dec-1eb5-7c46-723d-73d5d88059ed",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "c0c4f13a-0e27-11ad-c420-2ff626a554a3",
+      "primary_expected_form_id": "1e9245e1-bb70-52d1-9e7c-c71a090e6c0c",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -51432,6 +53341,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "50f8eae0-b7a0-2dcf-188f-bb3b3a9c4f28",
+      "concept_id": "e57fdbbb-2876-2d18-1265-48a12931473a",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "387813d4-13a3-ec5b-03fe-050d4a434b3d",
+      "primary_expected_form_id": "9bfe3aa5-e1f4-5052-b1a4-16aaa72c7b9e",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "ec4bc254-ed0e-8fcf-008e-6b96221d079e",
+      "concept_id": "e57fdbbb-2876-2d18-1265-48a12931473a",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "9bfe3aa5-e1f4-5052-b1a4-16aaa72c7b9e",
+      "primary_expected_form_id": "387813d4-13a3-ec5b-03fe-050d4a434b3d",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "b9cbf749-01c5-3299-bc6b-5ffb66e6c9ea",
       "concept_id": "e57fdbbb-2876-2d18-1265-48a12931473a",
       "source_lang": "it",
@@ -51457,6 +53402,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "818b1723-fe44-bc54-66ba-91c39e739cc5",
       "primary_expected_form_id": "17817009-f79e-4ad6-c139-2fc9ca28b7c5",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "cde9b711-ff41-ee49-5883-f07feb9b9078",
+      "concept_id": "e57fdbbb-2876-2d18-1265-48a12931473a",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "c1545347-745e-8c77-bf89-6b75edd5d37f",
+      "primary_expected_form_id": "9bfe3aa5-e1f4-5052-b1a4-16aaa72c7b9e",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "ecddde5e-cc43-45e7-cdcd-43c99709d87c",
+      "concept_id": "e57fdbbb-2876-2d18-1265-48a12931473a",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "9bfe3aa5-e1f4-5052-b1a4-16aaa72c7b9e",
+      "primary_expected_form_id": "c1545347-745e-8c77-bf89-6b75edd5d37f",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -51504,6 +53485,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "7fa4fa2e-71c8-6be3-c2bc-ad901088d23e",
+      "concept_id": "dc64b800-cb87-cdc6-9781-98c5997183b4",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "16277c29-850c-ca9f-ffe9-9fb8cc9eb1c7",
+      "primary_expected_form_id": "221704f9-0aa2-703c-99ca-fc2436c01034",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "a512994e-4f31-1761-6376-abe84b08a766",
+      "concept_id": "dc64b800-cb87-cdc6-9781-98c5997183b4",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "221704f9-0aa2-703c-99ca-fc2436c01034",
+      "primary_expected_form_id": "16277c29-850c-ca9f-ffe9-9fb8cc9eb1c7",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "6eb30351-c86b-7522-c7d1-f5832a58ada3",
       "concept_id": "dc64b800-cb87-cdc6-9781-98c5997183b4",
       "source_lang": "it",
@@ -51529,6 +53546,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "67554ee9-7ff9-7e2c-44c7-ea4e1a00486c",
       "primary_expected_form_id": "d7412563-6def-348c-42e7-c0ed06e3df27",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "9ede573c-6028-9c0c-1b4d-04bcc4ae1683",
+      "concept_id": "dc64b800-cb87-cdc6-9781-98c5997183b4",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "c97697c7-9421-a984-ffff-fa5e81fe7514",
+      "primary_expected_form_id": "221704f9-0aa2-703c-99ca-fc2436c01034",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "6e51c37d-ce1d-6eb4-677c-505480f59f33",
+      "concept_id": "dc64b800-cb87-cdc6-9781-98c5997183b4",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "221704f9-0aa2-703c-99ca-fc2436c01034",
+      "primary_expected_form_id": "c97697c7-9421-a984-ffff-fa5e81fe7514",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -52232,6 +54285,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "64e01bbb-bbfa-1485-c08f-a41704cab173",
+      "concept_id": "37e9d02c-f7aa-4738-1336-b61e253608f7",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "e60f5ebb-8788-e803-0fe9-6ad91b8be92f",
+      "primary_expected_form_id": "591c3cf0-7699-e60a-29a9-223c73cc9876",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "423bfc7d-e519-62aa-1182-eec5e9a59391",
+      "concept_id": "37e9d02c-f7aa-4738-1336-b61e253608f7",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "591c3cf0-7699-e60a-29a9-223c73cc9876",
+      "primary_expected_form_id": "e60f5ebb-8788-e803-0fe9-6ad91b8be92f",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "9c897b43-9215-c30f-7927-99d243e1fb42",
       "concept_id": "37e9d02c-f7aa-4738-1336-b61e253608f7",
       "source_lang": "it",
@@ -52257,6 +54346,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "254260da-ecb0-04c9-31ad-87ecfb2a59cc",
       "primary_expected_form_id": "5c733c4c-7a4f-818d-a228-c80c970da92b",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "ac015458-63c5-c2f2-2a71-b17426107339",
+      "concept_id": "37e9d02c-f7aa-4738-1336-b61e253608f7",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "e2c7d7a6-0f01-795c-4d1e-df7da9187190",
+      "primary_expected_form_id": "591c3cf0-7699-e60a-29a9-223c73cc9876",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "cf2c47dc-51db-7ee4-2c0d-5b30b2516299",
+      "concept_id": "37e9d02c-f7aa-4738-1336-b61e253608f7",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "591c3cf0-7699-e60a-29a9-223c73cc9876",
+      "primary_expected_form_id": "e2c7d7a6-0f01-795c-4d1e-df7da9187190",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -52664,6 +54789,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "3e810179-6024-b80e-638d-27fe738a3fbd",
+      "concept_id": "8419d673-418b-2599-16a4-4a6b56742191",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "981f8fb5-4c43-c0ce-a642-7474bfd67b56",
+      "primary_expected_form_id": "78b4c257-18ea-073b-4791-fd4f93f53ebf",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "aa0bf219-6ea1-6251-6a0c-5735cf0f4c94",
+      "concept_id": "8419d673-418b-2599-16a4-4a6b56742191",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "78b4c257-18ea-073b-4791-fd4f93f53ebf",
+      "primary_expected_form_id": "981f8fb5-4c43-c0ce-a642-7474bfd67b56",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "ec870a47-55f7-8242-5962-f26eb48fc619",
       "concept_id": "8419d673-418b-2599-16a4-4a6b56742191",
       "source_lang": "it",
@@ -52691,6 +54852,44 @@
       "primary_expected_form_id": "af23070f-9f26-1ff7-3f20-e5ee3c188537",
       "extra_expected_form_ids": [
         "5dd7c31a-560e-defc-785e-c0ed66cdb798"
+      ],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "79b35826-d3e1-69cc-8dcd-0c1a8c2293b5",
+      "concept_id": "8419d673-418b-2599-16a4-4a6b56742191",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "76bd07c0-3b4d-a504-fecd-fece60786ca7",
+      "primary_expected_form_id": "78b4c257-18ea-073b-4791-fd4f93f53ebf",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "493d2c8f-35fb-c7fb-535f-adea15cb9c31",
+      "concept_id": "8419d673-418b-2599-16a4-4a6b56742191",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "78b4c257-18ea-073b-4791-fd4f93f53ebf",
+      "primary_expected_form_id": "76bd07c0-3b4d-a504-fecd-fece60786ca7",
+      "extra_expected_form_ids": [
+        "7e6bbad3-0c98-52b7-237d-33ee3fd39608"
       ],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -54328,6 +56527,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "3d7119e9-2646-ca6f-3111-a3cc314e9f05",
+      "concept_id": "7f70a8ad-7527-3553-4724-13d0e258d92c",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "8cdf1fc2-dcff-df79-77b6-6a6d34f34e5a",
+      "primary_expected_form_id": "c6632d36-9cdf-1579-4b8c-05cea94dcf73",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "7232502d-e3ed-984a-4f90-b35e4e95f2f1",
+      "concept_id": "7f70a8ad-7527-3553-4724-13d0e258d92c",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "c6632d36-9cdf-1579-4b8c-05cea94dcf73",
+      "primary_expected_form_id": "8cdf1fc2-dcff-df79-77b6-6a6d34f34e5a",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "ad5e9ff8-7ab9-733c-9d84-6f9ffca51530",
       "concept_id": "7f70a8ad-7527-3553-4724-13d0e258d92c",
       "source_lang": "it",
@@ -54607,7 +56842,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "89b2abf6-6630-4bf3-c0af-d1e7c0b61f6b",
       "primary_expected_form_id": "14f1f4aa-089b-55b6-a34f-ac8cb44900d7",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "e12735b7-1d29-2e16-04c2-661b5f534a64"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -54870,6 +57107,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "a0194b33-66c2-e783-a1bc-cc4886328786",
+      "concept_id": "9a7438a7-3a89-d847-f5a0-fd93102e6c65",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "5b265dd9-16eb-93ab-af14-391fb687618e",
+      "primary_expected_form_id": "6ca3942f-918f-a237-1088-81de354b88ba",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "bc82274d-340f-277b-f6ec-fc3710913194",
+      "concept_id": "9a7438a7-3a89-d847-f5a0-fd93102e6c65",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "6ca3942f-918f-a237-1088-81de354b88ba",
+      "primary_expected_form_id": "5b265dd9-16eb-93ab-af14-391fb687618e",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "3cd9e870-30f7-1b74-5cef-e62a52461079",
       "concept_id": "9a7438a7-3a89-d847-f5a0-fd93102e6c65",
       "source_lang": "it",
@@ -54895,6 +57168,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "4f7f8da1-3c46-ef2b-ce3d-bd546f8b6387",
       "primary_expected_form_id": "ef7b75a6-0fd2-6837-90a8-aa38b61da384",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "f5e9664e-815b-471d-477c-fdd2570e405b",
+      "concept_id": "9a7438a7-3a89-d847-f5a0-fd93102e6c65",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "fe07a6c9-0f4a-c9be-699d-91a5d3ac6034",
+      "primary_expected_form_id": "6ca3942f-918f-a237-1088-81de354b88ba",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "193c0269-cdca-65e9-39ec-da17818cf56a",
+      "concept_id": "9a7438a7-3a89-d847-f5a0-fd93102e6c65",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "6ca3942f-918f-a237-1088-81de354b88ba",
+      "primary_expected_form_id": "fe07a6c9-0f4a-c9be-699d-91a5d3ac6034",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -55219,6 +57528,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "157f58fa-0584-6f0e-0bdb-32b3185bce54",
       "primary_expected_form_id": "296f77be-329a-90a4-9a9b-78f822202201",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "c2ac21aa-2fe4-c776-e83d-7dee8255e1bd",
+      "concept_id": "b0c85f68-410b-f1e1-9c4e-6357fc8135b7",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "ec54105d-0b3b-f703-8797-081b1b5e198f",
+      "primary_expected_form_id": "1b7efb39-fdc4-a505-03f4-2ffb51164852",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "5be903d4-555a-80d5-722f-c4456966a5b3",
+      "concept_id": "b0c85f68-410b-f1e1-9c4e-6357fc8135b7",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "1b7efb39-fdc4-a505-03f4-2ffb51164852",
+      "primary_expected_form_id": "ec54105d-0b3b-f703-8797-081b1b5e198f",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -56069,7 +58414,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "57d778dd-ba6f-fee9-4ec1-1d9d8c0f6e5f",
       "primary_expected_form_id": "13a3413f-4d99-8613-ae04-4f697444ba72",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "5dcff0d3-283d-12f5-60b3-8732d8f369bb"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -56087,7 +58434,9 @@
       "unit_kind": "core_prod",
       "source_form_id": "e9c9d14c-883d-eaa9-bdd9-6e766471fe58",
       "primary_expected_form_id": "e70debdc-8366-1df2-0468-3892339d25e2",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "f314c395-5f19-55ca-9918-6c25cfc5f75b"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -56105,7 +58454,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "e70debdc-8366-1df2-0468-3892339d25e2",
       "primary_expected_form_id": "e9c9d14c-883d-eaa9-bdd9-6e766471fe58",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "4dc1c562-e0c5-ab9c-7171-95e8ddd26fe7"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -56163,7 +58514,9 @@
       "unit_kind": "core_prod",
       "source_form_id": "9b1691f2-8518-5546-786e-28abe078d17e",
       "primary_expected_form_id": "e70debdc-8366-1df2-0468-3892339d25e2",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "f314c395-5f19-55ca-9918-6c25cfc5f75b"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -56181,7 +58534,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "e70debdc-8366-1df2-0468-3892339d25e2",
       "primary_expected_form_id": "9b1691f2-8518-5546-786e-28abe078d17e",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "ae1dd8bf-3c7d-440a-36bd-b4fd22c877b2"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -56220,7 +58575,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "0c784854-1bde-839f-de76-41de7e0a83ed",
       "primary_expected_form_id": "1a0ff03d-220c-0e0e-cf1a-c2b72f7c6673",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "daa68df4-3a23-4e1c-43cc-ee501132ba05"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -56238,7 +58595,10 @@
       "unit_kind": "core_prod",
       "source_form_id": "f2b36631-22df-6187-1bdd-2dacf06651df",
       "primary_expected_form_id": "80f1d025-e64b-6792-c611-9e1c5193f70c",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "32a216f2-bdba-0a81-50af-6a1b72e4fcc7",
+        "48e2b8aa-2d29-69ba-e415-b91496293faa"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -56256,7 +58616,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "80f1d025-e64b-6792-c611-9e1c5193f70c",
       "primary_expected_form_id": "f2b36631-22df-6187-1bdd-2dacf06651df",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "1550eb44-a268-f2bf-eda3-4fbb00d828da"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -56315,7 +58677,10 @@
       "unit_kind": "core_prod",
       "source_form_id": "1f093cf9-bf07-6eed-5c87-125be8b66b40",
       "primary_expected_form_id": "80f1d025-e64b-6792-c611-9e1c5193f70c",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "32a216f2-bdba-0a81-50af-6a1b72e4fcc7",
+        "48e2b8aa-2d29-69ba-e415-b91496293faa"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -56333,7 +58698,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "80f1d025-e64b-6792-c611-9e1c5193f70c",
       "primary_expected_form_id": "1f093cf9-bf07-6eed-5c87-125be8b66b40",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "e66e174c-6fbd-4f6e-b679-915437a35970"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -57795,7 +60162,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "104a48b9-af53-4f9a-1ab3-faea7f58f916",
       "primary_expected_form_id": "f5e15667-fb59-4221-8751-f989276e97bc",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "da53354f-d5fa-181e-84a1-e6fd4a889784"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -57996,7 +60365,10 @@
       "unit_kind": "core_prod",
       "source_form_id": "17a09dac-b1d0-9611-8682-7aee1c439e5d",
       "primary_expected_form_id": "8c2e9866-1292-a927-f4ec-82199db70bb2",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "13556831-a12c-5e84-fa01-727d1337e941",
+        "294a4dd7-5aa5-1de7-adf6-15330f61d258"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -58073,7 +60445,10 @@
       "unit_kind": "core_prod",
       "source_form_id": "f4d186b9-d77f-5afd-954d-5c053cab1159",
       "primary_expected_form_id": "8c2e9866-1292-a927-f4ec-82199db70bb2",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "13556831-a12c-5e84-fa01-727d1337e941",
+        "294a4dd7-5aa5-1de7-adf6-15330f61d258"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -58091,7 +60466,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "8c2e9866-1292-a927-f4ec-82199db70bb2",
       "primary_expected_form_id": "f4d186b9-d77f-5afd-954d-5c053cab1159",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "5c24515c-0857-117b-e22e-0ceee4a06625"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -59171,6 +61548,44 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "b868dc73-1e96-716b-203c-d2e2bcd3fe54",
+      "concept_id": "632b1356-e865-9aa6-ec1b-b86e243b8f5c",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "0381dbed-350e-743e-749d-2a4b5269da48",
+      "primary_expected_form_id": "152b52ae-c97f-b576-2169-2f5faa82feeb",
+      "extra_expected_form_ids": [
+        "52294c2f-8758-ee5a-2b0b-0d2abf45793e"
+      ],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "2bc18b77-7b03-33fc-950b-5d613712c83b",
+      "concept_id": "632b1356-e865-9aa6-ec1b-b86e243b8f5c",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "152b52ae-c97f-b576-2169-2f5faa82feeb",
+      "primary_expected_form_id": "0381dbed-350e-743e-749d-2a4b5269da48",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "0ba1a1e8-5719-213c-90b2-d5f1e1744fd9",
       "concept_id": "632b1356-e865-9aa6-ec1b-b86e243b8f5c",
       "source_lang": "it",
@@ -59198,6 +61613,44 @@
       "unit_kind": "core_rec",
       "source_form_id": "29ae740e-5379-1e57-d66a-293e787b17c1",
       "primary_expected_form_id": "a93a87d6-107e-1600-217e-2bd83e9462b3",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "bb46d3cf-f378-f5a4-50c8-1afc09860a48",
+      "concept_id": "632b1356-e865-9aa6-ec1b-b86e243b8f5c",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "e8f728d3-0de0-82ac-a3da-7ac4184a5c0f",
+      "primary_expected_form_id": "152b52ae-c97f-b576-2169-2f5faa82feeb",
+      "extra_expected_form_ids": [
+        "52294c2f-8758-ee5a-2b0b-0d2abf45793e"
+      ],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "4a198c1d-957b-a9f3-1d5a-21e8db24cfde",
+      "concept_id": "632b1356-e865-9aa6-ec1b-b86e243b8f5c",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "152b52ae-c97f-b576-2169-2f5faa82feeb",
+      "primary_expected_form_id": "e8f728d3-0de0-82ac-a3da-7ac4184a5c0f",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -59247,6 +61700,44 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "de28f8e3-038c-b1ff-6f0a-f417d22a471e",
+      "concept_id": "f95fafb5-da7d-d06d-2ba0-364c18845067",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "528c1bb9-7e19-7cc1-b133-f74d6d0d5987",
+      "primary_expected_form_id": "d743e2ea-4234-7cf9-0272-406929cb81e1",
+      "extra_expected_form_ids": [
+        "01a49c4f-96ca-cb32-68c5-058be535ad99"
+      ],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "c8005597-4edc-c983-ff5b-47da7cacf6fb",
+      "concept_id": "f95fafb5-da7d-d06d-2ba0-364c18845067",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "d743e2ea-4234-7cf9-0272-406929cb81e1",
+      "primary_expected_form_id": "528c1bb9-7e19-7cc1-b133-f74d6d0d5987",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "b02d7945-b3db-aba6-257f-584e1c15e384",
       "concept_id": "f95fafb5-da7d-d06d-2ba0-364c18845067",
       "source_lang": "it",
@@ -59276,6 +61767,46 @@
       "primary_expected_form_id": "27e56fc6-4e18-1342-8b40-deb8fae8fa58",
       "extra_expected_form_ids": [
         "06a3dc03-a7fe-bd14-01bc-b8824e782d75"
+      ],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "4dcbff35-d648-afc0-543e-ee2e19e98864",
+      "concept_id": "f95fafb5-da7d-d06d-2ba0-364c18845067",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "8d08e644-7d02-c895-5272-6288d5362e30",
+      "primary_expected_form_id": "d743e2ea-4234-7cf9-0272-406929cb81e1",
+      "extra_expected_form_ids": [
+        "01a49c4f-96ca-cb32-68c5-058be535ad99"
+      ],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "ee375d81-9988-b819-028e-a53073fa5730",
+      "concept_id": "f95fafb5-da7d-d06d-2ba0-364c18845067",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "d743e2ea-4234-7cf9-0272-406929cb81e1",
+      "primary_expected_form_id": "8d08e644-7d02-c895-5272-6288d5362e30",
+      "extra_expected_form_ids": [
+        "88e84136-a004-7638-7247-a26f313c21ad"
       ],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -59476,7 +62007,9 @@
       "unit_kind": "core_prod",
       "source_form_id": "fd75ab74-565b-2ded-9e7e-eb033330b6fa",
       "primary_expected_form_id": "9f21de27-e565-da34-1162-53889ecad4e0",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "4c94bc2b-4607-c88b-3c60-f93101bda82b"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -59550,7 +62083,9 @@
       "unit_kind": "core_prod",
       "source_form_id": "7e797598-577e-3588-7259-85366ea930f4",
       "primary_expected_form_id": "9f21de27-e565-da34-1162-53889ecad4e0",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "4c94bc2b-4607-c88b-3c60-f93101bda82b"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -60164,7 +62699,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "a353a22f-5a89-6121-0851-79d88c7ad185",
       "primary_expected_form_id": "a5dad920-3850-9bbc-0945-ae8875847815",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "8f914dd0-d864-47d1-423a-7a86d9571579"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -60909,7 +63446,9 @@
       "unit_kind": "core_prod",
       "source_form_id": "bea624fc-a622-6a28-8b0d-4d7fd0580955",
       "primary_expected_form_id": "047226e2-9eee-0fe8-d9d5-51414cb60ce9",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "a6173da4-d2fe-8deb-3dca-4423ddad10f6"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -60927,7 +63466,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "047226e2-9eee-0fe8-d9d5-51414cb60ce9",
       "primary_expected_form_id": "bea624fc-a622-6a28-8b0d-4d7fd0580955",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "8af2883a-3d19-79b4-626f-2c0fff9fffc9"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -60985,7 +63526,9 @@
       "unit_kind": "core_prod",
       "source_form_id": "a45819a3-1030-b870-38a5-2f21b3d0db44",
       "primary_expected_form_id": "047226e2-9eee-0fe8-d9d5-51414cb60ce9",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "a6173da4-d2fe-8deb-3dca-4423ddad10f6"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -61003,7 +63546,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "047226e2-9eee-0fe8-d9d5-51414cb60ce9",
       "primary_expected_form_id": "a45819a3-1030-b870-38a5-2f21b3d0db44",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "0a03af6b-2e2f-b970-f316-795571385807"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -61949,7 +64494,9 @@
       "unit_kind": "core_prod",
       "source_form_id": "57969685-b285-1fa5-4111-d29b5211b3cc",
       "primary_expected_form_id": "0cae95b8-b0a6-3e28-23ca-48ab2f8addc4",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "2fd89f93-7cef-9504-3a94-325cb70d9c6e"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -62026,7 +64573,9 @@
       "unit_kind": "core_prod",
       "source_form_id": "caf3b00a-01c6-cb22-821a-e3d35d2792a2",
       "primary_expected_form_id": "0cae95b8-b0a6-3e28-23ca-48ab2f8addc4",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "2fd89f93-7cef-9504-3a94-325cb70d9c6e"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -62044,7 +64593,10 @@
       "unit_kind": "core_rec",
       "source_form_id": "0cae95b8-b0a6-3e28-23ca-48ab2f8addc4",
       "primary_expected_form_id": "caf3b00a-01c6-cb22-821a-e3d35d2792a2",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "4d5b92f4-cdde-e5d9-1ede-80ff9eecd711",
+        "2e009b72-f136-02c1-4819-eac370a9af7f"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -62102,7 +64654,11 @@
       "unit_kind": "core_prod",
       "source_form_id": "81fdec1d-741a-fc28-6f16-601dbf082c46",
       "primary_expected_form_id": "c8ae97f6-fc04-32ed-190a-c7099b812078",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "0281cd4b-8832-fe3b-8867-7c91c8996fb9",
+        "e6c1f1de-1e7c-7535-df80-450061d6a13b",
+        "22273bd1-44d9-9656-0c65-6fa1c3f20469"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -62178,7 +64734,11 @@
       "unit_kind": "core_prod",
       "source_form_id": "e28a1d43-0c29-08a0-df58-1859f255511b",
       "primary_expected_form_id": "c8ae97f6-fc04-32ed-190a-c7099b812078",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "0281cd4b-8832-fe3b-8867-7c91c8996fb9",
+        "e6c1f1de-1e7c-7535-df80-450061d6a13b",
+        "22273bd1-44d9-9656-0c65-6fa1c3f20469"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -76067,5 +78627,568 @@
       "position": 2
     }
   ],
-  "concept_relations": []
+  "concept_relations": [
+    {
+      "relation_id": "a1ffc3e1-9706-f23d-42cb-13392251ea6a",
+      "relation_type": "antonym",
+      "concept_a": "0188bbb8-b392-68ad-77a0-7c6df578efbe",
+      "concept_b": "f1bdc3dd-6e83-6545-ebee-cf0453011f75",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "33259c09-7bd4-f32a-9150-17fd4b147a5e",
+      "relation_type": "antonym",
+      "concept_a": "04c5d87f-440f-3e11-14cb-853783408621",
+      "concept_b": "2703c468-988a-0cf9-31e2-00f228ecb187",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "06ddc2bd-0b9c-5eb3-e581-ed15c5bf0d87",
+      "relation_type": "antonym",
+      "concept_a": "05e8f99b-09b8-996b-4b00-2717128f2062",
+      "concept_b": "434197ea-470c-0d8c-5882-c14d89eb9dfd",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "974ce812-82aa-8838-5c00-159920102cbc",
+      "relation_type": "antonym",
+      "concept_a": "0d2589ee-2440-dbee-a208-b8c746185d20",
+      "concept_b": "acf43980-f6c2-a6a4-e106-aba177daf84b",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "0c357d2f-3fac-d271-8e9d-6916d06c9bbe",
+      "relation_type": "antonym",
+      "concept_a": "0dac5338-7ee7-54fe-72d6-a64e52cf943f",
+      "concept_b": "3f777d3a-5323-3d49-40ca-1d04e8ff376a",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "24a311ae-a2eb-a6a3-689d-006d78ac3cae",
+      "relation_type": "antonym",
+      "concept_a": "108d1fed-1c66-2bac-ccbe-ef989d0a502c",
+      "concept_b": "29e2704f-65fe-3f63-cd16-496af9d832d2",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "a2739ef8-48f7-285d-7537-07fa2e56610a",
+      "relation_type": "antonym",
+      "concept_a": "13bf153f-5b95-81b3-6ec2-646e49af8f3f",
+      "concept_b": "a6a02266-de00-f0d8-462f-29e0e630ad11",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "a31c3962-60d3-cbe1-6add-662998a4a10d",
+      "relation_type": "antonym",
+      "concept_a": "154140dc-6a12-f58d-e630-2d05193ddb1a",
+      "concept_b": "21c1c48d-eb39-b214-93fc-566062ee1668",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "5d79cbd0-bc1f-80e1-646b-16394fd56052",
+      "relation_type": "antonym",
+      "concept_a": "154140dc-6a12-f58d-e630-2d05193ddb1a",
+      "concept_b": "41491802-4027-0f74-b392-e0f8f9a301fb",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "2b61df4c-51e4-9a50-0454-f9c237c68d0f",
+      "relation_type": "antonym",
+      "concept_a": "154140dc-6a12-f58d-e630-2d05193ddb1a",
+      "concept_b": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "9ff03082-6cff-1f55-30fa-6cec04891be7",
+      "relation_type": "antonym",
+      "concept_a": "16aaee01-9bbf-1a30-7b7c-b135254c6510",
+      "concept_b": "ee083d9e-ea66-863b-b518-a3aef3d873d7",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "13cd84cd-6d10-c21c-0b5c-7caa14f8792d",
+      "relation_type": "antonym",
+      "concept_a": "1a2d6eb8-6a6d-b96f-49f8-e58293b71539",
+      "concept_b": "691b1d35-324e-dd44-4886-e365a7653034",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "0797d325-7cb4-f005-d3e7-f375370fd3ac",
+      "relation_type": "antonym",
+      "concept_a": "1bfa148c-3803-3983-08d0-4c51236600ad",
+      "concept_b": "c865d20f-a380-fca4-1e9a-946628371556",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "429d347f-f801-d557-f18e-ab8f630f07cc",
+      "relation_type": "antonym",
+      "concept_a": "1de04d05-f911-ac26-2bff-566fc90ed9f9",
+      "concept_b": "a0faf9d1-ed1c-9f28-6d77-f8ebbb94f052",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "9cea488e-20a8-fe49-bd54-28eaadbdcc60",
+      "relation_type": "antonym",
+      "concept_a": "23f3cd66-40a2-652f-205a-7557f2a9e950",
+      "concept_b": "eb287814-640f-16ad-e3a6-7c3e3806d7f4",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "2f6f8256-fbaa-2f81-f914-50796435f7a2",
+      "relation_type": "antonym",
+      "concept_a": "27ea4876-e57e-7e6f-be3d-3a7e485e75b8",
+      "concept_b": "e1adcaf9-1698-837c-2419-e43587d33c11",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "13af4188-18a1-742e-90b1-8dcbc15a4c46",
+      "relation_type": "antonym",
+      "concept_a": "2cbb5355-1167-0a0a-0c9b-34a3252e6982",
+      "concept_b": "f7f87a5b-54c6-2d57-10b5-3cd69a26cc7d",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "7c945a94-8e67-3fa5-e4e2-3ca3204edb0b",
+      "relation_type": "antonym",
+      "concept_a": "2e769167-00e6-f086-d72a-4e96521fa4ce",
+      "concept_b": "841a0138-2699-37ac-2d82-cf0c66b5171e",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "176ab2ba-b808-8e60-7168-d5baec854674",
+      "relation_type": "antonym",
+      "concept_a": "2e907009-86c6-df98-1b54-0446b3df23d7",
+      "concept_b": "e355f712-01a3-1015-eb00-b6d23f6f8459",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "d09675db-4ffe-24f5-5d15-f6b2cbc992a2",
+      "relation_type": "antonym",
+      "concept_a": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "concept_b": "8c095125-c82a-103f-433f-7c32a1d70cba",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "8e0ac2fa-e965-1403-b914-9f8758ae4f5d",
+      "relation_type": "antonym",
+      "concept_a": "3cdf79c6-4a75-bf63-d8d2-defabc8505e3",
+      "concept_b": "8aec7ccd-d700-141c-9b69-4929aac41fbc",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "87e72eb8-ce37-f61f-a58d-69bf5dd6eda6",
+      "relation_type": "antonym",
+      "concept_a": "3f777d3a-5323-3d49-40ca-1d04e8ff376a",
+      "concept_b": "44775ff0-28a7-af91-e216-740eb9cc5583",
+      "lang_scope_json": [
+        "de",
+        "en"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "94de0879-ab1a-51bb-19a2-86ffc6325778",
+      "relation_type": "antonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "16b6382c-c442-00b4-a1d8-87924066a2b6",
+      "relation_type": "antonym",
+      "concept_a": "44edd51b-48a3-0deb-43bb-3af582b97253",
+      "concept_b": "ef8d4042-0601-42ca-3e94-d4afed72544e",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "9fe2eda2-a2eb-7e5d-2df7-6f622aa02ca5",
+      "relation_type": "antonym",
+      "concept_a": "4b93435e-acbe-2f6b-9afb-313c8a88845b",
+      "concept_b": "91f2e21d-1055-c502-52eb-6895fe4406c4",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "cc23cec5-73cf-ac8d-0694-1edab009ceca",
+      "relation_type": "antonym",
+      "concept_a": "4e503e75-ea9e-4bba-5a31-09b34df4d303",
+      "concept_b": "ec6fe4e3-fc8a-e7f0-0dcd-1bf1f7260b4a",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "bc477d60-ac42-f5c9-99a3-39335a73b72e",
+      "relation_type": "antonym",
+      "concept_a": "4f291b92-ca93-0d8c-bc8f-fc9d225384a0",
+      "concept_b": "80baf5ef-6ee7-8a27-6f5c-b5d7b88415d4",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "2042996a-31ba-136c-b07f-9934f61a511f",
+      "relation_type": "antonym",
+      "concept_a": "5166779c-fea2-00fe-92da-00661e14de80",
+      "concept_b": "f00e94e5-0159-bd1b-2f6c-98d060fb54c9",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "47a9122f-f7d1-20d8-54a6-09db1bf3ca9d",
+      "relation_type": "antonym",
+      "concept_a": "53755265-2825-a0ee-b1de-c5a680bdef75",
+      "concept_b": "6bdbb206-99e7-33fb-a26a-08985f3c7c79",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "05d97a55-beab-b939-7ccc-d4e80a1fe2b8",
+      "relation_type": "antonym",
+      "concept_a": "548ac186-0a69-6839-73ff-5a0431f3aabc",
+      "concept_b": "concept-a2-nirgendwo",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "22d6f49c-6371-45a7-b3bd-0618e56e9884",
+      "relation_type": "antonym",
+      "concept_a": "5970f929-d3f8-99a9-ea06-a65bd7517888",
+      "concept_b": "7c543f94-d74e-9ac0-b2c6-ca36a56b6c70",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "b87c1a87-868c-ba49-b669-d130e6e4a020",
+      "relation_type": "antonym",
+      "concept_a": "616c3547-3dbf-bfe2-ea0a-4281482e7116",
+      "concept_b": "8296eafc-1921-0814-800a-cd8d880ff0bf",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "8ecdf001-5695-8398-ea41-35b8aa02b9b4",
+      "relation_type": "antonym",
+      "concept_a": "632b1356-e865-9aa6-ec1b-b86e243b8f5c",
+      "concept_b": "f95fafb5-da7d-d06d-2ba0-364c18845067",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "e393a1e8-1efe-7f4c-5f0e-878a99a5a1dc",
+      "relation_type": "antonym",
+      "concept_a": "6d361fa8-6b91-5bc2-d807-071ecd666ee8",
+      "concept_b": "87a180ff-f265-430e-bc0b-161b8604d068",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "86fb4fe3-fe9c-d4e3-bdac-ffc9aba2ca95",
+      "relation_type": "antonym",
+      "concept_a": "79f6518e-8b4f-578e-f416-504b5f349185",
+      "concept_b": "concept-a1-gehen",
+      "lang_scope_json": [
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "3d8598ca-32e5-9967-4ba5-1c8d4d2ab540",
+      "relation_type": "antonym",
+      "concept_a": "7a5071b5-7f6f-27f4-2ef9-7008b01524d4",
+      "concept_b": "concept-a2-drinnen",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "fa3f1493-aeb6-3007-eb8d-669f5a54ee0d",
+      "relation_type": "antonym",
+      "concept_a": "7c543f94-d74e-9ac0-b2c6-ca36a56b6c70",
+      "concept_b": "8c095125-c82a-103f-433f-7c32a1d70cba",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "cc0ef341-b7b4-dc31-bc14-9ee8ab04c9b8",
+      "relation_type": "antonym",
+      "concept_a": "7ce3ed3f-c71d-fbc8-e09c-e6200e4617c3",
+      "concept_b": "dc64b800-cb87-cdc6-9781-98c5997183b4",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "616630c3-4955-2ab8-48a0-84430fd3bd2f",
+      "relation_type": "antonym",
+      "concept_a": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
+      "concept_b": "eb287814-640f-16ad-e3a6-7c3e3806d7f4",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "19fcfbf6-560d-f185-a5ba-460145702cad",
+      "relation_type": "antonym",
+      "concept_a": "82329b0f-c31c-baee-9d6e-914944d823c1",
+      "concept_b": "836f2a6d-c22c-3803-a53f-39cb9bdc3197",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "fe1fe52c-05fd-0272-52fc-61a22c2a7a7c",
+      "relation_type": "antonym",
+      "concept_a": "961ac32c-4e2b-36c8-3735-f91f2ddb9ece",
+      "concept_b": "e2d3c1e2-8f4d-c7a2-d131-2351cd0d30c9",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "a7be2298-46fc-152a-5eb2-98906de94c8a",
+      "relation_type": "antonym",
+      "concept_a": "996b510f-0051-ed71-9975-155b8ec6f8ee",
+      "concept_b": "ccc568db-1da2-1dea-712e-ae8083a0ca60",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "95dc3113-d6ec-5a22-cf02-aaca2c31ec53",
+      "relation_type": "antonym",
+      "concept_a": "a6a02266-de00-f0d8-462f-29e0e630ad11",
+      "concept_b": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
+      "lang_scope_json": [
+        "de",
+        "en"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "6bf6422a-15af-b885-0341-f95fc1522953",
+      "relation_type": "antonym",
+      "concept_a": "ca09ed6c-97c5-3209-56ec-117bb486ac72",
+      "concept_b": "f392f36d-7108-8400-a824-a35262d7340a",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "52b6e416-795a-08cd-1ffc-76ea63b30366",
+      "relation_type": "antonym",
+      "concept_a": "cd6bba6d-b8a8-e990-29d9-399bbf43d1ca",
+      "concept_b": "edf3aabe-397b-07a2-e9e2-64b43161ff71",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "6a5ee06c-a977-5a7f-122d-0a30049b4210",
+      "relation_type": "antonym",
+      "concept_a": "d5a6cfdf-d6ee-10c8-1d58-1fb0bafaae70",
+      "concept_b": "f62b0871-8768-d1b5-fc27-aa9b253d73eb",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "c9f850dd-44dd-1374-1892-42a55d5eaa4c",
+      "relation_type": "antonym",
+      "concept_a": "d8302f33-c204-cfed-38dd-fd9eca19c924",
+      "concept_b": "f2d7cb30-12e2-9c7d-8005-f7f2bdc4c13d",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "7525e46d-7813-63eb-a4b6-925da8dfa034",
+      "relation_type": "antonym",
+      "concept_a": "dc64b800-cb87-cdc6-9781-98c5997183b4",
+      "concept_b": "e57fdbbb-2876-2d18-1265-48a12931473a",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "59bbff62-9338-33e5-3482-10b963c121e9",
+      "relation_type": "antonym",
+      "concept_a": "e13a99f1-2497-a121-c0b7-deb837a0b0d1",
+      "concept_b": "e77cd55e-9d2d-e3c1-e012-1659eab9864a",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "91621ee8-c969-3f69-031c-c1f3cd2ab17d",
+      "relation_type": "synonym",
+      "concept_a": "21c1c48d-eb39-b214-93fc-566062ee1668",
+      "concept_b": "41491802-4027-0f74-b392-e0f8f9a301fb",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "8819a833-1c22-5d4f-3b8a-7b1342abeb10",
+      "relation_type": "synonym",
+      "concept_a": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+      "concept_b": "e329e8c3-374b-a9d6-ec94-7c17e329d222",
+      "tier": "close",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "19778242-293a-9671-7472-3ae00c4e0c68",
+      "relation_type": "synonym",
+      "concept_a": "concept-a1-putzen",
+      "concept_b": "concept-a2-reinigen",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    }
+  ]
 }

@@ -6891,12 +6891,12 @@
       "lemma": "distanza (intervallo)",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -6908,12 +6908,12 @@
       "lemma": "gap",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -6942,12 +6942,12 @@
       "lemma": "gap",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -6976,12 +6976,12 @@
       "lemma": "differenza",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -6993,12 +6993,12 @@
       "lemma": "difference",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -7027,12 +7027,12 @@
       "lemma": "difference",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -7248,7 +7248,7 @@
       "lemma": "Kontext",
       "pos": "noun",
       "gender": "masc",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -7265,12 +7265,12 @@
       "lemma": "contesto",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -7282,12 +7282,12 @@
       "lemma": "context",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -7350,7 +7350,7 @@
       "lemma": "Dart",
       "pos": "noun",
       "gender": "masc",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -7367,12 +7367,12 @@
       "lemma": "dardo",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -7384,12 +7384,12 @@
       "lemma": "dart",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -7401,7 +7401,7 @@
       "lemma": "Wettbewerb",
       "pos": "noun",
       "gender": "masc",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -7418,12 +7418,12 @@
       "lemma": "competizione",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -7435,12 +7435,12 @@
       "lemma": "competition",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -17444,6 +17444,24 @@
       }
     },
     {
+      "form_id": "3cc3e6c3-0062-0443-3257-2f3b6d01b028",
+      "lexeme_id": "lex-it-distanza",
+      "lang": "it",
+      "surface": "le distanze",
+      "surface_search": "le distanze",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "6cc95826-d28f-57b3-8cfa-7e5c6e582479",
       "lexeme_id": "lex-en-gap",
       "lang": "en",
@@ -17462,6 +17480,24 @@
       }
     },
     {
+      "form_id": "b08bd464-bfcd-2dae-30fd-90424707c656",
+      "lexeme_id": "lex-en-gap",
+      "lang": "en",
+      "surface": "the gaps",
+      "surface_search": "the gaps",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "30199688-0362-fc1e-4cd3-c36ce8890584",
       "lexeme_id": "lex-en-gap-2",
       "lang": "en",
@@ -17477,6 +17513,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "190c6c5a-b7eb-faac-72f5-eedfb675570f",
+      "lexeme_id": "lex-en-gap-2",
+      "lang": "en",
+      "surface": "gaps",
+      "surface_search": "gaps",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "bare",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -17624,6 +17678,24 @@
       }
     },
     {
+      "form_id": "d99b8a21-ee26-56b3-05f8-851d3aa5615c",
+      "lexeme_id": "lex-it-differenza",
+      "lang": "it",
+      "surface": "le differenze",
+      "surface_search": "le differenze",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "0fd7dc61-a2f2-bb2d-d02f-f854bf326f3c",
       "lexeme_id": "lex-en-difference",
       "lang": "en",
@@ -17642,6 +17714,24 @@
       }
     },
     {
+      "form_id": "d6802795-9724-eb74-25ba-e5d59410ddd2",
+      "lexeme_id": "lex-en-difference",
+      "lang": "en",
+      "surface": "the differences",
+      "surface_search": "the differences",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "f04e3f92-5091-35e5-9c4f-cbe4e314aa5f",
       "lexeme_id": "lex-en-difference-2",
       "lang": "en",
@@ -17657,6 +17747,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "5390f007-704b-fe8e-e580-6307fcfe2d46",
+      "lexeme_id": "lex-en-difference-2",
+      "lang": "en",
+      "surface": "differences",
+      "surface_search": "differences",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "bare",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -17903,6 +18011,25 @@
       }
     },
     {
+      "form_id": "122018b2-62d3-f0ab-c103-bd93b55f1e50",
+      "lexeme_id": "lexeme-de-a2-kontext",
+      "lang": "de",
+      "surface": "die Kontexte",
+      "surface_search": "die kontexte",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
       "form_id": "001328a5-2058-53ef-2587-46b16430d3c0",
       "lexeme_id": "lexeme-de-a2-kontext",
       "lang": "de",
@@ -17969,6 +18096,28 @@
       }
     },
     {
+      "form_id": "3eff54f3-9415-671a-59bc-6c9eef56c9b2",
+      "lexeme_id": "lexeme-de-a2-kontext",
+      "lang": "de",
+      "surface": "den Kontexten",
+      "surface_search": "den kontexten",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "86b7e5bf-db2a-aade-c99f-1c16c45c4f43",
       "lexeme_id": "lexeme-it-a2-kontext",
       "lang": "it",
@@ -17987,6 +18136,24 @@
       }
     },
     {
+      "form_id": "a56284c9-88d6-0628-ee95-b8b9d39679fe",
+      "lexeme_id": "lexeme-it-a2-kontext",
+      "lang": "it",
+      "surface": "i contesti",
+      "surface_search": "i contesti",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "363dfc5a-d2c2-be18-9b56-edbd23044783",
       "lexeme_id": "lexeme-en-a2-kontext",
       "lang": "en",
@@ -18002,6 +18169,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "0bc510a9-2c02-2e26-7e42-e14de3053049",
+      "lexeme_id": "lexeme-en-a2-kontext",
+      "lang": "en",
+      "surface": "the contexts",
+      "surface_search": "the contexts",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -18082,6 +18267,25 @@
       }
     },
     {
+      "form_id": "3221f144-8224-f2ff-aca4-0b92b1c47988",
+      "lexeme_id": "lexeme-de-a2-dart",
+      "lang": "de",
+      "surface": "die Darts",
+      "surface_search": "die darts",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
       "form_id": "e5888bb9-8dc4-585d-9927-e6b8907b59aa",
       "lexeme_id": "lexeme-de-a2-dart",
       "lang": "de",
@@ -18148,6 +18352,28 @@
       }
     },
     {
+      "form_id": "e9c37994-fc73-ccd3-28d0-39f141d0bbc0",
+      "lexeme_id": "lexeme-de-a2-dart",
+      "lang": "de",
+      "surface": "den Darts",
+      "surface_search": "den darts",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "71c8d151-d180-d6f5-e169-ddeb4ee1072f",
       "lexeme_id": "lexeme-it-a2-dart",
       "lang": "it",
@@ -18163,6 +18389,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "71c58239-6ac6-1e74-b2ad-3a9a772ecd06",
+      "lexeme_id": "lexeme-it-a2-dart",
+      "lang": "it",
+      "surface": "i dardi",
+      "surface_search": "i dardi",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -18184,6 +18428,24 @@
       }
     },
     {
+      "form_id": "e19e9ea0-ff81-af45-3853-45daa8166990",
+      "lexeme_id": "lexeme-en-a2-dart",
+      "lang": "en",
+      "surface": "darts",
+      "surface_search": "darts",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "bare",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "ce903f28-2d30-4375-9d26-bd40aba44128",
       "lexeme_id": "lexeme-de-a2-wettbewerb",
       "lang": "de",
@@ -18199,6 +18461,25 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "nom_sg_def",
+        "grammar_tags": []
+      }
+    },
+    {
+      "form_id": "1e1ab7d6-3635-9b9e-db0a-10545604a0ef",
+      "lexeme_id": "lexeme-de-a2-wettbewerb",
+      "lang": "de",
+      "surface": "die Wettbewerbe",
+      "surface_search": "die wettbewerbe",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
         "grammar_tags": []
       }
     },
@@ -18269,6 +18550,28 @@
       }
     },
     {
+      "form_id": "bf1c0ccf-eb71-4ae3-74ed-0119b788fdde",
+      "lexeme_id": "lexeme-de-a2-wettbewerb",
+      "lang": "de",
+      "surface": "den Wettbewerben",
+      "surface_search": "den wettbewerben",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "e90372ce-1b62-49c1-8783-b95ea1b97440",
       "lexeme_id": "lexeme-it-a2-wettbewerb",
       "lang": "it",
@@ -18287,6 +18590,24 @@
       }
     },
     {
+      "form_id": "da155433-6a29-61ec-8f53-5c318d0f2af2",
+      "lexeme_id": "lexeme-it-a2-wettbewerb",
+      "lang": "it",
+      "surface": "le competizioni",
+      "surface_search": "le competizioni",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "014caece-99a1-4572-41f7-ae0c7dbe5968",
       "lexeme_id": "lexeme-en-a2-wettbewerb",
       "lang": "en",
@@ -18302,6 +18623,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "224378e3-bdac-6837-8485-c5e14b93657e",
+      "lexeme_id": "lexeme-en-a2-wettbewerb",
+      "lang": "en",
+      "surface": "the competitions",
+      "surface_search": "the competitions",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -31543,6 +31882,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "c6a1cc01-b292-7b64-b68d-da5e7a162af6",
+      "concept_id": "concept-a2-abstand",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "core_prod",
+      "source_form_id": "9952aefe-05c4-c605-30b0-defa4bdcea2c",
+      "primary_expected_form_id": "3cc3e6c3-0062-0443-3257-2f3b6d01b028",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "f6ab9f12-5344-7c28-9fe2-93a2517a59cf",
+      "concept_id": "concept-a2-abstand",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "3cc3e6c3-0062-0443-3257-2f3b6d01b028",
+      "primary_expected_form_id": "9952aefe-05c4-c605-30b0-defa4bdcea2c",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "c2099876-8ce9-1707-9417-644e82607bee",
       "concept_id": "concept-a2-abstand",
       "source_lang": "de",
@@ -31583,6 +31958,46 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "3181ac82-f0da-09ec-cebf-b0b4c3b302e1",
+      "concept_id": "concept-a2-abstand",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "grammar_prod",
+      "source_form_id": "9952aefe-05c4-c605-30b0-defa4bdcea2c",
+      "primary_expected_form_id": "3cc3e6c3-0062-0443-3257-2f3b6d01b028",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": false,
+      "status": "approved",
+      "grammar_tags_json": [
+        "plural"
+      ],
+      "prompt_style": "translate_with_grammar_tag",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "ea673c62-2d9e-dc85-5ff1-7b33acacec63",
+      "concept_id": "concept-a2-abstand",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "grammar_rec",
+      "source_form_id": "3cc3e6c3-0062-0443-3257-2f3b6d01b028",
+      "primary_expected_form_id": "9952aefe-05c4-c605-30b0-defa4bdcea2c",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": false,
+      "status": "approved",
+      "grammar_tags_json": [
+        "plural"
+      ],
+      "prompt_style": "translate_with_grammar_tag",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "2cc10a78-d7ac-97c3-8544-e4cdcf1cfdad",
       "concept_id": "concept-a2-abstand",
       "source_lang": "en",
@@ -31610,6 +32025,44 @@
       "primary_expected_form_id": "6cc95826-d28f-57b3-8cfa-7e5c6e582479",
       "extra_expected_form_ids": [
         "30199688-0362-fc1e-4cd3-c36ce8890584"
+      ],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "d0543941-667b-8bf6-18c6-23db8f965a0e",
+      "concept_id": "concept-a2-abstand",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_prod",
+      "source_form_id": "b08bd464-bfcd-2dae-30fd-90424707c656",
+      "primary_expected_form_id": "3cc3e6c3-0062-0443-3257-2f3b6d01b028",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "b2035328-5589-1ac7-aa81-0d6b183cf995",
+      "concept_id": "concept-a2-abstand",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_rec",
+      "source_form_id": "3cc3e6c3-0062-0443-3257-2f3b6d01b028",
+      "primary_expected_form_id": "b08bd464-bfcd-2dae-30fd-90424707c656",
+      "extra_expected_form_ids": [
+        "190c6c5a-b7eb-faac-72f5-eedfb675570f"
       ],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -31663,6 +32116,48 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "ed09c23c-c768-0910-00ce-f851439734cf",
+      "concept_id": "concept-a2-abstand",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "grammar_prod",
+      "source_form_id": "b08bd464-bfcd-2dae-30fd-90424707c656",
+      "primary_expected_form_id": "3cc3e6c3-0062-0443-3257-2f3b6d01b028",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": false,
+      "status": "approved",
+      "grammar_tags_json": [
+        "plural"
+      ],
+      "prompt_style": "translate_with_grammar_tag",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "fd869176-6200-c8b8-d920-30f775a96b6c",
+      "concept_id": "concept-a2-abstand",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "grammar_rec",
+      "source_form_id": "3cc3e6c3-0062-0443-3257-2f3b6d01b028",
+      "primary_expected_form_id": "b08bd464-bfcd-2dae-30fd-90424707c656",
+      "extra_expected_form_ids": [
+        "190c6c5a-b7eb-faac-72f5-eedfb675570f"
+      ],
+      "acceptable_form_ids": [],
+      "is_core": false,
+      "status": "approved",
+      "grammar_tags_json": [
+        "plural"
+      ],
+      "prompt_style": "translate_with_grammar_tag",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "15c00110-5f63-0c8a-7510-bb75bb3a0757",
       "concept_id": "concept-a2-unterschied",
       "source_lang": "de",
@@ -31688,6 +32183,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "90ed25e3-e1a6-750c-8e16-9a962652800b",
       "primary_expected_form_id": "cc179416-31b3-1a17-fb4c-702a852ca0bd",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "c8986c69-55ed-4810-258d-f8e01dac798c",
+      "concept_id": "concept-a2-unterschied",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "core_prod",
+      "source_form_id": "7d07614a-647a-4b3a-7e82-647de55b5cc6",
+      "primary_expected_form_id": "d99b8a21-ee26-56b3-05f8-851d3aa5615c",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "0d2ab3f5-5eae-6a08-4ad6-27177d3815e8",
+      "concept_id": "concept-a2-unterschied",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "d99b8a21-ee26-56b3-05f8-851d3aa5615c",
+      "primary_expected_form_id": "7d07614a-647a-4b3a-7e82-647de55b5cc6",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -31739,6 +32270,46 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "673ddeab-2bb8-4162-0fb5-8018646eaf0f",
+      "concept_id": "concept-a2-unterschied",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "grammar_prod",
+      "source_form_id": "7d07614a-647a-4b3a-7e82-647de55b5cc6",
+      "primary_expected_form_id": "d99b8a21-ee26-56b3-05f8-851d3aa5615c",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": false,
+      "status": "approved",
+      "grammar_tags_json": [
+        "plural"
+      ],
+      "prompt_style": "translate_with_grammar_tag",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "1fdcbf0f-0dcb-6225-97a9-ea0044266e6d",
+      "concept_id": "concept-a2-unterschied",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "grammar_rec",
+      "source_form_id": "d99b8a21-ee26-56b3-05f8-851d3aa5615c",
+      "primary_expected_form_id": "7d07614a-647a-4b3a-7e82-647de55b5cc6",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": false,
+      "status": "approved",
+      "grammar_tags_json": [
+        "plural"
+      ],
+      "prompt_style": "translate_with_grammar_tag",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "b3731304-3b11-1ce3-053a-bb32fd069fee",
       "concept_id": "concept-a2-unterschied",
       "source_lang": "en",
@@ -31766,6 +32337,44 @@
       "primary_expected_form_id": "0fd7dc61-a2f2-bb2d-d02f-f854bf326f3c",
       "extra_expected_form_ids": [
         "f04e3f92-5091-35e5-9c4f-cbe4e314aa5f"
+      ],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "3ddf854a-f51a-5c73-6685-4f482afcfdfc",
+      "concept_id": "concept-a2-unterschied",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_prod",
+      "source_form_id": "d6802795-9724-eb74-25ba-e5d59410ddd2",
+      "primary_expected_form_id": "d99b8a21-ee26-56b3-05f8-851d3aa5615c",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "65d36b4e-1248-5575-1a88-f1c0b985b602",
+      "concept_id": "concept-a2-unterschied",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_rec",
+      "source_form_id": "d99b8a21-ee26-56b3-05f8-851d3aa5615c",
+      "primary_expected_form_id": "d6802795-9724-eb74-25ba-e5d59410ddd2",
+      "extra_expected_form_ids": [
+        "5390f007-704b-fe8e-e580-6307fcfe2d46"
       ],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -31812,6 +32421,48 @@
       "status": "approved",
       "grammar_tags_json": [
         "singular"
+      ],
+      "prompt_style": "translate_with_grammar_tag",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "2371b4f2-1dce-a98a-d1f4-5e6a4c218ea9",
+      "concept_id": "concept-a2-unterschied",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "grammar_prod",
+      "source_form_id": "d6802795-9724-eb74-25ba-e5d59410ddd2",
+      "primary_expected_form_id": "d99b8a21-ee26-56b3-05f8-851d3aa5615c",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": false,
+      "status": "approved",
+      "grammar_tags_json": [
+        "plural"
+      ],
+      "prompt_style": "translate_with_grammar_tag",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "53078fa3-2c8c-8c67-42c5-02e7a077afb1",
+      "concept_id": "concept-a2-unterschied",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "grammar_rec",
+      "source_form_id": "d99b8a21-ee26-56b3-05f8-851d3aa5615c",
+      "primary_expected_form_id": "d6802795-9724-eb74-25ba-e5d59410ddd2",
+      "extra_expected_form_ids": [
+        "5390f007-704b-fe8e-e580-6307fcfe2d46"
+      ],
+      "acceptable_form_ids": [],
+      "is_core": false,
+      "status": "approved",
+      "grammar_tags_json": [
+        "plural"
       ],
       "prompt_style": "translate_with_grammar_tag",
       "difficulty_override": null,
@@ -32143,6 +32794,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "1d35a48e-5af3-eff4-b049-a945771376d8",
+      "concept_id": "concept-a2-kontext",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "core_prod",
+      "source_form_id": "122018b2-62d3-f0ab-c103-bd93b55f1e50",
+      "primary_expected_form_id": "a56284c9-88d6-0628-ee95-b8b9d39679fe",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "9a562929-3919-9279-54d0-a770a81e7541",
+      "concept_id": "concept-a2-kontext",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "a56284c9-88d6-0628-ee95-b8b9d39679fe",
+      "primary_expected_form_id": "122018b2-62d3-f0ab-c103-bd93b55f1e50",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "176d0b68-6eb9-44f6-fba1-da8c9ef2fb2f",
       "concept_id": "concept-a2-kontext",
       "source_lang": "de",
@@ -32183,6 +32870,46 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "95a8b70b-7079-e404-fb5f-77f64cce90c1",
+      "concept_id": "concept-a2-kontext",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "grammar_prod",
+      "source_form_id": "122018b2-62d3-f0ab-c103-bd93b55f1e50",
+      "primary_expected_form_id": "a56284c9-88d6-0628-ee95-b8b9d39679fe",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": false,
+      "status": "approved",
+      "grammar_tags_json": [
+        "plural"
+      ],
+      "prompt_style": "translate_with_grammar_tag",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "823db315-eb75-5841-47fd-e0c48f809858",
+      "concept_id": "concept-a2-kontext",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "grammar_rec",
+      "source_form_id": "a56284c9-88d6-0628-ee95-b8b9d39679fe",
+      "primary_expected_form_id": "122018b2-62d3-f0ab-c103-bd93b55f1e50",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": false,
+      "status": "approved",
+      "grammar_tags_json": [
+        "plural"
+      ],
+      "prompt_style": "translate_with_grammar_tag",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "4a3a0c52-c986-f1f4-aefd-bc3ed4fa8625",
       "concept_id": "concept-a2-kontext",
       "source_lang": "en",
@@ -32208,6 +32935,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "86b7e5bf-db2a-aade-c99f-1c16c45c4f43",
       "primary_expected_form_id": "363dfc5a-d2c2-be18-9b56-edbd23044783",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "eeacf8b3-799f-526c-faf8-a111862a4cec",
+      "concept_id": "concept-a2-kontext",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_prod",
+      "source_form_id": "0bc510a9-2c02-2e26-7e42-e14de3053049",
+      "primary_expected_form_id": "a56284c9-88d6-0628-ee95-b8b9d39679fe",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "d039e39d-5396-fb04-542c-0974e962cecb",
+      "concept_id": "concept-a2-kontext",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_rec",
+      "source_form_id": "a56284c9-88d6-0628-ee95-b8b9d39679fe",
+      "primary_expected_form_id": "0bc510a9-2c02-2e26-7e42-e14de3053049",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -32252,6 +33015,46 @@
       "status": "approved",
       "grammar_tags_json": [
         "singular"
+      ],
+      "prompt_style": "translate_with_grammar_tag",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "06cda469-c12f-d4ce-37dd-aba02f040e90",
+      "concept_id": "concept-a2-kontext",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "grammar_prod",
+      "source_form_id": "0bc510a9-2c02-2e26-7e42-e14de3053049",
+      "primary_expected_form_id": "a56284c9-88d6-0628-ee95-b8b9d39679fe",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": false,
+      "status": "approved",
+      "grammar_tags_json": [
+        "plural"
+      ],
+      "prompt_style": "translate_with_grammar_tag",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "b34902f4-20a2-d08e-48bd-df7fa119be7d",
+      "concept_id": "concept-a2-kontext",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "grammar_rec",
+      "source_form_id": "a56284c9-88d6-0628-ee95-b8b9d39679fe",
+      "primary_expected_form_id": "0bc510a9-2c02-2e26-7e42-e14de3053049",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": false,
+      "status": "approved",
+      "grammar_tags_json": [
+        "plural"
       ],
       "prompt_style": "translate_with_grammar_tag",
       "difficulty_override": null,
@@ -32367,6 +33170,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "650c54fc-5b29-af0b-cbcf-196cd92cf012",
+      "concept_id": "concept-a2-dart",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "core_prod",
+      "source_form_id": "3221f144-8224-f2ff-aca4-0b92b1c47988",
+      "primary_expected_form_id": "71c58239-6ac6-1e74-b2ad-3a9a772ecd06",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "afda56e2-50fc-335b-0d76-857751e2d6cb",
+      "concept_id": "concept-a2-dart",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "71c58239-6ac6-1e74-b2ad-3a9a772ecd06",
+      "primary_expected_form_id": "3221f144-8224-f2ff-aca4-0b92b1c47988",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "b11d7f77-a4e7-bc3c-1545-b202e11f444b",
       "concept_id": "concept-a2-dart",
       "source_lang": "de",
@@ -32407,6 +33246,46 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "d1d89f1d-c916-1092-074e-99af64922e04",
+      "concept_id": "concept-a2-dart",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "grammar_prod",
+      "source_form_id": "3221f144-8224-f2ff-aca4-0b92b1c47988",
+      "primary_expected_form_id": "71c58239-6ac6-1e74-b2ad-3a9a772ecd06",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": false,
+      "status": "approved",
+      "grammar_tags_json": [
+        "plural"
+      ],
+      "prompt_style": "translate_with_grammar_tag",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "89fd64bf-6c7a-4467-3c09-b2119688cffe",
+      "concept_id": "concept-a2-dart",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "grammar_rec",
+      "source_form_id": "71c58239-6ac6-1e74-b2ad-3a9a772ecd06",
+      "primary_expected_form_id": "3221f144-8224-f2ff-aca4-0b92b1c47988",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": false,
+      "status": "approved",
+      "grammar_tags_json": [
+        "plural"
+      ],
+      "prompt_style": "translate_with_grammar_tag",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "5c74966e-1f12-0419-bfec-762fd8e3212f",
       "concept_id": "concept-a2-dart",
       "source_lang": "en",
@@ -32432,6 +33311,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "71c8d151-d180-d6f5-e169-ddeb4ee1072f",
       "primary_expected_form_id": "1424f141-842a-7fa4-5d6f-b63827fa2789",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "1cd1a9ba-df04-3845-f918-6f609b618d13",
+      "concept_id": "concept-a2-dart",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_prod",
+      "source_form_id": "e19e9ea0-ff81-af45-3853-45daa8166990",
+      "primary_expected_form_id": "71c58239-6ac6-1e74-b2ad-3a9a772ecd06",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "ea837972-6127-b4ed-574c-e270494f901f",
+      "concept_id": "concept-a2-dart",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_rec",
+      "source_form_id": "71c58239-6ac6-1e74-b2ad-3a9a772ecd06",
+      "primary_expected_form_id": "e19e9ea0-ff81-af45-3853-45daa8166990",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -32483,6 +33398,46 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "e46495f7-ab31-0885-120b-d7e4fb3b0797",
+      "concept_id": "concept-a2-dart",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "grammar_prod",
+      "source_form_id": "e19e9ea0-ff81-af45-3853-45daa8166990",
+      "primary_expected_form_id": "71c58239-6ac6-1e74-b2ad-3a9a772ecd06",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": false,
+      "status": "approved",
+      "grammar_tags_json": [
+        "plural"
+      ],
+      "prompt_style": "translate_with_grammar_tag",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "8b2e3abf-8026-6ca5-1284-701af70e9db3",
+      "concept_id": "concept-a2-dart",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "grammar_rec",
+      "source_form_id": "71c58239-6ac6-1e74-b2ad-3a9a772ecd06",
+      "primary_expected_form_id": "e19e9ea0-ff81-af45-3853-45daa8166990",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": false,
+      "status": "approved",
+      "grammar_tags_json": [
+        "plural"
+      ],
+      "prompt_style": "translate_with_grammar_tag",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "132b2335-5632-274c-d6e4-09edfbe7c225",
       "concept_id": "concept-a2-wettbewerb",
       "source_lang": "de",
@@ -32508,6 +33463,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "e90372ce-1b62-49c1-8783-b95ea1b97440",
       "primary_expected_form_id": "ce903f28-2d30-4375-9d26-bd40aba44128",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "c9b1f5ac-c57f-eb40-ed5c-b91abffffad4",
+      "concept_id": "concept-a2-wettbewerb",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "core_prod",
+      "source_form_id": "1e1ab7d6-3635-9b9e-db0a-10545604a0ef",
+      "primary_expected_form_id": "da155433-6a29-61ec-8f53-5c318d0f2af2",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "ca061ba8-0f7b-161b-3e91-96e02d0e5293",
+      "concept_id": "concept-a2-wettbewerb",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "da155433-6a29-61ec-8f53-5c318d0f2af2",
+      "primary_expected_form_id": "1e1ab7d6-3635-9b9e-db0a-10545604a0ef",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -32559,6 +33550,46 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "853e7a88-8453-e12b-b941-891e16d3985a",
+      "concept_id": "concept-a2-wettbewerb",
+      "source_lang": "de",
+      "target_lang": "it",
+      "unit_kind": "grammar_prod",
+      "source_form_id": "1e1ab7d6-3635-9b9e-db0a-10545604a0ef",
+      "primary_expected_form_id": "da155433-6a29-61ec-8f53-5c318d0f2af2",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": false,
+      "status": "approved",
+      "grammar_tags_json": [
+        "plural"
+      ],
+      "prompt_style": "translate_with_grammar_tag",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "edd6b32e-3410-e96c-d164-fc0768693191",
+      "concept_id": "concept-a2-wettbewerb",
+      "source_lang": "it",
+      "target_lang": "de",
+      "unit_kind": "grammar_rec",
+      "source_form_id": "da155433-6a29-61ec-8f53-5c318d0f2af2",
+      "primary_expected_form_id": "1e1ab7d6-3635-9b9e-db0a-10545604a0ef",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": false,
+      "status": "approved",
+      "grammar_tags_json": [
+        "plural"
+      ],
+      "prompt_style": "translate_with_grammar_tag",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "b69d5a70-5da8-4a94-99da-5cd4d1da4906",
       "concept_id": "concept-a2-wettbewerb",
       "source_lang": "en",
@@ -32584,6 +33615,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "e90372ce-1b62-49c1-8783-b95ea1b97440",
       "primary_expected_form_id": "014caece-99a1-4572-41f7-ae0c7dbe5968",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "258e8c5b-7ff1-ab6e-bcf9-715edcfbc7cf",
+      "concept_id": "concept-a2-wettbewerb",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_prod",
+      "source_form_id": "224378e3-bdac-6837-8485-c5e14b93657e",
+      "primary_expected_form_id": "da155433-6a29-61ec-8f53-5c318d0f2af2",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "a97ff66e-56b6-80a5-4353-749734f2172b",
+      "concept_id": "concept-a2-wettbewerb",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_rec",
+      "source_form_id": "da155433-6a29-61ec-8f53-5c318d0f2af2",
+      "primary_expected_form_id": "224378e3-bdac-6837-8485-c5e14b93657e",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -32628,6 +33695,46 @@
       "status": "approved",
       "grammar_tags_json": [
         "singular"
+      ],
+      "prompt_style": "translate_with_grammar_tag",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "957eb3e7-f44a-1999-cea5-68d4b6798976",
+      "concept_id": "concept-a2-wettbewerb",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "grammar_prod",
+      "source_form_id": "224378e3-bdac-6837-8485-c5e14b93657e",
+      "primary_expected_form_id": "da155433-6a29-61ec-8f53-5c318d0f2af2",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": false,
+      "status": "approved",
+      "grammar_tags_json": [
+        "plural"
+      ],
+      "prompt_style": "translate_with_grammar_tag",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "33618799-b19c-469c-9380-ad1e917dd383",
+      "concept_id": "concept-a2-wettbewerb",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "grammar_rec",
+      "source_form_id": "da155433-6a29-61ec-8f53-5c318d0f2af2",
+      "primary_expected_form_id": "224378e3-bdac-6837-8485-c5e14b93657e",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": false,
+      "status": "approved",
+      "grammar_tags_json": [
+        "plural"
       ],
       "prompt_style": "translate_with_grammar_tag",
       "difficulty_override": null,
@@ -40195,5 +41302,238 @@
       "position": 3
     }
   ],
-  "concept_relations": []
+  "concept_relations": [
+    {
+      "relation_id": "dad483de-4843-7245-0d21-b79cb157edb5",
+      "relation_type": "antonym",
+      "concept_a": "03e06d4d-6e66-57de-675b-848282e41d06",
+      "concept_b": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "ec96e739-5293-21be-9c9f-00b0cfdf7cc5",
+      "relation_type": "antonym",
+      "concept_a": "03e06d4d-6e66-57de-675b-848282e41d06",
+      "concept_b": "concept-a2-deshalb",
+      "lang_scope_json": [
+        "de",
+        "en"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "9cea488e-20a8-fe49-bd54-28eaadbdcc60",
+      "relation_type": "antonym",
+      "concept_a": "23f3cd66-40a2-652f-205a-7557f2a9e950",
+      "concept_b": "eb287814-640f-16ad-e3a6-7c3e3806d7f4",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "a047cfb9-5c9e-ed54-93a2-8aee1ae70956",
+      "relation_type": "antonym",
+      "concept_a": "2de09df9-4a0c-8b2a-f080-6c52571b7064",
+      "concept_b": "concept-a2-nirgendwo",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "d09675db-4ffe-24f5-5d15-f6b2cbc992a2",
+      "relation_type": "antonym",
+      "concept_a": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "concept_b": "8c095125-c82a-103f-433f-7c32a1d70cba",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "94de0879-ab1a-51bb-19a2-86ffc6325778",
+      "relation_type": "antonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "05d97a55-beab-b939-7ccc-d4e80a1fe2b8",
+      "relation_type": "antonym",
+      "concept_a": "548ac186-0a69-6839-73ff-5a0431f3aabc",
+      "concept_b": "concept-a2-nirgendwo",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "a7289a28-984a-96e8-9379-aa9525c02ca8",
+      "relation_type": "antonym",
+      "concept_a": "5a3f0258-ae5f-5c70-4b43-84454023b3c7",
+      "concept_b": "concept-a2-unterschiedlich",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "93068de5-c23f-c389-6983-77037abb84bc",
+      "relation_type": "antonym",
+      "concept_a": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "concept_b": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "3d8598ca-32e5-9967-4ba5-1c8d4d2ab540",
+      "relation_type": "antonym",
+      "concept_a": "7a5071b5-7f6f-27f4-2ef9-7008b01524d4",
+      "concept_b": "concept-a2-drinnen",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "616630c3-4955-2ab8-48a0-84430fd3bd2f",
+      "relation_type": "antonym",
+      "concept_a": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
+      "concept_b": "eb287814-640f-16ad-e3a6-7c3e3806d7f4",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "95dc3113-d6ec-5a22-cf02-aaca2c31ec53",
+      "relation_type": "antonym",
+      "concept_a": "a6a02266-de00-f0d8-462f-29e0e630ad11",
+      "concept_b": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
+      "lang_scope_json": [
+        "de",
+        "en"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "08a9bb2e-7132-87d9-bd23-2152637eeb0c",
+      "relation_type": "antonym",
+      "concept_a": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
+      "concept_b": "de7729bf-7055-b380-9ec0-7e315525c625",
+      "lang_scope_json": [
+        "de",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "c9e39001-7477-d32d-c56c-f7fa3258a74f",
+      "relation_type": "synonym",
+      "concept_a": "2e15a945-9821-6cd1-ef18-663740b7bee6",
+      "concept_b": "concept-a2-mindestens",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "ac5fd30f-e68c-8721-e920-0c40ceb96c30",
+      "relation_type": "synonym",
+      "concept_a": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
+      "concept_b": "ed8e2fd9-341b-1cad-7908-35e22a2f2388",
+      "tier": "close",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "50a71692-ed0a-b4f2-bf7a-b461684173c6",
+      "relation_type": "synonym",
+      "concept_a": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "concept_b": "concept-a2-deutlich",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "19778242-293a-9671-7472-3ae00c4e0c68",
+      "relation_type": "synonym",
+      "concept_a": "concept-a1-putzen",
+      "concept_b": "concept-a2-reinigen",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "e8911b23-7be8-259a-d7b3-ef32b02fea68",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-empfehlen",
+      "concept_b": "concept-b1-vorschlagen",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "9e01a1cf-6cdb-02c7-281a-3f2354a29eb5",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-normalerweise",
+      "concept_b": "dd649122-0105-6628-92d8-b638d43a5204",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "9489073b-fd0f-ba82-a90e-74f698c6c620",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-wahrscheinlich",
+      "concept_b": "concept-b1-vermutlich",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    }
+  ]
 }

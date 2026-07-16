@@ -177,11 +177,23 @@ export function analyzeRelations(content) {
   const wideSpan = [];
   const conflicts = [];
 
+  // A pair already decided by a human or AI edge (source manual/ai) never
+  // re-enters the QUEUE buckets: the queue holds only pairs still needing a
+  // call. autoEdges is deliberately untouched - the writer already skips
+  // covered pairs (and reports them), and excluding resolved-covered pairs
+  // here would make --apply drop the whole resolved graph.
+  const decidedPairs = new Set(
+    (content.concept_relations ?? [])
+      .filter((e) => e.source !== 'resolved')
+      .map((e) => pairKey(e.concept_a, e.concept_b)),
+  );
+
   for (const [pk, entry] of pairs) {
+    const decided = decidedPairs.has(pk);
     const [a, b] = pk.split('|');
     const span = levelSpan(conceptById.get(a), conceptById.get(b));
     if (entry.types.size > 1) {
-      conflicts.push({ concept_a: a, concept_b: b, span, types: [...entry.types.keys()] });
+      if (!decided) conflicts.push({ concept_a: a, concept_b: b, span, types: [...entry.types.keys()] });
       continue;
     }
     const [type] = entry.types.keys();
@@ -190,13 +202,13 @@ export function analyzeRelations(content) {
     const langs = [...rec.langs].sort();
     const base = { concept_a: a, concept_b: b, relation_type: type, span, langs };
     if (!mutual) {
-      oneSided.push({ ...base, asserted_by: [...rec.directions] });
+      if (!decided) oneSided.push({ ...base, asserted_by: [...rec.directions] });
       continue;
     }
     // A null span (unknown level) is NOT auto-writable: the adjacency rule
     // cannot be checked, so a human confirms it via the queue.
     if (span === null || span > MAX_LEVEL_SPAN) {
-      wideSpan.push(base);
+      if (!decided) wideSpan.push(base);
       continue;
     }
     autoEdges.push({

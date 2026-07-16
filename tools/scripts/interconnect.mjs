@@ -32,6 +32,7 @@ import {
   synonymComponents,
 } from '../lib/concept_relations.mjs';
 import { writeJsonAtomic, withContentLock } from '../lib/content_store.mjs';
+import { filterQueueByRejects, loadRejects, DEFAULT_REJECTS_REL } from '../lib/relation_queue.mjs';
 import { LANGS } from '../lib/languages.mjs';
 
 const CONTENT = resolve(process.cwd(), 'packs/lexicon_source/content.json');
@@ -68,14 +69,21 @@ function main() {
   if (args.queueOut) {
     const out = resolve(process.cwd(), args.queueOut);
     mkdirSync(dirname(out), { recursive: true });
-    writeJsonAtomic(out, {
-      generated_at: new Date().toISOString(),
+    // Rejected pairs write no edge, so the analyzer keeps finding them in the
+    // flat strings; the reject memory keeps them out of the human's queue.
+    const rejects = loadRejects(resolve(process.cwd(), DEFAULT_REJECTS_REL));
+    const filtered = filterQueueByRejects({
       one_sided: res.queue.oneSided,
       wide_span: res.queue.wideSpan,
       conflicts: res.queue.conflicts,
+    }, rejects);
+    writeJsonAtomic(out, {
+      generated_at: new Date().toISOString(),
+      ...filtered,
       ambiguous: res.queue.ambiguous,
     });
-    console.log(`\nWrote review queue (${s.oneSided + s.wideSpan + s.conflicts + s.ambiguous} entries) -> ${args.queueOut}`);
+    const n = filtered.one_sided.length + filtered.wide_span.length + filtered.conflicts.length + s.ambiguous;
+    console.log(`\nWrote review queue (${n} entries) -> ${args.queueOut}`);
   }
   if (args.danglingOut) {
     const out = resolve(process.cwd(), args.danglingOut);

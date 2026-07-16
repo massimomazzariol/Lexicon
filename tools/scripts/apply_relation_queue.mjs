@@ -15,7 +15,7 @@
 
 import { readFileSync } from 'fs';
 import { resolve } from 'path';
-import { flattenQueue, decideQueueEntries, writeManualEdges } from '../lib/relation_queue.mjs';
+import { flattenQueue, decideQueueEntries, writeManualEdges, appendRejects, DEFAULT_REJECTS_REL } from '../lib/relation_queue.mjs';
 
 const CONTENT = resolve(process.cwd(), 'packs/lexicon_source/content.json');
 const args = process.argv.slice(2);
@@ -48,4 +48,7 @@ if (!apply) {
 }
 
 writeManualEdges(CONTENT, toWrite, { tool: 'apply_relation_queue' });
-console.log(`\nWrote ${toWrite.length} manual edge(s). Review: git diff packs/lexicon_source/content.json`);
+if (rejected.length) {
+  appendRejects(resolve(process.cwd(), DEFAULT_REJECTS_REL), rejected, { decidedBy: 'human' });
+}
+console.log(`\nWrote ${toWrite.length} manual edge(s), remembered ${rejected.length} reject(s). Review: git diff packs/lexicon_source/content.json`);

@@ -198,3 +198,30 @@ test('mergeTiers: most conservative wins, default close', () => {
   assert.equal(mergeTiers([]), 'close');
   assert.equal(mergeTiers(['bogus']), 'close');
 });
+
+test('REGRESSION: pairs decided by a manual or ai edge leave the queue buckets', () => {
+  const content = {
+    concepts: [
+      { concept_id: 'c-alpha', level_auto: 'A1' },
+      { concept_id: 'c-beta', level_auto: 'A1' },
+    ],
+    lexemes: [
+      { lexeme_id: 'l-a', concept_id: 'c-alpha', lang: 'de', text: 'alpha', lemma: 'alpha', is_primary: true, is_active: true },
+      { lexeme_id: 'l-b', concept_id: 'c-beta', lang: 'de', text: 'beta', lemma: 'beta', is_primary: true, is_active: true },
+    ],
+    concept_definitions: [
+      { concept_id: 'c-alpha', lang: 'de', synonyms_json: ['beta'], antonyms_json: [] },
+    ],
+  };
+  assert.equal(analyzeRelations(content).queue.oneSided.length, 1);
+  content.concept_relations = [{
+    relation_id: relationId('synonym', 'c-alpha', 'c-beta'),
+    relation_type: 'synonym',
+    concept_a: 'c-alpha',
+    concept_b: 'c-beta',
+    tier: 'close',
+    lang_scope_json: null,
+    source: 'ai',
+  }];
+  assert.equal(analyzeRelations(content).queue.oneSided.length, 0);
+});

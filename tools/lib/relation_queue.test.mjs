@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { flattenQueue, decideQueueEntries, QUEUE_BUCKETS } from './relation_queue.mjs';
+import { flattenQueue, decideQueueEntries, filterQueueByRejects, QUEUE_BUCKETS } from './relation_queue.mjs';
 import { relationId, DEFAULT_TIER } from './concept_relations.mjs';
 
 const concept = (id, level) => ({ concept_id: id, level_auto: level });
@@ -109,4 +109,20 @@ test('two decisions on the same pair in one batch: second is refused', () => {
   const { toWrite, refused } = decideQueueEntries(entries, content());
   assert.equal(toWrite.length, 1);
   assert.equal(refused.length, 1);
+});
+
+test('filterQueueByRejects drops remembered pairs from every bucket', () => {
+  const queue = {
+    one_sided: [
+      { concept_a: 'c-x', concept_b: 'c-y' },
+      { concept_a: 'c-x', concept_b: 'c-z' },
+    ],
+    wide_span: [{ concept_a: 'c-y', concept_b: 'c-z' }],
+    conflicts: [],
+  };
+  const rejects = { pairs: [{ concept_a: 'c-x', concept_b: 'c-y' }, { concept_a: 'c-z', concept_b: 'c-y' }] };
+  const out = filterQueueByRejects(queue, rejects);
+  assert.equal(out.one_sided.length, 1);
+  assert.equal(out.one_sided[0].concept_b, 'c-z');
+  assert.equal(out.wide_span.length, 0);
 });

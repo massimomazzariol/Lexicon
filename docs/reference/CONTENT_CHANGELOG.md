@@ -27,6 +27,15 @@ one language as the owner of the change.
 
 ### Added / Updated Concepts
 
+- MORPH-01 noun plural completion (2026-07-16): every active noun lexeme in
+  de/it/en now carries either a plural form or an explicit mass marker.
+  German: 54 curated plurals (incl. zero-change plurals like das Zimmer ->
+  die Zimmer, now supported by the noun plugin for explicitly countable
+  rows), 15 mass nouns, 2 missing genders fixed (Mama/Papa). Italian and
+  English: 168 curated pl_core overrides, 14 uncountable senses marked mass
+  (evidence, feedback, la portata in the Tragweite sense, consensus...).
+  Curated data: tools/maintenance/noun_plural_completions.json.
+
 - MT-C5 interconnection graph, Phase 1 + pilot (2026-07-15): the source now
   carries `concept_relations` edges (92: synonym / antonym, concept-level,
   undirected, max one CEFR level apart). 81 came from deterministic

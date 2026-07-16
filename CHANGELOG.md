@@ -34,6 +34,7 @@ Concept-level lexical-content history lives in
 - Content: editorial pass over the synonym and antonym sets (184 sets
   repaired across all levels).
 - Demo: the content explorer redesigned with a dictionary-style look.
+
 ## [0.2.0] - 2026-07-08
 
 Full CEFR coverage and a public content explorer.

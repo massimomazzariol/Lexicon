@@ -27,6 +27,7 @@ import { spawnSync } from 'child_process';
 import { createInterface } from 'readline';
 import { auditContent, countByCategory } from '../lib/content_audit.mjs';
 import { commitAndPush } from '../lib/content_diff.mjs';
+import { flattenQueue } from '../lib/relation_queue.mjs';
 import { diagnoseContent, repairContent } from '../lib/content_integrity.mjs';
 import { C } from '../lib/colors.mjs';
 
@@ -137,6 +138,12 @@ async function main() {
   if (args.build || args.publishEach) pipeline('rebuild_runtime_packs.mjs', ['--with-distribution']);
   if (args.push) gitPush();
 
+  // 6c. refresh the human-review artifacts so the new links surface
+  // immediately in the console (UI-04g): the link queue, the dangling
+  // (referenced-but-missing) wishlist, and the multi-word phrase list.
+  run('interconnect.mjs', ['--queue-out', 'authoring/relation_queue.json',
+    '--dangling-out', 'authoring/.cache/dangling.jsonl', '--phrases-out', 'authoring/.cache/phrases.jsonl']);
+
   // 7. summary
   const after = countByCategory(auditContent(read()), levels);
   const lv = auditContent(read()).perLevel;
@@ -144,6 +151,11 @@ async function main() {
   console.log('\n' + C.b(C.green('━━ DONE ━━')));
   console.log('  ' + C.dim('per level now:  ') + ALL_LEVELS.map((l) => `${C.gray(l)} ${C.b(String(lv[l] || 0))}`).join('   '));
   console.log('  ' + C.dim('still needs work:  ') + `definitions ${num(after.spoilers)}   synonyms ${num(after.synonyms)}   examples ${num(after.examples)}`);
+  try {
+    const q = JSON.parse(readFileSync(resolve(REPO, 'authoring/relation_queue.json'), 'utf8'));
+    const depth = flattenQueue(q).length;
+    console.log('  ' + C.dim('word links waiting for a human:  ') + (depth ? C.yellow(String(depth)) : C.green('0')) + C.dim('  (console -> Review word links)'));
+  } catch { /* queue file missing: the interconnect step above already showed why */ }
   console.log(args.build
     ? 'Built + published the ✅ high-confidence tier. 👀 review queue + ✋ manual remain (' + C.yellow('pnpm run lexicon') + ' → Review queue).'
     : 'Triage above: ✅ ship on build · 👀 review queue · ✋ you.  Build/publish: ' + C.yellow('pnpm run release') + ' or ' + C.yellow('pnpm run lexicon') + ' → Publish.');

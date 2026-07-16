@@ -16,7 +16,6 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'fs';
 import { resolve } from 'path';
 import { spawnSync } from 'child_process';
-import { createInterface } from 'readline';
 import { auditContent, countByCategory } from '../lib/content_audit.mjs';
 import { commitAndPush } from '../lib/content_diff.mjs';
 import { chat, resolveModel, normalizeSearch, stripArticle } from '../lib/authoring_core.mjs';
@@ -24,6 +23,8 @@ import { discoverConcepts } from '../lib/concept_discovery.mjs';
 import { diagnoseContent, repairContent } from '../lib/content_integrity.mjs';
 import { C } from '../lib/colors.mjs';
 import { LANGS, langName, langList } from '../lib/languages.mjs';
+import { ask, confirm, pick, menu, askMulti } from '../lib/console/prompt.mjs';
+import { doReviewLinks } from '../lib/console/review_links.mjs';
 
 const REPO = process.cwd();
 const CONTENT = resolve(REPO, 'packs/lexicon_source/content.json');
@@ -42,6 +43,7 @@ const MENU = [
   ['Grow from gaps', 'add words other entries point to but that are still missing', doExpand],
   ['Autopilot - fill what is missing', 'runs on its own: fills & publishes locally, chunk by chunk - pushing is opt-in', doFix],
   ['Review AI suggestions', 'approve or reject the items waiting for a human', doReview],
+  ['Review word links', 'decide the queued links between words - one key per pair', () => doReviewLinks({ repo: REPO })],
   ['Status report', 'see what is done and what still needs work', doStatus],
   ['Publish', 'build the packs + push to GitHub so the app updates', doPublish],
   ['Quit', '', null]
@@ -125,10 +127,25 @@ async function doFind() {
   if (!raw) return;
   const langChoice = await pick('Language', ['all', ...LANGS]);
   const lang = langChoice === 'all' ? '' : langChoice;
+  const content = read();
   let summary;
   try {
-    summary = discoverConcepts({ manifest: readManifest(), content: read(), term: raw, lang, partialLimit: 12 });
+    summary = discoverConcepts({ manifest: readManifest(), content, term: raw, lang, partialLimit: 12 });
   } catch (e) { console.log(C.red('  ' + (e?.message ?? e))); return; }
+
+  // UI-04f: the real graph edges for each hit ("linked to: ...").
+  const edgesByConcept = new Map();
+  for (const e of content.concept_relations ?? []) {
+    for (const [self, other] of [[e.concept_a, e.concept_b], [e.concept_b, e.concept_a]]) {
+      if (!edgesByConcept.has(self)) edgesByConcept.set(self, []);
+      edgesByConcept.get(self).push({ other, type: e.relation_type, tier: e.tier });
+    }
+  }
+  const linkedLabelOf = (conceptId) => {
+    const lx = (content.lexemes ?? []).filter((x) => x.concept_id === conceptId && x.is_active !== false);
+    const best = LANGS.map((l) => lx.find((x) => x.lang === l && x.is_primary) ?? lx.find((x) => x.lang === l)).find(Boolean);
+    return best?.text ?? conceptId;
+  };
 
   const ex = summary.exact_match_count, sup = summary.support_match_count, close = summary.close_match_count;
   console.log('');
@@ -162,6 +179,11 @@ async function doFind() {
       c.coverage.missing_lexeme_langs.length ? `lexeme ${c.coverage.missing_lexeme_langs.join(',')}` : null,
     ].filter(Boolean).join(' · ');
     if (gaps) console.log('       ' + C.dim('still missing: ' + gaps));
+    const linked = edgesByConcept.get(c.concept_id) ?? [];
+    if (linked.length) {
+      const parts = linked.map((e) => `${C.b(linkedLabelOf(e.other))} ${C.dim(`(${e.type}${e.tier ? ' ' + e.tier : ''})`)}`);
+      console.log('       ' + C.cyan('linked to: ') + parts.join(C.dim(' · ')));
+    }
   }
 
   if (ex === 0 && await confirm('\n' + C.b('Add it') + C.dim(' - the AI will correct & connect it') + ` ${C.dim('[y/N]')} `)) {
@@ -546,22 +568,6 @@ function surfaceSet(lang) {
   for (const lx of read().lexemes || []) if (String(lx.lang).toLowerCase() === lang) { set.add(key(lx.text)); set.add(key(lx.lemma)); }
   return set;
 }
-function ask(q) { return new Promise((res) => { const rl = createInterface({ input: process.stdin, output: process.stdout }); rl.question(q, (a) => { rl.close(); res(String(a).trim()); }); }); }
-async function confirm(q) { return (await ask(q)).toLowerCase().startsWith('y'); }
-async function pick(label, opts) { const i = await menu(label, opts); return opts[i] ?? opts[0]; }
-async function menu(title, opts) {
-  console.log('\n' + C.b(title) + C.dim(':'));
-  opts.forEach((o, i) => console.log(`  ${C.cyan(String(i + 1))}) ${o}`));
-  const n = parseInt(await ask(C.cyan('> ')), 10);
-  return n >= 1 && n <= opts.length ? n - 1 : -1;
-}
-async function askMulti(title, items) {
-  console.log('\n' + C.b(title));
-  items.forEach((o, i) => console.log(`  ${C.cyan(String(i + 1))}) ${o}`));
-  const a = (await ask(C.dim('keep - e.g. ') + '1,3,5' + C.dim(' / ') + 'all' + C.dim(' / ') + 'none' + C.dim(': '))).toLowerCase();
-  if (a === 'all') return items.slice();
-  if (a === 'none' || !a) return [];
-  return [...new Set(a.split(',').map((x) => parseInt(x.trim(), 10)).filter((n) => n >= 1 && n <= items.length))].map((n) => items[n - 1]);
-}
+// ask/confirm/pick/menu/askMulti live in tools/lib/console/prompt.mjs (P2 extraction).
 
 main().catch((e) => { console.error('\n' + C.red('FATAL: ' + (e?.message ?? e))); process.exit(1); });

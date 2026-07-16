@@ -38,6 +38,27 @@ export function auditContent(data) {
   const issues = [];
   let missingSyn = 0, missingEx = 0, spoilerDefs = 0;
 
+  // Phase 5: synonym support lives in the graph once a pair is decided, so a
+  // synonym-type edge that covers a language counts as coverage - otherwise
+  // the autopilot would regenerate the very flat strings the edges consumed.
+  const synEdgeLangs = new Map(); // concept_id -> Set(lang) | null (= all langs)
+  for (const e of data.concept_relations ?? []) {
+    if (e.relation_type !== 'synonym') continue;
+    for (const id of [e.concept_a, e.concept_b]) {
+      const scope = Array.isArray(e.lang_scope_json) ? e.lang_scope_json : null;
+      const cur = synEdgeLangs.get(id);
+      if (cur === null) continue; // already covers every language
+      if (scope === null) { synEdgeLangs.set(id, null); continue; }
+      const set = cur ?? new Set();
+      for (const l of scope) set.add(l);
+      synEdgeLangs.set(id, set);
+    }
+  }
+  const hasSynEdge = (cid, lang) => {
+    const v = synEdgeLangs.get(cid);
+    return v === null || (v instanceof Set && v.has(lang));
+  };
+
   for (const c of concepts) {
     const level = c.level_override || c.level_auto || '?';
     perLevel[level] = (perLevel[level] || 0) + 1;
@@ -52,7 +73,8 @@ export function auditContent(data) {
     // translations like "comparare" were never added and got marked wrong.)
     const noSyn = AUDIT_LANGS.some((l) => {
       const d = cdefs.find((x) => x.lang === l);
-      return d && String(d.short_definition ?? '').trim() && !(d.synonyms_json || []).length;
+      return d && String(d.short_definition ?? '').trim() &&
+        !(d.synonyms_json || []).length && !hasSynEdge(c.concept_id, l);
     });
     const exLangs = new Set((exBy.get(c.concept_id) || []).map((e) => e.lang));
     const missingExLangs = AUDIT_LANGS.filter((l) => !exLangs.has(l));

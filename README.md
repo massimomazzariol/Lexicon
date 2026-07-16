@@ -18,12 +18,13 @@ reaches into a consumer (see `CONTRACT.md` and `docs/adr/`).
 
 ## Why this exists
 
-Good lexical data for language learning does not exist in an open, reusable form.
-What is public is scattered and inconsistent (definitions vary by source, examples
-are uneven, CEFR levels are rarely coherent, and the relations between words are
-mostly missing), and the few coherent datasets are locked inside proprietary apps.
-Generating it live, per request, is slow, costly, non-deterministic, and
-offline-hostile, and a learner cannot tell a good entry from a bad one.
+Open, reusable lexical data for language learning is hard to find. Public
+sources are scattered and inconsistent: definitions vary by source, examples
+are uneven, CEFR levels are rarely coherent, and the relations between words
+are mostly missing. The coherent datasets sit inside proprietary apps.
+Generating entries live per request costs money on every call, returns a
+different answer each time, fails offline, and gives a learner no way to
+tell a good entry from a bad one.
 
 Lexicon consolidates the knowledge once into a curated source of truth, then
 materialises it into static, versioned, downloadable packs:
@@ -34,8 +35,6 @@ materialises it into static, versioned, downloadable packs:
   global judgments made once, not re-derived per request.
 - **Static and cheap to serve** - consumers download prebuilt packs and serve them
   locally; no per-use generation, no live model call, no scaling cost.
-
-Pay the curation cost once, serve quality forever.
 
 ## How it works
 
@@ -54,8 +53,8 @@ Content is grown and tended from a single console (`pnpm run lexicon`):
 
 ![Lexicon console](docs/assets/lexicon-console.svg)
 
-Nothing ships automatically: every record is reviewed (the git diff is the gate)
-before it is built into a pack.
+Every record passes human review (the git diff is the gate) before it is
+built into a pack.
 
 ## Consuming the content
 

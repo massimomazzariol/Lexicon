@@ -9,7 +9,7 @@ import { resolve } from 'path';
 import { spawnSync } from 'child_process';
 import { C } from '../colors.mjs';
 import { confirm, readKey } from './prompt.mjs';
-import { flattenQueue, decideQueueEntries, writeManualEdges, QUEUE_BUCKETS } from '../relation_queue.mjs';
+import { flattenQueue, decideQueueEntries, writeManualEdges, appendRejects, QUEUE_BUCKETS, DEFAULT_REJECTS_REL } from '../relation_queue.mjs';
 import { MAX_LEVEL_SPAN } from '../concept_relations.mjs';
 import { LANGS } from '../languages.mjs';
 
@@ -125,6 +125,9 @@ export async function doReviewLinks({ repo = process.cwd() } = {}) {
   }
 
   writeManualEdges(contentPath, toWrite, { tool: 'console_review_links' });
+  if (rejected.length) {
+    appendRejects(resolve(repo, DEFAULT_REJECTS_REL), rejected, { decidedBy: 'human' });
+  }
 
   // Shrink the queue file: applied and rejected pairs leave, refused and
   // skipped stay pending (the refusal reason was just shown).

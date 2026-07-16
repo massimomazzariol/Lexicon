@@ -2481,6 +2481,135 @@
   ],
   "concept_relations": [
     {
+      "relation_id": "972d4d87-5aa9-b6c4-6536-f6aedc35ec33",
+      "relation_type": "antonym",
+      "concept_a": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "concept_b": "concept-b1-in-der-regel",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "f4b479f5-00fb-3134-54e3-9433fde4dc97",
+      "relation_type": "antonym",
+      "concept_a": "concept-a2-im-moment",
+      "concept_b": "concept-b1-auf-dauer",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "227265f3-00d7-bd10-d86f-ba1429468d11",
+      "relation_type": "antonym",
+      "concept_a": "concept-b1-zunaechst",
+      "concept_b": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "lang_scope_json": [
+        "en"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "bbc9323a-08a9-f44a-bfb4-c96adf90673d",
+      "relation_type": "synonym",
+      "concept_a": "b3840a69-b660-0e8d-81ee-3b3284ed29ff",
+      "concept_b": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "f5b642b8-fd3e-1af7-8de4-b54f25fc569d",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-endlich",
+      "concept_b": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "tier": "close",
+      "lang_scope_json": [
+        "en"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "3938f61d-7da9-25d5-fa65-8133d7c1e4ce",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-normalerweise",
+      "concept_b": "concept-b1-in-der-regel",
+      "tier": "exact",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "c5fc237c-e31b-99b3-1874-d7d80df77ec6",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-teilnehmen",
+      "concept_b": "concept-b1-eine-rolle-spielen",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "c4356627-8458-e023-9f0f-e5504358d7f5",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-auf-dauer",
+      "concept_b": "concept-b1-langfristig",
+      "tier": "exact",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "03282ca6-ff33-29d5-6826-572648b648eb",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-in-der-regel",
+      "concept_b": "dce273cb-1477-41c8-14f3-84226c53e233",
+      "tier": "close",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "fa0ab131-2d82-d88f-d4c4-6a008470ecc3",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-in-der-regel",
+      "concept_b": "dd649122-0105-6628-92d8-b638d43a5204",
+      "tier": "exact",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "791ee408-3238-6276-8bca-234feeb9a2ac",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-unter-anderem",
+      "concept_b": "concept-b1-zudem",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "3afad707-0a48-0d4b-3b8c-e433297d6ce7",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-unter-anderem",
+      "concept_b": "d0981aa3-9aed-3007-290a-3e2779bacea5",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "8f3e51bb-5c46-8cc2-8fc7-066abd671089",
       "relation_type": "synonym",
       "concept_a": "dcac462c-da14-34b2-8201-977a04e36d35",

@@ -23,6 +23,15 @@ The goal is to keep content history concept-first and language-neutral.
 Entries should describe meanings and cross-language lexicalizations, not treat
 one language as the owner of the change.
 
+## 2026-07-16 - Graph review pass: 207 reviewed links join the concept graph
+
+All 346 queued word-link pairs were reviewed: 207 became edges (synonym,
+antonym, or related; source ai, reviewed one pair at a time), 48 were
+rejected and remembered in relation_rejects.json (cross-part-of-speech
+noise, English homonym artifacts, sibling terms that are not opposites),
+and 91 stay pending (mostly wide-span pairs that need a level fix first).
+The graph grows from 92 to 299 edges; isolated concepts drop to 49 percent.
+
 ## [Unreleased]
 
 ### Added / Updated Concepts

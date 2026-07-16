@@ -1,0 +1,340 @@
+{
+  "pairs": [
+    {
+      "concept_a": "79f6518e-8b4f-578e-f416-504b5f349185",
+      "concept_b": "concept-a2-dart",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "b5badb09-9fac-871c-a009-af06fbb2cef3",
+      "concept_b": "concept-c2-anfechten",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "b5badb09-9fac-871c-a009-af06fbb2cef3",
+      "concept_b": "concept-a1-schlendern",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "b5badb09-9fac-871c-a009-af06fbb2cef3",
+      "concept_b": "concept-b1-herausforderung",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
+      "concept_b": "b76697b4-0a3a-5cae-4129-c6b61ae0ccde",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
+      "concept_b": "concept-b1-ablehnen",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "62f4fd57-fcc0-8518-c58d-9ae9d5a67c46",
+      "concept_b": "concept-a2-entfernung",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "concept-b1-ansprechen",
+      "concept_b": "f4c57801-260c-4027-ff73-0b38dee09fac",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "28155ced-1190-8879-d1e4-766d9865a842",
+      "concept_b": "8cdd7819-47ff-1fba-7ac4-dd44c3aec241",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "0bed6967-2ba5-ca39-d70b-646e23f07493",
+      "concept_b": "7c543f94-d74e-9ac0-b2c6-ca36a56b6c70",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "concept-a2-ueberhaupt-general",
+      "concept_b": "dce273cb-1477-41c8-14f3-84226c53e233",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "2bfef665-f822-93b9-3f9d-233a6f838aba",
+      "concept_b": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "03e06d4d-6e66-57de-675b-848282e41d06",
+      "concept_b": "concept-b1-stattdessen",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "03e06d4d-6e66-57de-675b-848282e41d06",
+      "concept_b": "concept-b1-dagegen",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "961ac32c-4e2b-36c8-3735-f91f2ddb9ece",
+      "concept_b": "concept-a2-bisher",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "06afc93e-f8f6-3698-72af-3185f7367f80",
+      "concept_b": "7c543f94-d74e-9ac0-b2c6-ca36a56b6c70",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "18e272ee-84df-dc32-fa8c-4335c5ffaf5c",
+      "concept_b": "concept-a1-uhr-device",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
+      "concept_b": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "concept_b": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "87664a7f-b773-5acd-374e-4c359b635e7c",
+      "concept_b": "8cdd7819-47ff-1fba-7ac4-dd44c3aec241",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "8cdd7819-47ff-1fba-7ac4-dd44c3aec241",
+      "concept_b": "e1adcaf9-1698-837c-2419-e43587d33c11",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "2bfef665-f822-93b9-3f9d-233a6f838aba",
+      "concept_b": "e1adcaf9-1698-837c-2419-e43587d33c11",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "4b93435e-acbe-2f6b-9afb-313c8a88845b",
+      "concept_b": "f2d7cb30-12e2-9c7d-8005-f7f2bdc4c13d",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "a9d290b4-b955-81a7-48e4-6b0103a82703",
+      "concept_b": "f62b0871-8768-d1b5-fc27-aa9b253d73eb",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "13bf153f-5b95-81b3-6ec2-646e49af8f3f",
+      "concept_b": "concept-a2-umzug",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
+      "concept_b": "ca09ed6c-97c5-3209-56ec-117bb486ac72",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "concept_b": "f8b7d1f2-7548-a134-db29-f44ff09d4c13",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "a9d290b4-b955-81a7-48e4-6b0103a82703",
+      "concept_b": "dc64b800-cb87-cdc6-9781-98c5997183b4",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "6bdbb206-99e7-33fb-a26a-08985f3c7c79",
+      "concept_b": "7c543f94-d74e-9ac0-b2c6-ca36a56b6c70",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
+      "concept_b": "c865d20f-a380-fca4-1e9a-946628371556",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "6263900a-b914-e118-2842-4b97a612c620",
+      "concept_b": "concept-a2-reservieren",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "53755265-2825-a0ee-b1de-c5a680bdef75",
+      "concept_b": "concept-a2-bisher",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "3afa0fc5-faa9-1677-c7ba-020ab75c129a",
+      "concept_b": "concept-a2-sogar",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "concept_b": "concept-b1-umsetzen",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "concept-a2-entfernung",
+      "concept_b": "d8302f33-c204-cfed-38dd-fd9eca19c924",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "concept-b1-foerdern",
+      "concept_b": "concept-b2-voraussetzen-requirement",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "concept-b1-ablehnen",
+      "concept_b": "concept-b2-nachvollziehen-reasoning",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "c1792d23-111c-1a16-efae-133d6bb4fb64",
+      "concept_b": "concept-a2-ueberhaupt-emphatic-question",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "concept-b1-ablehnen",
+      "concept_b": "concept-b1-vorschlagen",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "concept-a2-vermeiden",
+      "concept_b": "concept-b1-einsetzen",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "concept_b": "concept-b1-einsetzen",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "concept-b2-ueberraschend",
+      "concept_b": "dd649122-0105-6628-92d8-b638d43a5204",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "concept-b2-eindrucksvoll",
+      "concept_b": "dd649122-0105-6628-92d8-b638d43a5204",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "concept-c1-herleiten",
+      "concept_b": "e77cd55e-9d2d-e3c1-e012-1659eab9864a",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "concept-b1-doch-contradiction",
+      "concept_b": "concept-b1-stattdessen",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "c1792d23-111c-1a16-efae-133d6bb4fb64",
+      "concept_b": "concept-b1-doch-contradiction",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "concept-a2-wettbewerb",
+      "concept_b": "concept-c2-anfechten",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "concept-a2-einfach-plain",
+      "concept_b": "ec6fe4e3-fc8a-e7f0-0dcd-1bf1f7260b4a",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    }
+  ]
+}

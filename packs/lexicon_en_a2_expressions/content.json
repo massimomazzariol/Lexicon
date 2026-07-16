@@ -2808,6 +2808,29 @@
   ],
   "concept_relations": [
     {
+      "relation_id": "9e7c4759-3b30-9c7f-d48a-495e739162b9",
+      "relation_type": "antonym",
+      "concept_a": "06afc93e-f8f6-3698-72af-3185f7367f80",
+      "concept_b": "1ab3fdb9-f2df-546f-aa47-ee93161ed095",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "6162a283-63a3-979b-0a05-ee12a18e54a3",
+      "relation_type": "antonym",
+      "concept_a": "06afc93e-f8f6-3698-72af-3185f7367f80",
+      "concept_b": "concept-a2-auf-keinen-fall",
+      "lang_scope_json": [
+        "de",
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "f8ae4470-5de7-6f51-81fd-bea281402060",
       "relation_type": "antonym",
       "concept_a": "06afc93e-f8f6-3698-72af-3185f7367f80",
@@ -2817,6 +2840,68 @@
         "it"
       ],
       "source": "resolved"
+    },
+    {
+      "relation_id": "086734a7-8016-7e4b-7f7a-b4cf57fb60d6",
+      "relation_type": "antonym",
+      "concept_a": "53755265-2825-a0ee-b1de-c5a680bdef75",
+      "concept_b": "concept-a2-im-voraus",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "91a62f7e-9c9b-da45-9c79-21eb05d7ec92",
+      "relation_type": "antonym",
+      "concept_a": "69f9cba0-70b3-6aa8-abd0-2f1cfd6229a4",
+      "concept_b": "concept-a2-kein-problem",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "f4b479f5-00fb-3134-54e3-9433fde4dc97",
+      "relation_type": "antonym",
+      "concept_a": "concept-a2-im-moment",
+      "concept_b": "concept-b1-auf-dauer",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "3444e878-cc99-051f-223d-0eda74b0db8d",
+      "relation_type": "related",
+      "concept_a": "53755265-2825-a0ee-b1de-c5a680bdef75",
+      "concept_b": "concept-a2-im-moment",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "26a931a6-8969-568a-69c5-fcbd0774d55a",
+      "relation_type": "synonym",
+      "concept_a": "6bdbb206-99e7-33fb-a26a-08985f3c7c79",
+      "concept_b": "concept-a2-im-moment",
+      "tier": "exact",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "9b53403c-9c7a-8672-4e4f-cd5ff0219b95",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-auf-keinen-fall",
+      "concept_b": "concept-b1-keinesfalls",
+      "tier": "exact",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
     }
   ]
 }

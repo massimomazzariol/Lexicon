@@ -2388,5 +2388,17 @@
   ],
   "clusters": [],
   "cluster_members": [],
-  "concept_relations": []
+  "concept_relations": [
+    {
+      "relation_id": "c7ac37d5-071e-b795-53cd-82477f3b527c",
+      "relation_type": "synonym",
+      "concept_a": "concept-b2-auf-den-punkt-bringen",
+      "concept_b": "concept-b2-zusammenfassen",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    }
+  ]
 }

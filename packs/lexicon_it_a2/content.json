@@ -41327,6 +41327,18 @@
       "source": "resolved"
     },
     {
+      "relation_id": "ad6326d8-553d-d7c6-e9a1-0f5cc53f15c8",
+      "relation_type": "antonym",
+      "concept_a": "18e272ee-84df-dc32-fa8c-4335c5ffaf5c",
+      "concept_b": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "9cea488e-20a8-fe49-bd54-28eaadbdcc60",
       "relation_type": "antonym",
       "concept_a": "23f3cd66-40a2-652f-205a-7557f2a9e950",
@@ -41337,6 +41349,18 @@
         "it"
       ],
       "source": "resolved"
+    },
+    {
+      "relation_id": "caf7d2c4-ff41-40a8-6cb4-311999269a65",
+      "relation_type": "antonym",
+      "concept_a": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
+      "concept_b": "44edd51b-48a3-0deb-43bb-3af582b97253",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "ai"
     },
     {
       "relation_id": "a047cfb9-5c9e-ed54-93a2-8aee1ae70956",
@@ -41351,6 +41375,16 @@
       "source": "resolved"
     },
     {
+      "relation_id": "2618ae89-20b0-582a-86d6-e4928ad4249d",
+      "relation_type": "antonym",
+      "concept_a": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "concept_b": "5970f929-d3f8-99a9-ea06-a65bd7517888",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "d09675db-4ffe-24f5-5d15-f6b2cbc992a2",
       "relation_type": "antonym",
       "concept_a": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
@@ -41361,6 +41395,58 @@
         "it"
       ],
       "source": "resolved"
+    },
+    {
+      "relation_id": "fa7eff0b-09f4-4d51-1ca4-2dc95f8ef157",
+      "relation_type": "antonym",
+      "concept_a": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "concept_b": "concept-a2-normalerweise",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "972d4d87-5aa9-b6c4-6536-f6aedc35ec33",
+      "relation_type": "antonym",
+      "concept_a": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "concept_b": "concept-b1-in-der-regel",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "ed6a4796-22b1-fe9a-7431-e08c7bd5776b",
+      "relation_type": "antonym",
+      "concept_a": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "concept_b": "concept-b1-regelmaessig",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "5804d331-cc2c-b6f1-17f5-6c030d31ce2c",
+      "relation_type": "antonym",
+      "concept_a": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "concept_b": "concept-b1-ueberwiegend",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "7b55e82c-370d-e98a-4a7a-aea88e32951f",
+      "relation_type": "antonym",
+      "concept_a": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "concept_b": "dce273cb-1477-41c8-14f3-84226c53e233",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "ai"
     },
     {
       "relation_id": "94de0879-ab1a-51bb-19a2-86ffc6325778",
@@ -41411,6 +41497,50 @@
       "source": "resolved"
     },
     {
+      "relation_id": "f685bae7-aa4b-c63e-0c5e-bd58724ffdb3",
+      "relation_type": "antonym",
+      "concept_a": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "concept_b": "concept-a2-reagieren",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "1455a3b2-9f1a-d57f-86f7-b28ec549cf4b",
+      "relation_type": "antonym",
+      "concept_a": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "concept_b": "concept-b1-ansprechen",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "9ef5fb0f-08e3-3f39-bde5-9b4f6ba91630",
+      "relation_type": "antonym",
+      "concept_a": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "concept_b": "concept-b1-beruecksichtigen",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "5837ad12-b9bd-fbdf-2c76-eae28d81b97d",
+      "relation_type": "antonym",
+      "concept_a": "69f9cba0-70b3-6aa8-abd0-2f1cfd6229a4",
+      "concept_b": "concept-a2-loesung",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "3d8598ca-32e5-9967-4ba5-1c8d4d2ab540",
       "relation_type": "antonym",
       "concept_a": "7a5071b5-7f6f-27f4-2ef9-7008b01524d4",
@@ -41421,6 +41551,16 @@
         "it"
       ],
       "source": "resolved"
+    },
+    {
+      "relation_id": "74bdb673-bca4-c308-e850-1dd9a9e40ae6",
+      "relation_type": "antonym",
+      "concept_a": "7c543f94-d74e-9ac0-b2c6-ca36a56b6c70",
+      "concept_b": "dce273cb-1477-41c8-14f3-84226c53e233",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
     },
     {
       "relation_id": "616630c3-4955-2ab8-48a0-84430fd3bd2f",
@@ -41435,6 +41575,26 @@
       "source": "resolved"
     },
     {
+      "relation_id": "6b663f93-4efb-258c-17d6-6938c4554047",
+      "relation_type": "antonym",
+      "concept_a": "87664a7f-b773-5acd-374e-4c359b635e7c",
+      "concept_b": "8f698c56-8c4a-4fde-1a01-9050abcb2a45",
+      "lang_scope_json": [
+        "en"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "942ace6f-c161-292d-38c9-232bbe1088e8",
+      "relation_type": "antonym",
+      "concept_a": "99a205ca-71d1-db40-a4dd-56e7b8dda321",
+      "concept_b": "concept-a2-vermeiden",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "95dc3113-d6ec-5a22-cf02-aaca2c31ec53",
       "relation_type": "antonym",
       "concept_a": "a6a02266-de00-f0d8-462f-29e0e630ad11",
@@ -41444,6 +41604,16 @@
         "en"
       ],
       "source": "resolved"
+    },
+    {
+      "relation_id": "d166ffae-0976-d20d-dd79-005d5757075f",
+      "relation_type": "antonym",
+      "concept_a": "a73af94e-f267-9f64-bf2b-134fa2544a0c",
+      "concept_b": "concept-a2-gewohnheit",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
     },
     {
       "relation_id": "08a9bb2e-7132-87d9-bd23-2152637eeb0c",
@@ -41457,6 +41627,310 @@
       "source": "resolved"
     },
     {
+      "relation_id": "a3791531-2bcb-cf3f-f4c2-5e89d8b4319d",
+      "relation_type": "antonym",
+      "concept_a": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
+      "concept_b": "concept-a2-uebernachten",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "92d68995-e40c-cfdb-66bc-ddbbdfda3c7f",
+      "relation_type": "antonym",
+      "concept_a": "concept-a2-dringend",
+      "concept_b": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "31950a5e-62fd-e539-9d56-031b7abe1364",
+      "relation_type": "antonym",
+      "concept_a": "concept-a2-empfehlen",
+      "concept_b": "concept-b1-ablehnen",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "e75c28a9-9a55-97fc-3892-90a4ee008e63",
+      "relation_type": "antonym",
+      "concept_a": "concept-a2-fehlen",
+      "concept_b": "ed3cb78e-250a-50dc-44e1-b3cab1cf00ba",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "13377a64-6c59-1512-b6c0-e53f429fa228",
+      "relation_type": "antonym",
+      "concept_a": "concept-a2-vermeiden",
+      "concept_b": "concept-b1-ansprechen",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "9b7f5996-7e2f-5cf2-372f-126a92267c1c",
+      "relation_type": "antonym",
+      "concept_a": "concept-a2-vermeiden",
+      "concept_b": "concept-b1-behandeln",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "3a5aa886-ab34-8dde-9e0d-a7f076606d9e",
+      "relation_type": "antonym",
+      "concept_a": "concept-a2-vermeiden",
+      "concept_b": "concept-b1-umgehen",
+      "lang_scope_json": null,
+      "source": "ai"
+    },
+    {
+      "relation_id": "790cf65f-a129-d852-51ca-c9dfc41a48be",
+      "relation_type": "antonym",
+      "concept_a": "concept-b1-entscheidend",
+      "concept_b": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "b7afed28-e70b-ce90-d559-d39aea69c331",
+      "relation_type": "related",
+      "concept_a": "28155ced-1190-8879-d1e4-766d9865a842",
+      "concept_b": "75aaec59-5c45-791b-c003-18dcee16a9cb",
+      "lang_scope_json": [
+        "en",
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "63085a3f-f5c3-a893-7cd3-032c890387c1",
+      "relation_type": "related",
+      "concept_a": "2bfef665-f822-93b9-3f9d-233a6f838aba",
+      "concept_b": "75aaec59-5c45-791b-c003-18dcee16a9cb",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "e582e0cd-3ad1-5a92-187c-9bee2c33426f",
+      "relation_type": "related",
+      "concept_a": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
+      "concept_b": "concept-a2-entscheiden",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "e12ab324-520b-981c-52de-426375a1ee36",
+      "relation_type": "related",
+      "concept_a": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "concept_b": "concept-b1-behandeln",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "2c3ae967-2cb7-1c90-e715-f4b03e0edbd6",
+      "relation_type": "related",
+      "concept_a": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "concept_b": "concept-b1-bewerten",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "e9e2a224-0d00-c99f-16ea-6f567a9efed7",
+      "relation_type": "related",
+      "concept_a": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "concept_b": "concept-b1-feststellen",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "9464a50d-6a31-abe4-695b-e5b460c2d62c",
+      "relation_type": "related",
+      "concept_a": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "concept_b": "concept-b1-umgehen",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "3ce11926-c585-4fd5-eaf5-91a611252c1e",
+      "relation_type": "related",
+      "concept_a": "75aaec59-5c45-791b-c003-18dcee16a9cb",
+      "concept_b": "87664a7f-b773-5acd-374e-4c359b635e7c",
+      "lang_scope_json": [
+        "en"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "97e1a1e1-2f9c-be46-cdb8-f45f7770a22e",
+      "relation_type": "related",
+      "concept_a": "75aaec59-5c45-791b-c003-18dcee16a9cb",
+      "concept_b": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "2cd980cd-b618-9efc-4bb3-2a848cfdaa99",
+      "relation_type": "related",
+      "concept_a": "75aaec59-5c45-791b-c003-18dcee16a9cb",
+      "concept_b": "concept-a2-einladung",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "4f2c8702-846f-2e36-331f-5336ab7ceb4a",
+      "relation_type": "related",
+      "concept_a": "75aaec59-5c45-791b-c003-18dcee16a9cb",
+      "concept_b": "concept-a2-vorschlag",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "8f04dc89-1935-f984-f08c-cb146158c2a3",
+      "relation_type": "related",
+      "concept_a": "996b510f-0051-ed71-9975-155b8ec6f8ee",
+      "concept_b": "concept-a2-spitze-tip",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "e737ab26-1832-86d8-9101-180b8d9ce29d",
+      "relation_type": "synonym",
+      "concept_a": "04049abe-87cf-262a-e411-181972f0abb3",
+      "concept_b": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de",
+        "en"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "fbc3905a-3277-37a8-339f-d37c23549e87",
+      "relation_type": "synonym",
+      "concept_a": "13f0479b-0b4b-23e7-be43-7c1fece87b8d",
+      "concept_b": "concept-a2-erklaeren",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "231ac3da-6c0f-7169-8ccc-1ed52e987a31",
+      "relation_type": "synonym",
+      "concept_a": "18e272ee-84df-dc32-fa8c-4335c5ffaf5c",
+      "concept_b": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
+      "tier": "loose",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "60945679-4c45-1719-eb85-79b8ac77f6bc",
+      "relation_type": "synonym",
+      "concept_a": "23f3cd66-40a2-652f-205a-7557f2a9e950",
+      "concept_b": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "649de7dc-4516-f2e2-9ebc-49fa43ce523d",
+      "relation_type": "synonym",
+      "concept_a": "28155ced-1190-8879-d1e4-766d9865a842",
+      "concept_b": "ed8e2fd9-341b-1cad-7908-35e22a2f2388",
+      "tier": "close",
+      "lang_scope_json": [
+        "en"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "323415cb-7da8-73fa-6e6b-851a66aa9774",
+      "relation_type": "synonym",
+      "concept_a": "2bfef665-f822-93b9-3f9d-233a6f838aba",
+      "concept_b": "8cdd7819-47ff-1fba-7ac4-dd44c3aec241",
+      "tier": "close",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "90120cb0-31d4-42c4-ddb8-e684b01e09ae",
+      "relation_type": "synonym",
+      "concept_a": "2d050086-40f9-b407-fa9e-47ffceb49ec3",
+      "concept_b": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
+      "tier": "close",
+      "lang_scope_json": [
+        "en"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "bf16dfe8-9ac6-6e24-9079-3d5b7149447b",
+      "relation_type": "synonym",
+      "concept_a": "2d050086-40f9-b407-fa9e-47ffceb49ec3",
+      "concept_b": "concept-a2-deshalb",
+      "tier": "exact",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "4644d0ec-d11c-40af-8f5b-6e7d8ae18c0b",
+      "relation_type": "synonym",
+      "concept_a": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
+      "concept_b": "ef8d4042-0601-42ca-3e94-d4afed72544e",
+      "tier": "close",
+      "lang_scope_json": [
+        "de",
+        "en"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "c9e39001-7477-d32d-c56c-f7fa3258a74f",
       "relation_type": "synonym",
       "concept_a": "2e15a945-9821-6cd1-ef18-663740b7bee6",
@@ -41466,6 +41940,212 @@
         "de"
       ],
       "source": "resolved"
+    },
+    {
+      "relation_id": "94f2ef5f-e814-52e6-915c-4b6c98b9f119",
+      "relation_type": "synonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "concept-a2-dringend",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "7dd24002-b2a8-4ae5-430e-3449aef83386",
+      "relation_type": "synonym",
+      "concept_a": "6e8b7ee1-ea2f-6b1b-0038-4c84ea728c34",
+      "concept_b": "concept-a2-bisher",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "01114970-1857-92f5-50a5-88d1f1379086",
+      "relation_type": "synonym",
+      "concept_a": "79f6518e-8b4f-578e-f416-504b5f349185",
+      "concept_b": "concept-a2-rasen",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "86cf262c-9fe8-b091-4abd-54e078ee7c46",
+      "relation_type": "synonym",
+      "concept_a": "79f6518e-8b4f-578e-f416-504b5f349185",
+      "concept_b": "concept-a2-sprinten",
+      "tier": "close",
+      "lang_scope_json": [
+        "de",
+        "en"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "603e11b5-c4ee-0aa4-a075-23f986d111be",
+      "relation_type": "synonym",
+      "concept_a": "841a0138-2699-37ac-2d82-cf0c66b5171e",
+      "concept_b": "e65a87f9-7e04-cfff-d26c-a3b387c75ee5",
+      "tier": "close",
+      "lang_scope_json": [
+        "en"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "4001f84d-41c1-6606-539f-56b3a5458a8d",
+      "relation_type": "synonym",
+      "concept_a": "87664a7f-b773-5acd-374e-4c359b635e7c",
+      "concept_b": "concept-a2-einladung",
+      "tier": "loose",
+      "lang_scope_json": [
+        "en",
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "97d79730-57a2-e5be-1de8-bbeb24f80613",
+      "relation_type": "synonym",
+      "concept_a": "87664a7f-b773-5acd-374e-4c359b635e7c",
+      "concept_b": "concept-a2-moeglichkeit",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "e76b50f9-b89b-7d28-6ac9-debb980c40dd",
+      "relation_type": "synonym",
+      "concept_a": "87664a7f-b773-5acd-374e-4c359b635e7c",
+      "concept_b": "concept-a2-vorschlag",
+      "tier": "close",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "20803184-34fe-340f-6d1f-a630fe525862",
+      "relation_type": "synonym",
+      "concept_a": "8c095125-c82a-103f-433f-7c32a1d70cba",
+      "concept_b": "dce273cb-1477-41c8-14f3-84226c53e233",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "d1afd79d-7054-3a37-76a1-c701f2678a56",
+      "relation_type": "synonym",
+      "concept_a": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "concept_b": "concept-a2-lebendig",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "7c0eb452-9d48-71b1-bfc7-252777d70812",
+      "relation_type": "synonym",
+      "concept_a": "916e8799-a429-9dfd-3f4c-5553af33dbd9",
+      "concept_b": "concept-a2-sonst",
+      "tier": "exact",
+      "lang_scope_json": [
+        "de",
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "22e63012-f599-7d96-062a-09ae3235a22c",
+      "relation_type": "synonym",
+      "concept_a": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
+      "concept_b": "concept-a2-erreichen",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de",
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "d6a3ca35-112a-9805-4d3f-c84330f3da4d",
+      "relation_type": "synonym",
+      "concept_a": "a6a02266-de00-f0d8-462f-29e0e630ad11",
+      "concept_b": "concept-a2-erreichen",
+      "tier": "loose",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "74480131-614d-1329-71be-51958cb5bcd0",
+      "relation_type": "synonym",
+      "concept_a": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
+      "concept_b": "concept-b1-beruecksichtigen",
+      "tier": "close",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "ab33407d-8188-8522-192d-5122232e709d",
+      "relation_type": "synonym",
+      "concept_a": "b3840a69-b660-0e8d-81ee-3b3284ed29ff",
+      "concept_b": "concept-a2-endlich",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "df574a3e-debf-6f10-83a7-42081f5a119c",
+      "relation_type": "synonym",
+      "concept_a": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
+      "concept_b": "concept-a1-darum",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "0fb81962-e8a0-3d01-f236-d57b8a3b7f4d",
+      "relation_type": "synonym",
+      "concept_a": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
+      "concept_b": "concept-a2-deshalb",
+      "tier": "exact",
+      "lang_scope_json": [
+        "de",
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "7479d18c-dbe2-6d4e-e6f7-2750cf0ba3c5",
+      "relation_type": "synonym",
+      "concept_a": "b5badb09-9fac-871c-a009-af06fbb2cef3",
+      "concept_b": "concept-a2-wettbewerb",
+      "tier": "loose",
+      "lang_scope_json": [
+        "en",
+        "it"
+      ],
+      "source": "ai"
     },
     {
       "relation_id": "ac5fd30f-e68c-8721-e920-0c40ceb96c30",
@@ -41492,6 +42172,17 @@
       "source": "resolved"
     },
     {
+      "relation_id": "b17e0d79-17b4-d447-66f7-abae4b691b94",
+      "relation_type": "synonym",
+      "concept_a": "concept-a1-darum",
+      "concept_b": "concept-a2-deshalb",
+      "tier": "exact",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "19778242-293a-9671-7472-3ae00c4e0c68",
       "relation_type": "synonym",
       "concept_a": "concept-a1-putzen",
@@ -41501,6 +42192,39 @@
         "de"
       ],
       "source": "resolved"
+    },
+    {
+      "relation_id": "7d35c448-a49c-1a63-efff-167b1f42bd1a",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-abstand",
+      "concept_b": "concept-a2-entfernung",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "4d0be5f9-c9ee-e49c-5de2-5b74acbdbd72",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-deshalb",
+      "concept_b": "concept-b1-folglich",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "62645e3a-c7d4-b674-2183-62e1edb3e538",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-dringend",
+      "concept_b": "concept-b1-entscheidend",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
     },
     {
       "relation_id": "e8911b23-7be8-259a-d7b3-ef32b02fea68",
@@ -41514,6 +42238,61 @@
       "source": "resolved"
     },
     {
+      "relation_id": "f5b642b8-fd3e-1af7-8de4-b54f25fc569d",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-endlich",
+      "concept_b": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "tier": "close",
+      "lang_scope_json": [
+        "en"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "23de205d-a097-111e-b403-1352363b1412",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-endlich",
+      "concept_b": "fef8f67b-8883-20ff-c027-67735487d38d",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "7c5465cf-179e-8033-ffbb-d743337819f8",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-ergebnis",
+      "concept_b": "concept-a2-loesung",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "fd78446d-38f1-d500-7d32-e4fee1c425ae",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-moeglichkeit",
+      "concept_b": "concept-b1-gelegenheit",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "3938f61d-7da9-25d5-fa65-8133d7c1e4ce",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-normalerweise",
+      "concept_b": "concept-b1-in-der-regel",
+      "tier": "exact",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "9e01a1cf-6cdb-02c7-281a-3f2354a29eb5",
       "relation_type": "synonym",
       "concept_a": "concept-a2-normalerweise",
@@ -41525,6 +42304,39 @@
       "source": "resolved"
     },
     {
+      "relation_id": "4dfdf88c-c54a-1c84-2915-00ddef8a0dfb",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-reagieren",
+      "concept_b": "e1adcaf9-1698-837c-2419-e43587d33c11",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "c5fc237c-e31b-99b3-1874-d7d80df77ec6",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-teilnehmen",
+      "concept_b": "concept-b1-eine-rolle-spielen",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "07df7037-f9c3-5c39-eaf6-5fcd6e1596bf",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-vermeiden",
+      "concept_b": "concept-b1-verhindern",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "9489073b-fd0f-ba82-a90e-74f698c6c620",
       "relation_type": "synonym",
       "concept_a": "concept-a2-wahrscheinlich",
@@ -41534,6 +42346,50 @@
         "de"
       ],
       "source": "resolved"
+    },
+    {
+      "relation_id": "03282ca6-ff33-29d5-6826-572648b648eb",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-in-der-regel",
+      "concept_b": "dce273cb-1477-41c8-14f3-84226c53e233",
+      "tier": "close",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "3afad707-0a48-0d4b-3b8c-e433297d6ce7",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-unter-anderem",
+      "concept_b": "d0981aa3-9aed-3007-290a-3e2779bacea5",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "74deaf0b-f768-7605-733c-69ea6cbbd131",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-vermitteln",
+      "concept_b": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
+      "tier": "loose",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "44a4ae35-5c7e-28d4-a732-78b5b97eefca",
+      "relation_type": "synonym",
+      "concept_a": "dce273cb-1477-41c8-14f3-84226c53e233",
+      "concept_b": "dd649122-0105-6628-92d8-b638d43a5204",
+      "tier": "close",
+      "lang_scope_json": [
+        "en"
+      ],
+      "source": "ai"
     }
   ]
 }

@@ -14590,5 +14590,60 @@
   ],
   "clusters": [],
   "cluster_members": [],
-  "concept_relations": []
+  "concept_relations": [
+    {
+      "relation_id": "3f933453-0ade-a957-53a3-8a3a9800d45b",
+      "relation_type": "antonym",
+      "concept_a": "concept-c1-konsequent",
+      "concept_b": "concept-c2-ambivalent",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "58aaee0b-cc05-3e19-623e-99d255fca554",
+      "relation_type": "antonym",
+      "concept_a": "concept-c1-konsequent",
+      "concept_b": "concept-c2-widerspruechlich",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "59661a13-051c-1939-3541-be27ac0c1e8e",
+      "relation_type": "antonym",
+      "concept_a": "concept-c1-stichhaltig",
+      "concept_b": "concept-c2-widerspruechlich",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "ce063190-5a72-cb77-1160-fecda5f57fc2",
+      "relation_type": "synonym",
+      "concept_a": "concept-c1-widerlegen",
+      "concept_b": "concept-c2-entkraeften",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "7678f228-3361-d843-ed34-a107908cffa9",
+      "relation_type": "synonym",
+      "concept_a": "concept-c2-bahnbrechend",
+      "concept_b": "concept-c2-wegweisend",
+      "tier": "exact",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    }
+  ]
 }

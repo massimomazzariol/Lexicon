@@ -110943,6 +110943,28 @@
       "source": "resolved"
     },
     {
+      "relation_id": "9e7c4759-3b30-9c7f-d48a-495e739162b9",
+      "relation_type": "antonym",
+      "concept_a": "06afc93e-f8f6-3698-72af-3185f7367f80",
+      "concept_b": "1ab3fdb9-f2df-546f-aa47-ee93161ed095",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "8afc5746-a696-0a41-daa7-15257264a90b",
+      "relation_type": "antonym",
+      "concept_a": "0bed6967-2ba5-ca39-d70b-646e23f07493",
+      "concept_b": "e2d3c1e2-8f4d-c7a2-d131-2351cd0d30c9",
+      "lang_scope_json": [
+        "en"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "974ce812-82aa-8838-5c00-159920102cbc",
       "relation_type": "antonym",
       "concept_a": "0d2589ee-2440-dbee-a208-b8c746185d20",
@@ -110965,6 +110987,16 @@
       "source": "resolved"
     },
     {
+      "relation_id": "037b8604-e560-74ab-8375-916997690599",
+      "relation_type": "antonym",
+      "concept_a": "0dac5338-7ee7-54fe-72d6-a64e52cf943f",
+      "concept_b": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "24a311ae-a2eb-a6a3-689d-006d78ac3cae",
       "relation_type": "antonym",
       "concept_a": "108d1fed-1c66-2bac-ccbe-ef989d0a502c",
@@ -110977,6 +111009,16 @@
       "source": "resolved"
     },
     {
+      "relation_id": "b0ce763f-0bac-fa31-0a00-6711fd608ebf",
+      "relation_type": "antonym",
+      "concept_a": "13bf153f-5b95-81b3-6ec2-646e49af8f3f",
+      "concept_b": "6d361fa8-6b91-5bc2-d807-071ecd666ee8",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "a2739ef8-48f7-285d-7537-07fa2e56610a",
       "relation_type": "antonym",
       "concept_a": "13bf153f-5b95-81b3-6ec2-646e49af8f3f",
@@ -110985,6 +111027,16 @@
         "de"
       ],
       "source": "resolved"
+    },
+    {
+      "relation_id": "cb577110-79f1-26af-dd49-e7012273f854",
+      "relation_type": "antonym",
+      "concept_a": "13bf153f-5b95-81b3-6ec2-646e49af8f3f",
+      "concept_b": "concept-a1-stillstehen",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
     },
     {
       "relation_id": "a31c3962-60d3-cbe1-6add-662998a4a10d",
@@ -111077,6 +111129,16 @@
       "source": "resolved"
     },
     {
+      "relation_id": "7aba8a77-d933-c407-fc1c-bfaa904f90af",
+      "relation_type": "antonym",
+      "concept_a": "27afa76c-1447-b010-6329-8e32127a92be",
+      "concept_b": "6b44cb6a-6bb1-f151-6f87-02f9b28995ad",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "2f6f8256-fbaa-2f81-f914-50796435f7a2",
       "relation_type": "antonym",
       "concept_a": "27ea4876-e57e-7e6f-be3d-3a7e485e75b8",
@@ -111095,6 +111157,18 @@
         "de"
       ],
       "source": "resolved"
+    },
+    {
+      "relation_id": "caf7d2c4-ff41-40a8-6cb4-311999269a65",
+      "relation_type": "antonym",
+      "concept_a": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
+      "concept_b": "44edd51b-48a3-0deb-43bb-3af582b97253",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "ai"
     },
     {
       "relation_id": "7c945a94-8e67-3fa5-e4e2-3ca3204edb0b",
@@ -111117,6 +111191,16 @@
         "de"
       ],
       "source": "resolved"
+    },
+    {
+      "relation_id": "2618ae89-20b0-582a-86d6-e4928ad4249d",
+      "relation_type": "antonym",
+      "concept_a": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "concept_b": "5970f929-d3f8-99a9-ea06-a65bd7517888",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
     },
     {
       "relation_id": "d09675db-4ffe-24f5-5d15-f6b2cbc992a2",
@@ -111174,6 +111258,26 @@
       "source": "resolved"
     },
     {
+      "relation_id": "0940aebd-abf6-1fcd-9d56-63cf603961c4",
+      "relation_type": "antonym",
+      "concept_a": "44edd51b-48a3-0deb-43bb-3af582b97253",
+      "concept_b": "f392f36d-7108-8400-a824-a35262d7340a",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "5fdf8cd6-c33a-5941-552c-a0e353e9be04",
+      "relation_type": "antonym",
+      "concept_a": "4b36e5b7-b3bf-cbe0-f067-68574859c651",
+      "concept_b": "cd6bba6d-b8a8-e990-29d9-399bbf43d1ca",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "9fe2eda2-a2eb-7e5d-2df7-6f622aa02ca5",
       "relation_type": "antonym",
       "concept_a": "4b93435e-acbe-2f6b-9afb-313c8a88845b",
@@ -111228,6 +111332,16 @@
       "source": "resolved"
     },
     {
+      "relation_id": "086734a7-8016-7e4b-7f7a-b4cf57fb60d6",
+      "relation_type": "antonym",
+      "concept_a": "53755265-2825-a0ee-b1de-c5a680bdef75",
+      "concept_b": "concept-a2-im-voraus",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "05d97a55-beab-b939-7ccc-d4e80a1fe2b8",
       "relation_type": "antonym",
       "concept_a": "548ac186-0a69-6839-73ff-5a0431f3aabc",
@@ -111270,6 +111384,36 @@
       "source": "resolved"
     },
     {
+      "relation_id": "91a62f7e-9c9b-da45-9c79-21eb05d7ec92",
+      "relation_type": "antonym",
+      "concept_a": "69f9cba0-70b3-6aa8-abd0-2f1cfd6229a4",
+      "concept_b": "concept-a2-kein-problem",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "5837ad12-b9bd-fbdf-2c76-eae28d81b97d",
+      "relation_type": "antonym",
+      "concept_a": "69f9cba0-70b3-6aa8-abd0-2f1cfd6229a4",
+      "concept_b": "concept-a2-loesung",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "00fe0a27-45ac-2d3a-4eb5-42b7bba6fab9",
+      "relation_type": "antonym",
+      "concept_a": "6bdbb206-99e7-33fb-a26a-08985f3c7c79",
+      "concept_b": "8e500fa1-b38e-0693-1476-184a937ba73d",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "e393a1e8-1efe-7f4c-5f0e-878a99a5a1dc",
       "relation_type": "antonym",
       "concept_a": "6d361fa8-6b91-5bc2-d807-071ecd666ee8",
@@ -111278,6 +111422,16 @@
         "de"
       ],
       "source": "resolved"
+    },
+    {
+      "relation_id": "74715f09-4f13-7727-0c7f-1bd0ce44d7e3",
+      "relation_type": "antonym",
+      "concept_a": "6e8b7ee1-ea2f-6b1b-0038-4c84ea728c34",
+      "concept_b": "e2d3c1e2-8f4d-c7a2-d131-2351cd0d30c9",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
     },
     {
       "relation_id": "86fb4fe3-fe9c-d4e3-bdac-ffc9aba2ca95",
@@ -111289,6 +111443,27 @@
         "it"
       ],
       "source": "resolved"
+    },
+    {
+      "relation_id": "518831bf-d3ea-6cc0-5c5b-8c75eb3ed50d",
+      "relation_type": "antonym",
+      "concept_a": "79f6518e-8b4f-578e-f416-504b5f349185",
+      "concept_b": "concept-a1-stehen-bleiben",
+      "lang_scope_json": [
+        "de",
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "36276e9c-46e1-18f8-a1ad-9b448825e00e",
+      "relation_type": "antonym",
+      "concept_a": "79f6518e-8b4f-578e-f416-504b5f349185",
+      "concept_b": "concept-a1-stillstehen",
+      "lang_scope_json": [
+        "en"
+      ],
+      "source": "ai"
     },
     {
       "relation_id": "3d8598ca-32e5-9967-4ba5-1c8d4d2ab540",
@@ -111311,6 +111486,16 @@
         "de"
       ],
       "source": "resolved"
+    },
+    {
+      "relation_id": "74bdb673-bca4-c308-e850-1dd9a9e40ae6",
+      "relation_type": "antonym",
+      "concept_a": "7c543f94-d74e-9ac0-b2c6-ca36a56b6c70",
+      "concept_b": "dce273cb-1477-41c8-14f3-84226c53e233",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
     },
     {
       "relation_id": "cc0ef341-b7b4-dc31-bc14-9ee8ab04c9b8",
@@ -111345,6 +111530,26 @@
       "source": "resolved"
     },
     {
+      "relation_id": "ff1e8ad3-2146-1793-7167-93331ef0ce24",
+      "relation_type": "antonym",
+      "concept_a": "8419d673-418b-2599-16a4-4a6b56742191",
+      "concept_b": "87cacd30-b28b-2fc2-8d91-7e5dab5ae346",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "7373b375-4972-faee-a512-e3db66e2869e",
+      "relation_type": "antonym",
+      "concept_a": "87a180ff-f265-430e-bc0b-161b8604d068",
+      "concept_b": "c93359fa-c473-a404-22d8-d32702c89749",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "fe1fe52c-05fd-0272-52fc-61a22c2a7a7c",
       "relation_type": "antonym",
       "concept_a": "961ac32c-4e2b-36c8-3735-f91f2ddb9ece",
@@ -111365,6 +111570,16 @@
         "de"
       ],
       "source": "resolved"
+    },
+    {
+      "relation_id": "942ace6f-c161-292d-38c9-232bbe1088e8",
+      "relation_type": "antonym",
+      "concept_a": "99a205ca-71d1-db40-a4dd-56e7b8dda321",
+      "concept_b": "concept-a2-vermeiden",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
     },
     {
       "relation_id": "95dc3113-d6ec-5a22-cf02-aaca2c31ec53",
@@ -111398,6 +111613,16 @@
         "de"
       ],
       "source": "resolved"
+    },
+    {
+      "relation_id": "e75c28a9-9a55-97fc-3892-90a4ee008e63",
+      "relation_type": "antonym",
+      "concept_a": "concept-a2-fehlen",
+      "concept_b": "ed3cb78e-250a-50dc-44e1-b3cab1cf00ba",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
     },
     {
       "relation_id": "6a5ee06c-a977-5a7f-122d-0a30049b4210",
@@ -111440,6 +111665,222 @@
       "source": "resolved"
     },
     {
+      "relation_id": "cf125642-b8ff-c986-2c23-877f36400b7b",
+      "relation_type": "related",
+      "concept_a": "13bf153f-5b95-81b3-6ec2-646e49af8f3f",
+      "concept_b": "4a751289-0ae5-d62d-cd17-6b0c7c5e65be",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "58620d98-0ce1-0370-32a0-5e6f71c0cd1d",
+      "relation_type": "related",
+      "concept_a": "1dcf02c8-3505-2a8a-0093-ccad78a3c7ec",
+      "concept_b": "da0a630f-c9ae-b03d-988c-02e609e61026",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "8a61b397-5a06-17c2-b283-f98bbbf1ce8b",
+      "relation_type": "related",
+      "concept_a": "229db39a-2e2c-b36e-ea61-7e66f625c16f",
+      "concept_b": "f317ab3b-230d-500d-13d0-9ae0ad37d3e5",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "44b2e201-81d2-e534-57d7-1be656ff578d",
+      "relation_type": "related",
+      "concept_a": "283a4308-79e5-702e-4ad5-e469a8e8ca40",
+      "concept_b": "ed3cb78e-250a-50dc-44e1-b3cab1cf00ba",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "60418793-a26c-7abd-63f6-f0d0684871ab",
+      "relation_type": "related",
+      "concept_a": "4b36e5b7-b3bf-cbe0-f067-68574859c651",
+      "concept_b": "edf3aabe-397b-07a2-e9e2-64b43161ff71",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "35f49c08-1e24-b810-707a-7f8e2c7ea7ec",
+      "relation_type": "related",
+      "concept_a": "4bfb6f9e-bfb3-d196-c013-b763a42b774a",
+      "concept_b": "6e7bac7d-21d8-c53d-91a6-55e5f9e8d20c",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "d8af7bbb-edf7-403b-47dc-24bbc023ed91",
+      "relation_type": "related",
+      "concept_a": "4e9b4dec-1eb5-7c46-723d-73d5d88059ed",
+      "concept_b": "e862ebdc-37c5-3949-cb12-a38ed17f3b95",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "3444e878-cc99-051f-223d-0eda74b0db8d",
+      "relation_type": "related",
+      "concept_a": "53755265-2825-a0ee-b1de-c5a680bdef75",
+      "concept_b": "concept-a2-im-moment",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "0c684de2-0f31-8eef-bd75-a5e77e2de03d",
+      "relation_type": "related",
+      "concept_a": "53755265-2825-a0ee-b1de-c5a680bdef75",
+      "concept_b": "e2d3c1e2-8f4d-c7a2-d131-2351cd0d30c9",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "f3de9a1d-1f1b-1b77-a0dd-4867956b13a2",
+      "relation_type": "related",
+      "concept_a": "79f6518e-8b4f-578e-f416-504b5f349185",
+      "concept_b": "concept-a1-schlendern",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "e3f8e541-7181-6a4b-430c-606879e1ccb4",
+      "relation_type": "related",
+      "concept_a": "79f6518e-8b4f-578e-f416-504b5f349185",
+      "concept_b": "concept-a1-spazierengehen",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "50ffe90a-182b-a34c-2fd6-06292f75ed61",
+      "relation_type": "related",
+      "concept_a": "7a125020-365f-2257-c90f-31991e0c1dce",
+      "concept_b": "9a7438a7-3a89-d847-f5a0-fd93102e6c65",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "847bec14-d5d0-73f5-6e9b-a3bca3dad505",
+      "relation_type": "related",
+      "concept_a": "7ce3ed3f-c71d-fbc8-e09c-e6200e4617c3",
+      "concept_b": "e57fdbbb-2876-2d18-1265-48a12931473a",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "8f04dc89-1935-f984-f08c-cb146158c2a3",
+      "relation_type": "related",
+      "concept_a": "996b510f-0051-ed71-9975-155b8ec6f8ee",
+      "concept_b": "concept-a2-spitze-tip",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "56cb10ee-705c-dd1a-4885-35bf2dbacebb",
+      "relation_type": "related",
+      "concept_a": "a9d290b4-b955-81a7-48e4-6b0103a82703",
+      "concept_b": "f12a03fc-6b3f-af98-a308-f29bd66e55ac",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "57b7ac75-15aa-b5cd-5112-b0ae512e288d",
+      "relation_type": "related",
+      "concept_a": "c0faa8bd-a390-c255-3edc-9b9e79b28c9e",
+      "concept_b": "da0a630f-c9ae-b03d-988c-02e609e61026",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "e737ab26-1832-86d8-9101-180b8d9ce29d",
+      "relation_type": "synonym",
+      "concept_a": "04049abe-87cf-262a-e411-181972f0abb3",
+      "concept_b": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de",
+        "en"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "6bb34082-25f5-83f1-dfe0-e46529299714",
+      "relation_type": "synonym",
+      "concept_a": "0dac5338-7ee7-54fe-72d6-a64e52cf943f",
+      "concept_b": "44775ff0-28a7-af91-e216-740eb9cc5583",
+      "tier": "loose",
+      "lang_scope_json": [
+        "en"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "0a619550-a6a0-5313-4882-ba7fc2cea55a",
+      "relation_type": "synonym",
+      "concept_a": "13bf153f-5b95-81b3-6ec2-646e49af8f3f",
+      "concept_b": "79f6518e-8b4f-578e-f416-504b5f349185",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "fbc3905a-3277-37a8-339f-d37c23549e87",
+      "relation_type": "synonym",
+      "concept_a": "13f0479b-0b4b-23e7-be43-7c1fece87b8d",
+      "concept_b": "concept-a2-erklaeren",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "9a2da718-5e96-0b0b-a11d-a76474e02c0b",
+      "relation_type": "synonym",
+      "concept_a": "159b0cd5-492f-4ed1-bcb4-facae13daef2",
+      "concept_b": "841a0138-2699-37ac-2d82-cf0c66b5171e",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "91621ee8-c969-3f69-031c-c1f3cd2ab17d",
       "relation_type": "synonym",
       "concept_a": "21c1c48d-eb39-b214-93fc-566062ee1668",
@@ -111449,6 +111890,84 @@
         "de"
       ],
       "source": "resolved"
+    },
+    {
+      "relation_id": "6c608b4c-7917-bfaf-4444-17da4cf0097f",
+      "relation_type": "synonym",
+      "concept_a": "21c1c48d-eb39-b214-93fc-566062ee1668",
+      "concept_b": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "323415cb-7da8-73fa-6e6b-851a66aa9774",
+      "relation_type": "synonym",
+      "concept_a": "2bfef665-f822-93b9-3f9d-233a6f838aba",
+      "concept_b": "8cdd7819-47ff-1fba-7ac4-dd44c3aec241",
+      "tier": "close",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "90120cb0-31d4-42c4-ddb8-e684b01e09ae",
+      "relation_type": "synonym",
+      "concept_a": "2d050086-40f9-b407-fa9e-47ffceb49ec3",
+      "concept_b": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
+      "tier": "close",
+      "lang_scope_json": [
+        "en"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "bf16dfe8-9ac6-6e24-9079-3d5b7149447b",
+      "relation_type": "synonym",
+      "concept_a": "2d050086-40f9-b407-fa9e-47ffceb49ec3",
+      "concept_b": "concept-a2-deshalb",
+      "tier": "exact",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "4644d0ec-d11c-40af-8f5b-6e7d8ae18c0b",
+      "relation_type": "synonym",
+      "concept_a": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
+      "concept_b": "ef8d4042-0601-42ca-3e94-d4afed72544e",
+      "tier": "close",
+      "lang_scope_json": [
+        "de",
+        "en"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "326682b4-54c4-135d-4d30-540da311bbe7",
+      "relation_type": "synonym",
+      "concept_a": "3afa0fc5-faa9-1677-c7ba-020ab75c129a",
+      "concept_b": "c865d20f-a380-fca4-1e9a-946628371556",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "805f9a84-8f08-4777-e899-3dabc7b2cc7f",
+      "relation_type": "synonym",
+      "concept_a": "3f777d3a-5323-3d49-40ca-1d04e8ff376a",
+      "concept_b": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
     },
     {
       "relation_id": "8819a833-1c22-5d4f-3b8a-7b1342abeb10",
@@ -111464,6 +111983,163 @@
       "source": "resolved"
     },
     {
+      "relation_id": "2ed4fc51-fb89-5aab-9b10-855e5045a6f7",
+      "relation_type": "synonym",
+      "concept_a": "41491802-4027-0f74-b392-e0f8f9a301fb",
+      "concept_b": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "tier": "close",
+      "lang_scope_json": [
+        "de",
+        "en"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "94f2ef5f-e814-52e6-915c-4b6c98b9f119",
+      "relation_type": "synonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "concept-a2-dringend",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "26a931a6-8969-568a-69c5-fcbd0774d55a",
+      "relation_type": "synonym",
+      "concept_a": "6bdbb206-99e7-33fb-a26a-08985f3c7c79",
+      "concept_b": "concept-a2-im-moment",
+      "tier": "exact",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "7dd24002-b2a8-4ae5-430e-3449aef83386",
+      "relation_type": "synonym",
+      "concept_a": "6e8b7ee1-ea2f-6b1b-0038-4c84ea728c34",
+      "concept_b": "concept-a2-bisher",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "d8cb336d-7ead-2b23-df0d-06343e5be001",
+      "relation_type": "synonym",
+      "concept_a": "7057a828-dfdd-f221-4cb8-756bdb85a783",
+      "concept_b": "b9f299f7-010d-9958-8895-e29a4d33b95e",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "06987b26-7d8b-8795-4dbb-916ef8947130",
+      "relation_type": "synonym",
+      "concept_a": "79f6518e-8b4f-578e-f416-504b5f349185",
+      "concept_b": "concept-a1-eilen",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de",
+        "en"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "01114970-1857-92f5-50a5-88d1f1379086",
+      "relation_type": "synonym",
+      "concept_a": "79f6518e-8b4f-578e-f416-504b5f349185",
+      "concept_b": "concept-a2-rasen",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "86cf262c-9fe8-b091-4abd-54e078ee7c46",
+      "relation_type": "synonym",
+      "concept_a": "79f6518e-8b4f-578e-f416-504b5f349185",
+      "concept_b": "concept-a2-sprinten",
+      "tier": "close",
+      "lang_scope_json": [
+        "de",
+        "en"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "603e11b5-c4ee-0aa4-a075-23f986d111be",
+      "relation_type": "synonym",
+      "concept_a": "841a0138-2699-37ac-2d82-cf0c66b5171e",
+      "concept_b": "e65a87f9-7e04-cfff-d26c-a3b387c75ee5",
+      "tier": "close",
+      "lang_scope_json": [
+        "en"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "20803184-34fe-340f-6d1f-a630fe525862",
+      "relation_type": "synonym",
+      "concept_a": "8c095125-c82a-103f-433f-7c32a1d70cba",
+      "concept_b": "dce273cb-1477-41c8-14f3-84226c53e233",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "d1afd79d-7054-3a37-76a1-c701f2678a56",
+      "relation_type": "synonym",
+      "concept_a": "8c4bc8d5-77d0-b75e-2ffd-489a85a7e860",
+      "concept_b": "concept-a2-lebendig",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "d6a3ca35-112a-9805-4d3f-c84330f3da4d",
+      "relation_type": "synonym",
+      "concept_a": "a6a02266-de00-f0d8-462f-29e0e630ad11",
+      "concept_b": "concept-a2-erreichen",
+      "tier": "loose",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "df574a3e-debf-6f10-83a7-42081f5a119c",
+      "relation_type": "synonym",
+      "concept_a": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
+      "concept_b": "concept-a1-darum",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "b17e0d79-17b4-d447-66f7-abae4b691b94",
+      "relation_type": "synonym",
+      "concept_a": "concept-a1-darum",
+      "concept_b": "concept-a2-deshalb",
+      "tier": "exact",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "19778242-293a-9671-7472-3ae00c4e0c68",
       "relation_type": "synonym",
       "concept_a": "concept-a1-putzen",
@@ -111473,6 +112149,28 @@
         "de"
       ],
       "source": "resolved"
+    },
+    {
+      "relation_id": "013efd3e-3152-3b08-fd31-ab9ecf1119d7",
+      "relation_type": "synonym",
+      "concept_a": "concept-a1-stehen-bleiben",
+      "concept_b": "concept-a1-stillstehen",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "4dfdf88c-c54a-1c84-2915-00ddef8a0dfb",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-reagieren",
+      "concept_b": "e1adcaf9-1698-837c-2419-e43587d33c11",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
     }
   ]
 }

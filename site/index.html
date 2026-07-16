@@ -170,6 +170,19 @@
     background: var(--chip); border-radius: 8px; padding: 4px 11px; font-size: .9rem;
   }
   .form-pill small { color: var(--muted); margin-left: 6px; font-size: .74rem; }
+  .links { display: flex; flex-wrap: wrap; gap: 6px; }
+  .link-chip {
+    display: inline-flex; align-items: center; gap: 7px;
+    border: 1px solid var(--border-strong); background: var(--panel); color: var(--text);
+    border-radius: 999px; padding: 5px 12px; cursor: pointer; font: inherit; font-size: .92rem;
+    transition: border-color .12s ease, background-color .12s ease;
+  }
+  .link-chip:hover { border-color: var(--accent); }
+  .link-chip small { font-size: .68rem; text-transform: uppercase; letter-spacing: .07em; font-weight: 700; }
+  .link-chip small.syn { color: var(--accent-ink); }
+  .link-chip small.ant { color: var(--lvl-c-ink); }
+  .link-chip small.rel { color: var(--muted); }
+  .detail .unverified .lang-row { color: var(--muted); font-size: .9rem; }
   .closer {
     position: sticky; top: 0; float: right; margin: 10px 10px 0 0;
     border: 1px solid var(--border); background: var(--panel); color: var(--muted);
@@ -299,7 +312,7 @@ async function fetchJson(path) {
 async function loadIndex(lang) {
   if (cache[lang]) return cache[lang];
   const idx = await fetchJson('indexes/' + lang + '.json');
-  cache[lang] = { chunks: idx.chunks, packs: new Map(), loading: new Set() };
+  cache[lang] = { chunks: idx.chunks, packs: new Map(), loading: new Set(), edges: new Map(), edgesByConcept: new Map(), entryByConcept: new Map() };
   return cache[lang];
 }
 
@@ -322,8 +335,33 @@ async function loadChunk(lang, chunk) {
     const cid = lexToConcept.get(f.lexeme_id);
     if (cid) byConcept.get(cid)?.forms.push(f);
   }
+  // UI-05a: merge this pack's slice of the concept graph. Every edge is
+  // duplicated into both endpoint packs by the builder, so dedup by
+  // relation_id across chunks.
+  for (const e of content.concept_relations || []) {
+    if (c.edges.has(e.relation_id)) continue;
+    c.edges.set(e.relation_id, e);
+    for (const id of [e.concept_a, e.concept_b]) {
+      if (!c.edgesByConcept.has(id)) c.edgesByConcept.set(id, []);
+      c.edgesByConcept.get(id).push(e);
+    }
+  }
+  for (const [id, entry] of byConcept) {
+    if (!c.entryByConcept.has(id)) c.entryByConcept.set(id, entry);
+  }
   c.packs.set(chunk.chunk_id, { chunk, entries: [...byConcept.values()] });
   c.loading.delete(chunk.chunk_id);
+}
+
+// Edges only span adjacent CEFR levels, so loading the neighbour-level chunks
+// of the same kind resolves every linkable target before the modal renders.
+async function ensureNeighborChunks(lang, level) {
+  const c = cache[lang];
+  const li = LEVELS.indexOf(level);
+  const want = new Set([LEVELS[li - 1], level, LEVELS[li + 1]].filter(Boolean));
+  const targets = c.chunks.filter((ch) => (ch.kind || 'vocab') === state.kind &&
+    (ch.levels_supported || []).some((L) => want.has(L)));
+  await Promise.all(targets.map((ch) => loadChunk(lang, ch).catch(() => {})));
 }
 
 function visibleChunks(c) {
@@ -383,13 +421,14 @@ async function render() {
   for (const entry of entries) {
     const con = entry.concept;
     const level = con.level_override || con.level_auto || '?';
+    const nLinks = (c.edgesByConcept.get(con.concept_id) || []).length;
     const card = document.createElement('button');
     card.className = 'card';
     card.innerHTML =
       '<div class="top"><span class="lemma"></span>' +
       '<span class="lvl ' + levelClass(level) + '">' + level + '</span></div>' +
       '<div class="gloss"></div>' +
-      '<div class="pos">' + (con.pos === 'chunk' ? 'expression' : (con.pos || '')) + '</div>';
+      '<div class="pos">' + (con.pos === 'chunk' ? 'expression' : (con.pos || '')) + (nLinks ? ' · ' + nLinks + ' linked' : '') + '</div>';
     card.querySelector('.lemma').textContent = entryLemma(entry, lang);
     card.querySelector('.gloss').textContent = entryGlosses(entry, lang).join(' · ');
     card.onclick = () => showDetail(entry, lang);
@@ -403,9 +442,10 @@ async function render() {
 
 function esc(s) { const d = document.createElement('div'); d.textContent = s ?? ''; return d.innerHTML; }
 
-function showDetail(entry, lang) {
+async function showDetail(entry, lang) {
   const con = entry.concept;
   const level = con.level_override || con.level_auto || '?';
+  await ensureNeighborChunks(lang, level);
   let html = '<h2>' + esc(entryLemma(entry, lang)) + '</h2>';
   html += '<div class="meta">' +
     '<span class="lvl ' + levelClass(level) + '">' + level + '</span>' +
@@ -454,18 +494,56 @@ function showDetail(entry, lang) {
       '</ul></section>';
   }
 
-  const syns = entry.defs.filter((d) => Array.isArray(d.synonyms_json) && d.synonyms_json.length);
-  if (syns.length) {
-    html += '<section><h3>Synonyms</h3>';
-    for (const d of syns) {
-      html += '<div class="lang-row"><span class="lang-label">' + esc(d.lang) + '</span><span>' +
-        d.synonyms_json.map(esc).join(', ') + '</span></div>';
-    }
-    html += '</section>';
+  // UI-05b/c: the real concept graph first - one chip per edge, click opens
+  // the linked word. An edge whose endpoint is not in the distribution is
+  // inert (contract rule) and renders nothing.
+  const cc = cache[lang];
+  const myEdges = (cc.edgesByConcept.get(con.concept_id) || [])
+    .filter((e) => !Array.isArray(e.lang_scope_json) || e.lang_scope_json.includes(lang));
+  const linkedLemmas = new Set();
+  const chips = [];
+  for (const e of myEdges) {
+    const otherId = e.concept_a === con.concept_id ? e.concept_b : e.concept_a;
+    const target = cc.entryByConcept.get(otherId);
+    if (!target) continue;
+    for (const lx of target.lexemes) linkedLemmas.add((lx.text || '').toLowerCase());
+    const badge = { synonym: 'syn', antonym: 'ant', related: 'rel' }[e.relation_type] || e.relation_type;
+    chips.push('<button class="link-chip" data-target="' + esc(otherId) + '">' + esc(entryLemma(target, lang)) +
+      ' <small class="' + badge + '">' + badge + (e.tier ? ' · ' + esc(e.tier) : '') + '</small></button>');
+  }
+  if (chips.length) {
+    html += '<section><h3>Linked words</h3><div class="links">' + chips.join('') + '</div></section>';
   }
 
-  $('detail').innerHTML = html;
-  dlg.showModal();
+  // UI-05d/e: the flat strings, demoted below the graph and labeled
+  // unverified; a flat entry whose lemma matches a linked word is dropped
+  // (the edge wins).
+  const stripArt = (s) => String(s).toLowerCase().replace(/^(der |die |das |the |to |il |lo |la |le |gli |i |ein |eine |un |una |uno |l')/, '').trim();
+  const linkedKeys = new Set([...linkedLemmas].map(stripArt));
+  const flatRows = (field, label) => {
+    const rows = entry.defs.filter((d) => Array.isArray(d[field]) && d[field].length)
+      .map((d) => ({ lang: d.lang, items: d[field].filter((w) => !linkedKeys.has(stripArt(w))) }))
+      .filter((r) => r.items.length);
+    if (!rows.length) return '';
+    let s = '<section class="unverified"><h3>' + label + '</h3>';
+    for (const r of rows) {
+      s += '<div class="lang-row"><span class="lang-label">' + esc(r.lang) + '</span><span>' + r.items.map(esc).join(', ') + '</span></div>';
+    }
+    return s + '</section>';
+  };
+  html += flatRows('synonyms_json', 'Synonyms (unverified)');
+  html += flatRows('antonyms_json', 'Antonyms (unverified)');
+
+  const detail = $('detail');
+  detail.innerHTML = html;
+  detail.querySelectorAll('.link-chip').forEach((b) => {
+    b.onclick = () => {
+      const target = cache[state.lang].entryByConcept.get(b.dataset.target);
+      if (target) showDetail(target, state.lang);
+    };
+  });
+  detail.scrollTop = 0;
+  if (!dlg.open) dlg.showModal();
 }
 
 // wire controls

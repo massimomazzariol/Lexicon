@@ -2790,6 +2790,48 @@
       "lang": "de",
       "label": "irgend-forms",
       "type": "prefix_family"
+    },
+    {
+      "cluster_id": "a8176da2-6d81-996d-09a0-2e656714bdf3",
+      "lang": "de",
+      "label": "synonyms: derzeit +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "ac554226-03d5-1bf2-ea57-951a9b80229d",
+      "lang": "de",
+      "label": "synonyms: auf keinen Fall",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "ad67444c-0119-c21e-db1a-25b68d503260",
+      "lang": "it",
+      "label": "synonyms: attualmente +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "5d20a7b6-2565-1bed-01d1-26c5d123c1d0",
+      "lang": "it",
+      "label": "synonyms: in nessun caso",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "deafa41d-eeaa-e2ca-a46f-3e7c6c50c48d",
+      "lang": "en",
+      "label": "synonyms: currently +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "30fc9ec0-87e7-b7c1-3d0a-e028b2027ecd",
+      "lang": "en",
+      "label": "synonyms: by no means",
+      "type": "semantic",
+      "auto": true
     }
   ],
   "cluster_members": [
@@ -2802,6 +2844,36 @@
       "cluster_id": "cc35116a-c169-da9a-7833-d4f9568c2878",
       "lexeme_id": "lex-de-irgendjemand",
       "position": 1
+    },
+    {
+      "cluster_id": "a8176da2-6d81-996d-09a0-2e656714bdf3",
+      "lexeme_id": "lex-de-im-moment",
+      "position": 2
+    },
+    {
+      "cluster_id": "ac554226-03d5-1bf2-ea57-951a9b80229d",
+      "lexeme_id": "lex-de-auf-keinen-fall",
+      "position": 0
+    },
+    {
+      "cluster_id": "ad67444c-0119-c21e-db1a-25b68d503260",
+      "lexeme_id": "lex-it-al-momento",
+      "position": 2
+    },
+    {
+      "cluster_id": "5d20a7b6-2565-1bed-01d1-26c5d123c1d0",
+      "lexeme_id": "lex-it-in-nessun-caso",
+      "position": 0
+    },
+    {
+      "cluster_id": "deafa41d-eeaa-e2ca-a46f-3e7c6c50c48d",
+      "lexeme_id": "lex-en-at-the-moment",
+      "position": 2
+    },
+    {
+      "cluster_id": "30fc9ec0-87e7-b7c1-3d0a-e028b2027ecd",
+      "lexeme_id": "lex-en-by-no-means",
+      "position": 0
     }
   ],
   "concept_relations": [
@@ -2878,6 +2950,18 @@
         "de"
       ],
       "source": "ai"
+    },
+    {
+      "relation_id": "b934fd91-7a69-4a3a-3732-dd2d535f54d5",
+      "relation_type": "synonym",
+      "concept_a": "68b4d02c-8d77-9e8b-58ca-8a06e4bcd361",
+      "concept_b": "concept-a2-im-moment",
+      "tier": "close",
+      "lang_scope_json": [
+        "de",
+        "it"
+      ],
+      "source": "resolved"
     },
     {
       "relation_id": "26a931a6-8969-568a-69c5-fcbd0774d55a",

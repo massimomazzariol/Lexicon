@@ -110882,6 +110882,447 @@
       "lang": "de",
       "label": "travel movement",
       "type": "semantic"
+    },
+    {
+      "cluster_id": "f2fc60b5-429c-9fd2-99c5-600299516697",
+      "lang": "de",
+      "label": "synonyms: aussteigen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "77137e1e-3586-bced-1923-1cb116756418",
+      "lang": "de",
+      "label": "synonyms: warm",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "cdd7d21b-34f5-c769-26bc-2d231fc97102",
+      "lang": "de",
+      "label": "synonyms: gehen +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "422e1e59-438b-4fc9-5b93-010f2ed87743",
+      "lang": "de",
+      "label": "synonyms: sagen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "9f854bac-d78c-7feb-9cc8-181ee1f698e6",
+      "lang": "de",
+      "label": "synonyms: lecker +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "b8420a20-35e6-dd11-ceaf-2810c41ad484",
+      "lang": "de",
+      "label": "synonyms: jung +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "374e5307-b1ac-8603-c6c6-8df1aee775ba",
+      "lang": "de",
+      "label": "synonyms: Anfrage",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
+      "lang": "de",
+      "label": "synonyms: daher +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "f14cfbc0-c7ea-330d-14b1-6a6e59418fe0",
+      "lang": "de",
+      "label": "synonyms: abholen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "f743af50-cea5-b730-e130-8565cbbe0948",
+      "lang": "de",
+      "label": "synonyms: nur",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "aeeca376-3089-ffc7-b22c-a61afc8a2f68",
+      "lang": "de",
+      "label": "synonyms: Wohnhaus",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
+      "lang": "de",
+      "label": "synonyms: wichtig +8",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a8176da2-6d81-996d-09a0-2e656714bdf3",
+      "lang": "de",
+      "label": "synonyms: derzeit +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "014e14c1-c8ad-b44f-4498-8d5ba791eff3",
+      "lang": "de",
+      "label": "synonyms: Problem",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "bf4d0266-58f5-49bc-8b56-1f9009fed74e",
+      "lang": "de",
+      "label": "synonyms: noch",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a09ff1d5-0736-76c3-fb35-f5440ac735ac",
+      "lang": "de",
+      "label": "synonyms: Straße",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a33579e5-aed3-62cf-fe60-718ac9745634",
+      "lang": "de",
+      "label": "synonyms: oft +5",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "10c38b3e-3813-ccae-f1a5-767a85890202",
+      "lang": "de",
+      "label": "synonyms: anrufen +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "85bc2396-271e-f231-446b-844d1af8d59e",
+      "lang": "de",
+      "label": "synonyms: putzen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "0e29c953-7941-0f70-87b1-69a3038f91d8",
+      "lang": "de",
+      "label": "synonyms: stehen bleiben",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "2e1ba454-c474-7425-f0e0-fabce4d35443",
+      "lang": "de",
+      "label": "synonyms: reagieren",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "4af8e408-1646-9952-4ede-13927f371f62",
+      "lang": "it",
+      "label": "synonyms: scendere",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "2dfea847-238a-d2ea-f4b9-8d5386e4d732",
+      "lang": "it",
+      "label": "synonyms: caldo",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "08013d8b-1eca-b596-5268-900d5389b1e1",
+      "lang": "it",
+      "label": "synonyms: andare +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "fb4e8462-7129-e2ec-7676-5fb820c00ea2",
+      "lang": "it",
+      "label": "synonyms: dire",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a3922d0e-f436-b1f9-59cc-304718b18c4e",
+      "lang": "it",
+      "label": "synonyms: delizioso +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "b7d15a75-0e97-1aab-5aa5-602916a5a8ee",
+      "lang": "it",
+      "label": "synonyms: giovane +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "be758479-f342-6684-0007-a0097da3f058",
+      "lang": "it",
+      "label": "synonyms: la richiesta di informazioni",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "0df945ad-a7a3-dc6e-3cce-1ceb611a295a",
+      "lang": "it",
+      "label": "synonyms: quindi +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "db6703e8-afb1-2d57-1716-6fc148d16d60",
+      "lang": "it",
+      "label": "synonyms: andare a prendere (ritirare)",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "2b245fec-e37b-5619-28f2-1e97843af510",
+      "lang": "it",
+      "label": "synonyms: solo",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "d23ac697-a6ad-533f-b1e8-6462e0eef81c",
+      "lang": "it",
+      "label": "synonyms: l'abitazione",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
+      "lang": "it",
+      "label": "synonyms: importante +8",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "ad67444c-0119-c21e-db1a-25b68d503260",
+      "lang": "it",
+      "label": "synonyms: attualmente +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "437fa420-1684-abcc-c3ca-25ff0d7e430d",
+      "lang": "it",
+      "label": "synonyms: il problema",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "25fdbb1a-e1af-506c-9fcc-74df5e2d024e",
+      "lang": "it",
+      "label": "synonyms: ancora",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "72021489-c918-dadb-c9d2-8d7db5619061",
+      "lang": "it",
+      "label": "synonyms: la strada",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "4969a31d-327d-ea11-109e-57b1ceed6534",
+      "lang": "it",
+      "label": "synonyms: spesso +5",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "442c2225-18c6-951c-63c7-5332c0c0f342",
+      "lang": "it",
+      "label": "synonyms: chiamare +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "076a637b-6587-fe47-b814-c322a20b1312",
+      "lang": "it",
+      "label": "synonyms: pulire",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "764ac856-c5aa-e036-97e3-e27bfa615095",
+      "lang": "it",
+      "label": "synonyms: fermarsi",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "d1cc4c86-8077-e9cf-3c86-6b1bde3b64b3",
+      "lang": "it",
+      "label": "synonyms: reagire",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "74f62de9-5d08-5391-90aa-ce601f6c08e0",
+      "lang": "en",
+      "label": "synonyms: get off",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "f93adb05-29d9-62f6-39a7-9f6be06850a2",
+      "lang": "en",
+      "label": "synonyms: warm",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "76f85eb5-d904-e8f0-b4dc-b88356495f02",
+      "lang": "en",
+      "label": "synonyms: to go +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "934f9487-8f6a-875d-384c-9828c2fd194c",
+      "lang": "en",
+      "label": "synonyms: to say",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "38b03ffb-a430-510d-fc8a-b1d2ce832437",
+      "lang": "en",
+      "label": "synonyms: delicious +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "78fc648e-2a28-4a05-6239-28acbef473a1",
+      "lang": "en",
+      "label": "synonyms: young +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "8abcc47e-21d8-307d-3da3-859c38add7ab",
+      "lang": "en",
+      "label": "synonyms: inquiry",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "1773ae09-055d-a802-6a02-c42500c80651",
+      "lang": "en",
+      "label": "synonyms: hence +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "86dd31d6-57ab-9f4c-ee8b-af84d2b247d6",
+      "lang": "en",
+      "label": "synonyms: to pick up (collect)",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "9f47cfd9-2d6f-f183-4bda-28a1c8ce90e7",
+      "lang": "en",
+      "label": "synonyms: only",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "1ced80ac-5842-2ee1-a9a5-07c8b4f26654",
+      "lang": "en",
+      "label": "synonyms: dwelling",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
+      "lang": "en",
+      "label": "synonyms: important +8",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "deafa41d-eeaa-e2ca-a46f-3e7c6c50c48d",
+      "lang": "en",
+      "label": "synonyms: currently +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "139e38f5-3fb7-c3bc-9c7f-61906192e27c",
+      "lang": "en",
+      "label": "synonyms: the problem",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "aca4ed5e-f017-3f0c-9f31-370e58256b6c",
+      "lang": "en",
+      "label": "synonyms: still",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "6fb7c6de-f5d5-cfdd-427f-0bef2d99163d",
+      "lang": "en",
+      "label": "synonyms: the street",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c30c80d1-18ff-5fa1-e8ed-142e1ba23a8e",
+      "lang": "en",
+      "label": "synonyms: often +5",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "ac8ad750-774d-c4e4-2e8a-b022e4c7f61a",
+      "lang": "en",
+      "label": "synonyms: call +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c63a16eb-9ab3-a4b7-da4d-4e00c1d65ff0",
+      "lang": "en",
+      "label": "synonyms: to clean",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "bed92022-1c1d-6b12-ea2f-713c9e101f5a",
+      "lang": "en",
+      "label": "synonyms: to stop (come to a halt)",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "d990162c-e4e9-856a-a76f-717124d6d5d1",
+      "lang": "en",
+      "label": "synonyms: react",
+      "type": "semantic",
+      "auto": true
     }
   ],
   "cluster_members": [
@@ -110909,6 +111350,501 @@
       "cluster_id": "96d5678e-4aff-9dcb-b4b2-de0f0f11a731",
       "lexeme_id": "lex-de-ausflug",
       "position": 2
+    },
+    {
+      "cluster_id": "f2fc60b5-429c-9fd2-99c5-600299516697",
+      "lexeme_id": "lex-de-aussteigen",
+      "position": 0
+    },
+    {
+      "cluster_id": "77137e1e-3586-bced-1923-1cb116756418",
+      "lexeme_id": "lex-de-warm",
+      "position": 0
+    },
+    {
+      "cluster_id": "77137e1e-3586-bced-1923-1cb116756418",
+      "lexeme_id": "lex-de-heiss",
+      "position": 1
+    },
+    {
+      "cluster_id": "cdd7d21b-34f5-c769-26bc-2d231fc97102",
+      "lexeme_id": "lex-de-gehen",
+      "position": 0
+    },
+    {
+      "cluster_id": "cdd7d21b-34f5-c769-26bc-2d231fc97102",
+      "lexeme_id": "lex-de-laufen",
+      "position": 1
+    },
+    {
+      "cluster_id": "cdd7d21b-34f5-c769-26bc-2d231fc97102",
+      "lexeme_id": "lexeme-de-a1-eilen",
+      "position": 2
+    },
+    {
+      "cluster_id": "422e1e59-438b-4fc9-5b93-010f2ed87743",
+      "lexeme_id": "lex-de-sagen",
+      "position": 0
+    },
+    {
+      "cluster_id": "9f854bac-d78c-7feb-9cc8-181ee1f698e6",
+      "lexeme_id": "lex-de-lecker",
+      "position": 0
+    },
+    {
+      "cluster_id": "9f854bac-d78c-7feb-9cc8-181ee1f698e6",
+      "lexeme_id": "lex-de-gut",
+      "position": 1
+    },
+    {
+      "cluster_id": "b8420a20-35e6-dd11-ceaf-2810c41ad484",
+      "lexeme_id": "lex-de-jung",
+      "position": 0
+    },
+    {
+      "cluster_id": "b8420a20-35e6-dd11-ceaf-2810c41ad484",
+      "lexeme_id": "lex-de-neu",
+      "position": 1
+    },
+    {
+      "cluster_id": "b8420a20-35e6-dd11-ceaf-2810c41ad484",
+      "lexeme_id": "d0b32006-74f6-c390-4e99-91bdcd41a317",
+      "position": 2
+    },
+    {
+      "cluster_id": "b8420a20-35e6-dd11-ceaf-2810c41ad484",
+      "lexeme_id": "lex-de-kalt",
+      "position": 3
+    },
+    {
+      "cluster_id": "374e5307-b1ac-8603-c6c6-8df1aee775ba",
+      "lexeme_id": "lex-de-frage",
+      "position": 1
+    },
+    {
+      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
+      "lexeme_id": "lex-de-daher",
+      "position": 0
+    },
+    {
+      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
+      "lexeme_id": "lexeme-de-a1-darum",
+      "position": 4
+    },
+    {
+      "cluster_id": "f14cfbc0-c7ea-330d-14b1-6a6e59418fe0",
+      "lexeme_id": "lex-de-holen",
+      "position": 1
+    },
+    {
+      "cluster_id": "f743af50-cea5-b730-e130-8565cbbe0948",
+      "lexeme_id": "lex-de-nur",
+      "position": 0
+    },
+    {
+      "cluster_id": "f743af50-cea5-b730-e130-8565cbbe0948",
+      "lexeme_id": "lex-de-allein",
+      "position": 1
+    },
+    {
+      "cluster_id": "aeeca376-3089-ffc7-b22c-a61afc8a2f68",
+      "lexeme_id": "56cd7948-b81a-79ff-ff64-4bbb50a82791",
+      "position": 0
+    },
+    {
+      "cluster_id": "aeeca376-3089-ffc7-b22c-a61afc8a2f68",
+      "lexeme_id": "lex-de-haus",
+      "position": 1
+    },
+    {
+      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
+      "lexeme_id": "lex-de-wichtig",
+      "position": 0
+    },
+    {
+      "cluster_id": "a8176da2-6d81-996d-09a0-2e656714bdf3",
+      "lexeme_id": "lex-de-jetzt",
+      "position": 1
+    },
+    {
+      "cluster_id": "014e14c1-c8ad-b44f-4498-8d5ba791eff3",
+      "lexeme_id": "lex-de-problem",
+      "position": 0
+    },
+    {
+      "cluster_id": "bf4d0266-58f5-49bc-8b56-1f9009fed74e",
+      "lexeme_id": "lex-de-noch",
+      "position": 0
+    },
+    {
+      "cluster_id": "a09ff1d5-0736-76c3-fb35-f5440ac735ac",
+      "lexeme_id": "lex-de-strasse",
+      "position": 0
+    },
+    {
+      "cluster_id": "a09ff1d5-0736-76c3-fb35-f5440ac735ac",
+      "lexeme_id": "lex-de-weg",
+      "position": 1
+    },
+    {
+      "cluster_id": "a33579e5-aed3-62cf-fe60-718ac9745634",
+      "lexeme_id": "lex-de-oft",
+      "position": 0
+    },
+    {
+      "cluster_id": "10c38b3e-3813-ccae-f1a5-767a85890202",
+      "lexeme_id": "lex-de-kommen",
+      "position": 2
+    },
+    {
+      "cluster_id": "85bc2396-271e-f231-446b-844d1af8d59e",
+      "lexeme_id": "lex-de-putzen",
+      "position": 0
+    },
+    {
+      "cluster_id": "0e29c953-7941-0f70-87b1-69a3038f91d8",
+      "lexeme_id": "lexeme-de-a1-stehen-bleiben",
+      "position": 0
+    },
+    {
+      "cluster_id": "0e29c953-7941-0f70-87b1-69a3038f91d8",
+      "lexeme_id": "lexeme-de-a1-stillstehen",
+      "position": 1
+    },
+    {
+      "cluster_id": "2e1ba454-c474-7425-f0e0-fabce4d35443",
+      "lexeme_id": "lex-de-antworten",
+      "position": 1
+    },
+    {
+      "cluster_id": "4af8e408-1646-9952-4ede-13927f371f62",
+      "lexeme_id": "lex-it-scendere",
+      "position": 0
+    },
+    {
+      "cluster_id": "2dfea847-238a-d2ea-f4b9-8d5386e4d732",
+      "lexeme_id": "lex-it-caldo",
+      "position": 0
+    },
+    {
+      "cluster_id": "2dfea847-238a-d2ea-f4b9-8d5386e4d732",
+      "lexeme_id": "lex-it-caldo-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "08013d8b-1eca-b596-5268-900d5389b1e1",
+      "lexeme_id": "lex-it-andare",
+      "position": 0
+    },
+    {
+      "cluster_id": "08013d8b-1eca-b596-5268-900d5389b1e1",
+      "lexeme_id": "lex-it-correre",
+      "position": 1
+    },
+    {
+      "cluster_id": "08013d8b-1eca-b596-5268-900d5389b1e1",
+      "lexeme_id": "lexeme-it-a1-eilen",
+      "position": 2
+    },
+    {
+      "cluster_id": "fb4e8462-7129-e2ec-7676-5fb820c00ea2",
+      "lexeme_id": "lex-it-dire",
+      "position": 0
+    },
+    {
+      "cluster_id": "a3922d0e-f436-b1f9-59cc-304718b18c4e",
+      "lexeme_id": "lex-it-delizioso",
+      "position": 0
+    },
+    {
+      "cluster_id": "a3922d0e-f436-b1f9-59cc-304718b18c4e",
+      "lexeme_id": "lex-it-buono",
+      "position": 1
+    },
+    {
+      "cluster_id": "b7d15a75-0e97-1aab-5aa5-602916a5a8ee",
+      "lexeme_id": "lex-it-giovane",
+      "position": 0
+    },
+    {
+      "cluster_id": "b7d15a75-0e97-1aab-5aa5-602916a5a8ee",
+      "lexeme_id": "lex-it-nuovo",
+      "position": 1
+    },
+    {
+      "cluster_id": "b7d15a75-0e97-1aab-5aa5-602916a5a8ee",
+      "lexeme_id": "95c3931d-dda5-6603-26c9-f66ab6363f5f",
+      "position": 2
+    },
+    {
+      "cluster_id": "b7d15a75-0e97-1aab-5aa5-602916a5a8ee",
+      "lexeme_id": "lex-it-freddo",
+      "position": 3
+    },
+    {
+      "cluster_id": "be758479-f342-6684-0007-a0097da3f058",
+      "lexeme_id": "lex-it-domanda",
+      "position": 1
+    },
+    {
+      "cluster_id": "0df945ad-a7a3-dc6e-3cce-1ceb611a295a",
+      "lexeme_id": "lex-it-quindi",
+      "position": 0
+    },
+    {
+      "cluster_id": "0df945ad-a7a3-dc6e-3cce-1ceb611a295a",
+      "lexeme_id": "lexeme-it-a1-darum",
+      "position": 4
+    },
+    {
+      "cluster_id": "db6703e8-afb1-2d57-1716-6fc148d16d60",
+      "lexeme_id": "lex-it-andare-a-prendere-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "2b245fec-e37b-5619-28f2-1e97843af510",
+      "lexeme_id": "lex-it-solo",
+      "position": 0
+    },
+    {
+      "cluster_id": "2b245fec-e37b-5619-28f2-1e97843af510",
+      "lexeme_id": "lex-it-da-solo",
+      "position": 1
+    },
+    {
+      "cluster_id": "d23ac697-a6ad-533f-b1e8-6462e0eef81c",
+      "lexeme_id": "cb6eb790-c7ea-722a-9459-362ab99e493f",
+      "position": 0
+    },
+    {
+      "cluster_id": "d23ac697-a6ad-533f-b1e8-6462e0eef81c",
+      "lexeme_id": "lex-it-casa",
+      "position": 1
+    },
+    {
+      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
+      "lexeme_id": "lex-it-importante",
+      "position": 0
+    },
+    {
+      "cluster_id": "ad67444c-0119-c21e-db1a-25b68d503260",
+      "lexeme_id": "lex-it-adesso",
+      "position": 1
+    },
+    {
+      "cluster_id": "437fa420-1684-abcc-c3ca-25ff0d7e430d",
+      "lexeme_id": "lex-it-problema",
+      "position": 0
+    },
+    {
+      "cluster_id": "25fdbb1a-e1af-506c-9fcc-74df5e2d024e",
+      "lexeme_id": "lex-it-ancora-2",
+      "position": 0
+    },
+    {
+      "cluster_id": "72021489-c918-dadb-c9d2-8d7db5619061",
+      "lexeme_id": "lex-it-strada",
+      "position": 0
+    },
+    {
+      "cluster_id": "72021489-c918-dadb-c9d2-8d7db5619061",
+      "lexeme_id": "lex-it-via",
+      "position": 1
+    },
+    {
+      "cluster_id": "4969a31d-327d-ea11-109e-57b1ceed6534",
+      "lexeme_id": "lex-it-spesso",
+      "position": 0
+    },
+    {
+      "cluster_id": "442c2225-18c6-951c-63c7-5332c0c0f342",
+      "lexeme_id": "lex-it-venire",
+      "position": 2
+    },
+    {
+      "cluster_id": "076a637b-6587-fe47-b814-c322a20b1312",
+      "lexeme_id": "lex-it-pulire",
+      "position": 0
+    },
+    {
+      "cluster_id": "764ac856-c5aa-e036-97e3-e27bfa615095",
+      "lexeme_id": "lexeme-it-a1-stehen-bleiben",
+      "position": 0
+    },
+    {
+      "cluster_id": "764ac856-c5aa-e036-97e3-e27bfa615095",
+      "lexeme_id": "lexeme-it-a1-stillstehen",
+      "position": 1
+    },
+    {
+      "cluster_id": "d1cc4c86-8077-e9cf-3c86-6b1bde3b64b3",
+      "lexeme_id": "lex-it-rispondere",
+      "position": 1
+    },
+    {
+      "cluster_id": "74f62de9-5d08-5391-90aa-ce601f6c08e0",
+      "lexeme_id": "lex-en-get-off",
+      "position": 0
+    },
+    {
+      "cluster_id": "f93adb05-29d9-62f6-39a7-9f6be06850a2",
+      "lexeme_id": "lex-en-warm",
+      "position": 0
+    },
+    {
+      "cluster_id": "f93adb05-29d9-62f6-39a7-9f6be06850a2",
+      "lexeme_id": "lex-en-hot",
+      "position": 1
+    },
+    {
+      "cluster_id": "76f85eb5-d904-e8f0-b4dc-b88356495f02",
+      "lexeme_id": "lex-en-to-go",
+      "position": 0
+    },
+    {
+      "cluster_id": "76f85eb5-d904-e8f0-b4dc-b88356495f02",
+      "lexeme_id": "lex-en-run",
+      "position": 1
+    },
+    {
+      "cluster_id": "76f85eb5-d904-e8f0-b4dc-b88356495f02",
+      "lexeme_id": "lexeme-en-a1-eilen",
+      "position": 2
+    },
+    {
+      "cluster_id": "934f9487-8f6a-875d-384c-9828c2fd194c",
+      "lexeme_id": "lex-en-to-say",
+      "position": 0
+    },
+    {
+      "cluster_id": "38b03ffb-a430-510d-fc8a-b1d2ce832437",
+      "lexeme_id": "lex-en-delicious",
+      "position": 0
+    },
+    {
+      "cluster_id": "38b03ffb-a430-510d-fc8a-b1d2ce832437",
+      "lexeme_id": "lex-en-good",
+      "position": 1
+    },
+    {
+      "cluster_id": "78fc648e-2a28-4a05-6239-28acbef473a1",
+      "lexeme_id": "lex-en-young",
+      "position": 0
+    },
+    {
+      "cluster_id": "78fc648e-2a28-4a05-6239-28acbef473a1",
+      "lexeme_id": "lex-en-new",
+      "position": 1
+    },
+    {
+      "cluster_id": "78fc648e-2a28-4a05-6239-28acbef473a1",
+      "lexeme_id": "dff6cc94-fb26-a7d2-2c7b-52093dae8bbf",
+      "position": 2
+    },
+    {
+      "cluster_id": "78fc648e-2a28-4a05-6239-28acbef473a1",
+      "lexeme_id": "lex-en-cold",
+      "position": 3
+    },
+    {
+      "cluster_id": "8abcc47e-21d8-307d-3da3-859c38add7ab",
+      "lexeme_id": "lex-en-question",
+      "position": 1
+    },
+    {
+      "cluster_id": "1773ae09-055d-a802-6a02-c42500c80651",
+      "lexeme_id": "lex-en-therefore",
+      "position": 0
+    },
+    {
+      "cluster_id": "1773ae09-055d-a802-6a02-c42500c80651",
+      "lexeme_id": "lexeme-en-a1-darum",
+      "position": 4
+    },
+    {
+      "cluster_id": "86dd31d6-57ab-9f4c-ee8b-af84d2b247d6",
+      "lexeme_id": "lex-en-to-fetch",
+      "position": 1
+    },
+    {
+      "cluster_id": "9f47cfd9-2d6f-f183-4bda-28a1c8ce90e7",
+      "lexeme_id": "lex-en-only",
+      "position": 0
+    },
+    {
+      "cluster_id": "9f47cfd9-2d6f-f183-4bda-28a1c8ce90e7",
+      "lexeme_id": "lex-en-alone",
+      "position": 1
+    },
+    {
+      "cluster_id": "1ced80ac-5842-2ee1-a9a5-07c8b4f26654",
+      "lexeme_id": "bc7c66c2-66d1-e048-a060-89ff07850115",
+      "position": 0
+    },
+    {
+      "cluster_id": "1ced80ac-5842-2ee1-a9a5-07c8b4f26654",
+      "lexeme_id": "lex-en-house",
+      "position": 1
+    },
+    {
+      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
+      "lexeme_id": "lex-en-important",
+      "position": 0
+    },
+    {
+      "cluster_id": "deafa41d-eeaa-e2ca-a46f-3e7c6c50c48d",
+      "lexeme_id": "lex-en-now",
+      "position": 1
+    },
+    {
+      "cluster_id": "139e38f5-3fb7-c3bc-9c7f-61906192e27c",
+      "lexeme_id": "lex-en-problem",
+      "position": 0
+    },
+    {
+      "cluster_id": "aca4ed5e-f017-3f0c-9f31-370e58256b6c",
+      "lexeme_id": "lex-en-still-2",
+      "position": 0
+    },
+    {
+      "cluster_id": "6fb7c6de-f5d5-cfdd-427f-0bef2d99163d",
+      "lexeme_id": "lex-en-street",
+      "position": 0
+    },
+    {
+      "cluster_id": "6fb7c6de-f5d5-cfdd-427f-0bef2d99163d",
+      "lexeme_id": "lex-en-way",
+      "position": 1
+    },
+    {
+      "cluster_id": "c30c80d1-18ff-5fa1-e8ed-142e1ba23a8e",
+      "lexeme_id": "lex-en-often",
+      "position": 0
+    },
+    {
+      "cluster_id": "ac8ad750-774d-c4e4-2e8a-b022e4c7f61a",
+      "lexeme_id": "lex-en-to-come",
+      "position": 2
+    },
+    {
+      "cluster_id": "c63a16eb-9ab3-a4b7-da4d-4e00c1d65ff0",
+      "lexeme_id": "lex-en-to-clean",
+      "position": 0
+    },
+    {
+      "cluster_id": "bed92022-1c1d-6b12-ea2f-713c9e101f5a",
+      "lexeme_id": "lexeme-en-a1-stehen-bleiben",
+      "position": 0
+    },
+    {
+      "cluster_id": "bed92022-1c1d-6b12-ea2f-713c9e101f5a",
+      "lexeme_id": "lexeme-en-a1-stillstehen",
+      "position": 1
+    },
+    {
+      "cluster_id": "d990162c-e4e9-856a-a76f-717124d6d5d1",
+      "lexeme_id": "lex-en-to-answer",
+      "position": 1
     }
   ],
   "concept_relations": [
@@ -111183,6 +112119,26 @@
       "source": "resolved"
     },
     {
+      "relation_id": "cbd0ca97-74f0-5c3a-52a4-146d8b02fc6b",
+      "relation_type": "antonym",
+      "concept_a": "2e769167-00e6-f086-d72a-4e96521fa4ce",
+      "concept_b": "concept-b2-bewundernswert",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "acbcf227-9d20-0a93-8801-2adf9d5eb074",
+      "relation_type": "antonym",
+      "concept_a": "2e769167-00e6-f086-d72a-4e96521fa4ce",
+      "concept_b": "concept-c2-ueberragend",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "176ab2ba-b808-8e60-7168-d5baec854674",
       "relation_type": "antonym",
       "concept_a": "2e907009-86c6-df98-1b54-0446b3df23d7",
@@ -111248,6 +112204,16 @@
       "source": "resolved"
     },
     {
+      "relation_id": "823aefd6-9b1e-b1f4-63b4-cbdf554dfa54",
+      "relation_type": "antonym",
+      "concept_a": "434197ea-470c-0d8c-5882-c14d89eb9dfd",
+      "concept_b": "concept-b1-angemessen",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "16b6382c-c442-00b4-a1d8-87924066a2b6",
       "relation_type": "antonym",
       "concept_a": "44edd51b-48a3-0deb-43bb-3af582b97253",
@@ -111266,6 +112232,16 @@
         "de"
       ],
       "source": "ai"
+    },
+    {
+      "relation_id": "5dc85a63-4a95-7390-29d2-2294231af0ec",
+      "relation_type": "antonym",
+      "concept_a": "463fa707-6f6c-9519-2b0b-d2a3f612362a",
+      "concept_b": "concept-b1-teilweise",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
     },
     {
       "relation_id": "5fdf8cd6-c33a-5941-552c-a0e353e9be04",
@@ -111336,6 +112312,16 @@
       "relation_type": "antonym",
       "concept_a": "53755265-2825-a0ee-b1de-c5a680bdef75",
       "concept_b": "concept-a2-im-voraus",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "cd58bec8-e1c3-aae4-8256-7a6fb138fdc2",
+      "relation_type": "antonym",
+      "concept_a": "53755265-2825-a0ee-b1de-c5a680bdef75",
+      "concept_b": "concept-b1-zunaechst",
       "lang_scope_json": [
         "de"
       ],
@@ -111434,6 +112420,17 @@
       "source": "ai"
     },
     {
+      "relation_id": "befa2516-62c5-296a-7291-397422ef84c2",
+      "relation_type": "antonym",
+      "concept_a": "772a77d1-87a2-e378-bb3b-dc8ae952ebea",
+      "concept_b": "concept-b1-kaum",
+      "lang_scope_json": [
+        "de",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
       "relation_id": "86fb4fe3-fe9c-d4e3-bdac-ffc9aba2ca95",
       "relation_type": "antonym",
       "concept_a": "79f6518e-8b4f-578e-f416-504b5f349185",
@@ -111486,6 +112483,16 @@
         "de"
       ],
       "source": "resolved"
+    },
+    {
+      "relation_id": "4ff9eb3e-65d7-b38e-b67c-c070988b1f1b",
+      "relation_type": "antonym",
+      "concept_a": "7c543f94-d74e-9ac0-b2c6-ca36a56b6c70",
+      "concept_b": "concept-b1-in-der-regel",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
     },
     {
       "relation_id": "74bdb673-bca4-c308-e850-1dd9a9e40ae6",
@@ -111593,6 +112600,16 @@
       "source": "resolved"
     },
     {
+      "relation_id": "1ff9163c-6c96-a07c-feef-3e1c5704ef16",
+      "relation_type": "antonym",
+      "concept_a": "b3378b56-2eea-7711-d47a-ac76ff43c442",
+      "concept_b": "concept-b2-missverstehen",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "6bf6422a-15af-b885-0341-f95fc1522953",
       "relation_type": "antonym",
       "concept_a": "ca09ed6c-97c5-3209-56ec-117bb486ac72",
@@ -111621,6 +112638,16 @@
       "concept_b": "ed3cb78e-250a-50dc-44e1-b3cab1cf00ba",
       "lang_scope_json": [
         "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "136778dc-70a6-5fc0-af91-04d04ca42b88",
+      "relation_type": "antonym",
+      "concept_a": "concept-b2-herausfordernd",
+      "concept_b": "ec6fe4e3-fc8a-e7f0-0dcd-1bf1f7260b4a",
+      "lang_scope_json": [
+        "de"
       ],
       "source": "ai"
     },
@@ -111837,6 +112864,17 @@
       "source": "ai"
     },
     {
+      "relation_id": "c702a580-28e1-7500-1357-4d04df246dac",
+      "relation_type": "synonym",
+      "concept_a": "0bed6967-2ba5-ca39-d70b-646e23f07493",
+      "concept_b": "concept-b1-nach-wie-vor",
+      "tier": "close",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "6bb34082-25f5-83f1-dfe0-e46529299714",
       "relation_type": "synonym",
       "concept_a": "0dac5338-7ee7-54fe-72d6-a64e52cf943f",
@@ -111936,6 +112974,17 @@
       "source": "ai"
     },
     {
+      "relation_id": "f2eb46c5-f01a-fee4-3d31-aecc1c1098d6",
+      "relation_type": "synonym",
+      "concept_a": "2d050086-40f9-b407-fa9e-47ffceb49ec3",
+      "concept_b": "concept-b1-folglich",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
       "relation_id": "4644d0ec-d11c-40af-8f5b-6e7d8ae18c0b",
       "relation_type": "synonym",
       "concept_a": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
@@ -112004,6 +113053,128 @@
         "de"
       ],
       "source": "ai"
+    },
+    {
+      "relation_id": "daa2e9ef-e205-31cd-9b97-1c89eacbb89b",
+      "relation_type": "synonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "concept-b1-entscheidend",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "ef20979d-3dd5-72e6-db08-a030ec6d932e",
+      "relation_type": "synonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "concept-b2-bedeutsam",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "b0bd6310-cf7b-0885-66ce-a255dff39c46",
+      "relation_type": "synonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "concept-b2-nennenswert",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "25f3144f-6507-7c5b-e0db-897c11c48b96",
+      "relation_type": "synonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "concept-b2-relevant",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "60fed9ee-c796-8f14-8476-56abb95e6e2f",
+      "relation_type": "synonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "concept-b2-wesentlich",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "c2c97308-a9da-ed4f-9358-6c6ae7342ddb",
+      "relation_type": "synonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "concept-c1-massgeblich",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "2ad9d659-ab2b-90b7-adc2-e661128ecdd8",
+      "relation_type": "synonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "concept-c1-zentral",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "15a56952-7900-58b1-63bb-95559e706df7",
+      "relation_type": "synonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "e718be7a-3d76-3ce3-db35-35ba3b93eaa0",
+      "tier": "loose",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "4a46d094-206d-3005-e7e7-21620cd3cb68",
+      "relation_type": "synonym",
+      "concept_a": "4e503e75-ea9e-4bba-5a31-09b34df4d303",
+      "concept_b": "concept-b2-herausfordernd",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "b5a2ebf2-bfc7-92e1-3516-e1db52032928",
+      "relation_type": "synonym",
+      "concept_a": "68b4d02c-8d77-9e8b-58ca-8a06e4bcd361",
+      "concept_b": "6bdbb206-99e7-33fb-a26a-08985f3c7c79",
+      "tier": "close",
+      "lang_scope_json": [
+        "de",
+        "en"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "36a7a801-7b5e-d8d2-0db4-1f9b29a08c62",
+      "relation_type": "synonym",
+      "concept_a": "69f9cba0-70b3-6aa8-abd0-2f1cfd6229a4",
+      "concept_b": "concept-b1-herausforderung",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
     },
     {
       "relation_id": "26a931a6-8969-568a-69c5-fcbd0774d55a",
@@ -112085,6 +113256,17 @@
       "source": "ai"
     },
     {
+      "relation_id": "50aad3cc-cd8b-23f6-5174-574d5435e9ad",
+      "relation_type": "synonym",
+      "concept_a": "8c095125-c82a-103f-433f-7c32a1d70cba",
+      "concept_b": "concept-b1-regelmaessig",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "20803184-34fe-340f-6d1f-a630fe525862",
       "relation_type": "synonym",
       "concept_a": "8c095125-c82a-103f-433f-7c32a1d70cba",
@@ -112103,6 +113285,39 @@
       "tier": "loose",
       "lang_scope_json": [
         "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "c64e5d04-1553-d3c2-55c3-63e5f091004d",
+      "relation_type": "synonym",
+      "concept_a": "91f2e21d-1055-c502-52eb-6895fe4406c4",
+      "concept_b": "concept-b1-umfangreich",
+      "tier": "loose",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "0d28a3a5-df63-df55-6f40-2c3c4d3bfdfa",
+      "relation_type": "synonym",
+      "concept_a": "91f2e21d-1055-c502-52eb-6895fe4406c4",
+      "concept_b": "concept-b2-erheblich",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "27eb3cd6-403e-f61d-6771-b2e39e19ff69",
+      "relation_type": "synonym",
+      "concept_a": "99a205ca-71d1-db40-a4dd-56e7b8dda321",
+      "concept_b": "concept-b1-durchfuehren",
+      "tier": "loose",
+      "lang_scope_json": [
+        "en"
       ],
       "source": "ai"
     },

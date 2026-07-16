@@ -14588,9 +14588,148 @@
       "hint_text": null
     }
   ],
-  "clusters": [],
-  "cluster_members": [],
+  "clusters": [
+    {
+      "cluster_id": "c5c2b1e1-b2f7-66f3-321b-ec4388bbae04",
+      "lang": "de",
+      "label": "synonyms: widersprechen +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "b15d5238-d8d7-f352-301b-3ff62dae57b3",
+      "lang": "de",
+      "label": "synonyms: bahnbrechend",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "3bb7ad2a-bd94-5fc1-1cc6-5426928f2549",
+      "lang": "it",
+      "label": "synonyms: contraddire +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "beb7fce1-69a8-239a-0130-86a395d71341",
+      "lang": "it",
+      "label": "synonyms: rivoluzionario",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "d96af742-49f7-ce08-fb1b-4fac49963a3c",
+      "lang": "en",
+      "label": "synonyms: to contradict +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "37d8bb0e-0751-caaa-81b7-3750cf0c792c",
+      "lang": "en",
+      "label": "synonyms: groundbreaking",
+      "type": "semantic",
+      "auto": true
+    }
+  ],
+  "cluster_members": [
+    {
+      "cluster_id": "c5c2b1e1-b2f7-66f3-321b-ec4388bbae04",
+      "lexeme_id": "lexeme-de-c2-entkraeften",
+      "position": 2
+    },
+    {
+      "cluster_id": "b15d5238-d8d7-f352-301b-3ff62dae57b3",
+      "lexeme_id": "lex-de-bahnbrechend",
+      "position": 0
+    },
+    {
+      "cluster_id": "b15d5238-d8d7-f352-301b-3ff62dae57b3",
+      "lexeme_id": "lex-de-wegweisend",
+      "position": 1
+    },
+    {
+      "cluster_id": "3bb7ad2a-bd94-5fc1-1cc6-5426928f2549",
+      "lexeme_id": "lexeme-it-c2-invalidare",
+      "position": 2
+    },
+    {
+      "cluster_id": "beb7fce1-69a8-239a-0130-86a395d71341",
+      "lexeme_id": "lex-it-rivoluzionario",
+      "position": 0
+    },
+    {
+      "cluster_id": "beb7fce1-69a8-239a-0130-86a395d71341",
+      "lexeme_id": "lex-it-pionieristico",
+      "position": 1
+    },
+    {
+      "cluster_id": "d96af742-49f7-ce08-fb1b-4fac49963a3c",
+      "lexeme_id": "lexeme-en-c2-invalidate",
+      "position": 2
+    },
+    {
+      "cluster_id": "37d8bb0e-0751-caaa-81b7-3750cf0c792c",
+      "lexeme_id": "lex-en-groundbreaking",
+      "position": 0
+    },
+    {
+      "cluster_id": "37d8bb0e-0751-caaa-81b7-3750cf0c792c",
+      "lexeme_id": "lex-en-pioneering",
+      "position": 1
+    }
+  ],
   "concept_relations": [
+    {
+      "relation_id": "acbcf227-9d20-0a93-8801-2adf9d5eb074",
+      "relation_type": "antonym",
+      "concept_a": "2e769167-00e6-f086-d72a-4e96521fa4ce",
+      "concept_b": "concept-c2-ueberragend",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "febc376a-0b37-e3a5-ed7b-d9b8b3c9ff31",
+      "relation_type": "antonym",
+      "concept_a": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "concept_b": "concept-c2-ambivalent",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "0c261567-df13-4983-a0d3-46f77b9a5ce0",
+      "relation_type": "antonym",
+      "concept_a": "concept-b1-durchschnittlich",
+      "concept_b": "concept-c2-ueberragend",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "b90771f4-8ba4-cdaa-48c4-7870fc76075f",
+      "relation_type": "antonym",
+      "concept_a": "concept-b2-eindeutig",
+      "concept_b": "concept-c2-ambivalent",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "4b04aa78-27a5-17c7-cbd5-648d24e2d442",
+      "relation_type": "antonym",
+      "concept_a": "concept-b2-strittig",
+      "concept_b": "concept-c2-unumstritten",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
     {
       "relation_id": "3f933453-0ade-a957-53a3-8a3a9800d45b",
       "relation_type": "antonym",
@@ -14618,6 +14757,50 @@
       "relation_type": "antonym",
       "concept_a": "concept-c1-stichhaltig",
       "concept_b": "concept-c2-widerspruechlich",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "4ecc0545-1e91-d8ef-366c-7d3482a86a5d",
+      "relation_type": "synonym",
+      "concept_a": "concept-b2-ausdauer",
+      "concept_b": "concept-c2-beharrlichkeit",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "a91fc118-2695-6ed3-53f0-9d95afc95e2d",
+      "relation_type": "synonym",
+      "concept_a": "concept-b2-belegen",
+      "concept_b": "concept-c2-untermauern",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "a050f1fb-735e-7634-8a69-3651785879bd",
+      "relation_type": "synonym",
+      "concept_a": "concept-b2-grundlegend",
+      "concept_b": "concept-c2-tiefgreifend",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "03c7e30c-ba06-e1ab-ed30-8b9ce82b323d",
+      "relation_type": "synonym",
+      "concept_a": "concept-b2-nuance",
+      "concept_b": "concept-c2-feinheit",
+      "tier": "close",
       "lang_scope_json": [
         "de"
       ],

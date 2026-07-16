@@ -2470,6 +2470,111 @@
       "lang": "de",
       "label": "connector confusables",
       "type": "confusables"
+    },
+    {
+      "cluster_id": "a33579e5-aed3-62cf-fe60-718ac9745634",
+      "lang": "de",
+      "label": "synonyms: oft +5",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "0fa8f147-3071-d8e4-4b9f-79a57be488b7",
+      "lang": "de",
+      "label": "synonyms: zuletzt +3",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "27ddb271-39ee-033e-f984-94318c49e8d8",
+      "lang": "de",
+      "label": "synonyms: teilnehmen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "36e311b4-f005-5fd7-baff-bf0d5d94d664",
+      "lang": "de",
+      "label": "synonyms: auf Dauer",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "343b1b87-0dbc-3cd5-15f0-57d445faa531",
+      "lang": "de",
+      "label": "synonyms: außerdem +3",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "4969a31d-327d-ea11-109e-57b1ceed6534",
+      "lang": "it",
+      "label": "synonyms: spesso +5",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "59cfcb17-cfe2-106d-aadd-73d50ef75256",
+      "lang": "it",
+      "label": "synonyms: per ultimo +3",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "3b6502d2-60f6-5136-f568-2dad099d115b",
+      "lang": "it",
+      "label": "synonyms: partecipare",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c7c57a5b-5de0-38c9-ac61-12551beb0fc7",
+      "lang": "it",
+      "label": "synonyms: alla lunga",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "d71ac862-6790-98b5-0662-f6590cd393ab",
+      "lang": "it",
+      "label": "synonyms: inoltre +3",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c30c80d1-18ff-5fa1-e8ed-142e1ba23a8e",
+      "lang": "en",
+      "label": "synonyms: often +5",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "3b6d9e53-86fa-03fe-ff16-10ea8de73129",
+      "lang": "en",
+      "label": "synonyms: lastly +3",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "235943cc-0736-a0f8-813b-12a9a542df1a",
+      "lang": "en",
+      "label": "synonyms: to participate",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c43521b9-a296-6df4-f61e-94492bdd8458",
+      "lang": "en",
+      "label": "synonyms: in the long run",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a96760a5-1c14-0564-cc8f-a1f8d7e68c7f",
+      "lang": "en",
+      "label": "synonyms: moreover +3",
+      "type": "semantic",
+      "auto": true
     }
   ],
   "cluster_members": [
@@ -2477,6 +2582,81 @@
       "cluster_id": "55255ad4-c6d5-d2c2-f25d-af8d91e95f01",
       "lexeme_id": "lex-de-am-ende",
       "position": 6
+    },
+    {
+      "cluster_id": "a33579e5-aed3-62cf-fe60-718ac9745634",
+      "lexeme_id": "lex-de-in-der-regel",
+      "position": 3
+    },
+    {
+      "cluster_id": "0fa8f147-3071-d8e4-4b9f-79a57be488b7",
+      "lexeme_id": "lex-de-am-ende",
+      "position": 2
+    },
+    {
+      "cluster_id": "27ddb271-39ee-033e-f984-94318c49e8d8",
+      "lexeme_id": "lex-de-rolle-spielen",
+      "position": 1
+    },
+    {
+      "cluster_id": "36e311b4-f005-5fd7-baff-bf0d5d94d664",
+      "lexeme_id": "lex-de-auf-dauer",
+      "position": 0
+    },
+    {
+      "cluster_id": "343b1b87-0dbc-3cd5-15f0-57d445faa531",
+      "lexeme_id": "lex-de-unter-anderem",
+      "position": 2
+    },
+    {
+      "cluster_id": "4969a31d-327d-ea11-109e-57b1ceed6534",
+      "lexeme_id": "lex-it-di-solito",
+      "position": 3
+    },
+    {
+      "cluster_id": "59cfcb17-cfe2-106d-aadd-73d50ef75256",
+      "lexeme_id": "lex-it-alla-fine",
+      "position": 2
+    },
+    {
+      "cluster_id": "3b6502d2-60f6-5136-f568-2dad099d115b",
+      "lexeme_id": "lex-it-avere-un-ruolo",
+      "position": 1
+    },
+    {
+      "cluster_id": "c7c57a5b-5de0-38c9-ac61-12551beb0fc7",
+      "lexeme_id": "lex-it-alla-lunga",
+      "position": 0
+    },
+    {
+      "cluster_id": "d71ac862-6790-98b5-0662-f6590cd393ab",
+      "lexeme_id": "lex-it-tra-l-altro",
+      "position": 2
+    },
+    {
+      "cluster_id": "c30c80d1-18ff-5fa1-e8ed-142e1ba23a8e",
+      "lexeme_id": "lex-en-as-a-rule",
+      "position": 3
+    },
+    {
+      "cluster_id": "3b6d9e53-86fa-03fe-ff16-10ea8de73129",
+      "lexeme_id": "lex-en-in-the-end",
+      "position": 2
+    },
+    {
+      "cluster_id": "235943cc-0736-a0f8-813b-12a9a542df1a",
+      "lexeme_id": "lex-en-play-a-role",
+      "position": 1
+    },
+    {
+      "cluster_id": "c43521b9-a296-6df4-f61e-94492bdd8458",
+      "lexeme_id": "lex-en-in-the-long-run",
+      "position": 0
+    },
+    {
+      "cluster_id": "a96760a5-1c14-0564-cc8f-a1f8d7e68c7f",
+      "lexeme_id": "lex-en-among-other-things",
+      "position": 2
     }
   ],
   "concept_relations": [
@@ -2484,6 +2664,16 @@
       "relation_id": "972d4d87-5aa9-b6c4-6536-f6aedc35ec33",
       "relation_type": "antonym",
       "concept_a": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "concept_b": "concept-b1-in-der-regel",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "4ff9eb3e-65d7-b38e-b67c-c070988b1f1b",
+      "relation_type": "antonym",
+      "concept_a": "7c543f94-d74e-9ac0-b2c6-ca36a56b6c70",
       "concept_b": "concept-b1-in-der-regel",
       "lang_scope_json": [
         "de"
@@ -2507,6 +2697,17 @@
       "concept_b": "dcac462c-da14-34b2-8201-977a04e36d35",
       "lang_scope_json": [
         "en"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "c702a580-28e1-7500-1357-4d04df246dac",
+      "relation_type": "synonym",
+      "concept_a": "0bed6967-2ba5-ca39-d70b-646e23f07493",
+      "concept_b": "concept-b1-nach-wie-vor",
+      "tier": "close",
+      "lang_scope_json": [
+        "it"
       ],
       "source": "ai"
     },

@@ -14934,9 +14934,742 @@
       "hint_text": null
     }
   ],
-  "clusters": [],
-  "cluster_members": [],
+  "clusters": [
+    {
+      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
+      "lang": "de",
+      "label": "synonyms: wichtig +8",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "cf937f95-1447-7671-ca8d-c5fdf10ea58a",
+      "lang": "de",
+      "label": "synonyms: bewerten +5",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "0e741954-5121-a787-bfff-9faeabcba3ba",
+      "lang": "de",
+      "label": "synonyms: herausfordernd",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "7d025fe5-6e8a-186b-8f10-867accd29b29",
+      "lang": "de",
+      "label": "synonyms: klarstellen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c5ab0b74-577e-c417-75f6-f555b529e55a",
+      "lang": "de",
+      "label": "synonyms: leisten",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "41a82da2-daa8-fbda-6f0a-151f1fec6473",
+      "lang": "de",
+      "label": "synonyms: robust",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "d4527717-678f-5669-a6bd-2abce36aa103",
+      "lang": "de",
+      "label": "synonyms: überzeugend +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "0eedd7cb-6740-fa7d-8099-788473a708ec",
+      "lang": "de",
+      "label": "synonyms: unklar +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "f60df95e-7055-fef3-2dfa-4f3aa9b452ba",
+      "lang": "de",
+      "label": "synonyms: verhandeln",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c5c2b1e1-b2f7-66f3-321b-ec4388bbae04",
+      "lang": "de",
+      "label": "synonyms: widersprechen +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "9a8b83d2-7012-e4c7-0a54-e99a1842b0fb",
+      "lang": "de",
+      "label": "synonyms: zusammenhängen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "f3648ffe-37a2-4bc6-2c54-ef1c8f28e86c",
+      "lang": "de",
+      "label": "synonyms: ableiten",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "27cedf41-eaeb-2ee2-4d6c-3565867a7491",
+      "lang": "de",
+      "label": "synonyms: die Beurteilung",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a03a2b8b-17b6-b64d-b652-638422908140",
+      "lang": "de",
+      "label": "synonyms: die Folgerung",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "b8288c9e-2cca-e04f-4de6-84257b41d4c5",
+      "lang": "de",
+      "label": "synonyms: das Kriterium",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "8f6d4672-beb6-fe7d-0778-5fac13709fe6",
+      "lang": "de",
+      "label": "synonyms: strukturiert",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
+      "lang": "it",
+      "label": "synonyms: importante +8",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "e7e1470d-f101-6620-0c06-f547561c426f",
+      "lang": "it",
+      "label": "synonyms: valutare +5",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "0f2e1e70-80fd-da31-91b0-f2608500805b",
+      "lang": "it",
+      "label": "synonyms: impegnativo",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "4d04d894-0cb6-7c63-1dd3-52e9b10065b6",
+      "lang": "it",
+      "label": "synonyms: mettere in chiaro",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "987dacf6-620b-74ee-863e-031d3c11fc02",
+      "lang": "it",
+      "label": "synonyms: realizzare",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "6f7cf015-e87b-7833-2fa4-1c10f1a0ba89",
+      "lang": "it",
+      "label": "synonyms: robusto",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a4cf3095-aadc-c83f-e455-bfd5c4ff07d8",
+      "lang": "it",
+      "label": "synonyms: convincente +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "d11c1ab7-fc58-56bc-853c-6386f574f62c",
+      "lang": "it",
+      "label": "synonyms: poco chiaro +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "880e35b8-2570-70dd-1161-94bf3c29cfd5",
+      "lang": "it",
+      "label": "synonyms: negoziare",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "3bb7ad2a-bd94-5fc1-1cc6-5426928f2549",
+      "lang": "it",
+      "label": "synonyms: contraddire +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "aea325c7-ede7-d478-5e01-43f66d350a48",
+      "lang": "it",
+      "label": "synonyms: essere collegato",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "4ef18b48-c473-41e4-927c-8889c9f6cbc2",
+      "lang": "it",
+      "label": "synonyms: derivare",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "3fbb9e20-fc78-681d-119f-524aabbd1cb4",
+      "lang": "it",
+      "label": "synonyms: la valutazione",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "8b55bbfc-4ec3-416f-6fb7-b04febba1baf",
+      "lang": "it",
+      "label": "synonyms: la deduzione",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "7ad2e7be-8583-d209-f0f8-92389b063f54",
+      "lang": "it",
+      "label": "synonyms: il criterio",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "12f9e80a-4a4b-65f6-a9fe-055743f7fa80",
+      "lang": "it",
+      "label": "synonyms: strutturato",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
+      "lang": "en",
+      "label": "synonyms: important +8",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "4d643b66-a04b-3eee-f61e-cbe583222c5e",
+      "lang": "en",
+      "label": "synonyms: to evaluate +5",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "3b6b8fc2-00a7-33ff-3eac-0d57622fcf70",
+      "lang": "en",
+      "label": "synonyms: challenging",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "0c547b10-f35a-5445-2e42-e20b7bc8b035",
+      "lang": "en",
+      "label": "synonyms: to make clear",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "0dc5fe90-716c-be3d-aaa3-2e0b7443ac6d",
+      "lang": "en",
+      "label": "synonyms: to accomplish",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "66dacc78-7e9d-9400-3212-20bbc842a883",
+      "lang": "en",
+      "label": "synonyms: robust",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "db5088e5-67d0-f95f-3210-c1647ac4f520",
+      "lang": "en",
+      "label": "synonyms: convincing +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "300d6abd-b1f6-3f27-0729-584bf53b2ed4",
+      "lang": "en",
+      "label": "synonyms: unclear +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "9415671c-d8a1-cd51-84f4-984a6a4d89db",
+      "lang": "en",
+      "label": "synonyms: to negotiate",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "d96af742-49f7-ce08-fb1b-4fac49963a3c",
+      "lang": "en",
+      "label": "synonyms: to contradict +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "10b7886e-b24a-69f7-dafc-496d98af0dca",
+      "lang": "en",
+      "label": "synonyms: to be connected",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "968e0371-9f8b-e02d-6fb3-922d2d305c36",
+      "lang": "en",
+      "label": "synonyms: to derive",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "6035d16f-8506-8241-2b9d-de2d756c39d8",
+      "lang": "en",
+      "label": "synonyms: the assessment",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "7b8e5fad-f83e-7f03-a15c-4d117add10f1",
+      "lang": "en",
+      "label": "synonyms: the inference",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "9c6364b3-9e65-690a-5049-c690d8034f5b",
+      "lang": "en",
+      "label": "synonyms: the criterion",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "6d08e30c-da95-b888-7610-9077fb19afdc",
+      "lang": "en",
+      "label": "synonyms: structured",
+      "type": "semantic",
+      "auto": true
+    }
+  ],
+  "cluster_members": [
+    {
+      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
+      "lexeme_id": "lex-de-zentral",
+      "position": 6
+    },
+    {
+      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
+      "lexeme_id": "lex-de-massgeblich",
+      "position": 8
+    },
+    {
+      "cluster_id": "cf937f95-1447-7671-ca8d-c5fdf10ea58a",
+      "lexeme_id": "lex-de-beurteilen",
+      "position": 4
+    },
+    {
+      "cluster_id": "cf937f95-1447-7671-ca8d-c5fdf10ea58a",
+      "lexeme_id": "lex-de-einordnen",
+      "position": 5
+    },
+    {
+      "cluster_id": "0e741954-5121-a787-bfff-9faeabcba3ba",
+      "lexeme_id": "lexeme-de-c1-anspruchsvoll",
+      "position": 1
+    },
+    {
+      "cluster_id": "7d025fe5-6e8a-186b-8f10-867accd29b29",
+      "lexeme_id": "lexeme-de-c1-verdeutlichen",
+      "position": 1
+    },
+    {
+      "cluster_id": "c5ab0b74-577e-c417-75f6-f555b529e55a",
+      "lexeme_id": "lex-de-erbringen",
+      "position": 1
+    },
+    {
+      "cluster_id": "41a82da2-daa8-fbda-6f0a-151f1fec6473",
+      "lexeme_id": "lex-de-leistungsfahig",
+      "position": 1
+    },
+    {
+      "cluster_id": "d4527717-678f-5669-a6bd-2abce36aa103",
+      "lexeme_id": "lex-de-plausibel",
+      "position": 1
+    },
+    {
+      "cluster_id": "d4527717-678f-5669-a6bd-2abce36aa103",
+      "lexeme_id": "lex-de-stichhaltig",
+      "position": 2
+    },
+    {
+      "cluster_id": "d4527717-678f-5669-a6bd-2abce36aa103",
+      "lexeme_id": "lex-de-nachvollziehbar",
+      "position": 4
+    },
+    {
+      "cluster_id": "0eedd7cb-6740-fa7d-8099-788473a708ec",
+      "lexeme_id": "lex-de-missverstandlich",
+      "position": 2
+    },
+    {
+      "cluster_id": "f60df95e-7055-fef3-2dfa-4f3aa9b452ba",
+      "lexeme_id": "lex-de-aushandeln",
+      "position": 1
+    },
+    {
+      "cluster_id": "c5c2b1e1-b2f7-66f3-321b-ec4388bbae04",
+      "lexeme_id": "lex-de-widerlegen",
+      "position": 1
+    },
+    {
+      "cluster_id": "9a8b83d2-7012-e4c7-0a54-e99a1842b0fb",
+      "lexeme_id": "lex-de-verknupfen",
+      "position": 1
+    },
+    {
+      "cluster_id": "f3648ffe-37a2-4bc6-2c54-ef1c8f28e86c",
+      "lexeme_id": "lex-de-ableiten",
+      "position": 0
+    },
+    {
+      "cluster_id": "f3648ffe-37a2-4bc6-2c54-ef1c8f28e86c",
+      "lexeme_id": "lex-de-herleiten",
+      "position": 1
+    },
+    {
+      "cluster_id": "27cedf41-eaeb-2ee2-4d6c-3565867a7491",
+      "lexeme_id": "lex-de-die-beurteilung",
+      "position": 0
+    },
+    {
+      "cluster_id": "27cedf41-eaeb-2ee2-4d6c-3565867a7491",
+      "lexeme_id": "lex-de-einschatzung",
+      "position": 1
+    },
+    {
+      "cluster_id": "a03a2b8b-17b6-b64d-b652-638422908140",
+      "lexeme_id": "lex-de-die-folgerung",
+      "position": 0
+    },
+    {
+      "cluster_id": "a03a2b8b-17b6-b64d-b652-638422908140",
+      "lexeme_id": "lex-de-die-schlussfolgerung",
+      "position": 1
+    },
+    {
+      "cluster_id": "b8288c9e-2cca-e04f-4de6-84257b41d4c5",
+      "lexeme_id": "lex-de-das-kriterium",
+      "position": 0
+    },
+    {
+      "cluster_id": "b8288c9e-2cca-e04f-4de6-84257b41d4c5",
+      "lexeme_id": "lex-de-der-massstab",
+      "position": 1
+    },
+    {
+      "cluster_id": "8f6d4672-beb6-fe7d-0778-5fac13709fe6",
+      "lexeme_id": "lex-de-strukturiert",
+      "position": 0
+    },
+    {
+      "cluster_id": "8f6d4672-beb6-fe7d-0778-5fac13709fe6",
+      "lexeme_id": "lex-de-systematisch",
+      "position": 1
+    },
+    {
+      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
+      "lexeme_id": "lex-it-centrale",
+      "position": 6
+    },
+    {
+      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
+      "lexeme_id": "lex-it-determinante",
+      "position": 8
+    },
+    {
+      "cluster_id": "e7e1470d-f101-6620-0c06-f547561c426f",
+      "lexeme_id": "lex-it-giudicare",
+      "position": 4
+    },
+    {
+      "cluster_id": "e7e1470d-f101-6620-0c06-f547561c426f",
+      "lexeme_id": "lex-it-inquadrare",
+      "position": 5
+    },
+    {
+      "cluster_id": "0f2e1e70-80fd-da31-91b0-f2608500805b",
+      "lexeme_id": "lexeme-it-c1-esigente",
+      "position": 1
+    },
+    {
+      "cluster_id": "4d04d894-0cb6-7c63-1dd3-52e9b10065b6",
+      "lexeme_id": "lexeme-it-c1-esplicitare",
+      "position": 1
+    },
+    {
+      "cluster_id": "987dacf6-620b-74ee-863e-031d3c11fc02",
+      "lexeme_id": "lex-it-fornire",
+      "position": 1
+    },
+    {
+      "cluster_id": "6f7cf015-e87b-7833-2fa4-1c10f1a0ba89",
+      "lexeme_id": "lex-it-performante",
+      "position": 1
+    },
+    {
+      "cluster_id": "a4cf3095-aadc-c83f-e455-bfd5c4ff07d8",
+      "lexeme_id": "lex-it-plausibile",
+      "position": 1
+    },
+    {
+      "cluster_id": "a4cf3095-aadc-c83f-e455-bfd5c4ff07d8",
+      "lexeme_id": "lex-it-valido",
+      "position": 2
+    },
+    {
+      "cluster_id": "a4cf3095-aadc-c83f-e455-bfd5c4ff07d8",
+      "lexeme_id": "lex-it-comprensibile",
+      "position": 4
+    },
+    {
+      "cluster_id": "d11c1ab7-fc58-56bc-853c-6386f574f62c",
+      "lexeme_id": "lex-it-equivoco",
+      "position": 2
+    },
+    {
+      "cluster_id": "880e35b8-2570-70dd-1161-94bf3c29cfd5",
+      "lexeme_id": "lex-it-pattuire",
+      "position": 1
+    },
+    {
+      "cluster_id": "3bb7ad2a-bd94-5fc1-1cc6-5426928f2549",
+      "lexeme_id": "lex-it-confutare",
+      "position": 1
+    },
+    {
+      "cluster_id": "aea325c7-ede7-d478-5e01-43f66d350a48",
+      "lexeme_id": "lex-it-collegare",
+      "position": 1
+    },
+    {
+      "cluster_id": "4ef18b48-c473-41e4-927c-8889c9f6cbc2",
+      "lexeme_id": "lex-it-derivare",
+      "position": 0
+    },
+    {
+      "cluster_id": "4ef18b48-c473-41e4-927c-8889c9f6cbc2",
+      "lexeme_id": "lex-it-dedurre",
+      "position": 1
+    },
+    {
+      "cluster_id": "3fbb9e20-fc78-681d-119f-524aabbd1cb4",
+      "lexeme_id": "lex-it-la-valutazione",
+      "position": 0
+    },
+    {
+      "cluster_id": "3fbb9e20-fc78-681d-119f-524aabbd1cb4",
+      "lexeme_id": "lex-it-valutazione",
+      "position": 1
+    },
+    {
+      "cluster_id": "8b55bbfc-4ec3-416f-6fb7-b04febba1baf",
+      "lexeme_id": "lex-it-la-deduzione",
+      "position": 0
+    },
+    {
+      "cluster_id": "8b55bbfc-4ec3-416f-6fb7-b04febba1baf",
+      "lexeme_id": "lex-it-la-conclusione",
+      "position": 1
+    },
+    {
+      "cluster_id": "7ad2e7be-8583-d209-f0f8-92389b063f54",
+      "lexeme_id": "lex-it-il-criterio",
+      "position": 0
+    },
+    {
+      "cluster_id": "7ad2e7be-8583-d209-f0f8-92389b063f54",
+      "lexeme_id": "lex-it-il-parametro",
+      "position": 1
+    },
+    {
+      "cluster_id": "12f9e80a-4a4b-65f6-a9fe-055743f7fa80",
+      "lexeme_id": "lex-it-strutturato",
+      "position": 0
+    },
+    {
+      "cluster_id": "12f9e80a-4a4b-65f6-a9fe-055743f7fa80",
+      "lexeme_id": "lex-it-sistematico",
+      "position": 1
+    },
+    {
+      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
+      "lexeme_id": "lex-en-central",
+      "position": 6
+    },
+    {
+      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
+      "lexeme_id": "lex-en-decisive",
+      "position": 8
+    },
+    {
+      "cluster_id": "4d643b66-a04b-3eee-f61e-cbe583222c5e",
+      "lexeme_id": "lex-en-to-assess-2",
+      "position": 4
+    },
+    {
+      "cluster_id": "4d643b66-a04b-3eee-f61e-cbe583222c5e",
+      "lexeme_id": "lex-en-to-put-in-context",
+      "position": 5
+    },
+    {
+      "cluster_id": "3b6b8fc2-00a7-33ff-3eac-0d57622fcf70",
+      "lexeme_id": "lexeme-en-c1-demanding",
+      "position": 1
+    },
+    {
+      "cluster_id": "0c547b10-f35a-5445-2e42-e20b7bc8b035",
+      "lexeme_id": "lexeme-en-c1-elucidate",
+      "position": 1
+    },
+    {
+      "cluster_id": "0dc5fe90-716c-be3d-aaa3-2e0b7443ac6d",
+      "lexeme_id": "lex-en-to-provide",
+      "position": 1
+    },
+    {
+      "cluster_id": "66dacc78-7e9d-9400-3212-20bbc842a883",
+      "lexeme_id": "lex-en-high-performing",
+      "position": 1
+    },
+    {
+      "cluster_id": "db5088e5-67d0-f95f-3210-c1647ac4f520",
+      "lexeme_id": "lex-en-plausible",
+      "position": 1
+    },
+    {
+      "cluster_id": "db5088e5-67d0-f95f-3210-c1647ac4f520",
+      "lexeme_id": "lex-en-sound",
+      "position": 2
+    },
+    {
+      "cluster_id": "db5088e5-67d0-f95f-3210-c1647ac4f520",
+      "lexeme_id": "lex-en-understandable",
+      "position": 4
+    },
+    {
+      "cluster_id": "300d6abd-b1f6-3f27-0729-584bf53b2ed4",
+      "lexeme_id": "lex-en-open-to-misunderstanding",
+      "position": 2
+    },
+    {
+      "cluster_id": "9415671c-d8a1-cd51-84f4-984a6a4d89db",
+      "lexeme_id": "lex-en-to-hammer-out",
+      "position": 1
+    },
+    {
+      "cluster_id": "d96af742-49f7-ce08-fb1b-4fac49963a3c",
+      "lexeme_id": "lex-en-to-refute",
+      "position": 1
+    },
+    {
+      "cluster_id": "10b7886e-b24a-69f7-dafc-496d98af0dca",
+      "lexeme_id": "lex-en-to-link",
+      "position": 1
+    },
+    {
+      "cluster_id": "968e0371-9f8b-e02d-6fb3-922d2d305c36",
+      "lexeme_id": "lex-en-to-derive",
+      "position": 0
+    },
+    {
+      "cluster_id": "968e0371-9f8b-e02d-6fb3-922d2d305c36",
+      "lexeme_id": "lex-en-to-deduce",
+      "position": 1
+    },
+    {
+      "cluster_id": "6035d16f-8506-8241-2b9d-de2d756c39d8",
+      "lexeme_id": "lex-en-the-assessment",
+      "position": 0
+    },
+    {
+      "cluster_id": "6035d16f-8506-8241-2b9d-de2d756c39d8",
+      "lexeme_id": "lex-en-assessment",
+      "position": 1
+    },
+    {
+      "cluster_id": "7b8e5fad-f83e-7f03-a15c-4d117add10f1",
+      "lexeme_id": "lex-en-the-inference",
+      "position": 0
+    },
+    {
+      "cluster_id": "7b8e5fad-f83e-7f03-a15c-4d117add10f1",
+      "lexeme_id": "lex-en-the-conclusion",
+      "position": 1
+    },
+    {
+      "cluster_id": "9c6364b3-9e65-690a-5049-c690d8034f5b",
+      "lexeme_id": "lex-en-the-criterion",
+      "position": 0
+    },
+    {
+      "cluster_id": "9c6364b3-9e65-690a-5049-c690d8034f5b",
+      "lexeme_id": "lex-en-the-benchmark",
+      "position": 1
+    },
+    {
+      "cluster_id": "6d08e30c-da95-b888-7610-9077fb19afdc",
+      "lexeme_id": "lex-en-structured",
+      "position": 0
+    },
+    {
+      "cluster_id": "6d08e30c-da95-b888-7610-9077fb19afdc",
+      "lexeme_id": "lex-en-systematic",
+      "position": 1
+    }
+  ],
   "concept_relations": [
+    {
+      "relation_id": "be7f3dbb-30ae-164a-71ca-7ea72138aed9",
+      "relation_type": "antonym",
+      "concept_a": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "concept_b": "concept-c1-missverstaendlich",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "85464a54-d113-9a75-d5f7-4c115be8e93c",
+      "relation_type": "antonym",
+      "concept_a": "concept-a2-vorschlag",
+      "concept_b": "concept-c1-einwand",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
     {
       "relation_id": "456fba60-6328-8af6-a836-a8aa729f6b94",
       "relation_type": "antonym",
@@ -15028,6 +15761,137 @@
       "relation_type": "antonym",
       "concept_a": "concept-c1-stichhaltig",
       "concept_b": "concept-c2-widerspruechlich",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "75735d22-7c77-93eb-3700-e6ef154ade53",
+      "relation_type": "antonym",
+      "concept_a": "concept-c1-zentral",
+      "concept_b": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "c2c97308-a9da-ed4f-9358-6c6ae7342ddb",
+      "relation_type": "synonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "concept-c1-massgeblich",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "2ad9d659-ab2b-90b7-adc2-e661128ecdd8",
+      "relation_type": "synonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "concept-c1-zentral",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "755f2a50-5ffa-9b6c-604d-e63731ee04bf",
+      "relation_type": "synonym",
+      "concept_a": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "concept_b": "concept-c1-nachvollziehbar",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "5450980e-a45b-96b5-7a09-4d72d36f893f",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-deutlich",
+      "concept_b": "concept-c1-nachvollziehbar",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "deb3f947-51b4-1a8c-3f84-a5a6b5094a10",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-ergebnis",
+      "concept_b": "concept-c1-schlussfolgerung",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "9aafe45d-21d2-0a83-fb25-793228060f7c",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-behandeln",
+      "concept_b": "concept-c1-bewaeltigen",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "7acd177a-2d47-cb4f-97c9-8c1f040eb87c",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-bewerten",
+      "concept_b": "concept-c1-beurteilen",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "114b51b9-abbc-66f3-2b4c-4b237d678319",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-entscheidend",
+      "concept_b": "concept-c1-massgeblich",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "4d62de09-d3fd-105f-5f05-e5aa99e22be9",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-kritik",
+      "concept_b": "concept-c1-einwand",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "275ef921-57f3-c719-7289-0a9fe52ae860",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-umgehen",
+      "concept_b": "concept-c1-bewaeltigen",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "43a037b8-b3cd-d25f-0b23-d88786aae392",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-voraussetzung",
+      "concept_b": "concept-c1-praemisse",
+      "tier": "close",
       "lang_scope_json": [
         "de"
       ],

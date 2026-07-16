@@ -2386,8 +2386,46 @@
       "hint_text": null
     }
   ],
-  "clusters": [],
-  "cluster_members": [],
+  "clusters": [
+    {
+      "cluster_id": "6d19e46a-5728-d625-e8b8-33153504ea10",
+      "lang": "de",
+      "label": "synonyms: auf den Punkt bringen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "6c464152-5099-4d32-73da-b334fd1c0aa2",
+      "lang": "it",
+      "label": "synonyms: andare dritto al punto",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "9793f0ba-1feb-5ca6-0c98-da00b32f7250",
+      "lang": "en",
+      "label": "synonyms: to put it in a nutshell",
+      "type": "semantic",
+      "auto": true
+    }
+  ],
+  "cluster_members": [
+    {
+      "cluster_id": "6d19e46a-5728-d625-e8b8-33153504ea10",
+      "lexeme_id": "lexeme-de-b2-auf-den-punkt-bringen",
+      "position": 0
+    },
+    {
+      "cluster_id": "6c464152-5099-4d32-73da-b334fd1c0aa2",
+      "lexeme_id": "lexeme-it-b2-andare-dritto-al-punto",
+      "position": 0
+    },
+    {
+      "cluster_id": "9793f0ba-1feb-5ca6-0c98-da00b32f7250",
+      "lexeme_id": "lexeme-en-b2-in-a-nutshell",
+      "position": 0
+    }
+  ],
   "concept_relations": [
     {
       "relation_id": "c7ac37d5-071e-b795-53cd-82477f3b527c",

@@ -3,7 +3,7 @@
 [![CI](https://github.com/massimomazzariol/Lexicon/actions/workflows/ci.yml/badge.svg)](https://github.com/massimomazzariol/Lexicon/actions/workflows/ci.yml)
 [![Content explorer](https://img.shields.io/badge/demo-content%20explorer-brightgreen.svg)](https://massimomazzariol.github.io/Lexicon/)
 [![Code License](https://img.shields.io/badge/code-Apache--2.0-blue.svg)](LICENSE)
-[![Content License](https://img.shields.io/badge/content-CC%20BY%204.0-green.svg)](LICENSE-CONTENT.md)
+[![Content License](https://img.shields.io/badge/content-CC%20BY%204.0-green.svg)](docs/CONTENT_LICENSE.md)
 
 **[Browse the content live](https://massimomazzariol.github.io/Lexicon/)** - the
 explorer reads the exact distribution consumers download: 646 concepts across
@@ -94,4 +94,4 @@ access here (on a fork it publishes to the fork's own Releases). Without
 
 Code (`tools/`) is `Apache-2.0`; lexical content, packs, and docs are `CC BY 4.0`
 unless noted otherwise, keeping the repository open and reusable while preserving
-attribution. See `LICENSE`, `LICENSE-CONTENT.md`, `NOTICE`, `ATTRIBUTION.md`.
+attribution. See `LICENSE`, `docs/CONTENT_LICENSE.md`, `NOTICE`, `ATTRIBUTION.md`.

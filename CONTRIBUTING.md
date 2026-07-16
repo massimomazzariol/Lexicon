@@ -73,5 +73,5 @@ repository licensing model:
 See:
 
 - `LICENSE`
-- `LICENSE-CONTENT.md`
+- `docs/CONTENT_LICENSE.md`
 - `ATTRIBUTION.md`

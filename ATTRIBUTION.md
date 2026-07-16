@@ -18,7 +18,7 @@ For software integrations or code reuse:
 
 - Repository: https://github.com/massimomazzariol/Lexicon
 - Code license: `LICENSE`
-- Content license: `LICENSE-CONTENT.md`
+- Content license: `docs/CONTENT_LICENSE.md`
 
 ## If You Modified The Material
 

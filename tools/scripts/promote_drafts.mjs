@@ -77,7 +77,7 @@ function main() {
         concept_id: cid,
         pos: d.concept?.pos ?? null,
         // Auto-derived from the level (same contract as upsert) - never null, or
-        // the app's importer rejects the concept (Invalid int for difficulty_score_auto).
+        // a consumer importer rejects the concept (Invalid int for difficulty_score_auto).
         difficulty_score_auto: defaultDifficultyForLevel(d.concept?.level ?? 'A1'),
         level_auto: d.concept?.level ?? 'A1',
         level_override: null,

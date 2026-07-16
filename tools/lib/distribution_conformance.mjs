@@ -7,7 +7,7 @@ import path from 'node:path';
  *
  * This is the producer half of the contract guard: Lexicon CI asserts its
  * builder output (and the committed golden fixture) match the contract, so the
- * shape the app codes against cannot silently drift. It walks root_manifest ->
+ * shape consumers code against cannot silently drift. It walks root_manifest ->
  * language indexes -> chunk manifests -> payloads, checking required fields,
  * cross-references (every referenced path resolves), id/language consistency,
  * the single supported contract_version, and that every declared content_hash

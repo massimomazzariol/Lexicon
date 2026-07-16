@@ -40,7 +40,7 @@ const MENU = [
   ['Edit a word', 'change definitions, synonyms, antonyms, examples by hand - tracked, no AI', doEdit],
   ['Add one specific word', 'type a word (typos ok) - the AI corrects & connects it', doAdd],
   ['Grow from gaps', 'add words other entries point to but that are still missing', doExpand],
-  ['Autopilot - fill what is missing', 'runs on its own: fills, publishes & pushes live, chunk by chunk', doFix],
+  ['Autopilot - fill what is missing', 'runs on its own: fills & publishes locally, chunk by chunk - pushing is opt-in', doFix],
   ['Review AI suggestions', 'approve or reject the items waiting for a human', doReview],
   ['Status report', 'see what is done and what still needs work', doStatus],
   ['Publish', 'build the packs + push to GitHub so the app updates', doPublish],
@@ -363,17 +363,17 @@ async function doExpand() {
 // press Enter to go; type 't' only if you want to change them. No flags, no commands.
 async function doFix() {
   console.log(C.dim('\nThe autopilot fills missing definitions, synonyms and examples in small chunks,'));
-  console.log(C.dim('resting the GPU between them, and publishes + pushes after each chunk so the app'));
-  console.log(C.dim('fills in live. Leave it running; it stops on its own when nothing is left.'));
-  let cd = 25, chunk = 20, each = true, push = true;
+  console.log(C.dim('resting the GPU between them, and publishes locally after each chunk. Pushing to'));
+  console.log(C.dim('GitHub is opt-in (type t). Leave it running; it stops on its own when nothing is left.'));
+  let cd = 25, chunk = 20, each = true, push = false;
   const tune = (await ask('\n' + C.b('Press Enter to start') +
-    C.dim('  (auto-publish + auto-push · 20 words/chunk · 25s rest)') +
+    C.dim('  (auto-publish locally · 20 words/chunk · 25s rest · no push)') +
     C.dim('  - or type ') + C.cyan('t') + C.dim(' to change settings: '))).toLowerCase();
   if (tune === 't') {
     cd = Number(await ask(`Rest between chunks, seconds? ${C.dim('[25]')} `)) || 25;
     chunk = Number(await ask(`Words per chunk? ${C.dim('[20]')} `)) || 20;
     each = (await ask(`Publish after each chunk (app fills in live)? ${C.dim('[Y/n]')} `)).toLowerCase() !== 'n';
-    push = each && (await ask(`Push each chunk to GitHub? ${C.dim('[Y/n]')} `)).toLowerCase() !== 'n';
+    push = each && (await ask(`Push each chunk to GitHub? ${C.dim('[y/N]')} `)).toLowerCase() === 'y';
   }
   console.log(push
     ? C.yellow('\n⬆ PUSH LIVE') + C.dim(`: commits + pushes to GitHub ${each ? 'after each chunk - the app sees it as it goes.' : 'at the end.'}`)

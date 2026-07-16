@@ -164,10 +164,10 @@ export function buildCommitMessage(repo, { tag } = {}) {
 
 /**
  * The generation box is the sole pack author: stage packs, commit with a DETAILED message
- * describing exactly what was generated, then push. Skips cleanly if nothing changed.
- * Returns true on a successful commit (and push, when requested).
+ * describing exactly what was generated. Pushes ONLY when asked (push: true) - the public
+ * history gets a curation pass before any push. Returns true on a successful commit.
  */
-export function commitAndPush(repo, { tag, push = true } = {}) {
+export function commitAndPush(repo, { tag, push = false } = {}) {
   const git = (a) => spawnSync('git', a, { stdio: 'inherit', cwd: repo });
   const { subject, body } = buildCommitMessage(repo, { tag }); // compute before staging (diff = HEAD vs tree)
   console.log(`\n  commit: ${subject}`);

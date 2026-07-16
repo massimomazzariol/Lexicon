@@ -2325,8 +2325,6 @@
         "without a doubt"
       ],
       "antonyms_json": [
-        "maybe",
-        "never",
         "absolutely not"
       ],
       "antonym_policy_json": null,
@@ -2345,9 +2343,7 @@
         "jedenfalls",
         "sicherlich"
       ],
-      "antonyms_json": [
-        "vielleicht"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -2362,11 +2358,7 @@
         "comunque",
         "senz'altro"
       ],
-      "antonyms_json": [
-        "forse",
-        "mai",
-        "assolutamente no"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -2382,7 +2374,6 @@
         "früh"
       ],
       "antonyms_json": [
-        "später",
         "nachträglich"
       ],
       "antonym_policy_json": {
@@ -2432,12 +2423,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "derzeit",
-        "jetzt",
         "aktuell"
       ],
       "antonyms_json": [
-        "später",
         "nicht jetzt"
       ],
       "antonym_policy_json": {
@@ -2696,11 +2684,8 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "keinesfalls"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
-        "auf jeden Fall",
         "selbstverständlich"
       ],
       "antonym_policy_json": null,
@@ -2714,9 +2699,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "in ogni caso"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -2743,7 +2726,6 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "ein Problem",
         "eine Schwierigkeit"
       ],
       "antonym_policy_json": {

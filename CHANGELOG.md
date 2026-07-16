@@ -4,6 +4,36 @@ All notable changes to this repository will be documented in this file.
 Concept-level lexical-content history lives in
 `docs/reference/CONTENT_CHANGELOG.md`.
 
+## [Unreleased]
+
+- Content: flat synonym and antonym strings become a real concept graph:
+  concept_relations edges (synonym/antonym/related) with level adjacency,
+  a mutual-only automatic writer, and a human review queue for everything
+  ambiguous. CONTRACT.md documents the new optional field; consumers that
+  ignore it keep working.
+- Content: noun plural coverage completed across A1 to C2 (German plurals
+  on the lexeme, Italian and English via morphology overrides, genuine
+  mass nouns marked as uncountable).
+- Tooling: retired three completed one-shot maintenance scripts
+  (fix_de_prose_umlauts, fix_synonym_sets, apply_antonym_entries); their
+  curated data files stay as provenance and git history keeps the scripts.
+  The live maintenance tools are documented in docs/reference/TOOLS.md.
+- Tooling: content commits from the console and autopilot stay local by
+  default; pushing needs the explicit --push flag or the Publish confirm.
+- Docs: the content license note moved to docs/CONTENT_LICENSE.md so GitHub
+  license detection reports Apache-2.0 cleanly; .gitignore is no longer
+  tracked.
+
+## [0.2.2] - 2026-07-14
+
+- Content: the German "einfach" polysemy split into three concepts (the
+  adverb just/simply, the one-way ticket, plain/modest). Closes BUG-ED-04.
+
+## [0.2.1] - 2026-07-10
+
+- Content: editorial pass over the synonym and antonym sets (184 sets
+  repaired across all levels).
+- Demo: the content explorer redesigned with a dictionary-style look.
 ## [0.2.0] - 2026-07-08
 
 Full CEFR coverage and a public content explorer.

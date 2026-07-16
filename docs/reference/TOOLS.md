@@ -122,9 +122,26 @@ All maintained CLI scripts under `tools/pipeline/`, `tools/reports/`, and
 
 ## Maintenance
 
-- `tools/maintenance/apply_antonym_entries.mjs`
-  Applies curated antonym/policy entries into source content. Keep this as a
-  maintenance helper, not as part of the default contributor workflow.
+- `tools/maintenance/apply_noun_plurals.mjs`
+  Applies the curated noun plural completions from
+  `noun_plural_completions.json`: German plurals on the lexeme, Italian and
+  English plurals as morphology overrides, and mass/uncountable markers.
+  Idempotent; preview by default, `--apply` to write.
+
+- `tools/scripts/dedup_concepts.mjs`
+  Merges duplicate concepts (same normalized primary lexeme) into one,
+  retargeting definitions, examples, lexemes, and relation edges. Preview by
+  default, `--apply` to write.
+
+- `tools/scripts/apply_relation_queue.mjs`
+  Applies reviewed human decisions from a relation queue file (synonym,
+  antonym, related, or reject) as manual concept relations. Refuses edges
+  that span more than one CEFR level.
+
+Completed one-shot fixes (transliterated umlauts, synonym set repairs,
+antonym policy backfill) were retired after their runs; their curated data
+files stay in `tools/maintenance/` as provenance and git history keeps the
+scripts.
 
 ## Tests
 

@@ -4,7 +4,7 @@ All notable changes to this repository will be documented in this file.
 Concept-level lexical-content history lives in
 `docs/reference/CONTENT_CHANGELOG.md`.
 
-## [Unreleased]
+## [0.3.0] - 2026-07-16
 
 - Content: flat synonym and antonym strings become a real concept graph:
   concept_relations edges (synonym/antonym/related) with a mutual-only
@@ -14,6 +14,12 @@ Concept-level lexical-content history lives in
   editorial advisory instead of a write blocker. The full queue was
   reviewed: the graph ships with 368 verified links. CONTRACT.md documents
   the new optional field; consumers that ignore it keep working.
+- Content: decided pairs consume their flat strings (733 removed; the edge
+  or the remembered reject is the record now). Dangling strings stay as
+  answer support, ambiguous ones await sense hints, phrases stay by design.
+  Edges are permanent: regeneration only adds, never drops. The content
+  audit counts graph edges as synonym coverage so the autopilot does not
+  refill what the graph already carries.
 - Content: noun plural coverage completed across A1 to C2 (German plurals
   on the lexeme, Italian and English via morphology overrides, genuine
   mass nouns marked as uncountable).

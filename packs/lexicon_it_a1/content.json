@@ -84141,14 +84141,8 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "sprint",
-        "rush",
-        "dart"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
-        "stand still",
-        "walk slowly",
         "stop"
       ],
       "antonym_policy_json": null,
@@ -84161,16 +84155,9 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "eilen",
-        "sprinten",
-        "rasen"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
-        "stehen bleiben",
-        "stehenbleiben",
-        "schlendern",
-        "spazierengehen"
+        "stehenbleiben"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -84185,10 +84172,7 @@
       "synonyms_json": [
         "sprintare"
       ],
-      "antonyms_json": [
-        "fermarsi",
-        "camminare lentamente"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -84199,9 +84183,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "dwelling"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
@@ -84217,9 +84199,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "Wohnhaus"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
@@ -84235,9 +84215,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "abitazione"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
@@ -84311,8 +84289,6 @@
         "starten"
       ],
       "antonyms_json": [
-        "aufhören",
-        "beenden",
         "stoppen"
       ],
       "antonym_policy_json": null,
@@ -84350,8 +84326,7 @@
       ],
       "antonyms_json": [
         "Abfahrt",
-        "Abreise",
-        "Entfernung"
+        "Abreise"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -84435,7 +84410,6 @@
       "source": "migrated_from_gloss_alias",
       "synonyms_json": [
         "exit",
-        "leave",
         "alight",
         "disembark"
       ],
@@ -84455,9 +84429,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "migrated_from_gloss_alias",
-      "synonyms_json": [
-        "verlassen"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "einsteigen"
       ],
@@ -84578,8 +84550,7 @@
         "yet"
       ],
       "antonyms_json": [
-        "no longer",
-        "already"
+        "no longer"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -84592,7 +84563,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "trotzdem",
         "weiterhin"
       ],
       "antonyms_json": [
@@ -84610,12 +84580,9 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "tuttora"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
-        "non piu",
-        "mai"
+        "non piu"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -84740,7 +84707,6 @@
         "exterior"
       ],
       "antonyms_json": [
-        "inside",
         "indoor",
         "interior"
       ],
@@ -84758,7 +84724,6 @@
         "außen"
       ],
       "antonyms_json": [
-        "drinnen",
         "innerlich"
       ],
       "antonym_policy_json": null,
@@ -84775,7 +84740,6 @@
         "esterno"
       ],
       "antonyms_json": [
-        "dentro",
         "interno",
         "all'interno"
       ],
@@ -84792,9 +84756,7 @@
       "synonyms_json": [
         "still not"
       ],
-      "antonyms_json": [
-        "already"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -84807,8 +84769,7 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "schon",
-        "bereits"
+        "schon"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -84820,11 +84781,8 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "finora"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
-        "già",
         "ormai"
       ],
       "antonym_policy_json": null,
@@ -84841,9 +84799,7 @@
         "all over",
         "throughout"
       ],
-      "antonyms_json": [
-        "nowhere"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -84857,9 +84813,7 @@
       "synonyms_json": [
         "allenthalben"
       ],
-      "antonyms_json": [
-        "nirgendwo"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -84873,9 +84827,7 @@
       "synonyms_json": [
         "in tutti i posti"
       ],
-      "antonyms_json": [
-        "da nessuna parte"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -84891,8 +84843,7 @@
       ],
       "antonyms_json": [
         "stop",
-        "end",
-        "finish"
+        "end"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -84908,7 +84859,6 @@
         "avviare"
       ],
       "antonyms_json": [
-        "smettere",
         "terminare",
         "cessare"
       ],
@@ -84976,9 +84926,7 @@
       "synonyms_json": [
         "query"
       ],
-      "antonyms_json": [
-        "answer"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -85094,9 +85042,7 @@
       "synonyms_json": [
         "Dame"
       ],
-      "antonyms_json": [
-        "Mann"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -85111,9 +85057,7 @@
         "female",
         "lady"
       ],
-      "antonyms_json": [
-        "man"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -85127,9 +85071,7 @@
       "synonyms_json": [
         "femmina"
       ],
-      "antonyms_json": [
-        "uomo"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -85143,9 +85085,7 @@
       "synonyms_json": [
         "Herr"
       ],
-      "antonyms_json": [
-        "Frau"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -85160,7 +85100,6 @@
         "adult male"
       ],
       "antonyms_json": [
-        "woman",
         "female"
       ],
       "antonym_policy_json": null,
@@ -85177,7 +85116,6 @@
         "il maschio"
       ],
       "antonyms_json": [
-        "donna",
         "femmina"
       ],
       "antonym_policy_json": null,
@@ -85238,9 +85176,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "Katze"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -85281,9 +85217,7 @@
         "Tier",
         "Haustier"
       ],
-      "antonyms_json": [
-        "Hund"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -85329,7 +85263,6 @@
         "hervorragend"
       ],
       "antonyms_json": [
-        "schlecht",
         "böse",
         "negativ",
         "unangenehm"
@@ -85345,11 +85278,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "great",
         "excellent"
       ],
       "antonyms_json": [
-        "bad",
         "terrible"
       ],
       "antonym_policy_json": null,
@@ -85366,9 +85297,7 @@
         "ottimo",
         "eccellente"
       ],
-      "antonyms_json": [
-        "cattivo"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -85384,7 +85313,6 @@
         "unzureichend"
       ],
       "antonyms_json": [
-        "gut",
         "hervorragend"
       ],
       "antonym_policy_json": null,
@@ -85401,7 +85329,6 @@
         "poor"
       ],
       "antonyms_json": [
-        "good",
         "excellent"
       ],
       "antonym_policy_json": null,
@@ -85419,7 +85346,6 @@
         "peggiore"
       ],
       "antonyms_json": [
-        "buono",
         "ottimo",
         "eccellente"
       ],
@@ -85439,7 +85365,6 @@
         "massiv"
       ],
       "antonyms_json": [
-        "klein",
         "winzig",
         "mickrig"
       ],
@@ -85457,7 +85382,6 @@
         "huge"
       ],
       "antonyms_json": [
-        "small",
         "tiny"
       ],
       "antonym_policy_json": null,
@@ -85471,11 +85395,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "ampio",
         "vasto"
       ],
       "antonyms_json": [
-        "piccolo",
         "ristretto",
         "modesto"
       ],
@@ -85495,9 +85417,7 @@
         "niedrig"
       ],
       "antonyms_json": [
-        "groß",
-        "hoch",
-        "weit"
+        "hoch"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -85515,7 +85435,6 @@
         "minor"
       ],
       "antonyms_json": [
-        "large",
         "huge"
       ],
       "antonym_policy_json": null,
@@ -85532,9 +85451,7 @@
         "minuto",
         "ridotto"
       ],
-      "antonyms_json": [
-        "grande"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -85548,9 +85465,7 @@
       "synonyms_json": [
         "speisen"
       ],
-      "antonyms_json": [
-        "trinken"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -85567,7 +85482,6 @@
         "ingest"
       ],
       "antonyms_json": [
-        "to fast",
         "to abstain from eating"
       ],
       "antonym_policy_json": null,
@@ -85748,7 +85662,6 @@
         "possedere"
       ],
       "antonyms_json": [
-        "mancare",
         "non avere"
       ],
       "antonym_policy_json": {
@@ -85982,7 +85895,6 @@
         "finster"
       ],
       "antonyms_json": [
-        "weiß",
         "hell"
       ],
       "antonym_policy_json": null,
@@ -86000,7 +85912,6 @@
         "dusky"
       ],
       "antonyms_json": [
-        "white",
         "light",
         "bright"
       ],
@@ -86019,7 +85930,6 @@
         "oscuro"
       ],
       "antonyms_json": [
-        "bianco",
         "chiaro",
         "luminoso"
       ],
@@ -86036,9 +85946,7 @@
       "synonyms_json": [
         "schneeweiß"
       ],
-      "antonyms_json": [
-        "schwarz"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86054,7 +85962,6 @@
         "light"
       ],
       "antonyms_json": [
-        "black",
         "dark"
       ],
       "antonym_policy_json": null,
@@ -86072,7 +85979,6 @@
         "pallido"
       ],
       "antonyms_json": [
-        "nero",
         "scuro"
       ],
       "antonym_policy_json": null,
@@ -86088,11 +85994,7 @@
       "synonyms_json": [
         "veraltet"
       ],
-      "antonyms_json": [
-        "jung",
-        "neu",
-        "frisch"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86106,10 +86008,7 @@
       "synonyms_json": [
         "aged"
       ],
-      "antonyms_json": [
-        "young",
-        "new"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86123,10 +86022,7 @@
       "synonyms_json": [
         "antico"
       ],
-      "antonyms_json": [
-        "giovane",
-        "nuovo"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86138,12 +86034,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "frisch",
-        "aktuell",
-        "jung"
+        "aktuell"
       ],
       "antonyms_json": [
-        "alt",
         "veraltet",
         "herabgekommen"
       ],
@@ -86158,12 +86051,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "fresh",
         "current"
       ],
-      "antonyms_json": [
-        "old"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86178,9 +86068,7 @@
         "recente",
         "attuale"
       ],
-      "antonyms_json": [
-        "vecchio"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86196,7 +86084,6 @@
         "angenehm"
       ],
       "antonyms_json": [
-        "kalt",
         "kühl"
       ],
       "antonym_policy_json": null,
@@ -86210,11 +86097,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "hot",
         "mild"
       ],
       "antonyms_json": [
-        "cold",
         "chilly"
       ],
       "antonym_policy_json": null,
@@ -86230,10 +86115,7 @@
       "synonyms_json": [
         "tiepido"
       ],
-      "antonyms_json": [
-        "freddo",
-        "fresco"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86245,13 +86127,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "kühl",
-        "frisch"
+        "kühl"
       ],
-      "antonyms_json": [
-        "heiß",
-        "warm"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86267,9 +86145,7 @@
         "freezing",
         "frigid"
       ],
-      "antonyms_json": [
-        "hot"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86284,7 +86160,6 @@
         "gelido"
       ],
       "antonyms_json": [
-        "caldo",
         "tiepido"
       ],
       "antonym_policy_json": null,
@@ -86409,8 +86284,7 @@
         "Siedlung"
       ],
       "antonyms_json": [
-        "das Dorf",
-        "das Land"
+        "das Dorf"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -86427,7 +86301,6 @@
         "urban area"
       ],
       "antonyms_json": [
-        "country",
         "rural area"
       ],
       "antonym_policy_json": null,
@@ -86445,7 +86318,6 @@
         "centro urbano"
       ],
       "antonyms_json": [
-        "campagna",
         "paese"
       ],
       "antonym_policy_json": null,
@@ -86464,7 +86336,6 @@
         "Staat"
       ],
       "antonyms_json": [
-        "die Stadt",
         "Urbanum",
         "Metropole"
       ],
@@ -86482,7 +86353,6 @@
         "rural areas"
       ],
       "antonyms_json": [
-        "city",
         "urban areas"
       ],
       "antonym_policy_json": null,
@@ -86499,7 +86369,6 @@
         "la provincia"
       ],
       "antonyms_json": [
-        "città",
         "urbano"
       ],
       "antonym_policy_json": null,
@@ -86533,8 +86402,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "to do",
-        "to carry out"
+        "to do"
       ],
       "antonyms_json": [],
       "antonym_policy_json": {
@@ -86555,8 +86423,7 @@
         "compiere"
       ],
       "antonyms_json": [
-        "non fare",
-        "evitare"
+        "non fare"
       ],
       "antonym_policy_json": {
         "status": "intentionally_none",
@@ -86572,13 +86439,8 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "laufen"
-      ],
-      "antonyms_json": [
-        "kommen",
-        "stehen"
-      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86591,7 +86453,6 @@
       "source": "manual",
       "synonyms_json": [
         "travel",
-        "move",
         "journey",
         "proceed"
       ],
@@ -86628,10 +86489,7 @@
         "ankommen",
         "eintreffen"
       ],
-      "antonyms_json": [
-        "gehen",
-        "verlassen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86643,13 +86501,11 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "arrive",
-        "approach"
+        "arrive"
       ],
       "antonyms_json": [
         "go away",
-        "depart",
-        "leave"
+        "depart"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -86662,8 +86518,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "arrivare",
-        "raggiungere"
+        "arrivare"
       ],
       "antonyms_json": [
         "partire",
@@ -86681,8 +86536,7 @@
       "source": "manual",
       "synonyms_json": [
         "äußern",
-        "mitteilen",
-        "erklären"
+        "mitteilen"
       ],
       "antonyms_json": [],
       "antonym_policy_json": {
@@ -86744,10 +86598,8 @@
         "aushändigen"
       ],
       "antonyms_json": [
-        "nehmen",
         "bekommen",
-        "annehmen",
-        "fordern"
+        "annehmen"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -86764,9 +86616,7 @@
         "to pass on",
         "to transfer"
       ],
-      "antonyms_json": [
-        "take"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86780,12 +86630,9 @@
       "synonyms_json": [
         "concedere",
         "trasferire",
-        "donare",
-        "lasciare"
+        "donare"
       ],
-      "antonyms_json": [
-        "prendere"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -86802,7 +86649,6 @@
         "bekommen"
       ],
       "antonyms_json": [
-        "geben",
         "abgeben",
         "loslassen"
       ],
@@ -86898,7 +86744,6 @@
       "antonyms_json": [
         "glauben",
         "ahnen",
-        "ignorieren",
         "vergessen"
       ],
       "antonym_policy_json": null,
@@ -87173,9 +87018,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Fuß"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "Body part",
@@ -87223,9 +87066,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Hand"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "Body part",
@@ -87369,9 +87210,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Arm"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87407,9 +87246,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "das Bein"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87445,9 +87282,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Bauch"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87483,9 +87318,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Rücken"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "Body part",
@@ -87631,9 +87464,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Vogel"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87798,9 +87629,7 @@
       "synonyms_json": [
         "Oberteil"
       ],
-      "antonyms_json": [
-        "die Hose"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87888,7 +87717,6 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "drücken",
         "stoßen",
         "schieben"
       ],
@@ -87930,9 +87758,7 @@
         "stoßen",
         "bewegen"
       ],
-      "antonyms_json": [
-        "ziehen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -87973,8 +87799,7 @@
       ],
       "antonyms_json": [
         "wachen",
-        "aufwachen",
-        "arbeiten"
+        "aufwachen"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -88059,9 +87884,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "das Gemüse"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88097,9 +87920,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "das Fleisch"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88271,12 +88092,8 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "regelmäßig"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
-        "selten",
-        "nie",
         "seltener"
       ],
       "antonym_policy_json": null,
@@ -88314,10 +88131,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "immer",
-        "oft"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88353,9 +88167,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "das Abendessen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88394,10 +88206,7 @@
         "Mittagsmahl",
         "Zwischenmahlzeit"
       ],
-      "antonyms_json": [
-        "das Frühstück",
-        "das Abendessen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88433,13 +88242,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "Mahlzeit",
-        "Essen"
+        "Mahlzeit"
       ],
-      "antonyms_json": [
-        "das Frühstück",
-        "das Mittagessen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88478,11 +88283,7 @@
         "ständig",
         "dauernd"
       ],
-      "antonyms_json": [
-        "nie",
-        "selten",
-        "niemals"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88517,10 +88318,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "deshalb",
-        "folglich"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
@@ -88569,7 +88367,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "gut",
         "schmackhaft",
         "herrlich"
       ],
@@ -88614,9 +88411,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "bringen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88655,10 +88450,7 @@
         "führen",
         "tragen"
       ],
-      "antonyms_json": [
-        "holen",
-        "nehmen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88857,9 +88649,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Nacht"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88895,9 +88685,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Tag"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -88933,9 +88721,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Abend"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89205,7 +88991,6 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "gestern",
         "morgen"
       ],
       "antonym_policy_json": null,
@@ -89244,7 +89029,6 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "heute",
         "morgen"
       ],
       "antonym_policy_json": null,
@@ -89282,10 +89066,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "gestern",
-        "heute"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89322,14 +89103,10 @@
       "source": "manual",
       "synonyms_json": [
         "gerade",
-        "derzeit",
         "aktuell"
       ],
       "antonyms_json": [
-        "später",
-        "dann",
-        "früher",
-        "nie"
+        "früher"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -89370,7 +89147,6 @@
         "hinterher"
       ],
       "antonyms_json": [
-        "jetzt",
         "früher",
         "früh"
       ],
@@ -89500,10 +89276,7 @@
       "synonyms_json": [
         "Niederschlag"
       ],
-      "antonyms_json": [
-        "Sonne",
-        "Schnee"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "Weather phenomena lack direct antonyms",
@@ -89603,9 +89376,7 @@
       "synonyms_json": [
         "flink"
       ],
-      "antonyms_json": [
-        "langsam"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89643,10 +89414,7 @@
       "synonyms_json": [
         "träge"
       ],
-      "antonyms_json": [
-        "schnell",
-        "rasch"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -89868,9 +89636,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Tür"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90093,9 +89859,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "schließen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90134,9 +89898,7 @@
         "verriegeln",
         "versperren"
       ],
-      "antonyms_json": [
-        "öffnen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90172,9 +89934,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "dort"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90210,9 +89970,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "hier"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90253,7 +90011,6 @@
         "ziemlich"
       ],
       "antonyms_json": [
-        "kaum",
         "wenig",
         "gering"
       ],
@@ -90296,7 +90053,6 @@
         "vollständig"
       ],
       "antonyms_json": [
-        "teilweise",
         "halb",
         "unvollständig"
       ],
@@ -90385,9 +90141,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Mutter"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90423,9 +90177,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Vater"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90461,9 +90213,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "die Schwester"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90499,9 +90249,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Bruder"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -90804,7 +90552,6 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "allein",
         "getrennt"
       ],
       "antonym_policy_json": null,
@@ -90842,12 +90589,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "einsam",
-        "verlassen"
+        "einsam"
       ],
       "antonyms_json": [
-        "zusammen",
-        "gemeinsam",
         "gesellig",
         "begleitet"
       ],
@@ -90886,12 +90630,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "jugendlich",
-        "frisch",
-        "neu"
+        "jugendlich"
       ],
       "antonyms_json": [
-        "alt",
         "erfahren"
       ],
       "antonym_policy_json": null,
@@ -90980,7 +90721,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "Weg",
         "Pfad",
         "Gasse"
       ],
@@ -91139,7 +90879,6 @@
         "lenken"
       ],
       "antonyms_json": [
-        "gehen",
         "halten"
       ],
       "antonym_policy_json": null,
@@ -91216,10 +90955,7 @@
         "fern",
         "entfernt"
       ],
-      "antonyms_json": [
-        "nah",
-        "nahe"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91258,7 +90994,6 @@
         "nächster"
       ],
       "antonyms_json": [
-        "weit",
         "fern",
         "entfernt"
       ],
@@ -91302,7 +91037,6 @@
         "wunderschön"
       ],
       "antonyms_json": [
-        "hässlich",
         "unangenehm",
         "schrecklich"
       ],
@@ -91387,9 +91121,7 @@
       "synonyms_json": [
         "glühend"
       ],
-      "antonyms_json": [
-        "kalt"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91425,7 +91157,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "allein",
         "ausschließlich"
       ],
       "antonyms_json": [
@@ -91471,10 +91202,7 @@
       "synonyms_json": [
         "frühzeitig"
       ],
-      "antonyms_json": [
-        "noch nicht",
-        "später"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91498,9 +91226,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "non ancora"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91511,13 +91237,10 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "bisher"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "nicht mehr",
-        "schon",
-        "bereits"
+        "schon"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -91659,9 +91382,7 @@
         "Pädagoge",
         "Instrukteur"
       ],
-      "antonyms_json": [
-        "der Schüler"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91697,9 +91418,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "der Lehrer"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -91887,11 +91606,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "studieren",
-        "betrachten"
+        "studieren"
       ],
       "antonyms_json": [
-        "schreiben",
         "verwechseln",
         "überlesen"
       ],
@@ -91934,7 +91651,6 @@
         "aufschreiben"
       ],
       "antonyms_json": [
-        "lesen",
         "löschen",
         "verwerfen"
       ],
@@ -91976,9 +91692,7 @@
         "nachfragen",
         "verlangen"
       ],
-      "antonyms_json": [
-        "antworten"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -92016,9 +91730,7 @@
       "synonyms_json": [
         "beantworten"
       ],
-      "antonyms_json": [
-        "fragen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -92109,7 +91821,6 @@
         "zutreffend"
       ],
       "antonyms_json": [
-        "falsch",
         "fehlerhaft",
         "unrichtig"
       ],
@@ -92153,9 +91864,7 @@
         "fehlerlich"
       ],
       "antonyms_json": [
-        "richtig",
         "wahr",
-        "korrekt",
         "stimmt"
       ],
       "antonym_policy_json": null,
@@ -92193,12 +91902,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "bedeutsam",
-        "wesentlich",
         "kernig"
       ],
       "antonyms_json": [
-        "unwichtig",
         "unbedeutend",
         "nebensächlich"
       ],
@@ -92291,10 +91997,8 @@
         "unkompliziert"
       ],
       "antonyms_json": [
-        "schwierig",
         "kompliziert",
         "komplex",
-        "schwer",
         "verwickelt"
       ],
       "antonym_policy_json": null,
@@ -92338,7 +92042,6 @@
       ],
       "antonyms_json": [
         "einfach",
-        "leicht",
         "begreiflich"
       ],
       "antonym_policy_json": null,
@@ -92419,12 +92122,10 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "Herausforderung",
         "Schwierigkeit",
         "Aufgabe"
       ],
       "antonyms_json": [
-        "die Lösung",
         "Erfolg",
         "Leichtigkeit"
       ],
@@ -92682,7 +92383,6 @@
         "verlangen"
       ],
       "antonyms_json": [
-        "haben",
         "besitzen"
       ],
       "antonym_policy_json": {
@@ -92732,10 +92432,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "gesund",
-        "wohl"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -92773,9 +92470,7 @@
       "synonyms_json": [
         "wohlauf"
       ],
-      "antonyms_json": [
-        "krank"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -92815,7 +92510,6 @@
         "verharren"
       ],
       "antonyms_json": [
-        "sitzen",
         "liegen"
       ],
       "antonym_policy_json": null,
@@ -92854,9 +92548,7 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "stehen",
-        "liegen",
-        "aufstehen"
+        "liegen"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -93190,8 +92882,7 @@
       "source": "manual",
       "synonyms_json": [
         "aufwischen",
-        "bereinigen",
-        "reinigen"
+        "bereinigen"
       ],
       "antonyms_json": [],
       "antonym_policy_json": {
@@ -93241,12 +92932,10 @@
       "context_tags_json": [],
       "source": "ai",
       "synonyms_json": [
-        "stehen bleiben",
         "verharren"
       ],
       "antonyms_json": [
-        "bewegen",
-        "gehen"
+        "bewegen"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -93449,9 +93138,7 @@
       "context_tags_json": [],
       "source": "ai",
       "synonyms_json": [],
-      "antonyms_json": [
-        "correre"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -93463,9 +93150,7 @@
       "context_tags_json": [],
       "source": "ai",
       "synonyms_json": [],
-      "antonyms_json": [
-        "run"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -93624,9 +93309,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "Haus"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
@@ -93638,9 +93321,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "casa"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
@@ -93652,9 +93333,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "house"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
@@ -93667,9 +93346,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "alt"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -93681,9 +93358,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "vecchio"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -93695,9 +93370,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "old"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     }
@@ -93725,6 +93398,13 @@
       "cluster_id": "f2fc60b5-429c-9fd2-99c5-600299516697",
       "lang": "de",
       "label": "synonyms: aussteigen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "f21b2778-e2a6-9ef2-07d7-63e4a661099d",
+      "lang": "de",
+      "label": "synonyms: immer noch",
       "type": "semantic",
       "auto": true
     },
@@ -93799,9 +93479,16 @@
       "auto": true
     },
     {
-      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
+      "cluster_id": "bc08087a-2c94-c0f3-1d9d-4549c87b84aa",
       "lang": "de",
-      "label": "synonyms: wichtig +8",
+      "label": "synonyms: wichtig +14",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "dfc3d86e-4aec-6d60-34f9-435e1160722c",
+      "lang": "de",
+      "label": "synonyms: schwierig +2",
       "type": "semantic",
       "auto": true
     },
@@ -93834,16 +93521,23 @@
       "auto": true
     },
     {
-      "cluster_id": "a33579e5-aed3-62cf-fe60-718ac9745634",
+      "cluster_id": "596701d9-5e3f-1e9f-ff44-59e0663f134c",
       "lang": "de",
-      "label": "synonyms: oft +5",
+      "label": "synonyms: oft +6",
       "type": "semantic",
       "auto": true
     },
     {
-      "cluster_id": "10c38b3e-3813-ccae-f1a5-767a85890202",
+      "cluster_id": "2026ddd2-15d1-e572-1d4c-4ca42a92296b",
       "lang": "de",
-      "label": "synonyms: anrufen +2",
+      "label": "synonyms: anrufen +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "0062afeb-8adc-30a5-2c7c-59ebc3c7d37f",
+      "lang": "de",
+      "label": "synonyms: machen +2",
       "type": "semantic",
       "auto": true
     },
@@ -93872,6 +93566,13 @@
       "cluster_id": "4af8e408-1646-9952-4ede-13927f371f62",
       "lang": "it",
       "label": "synonyms: scendere",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "b4495f24-6d2b-b79b-3030-653a89f27e96",
+      "lang": "it",
+      "label": "synonyms: ancora adesso",
       "type": "semantic",
       "auto": true
     },
@@ -93946,9 +93647,16 @@
       "auto": true
     },
     {
-      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
+      "cluster_id": "c9f3bfc6-9a28-4d24-ec92-76d201c73fb7",
       "lang": "it",
-      "label": "synonyms: importante +8",
+      "label": "synonyms: importante +14",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "8ff5d8ae-d5ad-7a6b-86c0-cba42dca4e59",
+      "lang": "it",
+      "label": "synonyms: difficile +2",
       "type": "semantic",
       "auto": true
     },
@@ -93981,16 +93689,23 @@
       "auto": true
     },
     {
-      "cluster_id": "4969a31d-327d-ea11-109e-57b1ceed6534",
+      "cluster_id": "bace996a-fb77-bce6-787a-707b7d8347d8",
       "lang": "it",
-      "label": "synonyms: spesso +5",
+      "label": "synonyms: spesso +6",
       "type": "semantic",
       "auto": true
     },
     {
-      "cluster_id": "442c2225-18c6-951c-63c7-5332c0c0f342",
+      "cluster_id": "e5f0a02f-8024-698d-1021-e5f3921ae1ce",
       "lang": "it",
-      "label": "synonyms: chiamare +2",
+      "label": "synonyms: chiamare +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "ad3c5e41-348c-e284-a34a-19cc7bae7465",
+      "lang": "it",
+      "label": "synonyms: fare +2",
       "type": "semantic",
       "auto": true
     },
@@ -94019,6 +93734,13 @@
       "cluster_id": "74f62de9-5d08-5391-90aa-ce601f6c08e0",
       "lang": "en",
       "label": "synonyms: get off",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "592ad97a-5ffb-e302-d4f8-4595568334f0",
+      "lang": "en",
+      "label": "synonyms: still (even now)",
       "type": "semantic",
       "auto": true
     },
@@ -94093,9 +93815,16 @@
       "auto": true
     },
     {
-      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
+      "cluster_id": "34d0e2e8-05b6-6c8d-0330-053cf5109c10",
       "lang": "en",
-      "label": "synonyms: important +8",
+      "label": "synonyms: important +14",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "f715d168-2753-6c7d-6b4b-b87b1b25f554",
+      "lang": "en",
+      "label": "synonyms: difficult +2",
       "type": "semantic",
       "auto": true
     },
@@ -94128,16 +93857,23 @@
       "auto": true
     },
     {
-      "cluster_id": "c30c80d1-18ff-5fa1-e8ed-142e1ba23a8e",
+      "cluster_id": "5ee92d62-38b0-c8a9-a80c-487e1c0627ad",
       "lang": "en",
-      "label": "synonyms: often +5",
+      "label": "synonyms: often +6",
       "type": "semantic",
       "auto": true
     },
     {
-      "cluster_id": "ac8ad750-774d-c4e4-2e8a-b022e4c7f61a",
+      "cluster_id": "84966ccb-8da2-675e-26c5-87d2d54c3321",
       "lang": "en",
-      "label": "synonyms: call +2",
+      "label": "synonyms: call +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "1ff3c572-abb7-4659-5486-e1152b449d0c",
+      "lang": "en",
+      "label": "synonyms: to make +2",
       "type": "semantic",
       "auto": true
     },
@@ -94192,6 +93928,11 @@
     {
       "cluster_id": "f2fc60b5-429c-9fd2-99c5-600299516697",
       "lexeme_id": "lex-de-aussteigen",
+      "position": 0
+    },
+    {
+      "cluster_id": "f21b2778-e2a6-9ef2-07d7-63e4a661099d",
+      "lexeme_id": "lex-de-immer-noch",
       "position": 0
     },
     {
@@ -94295,8 +94036,18 @@
       "position": 1
     },
     {
-      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
+      "cluster_id": "bc08087a-2c94-c0f3-1d9d-4549c87b84aa",
       "lexeme_id": "lex-de-wichtig",
+      "position": 0
+    },
+    {
+      "cluster_id": "bc08087a-2c94-c0f3-1d9d-4549c87b84aa",
+      "lexeme_id": "lex-de-gross",
+      "position": 10
+    },
+    {
+      "cluster_id": "dfc3d86e-4aec-6d60-34f9-435e1160722c",
+      "lexeme_id": "lex-de-schwierig",
       "position": 0
     },
     {
@@ -94325,14 +94076,19 @@
       "position": 1
     },
     {
-      "cluster_id": "a33579e5-aed3-62cf-fe60-718ac9745634",
+      "cluster_id": "596701d9-5e3f-1e9f-ff44-59e0663f134c",
       "lexeme_id": "lex-de-oft",
       "position": 0
     },
     {
-      "cluster_id": "10c38b3e-3813-ccae-f1a5-767a85890202",
+      "cluster_id": "2026ddd2-15d1-e572-1d4c-4ca42a92296b",
       "lexeme_id": "lex-de-kommen",
       "position": 2
+    },
+    {
+      "cluster_id": "0062afeb-8adc-30a5-2c7c-59ebc3c7d37f",
+      "lexeme_id": "lex-de-machen",
+      "position": 0
     },
     {
       "cluster_id": "85bc2396-271e-f231-446b-844d1af8d59e",
@@ -94357,6 +94113,11 @@
     {
       "cluster_id": "4af8e408-1646-9952-4ede-13927f371f62",
       "lexeme_id": "lex-it-scendere",
+      "position": 0
+    },
+    {
+      "cluster_id": "b4495f24-6d2b-b79b-3030-653a89f27e96",
+      "lexeme_id": "lex-it-ancora",
       "position": 0
     },
     {
@@ -94460,8 +94221,18 @@
       "position": 1
     },
     {
-      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
+      "cluster_id": "c9f3bfc6-9a28-4d24-ec92-76d201c73fb7",
       "lexeme_id": "lex-it-importante",
+      "position": 0
+    },
+    {
+      "cluster_id": "c9f3bfc6-9a28-4d24-ec92-76d201c73fb7",
+      "lexeme_id": "lex-it-grande",
+      "position": 10
+    },
+    {
+      "cluster_id": "8ff5d8ae-d5ad-7a6b-86c0-cba42dca4e59",
+      "lexeme_id": "lex-it-difficile",
       "position": 0
     },
     {
@@ -94490,14 +94261,19 @@
       "position": 1
     },
     {
-      "cluster_id": "4969a31d-327d-ea11-109e-57b1ceed6534",
+      "cluster_id": "bace996a-fb77-bce6-787a-707b7d8347d8",
       "lexeme_id": "lex-it-spesso",
       "position": 0
     },
     {
-      "cluster_id": "442c2225-18c6-951c-63c7-5332c0c0f342",
+      "cluster_id": "e5f0a02f-8024-698d-1021-e5f3921ae1ce",
       "lexeme_id": "lex-it-venire",
       "position": 2
+    },
+    {
+      "cluster_id": "ad3c5e41-348c-e284-a34a-19cc7bae7465",
+      "lexeme_id": "lex-it-fare",
+      "position": 0
     },
     {
       "cluster_id": "076a637b-6587-fe47-b814-c322a20b1312",
@@ -94522,6 +94298,11 @@
     {
       "cluster_id": "74f62de9-5d08-5391-90aa-ce601f6c08e0",
       "lexeme_id": "lex-en-get-off",
+      "position": 0
+    },
+    {
+      "cluster_id": "592ad97a-5ffb-e302-d4f8-4595568334f0",
+      "lexeme_id": "lex-en-still",
       "position": 0
     },
     {
@@ -94625,8 +94406,18 @@
       "position": 1
     },
     {
-      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
+      "cluster_id": "34d0e2e8-05b6-6c8d-0330-053cf5109c10",
       "lexeme_id": "lex-en-important",
+      "position": 0
+    },
+    {
+      "cluster_id": "34d0e2e8-05b6-6c8d-0330-053cf5109c10",
+      "lexeme_id": "lex-en-big",
+      "position": 10
+    },
+    {
+      "cluster_id": "f715d168-2753-6c7d-6b4b-b87b1b25f554",
+      "lexeme_id": "lex-en-difficult",
       "position": 0
     },
     {
@@ -94655,14 +94446,19 @@
       "position": 1
     },
     {
-      "cluster_id": "c30c80d1-18ff-5fa1-e8ed-142e1ba23a8e",
+      "cluster_id": "5ee92d62-38b0-c8a9-a80c-487e1c0627ad",
       "lexeme_id": "lex-en-often",
       "position": 0
     },
     {
-      "cluster_id": "ac8ad750-774d-c4e4-2e8a-b022e4c7f61a",
+      "cluster_id": "84966ccb-8da2-675e-26c5-87d2d54c3321",
       "lexeme_id": "lex-en-to-come",
       "position": 2
+    },
+    {
+      "cluster_id": "1ff3c572-abb7-4659-5486-e1152b449d0c",
+      "lexeme_id": "lex-en-to-make",
+      "position": 0
     },
     {
       "cluster_id": "c63a16eb-9ab3-a4b7-da4d-4e00c1d65ff0",

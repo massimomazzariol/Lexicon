@@ -1996,12 +1996,10 @@
       "context_tags_json": [],
       "source": "migrated_from_gloss_alias",
       "synonyms_json": [
-        "finally",
         "ultimately"
       ],
       "antonyms_json": [
         "at the beginning",
-        "initially",
         "at first"
       ],
       "antonym_policy_json": null,
@@ -2014,10 +2012,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "migrated_from_gloss_alias",
-      "synonyms_json": [
-        "zuletzt",
-        "schließlich"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "am Anfang"
       ],
@@ -2049,13 +2044,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "darüber hinaus",
-        "ebenfalls",
-        "zudem"
+        "darüber hinaus"
       ],
       "antonyms_json": [
-        "nur",
-        "allein",
         "nichts als"
       ],
       "antonym_policy_json": {
@@ -2104,12 +2095,9 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "langfristig"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "kurzfristig",
-        "im Moment",
         "sofort",
         "auf kurzfristiger Basis"
       ],
@@ -2160,7 +2148,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "teilnehmen",
         "beeinflussen",
         "wirken"
       ],
@@ -2217,13 +2204,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "gewöhnlich",
-        "üblicherweise",
-        "normalerweise"
+        "üblicherweise"
       ],
       "antonyms_json": [
-        "selten",
-        "nie",
         "ausnahmsweise"
       ],
       "antonym_policy_json": {
@@ -2472,9 +2455,16 @@
       "type": "confusables"
     },
     {
-      "cluster_id": "a33579e5-aed3-62cf-fe60-718ac9745634",
+      "cluster_id": "f21b2778-e2a6-9ef2-07d7-63e4a661099d",
       "lang": "de",
-      "label": "synonyms: oft +5",
+      "label": "synonyms: immer noch",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "596701d9-5e3f-1e9f-ff44-59e0663f134c",
+      "lang": "de",
+      "label": "synonyms: oft +6",
       "type": "semantic",
       "auto": true
     },
@@ -2507,9 +2497,16 @@
       "auto": true
     },
     {
-      "cluster_id": "4969a31d-327d-ea11-109e-57b1ceed6534",
+      "cluster_id": "b4495f24-6d2b-b79b-3030-653a89f27e96",
       "lang": "it",
-      "label": "synonyms: spesso +5",
+      "label": "synonyms: ancora adesso",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "bace996a-fb77-bce6-787a-707b7d8347d8",
+      "lang": "it",
+      "label": "synonyms: spesso +6",
       "type": "semantic",
       "auto": true
     },
@@ -2542,9 +2539,16 @@
       "auto": true
     },
     {
-      "cluster_id": "c30c80d1-18ff-5fa1-e8ed-142e1ba23a8e",
+      "cluster_id": "592ad97a-5ffb-e302-d4f8-4595568334f0",
       "lang": "en",
-      "label": "synonyms: often +5",
+      "label": "synonyms: still (even now)",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "5ee92d62-38b0-c8a9-a80c-487e1c0627ad",
+      "lang": "en",
+      "label": "synonyms: often +6",
       "type": "semantic",
       "auto": true
     },
@@ -2584,9 +2588,14 @@
       "position": 6
     },
     {
-      "cluster_id": "a33579e5-aed3-62cf-fe60-718ac9745634",
+      "cluster_id": "f21b2778-e2a6-9ef2-07d7-63e4a661099d",
+      "lexeme_id": "lex-de-nach-wie-vor",
+      "position": 1
+    },
+    {
+      "cluster_id": "596701d9-5e3f-1e9f-ff44-59e0663f134c",
       "lexeme_id": "lex-de-in-der-regel",
-      "position": 3
+      "position": 4
     },
     {
       "cluster_id": "0fa8f147-3071-d8e4-4b9f-79a57be488b7",
@@ -2609,9 +2618,14 @@
       "position": 2
     },
     {
-      "cluster_id": "4969a31d-327d-ea11-109e-57b1ceed6534",
+      "cluster_id": "b4495f24-6d2b-b79b-3030-653a89f27e96",
+      "lexeme_id": "lex-it-ancora-3",
+      "position": 1
+    },
+    {
+      "cluster_id": "bace996a-fb77-bce6-787a-707b7d8347d8",
       "lexeme_id": "lex-it-di-solito",
-      "position": 3
+      "position": 4
     },
     {
       "cluster_id": "59cfcb17-cfe2-106d-aadd-73d50ef75256",
@@ -2634,9 +2648,14 @@
       "position": 2
     },
     {
-      "cluster_id": "c30c80d1-18ff-5fa1-e8ed-142e1ba23a8e",
+      "cluster_id": "592ad97a-5ffb-e302-d4f8-4595568334f0",
+      "lexeme_id": "lex-en-still-3",
+      "position": 1
+    },
+    {
+      "cluster_id": "5ee92d62-38b0-c8a9-a80c-487e1c0627ad",
       "lexeme_id": "lex-en-as-a-rule",
-      "position": 3
+      "position": 4
     },
     {
       "cluster_id": "3b6d9e53-86fa-03fe-ff16-10ea8de73129",

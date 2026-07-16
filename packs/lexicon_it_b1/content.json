@@ -32972,7 +32972,6 @@
       ],
       "antonyms_json": [
         "first",
-        "initially",
         "at first"
       ],
       "antonym_policy_json": null,
@@ -32986,8 +32985,6 @@
       "context_tags_json": [],
       "source": "migrated_from_gloss_alias",
       "synonyms_json": [
-        "zuletzt",
-        "am Ende",
         "letztendlich"
       ],
       "antonyms_json": [
@@ -33004,9 +33001,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "alla fine"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "prima",
         "all'inizio"
@@ -33042,8 +33037,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "wenigstens",
-        "mindestens"
+        "wenigstens"
       ],
       "antonyms_json": [
         "höchstens"
@@ -33148,7 +33142,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "sonst",
         "andernfalls"
       ],
       "antonyms_json": [],
@@ -33167,7 +33160,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "altrimenti",
         "in caso contrario"
       ],
       "antonyms_json": [],
@@ -33193,8 +33185,7 @@
       "antonyms_json": [
         "before",
         "afterward",
-        "subsequently",
-        "later"
+        "subsequently"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -33239,12 +33230,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "however",
-        "still"
+        "however"
       ],
       "antonyms_json": [
-        "therefore",
-        "instead",
         "on the contrary",
         "conversely"
       ],
@@ -33262,8 +33250,6 @@
         "dennoch"
       ],
       "antonyms_json": [
-        "deswegen",
-        "dagegen",
         "statt dessen"
       ],
       "antonym_policy_json": null,
@@ -33280,8 +33266,6 @@
         "comunque"
       ],
       "antonyms_json": [
-        "per questo motivo",
-        "invece",
         "al contrario",
         "d'altro canto"
       ],
@@ -33295,10 +33279,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "need",
-        "requirement"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "surplus",
         "abundance"
@@ -33314,7 +33295,6 @@
       "context_tags_json": [],
       "source": "ai",
       "synonyms_json": [
-        "Notwendigkeit",
         "Bedürfnis"
       ],
       "antonyms_json": [
@@ -33331,8 +33311,7 @@
       "context_tags_json": [],
       "source": "ai",
       "synonyms_json": [
-        "esigenza",
-        "necessità"
+        "esigenza"
       ],
       "antonyms_json": [
         "abbondanza",
@@ -33403,9 +33382,7 @@
         "precious",
         "high-value"
       ],
-      "antonyms_json": [
-        "worthless"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -33420,9 +33397,7 @@
         "kostbar",
         "von hohem Wert"
       ],
-      "antonyms_json": [
-        "wertlos"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -33434,12 +33409,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "di valore",
-        "importante"
+        "di valore"
       ],
-      "antonyms_json": [
-        "senza valore"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -33454,9 +33426,7 @@
         "valueless",
         "useless"
       ],
-      "antonyms_json": [
-        "valuable"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -33471,9 +33441,7 @@
         "ohne Wert",
         "nutzlos"
       ],
-      "antonyms_json": [
-        "wertvoll"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -33487,9 +33455,7 @@
       "synonyms_json": [
         "inutile"
       ],
-      "antonyms_json": [
-        "prezioso"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -33501,13 +33467,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "watch",
         "monitor"
       ],
-      "antonyms_json": [
-        "overlook",
-        "ignore"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -33523,10 +33485,7 @@
         "anschauen",
         "besehen"
       ],
-      "antonyms_json": [
-        "übersehen",
-        "ignorieren"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -33541,10 +33500,7 @@
         "esaminare",
         "studiare"
       ],
-      "antonyms_json": [
-        "trascurare",
-        "ignorare"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -33555,12 +33511,8 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "Antrag"
-      ],
-      "antonyms_json": [
-        "Ablehnung"
-      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -33571,12 +33523,8 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "domanda formale"
-      ],
-      "antonyms_json": [
-        "rifiuto"
-      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -33590,9 +33538,7 @@
       "synonyms_json": [
         "formal request"
       ],
-      "antonyms_json": [
-        "rejection"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -33722,7 +33668,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "Möglichkeit",
         "Chance"
       ],
       "antonyms_json": [],
@@ -33774,7 +33719,6 @@
       "source": "manual",
       "synonyms_json": [
         "Aufgabe",
-        "Problem",
         "Prüfung"
       ],
       "antonyms_json": [],
@@ -33929,9 +33873,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "Bedingung"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
@@ -34140,8 +34082,7 @@
       "source": "manual",
       "synonyms_json": [
         "Folge",
-        "Konsequenz",
-        "Wirkung"
+        "Konsequenz"
       ],
       "antonyms_json": [],
       "antonym_policy_json": {
@@ -34191,8 +34132,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "Übereinkunft",
-        "Einigung"
+        "Übereinkunft"
       ],
       "antonyms_json": [
         "Konflikt",
@@ -34245,12 +34185,8 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "beurteilen",
-        "abwägen"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
-        "ignorieren",
         "außer Acht lassen"
       ],
       "antonym_policy_json": {
@@ -34461,8 +34397,7 @@
         "hemmen",
         "behindern",
         "schädigen",
-        "zurückhalten",
-        "verhindern"
+        "zurückhalten"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -34611,11 +34546,9 @@
       "context_tags_json": [],
       "source": "ai",
       "synonyms_json": [
-        "erkennen",
-        "bestätigen"
+        "erkennen"
       ],
       "antonyms_json": [
-        "ignorieren",
         "leugnen",
         "verneinen"
       ],
@@ -34669,8 +34602,6 @@
         "einbeziehen"
       ],
       "antonyms_json": [
-        "ignorieren",
-        "übersehen",
         "vernachlässigen"
       ],
       "antonym_policy_json": null,
@@ -34684,9 +34615,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "ignorare"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -34698,9 +34627,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "ignore"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -34712,12 +34639,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "bearbeiten",
-        "bewältigen"
+        "bearbeiten"
       ],
       "antonyms_json": [
-        "ignorieren",
-        "vermeiden",
         "übergehen",
         "nicht beachten",
         "verpassen"
@@ -34921,12 +34845,10 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "durchsetzen",
-        "umsetzen"
+        "durchsetzen"
       ],
       "antonyms_json": [
         "aufschieben",
-        "verhindern",
         "unterlassen",
         "nicht durchführen"
       ],
@@ -34977,12 +34899,10 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "realisieren",
-        "durchführen"
+        "realisieren"
       ],
       "antonyms_json": [
         "verwerfen",
-        "ignorieren",
         "verweigern"
       ],
       "antonym_policy_json": null,
@@ -35024,11 +34944,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "kritisch",
-        "wichtig"
+        "kritisch"
       ],
       "antonyms_json": [
-        "unwichtig",
         "unbedeutend",
         "nebensächlich"
       ],
@@ -35043,9 +34961,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "poco importante"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -35057,9 +34973,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "unimportant"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -35224,8 +35138,7 @@
       "source": "manual",
       "synonyms_json": [
         "mittel",
-        "normal",
-        "gewöhnlich"
+        "normal"
       ],
       "antonyms_json": [
         "ausgezeichnet",
@@ -35417,8 +35330,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "passend",
-        "angemessen"
+        "passend"
       ],
       "antonyms_json": [
         "ungeeignet",
@@ -35463,14 +35375,12 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "passend",
-        "geeignet"
+        "passend"
       ],
       "antonyms_json": [
         "unangemessen",
         "unpassend",
         "ungerecht",
-        "falsch",
         "unvernünftig",
         "dumm",
         "sinnlos"
@@ -35514,7 +35424,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "wahrscheinlich",
         "voraussichtlich"
       ],
       "antonyms_json": [
@@ -35573,9 +35482,7 @@
         "auf gar keinen Fall",
         "unter keinen Umständen"
       ],
-      "antonyms_json": [
-        "auf jeden Fall"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "no_single_robust_lexical_opposite_for_concept",
@@ -35627,7 +35534,6 @@
       ],
       "antonyms_json": [
         "vollständig",
-        "ganz",
         "komplett"
       ],
       "antonym_policy_json": null,
@@ -35668,10 +35574,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "daher",
-        "deshalb"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
@@ -35767,8 +35670,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "darüber hinaus",
-        "zudem"
+        "darüber hinaus"
       ],
       "antonyms_json": [
         "jedoch",
@@ -35879,11 +35781,7 @@
         "hauptsächlich",
         "vorwiegend"
       ],
-      "antonyms_json": [
-        "selten",
-        "kaum",
-        "nur"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "no_single_robust_lexical_opposite_for_concept",
@@ -36030,7 +35928,6 @@
         "empfänglich"
       ],
       "antonyms_json": [
-        "robust",
         "unempfindlich",
         "hart"
       ],
@@ -36351,11 +36248,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "empfehlen",
         "vorbringen"
       ],
       "antonyms_json": [
-        "ablehnen",
         "widerstreben"
       ],
       "antonym_policy_json": null,
@@ -36369,9 +36264,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "to reject"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -36383,9 +36276,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "rifiutare"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -36458,7 +36349,6 @@
         "allgemein"
       ],
       "antonyms_json": [
-        "teilweise",
         "separat",
         "getrennt",
         "individuell",
@@ -36516,8 +36406,7 @@
         "ständig"
       ],
       "antonyms_json": [
-        "unregelmäßig",
-        "selten"
+        "unregelmäßig"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -36808,13 +36697,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "bewältigen",
         "meistern"
       ],
-      "antonyms_json": [
-        "vermeiden",
-        "ignorieren"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "Verb without a single-word lexical antonym at this level",
@@ -36864,10 +36749,7 @@
       "synonyms_json": [
         "erwähnen"
       ],
-      "antonyms_json": [
-        "ignorieren",
-        "vermeiden"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "Verb without a single-word lexical antonym at this level",
@@ -36969,9 +36851,7 @@
       "synonyms_json": [
         "schwerlich"
       ],
-      "antonyms_json": [
-        "sehr"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -36997,9 +36877,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "molto"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -37015,10 +36893,7 @@
         "anfangs",
         "erstens"
       ],
-      "antonyms_json": [
-        "später",
-        "zuletzt"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "Discourse adverb or connective with no direct lexical antonym",
@@ -37066,7 +36941,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "außerdem",
         "überdies"
       ],
       "antonyms_json": [],
@@ -37160,8 +37034,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "erhoffen",
-        "voraussetzen"
+        "erhoffen"
       ],
       "antonyms_json": [
         "überraschen",
@@ -37378,7 +37251,6 @@
         "Verursacher"
       ],
       "antonyms_json": [
-        "die Wirkung",
         "die Folge"
       ],
       "antonym_policy_json": null,
@@ -37392,9 +37264,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "the effect"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -37406,9 +37276,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "l'effetto"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -37423,12 +37291,9 @@
         "Einfluss",
         "Folge",
         "Resultat",
-        "Auswirkung",
         "Konsequenz"
       ],
-      "antonyms_json": [
-        "die Ursache"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -37440,9 +37305,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "the cause"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -37454,9 +37317,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "la causa"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -37469,7 +37330,6 @@
       "source": "manual",
       "synonyms_json": [
         "Anmerkung",
-        "Einwand",
         "Zweifel",
         "Bemerkung",
         "Urteil"
@@ -37517,7 +37377,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "zumindest",
         "wenigstens"
       ],
       "antonyms_json": [],
@@ -37781,8 +37640,6 @@
         "verwenden"
       ],
       "antonyms_json": [
-        "vermeiden",
-        "ignorieren",
         "zurückhalten"
       ],
       "antonym_policy_json": {
@@ -37847,9 +37704,7 @@
       "usage_note": "Il tedesco 'doch' in funzione di contraddizione non ha un equivalente diretto in italiano. 'Eppure' e 'invece' rendono il senso correttivo, ma spesso il contrasto è espresso anche dall'intonazione.",
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "invece"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
@@ -37865,9 +37720,7 @@
       "usage_note": "German 'doch' as a contradiction particle has no single-word equivalent in English. 'But' or 'actually' carry part of the meaning, but the contradiction is often expressed through sentence structure and intonation rather than a single word.",
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "actually"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
@@ -38090,9 +37943,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "Zusage"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -38127,9 +37978,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "normalerweise"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
@@ -38166,9 +38015,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "beachten"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -38203,9 +38050,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "schließlich"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
@@ -38277,9 +38122,9 @@
       "auto": true
     },
     {
-      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
+      "cluster_id": "bc08087a-2c94-c0f3-1d9d-4549c87b84aa",
       "lang": "de",
-      "label": "synonyms: wichtig +8",
+      "label": "synonyms: wichtig +14",
       "type": "semantic",
       "auto": true
     },
@@ -38291,9 +38136,9 @@
       "auto": true
     },
     {
-      "cluster_id": "2952d688-498e-f49e-29f2-4bec8c229eb4",
+      "cluster_id": "40a102b5-8cb8-f95a-7e12-42627a87a948",
       "lang": "de",
-      "label": "synonyms: Notwendigkeit +4",
+      "label": "synonyms: Notwendigkeit +5",
       "type": "semantic",
       "auto": true
     },
@@ -38305,9 +38150,9 @@
       "auto": true
     },
     {
-      "cluster_id": "a33579e5-aed3-62cf-fe60-718ac9745634",
+      "cluster_id": "596701d9-5e3f-1e9f-ff44-59e0663f134c",
       "lang": "de",
-      "label": "synonyms: oft +5",
+      "label": "synonyms: oft +6",
       "type": "semantic",
       "auto": true
     },
@@ -38315,6 +38160,13 @@
       "cluster_id": "d4e48cb5-295f-97ac-575e-870b63b15b43",
       "lang": "de",
       "label": "synonyms: ansonsten",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "0062afeb-8adc-30a5-2c7c-59ebc3c7d37f",
+      "lang": "de",
+      "label": "synonyms: machen +2",
       "type": "semantic",
       "auto": true
     },
@@ -38336,6 +38188,13 @@
       "cluster_id": "63df83b7-fe0b-77ae-cb4e-629efbf43e8d",
       "lang": "de",
       "label": "synonyms: empfehlen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "09e5bc11-3f7e-8f96-7c2b-2b3ffb91e1df",
+      "lang": "de",
+      "label": "synonyms: vergleichen +6",
       "type": "semantic",
       "auto": true
     },
@@ -38382,16 +38241,9 @@
       "auto": true
     },
     {
-      "cluster_id": "cf937f95-1447-7671-ca8d-c5fdf10ea58a",
+      "cluster_id": "27446f72-2b85-a2d8-1ce4-a1bf7b86cfd7",
       "lang": "de",
-      "label": "synonyms: bewerten +5",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "c82a7ca3-8db7-5a6f-473b-a27838c400a1",
-      "lang": "de",
-      "label": "synonyms: durchführen",
+      "label": "synonyms: behandeln +2",
       "type": "semantic",
       "auto": true
     },
@@ -38406,6 +38258,13 @@
       "cluster_id": "f2a6e685-6449-6cbf-0d8a-b81e64e7cf54",
       "lang": "de",
       "label": "synonyms: feststellen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c0d7ad32-1c62-a418-e2b0-77dc7f6052c1",
+      "lang": "de",
+      "label": "synonyms: die Kritik",
       "type": "semantic",
       "auto": true
     },
@@ -38459,9 +38318,9 @@
       "auto": true
     },
     {
-      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
+      "cluster_id": "c9f3bfc6-9a28-4d24-ec92-76d201c73fb7",
       "lang": "it",
-      "label": "synonyms: importante +8",
+      "label": "synonyms: importante +14",
       "type": "semantic",
       "auto": true
     },
@@ -38473,9 +38332,9 @@
       "auto": true
     },
     {
-      "cluster_id": "c637f0a6-8b20-2e1b-bc8d-0ee75eb1dffc",
+      "cluster_id": "96b2611c-fa90-3a29-237f-1f66b08d8368",
       "lang": "it",
-      "label": "synonyms: la necessità +4",
+      "label": "synonyms: la necessità +5",
       "type": "semantic",
       "auto": true
     },
@@ -38487,9 +38346,9 @@
       "auto": true
     },
     {
-      "cluster_id": "4969a31d-327d-ea11-109e-57b1ceed6534",
+      "cluster_id": "bace996a-fb77-bce6-787a-707b7d8347d8",
       "lang": "it",
-      "label": "synonyms: spesso +5",
+      "label": "synonyms: spesso +6",
       "type": "semantic",
       "auto": true
     },
@@ -38497,6 +38356,13 @@
       "cluster_id": "279a0c74-5700-d367-b17e-560ade2d862f",
       "lang": "it",
       "label": "synonyms: per il resto",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "ad3c5e41-348c-e284-a34a-19cc7bae7465",
+      "lang": "it",
+      "label": "synonyms: fare +2",
       "type": "semantic",
       "auto": true
     },
@@ -38518,6 +38384,13 @@
       "cluster_id": "ba8e4475-97f0-adbf-57af-691b18172c40",
       "lang": "it",
       "label": "synonyms: consigliare",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "cce80e9b-5cfd-cb00-48e2-315d45cda234",
+      "lang": "it",
+      "label": "synonyms: confrontare +6",
       "type": "semantic",
       "auto": true
     },
@@ -38564,16 +38437,9 @@
       "auto": true
     },
     {
-      "cluster_id": "e7e1470d-f101-6620-0c06-f547561c426f",
+      "cluster_id": "c525f53e-dd80-2b78-7dfe-9ab307ffe008",
       "lang": "it",
-      "label": "synonyms: valutare +5",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "7db68ed7-c1d5-bac7-e67d-bbbd8ade0e33",
-      "lang": "it",
-      "label": "synonyms: svolgere",
+      "label": "synonyms: trattare +2",
       "type": "semantic",
       "auto": true
     },
@@ -38588,6 +38454,13 @@
       "cluster_id": "a09338c2-040c-66e7-bd5d-2d0d78bd0a7e",
       "lang": "it",
       "label": "synonyms: constatare",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "86cafd53-b410-e356-8af7-fd9c4b44b43c",
+      "lang": "it",
+      "label": "synonyms: la critica",
       "type": "semantic",
       "auto": true
     },
@@ -38641,9 +38514,9 @@
       "auto": true
     },
     {
-      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
+      "cluster_id": "34d0e2e8-05b6-6c8d-0330-053cf5109c10",
       "lang": "en",
-      "label": "synonyms: important +8",
+      "label": "synonyms: important +14",
       "type": "semantic",
       "auto": true
     },
@@ -38655,9 +38528,9 @@
       "auto": true
     },
     {
-      "cluster_id": "0e6fd158-bb15-5422-e8be-e86a3aed0088",
+      "cluster_id": "cb8bfbbc-5b8b-c9ea-9358-c6546d90c16e",
       "lang": "en",
-      "label": "synonyms: the necessity +4",
+      "label": "synonyms: the necessity +5",
       "type": "semantic",
       "auto": true
     },
@@ -38669,9 +38542,9 @@
       "auto": true
     },
     {
-      "cluster_id": "c30c80d1-18ff-5fa1-e8ed-142e1ba23a8e",
+      "cluster_id": "5ee92d62-38b0-c8a9-a80c-487e1c0627ad",
       "lang": "en",
-      "label": "synonyms: often +5",
+      "label": "synonyms: often +6",
       "type": "semantic",
       "auto": true
     },
@@ -38679,6 +38552,13 @@
       "cluster_id": "ad3ee621-c6d9-b2aa-79b6-98033858a01b",
       "lang": "en",
       "label": "synonyms: apart from that",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "1ff3c572-abb7-4659-5486-e1152b449d0c",
+      "lang": "en",
+      "label": "synonyms: to make +2",
       "type": "semantic",
       "auto": true
     },
@@ -38700,6 +38580,13 @@
       "cluster_id": "e5bc9865-69dd-c5a9-355e-b98581ecf9fd",
       "lang": "en",
       "label": "synonyms: to recommend",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "456f7844-0772-3f91-b954-a7548cf75cf4",
+      "lang": "en",
+      "label": "synonyms: to compare +6",
       "type": "semantic",
       "auto": true
     },
@@ -38746,16 +38633,9 @@
       "auto": true
     },
     {
-      "cluster_id": "4d643b66-a04b-3eee-f61e-cbe583222c5e",
+      "cluster_id": "afe90c7b-58a6-075a-0399-ac51fd016b8b",
       "lang": "en",
-      "label": "synonyms: to evaluate +5",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "4a8030d2-cb18-4121-a0cf-a5ea5d8c5cc2",
-      "lang": "en",
-      "label": "synonyms: carry out",
+      "label": "synonyms: deal with +2",
       "type": "semantic",
       "auto": true
     },
@@ -38770,6 +38650,13 @@
       "cluster_id": "07451c31-1641-33eb-c579-7ccf03342444",
       "lang": "en",
       "label": "synonyms: establish",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "f6eeeafa-bb7e-8b00-82ee-d50e89182577",
+      "lang": "en",
+      "label": "synonyms: the criticism",
       "type": "semantic",
       "auto": true
     },
@@ -38857,9 +38744,19 @@
       "position": 2
     },
     {
-      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
+      "cluster_id": "bc08087a-2c94-c0f3-1d9d-4549c87b84aa",
       "lexeme_id": "lex-de-entscheidend",
-      "position": 4
+      "position": 2
+    },
+    {
+      "cluster_id": "bc08087a-2c94-c0f3-1d9d-4549c87b84aa",
+      "lexeme_id": "lex-de-wertvoll",
+      "position": 9
+    },
+    {
+      "cluster_id": "bc08087a-2c94-c0f3-1d9d-4549c87b84aa",
+      "lexeme_id": "lex-de-umfangreich",
+      "position": 11
     },
     {
       "cluster_id": "014e14c1-c8ad-b44f-4498-8d5ba791eff3",
@@ -38867,12 +38764,12 @@
       "position": 1
     },
     {
-      "cluster_id": "2952d688-498e-f49e-29f2-4bec8c229eb4",
+      "cluster_id": "40a102b5-8cb8-f95a-7e12-42627a87a948",
       "lexeme_id": "lex-de-bedarf",
       "position": 1
     },
     {
-      "cluster_id": "2952d688-498e-f49e-29f2-4bec8c229eb4",
+      "cluster_id": "40a102b5-8cb8-f95a-7e12-42627a87a948",
       "lexeme_id": "lex-de-voraussetzung",
       "position": 3
     },
@@ -38882,19 +38779,34 @@
       "position": 4
     },
     {
-      "cluster_id": "a33579e5-aed3-62cf-fe60-718ac9745634",
-      "lexeme_id": "ce618408-9b12-82c5-858f-4790fec88c93",
-      "position": 4
+      "cluster_id": "596701d9-5e3f-1e9f-ff44-59e0663f134c",
+      "lexeme_id": "lex-de-regelmassig",
+      "position": 1
     },
     {
-      "cluster_id": "a33579e5-aed3-62cf-fe60-718ac9745634",
-      "lexeme_id": "lex-de-durchschnittlich",
+      "cluster_id": "596701d9-5e3f-1e9f-ff44-59e0663f134c",
+      "lexeme_id": "ce618408-9b12-82c5-858f-4790fec88c93",
       "position": 5
+    },
+    {
+      "cluster_id": "596701d9-5e3f-1e9f-ff44-59e0663f134c",
+      "lexeme_id": "lex-de-durchschnittlich",
+      "position": 6
     },
     {
       "cluster_id": "d4e48cb5-295f-97ac-575e-870b63b15b43",
       "lexeme_id": "lex-de-ansonsten",
       "position": 0
+    },
+    {
+      "cluster_id": "0062afeb-8adc-30a5-2c7c-59ebc3c7d37f",
+      "lexeme_id": "lex-de-durchfuhren",
+      "position": 1
+    },
+    {
+      "cluster_id": "0062afeb-8adc-30a5-2c7c-59ebc3c7d37f",
+      "lexeme_id": "lex-de-umsetzen",
+      "position": 2
     },
     {
       "cluster_id": "0fa8f147-3071-d8e4-4b9f-79a57be488b7",
@@ -38915,6 +38827,11 @@
       "cluster_id": "63df83b7-fe0b-77ae-cb4e-629efbf43e8d",
       "lexeme_id": "lex-de-vorschlagen",
       "position": 1
+    },
+    {
+      "cluster_id": "09e5bc11-3f7e-8f96-7c2b-2b3ffb91e1df",
+      "lexeme_id": "lex-de-bewerten",
+      "position": 2
     },
     {
       "cluster_id": "400df5e9-df33-bc96-29d4-aac36eb122ab",
@@ -38962,19 +38879,14 @@
       "position": 1
     },
     {
-      "cluster_id": "cf937f95-1447-7671-ca8d-c5fdf10ea58a",
-      "lexeme_id": "lex-de-bewerten",
+      "cluster_id": "27446f72-2b85-a2d8-1ce4-a1bf7b86cfd7",
+      "lexeme_id": "lex-de-behandeln",
       "position": 0
     },
     {
-      "cluster_id": "c82a7ca3-8db7-5a6f-473b-a27838c400a1",
-      "lexeme_id": "lex-de-durchfuhren",
-      "position": 0
-    },
-    {
-      "cluster_id": "c82a7ca3-8db7-5a6f-473b-a27838c400a1",
-      "lexeme_id": "lex-de-umsetzen",
-      "position": 1
+      "cluster_id": "27446f72-2b85-a2d8-1ce4-a1bf7b86cfd7",
+      "lexeme_id": "lex-de-umgehen",
+      "position": 2
     },
     {
       "cluster_id": "4d029361-0fb1-ee34-e7de-35aa0908740a",
@@ -38984,6 +38896,11 @@
     {
       "cluster_id": "f2a6e685-6449-6cbf-0d8a-b81e64e7cf54",
       "lexeme_id": "lex-de-feststellen",
+      "position": 0
+    },
+    {
+      "cluster_id": "c0d7ad32-1c62-a418-e2b0-77dc7f6052c1",
+      "lexeme_id": "lex-de-die-kritik",
       "position": 0
     },
     {
@@ -39032,9 +38949,19 @@
       "position": 2
     },
     {
-      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
+      "cluster_id": "c9f3bfc6-9a28-4d24-ec92-76d201c73fb7",
       "lexeme_id": "lex-it-decisivo",
-      "position": 4
+      "position": 2
+    },
+    {
+      "cluster_id": "c9f3bfc6-9a28-4d24-ec92-76d201c73fb7",
+      "lexeme_id": "lex-it-prezioso",
+      "position": 9
+    },
+    {
+      "cluster_id": "c9f3bfc6-9a28-4d24-ec92-76d201c73fb7",
+      "lexeme_id": "lex-it-ampio",
+      "position": 11
     },
     {
       "cluster_id": "437fa420-1684-abcc-c3ca-25ff0d7e430d",
@@ -39042,12 +38969,12 @@
       "position": 1
     },
     {
-      "cluster_id": "c637f0a6-8b20-2e1b-bc8d-0ee75eb1dffc",
+      "cluster_id": "96b2611c-fa90-3a29-237f-1f66b08d8368",
       "lexeme_id": "lex-it-fabbisogno",
       "position": 1
     },
     {
-      "cluster_id": "c637f0a6-8b20-2e1b-bc8d-0ee75eb1dffc",
+      "cluster_id": "96b2611c-fa90-3a29-237f-1f66b08d8368",
       "lexeme_id": "lex-it-requisito",
       "position": 3
     },
@@ -39057,19 +38984,34 @@
       "position": 4
     },
     {
-      "cluster_id": "4969a31d-327d-ea11-109e-57b1ceed6534",
-      "lexeme_id": "c5a9de91-2fa8-4f2a-7105-396e7b218248",
-      "position": 4
+      "cluster_id": "bace996a-fb77-bce6-787a-707b7d8347d8",
+      "lexeme_id": "lex-it-regolare",
+      "position": 1
     },
     {
-      "cluster_id": "4969a31d-327d-ea11-109e-57b1ceed6534",
-      "lexeme_id": "lex-it-medio",
+      "cluster_id": "bace996a-fb77-bce6-787a-707b7d8347d8",
+      "lexeme_id": "c5a9de91-2fa8-4f2a-7105-396e7b218248",
       "position": 5
+    },
+    {
+      "cluster_id": "bace996a-fb77-bce6-787a-707b7d8347d8",
+      "lexeme_id": "lex-it-medio",
+      "position": 6
     },
     {
       "cluster_id": "279a0c74-5700-d367-b17e-560ade2d862f",
       "lexeme_id": "lex-it-per-il-resto",
       "position": 0
+    },
+    {
+      "cluster_id": "ad3c5e41-348c-e284-a34a-19cc7bae7465",
+      "lexeme_id": "lex-it-svolgere",
+      "position": 1
+    },
+    {
+      "cluster_id": "ad3c5e41-348c-e284-a34a-19cc7bae7465",
+      "lexeme_id": "lex-it-attuare",
+      "position": 2
     },
     {
       "cluster_id": "59cfcb17-cfe2-106d-aadd-73d50ef75256",
@@ -39090,6 +39032,11 @@
       "cluster_id": "ba8e4475-97f0-adbf-57af-691b18172c40",
       "lexeme_id": "lex-it-proporre",
       "position": 1
+    },
+    {
+      "cluster_id": "cce80e9b-5cfd-cb00-48e2-315d45cda234",
+      "lexeme_id": "lex-it-valutare",
+      "position": 2
     },
     {
       "cluster_id": "666974c7-b2d9-06e6-b1fa-174b2ea2fb79",
@@ -39137,19 +39084,14 @@
       "position": 1
     },
     {
-      "cluster_id": "e7e1470d-f101-6620-0c06-f547561c426f",
-      "lexeme_id": "lex-it-valutare",
+      "cluster_id": "c525f53e-dd80-2b78-7dfe-9ab307ffe008",
+      "lexeme_id": "lex-it-trattare",
       "position": 0
     },
     {
-      "cluster_id": "7db68ed7-c1d5-bac7-e67d-bbbd8ade0e33",
-      "lexeme_id": "lex-it-svolgere",
-      "position": 0
-    },
-    {
-      "cluster_id": "7db68ed7-c1d5-bac7-e67d-bbbd8ade0e33",
-      "lexeme_id": "lex-it-attuare",
-      "position": 1
+      "cluster_id": "c525f53e-dd80-2b78-7dfe-9ab307ffe008",
+      "lexeme_id": "lex-it-gestire",
+      "position": 2
     },
     {
       "cluster_id": "9debed8a-5665-49a4-3f55-8543f6e8df0e",
@@ -39159,6 +39101,11 @@
     {
       "cluster_id": "a09338c2-040c-66e7-bd5d-2d0d78bd0a7e",
       "lexeme_id": "lex-it-constatare",
+      "position": 0
+    },
+    {
+      "cluster_id": "86cafd53-b410-e356-8af7-fd9c4b44b43c",
+      "lexeme_id": "lex-it-la-critica",
       "position": 0
     },
     {
@@ -39207,9 +39154,19 @@
       "position": 2
     },
     {
-      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
+      "cluster_id": "34d0e2e8-05b6-6c8d-0330-053cf5109c10",
       "lexeme_id": "lex-en-crucial",
-      "position": 4
+      "position": 2
+    },
+    {
+      "cluster_id": "34d0e2e8-05b6-6c8d-0330-053cf5109c10",
+      "lexeme_id": "lex-en-valuable",
+      "position": 9
+    },
+    {
+      "cluster_id": "34d0e2e8-05b6-6c8d-0330-053cf5109c10",
+      "lexeme_id": "lex-en-extensive",
+      "position": 11
     },
     {
       "cluster_id": "139e38f5-3fb7-c3bc-9c7f-61906192e27c",
@@ -39217,12 +39174,12 @@
       "position": 1
     },
     {
-      "cluster_id": "0e6fd158-bb15-5422-e8be-e86a3aed0088",
+      "cluster_id": "cb8bfbbc-5b8b-c9ea-9358-c6546d90c16e",
       "lexeme_id": "lex-en-demand",
       "position": 1
     },
     {
-      "cluster_id": "0e6fd158-bb15-5422-e8be-e86a3aed0088",
+      "cluster_id": "cb8bfbbc-5b8b-c9ea-9358-c6546d90c16e",
       "lexeme_id": "lex-en-prerequisite",
       "position": 3
     },
@@ -39232,19 +39189,34 @@
       "position": 4
     },
     {
-      "cluster_id": "c30c80d1-18ff-5fa1-e8ed-142e1ba23a8e",
-      "lexeme_id": "1010dcf8-d4a6-a42a-5565-3a4e424e3ad6",
-      "position": 4
+      "cluster_id": "5ee92d62-38b0-c8a9-a80c-487e1c0627ad",
+      "lexeme_id": "lex-en-regular",
+      "position": 1
     },
     {
-      "cluster_id": "c30c80d1-18ff-5fa1-e8ed-142e1ba23a8e",
-      "lexeme_id": "lex-en-average",
+      "cluster_id": "5ee92d62-38b0-c8a9-a80c-487e1c0627ad",
+      "lexeme_id": "1010dcf8-d4a6-a42a-5565-3a4e424e3ad6",
       "position": 5
+    },
+    {
+      "cluster_id": "5ee92d62-38b0-c8a9-a80c-487e1c0627ad",
+      "lexeme_id": "lex-en-average",
+      "position": 6
     },
     {
       "cluster_id": "ad3ee621-c6d9-b2aa-79b6-98033858a01b",
       "lexeme_id": "lex-en-otherwise",
       "position": 0
+    },
+    {
+      "cluster_id": "1ff3c572-abb7-4659-5486-e1152b449d0c",
+      "lexeme_id": "lex-en-carry-out",
+      "position": 1
+    },
+    {
+      "cluster_id": "1ff3c572-abb7-4659-5486-e1152b449d0c",
+      "lexeme_id": "lex-en-implement",
+      "position": 2
     },
     {
       "cluster_id": "3b6d9e53-86fa-03fe-ff16-10ea8de73129",
@@ -39265,6 +39237,11 @@
       "cluster_id": "e5bc9865-69dd-c5a9-355e-b98581ecf9fd",
       "lexeme_id": "lex-en-to-suggest",
       "position": 1
+    },
+    {
+      "cluster_id": "456f7844-0772-3f91-b954-a7548cf75cf4",
+      "lexeme_id": "lex-en-evaluate",
+      "position": 2
     },
     {
       "cluster_id": "8c7a23aa-0bff-b1d0-6dad-c5f258d51b1a",
@@ -39312,19 +39289,14 @@
       "position": 1
     },
     {
-      "cluster_id": "4d643b66-a04b-3eee-f61e-cbe583222c5e",
-      "lexeme_id": "lex-en-evaluate",
+      "cluster_id": "afe90c7b-58a6-075a-0399-ac51fd016b8b",
+      "lexeme_id": "lex-en-deal-with",
       "position": 0
     },
     {
-      "cluster_id": "4a8030d2-cb18-4121-a0cf-a5ea5d8c5cc2",
-      "lexeme_id": "lex-en-carry-out",
-      "position": 0
-    },
-    {
-      "cluster_id": "4a8030d2-cb18-4121-a0cf-a5ea5d8c5cc2",
-      "lexeme_id": "lex-en-implement",
-      "position": 1
+      "cluster_id": "afe90c7b-58a6-075a-0399-ac51fd016b8b",
+      "lexeme_id": "lex-en-to-deal-with",
+      "position": 2
     },
     {
       "cluster_id": "4b7e2d5d-82c5-c09d-3cbb-cd2aaf3ef544",
@@ -39334,6 +39306,11 @@
     {
       "cluster_id": "07451c31-1641-33eb-c579-7ccf03342444",
       "lexeme_id": "lex-en-establish",
+      "position": 0
+    },
+    {
+      "cluster_id": "f6eeeafa-bb7e-8b00-82ee-d50e89182577",
+      "lexeme_id": "lex-en-the-criticism",
       "position": 0
     },
     {

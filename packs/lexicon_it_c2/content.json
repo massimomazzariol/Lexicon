@@ -14692,9 +14692,7 @@
       "antonyms_json": [
         "mangelhaft",
         "ungenügend",
-        "schlecht",
         "unterirdisch",
-        "durchschnittlich",
         "nicht ausreichend"
       ],
       "antonym_policy_json": {
@@ -14847,7 +14845,6 @@
       "source": "manual",
       "synonyms_json": [
         "umfassend",
-        "grundlegend",
         "weitreichend"
       ],
       "antonyms_json": [
@@ -14897,7 +14894,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "bahnbrechend",
         "vorbildlich"
       ],
       "antonyms_json": [
@@ -15000,10 +14996,7 @@
         "zwiespältig"
       ],
       "antonyms_json": [
-        "eindeutig",
-        "klar",
-        "entschlossen",
-        "konsequent"
+        "entschlossen"
       ],
       "antonym_policy_json": {
         "status": "intentionally_none",
@@ -16706,6 +16699,34 @@
   ],
   "clusters": [
     {
+      "cluster_id": "bc08087a-2c94-c0f3-1d9d-4549c87b84aa",
+      "lang": "de",
+      "label": "synonyms: wichtig +14",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "9fb94914-6f14-ecb6-8397-0bbdf505cc84",
+      "lang": "de",
+      "label": "synonyms: die Ausdauer",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "5b5ce0a3-dd33-dd7e-1eb0-85c8d6bfb1c7",
+      "lang": "de",
+      "label": "synonyms: belegen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "429b7995-d7e6-ec1f-3c3d-076cc3be7fc9",
+      "lang": "de",
+      "label": "synonyms: die Nuance",
+      "type": "semantic",
+      "auto": true
+    },
+    {
       "cluster_id": "c5c2b1e1-b2f7-66f3-321b-ec4388bbae04",
       "lang": "de",
       "label": "synonyms: widersprechen +2",
@@ -16720,6 +16741,34 @@
       "auto": true
     },
     {
+      "cluster_id": "c9f3bfc6-9a28-4d24-ec92-76d201c73fb7",
+      "lang": "it",
+      "label": "synonyms: importante +14",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "95e5c157-5662-4cd3-cc52-feef36d1100a",
+      "lang": "it",
+      "label": "synonyms: la perseveranza",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "30b287b0-6909-f708-1243-016e7c6158a3",
+      "lang": "it",
+      "label": "synonyms: dimostrare",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c05661c1-c671-311b-96e4-18278d7dfab9",
+      "lang": "it",
+      "label": "synonyms: la sfumatura",
+      "type": "semantic",
+      "auto": true
+    },
+    {
       "cluster_id": "3bb7ad2a-bd94-5fc1-1cc6-5426928f2549",
       "lang": "it",
       "label": "synonyms: contraddire +2",
@@ -16730,6 +16779,34 @@
       "cluster_id": "beb7fce1-69a8-239a-0130-86a395d71341",
       "lang": "it",
       "label": "synonyms: rivoluzionario",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "34d0e2e8-05b6-6c8d-0330-053cf5109c10",
+      "lang": "en",
+      "label": "synonyms: important +14",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "5fd7bf86-6cdf-34b1-2e49-1dc4ae0a30df",
+      "lang": "en",
+      "label": "synonyms: perseverance",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "4be977d0-029a-acc1-6ee2-7b77f6f139ff",
+      "lang": "en",
+      "label": "synonyms: to substantiate",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "34eb29c2-bc55-4819-d6b0-badd1a6dc5d8",
+      "lang": "en",
+      "label": "synonyms: the nuance",
       "type": "semantic",
       "auto": true
     },
@@ -16750,6 +16827,26 @@
   ],
   "cluster_members": [
     {
+      "cluster_id": "bc08087a-2c94-c0f3-1d9d-4549c87b84aa",
+      "lexeme_id": "lex-de-tiefgreifend",
+      "position": 14
+    },
+    {
+      "cluster_id": "9fb94914-6f14-ecb6-8397-0bbdf505cc84",
+      "lexeme_id": "lexeme-de-c2-beharrlichkeit",
+      "position": 1
+    },
+    {
+      "cluster_id": "5b5ce0a3-dd33-dd7e-1eb0-85c8d6bfb1c7",
+      "lexeme_id": "lexeme-de-c2-untermauern",
+      "position": 1
+    },
+    {
+      "cluster_id": "429b7995-d7e6-ec1f-3c3d-076cc3be7fc9",
+      "lexeme_id": "lexeme-de-c2-feinheit",
+      "position": 1
+    },
+    {
       "cluster_id": "c5c2b1e1-b2f7-66f3-321b-ec4388bbae04",
       "lexeme_id": "lexeme-de-c2-entkraeften",
       "position": 2
@@ -16765,6 +16862,26 @@
       "position": 1
     },
     {
+      "cluster_id": "c9f3bfc6-9a28-4d24-ec92-76d201c73fb7",
+      "lexeme_id": "lex-it-profondo",
+      "position": 14
+    },
+    {
+      "cluster_id": "95e5c157-5662-4cd3-cc52-feef36d1100a",
+      "lexeme_id": "lexeme-it-c2-tenacia",
+      "position": 1
+    },
+    {
+      "cluster_id": "30b287b0-6909-f708-1243-016e7c6158a3",
+      "lexeme_id": "lexeme-it-c2-suffragare",
+      "position": 1
+    },
+    {
+      "cluster_id": "c05661c1-c671-311b-96e4-18278d7dfab9",
+      "lexeme_id": "lexeme-it-c2-finezza",
+      "position": 1
+    },
+    {
       "cluster_id": "3bb7ad2a-bd94-5fc1-1cc6-5426928f2549",
       "lexeme_id": "lexeme-it-c2-invalidare",
       "position": 2
@@ -16777,6 +16894,26 @@
     {
       "cluster_id": "beb7fce1-69a8-239a-0130-86a395d71341",
       "lexeme_id": "lex-it-pionieristico",
+      "position": 1
+    },
+    {
+      "cluster_id": "34d0e2e8-05b6-6c8d-0330-053cf5109c10",
+      "lexeme_id": "lex-en-far-reaching",
+      "position": 14
+    },
+    {
+      "cluster_id": "5fd7bf86-6cdf-34b1-2e49-1dc4ae0a30df",
+      "lexeme_id": "lexeme-en-c2-tenacity",
+      "position": 1
+    },
+    {
+      "cluster_id": "4be977d0-029a-acc1-6ee2-7b77f6f139ff",
+      "lexeme_id": "lexeme-en-c2-underpin",
+      "position": 1
+    },
+    {
+      "cluster_id": "34eb29c2-bc55-4819-d6b0-badd1a6dc5d8",
+      "lexeme_id": "lexeme-en-c2-fine-point",
       "position": 1
     },
     {

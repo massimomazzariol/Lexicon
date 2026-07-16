@@ -27873,8 +27873,7 @@
       "context_tags_json": [],
       "source": "migrated_from_gloss_alias",
       "synonyms_json": [
-        "greeting",
-        "address"
+        "greeting"
       ],
       "antonyms_json": [
         "farewell"
@@ -27923,8 +27922,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "at present",
-        "now"
+        "at present"
       ],
       "antonyms_json": [
         "earlier",
@@ -27944,7 +27942,6 @@
       "synonyms_json": [
         "momentan",
         "aktuell",
-        "im Moment",
         "zurzeit"
       ],
       "antonyms_json": [
@@ -27961,9 +27958,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "al momento"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "prima",
         "in precedenza",
@@ -27979,10 +27974,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
-      "synonyms_json": [
-        "the requirement",
-        "the need"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "optionality",
         "the option",
@@ -28007,8 +27999,7 @@
         "Optionalität",
         "Nichtnotwendigkeit",
         "Unnötigkeit",
-        "Freiheit",
-        "Möglichkeit"
+        "Freiheit"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -28078,8 +28069,7 @@
       "context_tags_json": [],
       "source": "migrated_from_gloss_alias",
       "synonyms_json": [
-        "ottenere",
-        "guadagnare"
+        "ottenere"
       ],
       "antonyms_json": [
         "vendere",
@@ -28101,8 +28091,7 @@
         "absprechen"
       ],
       "antonyms_json": [
-        "streiten",
-        "widersprechen"
+        "streiten"
       ],
       "antonym_policy_json": {
         "status": "intentionally_none",
@@ -28309,7 +28298,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "erreichen",
         "schaffen",
         "vollbringen",
         "erledigen"
@@ -28317,8 +28305,7 @@
       "antonyms_json": [
         "versäumen",
         "unterlassen",
-        "nicht vollbringen",
-        "scheitern"
+        "nicht vollbringen"
       ],
       "antonym_policy_json": {
         "status": "intentionally_none",
@@ -28367,7 +28354,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "fordern",
         "erfordern",
         "verlangen"
       ],
@@ -28419,7 +28405,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "verknüpfen",
         "verbinden",
         "in Verbindung bringen",
         "zusammenbringen"
@@ -28479,10 +28464,7 @@
         "begreifen",
         "erkennen"
       ],
-      "antonyms_json": [
-        "ignorieren",
-        "ablehnen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "no_single_robust_opposite_for_follow_reasoning_verb",
@@ -28583,12 +28565,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "anspruchsvoll",
-        "komplex",
-        "schwierig"
+        "komplex"
       ],
       "antonyms_json": [
-        "leicht",
         "einfach"
       ],
       "antonym_policy_json": {
@@ -28698,7 +28677,6 @@
         "verkehrt interpretieren"
       ],
       "antonyms_json": [
-        "verstehen",
         "richtig verstehen"
       ],
       "antonym_policy_json": {
@@ -28748,8 +28726,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "begeistern",
-        "überzeugen"
+        "begeistern"
       ],
       "antonyms_json": [
         "enttäuschen",
@@ -28803,7 +28780,6 @@
       "source": "manual",
       "synonyms_json": [
         "erläutern",
-        "verdeutlichen",
         "präzisieren",
         "ausführen"
       ],
@@ -28860,13 +28836,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "klar",
-        "deutlich",
-        "unzweideutig",
-        "präzise"
+        "unzweideutig"
       ],
       "antonyms_json": [
-        "zweideutig",
         "unbestimmt",
         "vag",
         "unscharf"
@@ -28918,8 +28890,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "beurteilen",
-        "bewerten",
         "schätzen"
       ],
       "antonyms_json": [],
@@ -29140,9 +29110,7 @@
       "synonyms_json": [
         "stabil"
       ],
-      "antonyms_json": [
-        "verletzlich"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -29156,9 +29124,7 @@
       "synonyms_json": [
         "solido"
       ],
-      "antonyms_json": [
-        "vulnerabile"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -29172,9 +29138,7 @@
       "synonyms_json": [
         "sturdy"
       ],
-      "antonyms_json": [
-        "vulnerable"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -29187,12 +29151,10 @@
       "source": "manual",
       "synonyms_json": [
         "fest",
-        "zuverlässig",
         "stabil",
         "tragfähig"
       ],
       "antonyms_json": [
-        "verletzlich",
         "brüchig",
         "schwach",
         "instabil",
@@ -29209,9 +29171,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "vulnerabile"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -29223,9 +29183,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "vulnerable"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -29239,9 +29197,7 @@
       "synonyms_json": [
         "verwundbar"
       ],
-      "antonyms_json": [
-        "belastbar"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -29253,9 +29209,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "resistente"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -29267,9 +29221,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "resilient"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -29282,7 +29234,6 @@
       "source": "manual",
       "synonyms_json": [
         "bewundernswürdig",
-        "eindrucksvoll",
         "erstaunlich"
       ],
       "antonyms_json": [
@@ -29381,7 +29332,6 @@
         "frustrierend"
       ],
       "antonyms_json": [
-        "beeindruckend",
         "erfreulich",
         "zufriedenstellend",
         "erfolgreich",
@@ -29399,7 +29349,6 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "impressive",
         "gratifying"
       ],
       "antonym_policy_json": null,
@@ -29414,7 +29363,6 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "impressionante",
         "soddisfacente"
       ],
       "antonym_policy_json": null,
@@ -29433,7 +29381,6 @@
         "traurig"
       ],
       "antonyms_json": [
-        "begeistert",
         "zufrieden",
         "erfreut"
       ],
@@ -29464,7 +29411,6 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "entusiasta",
         "soddisfatto"
       ],
       "antonym_policy_json": null,
@@ -29486,8 +29432,7 @@
       "antonyms_json": [
         "erwartbar",
         "vorhersehbar",
-        "erwartet",
-        "gewöhnlich"
+        "erwartet"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -29514,9 +29459,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "prevedibile"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -29583,7 +29526,6 @@
       ],
       "antonyms_json": [
         "mangelhaft",
-        "schlecht",
         "unzulänglich",
         "unvollkommen",
         "nichtswürdig",
@@ -29636,12 +29578,10 @@
       "context_tags_json": [],
       "source": "ai",
       "synonyms_json": [
-        "beeindruckend",
         "bemerkenswert"
       ],
       "antonyms_json": [
-        "unauffällig",
-        "gewöhnlich"
+        "unauffällig"
       ],
       "antonym_policy_json": {
         "status": "intentionally_none",
@@ -29690,12 +29630,10 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "wichtig",
         "bedeutend"
       ],
       "antonyms_json": [
         "irrelevant",
-        "unwichtig",
         "nebenbei",
         "unbedeutend",
         "unwesentlich"
@@ -29738,11 +29676,9 @@
       "source": "manual",
       "synonyms_json": [
         "notwendig",
-        "wichtig",
         "unerlässlich"
       ],
       "antonyms_json": [
-        "unwichtig",
         "unwesentlich",
         "nebensächlich",
         "unbedeutend",
@@ -29759,9 +29695,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "unimportant"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -29787,14 +29721,10 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "wichtig",
-        "erheblich"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "bedeutungslos",
         "unbedeutend",
-        "unwichtig",
         "nebensächlich",
         "geringfügig"
       ],
@@ -29838,7 +29768,6 @@
       "source": "manual",
       "synonyms_json": [
         "bedeutend",
-        "groß",
         "signifikant"
       ],
       "antonyms_json": [
@@ -29893,7 +29822,6 @@
         "unvoreingenommen"
       ],
       "antonyms_json": [
-        "subjektiv",
         "voreingenommen"
       ],
       "antonym_policy_json": null,
@@ -29907,9 +29835,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "subjective"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -29921,9 +29847,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "soggettivo"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -29938,9 +29862,7 @@
         "persönlich",
         "individuell"
       ],
-      "antonyms_json": [
-        "objektiv"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -29952,9 +29874,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "objective"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -29980,15 +29900,12 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "zentral",
-        "wesentlich",
         "kernig"
       ],
       "antonyms_json": [
         "nebensächlich",
         "oberflächlich",
         "unbedeutend",
-        "unwichtig",
         "irrelevant",
         "flüchtig"
       ],
@@ -30034,7 +29951,6 @@
         "umstritten"
       ],
       "antonyms_json": [
-        "unumstritten",
         "unstrittig",
         "uneingeschränkt",
         "einwandfrei"
@@ -30080,7 +29996,6 @@
       "source": "manual",
       "synonyms_json": [
         "bedeutend",
-        "wichtig",
         "bemerkenswert",
         "hervorragend",
         "auffällig"
@@ -30088,7 +30003,6 @@
       "antonyms_json": [
         "unbedeutend",
         "geringfügig",
-        "unwichtig",
         "unbemerkt",
         "nebensächlich"
       ],
@@ -30135,10 +30049,8 @@
         "exakt"
       ],
       "antonyms_json": [
-        "vage",
         "ungenau",
-        "unpräzise",
-        "falsch"
+        "unpräzise"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -30152,7 +30064,6 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "vague",
         "imprecise"
       ],
       "antonym_policy_json": null,
@@ -30167,7 +30078,6 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "vago",
         "impreciso"
       ],
       "antonym_policy_json": null,
@@ -30183,16 +30093,11 @@
       "synonyms_json": [
         "unscharf",
         "unbestimmt",
-        "unklar",
         "unpräzise"
       ],
       "antonyms_json": [
-        "präzise",
-        "konkret",
         "scharf",
-        "klar",
         "bestimmt",
-        "eindeutig",
         "definitiv"
       ],
       "antonym_policy_json": null,
@@ -30206,10 +30111,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "precise",
-        "concrete"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -30221,10 +30123,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "preciso",
-        "concreto"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -30236,21 +30135,14 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "deutlich",
-        "klar",
-        "eindeutig",
         "direkt",
         "offen",
-        "unmissverständlich",
-        "präzise"
+        "unmissverständlich"
       ],
       "antonyms_json": [
         "implizit",
         "angedeutet",
-        "vage",
         "unbestimmt",
-        "unklar",
-        "zweideutig",
         "unpräzise"
       ],
       "antonym_policy_json": null,
@@ -30297,10 +30189,7 @@
         "doppelsinnig",
         "unscharf"
       ],
-      "antonyms_json": [
-        "eindeutig",
-        "klar"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -30313,7 +30202,6 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "unambiguous",
         "clear"
       ],
       "antonym_policy_json": null,
@@ -30328,7 +30216,6 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "inequivocabile",
         "chiaro"
       ],
       "antonym_policy_json": null,
@@ -30346,8 +30233,6 @@
         "spezifisch"
       ],
       "antonyms_json": [
-        "abstrakt",
-        "vage",
         "vag",
         "unbestimmbar"
       ],
@@ -30362,10 +30247,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "abstract",
-        "vague"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -30377,10 +30259,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "astratto",
-        "vago"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -30396,8 +30275,6 @@
         "ideell"
       ],
       "antonyms_json": [
-        "konkret",
-        "praktisch",
         "realistisch"
       ],
       "antonym_policy_json": null,
@@ -30411,9 +30288,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "concrete"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -30425,9 +30300,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "concreto"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -30439,13 +30312,10 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "klar",
-        "deutlich",
         "evident"
       ],
       "antonyms_json": [
         "verborgen",
-        "unklar",
         "verworren",
         "verdunkelt"
       ],
@@ -30461,8 +30331,7 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "hidden",
-        "unclear"
+        "hidden"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -30476,8 +30345,7 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "nascosto",
-        "poco chiaro"
+        "nascosto"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -30489,10 +30357,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "der Vergleich",
-        "die Einigung"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "Unnachgiebigkeit",
         "Sturheit",
@@ -30596,10 +30461,7 @@
         "einwilligen",
         "billigen"
       ],
-      "antonyms_json": [
-        "ablehnen",
-        "widersprechen"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -30612,8 +30474,7 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "to disagree",
-        "to reject"
+        "to disagree"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -30642,12 +30503,9 @@
       "source": "manual",
       "synonyms_json": [
         "bestreiten",
-        "entgegnen",
-        "widerlegen"
+        "entgegnen"
       ],
       "antonyms_json": [
-        "zustimmen",
-        "bestätigen",
         "unterstützen"
       ],
       "antonym_policy_json": null,
@@ -30661,10 +30519,7 @@
       "context_tags_json": [],
       "source": "ai",
       "synonyms_json": [],
-      "antonyms_json": [
-        "to agree",
-        "to confirm"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -30676,10 +30531,7 @@
       "context_tags_json": [],
       "source": "ai",
       "synonyms_json": [],
-      "antonyms_json": [
-        "acconsentire",
-        "confermare"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -30694,9 +30546,7 @@
         "verifizieren"
       ],
       "antonyms_json": [
-        "ablehnen",
-        "verneinen",
-        "widersprechen"
+        "verneinen"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -30710,8 +30560,7 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "to deny",
-        "to reject"
+        "to deny"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -30725,8 +30574,7 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "negare",
-        "rifiutare"
+        "negare"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -30739,15 +30587,13 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "der Vertrag",
-        "die Vereinbarung"
+        "der Vertrag"
       ],
       "antonyms_json": [
         "der Streit",
         "der Konflikt",
         "die Unstimmigkeit",
-        "die Auseinandersetzung",
-        "das Missverständnis"
+        "die Auseinandersetzung"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -30790,9 +30636,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "Voraussetzung",
-        "Erfordernis",
-        "Anforderung"
+        "Erfordernis"
       ],
       "antonyms_json": [],
       "antonym_policy_json": {
@@ -30842,13 +30686,11 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "Verpflichtung",
-        "Einigung"
+        "Verpflichtung"
       ],
       "antonyms_json": [
         "die Absage",
         "Zurückweisung",
-        "Ablehnung",
         "Unverbindlichkeit"
       ],
       "antonym_policy_json": null,
@@ -30863,7 +30705,6 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "the rejection",
         "the refusal"
       ],
       "antonym_policy_json": null,
@@ -30877,9 +30718,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "il rifiuto"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -30891,8 +30730,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "Vorgabe",
-        "Bedingung"
+        "Vorgabe"
       ],
       "antonyms_json": [],
       "antonym_policy_json": {
@@ -30942,16 +30780,13 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "Kompromiss",
         "Abstriche",
-        "Nachgabe",
-        "Einigung"
+        "Nachgabe"
       ],
       "antonyms_json": [
         "Beharren",
         "Unnachgiebigkeit",
         "Verweigerung",
-        "Ablehnung",
         "Sturheit"
       ],
       "antonym_policy_json": {
@@ -31057,7 +30892,6 @@
       "source": "manual",
       "synonyms_json": [
         "Belastung",
-        "Druck",
         "Anspannung",
         "Überlastung"
       ],
@@ -31113,7 +30947,6 @@
       ],
       "antonyms_json": [
         "entspannend",
-        "leicht",
         "erleichternd",
         "entlastend",
         "beruhigend",
@@ -31131,8 +30964,7 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "relaxing",
-        "easy"
+        "relaxing"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -31146,8 +30978,7 @@
       "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [
-        "rilassante",
-        "facile"
+        "rilassante"
       ],
       "antonym_policy_json": null,
       "hint_text": null
@@ -31263,7 +31094,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "Beharrlichkeit",
         "Zähigkeit"
       ],
       "antonyms_json": [
@@ -31566,7 +31396,6 @@
       "context_tags_json": [],
       "source": "ai",
       "synonyms_json": [
-        "plausibel",
         "gerechtfertigt"
       ],
       "antonyms_json": [
@@ -31717,7 +31546,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "entscheiden",
         "bestimmen"
       ],
       "antonyms_json": [
@@ -31817,12 +31645,10 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "untermauern",
         "begründen",
         "stützen"
       ],
       "antonyms_json": [
-        "widerlegen",
         "bestreiten",
         "leugnen"
       ],
@@ -31837,9 +31663,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "to refute"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -31851,9 +31675,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
-      "antonyms_json": [
-        "confutare"
-      ],
+      "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
     },
@@ -31870,8 +31692,7 @@
       ],
       "antonyms_json": [
         "verbergen",
-        "verdecken",
-        "ignorieren"
+        "verdecken"
       ],
       "antonym_policy_json": {
         "status": "intentionally_none",
@@ -31919,9 +31740,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "auf den Punkt bringen"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "erweitern",
         "detaillieren"
@@ -31973,12 +31792,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "bewerten",
         "interpretieren"
       ],
       "antonyms_json": [
-        "ignorieren",
-        "übersehen",
         "vernachlässigen",
         "verpassen"
       ],
@@ -32078,9 +31894,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
-      "synonyms_json": [
-        "die Feinheit"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
@@ -32186,9 +32000,16 @@
   ],
   "clusters": [
     {
-      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
+      "cluster_id": "bc08087a-2c94-c0f3-1d9d-4549c87b84aa",
       "lang": "de",
-      "label": "synonyms: wichtig +8",
+      "label": "synonyms: wichtig +14",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "dfc3d86e-4aec-6d60-34f9-435e1160722c",
+      "lang": "de",
+      "label": "synonyms: schwierig +2",
       "type": "semantic",
       "auto": true
     },
@@ -32200,16 +32021,44 @@
       "auto": true
     },
     {
-      "cluster_id": "2952d688-498e-f49e-29f2-4bec8c229eb4",
+      "cluster_id": "40a102b5-8cb8-f95a-7e12-42627a87a948",
       "lang": "de",
-      "label": "synonyms: Notwendigkeit +4",
+      "label": "synonyms: Notwendigkeit +5",
       "type": "semantic",
       "auto": true
     },
     {
-      "cluster_id": "cf937f95-1447-7671-ca8d-c5fdf10ea58a",
+      "cluster_id": "2026ddd2-15d1-e572-1d4c-4ca42a92296b",
       "lang": "de",
-      "label": "synonyms: bewerten +5",
+      "label": "synonyms: anrufen +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "3f22f945-c3f4-22c5-3fca-ef18e3f05834",
+      "lang": "de",
+      "label": "synonyms: erwerben",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "8be1eda8-8bc8-fe9f-d343-4c760edbca40",
+      "lang": "de",
+      "label": "synonyms: klar +10",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "93215dec-cc6f-4178-3e1e-8d215f853374",
+      "lang": "de",
+      "label": "synonyms: entscheiden",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "09e5bc11-3f7e-8f96-7c2b-2b3ffb91e1df",
+      "lang": "de",
+      "label": "synonyms: vergleichen +6",
       "type": "semantic",
       "auto": true
     },
@@ -32249,9 +32098,9 @@
       "auto": true
     },
     {
-      "cluster_id": "736cd683-99c4-2e48-a2dc-b738c07b2de6",
+      "cluster_id": "9fb94914-6f14-ecb6-8397-0bbdf505cc84",
       "lang": "de",
-      "label": "synonyms: ausdrücklich +2",
+      "label": "synonyms: die Ausdauer",
       "type": "semantic",
       "auto": true
     },
@@ -32270,16 +32119,16 @@
       "auto": true
     },
     {
-      "cluster_id": "93fde1d7-942f-74b7-5918-9d60d497c018",
+      "cluster_id": "5b5ce0a3-dd33-dd7e-1eb0-85c8d6bfb1c7",
       "lang": "de",
-      "label": "synonyms: der Druck",
+      "label": "synonyms: belegen",
       "type": "semantic",
       "auto": true
     },
     {
-      "cluster_id": "0e741954-5121-a787-bfff-9faeabcba3ba",
+      "cluster_id": "93fde1d7-942f-74b7-5918-9d60d497c018",
       "lang": "de",
-      "label": "synonyms: herausfordernd",
+      "label": "synonyms: der Druck",
       "type": "semantic",
       "auto": true
     },
@@ -32291,9 +32140,9 @@
       "auto": true
     },
     {
-      "cluster_id": "c5ab0b74-577e-c417-75f6-f555b529e55a",
+      "cluster_id": "429b7995-d7e6-ec1f-3c3d-076cc3be7fc9",
       "lang": "de",
-      "label": "synonyms: leisten",
+      "label": "synonyms: die Nuance",
       "type": "semantic",
       "auto": true
     },
@@ -32301,13 +32150,6 @@
       "cluster_id": "41a82da2-daa8-fbda-6f0a-151f1fec6473",
       "lang": "de",
       "label": "synonyms: robust",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "d4527717-678f-5669-a6bd-2abce36aa103",
-      "lang": "de",
-      "label": "synonyms: überzeugend +4",
       "type": "semantic",
       "auto": true
     },
@@ -32340,9 +32182,16 @@
       "auto": true
     },
     {
-      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
+      "cluster_id": "c9f3bfc6-9a28-4d24-ec92-76d201c73fb7",
       "lang": "it",
-      "label": "synonyms: importante +8",
+      "label": "synonyms: importante +14",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "8ff5d8ae-d5ad-7a6b-86c0-cba42dca4e59",
+      "lang": "it",
+      "label": "synonyms: difficile +2",
       "type": "semantic",
       "auto": true
     },
@@ -32354,16 +32203,44 @@
       "auto": true
     },
     {
-      "cluster_id": "c637f0a6-8b20-2e1b-bc8d-0ee75eb1dffc",
+      "cluster_id": "96b2611c-fa90-3a29-237f-1f66b08d8368",
       "lang": "it",
-      "label": "synonyms: la necessità +4",
+      "label": "synonyms: la necessità +5",
       "type": "semantic",
       "auto": true
     },
     {
-      "cluster_id": "e7e1470d-f101-6620-0c06-f547561c426f",
+      "cluster_id": "e5f0a02f-8024-698d-1021-e5f3921ae1ce",
       "lang": "it",
-      "label": "synonyms: valutare +5",
+      "label": "synonyms: chiamare +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "abc143e9-b2dd-56a3-d4d8-07255bf5e88f",
+      "lang": "it",
+      "label": "synonyms: acquisire",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c55420cd-d889-75d3-8921-f61877fe9167",
+      "lang": "it",
+      "label": "synonyms: chiaro +10",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "4338e860-9c83-58a5-cf1f-249c8e025d42",
+      "lang": "it",
+      "label": "synonyms: decidere",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "cce80e9b-5cfd-cb00-48e2-315d45cda234",
+      "lang": "it",
+      "label": "synonyms: confrontare +6",
       "type": "semantic",
       "auto": true
     },
@@ -32403,9 +32280,9 @@
       "auto": true
     },
     {
-      "cluster_id": "a625809e-1551-d257-9e97-52fa54dd9d1c",
+      "cluster_id": "95e5c157-5662-4cd3-cc52-feef36d1100a",
       "lang": "it",
-      "label": "synonyms: esplicito +2",
+      "label": "synonyms: la perseveranza",
       "type": "semantic",
       "auto": true
     },
@@ -32424,16 +32301,16 @@
       "auto": true
     },
     {
-      "cluster_id": "ce03874a-5271-2e3a-4611-69fc69a4e11b",
+      "cluster_id": "30b287b0-6909-f708-1243-016e7c6158a3",
       "lang": "it",
-      "label": "synonyms: la pressione",
+      "label": "synonyms: dimostrare",
       "type": "semantic",
       "auto": true
     },
     {
-      "cluster_id": "0f2e1e70-80fd-da31-91b0-f2608500805b",
+      "cluster_id": "ce03874a-5271-2e3a-4611-69fc69a4e11b",
       "lang": "it",
-      "label": "synonyms: impegnativo",
+      "label": "synonyms: la pressione",
       "type": "semantic",
       "auto": true
     },
@@ -32445,9 +32322,9 @@
       "auto": true
     },
     {
-      "cluster_id": "987dacf6-620b-74ee-863e-031d3c11fc02",
+      "cluster_id": "c05661c1-c671-311b-96e4-18278d7dfab9",
       "lang": "it",
-      "label": "synonyms: realizzare",
+      "label": "synonyms: la sfumatura",
       "type": "semantic",
       "auto": true
     },
@@ -32455,13 +32332,6 @@
       "cluster_id": "6f7cf015-e87b-7833-2fa4-1c10f1a0ba89",
       "lang": "it",
       "label": "synonyms: robusto",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "a4cf3095-aadc-c83f-e455-bfd5c4ff07d8",
-      "lang": "it",
-      "label": "synonyms: convincente +4",
       "type": "semantic",
       "auto": true
     },
@@ -32494,9 +32364,16 @@
       "auto": true
     },
     {
-      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
+      "cluster_id": "34d0e2e8-05b6-6c8d-0330-053cf5109c10",
       "lang": "en",
-      "label": "synonyms: important +8",
+      "label": "synonyms: important +14",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "f715d168-2753-6c7d-6b4b-b87b1b25f554",
+      "lang": "en",
+      "label": "synonyms: difficult +2",
       "type": "semantic",
       "auto": true
     },
@@ -32508,16 +32385,44 @@
       "auto": true
     },
     {
-      "cluster_id": "0e6fd158-bb15-5422-e8be-e86a3aed0088",
+      "cluster_id": "cb8bfbbc-5b8b-c9ea-9358-c6546d90c16e",
       "lang": "en",
-      "label": "synonyms: the necessity +4",
+      "label": "synonyms: the necessity +5",
       "type": "semantic",
       "auto": true
     },
     {
-      "cluster_id": "4d643b66-a04b-3eee-f61e-cbe583222c5e",
+      "cluster_id": "84966ccb-8da2-675e-26c5-87d2d54c3321",
       "lang": "en",
-      "label": "synonyms: to evaluate +5",
+      "label": "synonyms: call +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "175cc8f4-3bca-20c7-dd71-dfc2dbe5ada9",
+      "lang": "en",
+      "label": "synonyms: acquire",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "0f112896-3ec5-b28d-e85a-c4e2f198e5f8",
+      "lang": "en",
+      "label": "synonyms: clear +10",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "2a4a2c9c-0fc3-8441-63c3-25cf6924d180",
+      "lang": "en",
+      "label": "synonyms: to decide",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "456f7844-0772-3f91-b954-a7548cf75cf4",
+      "lang": "en",
+      "label": "synonyms: to compare +6",
       "type": "semantic",
       "auto": true
     },
@@ -32557,9 +32462,9 @@
       "auto": true
     },
     {
-      "cluster_id": "129653b1-6e43-5821-ec5f-eb391ef15310",
+      "cluster_id": "5fd7bf86-6cdf-34b1-2e49-1dc4ae0a30df",
       "lang": "en",
-      "label": "synonyms: explicit +2",
+      "label": "synonyms: perseverance",
       "type": "semantic",
       "auto": true
     },
@@ -32578,16 +32483,16 @@
       "auto": true
     },
     {
-      "cluster_id": "4a05c374-89fb-5011-59f0-926befbfe4dd",
+      "cluster_id": "4be977d0-029a-acc1-6ee2-7b77f6f139ff",
       "lang": "en",
-      "label": "synonyms: the pressure",
+      "label": "synonyms: to substantiate",
       "type": "semantic",
       "auto": true
     },
     {
-      "cluster_id": "3b6b8fc2-00a7-33ff-3eac-0d57622fcf70",
+      "cluster_id": "4a05c374-89fb-5011-59f0-926befbfe4dd",
       "lang": "en",
-      "label": "synonyms: challenging",
+      "label": "synonyms: the pressure",
       "type": "semantic",
       "auto": true
     },
@@ -32599,9 +32504,9 @@
       "auto": true
     },
     {
-      "cluster_id": "0dc5fe90-716c-be3d-aaa3-2e0b7443ac6d",
+      "cluster_id": "34eb29c2-bc55-4819-d6b0-badd1a6dc5d8",
       "lang": "en",
-      "label": "synonyms: to accomplish",
+      "label": "synonyms: the nuance",
       "type": "semantic",
       "auto": true
     },
@@ -32609,13 +32514,6 @@
       "cluster_id": "66dacc78-7e9d-9400-3212-20bbc842a883",
       "lang": "en",
       "label": "synonyms: robust",
-      "type": "semantic",
-      "auto": true
-    },
-    {
-      "cluster_id": "db5088e5-67d0-f95f-3210-c1647ac4f520",
-      "lang": "en",
-      "label": "synonyms: convincing +4",
       "type": "semantic",
       "auto": true
     },
@@ -32650,24 +32548,39 @@
   ],
   "cluster_members": [
     {
-      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
+      "cluster_id": "bc08087a-2c94-c0f3-1d9d-4549c87b84aa",
       "lexeme_id": "lex-de-bedeutsam",
-      "position": 2
-    },
-    {
-      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
-      "lexeme_id": "lex-de-wesentlich",
       "position": 3
     },
     {
-      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
-      "lexeme_id": "lex-de-erheblich",
+      "cluster_id": "bc08087a-2c94-c0f3-1d9d-4549c87b84aa",
+      "lexeme_id": "lex-de-nennenswert",
+      "position": 4
+    },
+    {
+      "cluster_id": "bc08087a-2c94-c0f3-1d9d-4549c87b84aa",
+      "lexeme_id": "lex-de-relevant",
       "position": 5
     },
     {
-      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
+      "cluster_id": "bc08087a-2c94-c0f3-1d9d-4549c87b84aa",
+      "lexeme_id": "lex-de-wesentlich",
+      "position": 6
+    },
+    {
+      "cluster_id": "bc08087a-2c94-c0f3-1d9d-4549c87b84aa",
+      "lexeme_id": "lex-de-erheblich",
+      "position": 12
+    },
+    {
+      "cluster_id": "bc08087a-2c94-c0f3-1d9d-4549c87b84aa",
       "lexeme_id": "lex-de-grundlegend",
-      "position": 7
+      "position": 13
+    },
+    {
+      "cluster_id": "dfc3d86e-4aec-6d60-34f9-435e1160722c",
+      "lexeme_id": "lex-de-herausfordernd",
+      "position": 1
     },
     {
       "cluster_id": "a8176da2-6d81-996d-09a0-2e656714bdf3",
@@ -32675,34 +32588,79 @@
       "position": 0
     },
     {
-      "cluster_id": "2952d688-498e-f49e-29f2-4bec8c229eb4",
+      "cluster_id": "40a102b5-8cb8-f95a-7e12-42627a87a948",
       "lexeme_id": "lex-de-notwendigkeit",
       "position": 0
     },
     {
-      "cluster_id": "2952d688-498e-f49e-29f2-4bec8c229eb4",
+      "cluster_id": "40a102b5-8cb8-f95a-7e12-42627a87a948",
       "lexeme_id": "lex-de-die-anforderung",
       "position": 2
     },
     {
-      "cluster_id": "2952d688-498e-f49e-29f2-4bec8c229eb4",
+      "cluster_id": "40a102b5-8cb8-f95a-7e12-42627a87a948",
       "lexeme_id": "lex-de-die-bedingung",
       "position": 4
     },
     {
-      "cluster_id": "cf937f95-1447-7671-ca8d-c5fdf10ea58a",
+      "cluster_id": "2026ddd2-15d1-e572-1d4c-4ca42a92296b",
+      "lexeme_id": "lex-de-leisten",
+      "position": 3
+    },
+    {
+      "cluster_id": "3f22f945-c3f4-22c5-3fca-ef18e3f05834",
+      "lexeme_id": "lex-de-erwerben",
+      "position": 0
+    },
+    {
+      "cluster_id": "8be1eda8-8bc8-fe9f-d343-4c760edbca40",
+      "lexeme_id": "lex-de-ausdrucklich",
+      "position": 2
+    },
+    {
+      "cluster_id": "8be1eda8-8bc8-fe9f-d343-4c760edbca40",
+      "lexeme_id": "lex-de-eindeutig",
+      "position": 3
+    },
+    {
+      "cluster_id": "8be1eda8-8bc8-fe9f-d343-4c760edbca40",
+      "lexeme_id": "lex-de-offensichtlich",
+      "position": 4
+    },
+    {
+      "cluster_id": "8be1eda8-8bc8-fe9f-d343-4c760edbca40",
+      "lexeme_id": "lex-de-prazise",
+      "position": 6
+    },
+    {
+      "cluster_id": "8be1eda8-8bc8-fe9f-d343-4c760edbca40",
+      "lexeme_id": "lex-de-uberzeugend",
+      "position": 7
+    },
+    {
+      "cluster_id": "8be1eda8-8bc8-fe9f-d343-4c760edbca40",
+      "lexeme_id": "lex-de-vertretbar",
+      "position": 10
+    },
+    {
+      "cluster_id": "93215dec-cc6f-4178-3e1e-8d215f853374",
+      "lexeme_id": "lex-de-festlegen",
+      "position": 1
+    },
+    {
+      "cluster_id": "09e5bc11-3f7e-8f96-7c2b-2b3ffb91e1df",
       "lexeme_id": "lex-de-abwagen",
       "position": 1
     },
     {
-      "cluster_id": "cf937f95-1447-7671-ca8d-c5fdf10ea58a",
+      "cluster_id": "09e5bc11-3f7e-8f96-7c2b-2b3ffb91e1df",
       "lexeme_id": "lex-de-auswerten",
-      "position": 2
+      "position": 3
     },
     {
-      "cluster_id": "cf937f95-1447-7671-ca8d-c5fdf10ea58a",
+      "cluster_id": "09e5bc11-3f7e-8f96-7c2b-2b3ffb91e1df",
       "lexeme_id": "lex-de-einschatzen",
-      "position": 3
+      "position": 4
     },
     {
       "cluster_id": "4d029361-0fb1-ee34-e7de-35aa0908740a",
@@ -32745,19 +32703,9 @@
       "position": 1
     },
     {
-      "cluster_id": "736cd683-99c4-2e48-a2dc-b738c07b2de6",
-      "lexeme_id": "lex-de-ausdrucklich",
+      "cluster_id": "9fb94914-6f14-ecb6-8397-0bbdf505cc84",
+      "lexeme_id": "lex-de-die-ausdauer",
       "position": 0
-    },
-    {
-      "cluster_id": "736cd683-99c4-2e48-a2dc-b738c07b2de6",
-      "lexeme_id": "lex-de-eindeutig",
-      "position": 1
-    },
-    {
-      "cluster_id": "736cd683-99c4-2e48-a2dc-b738c07b2de6",
-      "lexeme_id": "lex-de-prazise",
-      "position": 2
     },
     {
       "cluster_id": "856ca4b7-8c6c-47cc-c6ea-68797b7de0ee",
@@ -32780,6 +32728,11 @@
       "position": 1
     },
     {
+      "cluster_id": "5b5ce0a3-dd33-dd7e-1eb0-85c8d6bfb1c7",
+      "lexeme_id": "lex-de-belegen",
+      "position": 0
+    },
+    {
       "cluster_id": "93fde1d7-942f-74b7-5918-9d60d497c018",
       "lexeme_id": "lex-de-der-druck",
       "position": 0
@@ -32790,34 +32743,19 @@
       "position": 1
     },
     {
-      "cluster_id": "0e741954-5121-a787-bfff-9faeabcba3ba",
-      "lexeme_id": "lex-de-herausfordernd",
-      "position": 0
-    },
-    {
       "cluster_id": "7d025fe5-6e8a-186b-8f10-867accd29b29",
       "lexeme_id": "lex-de-klarstellen",
       "position": 0
     },
     {
-      "cluster_id": "c5ab0b74-577e-c417-75f6-f555b529e55a",
-      "lexeme_id": "lex-de-leisten",
+      "cluster_id": "429b7995-d7e6-ec1f-3c3d-076cc3be7fc9",
+      "lexeme_id": "lexeme-de-b2-nuance",
       "position": 0
     },
     {
       "cluster_id": "41a82da2-daa8-fbda-6f0a-151f1fec6473",
       "lexeme_id": "lex-de-robust",
       "position": 0
-    },
-    {
-      "cluster_id": "d4527717-678f-5669-a6bd-2abce36aa103",
-      "lexeme_id": "lex-de-uberzeugend",
-      "position": 0
-    },
-    {
-      "cluster_id": "d4527717-678f-5669-a6bd-2abce36aa103",
-      "lexeme_id": "lex-de-vertretbar",
-      "position": 3
     },
     {
       "cluster_id": "0eedd7cb-6740-fa7d-8099-788473a708ec",
@@ -32840,24 +32778,39 @@
       "position": 0
     },
     {
-      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
+      "cluster_id": "c9f3bfc6-9a28-4d24-ec92-76d201c73fb7",
       "lexeme_id": "lex-it-significativo",
-      "position": 2
-    },
-    {
-      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
-      "lexeme_id": "lex-it-essenziale",
       "position": 3
     },
     {
-      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
-      "lexeme_id": "lex-it-notevole-2",
+      "cluster_id": "c9f3bfc6-9a28-4d24-ec92-76d201c73fb7",
+      "lexeme_id": "lex-it-degno-di-nota",
+      "position": 4
+    },
+    {
+      "cluster_id": "c9f3bfc6-9a28-4d24-ec92-76d201c73fb7",
+      "lexeme_id": "lex-it-rilevante",
       "position": 5
     },
     {
-      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
+      "cluster_id": "c9f3bfc6-9a28-4d24-ec92-76d201c73fb7",
+      "lexeme_id": "lex-it-essenziale",
+      "position": 6
+    },
+    {
+      "cluster_id": "c9f3bfc6-9a28-4d24-ec92-76d201c73fb7",
+      "lexeme_id": "lex-it-notevole-2",
+      "position": 12
+    },
+    {
+      "cluster_id": "c9f3bfc6-9a28-4d24-ec92-76d201c73fb7",
       "lexeme_id": "lex-it-fondamentale",
-      "position": 7
+      "position": 13
+    },
+    {
+      "cluster_id": "8ff5d8ae-d5ad-7a6b-86c0-cba42dca4e59",
+      "lexeme_id": "lex-it-impegnativo",
+      "position": 1
     },
     {
       "cluster_id": "ad67444c-0119-c21e-db1a-25b68d503260",
@@ -32865,34 +32818,79 @@
       "position": 0
     },
     {
-      "cluster_id": "c637f0a6-8b20-2e1b-bc8d-0ee75eb1dffc",
+      "cluster_id": "96b2611c-fa90-3a29-237f-1f66b08d8368",
       "lexeme_id": "lex-it-necessita",
       "position": 0
     },
     {
-      "cluster_id": "c637f0a6-8b20-2e1b-bc8d-0ee75eb1dffc",
+      "cluster_id": "96b2611c-fa90-3a29-237f-1f66b08d8368",
       "lexeme_id": "lex-it-il-requisito",
       "position": 2
     },
     {
-      "cluster_id": "c637f0a6-8b20-2e1b-bc8d-0ee75eb1dffc",
+      "cluster_id": "96b2611c-fa90-3a29-237f-1f66b08d8368",
       "lexeme_id": "lex-it-la-condizione",
       "position": 4
     },
     {
-      "cluster_id": "e7e1470d-f101-6620-0c06-f547561c426f",
+      "cluster_id": "e5f0a02f-8024-698d-1021-e5f3921ae1ce",
+      "lexeme_id": "lex-it-realizzare",
+      "position": 3
+    },
+    {
+      "cluster_id": "abc143e9-b2dd-56a3-d4d8-07255bf5e88f",
+      "lexeme_id": "lex-it-acquisire",
+      "position": 0
+    },
+    {
+      "cluster_id": "c55420cd-d889-75d3-8921-f61877fe9167",
+      "lexeme_id": "lex-it-esplicito",
+      "position": 2
+    },
+    {
+      "cluster_id": "c55420cd-d889-75d3-8921-f61877fe9167",
+      "lexeme_id": "lex-it-inequivocabile-2",
+      "position": 3
+    },
+    {
+      "cluster_id": "c55420cd-d889-75d3-8921-f61877fe9167",
+      "lexeme_id": "lex-it-ovvio",
+      "position": 4
+    },
+    {
+      "cluster_id": "c55420cd-d889-75d3-8921-f61877fe9167",
+      "lexeme_id": "lex-it-preciso",
+      "position": 6
+    },
+    {
+      "cluster_id": "c55420cd-d889-75d3-8921-f61877fe9167",
+      "lexeme_id": "lex-it-convincente",
+      "position": 7
+    },
+    {
+      "cluster_id": "c55420cd-d889-75d3-8921-f61877fe9167",
+      "lexeme_id": "lex-it-giustificabile",
+      "position": 10
+    },
+    {
+      "cluster_id": "4338e860-9c83-58a5-cf1f-249c8e025d42",
+      "lexeme_id": "lex-it-stabilire",
+      "position": 1
+    },
+    {
+      "cluster_id": "cce80e9b-5cfd-cb00-48e2-315d45cda234",
       "lexeme_id": "lex-it-soppesare",
       "position": 1
     },
     {
-      "cluster_id": "e7e1470d-f101-6620-0c06-f547561c426f",
+      "cluster_id": "cce80e9b-5cfd-cb00-48e2-315d45cda234",
       "lexeme_id": "lex-it-analizzare",
-      "position": 2
+      "position": 3
     },
     {
-      "cluster_id": "e7e1470d-f101-6620-0c06-f547561c426f",
+      "cluster_id": "cce80e9b-5cfd-cb00-48e2-315d45cda234",
       "lexeme_id": "lex-it-valutare-2",
-      "position": 3
+      "position": 4
     },
     {
       "cluster_id": "9debed8a-5665-49a4-3f55-8543f6e8df0e",
@@ -32935,19 +32933,9 @@
       "position": 1
     },
     {
-      "cluster_id": "a625809e-1551-d257-9e97-52fa54dd9d1c",
-      "lexeme_id": "lex-it-esplicito",
+      "cluster_id": "95e5c157-5662-4cd3-cc52-feef36d1100a",
+      "lexeme_id": "lex-it-la-perseveranza",
       "position": 0
-    },
-    {
-      "cluster_id": "a625809e-1551-d257-9e97-52fa54dd9d1c",
-      "lexeme_id": "lex-it-inequivocabile-2",
-      "position": 1
-    },
-    {
-      "cluster_id": "a625809e-1551-d257-9e97-52fa54dd9d1c",
-      "lexeme_id": "lex-it-preciso",
-      "position": 2
     },
     {
       "cluster_id": "1bba9c84-c269-d30b-f70e-bc1d06d3c6ac",
@@ -32970,6 +32958,11 @@
       "position": 1
     },
     {
+      "cluster_id": "30b287b0-6909-f708-1243-016e7c6158a3",
+      "lexeme_id": "lex-it-dimostrare",
+      "position": 0
+    },
+    {
       "cluster_id": "ce03874a-5271-2e3a-4611-69fc69a4e11b",
       "lexeme_id": "lex-it-la-pressione",
       "position": 0
@@ -32980,34 +32973,19 @@
       "position": 1
     },
     {
-      "cluster_id": "0f2e1e70-80fd-da31-91b0-f2608500805b",
-      "lexeme_id": "lex-it-impegnativo",
-      "position": 0
-    },
-    {
       "cluster_id": "4d04d894-0cb6-7c63-1dd3-52e9b10065b6",
       "lexeme_id": "lex-it-chiarire-2",
       "position": 0
     },
     {
-      "cluster_id": "987dacf6-620b-74ee-863e-031d3c11fc02",
-      "lexeme_id": "lex-it-realizzare",
+      "cluster_id": "c05661c1-c671-311b-96e4-18278d7dfab9",
+      "lexeme_id": "lexeme-it-b2-nuance",
       "position": 0
     },
     {
       "cluster_id": "6f7cf015-e87b-7833-2fa4-1c10f1a0ba89",
       "lexeme_id": "lex-it-robusto",
       "position": 0
-    },
-    {
-      "cluster_id": "a4cf3095-aadc-c83f-e455-bfd5c4ff07d8",
-      "lexeme_id": "lex-it-convincente",
-      "position": 0
-    },
-    {
-      "cluster_id": "a4cf3095-aadc-c83f-e455-bfd5c4ff07d8",
-      "lexeme_id": "lex-it-giustificabile",
-      "position": 3
     },
     {
       "cluster_id": "d11c1ab7-fc58-56bc-853c-6386f574f62c",
@@ -33030,24 +33008,39 @@
       "position": 0
     },
     {
-      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
+      "cluster_id": "34d0e2e8-05b6-6c8d-0330-053cf5109c10",
       "lexeme_id": "lex-en-significant",
-      "position": 2
-    },
-    {
-      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
-      "lexeme_id": "lex-en-essential",
       "position": 3
     },
     {
-      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
-      "lexeme_id": "lex-en-considerable",
+      "cluster_id": "34d0e2e8-05b6-6c8d-0330-053cf5109c10",
+      "lexeme_id": "lex-en-noteworthy",
+      "position": 4
+    },
+    {
+      "cluster_id": "34d0e2e8-05b6-6c8d-0330-053cf5109c10",
+      "lexeme_id": "lex-en-relevant",
       "position": 5
     },
     {
-      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
+      "cluster_id": "34d0e2e8-05b6-6c8d-0330-053cf5109c10",
+      "lexeme_id": "lex-en-essential",
+      "position": 6
+    },
+    {
+      "cluster_id": "34d0e2e8-05b6-6c8d-0330-053cf5109c10",
+      "lexeme_id": "lex-en-considerable",
+      "position": 12
+    },
+    {
+      "cluster_id": "34d0e2e8-05b6-6c8d-0330-053cf5109c10",
       "lexeme_id": "lex-en-fundamental",
-      "position": 7
+      "position": 13
+    },
+    {
+      "cluster_id": "f715d168-2753-6c7d-6b4b-b87b1b25f554",
+      "lexeme_id": "lex-en-challenging",
+      "position": 1
     },
     {
       "cluster_id": "deafa41d-eeaa-e2ca-a46f-3e7c6c50c48d",
@@ -33055,34 +33048,79 @@
       "position": 0
     },
     {
-      "cluster_id": "0e6fd158-bb15-5422-e8be-e86a3aed0088",
+      "cluster_id": "cb8bfbbc-5b8b-c9ea-9358-c6546d90c16e",
       "lexeme_id": "lex-en-necessity",
       "position": 0
     },
     {
-      "cluster_id": "0e6fd158-bb15-5422-e8be-e86a3aed0088",
+      "cluster_id": "cb8bfbbc-5b8b-c9ea-9358-c6546d90c16e",
       "lexeme_id": "lex-en-the-requirement",
       "position": 2
     },
     {
-      "cluster_id": "0e6fd158-bb15-5422-e8be-e86a3aed0088",
+      "cluster_id": "cb8bfbbc-5b8b-c9ea-9358-c6546d90c16e",
       "lexeme_id": "lex-en-the-condition",
       "position": 4
     },
     {
-      "cluster_id": "4d643b66-a04b-3eee-f61e-cbe583222c5e",
+      "cluster_id": "84966ccb-8da2-675e-26c5-87d2d54c3321",
+      "lexeme_id": "lex-en-to-accomplish",
+      "position": 3
+    },
+    {
+      "cluster_id": "175cc8f4-3bca-20c7-dd71-dfc2dbe5ada9",
+      "lexeme_id": "lex-en-acquire",
+      "position": 0
+    },
+    {
+      "cluster_id": "0f112896-3ec5-b28d-e85a-c4e2f198e5f8",
+      "lexeme_id": "lex-en-explicit",
+      "position": 2
+    },
+    {
+      "cluster_id": "0f112896-3ec5-b28d-e85a-c4e2f198e5f8",
+      "lexeme_id": "lex-en-unambiguous-2",
+      "position": 3
+    },
+    {
+      "cluster_id": "0f112896-3ec5-b28d-e85a-c4e2f198e5f8",
+      "lexeme_id": "lex-en-obvious",
+      "position": 4
+    },
+    {
+      "cluster_id": "0f112896-3ec5-b28d-e85a-c4e2f198e5f8",
+      "lexeme_id": "lex-en-precise",
+      "position": 6
+    },
+    {
+      "cluster_id": "0f112896-3ec5-b28d-e85a-c4e2f198e5f8",
+      "lexeme_id": "lex-en-convincing",
+      "position": 7
+    },
+    {
+      "cluster_id": "0f112896-3ec5-b28d-e85a-c4e2f198e5f8",
+      "lexeme_id": "lex-en-justifiable",
+      "position": 10
+    },
+    {
+      "cluster_id": "2a4a2c9c-0fc3-8441-63c3-25cf6924d180",
+      "lexeme_id": "lex-en-to-establish",
+      "position": 1
+    },
+    {
+      "cluster_id": "456f7844-0772-3f91-b954-a7548cf75cf4",
       "lexeme_id": "lex-en-to-weigh-up",
       "position": 1
     },
     {
-      "cluster_id": "4d643b66-a04b-3eee-f61e-cbe583222c5e",
+      "cluster_id": "456f7844-0772-3f91-b954-a7548cf75cf4",
       "lexeme_id": "lex-en-to-analyse",
-      "position": 2
+      "position": 3
     },
     {
-      "cluster_id": "4d643b66-a04b-3eee-f61e-cbe583222c5e",
+      "cluster_id": "456f7844-0772-3f91-b954-a7548cf75cf4",
       "lexeme_id": "lex-en-to-assess",
-      "position": 3
+      "position": 4
     },
     {
       "cluster_id": "4b7e2d5d-82c5-c09d-3cbb-cd2aaf3ef544",
@@ -33125,19 +33163,9 @@
       "position": 1
     },
     {
-      "cluster_id": "129653b1-6e43-5821-ec5f-eb391ef15310",
-      "lexeme_id": "lex-en-explicit",
+      "cluster_id": "5fd7bf86-6cdf-34b1-2e49-1dc4ae0a30df",
+      "lexeme_id": "lex-en-perseverance",
       "position": 0
-    },
-    {
-      "cluster_id": "129653b1-6e43-5821-ec5f-eb391ef15310",
-      "lexeme_id": "lex-en-unambiguous-2",
-      "position": 1
-    },
-    {
-      "cluster_id": "129653b1-6e43-5821-ec5f-eb391ef15310",
-      "lexeme_id": "lex-en-precise",
-      "position": 2
     },
     {
       "cluster_id": "2b5de24e-94d5-1163-3f40-3d8bfb9cb353",
@@ -33160,6 +33188,11 @@
       "position": 1
     },
     {
+      "cluster_id": "4be977d0-029a-acc1-6ee2-7b77f6f139ff",
+      "lexeme_id": "lex-en-to-substantiate",
+      "position": 0
+    },
+    {
       "cluster_id": "4a05c374-89fb-5011-59f0-926befbfe4dd",
       "lexeme_id": "lex-en-the-pressure",
       "position": 0
@@ -33170,34 +33203,19 @@
       "position": 1
     },
     {
-      "cluster_id": "3b6b8fc2-00a7-33ff-3eac-0d57622fcf70",
-      "lexeme_id": "lex-en-challenging",
-      "position": 0
-    },
-    {
       "cluster_id": "0c547b10-f35a-5445-2e42-e20b7bc8b035",
       "lexeme_id": "lex-en-to-clarify-2",
       "position": 0
     },
     {
-      "cluster_id": "0dc5fe90-716c-be3d-aaa3-2e0b7443ac6d",
-      "lexeme_id": "lex-en-to-accomplish",
+      "cluster_id": "34eb29c2-bc55-4819-d6b0-badd1a6dc5d8",
+      "lexeme_id": "lexeme-en-b2-nuance",
       "position": 0
     },
     {
       "cluster_id": "66dacc78-7e9d-9400-3212-20bbc842a883",
       "lexeme_id": "lex-en-robust",
       "position": 0
-    },
-    {
-      "cluster_id": "db5088e5-67d0-f95f-3210-c1647ac4f520",
-      "lexeme_id": "lex-en-convincing",
-      "position": 0
-    },
-    {
-      "cluster_id": "db5088e5-67d0-f95f-3210-c1647ac4f520",
-      "lexeme_id": "lex-en-justifiable",
-      "position": 3
     },
     {
       "cluster_id": "300d6abd-b1f6-3f27-0729-584bf53b2ed4",

@@ -28,23 +28,47 @@ pnpm run doctor -- --fix   # repair in place, then mint missing forms
 | # | Item | What it does |
 |---|------|--------------|
 | 1 | Add common words for a level | the AI suggests CEFR words; you pick which to keep |
-| 2 | Find a word | check if a word already exists before adding - typos & similar words are caught |
-| 3 | Add one specific word | type a word (typos ok); the AI corrects & connects it |
-| 4 | Grow from gaps | add words other entries point to but that are still missing |
-| 5 | **Autopilot** | runs on its own: fills, publishes & pushes live, chunk by chunk |
-| 6 | Review AI suggestions | approve or reject the items waiting for a human |
-| 7 | Status report | what is done and what still needs work |
-| 8 | Publish | build the packs + push to GitHub so the app updates |
+| 2 | Find a word | check if a word already exists before adding - typos & similar words are caught; shows the word's graph links |
+| 3 | Browse words | list what is already in the lexicon - filter by level or text |
+| 4 | Edit a word | hand-edit definitions, synonyms, antonyms, examples - tracked, no AI |
+| 5 | Add one specific word | type a word (typos ok); the AI corrects & connects it |
+| 6 | Grow from gaps | add words other entries point to but that are still missing |
+| 7 | **Autopilot** | runs on its own: fills & publishes locally, chunk by chunk - pushing is opt-in |
+| 8 | Review AI suggestions | approve or reject the items waiting for a human |
+| 9 | Review word links | decide the queued links between words - one key per pair |
+| 10 | Status report | what is done and what still needs work (incl. graph metrics + plural coverage) |
+| 11 | Publish | build the packs + push to GitHub so the app updates |
 
 **Find before you add:** item `2` is a read-only, offline lookup. It tells you
 whether a word is already a headword, already present as a synonym/antonym, or
 just similar (a likely typo or neighbour) - matching is typo-tolerant, so
 `machne` still finds `machen`. If nothing exact turns up it offers to add it.
 
-**Autopilot is the everyday driver:** pick `5`, press Enter, and it runs
-unattended (auto-publish + auto-push, ~20 words per chunk, resting the GPU
-between them) until nothing is left to fill. Type `t` instead of Enter to change
-the pacing. Ctrl-C stops it; it resumes where it left off.
+**Autopilot is the everyday driver:** pick `7`, press Enter, and it runs
+unattended (auto-publish locally, ~20 words per chunk, resting the GPU between
+them) until nothing is left to fill. Nothing is pushed to GitHub unless you
+opt in: type `t` instead of Enter to change the pacing or enable per-chunk
+pushing. Ctrl-C stops it; it resumes where it left off.
+
+## Reviewing word links (menu item 9)
+
+The automatic writer only links two words when BOTH sides assert the relation
+and their CEFR levels are adjacent; everything else waits for a human in
+`authoring/relation_queue.json`. Item `9` walks that queue one pair at a time
+(the file regenerates itself when stale):
+
+- each card shows both words (all languages), their levels, and the evidence
+  (which side asserted the link, in which languages)
+- one key decides: `s` synonym · `a` antonym · `r` related · `x` reject ·
+  Enter skip · `q` quit & apply
+- pairs whose levels are too far apart cannot be linked (the adjacency rule);
+  the card says so - fix the concept level first, then the pair comes back
+- on quit the decisions become `source: "manual"` edges in the source pack;
+  the automatic writer never touches manual edges. Publish ships them.
+
+The same decisions can be applied headless:
+`node tools/scripts/apply_relation_queue.mjs --queue authoring/relation_queue.json --apply`
+(edit the queue file adding `"decision"` fields first).
 
 ## Reading the autopilot output
 
@@ -83,7 +107,8 @@ yellow, errors in red.
 
 ## After a run
 
-- The Autopilot publishes and pushes per chunk, so content reaches GitHub as it
-  works. On the serving machine, `pnpm run refresh` pulls it and the app updates.
+- The Autopilot publishes locally per chunk; content reaches GitHub only when
+  you push (opt-in per chunk, or menu Publish). On the serving machine,
+  `pnpm run refresh` pulls it and the app updates.
 - Nothing risky ships unreviewed: drafted records are `needs_review`; only the
-  clean, corroborated ones are auto-promoted (menu item 6 shows the rest).
+  clean, corroborated ones are auto-promoted (menu item 8 shows the rest).

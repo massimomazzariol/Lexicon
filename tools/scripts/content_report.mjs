@@ -86,6 +86,17 @@ console.log(`\nINTERCONNECTION: ${inCluster.size}/${concepts.length} concepts in
   const edges = d.concept_relations || [];
   const byType = {};
   for (const e of edges) byType[e.relation_type] = (byType[e.relation_type] || 0) + 1;
+
+  // UI-04j canary: an empty graph while flat synonym strings exist means the
+  // relations were lost somewhere (a legacy pipeline line once wiped them
+  // silently). The regression test guards the known cause; this guards the
+  // unknown ones.
+  const flatSynCount = defs.reduce((s, x) => s + (x.synonyms_json || []).length, 0);
+  if (edges.length === 0 && flatSynCount > 0) {
+    console.log('\n!! GRAPH CANARY: concept_relations is EMPTY while ' + flatSynCount + ' flat synonym strings exist.');
+    console.log('!! The graph was probably wiped. Recover: node tools/scripts/interconnect.mjs --apply');
+    console.log('!! (then check git log for what deleted it).');
+  }
   const typeLine = Object.entries(byType).map(([t, n]) => `${t} ${n}`).join(' · ') || 'none';
 
   const linkedAll = new Set();
@@ -114,4 +125,30 @@ console.log(`\nINTERCONNECTION: ${inCluster.size}/${concepts.length} concepts in
     console.log(`    ${L}: any-edge ${row.isolatedAll}/${row.total} isolated · synonym-only ${row.isolatedSyn}/${row.total}`);
   }
   console.log('  review pipeline: run `node tools/scripts/interconnect.mjs` for queue depth, dangling words and promotion-bar yield');
+
+  // UI-04i: noun plural coverage per language (post-MORPH-01 regression watch).
+  // A noun lexeme counts as covered when it has a plural form or is marked
+  // mass/uncountable (an intentional no-plural).
+  const posOf = new Map(concepts.map((c) => [c.concept_id, c.pos]));
+  const hasPl = new Set((d.lexeme_forms || [])
+    .filter((f) => f.number_value === 'pl' || f.number_value === 'plural')
+    .map((f) => f.lexeme_id));
+  const parts = [];
+  for (const lang of LANGS) {
+    let nouns = 0;
+    let covered = 0;
+    for (const lx of lexemes) {
+      if (lx.is_active === false || String(lx.lang).toLowerCase() !== lang) continue;
+      const pos = lx.pos || posOf.get(lx.concept_id);
+      if (pos !== 'noun') continue;
+      nouns += 1;
+      if (hasPl.has(lx.lexeme_id) || String(lx.countability ?? '').toLowerCase() === 'mass') covered += 1;
+    }
+    const gap = nouns - covered;
+    parts.push(`${lang} ${covered}/${nouns}${gap ? ` (${gap} missing)` : ''}`);
+  }
+  console.log(`\nNOUN PLURALS (form present or marked mass): ${parts.join(' · ')}`);
+  if (parts.some((p) => p.includes('missing'))) {
+    console.log('  gaps: node tools/reports/report_noun_form_gaps.mjs · curated fixes: tools/maintenance/apply_noun_plurals.mjs');
+  }
 }

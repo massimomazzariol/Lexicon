@@ -179,7 +179,13 @@ function canGenerateGermanPlural(lexeme, helpers) {
   if (!plural || !lemma) {
     return false;
   }
-  return plural.toLowerCase() !== lemma.toLowerCase();
+  if (plural.toLowerCase() !== lemma.toLowerCase()) {
+    return true;
+  }
+  // Zero-change plurals are real German (das Zimmer -> die Zimmer: only the
+  // article moves). Accept them when the row is explicitly marked countable -
+  // the guard still blocks an accidental singular copy on uncurated rows.
+  return String(lexeme?.countability ?? '').trim().toLowerCase() === 'count';
 }
 
 function deriveGermanSurface({ lemma, lexeme, slot, helpers }) {

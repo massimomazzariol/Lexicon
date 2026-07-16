@@ -1044,7 +1044,10 @@ function main() {
   }
 
   content.lexemes = lexemes.map(stripAuthoringLexemeFields);
-  delete content.concept_relations;
+  // NOTE: content.concept_relations is the LIVE MT-C5 graph (edges between
+  // concepts) and must survive every regeneration. A legacy purge line used
+  // to delete a same-named pre-separation leftover here and silently wiped
+  // the new graph on the first run after its introduction (2026-07-16).
   delete content.glosses;
   delete content.gloss_aliases;
   content.concept_definitions = conceptDefinitions;

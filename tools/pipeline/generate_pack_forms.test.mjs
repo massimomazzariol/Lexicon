@@ -135,3 +135,52 @@ test('generate_pack_forms rejects Italian noun overrides without articles', () =
     fs.rmSync(tempRoot, { recursive: true, force: true });
   }
 });
+
+test('REGRESSION: generate_pack_forms preserves the concept_relations graph', () => {
+  // 2026-07-16: a leftover legacy purge line (`delete content.concept_relations`)
+  // silently wiped the MT-C5 graph on the first pipeline run after its
+  // introduction. The array must survive every regeneration.
+  const tempRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'lexicon-v2-relations-'));
+  const packDir = path.join(tempRoot, 'lexicon_source');
+  const contentPath = path.join(packDir, 'content.json');
+
+  try {
+    fs.mkdirSync(packDir, { recursive: true });
+    writeJson(path.join(packDir, 'manifest.json'), {
+      pack_id: 'lexicon.source', version: 'test-version', pack_role: 'source',
+    });
+    writeJson(path.join(packDir, 'lexeme_morphology_overrides.json'), {
+      schema_version: 1, lexeme_overrides: {},
+    });
+    const edge = {
+      relation_id: 'rel-test-a-b',
+      relation_type: 'synonym',
+      concept_a: 'c-a',
+      concept_b: 'c-b',
+      tier: 'close',
+      lang_scope_json: ['de'],
+      source: 'resolved',
+    };
+    writeJson(contentPath, {
+      concepts: [
+        { concept_id: 'c-a', pos: 'noun' },
+        { concept_id: 'c-b', pos: 'noun' },
+      ],
+      lexemes: [{
+        lexeme_id: 'lex-de-a', concept_id: 'c-a', lang: 'de',
+        text: 'Lauf', lemma: 'Lauf', pos: 'noun', gender: 'masc', is_primary: true,
+      }],
+      concept_definitions: [], examples: [],
+      concept_relations: [edge],
+    });
+
+    execFileSync(process.execPath, [generatePath, '--pack-dir', packDir], {
+      cwd: repoRoot, stdio: 'pipe', encoding: 'utf8',
+    });
+
+    const after = JSON.parse(fs.readFileSync(contentPath, 'utf8'));
+    assert.deepEqual(after.concept_relations, [edge], 'the graph survives generation');
+  } finally {
+    fs.rmSync(tempRoot, { recursive: true, force: true });
+  }
+});

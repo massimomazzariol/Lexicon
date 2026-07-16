@@ -4591,12 +4591,12 @@
       "lemma": "prestazione",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -4608,12 +4608,12 @@
       "lemma": "performance",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -4642,12 +4642,12 @@
       "lemma": "performance",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -4676,12 +4676,12 @@
       "lemma": "pizzo",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -4693,7 +4693,7 @@
       "lemma": "lace",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "mass",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -4727,7 +4727,7 @@
       "lemma": "lace",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "mass",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
@@ -4761,12 +4761,12 @@
       "lemma": "vertice",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -4778,12 +4778,12 @@
       "lemma": "top position",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -4812,12 +4812,12 @@
       "lemma": "top position",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -4982,7 +4982,7 @@
       "lemma": "Fähigkeit",
       "pos": "noun",
       "gender": "fem",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -4999,12 +4999,12 @@
       "lemma": "ability",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -5016,12 +5016,12 @@
       "lemma": "capacità",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -5186,7 +5186,7 @@
       "lemma": "Verbesserung",
       "pos": "noun",
       "gender": "fem",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -5203,12 +5203,12 @@
       "lemma": "improvement",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -5220,12 +5220,12 @@
       "lemma": "miglioramento",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -5237,7 +5237,7 @@
       "lemma": "Ziel",
       "pos": "noun",
       "gender": "neut",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -5254,12 +5254,12 @@
       "lemma": "goal",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -5271,12 +5271,12 @@
       "lemma": "obiettivo",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -5339,7 +5339,7 @@
       "lemma": "Vorwurf",
       "pos": "noun",
       "gender": "masc",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -5356,12 +5356,12 @@
       "lemma": "reproach",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -5373,12 +5373,12 @@
       "lemma": "rimprovero",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -5492,7 +5492,7 @@
       "lemma": "Zusammenfassung",
       "pos": "noun",
       "gender": "fem",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -5509,12 +5509,12 @@
       "lemma": "summary",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -5526,12 +5526,12 @@
       "lemma": "riassunto",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -5696,7 +5696,7 @@
       "lemma": "Ausnahme",
       "pos": "noun",
       "gender": "fem",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -5713,12 +5713,12 @@
       "lemma": "exception",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -5730,12 +5730,12 @@
       "lemma": "eccezione",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -5798,7 +5798,7 @@
       "lemma": "Schritt",
       "pos": "noun",
       "gender": "masc",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -5815,12 +5815,12 @@
       "lemma": "step",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -5832,12 +5832,12 @@
       "lemma": "passo",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -5849,7 +5849,7 @@
       "lemma": "Abschnitt",
       "pos": "noun",
       "gender": "masc",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -5866,12 +5866,12 @@
       "lemma": "section",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -5883,12 +5883,12 @@
       "lemma": "sezione",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -5900,7 +5900,7 @@
       "lemma": "Ablauf",
       "pos": "noun",
       "gender": "masc",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -5917,12 +5917,12 @@
       "lemma": "sequence",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -5934,12 +5934,12 @@
       "lemma": "procedimento",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -5951,7 +5951,7 @@
       "lemma": "Ursache",
       "pos": "noun",
       "gender": "fem",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -5968,12 +5968,12 @@
       "lemma": "cause",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -5985,12 +5985,12 @@
       "lemma": "causa",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -6002,7 +6002,7 @@
       "lemma": "Wirkung",
       "pos": "noun",
       "gender": "fem",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -6019,12 +6019,12 @@
       "lemma": "effect",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -6036,12 +6036,12 @@
       "lemma": "effetto",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -6053,7 +6053,7 @@
       "lemma": "Kritik",
       "pos": "noun",
       "gender": "fem",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -6070,12 +6070,12 @@
       "lemma": "criticism",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -6087,12 +6087,12 @@
       "lemma": "critica",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -6206,7 +6206,7 @@
       "lemma": "Aufwand",
       "pos": "noun",
       "gender": "masc",
-      "countability": "none",
+      "countability": "mass",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -6257,7 +6257,7 @@
       "lemma": "Rückmeldung",
       "pos": "noun",
       "gender": "fem",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -6274,7 +6274,7 @@
       "lemma": "feedback",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "mass",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -6291,12 +6291,12 @@
       "lemma": "riscontro",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -6308,7 +6308,7 @@
       "lemma": "Notiz",
       "pos": "noun",
       "gender": "fem",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
@@ -6325,12 +6325,12 @@
       "lemma": "note",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -6342,12 +6342,12 @@
       "lemma": "appunto",
       "pos": "noun",
       "gender": "none",
-      "countability": "none",
+      "countability": "count",
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
       "status": "approved",
-      "notes": null,
+      "notes": "approved plural",
       "is_active": true
     },
     {
@@ -12081,6 +12081,24 @@
       }
     },
     {
+      "form_id": "5f79e930-4f87-6024-5c56-8c5b7ed863b1",
+      "lexeme_id": "lex-it-prestazione",
+      "lang": "it",
+      "surface": "le prestazioni",
+      "surface_search": "le prestazioni",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "0ebb5689-8ca5-b548-3771-f95370b51b8c",
       "lexeme_id": "lex-en-performance",
       "lang": "en",
@@ -12099,6 +12117,24 @@
       }
     },
     {
+      "form_id": "d7274355-72d8-1573-5087-6ea425107e0c",
+      "lexeme_id": "lex-en-performance",
+      "lang": "en",
+      "surface": "the performances",
+      "surface_search": "the performances",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "690f1e10-d3f4-a8ee-29ae-07f7de321c4d",
       "lexeme_id": "lex-en-performance-2",
       "lang": "en",
@@ -12114,6 +12150,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "2f657a2a-1ff2-cd13-6397-f03b3eb379f0",
+      "lexeme_id": "lex-en-performance-2",
+      "lang": "en",
+      "surface": "performances",
+      "surface_search": "performances",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "bare",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -12258,6 +12312,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "463c0d95-79c1-bcbf-0759-8b208974d78e",
+      "lexeme_id": "lex-it-pizzo",
+      "lang": "it",
+      "surface": "i pizzi",
+      "surface_search": "i pizzi",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -12441,6 +12513,24 @@
       }
     },
     {
+      "form_id": "832baaaf-855d-f99b-4573-9de71867ad1f",
+      "lexeme_id": "lex-it-vertice",
+      "lang": "it",
+      "surface": "i vertici",
+      "surface_search": "i vertici",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "f65755e1-6d6c-3b01-fba4-a85328ef3190",
       "lexeme_id": "lex-en-top-position",
       "lang": "en",
@@ -12459,6 +12549,24 @@
       }
     },
     {
+      "form_id": "feae2af7-bea6-35b9-9ba1-4952ba91350f",
+      "lexeme_id": "lex-en-top-position",
+      "lang": "en",
+      "surface": "the top positions",
+      "surface_search": "the top positions",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "0b0fbce4-8795-e5ab-cde8-f234c2c4a8d5",
       "lexeme_id": "lex-en-top-position-2",
       "lang": "en",
@@ -12474,6 +12582,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "4f176a62-233d-4160-5b50-8569cc61893e",
+      "lexeme_id": "lex-en-top-position-2",
+      "lang": "en",
+      "surface": "top positions",
+      "surface_search": "top positions",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "bare",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -12662,6 +12788,25 @@
       }
     },
     {
+      "form_id": "5bcaac21-7631-13c7-1873-d0402a880de6",
+      "lexeme_id": "lex-de-die-fahigkeit",
+      "lang": "de",
+      "surface": "die Fähigkeiten",
+      "surface_search": "die fahigkeiten",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
       "form_id": "52d85666-33b4-5693-6dba-1c1bb6cbd872",
       "lexeme_id": "lex-de-die-fahigkeit",
       "lang": "de",
@@ -12728,6 +12873,28 @@
       }
     },
     {
+      "form_id": "cfb39a6d-dab5-7d66-6845-ca2867096ffc",
+      "lexeme_id": "lex-de-die-fahigkeit",
+      "lang": "de",
+      "surface": "den Fähigkeiten",
+      "surface_search": "den fahigkeiten",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "3357c652-5716-df3c-0ece-73feb2b7347e",
       "lexeme_id": "lex-en-the-ability",
       "lang": "en",
@@ -12746,6 +12913,24 @@
       }
     },
     {
+      "form_id": "be168df5-f2b5-6f59-9f4a-bee602a1d571",
+      "lexeme_id": "lex-en-the-ability",
+      "lang": "en",
+      "surface": "the abilities",
+      "surface_search": "the abilities",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "0531915a-64bc-17d5-0820-9f8e34a31185",
       "lexeme_id": "lex-it-la-capacita",
       "lang": "it",
@@ -12761,6 +12946,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "8ab861e0-25c6-c994-3015-f9472aa845ec",
+      "lexeme_id": "lex-it-la-capacita",
+      "lang": "it",
+      "surface": "le capacità",
+      "surface_search": "le capacita",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -12945,6 +13148,25 @@
       }
     },
     {
+      "form_id": "0514b447-ca3f-9b9f-c98a-ba83952dffe8",
+      "lexeme_id": "lex-de-die-verbesserung",
+      "lang": "de",
+      "surface": "die Verbesserungen",
+      "surface_search": "die verbesserungen",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
       "form_id": "cfb9646a-ea40-839f-0759-7f0de2d18063",
       "lexeme_id": "lex-de-die-verbesserung",
       "lang": "de",
@@ -13011,6 +13233,28 @@
       }
     },
     {
+      "form_id": "99d817f5-0988-21f8-9bba-91388afd40eb",
+      "lexeme_id": "lex-de-die-verbesserung",
+      "lang": "de",
+      "surface": "den Verbesserungen",
+      "surface_search": "den verbesserungen",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "f59a5f0c-d453-bd5f-6f6e-1dd63c0a23ee",
       "lexeme_id": "lex-en-the-improvement",
       "lang": "en",
@@ -13026,6 +13270,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "4533e8da-2e3b-d018-f848-3f2a89bbd7ea",
+      "lexeme_id": "lex-en-the-improvement",
+      "lang": "en",
+      "surface": "the improvements",
+      "surface_search": "the improvements",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -13047,6 +13309,24 @@
       }
     },
     {
+      "form_id": "bb485e7d-a6a8-08f7-6e45-849b8909eafe",
+      "lexeme_id": "lex-it-il-miglioramento",
+      "lang": "it",
+      "surface": "i miglioramenti",
+      "surface_search": "i miglioramenti",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "8bc19a0c-8002-7866-fd1f-6ed38688cb0f",
       "lexeme_id": "lex-de-das-ziel",
       "lang": "de",
@@ -13062,6 +13342,25 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "nom_sg_def",
+        "grammar_tags": []
+      }
+    },
+    {
+      "form_id": "89752954-e658-f9a8-bfd8-409717851f62",
+      "lexeme_id": "lex-de-das-ziel",
+      "lang": "de",
+      "surface": "die Ziele",
+      "surface_search": "die ziele",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
         "grammar_tags": []
       }
     },
@@ -13132,6 +13431,28 @@
       }
     },
     {
+      "form_id": "ad780831-60f4-58a4-37ad-193c78886aad",
+      "lexeme_id": "lex-de-das-ziel",
+      "lang": "de",
+      "surface": "den Zielen",
+      "surface_search": "den zielen",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "10a0f71a-bc2b-8652-5c93-fbfe98bf5cc6",
       "lexeme_id": "lex-en-the-goal",
       "lang": "en",
@@ -13150,6 +13471,24 @@
       }
     },
     {
+      "form_id": "f4e876b1-8ffd-9115-56c7-c9473774f8ca",
+      "lexeme_id": "lex-en-the-goal",
+      "lang": "en",
+      "surface": "the goals",
+      "surface_search": "the goals",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "5fb41327-0daf-ca99-9088-e78b6fec744a",
       "lexeme_id": "lex-it-l-obiettivo",
       "lang": "it",
@@ -13165,6 +13504,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "db444e85-190c-f80f-9348-04dfd03223e4",
+      "lexeme_id": "lex-it-l-obiettivo",
+      "lang": "it",
+      "surface": "gli obiettivi",
+      "surface_search": "gli obiettivi",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -13245,6 +13602,25 @@
       }
     },
     {
+      "form_id": "924168bb-709f-2105-66cf-4283db407871",
+      "lexeme_id": "lex-de-der-vorwurf",
+      "lang": "de",
+      "surface": "die Vorwürfe",
+      "surface_search": "die vorwurfe",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
       "form_id": "38386470-1252-c7aa-184c-1137596a1de8",
       "lexeme_id": "lex-de-der-vorwurf",
       "lang": "de",
@@ -13311,6 +13687,28 @@
       }
     },
     {
+      "form_id": "065cfb8a-eba2-58c1-b47b-dbc44f543fb5",
+      "lexeme_id": "lex-de-der-vorwurf",
+      "lang": "de",
+      "surface": "den Vorwürfen",
+      "surface_search": "den vorwurfen",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "a64c0d2f-cfb9-aa3a-0477-3b7707348d65",
       "lexeme_id": "lex-en-the-reproach",
       "lang": "en",
@@ -13329,6 +13727,24 @@
       }
     },
     {
+      "form_id": "df72312b-7e16-20cb-af88-f8c9d7c14ec8",
+      "lexeme_id": "lex-en-the-reproach",
+      "lang": "en",
+      "surface": "the reproaches",
+      "surface_search": "the reproaches",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "e3744876-c6ba-c9a3-bcd0-f1c53d2d97e3",
       "lexeme_id": "lex-it-il-rimprovero",
       "lang": "it",
@@ -13344,6 +13760,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "9294d4df-18e7-bb6a-5d7f-7977d79620c1",
+      "lexeme_id": "lex-it-il-rimprovero",
+      "lang": "it",
+      "surface": "i rimproveri",
+      "surface_search": "i rimproveri",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -13483,6 +13917,25 @@
       }
     },
     {
+      "form_id": "36e57584-10aa-d3ef-599a-1bd390a6d664",
+      "lexeme_id": "lex-de-die-zusammenfassung",
+      "lang": "de",
+      "surface": "die Zusammenfassungen",
+      "surface_search": "die zusammenfassungen",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
       "form_id": "a2a6658f-cd73-b1bd-1d8c-7d4ce6ad8793",
       "lexeme_id": "lex-de-die-zusammenfassung",
       "lang": "de",
@@ -13549,6 +14002,28 @@
       }
     },
     {
+      "form_id": "11eede24-164a-7d9a-d20b-20e2571bbbe0",
+      "lexeme_id": "lex-de-die-zusammenfassung",
+      "lang": "de",
+      "surface": "den Zusammenfassungen",
+      "surface_search": "den zusammenfassungen",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "94c51183-3328-8bbf-f962-ab9c9eae9428",
       "lexeme_id": "lex-en-the-summary",
       "lang": "en",
@@ -13567,6 +14042,24 @@
       }
     },
     {
+      "form_id": "093be691-761b-e50b-5657-a28d6c245ca5",
+      "lexeme_id": "lex-en-the-summary",
+      "lang": "en",
+      "surface": "the summaries",
+      "surface_search": "the summaries",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "416e0af9-e06e-b4d3-a3c0-7b595b147273",
       "lexeme_id": "lex-it-il-riassunto",
       "lang": "it",
@@ -13582,6 +14075,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "5a8c8734-a701-476c-c825-e5be9684159b",
+      "lexeme_id": "lex-it-il-riassunto",
+      "lang": "it",
+      "surface": "i riassunti",
+      "surface_search": "i riassunti",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -13766,6 +14277,25 @@
       }
     },
     {
+      "form_id": "729ec8ad-f703-dad0-395e-04feb3a3ea40",
+      "lexeme_id": "lex-de-die-ausnahme",
+      "lang": "de",
+      "surface": "die Ausnahmen",
+      "surface_search": "die ausnahmen",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
       "form_id": "7161553c-27d6-02c4-6376-7b261f2d553c",
       "lexeme_id": "lex-de-die-ausnahme",
       "lang": "de",
@@ -13832,6 +14362,28 @@
       }
     },
     {
+      "form_id": "09bcc396-1a73-6de3-d00e-d2ec33466038",
+      "lexeme_id": "lex-de-die-ausnahme",
+      "lang": "de",
+      "surface": "den Ausnahmen",
+      "surface_search": "den ausnahmen",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "e0d4c0ec-2cdd-31d3-d808-d9ac03176b87",
       "lexeme_id": "lex-en-the-exception",
       "lang": "en",
@@ -13850,6 +14402,24 @@
       }
     },
     {
+      "form_id": "b5405bd0-c0ec-ff01-1224-282c2c9950d1",
+      "lexeme_id": "lex-en-the-exception",
+      "lang": "en",
+      "surface": "the exceptions",
+      "surface_search": "the exceptions",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "2dd4a059-a755-bbf5-05f1-c3cc8002df6f",
       "lexeme_id": "lex-it-l-eccezione",
       "lang": "it",
@@ -13865,6 +14435,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "1284fa85-18e2-648a-5c61-d8fcf919a74d",
+      "lexeme_id": "lex-it-l-eccezione",
+      "lang": "it",
+      "surface": "le eccezioni",
+      "surface_search": "le eccezioni",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -13945,6 +14533,25 @@
       }
     },
     {
+      "form_id": "e939df3b-2963-b43a-336f-99830d4dc572",
+      "lexeme_id": "lex-de-der-schritt",
+      "lang": "de",
+      "surface": "die Schritte",
+      "surface_search": "die schritte",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
       "form_id": "dda73f3f-99ac-07cd-a77a-c711125fa2d4",
       "lexeme_id": "lex-de-der-schritt",
       "lang": "de",
@@ -14011,6 +14618,28 @@
       }
     },
     {
+      "form_id": "a8e6693a-33e3-9ea9-a47d-75a7813c2527",
+      "lexeme_id": "lex-de-der-schritt",
+      "lang": "de",
+      "surface": "den Schritten",
+      "surface_search": "den schritten",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "ad55e2b3-3fbc-d939-4cfd-6be9ab347890",
       "lexeme_id": "lex-en-the-step",
       "lang": "en",
@@ -14026,6 +14655,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "a8f64223-0271-a086-eedb-26a4e79fb535",
+      "lexeme_id": "lex-en-the-step",
+      "lang": "en",
+      "surface": "the steps",
+      "surface_search": "the steps",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -14047,6 +14694,24 @@
       }
     },
     {
+      "form_id": "1e353510-10ae-7ed4-0f2a-441ae346529d",
+      "lexeme_id": "lex-it-il-passo",
+      "lang": "it",
+      "surface": "i passi",
+      "surface_search": "i passi",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "5f4ec958-b6c8-f3a9-67f0-69788937b33f",
       "lexeme_id": "lex-de-der-abschnitt",
       "lang": "de",
@@ -14062,6 +14727,25 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "nom_sg_def",
+        "grammar_tags": []
+      }
+    },
+    {
+      "form_id": "00dd707a-b865-0bfa-8db3-bb1f99a0bddf",
+      "lexeme_id": "lex-de-der-abschnitt",
+      "lang": "de",
+      "surface": "die Abschnitte",
+      "surface_search": "die abschnitte",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
         "grammar_tags": []
       }
     },
@@ -14132,6 +14816,28 @@
       }
     },
     {
+      "form_id": "92c6e3d8-2ef6-8bdc-f376-8a253e38e400",
+      "lexeme_id": "lex-de-der-abschnitt",
+      "lang": "de",
+      "surface": "den Abschnitten",
+      "surface_search": "den abschnitten",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "f2d6c104-9d1b-7717-448e-25d9d9884d2f",
       "lexeme_id": "lex-en-the-section",
       "lang": "en",
@@ -14147,6 +14853,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "160f6b23-1e46-5ac1-bebf-5098099c50f9",
+      "lexeme_id": "lex-en-the-section",
+      "lang": "en",
+      "surface": "the sections",
+      "surface_search": "the sections",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -14168,6 +14892,24 @@
       }
     },
     {
+      "form_id": "ca9dfc06-68f6-ac9f-5819-80c3190fd1ff",
+      "lexeme_id": "lex-it-la-sezione",
+      "lang": "it",
+      "surface": "le sezioni",
+      "surface_search": "le sezioni",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "dc24bb33-4ca3-8d62-dc28-e1e3a6bed01c",
       "lexeme_id": "lex-de-der-ablauf",
       "lang": "de",
@@ -14183,6 +14925,25 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "nom_sg_def",
+        "grammar_tags": []
+      }
+    },
+    {
+      "form_id": "5980ee6a-4bea-3c68-a588-bfd027c57e87",
+      "lexeme_id": "lex-de-der-ablauf",
+      "lang": "de",
+      "surface": "die Abläufe",
+      "surface_search": "die ablaufe",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
         "grammar_tags": []
       }
     },
@@ -14253,6 +15014,28 @@
       }
     },
     {
+      "form_id": "ff00d4ef-54d7-18a5-00cc-553566cad185",
+      "lexeme_id": "lex-de-der-ablauf",
+      "lang": "de",
+      "surface": "den Abläufen",
+      "surface_search": "den ablaufen",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "202f8f49-b240-3927-6970-954f4ffb6e98",
       "lexeme_id": "lex-en-the-sequence",
       "lang": "en",
@@ -14268,6 +15051,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "049289ab-dcaa-56ff-f821-c86b357249e4",
+      "lexeme_id": "lex-en-the-sequence",
+      "lang": "en",
+      "surface": "the sequences",
+      "surface_search": "the sequences",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -14289,6 +15090,24 @@
       }
     },
     {
+      "form_id": "bacdb4d3-290d-d81a-da95-a9ac3f5ada60",
+      "lexeme_id": "lex-it-il-procedimento",
+      "lang": "it",
+      "surface": "i procedimenti",
+      "surface_search": "i procedimenti",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "597c55f5-c296-cc71-3465-bda4f49cbac7",
       "lexeme_id": "lex-de-die-ursache",
       "lang": "de",
@@ -14304,6 +15123,25 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "nom_sg_def",
+        "grammar_tags": []
+      }
+    },
+    {
+      "form_id": "df79fc78-b42d-a70a-0ebb-966c2202f4d1",
+      "lexeme_id": "lex-de-die-ursache",
+      "lang": "de",
+      "surface": "die Ursachen",
+      "surface_search": "die ursachen",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
         "grammar_tags": []
       }
     },
@@ -14374,6 +15212,28 @@
       }
     },
     {
+      "form_id": "ac879094-ba7a-e462-c0da-f6c124ca93b4",
+      "lexeme_id": "lex-de-die-ursache",
+      "lang": "de",
+      "surface": "den Ursachen",
+      "surface_search": "den ursachen",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "1eb4a394-c865-ee5d-b182-7f2931ce7356",
       "lexeme_id": "lex-en-the-cause",
       "lang": "en",
@@ -14389,6 +15249,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "c02d35a7-1c9c-5be6-5a59-447575492909",
+      "lexeme_id": "lex-en-the-cause",
+      "lang": "en",
+      "surface": "the causes",
+      "surface_search": "the causes",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -14410,6 +15288,24 @@
       }
     },
     {
+      "form_id": "294d553d-f309-f209-22d6-9081dc7d724b",
+      "lexeme_id": "lex-it-la-causa",
+      "lang": "it",
+      "surface": "le cause",
+      "surface_search": "le cause",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "6ae12866-c3d1-23e1-b454-e5bb2d2816e3",
       "lexeme_id": "lex-de-die-wirkung",
       "lang": "de",
@@ -14425,6 +15321,25 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "nom_sg_def",
+        "grammar_tags": []
+      }
+    },
+    {
+      "form_id": "add44dbf-2885-5dc0-b917-2810cae76961",
+      "lexeme_id": "lex-de-die-wirkung",
+      "lang": "de",
+      "surface": "die Wirkungen",
+      "surface_search": "die wirkungen",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
         "grammar_tags": []
       }
     },
@@ -14495,6 +15410,28 @@
       }
     },
     {
+      "form_id": "cb3825da-fdce-b70f-1c6d-865f9022c151",
+      "lexeme_id": "lex-de-die-wirkung",
+      "lang": "de",
+      "surface": "den Wirkungen",
+      "surface_search": "den wirkungen",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "e96fbeda-7ccc-e3c6-8720-ea8a3fbc9cfc",
       "lexeme_id": "lex-en-the-effect",
       "lang": "en",
@@ -14510,6 +15447,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "eff4d032-ac2f-84b8-502d-2d1b7e483824",
+      "lexeme_id": "lex-en-the-effect",
+      "lang": "en",
+      "surface": "the effects",
+      "surface_search": "the effects",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -14531,6 +15486,24 @@
       }
     },
     {
+      "form_id": "1fdbc0e2-0029-7798-b8e8-052113eef709",
+      "lexeme_id": "lex-it-l-effetto",
+      "lang": "it",
+      "surface": "gli effetti",
+      "surface_search": "gli effetti",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "64e80d0e-da1f-d267-0bcd-0251f314ebc5",
       "lexeme_id": "lex-de-die-kritik",
       "lang": "de",
@@ -14546,6 +15519,25 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "nom_sg_def",
+        "grammar_tags": []
+      }
+    },
+    {
+      "form_id": "7721129b-2045-ee18-c111-c198ee3000a0",
+      "lexeme_id": "lex-de-die-kritik",
+      "lang": "de",
+      "surface": "die Kritiken",
+      "surface_search": "die kritiken",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
         "grammar_tags": []
       }
     },
@@ -14616,6 +15608,28 @@
       }
     },
     {
+      "form_id": "d180bca7-084a-425b-2646-d81267c3dbc2",
+      "lexeme_id": "lex-de-die-kritik",
+      "lang": "de",
+      "surface": "den Kritiken",
+      "surface_search": "den kritiken",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "adcdf50e-7b9c-4bc9-fd32-77381a7b42b3",
       "lexeme_id": "lex-en-the-criticism",
       "lang": "en",
@@ -14634,6 +15648,24 @@
       }
     },
     {
+      "form_id": "62c4cfc2-f98f-775e-2d39-14934a4c6330",
+      "lexeme_id": "lex-en-the-criticism",
+      "lang": "en",
+      "surface": "the criticisms",
+      "surface_search": "the criticisms",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "1cd3882f-9efe-f40e-d989-01284612735a",
       "lexeme_id": "lex-it-la-critica",
       "lang": "it",
@@ -14649,6 +15681,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "bd075dfa-8bb9-49c8-0722-52c6e071516e",
+      "lexeme_id": "lex-it-la-critica",
+      "lang": "it",
+      "surface": "le critiche",
+      "surface_search": "le critiche",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -14900,6 +15950,25 @@
       }
     },
     {
+      "form_id": "aa747778-3abc-9b84-e8d0-36c7a43346da",
+      "lexeme_id": "lex-de-die-ruckmeldung",
+      "lang": "de",
+      "surface": "die Rückmeldungen",
+      "surface_search": "die ruckmeldungen",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
+        "grammar_tags": []
+      }
+    },
+    {
       "form_id": "a672e7c9-624e-4e7d-77bd-a18300c044f7",
       "lexeme_id": "lex-de-die-ruckmeldung",
       "lang": "de",
@@ -14966,6 +16035,28 @@
       }
     },
     {
+      "form_id": "9119b74f-29fa-3d65-c02e-ae40b034c046",
+      "lexeme_id": "lex-de-die-ruckmeldung",
+      "lang": "de",
+      "surface": "den Rückmeldungen",
+      "surface_search": "den ruckmeldungen",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "4baf5f35-2796-235b-0ad1-f5b446271400",
       "lexeme_id": "lex-en-the-feedback",
       "lang": "en",
@@ -15002,6 +16093,24 @@
       }
     },
     {
+      "form_id": "bcbbb72b-015d-4065-2c17-b20a43ecec25",
+      "lexeme_id": "lex-it-il-riscontro",
+      "lang": "it",
+      "surface": "i riscontri",
+      "surface_search": "i riscontri",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "743f47c2-d3d3-31be-dfeb-cb04b57b8414",
       "lexeme_id": "lex-de-die-notiz",
       "lang": "de",
@@ -15017,6 +16126,25 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "nom_sg_def",
+        "grammar_tags": []
+      }
+    },
+    {
+      "form_id": "7d663ff0-ef7d-652a-853c-107e9a1cff3d",
+      "lexeme_id": "lex-de-die-notiz",
+      "lang": "de",
+      "surface": "die Notizen",
+      "surface_search": "die notizen",
+      "number_value": "pl",
+      "grammatical_case": "nom",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "nom_pl_def",
         "grammar_tags": []
       }
     },
@@ -15087,6 +16215,28 @@
       }
     },
     {
+      "form_id": "3473c6bc-e717-21d0-40e0-51f29600dde8",
+      "lexeme_id": "lex-de-die-notiz",
+      "lang": "de",
+      "surface": "den Notizen",
+      "surface_search": "den notizen",
+      "number_value": "pl",
+      "grammatical_case": "dat",
+      "definiteness": "def",
+      "form_role": "extended",
+      "status": "approved",
+      "sort_order": 5,
+      "plugin_source": "language-plugin:de:noun-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "dat_pl_def",
+        "grammar_tags": [
+          "dative",
+          "plural"
+        ]
+      }
+    },
+    {
       "form_id": "0228f642-1701-ab28-a1ef-dd8f5a16eaa0",
       "lexeme_id": "lex-en-the-note",
       "lang": "en",
@@ -15105,6 +16255,24 @@
       }
     },
     {
+      "form_id": "87968a95-68c3-0713-7bf2-ef112c41f13a",
+      "lexeme_id": "lex-en-the-note",
+      "lang": "en",
+      "surface": "the notes",
+      "surface_search": "the notes",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:en:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
+      }
+    },
+    {
       "form_id": "ebb0b80a-8149-5f22-ae4c-cc38445710b8",
       "lexeme_id": "lex-it-l-appunto",
       "lang": "it",
@@ -15120,6 +16288,24 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "3bebc655-55d4-9551-47c8-23296db21ab9",
+      "lexeme_id": "lex-it-l-appunto",
+      "lang": "it",
+      "surface": "gli appunti",
+      "surface_search": "gli appunti",
+      "number_value": "pl",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 1,
+      "plugin_source": "override:it:lexeme-morphology",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "pl_core"
       }
     },
     {
@@ -21082,6 +22268,44 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "22849413-71f1-b579-4efc-41881d5e8f04",
+      "concept_id": "concept-b1-leistung",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "74183772-7959-e164-3be0-5780e5b15c2d",
+      "primary_expected_form_id": "d7274355-72d8-1573-5087-6ea425107e0c",
+      "extra_expected_form_ids": [
+        "2f657a2a-1ff2-cd13-6397-f03b3eb379f0"
+      ],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "51476fa1-22d7-5e04-80b0-220a8ebc109d",
+      "concept_id": "concept-b1-leistung",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "d7274355-72d8-1573-5087-6ea425107e0c",
+      "primary_expected_form_id": "74183772-7959-e164-3be0-5780e5b15c2d",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "7d95ccda-b366-c5d7-8bf9-893fff28ecdc",
       "concept_id": "concept-b1-leistung",
       "source_lang": "it",
@@ -21109,6 +22333,44 @@
       "unit_kind": "core_rec",
       "source_form_id": "0ebb5689-8ca5-b548-3771-f95370b51b8c",
       "primary_expected_form_id": "c6fec6a6-8855-42e9-e024-3777fb1dc2ac",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "8451e704-7281-0550-48df-ba2735e6af77",
+      "concept_id": "concept-b1-leistung",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "5f79e930-4f87-6024-5c56-8c5b7ed863b1",
+      "primary_expected_form_id": "d7274355-72d8-1573-5087-6ea425107e0c",
+      "extra_expected_form_ids": [
+        "2f657a2a-1ff2-cd13-6397-f03b3eb379f0"
+      ],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "e93dc588-1226-c805-556e-d6dd65dcf4cf",
+      "concept_id": "concept-b1-leistung",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "d7274355-72d8-1573-5087-6ea425107e0c",
+      "primary_expected_form_id": "5f79e930-4f87-6024-5c56-8c5b7ed863b1",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -21234,6 +22496,44 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "be012f63-b3eb-1be3-5aeb-294b8913e530",
+      "concept_id": "concept-b1-spitze-top-position",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "2e00d1d6-fdaf-f877-e541-6204ba0ae606",
+      "primary_expected_form_id": "feae2af7-bea6-35b9-9ba1-4952ba91350f",
+      "extra_expected_form_ids": [
+        "4f176a62-233d-4160-5b50-8569cc61893e"
+      ],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "0f414efb-a2b7-6251-0062-57496f1a1c12",
+      "concept_id": "concept-b1-spitze-top-position",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "feae2af7-bea6-35b9-9ba1-4952ba91350f",
+      "primary_expected_form_id": "2e00d1d6-fdaf-f877-e541-6204ba0ae606",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "987e3346-eb03-e3ca-ab55-e070cd1f39ca",
       "concept_id": "concept-b1-spitze-top-position",
       "source_lang": "it",
@@ -21261,6 +22561,44 @@
       "unit_kind": "core_rec",
       "source_form_id": "f65755e1-6d6c-3b01-fba4-a85328ef3190",
       "primary_expected_form_id": "94198a77-a857-dba7-338f-afa7d2826005",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "6eb28b5d-edc4-ecd1-62ea-5e6737149785",
+      "concept_id": "concept-b1-spitze-top-position",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "832baaaf-855d-f99b-4573-9de71867ad1f",
+      "primary_expected_form_id": "feae2af7-bea6-35b9-9ba1-4952ba91350f",
+      "extra_expected_form_ids": [
+        "4f176a62-233d-4160-5b50-8569cc61893e"
+      ],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "da6f7cb7-d4af-706a-fa9f-713be2dc2127",
+      "concept_id": "concept-b1-spitze-top-position",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "feae2af7-bea6-35b9-9ba1-4952ba91350f",
+      "primary_expected_form_id": "832baaaf-855d-f99b-4573-9de71867ad1f",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -21524,6 +22862,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "37ad30c3-d47a-f362-9949-d9a6e98dc8a8",
+      "concept_id": "concept-b1-faehigkeit",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "5bcaac21-7631-13c7-1873-d0402a880de6",
+      "primary_expected_form_id": "be168df5-f2b5-6f59-9f4a-bee602a1d571",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "6d237a9d-9021-b2f5-003d-4dcfbd765100",
+      "concept_id": "concept-b1-faehigkeit",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "be168df5-f2b5-6f59-9f4a-bee602a1d571",
+      "primary_expected_form_id": "5bcaac21-7631-13c7-1873-d0402a880de6",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "a194ea2d-4c8a-21b6-ded3-5e4f9fc44e9a",
       "concept_id": "concept-b1-faehigkeit",
       "source_lang": "it",
@@ -21549,6 +22923,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "3357c652-5716-df3c-0ece-73feb2b7347e",
       "primary_expected_form_id": "0531915a-64bc-17d5-0820-9f8e34a31185",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "5119ab17-e2d3-c37c-aca2-d2b6792677af",
+      "concept_id": "concept-b1-faehigkeit",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "8ab861e0-25c6-c994-3015-f9472aa845ec",
+      "primary_expected_form_id": "be168df5-f2b5-6f59-9f4a-bee602a1d571",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "65810be3-cb36-ec04-9631-fef7da18d4d0",
+      "concept_id": "concept-b1-faehigkeit",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "be168df5-f2b5-6f59-9f4a-bee602a1d571",
+      "primary_expected_form_id": "8ab861e0-25c6-c994-3015-f9472aa845ec",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -21812,6 +23222,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "6191ca42-3188-8983-02d6-203c9ff5cb3b",
+      "concept_id": "concept-b1-verbesserung",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "0514b447-ca3f-9b9f-c98a-ba83952dffe8",
+      "primary_expected_form_id": "4533e8da-2e3b-d018-f848-3f2a89bbd7ea",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "0c81d5c9-6b2d-fee3-3001-4c9d6a5fb144",
+      "concept_id": "concept-b1-verbesserung",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "4533e8da-2e3b-d018-f848-3f2a89bbd7ea",
+      "primary_expected_form_id": "0514b447-ca3f-9b9f-c98a-ba83952dffe8",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "c0ab47ea-2add-3efe-0fcb-e9252ad68dd2",
       "concept_id": "concept-b1-verbesserung",
       "source_lang": "it",
@@ -21837,6 +23283,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "f59a5f0c-d453-bd5f-6f6e-1dd63c0a23ee",
       "primary_expected_form_id": "e6c85295-c68c-1578-b4d5-83803c957a55",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "db695e12-d223-e59f-43ec-bf81a320eb57",
+      "concept_id": "concept-b1-verbesserung",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "bb485e7d-a6a8-08f7-6e45-849b8909eafe",
+      "primary_expected_form_id": "4533e8da-2e3b-d018-f848-3f2a89bbd7ea",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "e265dde3-c55d-50e1-f69b-f5b264b3c19b",
+      "concept_id": "concept-b1-verbesserung",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "4533e8da-2e3b-d018-f848-3f2a89bbd7ea",
+      "primary_expected_form_id": "bb485e7d-a6a8-08f7-6e45-849b8909eafe",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -21884,6 +23366,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "9fa3de59-9005-e5bf-4092-63e3c7448282",
+      "concept_id": "concept-b1-ziel",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "89752954-e658-f9a8-bfd8-409717851f62",
+      "primary_expected_form_id": "f4e876b1-8ffd-9115-56c7-c9473774f8ca",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "ecdfe3fc-e75c-1f71-eb44-a795b4dd0e76",
+      "concept_id": "concept-b1-ziel",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "f4e876b1-8ffd-9115-56c7-c9473774f8ca",
+      "primary_expected_form_id": "89752954-e658-f9a8-bfd8-409717851f62",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "8c7dfb71-1824-4554-9067-8a3132215cb0",
       "concept_id": "concept-b1-ziel",
       "source_lang": "it",
@@ -21909,6 +23427,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "10a0f71a-bc2b-8652-5c93-fbfe98bf5cc6",
       "primary_expected_form_id": "5fb41327-0daf-ca99-9088-e78b6fec744a",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "45d947d0-c04b-9fc5-e9b5-46c3234c4466",
+      "concept_id": "concept-b1-ziel",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "db444e85-190c-f80f-9348-04dfd03223e4",
+      "primary_expected_form_id": "f4e876b1-8ffd-9115-56c7-c9473774f8ca",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "778f1b9d-3cb2-1c4a-504d-a621b720dbc4",
+      "concept_id": "concept-b1-ziel",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "f4e876b1-8ffd-9115-56c7-c9473774f8ca",
+      "primary_expected_form_id": "db444e85-190c-f80f-9348-04dfd03223e4",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -22028,6 +23582,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "f921a47b-91ab-0926-3431-02b5030a80b2",
+      "concept_id": "concept-b1-vorwurf",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "924168bb-709f-2105-66cf-4283db407871",
+      "primary_expected_form_id": "df72312b-7e16-20cb-af88-f8c9d7c14ec8",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "8b1e9ecf-7fb6-fa64-b567-191ab7822217",
+      "concept_id": "concept-b1-vorwurf",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "df72312b-7e16-20cb-af88-f8c9d7c14ec8",
+      "primary_expected_form_id": "924168bb-709f-2105-66cf-4283db407871",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "f6f31259-26b8-14b5-5bdf-017ac039f11b",
       "concept_id": "concept-b1-vorwurf",
       "source_lang": "it",
@@ -22053,6 +23643,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "a64c0d2f-cfb9-aa3a-0477-3b7707348d65",
       "primary_expected_form_id": "e3744876-c6ba-c9a3-bcd0-f1c53d2d97e3",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "6db6982b-d45e-7eb7-dfa9-636fdee1402d",
+      "concept_id": "concept-b1-vorwurf",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "9294d4df-18e7-bb6a-5d7f-7977d79620c1",
+      "primary_expected_form_id": "df72312b-7e16-20cb-af88-f8c9d7c14ec8",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "48952823-2343-301a-efd6-09ea7e841cbc",
+      "concept_id": "concept-b1-vorwurf",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "df72312b-7e16-20cb-af88-f8c9d7c14ec8",
+      "primary_expected_form_id": "9294d4df-18e7-bb6a-5d7f-7977d79620c1",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -22244,6 +23870,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "81e30d8a-f8ce-fdb6-32dd-b22771d47f95",
+      "concept_id": "concept-b1-zusammenfassung",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "36e57584-10aa-d3ef-599a-1bd390a6d664",
+      "primary_expected_form_id": "093be691-761b-e50b-5657-a28d6c245ca5",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "c821440b-19c9-3e66-421f-ea4a71be5013",
+      "concept_id": "concept-b1-zusammenfassung",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "093be691-761b-e50b-5657-a28d6c245ca5",
+      "primary_expected_form_id": "36e57584-10aa-d3ef-599a-1bd390a6d664",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "ac3258aa-9abc-528d-e4ef-d80fa1ddcde2",
       "concept_id": "concept-b1-zusammenfassung",
       "source_lang": "it",
@@ -22269,6 +23931,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "94c51183-3328-8bbf-f962-ab9c9eae9428",
       "primary_expected_form_id": "416e0af9-e06e-b4d3-a3c0-7b595b147273",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "90eb0e21-d077-3b2f-da00-36451dac4a4b",
+      "concept_id": "concept-b1-zusammenfassung",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "5a8c8734-a701-476c-c825-e5be9684159b",
+      "primary_expected_form_id": "093be691-761b-e50b-5657-a28d6c245ca5",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "73dc4d1a-39f6-f7c9-8bfc-176ec77abf17",
+      "concept_id": "concept-b1-zusammenfassung",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "093be691-761b-e50b-5657-a28d6c245ca5",
+      "primary_expected_form_id": "5a8c8734-a701-476c-c825-e5be9684159b",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -22532,6 +24230,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "05a1a809-e411-89bf-1478-503fe5f84d79",
+      "concept_id": "concept-b1-ausnahme",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "729ec8ad-f703-dad0-395e-04feb3a3ea40",
+      "primary_expected_form_id": "b5405bd0-c0ec-ff01-1224-282c2c9950d1",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "7d269c3e-f951-25c7-09d3-6b560a2ab402",
+      "concept_id": "concept-b1-ausnahme",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "b5405bd0-c0ec-ff01-1224-282c2c9950d1",
+      "primary_expected_form_id": "729ec8ad-f703-dad0-395e-04feb3a3ea40",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "668403b1-ea5d-4879-813c-efaf4fb7de10",
       "concept_id": "concept-b1-ausnahme",
       "source_lang": "it",
@@ -22557,6 +24291,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "e0d4c0ec-2cdd-31d3-d808-d9ac03176b87",
       "primary_expected_form_id": "2dd4a059-a755-bbf5-05f1-c3cc8002df6f",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "cade98e4-d5dd-b700-7790-27712b97556f",
+      "concept_id": "concept-b1-ausnahme",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "1284fa85-18e2-648a-5c61-d8fcf919a74d",
+      "primary_expected_form_id": "b5405bd0-c0ec-ff01-1224-282c2c9950d1",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "5e01c194-7b62-654f-1860-b0a7d51b8305",
+      "concept_id": "concept-b1-ausnahme",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "b5405bd0-c0ec-ff01-1224-282c2c9950d1",
+      "primary_expected_form_id": "1284fa85-18e2-648a-5c61-d8fcf919a74d",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -22676,6 +24446,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "bdddced9-21ec-433a-9b1d-cead27048e31",
+      "concept_id": "concept-b1-schritt",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "e939df3b-2963-b43a-336f-99830d4dc572",
+      "primary_expected_form_id": "a8f64223-0271-a086-eedb-26a4e79fb535",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "66a0a8d6-a9e3-b0b3-a231-e90335504274",
+      "concept_id": "concept-b1-schritt",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "a8f64223-0271-a086-eedb-26a4e79fb535",
+      "primary_expected_form_id": "e939df3b-2963-b43a-336f-99830d4dc572",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "8e59609f-7d94-03b5-3842-055003bff651",
       "concept_id": "concept-b1-schritt",
       "source_lang": "it",
@@ -22701,6 +24507,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "ad55e2b3-3fbc-d939-4cfd-6be9ab347890",
       "primary_expected_form_id": "7e3b6805-0cb4-5811-8874-9df5106efe07",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "d7766cc3-2712-7351-5a21-f22da89c6272",
+      "concept_id": "concept-b1-schritt",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "1e353510-10ae-7ed4-0f2a-441ae346529d",
+      "primary_expected_form_id": "a8f64223-0271-a086-eedb-26a4e79fb535",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "daef771d-8514-24ef-98bd-21335b0fd951",
+      "concept_id": "concept-b1-schritt",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "a8f64223-0271-a086-eedb-26a4e79fb535",
+      "primary_expected_form_id": "1e353510-10ae-7ed4-0f2a-441ae346529d",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -22748,6 +24590,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "ae953555-f8eb-5fc5-9854-70d71bf81914",
+      "concept_id": "concept-b1-abschnitt",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "00dd707a-b865-0bfa-8db3-bb1f99a0bddf",
+      "primary_expected_form_id": "160f6b23-1e46-5ac1-bebf-5098099c50f9",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "88c8698a-c3ce-b59e-08f3-bf62a75690c4",
+      "concept_id": "concept-b1-abschnitt",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "160f6b23-1e46-5ac1-bebf-5098099c50f9",
+      "primary_expected_form_id": "00dd707a-b865-0bfa-8db3-bb1f99a0bddf",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "ad2bf1af-b3f0-7da0-3470-6743305d8de4",
       "concept_id": "concept-b1-abschnitt",
       "source_lang": "it",
@@ -22773,6 +24651,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "f2d6c104-9d1b-7717-448e-25d9d9884d2f",
       "primary_expected_form_id": "369ae48f-88f9-4585-0a42-23931380a6ee",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "a255575e-4e67-a487-cf72-08c90422e3d4",
+      "concept_id": "concept-b1-abschnitt",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "ca9dfc06-68f6-ac9f-5819-80c3190fd1ff",
+      "primary_expected_form_id": "160f6b23-1e46-5ac1-bebf-5098099c50f9",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "8d7c5d17-8daf-0728-36c9-1d6fca5d5d7f",
+      "concept_id": "concept-b1-abschnitt",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "160f6b23-1e46-5ac1-bebf-5098099c50f9",
+      "primary_expected_form_id": "ca9dfc06-68f6-ac9f-5819-80c3190fd1ff",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -22820,6 +24734,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "029de64e-6ada-b25b-6b8b-009b8f4bb26b",
+      "concept_id": "concept-b1-ablauf",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "5980ee6a-4bea-3c68-a588-bfd027c57e87",
+      "primary_expected_form_id": "049289ab-dcaa-56ff-f821-c86b357249e4",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "c6e6fdd1-73ad-1a6d-551e-6b11124f6f1c",
+      "concept_id": "concept-b1-ablauf",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "049289ab-dcaa-56ff-f821-c86b357249e4",
+      "primary_expected_form_id": "5980ee6a-4bea-3c68-a588-bfd027c57e87",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "ef375cf4-60b9-2b02-a532-683b11e8e563",
       "concept_id": "concept-b1-ablauf",
       "source_lang": "it",
@@ -22845,6 +24795,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "202f8f49-b240-3927-6970-954f4ffb6e98",
       "primary_expected_form_id": "7476f93b-c8b2-dde1-8283-c364e870cbf9",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "26b3e0ab-140b-8791-9bb1-e866aa6292bf",
+      "concept_id": "concept-b1-ablauf",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "bacdb4d3-290d-d81a-da95-a9ac3f5ada60",
+      "primary_expected_form_id": "049289ab-dcaa-56ff-f821-c86b357249e4",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "c6b16623-5111-8514-41b9-7e2ce7cc78ee",
+      "concept_id": "concept-b1-ablauf",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "049289ab-dcaa-56ff-f821-c86b357249e4",
+      "primary_expected_form_id": "bacdb4d3-290d-d81a-da95-a9ac3f5ada60",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -22892,6 +24878,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "152038b8-2fe5-8585-4cf2-97846bcfaa9d",
+      "concept_id": "concept-b1-ursache",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "df79fc78-b42d-a70a-0ebb-966c2202f4d1",
+      "primary_expected_form_id": "c02d35a7-1c9c-5be6-5a59-447575492909",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "36966971-f422-7a97-deab-61cc3bdc2f73",
+      "concept_id": "concept-b1-ursache",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "c02d35a7-1c9c-5be6-5a59-447575492909",
+      "primary_expected_form_id": "df79fc78-b42d-a70a-0ebb-966c2202f4d1",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "02496cae-5633-da2f-da9c-619bfc18bba1",
       "concept_id": "concept-b1-ursache",
       "source_lang": "it",
@@ -22917,6 +24939,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "1eb4a394-c865-ee5d-b182-7f2931ce7356",
       "primary_expected_form_id": "a698184c-e6a0-f924-872d-817a90bfab9f",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "9da18436-5c14-1e97-5aef-28e1b5113b8c",
+      "concept_id": "concept-b1-ursache",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "294d553d-f309-f209-22d6-9081dc7d724b",
+      "primary_expected_form_id": "c02d35a7-1c9c-5be6-5a59-447575492909",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "b3cf4481-c14d-411c-5a65-2ff98c93bc74",
+      "concept_id": "concept-b1-ursache",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "c02d35a7-1c9c-5be6-5a59-447575492909",
+      "primary_expected_form_id": "294d553d-f309-f209-22d6-9081dc7d724b",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -22964,6 +25022,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "714271f5-0023-aeec-cfb3-48f868ea70c6",
+      "concept_id": "concept-b1-wirkung",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "add44dbf-2885-5dc0-b917-2810cae76961",
+      "primary_expected_form_id": "eff4d032-ac2f-84b8-502d-2d1b7e483824",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "dda97787-4d94-f91c-679c-7228a7488408",
+      "concept_id": "concept-b1-wirkung",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "eff4d032-ac2f-84b8-502d-2d1b7e483824",
+      "primary_expected_form_id": "add44dbf-2885-5dc0-b917-2810cae76961",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "6598fccf-0b2b-daf1-9224-8da7992c5fb9",
       "concept_id": "concept-b1-wirkung",
       "source_lang": "it",
@@ -22989,6 +25083,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "e96fbeda-7ccc-e3c6-8720-ea8a3fbc9cfc",
       "primary_expected_form_id": "5fc3e33b-6c68-f664-65c3-6a74a8f07c0a",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "13eb0afc-95db-68d0-3bb1-d4c64aa740e0",
+      "concept_id": "concept-b1-wirkung",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "1fdbc0e2-0029-7798-b8e8-052113eef709",
+      "primary_expected_form_id": "eff4d032-ac2f-84b8-502d-2d1b7e483824",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "6920cea1-8974-35f4-af7b-50dcd59fbd3b",
+      "concept_id": "concept-b1-wirkung",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "eff4d032-ac2f-84b8-502d-2d1b7e483824",
+      "primary_expected_form_id": "1fdbc0e2-0029-7798-b8e8-052113eef709",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -23036,6 +25166,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "d0dc6e16-085b-740d-6f97-9fe9e43989c5",
+      "concept_id": "concept-b1-kritik",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "7721129b-2045-ee18-c111-c198ee3000a0",
+      "primary_expected_form_id": "62c4cfc2-f98f-775e-2d39-14934a4c6330",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "e7de86ce-8425-a33f-42a9-7d623b3eb971",
+      "concept_id": "concept-b1-kritik",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "62c4cfc2-f98f-775e-2d39-14934a4c6330",
+      "primary_expected_form_id": "7721129b-2045-ee18-c111-c198ee3000a0",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "390b6905-697c-28ad-ba27-e2a0064badb6",
       "concept_id": "concept-b1-kritik",
       "source_lang": "it",
@@ -23061,6 +25227,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "adcdf50e-7b9c-4bc9-fd32-77381a7b42b3",
       "primary_expected_form_id": "1cd3882f-9efe-f40e-d989-01284612735a",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "8b360851-5a7c-1632-8b6e-b78524ebe2d2",
+      "concept_id": "concept-b1-kritik",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "bd075dfa-8bb9-49c8-0722-52c6e071516e",
+      "primary_expected_form_id": "62c4cfc2-f98f-775e-2d39-14934a4c6330",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "507453f0-a3af-eb5f-a416-271ad6eedaf7",
+      "concept_id": "concept-b1-kritik",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "62c4cfc2-f98f-775e-2d39-14934a4c6330",
+      "primary_expected_form_id": "bd075dfa-8bb9-49c8-0722-52c6e071516e",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -23396,6 +25598,42 @@
       "editor_notes": null
     },
     {
+      "study_unit_id": "64ed3981-a950-ea6c-db35-993f2ec32c41",
+      "concept_id": "concept-b1-notiz",
+      "source_lang": "de",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "7d663ff0-ef7d-652a-853c-107e9a1cff3d",
+      "primary_expected_form_id": "87968a95-68c3-0713-7bf2-ef112c41f13a",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "c3a8a8e3-365a-f52e-73c1-aa0542538069",
+      "concept_id": "concept-b1-notiz",
+      "source_lang": "en",
+      "target_lang": "de",
+      "unit_kind": "core_rec",
+      "source_form_id": "87968a95-68c3-0713-7bf2-ef112c41f13a",
+      "primary_expected_form_id": "7d663ff0-ef7d-652a-853c-107e9a1cff3d",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
       "study_unit_id": "d867cdf3-dea8-4d1f-def8-34c4295dc72e",
       "concept_id": "concept-b1-notiz",
       "source_lang": "it",
@@ -23421,6 +25659,42 @@
       "unit_kind": "core_rec",
       "source_form_id": "0228f642-1701-ab28-a1ef-dd8f5a16eaa0",
       "primary_expected_form_id": "ebb0b80a-8149-5f22-ae4c-cc38445710b8",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "a5c60891-d7eb-7626-42ac-343212553e08",
+      "concept_id": "concept-b1-notiz",
+      "source_lang": "it",
+      "target_lang": "en",
+      "unit_kind": "core_prod",
+      "source_form_id": "3bebc655-55d4-9551-47c8-23296db21ab9",
+      "primary_expected_form_id": "87968a95-68c3-0713-7bf2-ef112c41f13a",
+      "extra_expected_form_ids": [],
+      "acceptable_form_ids": [],
+      "is_core": true,
+      "status": "approved",
+      "grammar_tags_json": [],
+      "prompt_style": "translate",
+      "difficulty_override": null,
+      "level_override": null,
+      "editor_notes": null
+    },
+    {
+      "study_unit_id": "be7ba246-776b-db78-9ab9-33096df686fd",
+      "concept_id": "concept-b1-notiz",
+      "source_lang": "en",
+      "target_lang": "it",
+      "unit_kind": "core_rec",
+      "source_form_id": "87968a95-68c3-0713-7bf2-ef112c41f13a",
+      "primary_expected_form_id": "3bebc655-55d4-9551-47c8-23296db21ab9",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -31135,5 +33409,233 @@
       "position": 1
     }
   ],
-  "concept_relations": []
+  "concept_relations": [
+    {
+      "relation_id": "dad483de-4843-7245-0d21-b79cb157edb5",
+      "relation_type": "antonym",
+      "concept_a": "03e06d4d-6e66-57de-675b-848282e41d06",
+      "concept_b": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "ec96e739-5293-21be-9c9f-00b0cfdf7cc5",
+      "relation_type": "antonym",
+      "concept_a": "03e06d4d-6e66-57de-675b-848282e41d06",
+      "concept_b": "concept-a2-deshalb",
+      "lang_scope_json": [
+        "de",
+        "en"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "f8ae4470-5de7-6f51-81fd-bea281402060",
+      "relation_type": "antonym",
+      "concept_a": "06afc93e-f8f6-3698-72af-3185f7367f80",
+      "concept_b": "concept-b1-keinesfalls",
+      "lang_scope_json": [
+        "de",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "91c373c0-353c-4b58-1375-282d901a35f3",
+      "relation_type": "antonym",
+      "concept_a": "25b5725b-13ce-48ce-2a99-7bb508a4de54",
+      "concept_b": "e718be7a-3d76-3ce3-db35-35ba3b93eaa0",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "0ae8ef79-eb40-ab05-caf2-194ea2cee010",
+      "relation_type": "antonym",
+      "concept_a": "75aaec59-5c45-791b-c003-18dcee16a9cb",
+      "concept_b": "concept-b2-zusage",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "08a9bb2e-7132-87d9-bd23-2152637eeb0c",
+      "relation_type": "antonym",
+      "concept_a": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
+      "concept_b": "de7729bf-7055-b380-9ec0-7e315525c625",
+      "lang_scope_json": [
+        "de",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "069553dd-3269-56c7-fe1d-2d4c91d3e099",
+      "relation_type": "antonym",
+      "concept_a": "concept-b1-ursache",
+      "concept_b": "concept-b1-wirkung",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "c9e39001-7477-d32d-c56c-f7fa3258a74f",
+      "relation_type": "synonym",
+      "concept_a": "2e15a945-9821-6cd1-ef18-663740b7bee6",
+      "concept_b": "concept-a2-mindestens",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "af5783fa-1311-5187-b57c-bbf1e4ae0a4f",
+      "relation_type": "synonym",
+      "concept_a": "b3840a69-b660-0e8d-81ee-3b3284ed29ff",
+      "concept_b": "fef8f67b-8883-20ff-c027-67735487d38d",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "ac5fd30f-e68c-8721-e920-0c40ceb96c30",
+      "relation_type": "synonym",
+      "concept_a": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
+      "concept_b": "ed8e2fd9-341b-1cad-7908-35e22a2f2388",
+      "tier": "close",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "e8911b23-7be8-259a-d7b3-ef32b02fea68",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-empfehlen",
+      "concept_b": "concept-b1-vorschlagen",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "9e01a1cf-6cdb-02c7-281a-3f2354a29eb5",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-normalerweise",
+      "concept_b": "dd649122-0105-6628-92d8-b638d43a5204",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "9489073b-fd0f-ba82-a90e-74f698c6c620",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-wahrscheinlich",
+      "concept_b": "concept-b1-vermutlich",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "7fecaf33-39be-8c9f-9df1-c11d176f5d72",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-angemessen",
+      "concept_b": "concept-b1-geeignet",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "876dd847-c826-4098-d9ac-45d23c56e40a",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-ausserdem",
+      "concept_b": "concept-b1-zudem",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "a4a7c684-0816-0601-d9ad-a68cad2833ef",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-auswirkung",
+      "concept_b": "concept-b1-wirkung",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "f53826ca-7c00-74be-195f-b6765cc58afc",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-durchfuehren",
+      "concept_b": "concept-b1-umsetzen",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "dd5e9bd4-1659-0107-ac59-c864a6a5775a",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-vereinbarung",
+      "concept_b": "concept-b2-einigung",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "12786fcc-7688-c32e-bdcb-a5815a31826f",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-voraussetzung",
+      "concept_b": "concept-b2-bedingung",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "8f3e51bb-5c46-8cc2-8fc7-066abd671089",
+      "relation_type": "synonym",
+      "concept_a": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "concept_b": "fef8f67b-8883-20ff-c027-67735487d38d",
+      "tier": "close",
+      "lang_scope_json": [
+        "de",
+        "it"
+      ],
+      "source": "resolved"
+    }
+  ]
 }

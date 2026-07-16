@@ -2479,5 +2479,18 @@
       "position": 6
     }
   ],
-  "concept_relations": []
+  "concept_relations": [
+    {
+      "relation_id": "8f3e51bb-5c46-8cc2-8fc7-066abd671089",
+      "relation_type": "synonym",
+      "concept_a": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "concept_b": "fef8f67b-8883-20ff-c027-67735487d38d",
+      "tier": "close",
+      "lang_scope_json": [
+        "de",
+        "it"
+      ],
+      "source": "resolved"
+    }
+  ]
 }

@@ -32,6 +32,12 @@ noise, English homonym artifacts, sibling terms that are not opposites),
 and 91 stay pending (mostly wide-span pairs that need a level fix first).
 The graph grows from 92 to 299 edges; isolated concepts drop to 49 percent.
 
+Same day, second pass: the level-adjacency write rule was retired (ADR
+0003 - relations span all levels, wide spans become an editorial advisory),
+unklar moved from B2 to A2, and every remaining queued pair got its call:
+the graph closes the day at 368 edges with an empty review queue (70
+rejects remembered in relation_rejects.json).
+
 ## [Unreleased]
 
 ### Added / Updated Concepts

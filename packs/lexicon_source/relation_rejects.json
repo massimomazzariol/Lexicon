@@ -335,6 +335,160 @@
       "relation_type": "synonym",
       "decided_by": "ai",
       "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "03e06d4d-6e66-57de-675b-848282e41d06",
+      "concept_b": "0bed6967-2ba5-ca39-d70b-646e23f07493",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "53755265-2825-a0ee-b1de-c5a680bdef75",
+      "concept_b": "d44d4a04-9c80-66ac-6dae-10528f189ad5",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "03e06d4d-6e66-57de-675b-848282e41d06",
+      "concept_b": "6e8b7ee1-ea2f-6b1b-0038-4c84ea728c34",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "283a4308-79e5-702e-4ad5-e469a8e8ca40",
+      "concept_b": "76ddf07a-3708-809e-94da-35f0ec10678d",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "283a4308-79e5-702e-4ad5-e469a8e8ca40",
+      "concept_b": "8f698c56-8c4a-4fde-1a01-9050abcb2a45",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
+      "concept_b": "concept-b2-vereinbaren",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "a6a02266-de00-f0d8-462f-29e0e630ad11",
+      "concept_b": "concept-b1-vorgehen",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "ca09ed6c-97c5-3209-56ec-117bb486ac72",
+      "concept_b": "concept-b1-foerdern",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "04c5d87f-440f-3e11-14cb-853783408621",
+      "concept_b": "18e272ee-84df-dc32-fa8c-4335c5ffaf5c",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "acf43980-f6c2-a6a4-e106-aba177daf84b",
+      "concept_b": "concept-b2-wohl-probability",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "3afa0fc5-faa9-1677-c7ba-020ab75c129a",
+      "concept_b": "concept-b1-ueberwiegend",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "3afa0fc5-faa9-1677-c7ba-020ab75c129a",
+      "concept_b": "concept-b1-unter-anderem",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "c865d20f-a380-fca4-1e9a-946628371556",
+      "concept_b": "concept-b1-unter-anderem",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "ca09ed6c-97c5-3209-56ec-117bb486ac72",
+      "concept_b": "concept-c1-erbringen-provide",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "concept-b1-ablehnen",
+      "concept_b": "concept-c1-erbringen-provide",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "concept-b1-verhindern",
+      "concept_b": "concept-c1-bedingen",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "concept_b": "concept-b2-nachvollziehen-reasoning",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "434197ea-470c-0d8c-5882-c14d89eb9dfd",
+      "concept_b": "concept-b2-praezise",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "concept-a2-vergleich",
+      "concept_b": "concept-b2-kompromiss",
+      "relation_type": "synonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "concept-b2-belastend",
+      "concept_b": "ec6fe4e3-fc8a-e7f0-0dcd-1bf1f7260b4a",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "concept_b": "concept-b2-hervorheben",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
+    },
+    {
+      "concept_a": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "concept_b": "concept-b2-auswerten",
+      "relation_type": "antonym",
+      "decided_by": "ai",
+      "rejected_at": "2026-07-16"
     }
   ]
 }

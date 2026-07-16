@@ -6773,7 +6773,7 @@
       "pos": "adj",
       "difficulty_score_auto": 65,
       "level_auto": "B2",
-      "level_override": null,
+      "level_override": "A2",
       "domain_tags": [
         "Work",
         "Communication"
@@ -56727,6 +56727,1455 @@
       "lang": "de",
       "label": "travel movement",
       "type": "semantic"
+    },
+    {
+      "cluster_id": "f2fc60b5-429c-9fd2-99c5-600299516697",
+      "lang": "de",
+      "label": "synonyms: aussteigen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "77137e1e-3586-bced-1923-1cb116756418",
+      "lang": "de",
+      "label": "synonyms: warm",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "cdd7d21b-34f5-c769-26bc-2d231fc97102",
+      "lang": "de",
+      "label": "synonyms: gehen +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "422e1e59-438b-4fc9-5b93-010f2ed87743",
+      "lang": "de",
+      "label": "synonyms: sagen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "9f854bac-d78c-7feb-9cc8-181ee1f698e6",
+      "lang": "de",
+      "label": "synonyms: lecker +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "aadcca5c-4b0b-af99-4201-7abb89bdabc5",
+      "lang": "de",
+      "label": "synonyms: betrachten +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "b8420a20-35e6-dd11-ceaf-2810c41ad484",
+      "lang": "de",
+      "label": "synonyms: jung +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a8ef5fb2-6846-89e6-1e4b-e0150eebfb59",
+      "lang": "de",
+      "label": "synonyms: aufhören",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "869f936c-b1fc-2e08-afbe-0cc929e69d99",
+      "lang": "de",
+      "label": "synonyms: Bewerbung +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "374e5307-b1ac-8603-c6c6-8df1aee775ba",
+      "lang": "de",
+      "label": "synonyms: Anfrage",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
+      "lang": "de",
+      "label": "synonyms: daher +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "f14cfbc0-c7ea-330d-14b1-6a6e59418fe0",
+      "lang": "de",
+      "label": "synonyms: abholen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "2390b3d0-39b3-82b6-f23a-32f71ed107b6",
+      "lang": "de",
+      "label": "synonyms: zumindest +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "f743af50-cea5-b730-e130-8565cbbe0948",
+      "lang": "de",
+      "label": "synonyms: nur",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "aeeca376-3089-ffc7-b22c-a61afc8a2f68",
+      "lang": "de",
+      "label": "synonyms: Wohnhaus",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
+      "lang": "de",
+      "label": "synonyms: wichtig +8",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a8176da2-6d81-996d-09a0-2e656714bdf3",
+      "lang": "de",
+      "label": "synonyms: derzeit +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "014e14c1-c8ad-b44f-4498-8d5ba791eff3",
+      "lang": "de",
+      "label": "synonyms: Problem",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "bf4d0266-58f5-49bc-8b56-1f9009fed74e",
+      "lang": "de",
+      "label": "synonyms: noch",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a09ff1d5-0736-76c3-fb35-f5440ac735ac",
+      "lang": "de",
+      "label": "synonyms: Straße",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "2952d688-498e-f49e-29f2-4bec8c229eb4",
+      "lang": "de",
+      "label": "synonyms: Notwendigkeit +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "f5eb93aa-6ad4-38da-5b02-fc025c64949c",
+      "lang": "de",
+      "label": "synonyms: Angebot +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a33579e5-aed3-62cf-fe60-718ac9745634",
+      "lang": "de",
+      "label": "synonyms: oft +5",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "d4e48cb5-295f-97ac-575e-870b63b15b43",
+      "lang": "de",
+      "label": "synonyms: ansonsten",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "10c38b3e-3813-ccae-f1a5-767a85890202",
+      "lang": "de",
+      "label": "synonyms: anrufen +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "0fa8f147-3071-d8e4-4b9f-79a57be488b7",
+      "lang": "de",
+      "label": "synonyms: zuletzt +3",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "74ed7996-58d7-5e2c-417a-89650b0baf45",
+      "lang": "de",
+      "label": "synonyms: Lauf",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "e6e39b6b-3e07-77c1-b891-fb1156b395a4",
+      "lang": "de",
+      "label": "synonyms: klar",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "85bc2396-271e-f231-446b-844d1af8d59e",
+      "lang": "de",
+      "label": "synonyms: putzen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "0e29c953-7941-0f70-87b1-69a3038f91d8",
+      "lang": "de",
+      "label": "synonyms: stehen bleiben",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "2523e819-61de-e12e-0314-28a0167f88df",
+      "lang": "de",
+      "label": "synonyms: Abstand",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "ac554226-03d5-1bf2-ea57-951a9b80229d",
+      "lang": "de",
+      "label": "synonyms: auf keinen Fall",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "63df83b7-fe0b-77ae-cb4e-629efbf43e8d",
+      "lang": "de",
+      "label": "synonyms: empfehlen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "b3f3ef74-547f-dc1c-7c5b-eca31ea63ea9",
+      "lang": "de",
+      "label": "synonyms: Ergebnis",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "2e1ba454-c474-7425-f0e0-fabce4d35443",
+      "lang": "de",
+      "label": "synonyms: reagieren",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "27ddb271-39ee-033e-f984-94318c49e8d8",
+      "lang": "de",
+      "label": "synonyms: teilnehmen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "400df5e9-df33-bc96-29d4-aac36eb122ab",
+      "lang": "de",
+      "label": "synonyms: vermeiden",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c1b879e2-d36a-59b9-82e4-37cb4b4cdfc6",
+      "lang": "de",
+      "label": "synonyms: wahrscheinlich",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "36a3586f-8a35-308b-c6f7-37bf0c5f9c91",
+      "lang": "de",
+      "label": "synonyms: angemessen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "36e311b4-f005-5fd7-baff-bf0d5d94d664",
+      "lang": "de",
+      "label": "synonyms: auf Dauer",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "343b1b87-0dbc-3cd5-15f0-57d445faa531",
+      "lang": "de",
+      "label": "synonyms: außerdem +3",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "cc26fb89-ab3f-58fd-a28d-679bec9708a2",
+      "lang": "de",
+      "label": "synonyms: Auswirkung",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "cf937f95-1447-7671-ca8d-c5fdf10ea58a",
+      "lang": "de",
+      "label": "synonyms: bewerten +5",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c82a7ca3-8db7-5a6f-473b-a27838c400a1",
+      "lang": "de",
+      "label": "synonyms: durchführen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "4d029361-0fb1-ee34-e7de-35aa0908740a",
+      "lang": "de",
+      "label": "synonyms: erwarten",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "f2a6e685-6449-6cbf-0d8a-b81e64e7cf54",
+      "lang": "de",
+      "label": "synonyms: feststellen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "7b765802-2bcf-34ed-241b-078594f1c4bf",
+      "lang": "de",
+      "label": "synonyms: überzeugen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "fc71827c-35bf-5560-a8ca-88fc4be1310a",
+      "lang": "de",
+      "label": "synonyms: Vereinbarung +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a69f818f-367b-5778-9254-405e8ae1301a",
+      "lang": "de",
+      "label": "synonyms: vermitteln",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "6d19e46a-5728-d625-e8b8-33153504ea10",
+      "lang": "de",
+      "label": "synonyms: auf den Punkt bringen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "736cd683-99c4-2e48-a2dc-b738c07b2de6",
+      "lang": "de",
+      "label": "synonyms: ausdrücklich +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "856ca4b7-8c6c-47cc-c6ea-68797b7de0ee",
+      "lang": "de",
+      "label": "synonyms: beeindruckend",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "535b1330-a5a0-0e75-3a73-b57e76dd17e5",
+      "lang": "de",
+      "label": "synonyms: belastbar",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "93fde1d7-942f-74b7-5918-9d60d497c018",
+      "lang": "de",
+      "label": "synonyms: der Druck",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "0e741954-5121-a787-bfff-9faeabcba3ba",
+      "lang": "de",
+      "label": "synonyms: herausfordernd",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "7d025fe5-6e8a-186b-8f10-867accd29b29",
+      "lang": "de",
+      "label": "synonyms: klarstellen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c5ab0b74-577e-c417-75f6-f555b529e55a",
+      "lang": "de",
+      "label": "synonyms: leisten",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "41a82da2-daa8-fbda-6f0a-151f1fec6473",
+      "lang": "de",
+      "label": "synonyms: robust",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "d4527717-678f-5669-a6bd-2abce36aa103",
+      "lang": "de",
+      "label": "synonyms: überzeugend +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "0eedd7cb-6740-fa7d-8099-788473a708ec",
+      "lang": "de",
+      "label": "synonyms: unklar +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "f60df95e-7055-fef3-2dfa-4f3aa9b452ba",
+      "lang": "de",
+      "label": "synonyms: verhandeln",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c5c2b1e1-b2f7-66f3-321b-ec4388bbae04",
+      "lang": "de",
+      "label": "synonyms: widersprechen +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "9a8b83d2-7012-e4c7-0a54-e99a1842b0fb",
+      "lang": "de",
+      "label": "synonyms: zusammenhängen",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "f3648ffe-37a2-4bc6-2c54-ef1c8f28e86c",
+      "lang": "de",
+      "label": "synonyms: ableiten",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "27cedf41-eaeb-2ee2-4d6c-3565867a7491",
+      "lang": "de",
+      "label": "synonyms: die Beurteilung",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a03a2b8b-17b6-b64d-b652-638422908140",
+      "lang": "de",
+      "label": "synonyms: die Folgerung",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "b8288c9e-2cca-e04f-4de6-84257b41d4c5",
+      "lang": "de",
+      "label": "synonyms: das Kriterium",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "8f6d4672-beb6-fe7d-0778-5fac13709fe6",
+      "lang": "de",
+      "label": "synonyms: strukturiert",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "b15d5238-d8d7-f352-301b-3ff62dae57b3",
+      "lang": "de",
+      "label": "synonyms: bahnbrechend",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "4af8e408-1646-9952-4ede-13927f371f62",
+      "lang": "it",
+      "label": "synonyms: scendere",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "2dfea847-238a-d2ea-f4b9-8d5386e4d732",
+      "lang": "it",
+      "label": "synonyms: caldo",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "08013d8b-1eca-b596-5268-900d5389b1e1",
+      "lang": "it",
+      "label": "synonyms: andare +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "fb4e8462-7129-e2ec-7676-5fb820c00ea2",
+      "lang": "it",
+      "label": "synonyms: dire",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a3922d0e-f436-b1f9-59cc-304718b18c4e",
+      "lang": "it",
+      "label": "synonyms: delizioso +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "aa59367c-eefc-ceb9-add1-117eefdfbf56",
+      "lang": "it",
+      "label": "synonyms: osservare +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "b7d15a75-0e97-1aab-5aa5-602916a5a8ee",
+      "lang": "it",
+      "label": "synonyms: giovane +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "cfa82c7a-aa2e-a740-4f81-0c55de0afc4b",
+      "lang": "it",
+      "label": "synonyms: smettere",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "85e2052e-21ec-d46c-7bdf-4e2bbb0cb698",
+      "lang": "it",
+      "label": "synonyms: la candidatura +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "be758479-f342-6684-0007-a0097da3f058",
+      "lang": "it",
+      "label": "synonyms: la richiesta di informazioni",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "0df945ad-a7a3-dc6e-3cce-1ceb611a295a",
+      "lang": "it",
+      "label": "synonyms: quindi +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "db6703e8-afb1-2d57-1716-6fc148d16d60",
+      "lang": "it",
+      "label": "synonyms: andare a prendere (ritirare)",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "eb6ffe65-1233-37f7-c3c0-6368243f882b",
+      "lang": "it",
+      "label": "synonyms: perlomeno +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "2b245fec-e37b-5619-28f2-1e97843af510",
+      "lang": "it",
+      "label": "synonyms: solo",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "d23ac697-a6ad-533f-b1e8-6462e0eef81c",
+      "lang": "it",
+      "label": "synonyms: l'abitazione",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
+      "lang": "it",
+      "label": "synonyms: importante +8",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "ad67444c-0119-c21e-db1a-25b68d503260",
+      "lang": "it",
+      "label": "synonyms: attualmente +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "437fa420-1684-abcc-c3ca-25ff0d7e430d",
+      "lang": "it",
+      "label": "synonyms: il problema",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "25fdbb1a-e1af-506c-9fcc-74df5e2d024e",
+      "lang": "it",
+      "label": "synonyms: ancora",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "72021489-c918-dadb-c9d2-8d7db5619061",
+      "lang": "it",
+      "label": "synonyms: la strada",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c637f0a6-8b20-2e1b-bc8d-0ee75eb1dffc",
+      "lang": "it",
+      "label": "synonyms: la necessità +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "b8f5fe4f-4794-1970-8423-1ee4aaaa72a2",
+      "lang": "it",
+      "label": "synonyms: l'offerta +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "4969a31d-327d-ea11-109e-57b1ceed6534",
+      "lang": "it",
+      "label": "synonyms: spesso +5",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "279a0c74-5700-d367-b17e-560ade2d862f",
+      "lang": "it",
+      "label": "synonyms: per il resto",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "442c2225-18c6-951c-63c7-5332c0c0f342",
+      "lang": "it",
+      "label": "synonyms: chiamare +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "59cfcb17-cfe2-106d-aadd-73d50ef75256",
+      "lang": "it",
+      "label": "synonyms: per ultimo +3",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "177c7edf-7f87-079c-08df-f8677e091a42",
+      "lang": "it",
+      "label": "synonyms: la corsa",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "5c8c931b-0ec0-9dca-0f11-6a8631a1425c",
+      "lang": "it",
+      "label": "synonyms: chiaro",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "076a637b-6587-fe47-b814-c322a20b1312",
+      "lang": "it",
+      "label": "synonyms: pulire",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "764ac856-c5aa-e036-97e3-e27bfa615095",
+      "lang": "it",
+      "label": "synonyms: fermarsi",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "be5c2966-eb86-cfb5-2b29-c0195513f05a",
+      "lang": "it",
+      "label": "synonyms: la distanza (intervallo)",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "5d20a7b6-2565-1bed-01d1-26c5d123c1d0",
+      "lang": "it",
+      "label": "synonyms: in nessun caso",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "ba8e4475-97f0-adbf-57af-691b18172c40",
+      "lang": "it",
+      "label": "synonyms: consigliare",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "3a5d7076-1c59-2f98-6f2e-03b17be96dc5",
+      "lang": "it",
+      "label": "synonyms: il risultato",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "d1cc4c86-8077-e9cf-3c86-6b1bde3b64b3",
+      "lang": "it",
+      "label": "synonyms: reagire",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "3b6502d2-60f6-5136-f568-2dad099d115b",
+      "lang": "it",
+      "label": "synonyms: partecipare",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "666974c7-b2d9-06e6-b1fa-174b2ea2fb79",
+      "lang": "it",
+      "label": "synonyms: evitare",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "55a9d7ed-9827-eff8-34c7-4d599714c490",
+      "lang": "it",
+      "label": "synonyms: probabilmente",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "d5c694c9-215d-e4f6-d16f-5fb8cb8ad78e",
+      "lang": "it",
+      "label": "synonyms: adeguato",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c7c57a5b-5de0-38c9-ac61-12551beb0fc7",
+      "lang": "it",
+      "label": "synonyms: alla lunga",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "d71ac862-6790-98b5-0662-f6590cd393ab",
+      "lang": "it",
+      "label": "synonyms: inoltre +3",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "ceaa3489-c97b-90e8-85fc-eaa1d8fa7955",
+      "lang": "it",
+      "label": "synonyms: l'impatto",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "e7e1470d-f101-6620-0c06-f547561c426f",
+      "lang": "it",
+      "label": "synonyms: valutare +5",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "7db68ed7-c1d5-bac7-e67d-bbbd8ade0e33",
+      "lang": "it",
+      "label": "synonyms: svolgere",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "9debed8a-5665-49a4-3f55-8543f6e8df0e",
+      "lang": "it",
+      "label": "synonyms: aspettarsi",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a09338c2-040c-66e7-bd5d-2d0d78bd0a7e",
+      "lang": "it",
+      "label": "synonyms: constatare",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "832b72ce-3c78-6486-7451-f24ed37a2cde",
+      "lang": "it",
+      "label": "synonyms: convincere",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "58d04df8-d65b-11c5-1905-a9d71e8dfea9",
+      "lang": "it",
+      "label": "synonyms: l'accordo +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "3a6700de-65a9-441b-13bb-48ce2db33875",
+      "lang": "it",
+      "label": "synonyms: trasmettere",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "6c464152-5099-4d32-73da-b334fd1c0aa2",
+      "lang": "it",
+      "label": "synonyms: andare dritto al punto",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a625809e-1551-d257-9e97-52fa54dd9d1c",
+      "lang": "it",
+      "label": "synonyms: esplicito +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "1bba9c84-c269-d30b-f70e-bc1d06d3c6ac",
+      "lang": "it",
+      "label": "synonyms: impressionante",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "21fe0a89-77af-bd8c-241f-b8fedfe74d25",
+      "lang": "it",
+      "label": "synonyms: resistente",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "ce03874a-5271-2e3a-4611-69fc69a4e11b",
+      "lang": "it",
+      "label": "synonyms: la pressione",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "0f2e1e70-80fd-da31-91b0-f2608500805b",
+      "lang": "it",
+      "label": "synonyms: impegnativo",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "4d04d894-0cb6-7c63-1dd3-52e9b10065b6",
+      "lang": "it",
+      "label": "synonyms: mettere in chiaro",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "987dacf6-620b-74ee-863e-031d3c11fc02",
+      "lang": "it",
+      "label": "synonyms: realizzare",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "6f7cf015-e87b-7833-2fa4-1c10f1a0ba89",
+      "lang": "it",
+      "label": "synonyms: robusto",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a4cf3095-aadc-c83f-e455-bfd5c4ff07d8",
+      "lang": "it",
+      "label": "synonyms: convincente +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "d11c1ab7-fc58-56bc-853c-6386f574f62c",
+      "lang": "it",
+      "label": "synonyms: poco chiaro +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "880e35b8-2570-70dd-1161-94bf3c29cfd5",
+      "lang": "it",
+      "label": "synonyms: negoziare",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "3bb7ad2a-bd94-5fc1-1cc6-5426928f2549",
+      "lang": "it",
+      "label": "synonyms: contraddire +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "aea325c7-ede7-d478-5e01-43f66d350a48",
+      "lang": "it",
+      "label": "synonyms: essere collegato",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "4ef18b48-c473-41e4-927c-8889c9f6cbc2",
+      "lang": "it",
+      "label": "synonyms: derivare",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "3fbb9e20-fc78-681d-119f-524aabbd1cb4",
+      "lang": "it",
+      "label": "synonyms: la valutazione",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "8b55bbfc-4ec3-416f-6fb7-b04febba1baf",
+      "lang": "it",
+      "label": "synonyms: la deduzione",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "7ad2e7be-8583-d209-f0f8-92389b063f54",
+      "lang": "it",
+      "label": "synonyms: il criterio",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "12f9e80a-4a4b-65f6-a9fe-055743f7fa80",
+      "lang": "it",
+      "label": "synonyms: strutturato",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "beb7fce1-69a8-239a-0130-86a395d71341",
+      "lang": "it",
+      "label": "synonyms: rivoluzionario",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "74f62de9-5d08-5391-90aa-ce601f6c08e0",
+      "lang": "en",
+      "label": "synonyms: get off",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "f93adb05-29d9-62f6-39a7-9f6be06850a2",
+      "lang": "en",
+      "label": "synonyms: warm",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "76f85eb5-d904-e8f0-b4dc-b88356495f02",
+      "lang": "en",
+      "label": "synonyms: to go +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "934f9487-8f6a-875d-384c-9828c2fd194c",
+      "lang": "en",
+      "label": "synonyms: to say",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "38b03ffb-a430-510d-fc8a-b1d2ce832437",
+      "lang": "en",
+      "label": "synonyms: delicious +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "1782727e-f292-8609-9134-9db5fc459379",
+      "lang": "en",
+      "label": "synonyms: observe +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "78fc648e-2a28-4a05-6239-28acbef473a1",
+      "lang": "en",
+      "label": "synonyms: young +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "cb9949f6-0706-757f-0156-e52ca0f49a4c",
+      "lang": "en",
+      "label": "synonyms: to stop (doing something)",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "6df35ff4-ca45-0824-0352-f3ae718d1377",
+      "lang": "en",
+      "label": "synonyms: the application +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "8abcc47e-21d8-307d-3da3-859c38add7ab",
+      "lang": "en",
+      "label": "synonyms: inquiry",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "1773ae09-055d-a802-6a02-c42500c80651",
+      "lang": "en",
+      "label": "synonyms: hence +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "86dd31d6-57ab-9f4c-ee8b-af84d2b247d6",
+      "lang": "en",
+      "label": "synonyms: to pick up (collect)",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "d2e71745-199c-6dc2-fd54-525b927a278f",
+      "lang": "en",
+      "label": "synonyms: at least (concession) +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "9f47cfd9-2d6f-f183-4bda-28a1c8ce90e7",
+      "lang": "en",
+      "label": "synonyms: only",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "1ced80ac-5842-2ee1-a9a5-07c8b4f26654",
+      "lang": "en",
+      "label": "synonyms: dwelling",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
+      "lang": "en",
+      "label": "synonyms: important +8",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "deafa41d-eeaa-e2ca-a46f-3e7c6c50c48d",
+      "lang": "en",
+      "label": "synonyms: currently +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "139e38f5-3fb7-c3bc-9c7f-61906192e27c",
+      "lang": "en",
+      "label": "synonyms: the problem",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "aca4ed5e-f017-3f0c-9f31-370e58256b6c",
+      "lang": "en",
+      "label": "synonyms: still",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "6fb7c6de-f5d5-cfdd-427f-0bef2d99163d",
+      "lang": "en",
+      "label": "synonyms: the street",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "0e6fd158-bb15-5422-e8be-e86a3aed0088",
+      "lang": "en",
+      "label": "synonyms: the necessity +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "21f27459-6dd0-255d-df56-9705522fa19f",
+      "lang": "en",
+      "label": "synonyms: the offer +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c30c80d1-18ff-5fa1-e8ed-142e1ba23a8e",
+      "lang": "en",
+      "label": "synonyms: often +5",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "ad3ee621-c6d9-b2aa-79b6-98033858a01b",
+      "lang": "en",
+      "label": "synonyms: apart from that",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "ac8ad750-774d-c4e4-2e8a-b022e4c7f61a",
+      "lang": "en",
+      "label": "synonyms: call +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "3b6d9e53-86fa-03fe-ff16-10ea8de73129",
+      "lang": "en",
+      "label": "synonyms: lastly +3",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "4553bdc8-c498-e5e2-51ff-98878f7cb73d",
+      "lang": "en",
+      "label": "synonyms: the race",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "220bbef1-aeb7-8f32-358d-8c373c1b7655",
+      "lang": "en",
+      "label": "synonyms: clear",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c63a16eb-9ab3-a4b7-da4d-4e00c1d65ff0",
+      "lang": "en",
+      "label": "synonyms: to clean",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "bed92022-1c1d-6b12-ea2f-713c9e101f5a",
+      "lang": "en",
+      "label": "synonyms: to stop (come to a halt)",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "5465d6c8-a77c-e7dc-e8f7-7f19be621c06",
+      "lang": "en",
+      "label": "synonyms: the gap",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "30fc9ec0-87e7-b7c1-3d0a-e028b2027ecd",
+      "lang": "en",
+      "label": "synonyms: by no means",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "e5bc9865-69dd-c5a9-355e-b98581ecf9fd",
+      "lang": "en",
+      "label": "synonyms: to recommend",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "e095be83-dfcd-6496-a81b-b7e34f7ffa7f",
+      "lang": "en",
+      "label": "synonyms: the result",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "d990162c-e4e9-856a-a76f-717124d6d5d1",
+      "lang": "en",
+      "label": "synonyms: react",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "235943cc-0736-a0f8-813b-12a9a542df1a",
+      "lang": "en",
+      "label": "synonyms: to participate",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "8c7a23aa-0bff-b1d0-6dad-c5f258d51b1a",
+      "lang": "en",
+      "label": "synonyms: to avoid",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "8ed6c77d-180f-6895-a7d6-d08fa53ab4e0",
+      "lang": "en",
+      "label": "synonyms: probably",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "76f043dd-caa4-37c5-cf25-58c61173cf49",
+      "lang": "en",
+      "label": "synonyms: appropriate",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "c43521b9-a296-6df4-f61e-94492bdd8458",
+      "lang": "en",
+      "label": "synonyms: in the long run",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a96760a5-1c14-0564-cc8f-a1f8d7e68c7f",
+      "lang": "en",
+      "label": "synonyms: moreover +3",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "60319c93-2b40-2ab0-5756-eb99fbc5f8a0",
+      "lang": "en",
+      "label": "synonyms: the impact",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "4d643b66-a04b-3eee-f61e-cbe583222c5e",
+      "lang": "en",
+      "label": "synonyms: to evaluate +5",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "4a8030d2-cb18-4121-a0cf-a5ea5d8c5cc2",
+      "lang": "en",
+      "label": "synonyms: carry out",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "4b7e2d5d-82c5-c09d-3cbb-cd2aaf3ef544",
+      "lang": "en",
+      "label": "synonyms: to expect",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "07451c31-1641-33eb-c579-7ccf03342444",
+      "lang": "en",
+      "label": "synonyms: establish",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "464f605e-5cb5-2cd8-05a5-1bc545f619c0",
+      "lang": "en",
+      "label": "synonyms: convince",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "99459a15-481e-bd25-5121-5862ecef2ea5",
+      "lang": "en",
+      "label": "synonyms: the agreement +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "24c10416-c56b-93e8-0d55-361718c3b890",
+      "lang": "en",
+      "label": "synonyms: convey",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "9793f0ba-1feb-5ca6-0c98-da00b32f7250",
+      "lang": "en",
+      "label": "synonyms: to put it in a nutshell",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "129653b1-6e43-5821-ec5f-eb391ef15310",
+      "lang": "en",
+      "label": "synonyms: explicit +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "2b5de24e-94d5-1163-3f40-3d8bfb9cb353",
+      "lang": "en",
+      "label": "synonyms: impressive",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "a12a33bc-e09b-8c96-2039-49a33c0320e7",
+      "lang": "en",
+      "label": "synonyms: resilient",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "4a05c374-89fb-5011-59f0-926befbfe4dd",
+      "lang": "en",
+      "label": "synonyms: the pressure",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "3b6b8fc2-00a7-33ff-3eac-0d57622fcf70",
+      "lang": "en",
+      "label": "synonyms: challenging",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "0c547b10-f35a-5445-2e42-e20b7bc8b035",
+      "lang": "en",
+      "label": "synonyms: to make clear",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "0dc5fe90-716c-be3d-aaa3-2e0b7443ac6d",
+      "lang": "en",
+      "label": "synonyms: to accomplish",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "66dacc78-7e9d-9400-3212-20bbc842a883",
+      "lang": "en",
+      "label": "synonyms: robust",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "db5088e5-67d0-f95f-3210-c1647ac4f520",
+      "lang": "en",
+      "label": "synonyms: convincing +4",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "300d6abd-b1f6-3f27-0729-584bf53b2ed4",
+      "lang": "en",
+      "label": "synonyms: unclear +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "9415671c-d8a1-cd51-84f4-984a6a4d89db",
+      "lang": "en",
+      "label": "synonyms: to negotiate",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "d96af742-49f7-ce08-fb1b-4fac49963a3c",
+      "lang": "en",
+      "label": "synonyms: to contradict +2",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "10b7886e-b24a-69f7-dafc-496d98af0dca",
+      "lang": "en",
+      "label": "synonyms: to be connected",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "968e0371-9f8b-e02d-6fb3-922d2d305c36",
+      "lang": "en",
+      "label": "synonyms: to derive",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "6035d16f-8506-8241-2b9d-de2d756c39d8",
+      "lang": "en",
+      "label": "synonyms: the assessment",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "7b8e5fad-f83e-7f03-a15c-4d117add10f1",
+      "lang": "en",
+      "label": "synonyms: the inference",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "9c6364b3-9e65-690a-5049-c690d8034f5b",
+      "lang": "en",
+      "label": "synonyms: the criterion",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "6d08e30c-da95-b888-7610-9077fb19afdc",
+      "lang": "en",
+      "label": "synonyms: structured",
+      "type": "semantic",
+      "auto": true
+    },
+    {
+      "cluster_id": "37d8bb0e-0751-caaa-81b7-3750cf0c792c",
+      "lang": "en",
+      "label": "synonyms: groundbreaking",
+      "type": "semantic",
+      "auto": true
     }
   ],
   "cluster_members": [
@@ -56839,6 +58288,2811 @@
       "cluster_id": "96d5678e-4aff-9dcb-b4b2-de0f0f11a731",
       "lexeme_id": "lex-de-abholen",
       "position": 3
+    },
+    {
+      "cluster_id": "f2fc60b5-429c-9fd2-99c5-600299516697",
+      "lexeme_id": "lex-de-aussteigen",
+      "position": 0
+    },
+    {
+      "cluster_id": "f2fc60b5-429c-9fd2-99c5-600299516697",
+      "lexeme_id": "622be131-b3ac-1a62-479c-7d2910562cbb",
+      "position": 1
+    },
+    {
+      "cluster_id": "77137e1e-3586-bced-1923-1cb116756418",
+      "lexeme_id": "lex-de-warm",
+      "position": 0
+    },
+    {
+      "cluster_id": "77137e1e-3586-bced-1923-1cb116756418",
+      "lexeme_id": "lex-de-heiss",
+      "position": 1
+    },
+    {
+      "cluster_id": "cdd7d21b-34f5-c769-26bc-2d231fc97102",
+      "lexeme_id": "lex-de-gehen",
+      "position": 0
+    },
+    {
+      "cluster_id": "cdd7d21b-34f5-c769-26bc-2d231fc97102",
+      "lexeme_id": "lex-de-laufen",
+      "position": 1
+    },
+    {
+      "cluster_id": "cdd7d21b-34f5-c769-26bc-2d231fc97102",
+      "lexeme_id": "lexeme-de-a1-eilen",
+      "position": 2
+    },
+    {
+      "cluster_id": "cdd7d21b-34f5-c769-26bc-2d231fc97102",
+      "lexeme_id": "lexeme-de-a2-rasen",
+      "position": 3
+    },
+    {
+      "cluster_id": "cdd7d21b-34f5-c769-26bc-2d231fc97102",
+      "lexeme_id": "lexeme-de-a2-sprinten",
+      "position": 4
+    },
+    {
+      "cluster_id": "422e1e59-438b-4fc9-5b93-010f2ed87743",
+      "lexeme_id": "lex-de-sagen",
+      "position": 0
+    },
+    {
+      "cluster_id": "422e1e59-438b-4fc9-5b93-010f2ed87743",
+      "lexeme_id": "lex-de-erklaren",
+      "position": 1
+    },
+    {
+      "cluster_id": "9f854bac-d78c-7feb-9cc8-181ee1f698e6",
+      "lexeme_id": "lex-de-lecker",
+      "position": 0
+    },
+    {
+      "cluster_id": "9f854bac-d78c-7feb-9cc8-181ee1f698e6",
+      "lexeme_id": "lex-de-gut",
+      "position": 1
+    },
+    {
+      "cluster_id": "9f854bac-d78c-7feb-9cc8-181ee1f698e6",
+      "lexeme_id": "lex-de-grossartig",
+      "position": 2
+    },
+    {
+      "cluster_id": "aadcca5c-4b0b-af99-4201-7abb89bdabc5",
+      "lexeme_id": "lex-de-betrachten",
+      "position": 0
+    },
+    {
+      "cluster_id": "aadcca5c-4b0b-af99-4201-7abb89bdabc5",
+      "lexeme_id": "lex-de-beachten",
+      "position": 1
+    },
+    {
+      "cluster_id": "aadcca5c-4b0b-af99-4201-7abb89bdabc5",
+      "lexeme_id": "lex-de-berucksichtigen",
+      "position": 2
+    },
+    {
+      "cluster_id": "b8420a20-35e6-dd11-ceaf-2810c41ad484",
+      "lexeme_id": "lex-de-jung",
+      "position": 0
+    },
+    {
+      "cluster_id": "b8420a20-35e6-dd11-ceaf-2810c41ad484",
+      "lexeme_id": "lex-de-neu",
+      "position": 1
+    },
+    {
+      "cluster_id": "b8420a20-35e6-dd11-ceaf-2810c41ad484",
+      "lexeme_id": "d0b32006-74f6-c390-4e99-91bdcd41a317",
+      "position": 2
+    },
+    {
+      "cluster_id": "b8420a20-35e6-dd11-ceaf-2810c41ad484",
+      "lexeme_id": "lex-de-kalt",
+      "position": 3
+    },
+    {
+      "cluster_id": "b8420a20-35e6-dd11-ceaf-2810c41ad484",
+      "lexeme_id": "lex-de-lebendig",
+      "position": 4
+    },
+    {
+      "cluster_id": "a8ef5fb2-6846-89e6-1e4b-e0150eebfb59",
+      "lexeme_id": "lex-de-aufhoren",
+      "position": 0
+    },
+    {
+      "cluster_id": "a8ef5fb2-6846-89e6-1e4b-e0150eebfb59",
+      "lexeme_id": "lex-de-beenden",
+      "position": 1
+    },
+    {
+      "cluster_id": "869f936c-b1fc-2e08-afbe-0cc929e69d99",
+      "lexeme_id": "lex-de-bewerbung",
+      "position": 0
+    },
+    {
+      "cluster_id": "869f936c-b1fc-2e08-afbe-0cc929e69d99",
+      "lexeme_id": "lex-de-gesuch",
+      "position": 1
+    },
+    {
+      "cluster_id": "869f936c-b1fc-2e08-afbe-0cc929e69d99",
+      "lexeme_id": "lex-de-antrag",
+      "position": 2
+    },
+    {
+      "cluster_id": "374e5307-b1ac-8603-c6c6-8df1aee775ba",
+      "lexeme_id": "lex-de-anfrage",
+      "position": 0
+    },
+    {
+      "cluster_id": "374e5307-b1ac-8603-c6c6-8df1aee775ba",
+      "lexeme_id": "lex-de-frage",
+      "position": 1
+    },
+    {
+      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
+      "lexeme_id": "lex-de-daher",
+      "position": 0
+    },
+    {
+      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
+      "lexeme_id": "lex-de-deswegen",
+      "position": 1
+    },
+    {
+      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
+      "lexeme_id": "lex-de-deshalb",
+      "position": 2
+    },
+    {
+      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
+      "lexeme_id": "lex-de-folglich",
+      "position": 3
+    },
+    {
+      "cluster_id": "6b704b44-d827-2a1e-22c2-bc5573bc0466",
+      "lexeme_id": "lexeme-de-a1-darum",
+      "position": 4
+    },
+    {
+      "cluster_id": "f14cfbc0-c7ea-330d-14b1-6a6e59418fe0",
+      "lexeme_id": "lex-de-abholen",
+      "position": 0
+    },
+    {
+      "cluster_id": "f14cfbc0-c7ea-330d-14b1-6a6e59418fe0",
+      "lexeme_id": "lex-de-holen",
+      "position": 1
+    },
+    {
+      "cluster_id": "2390b3d0-39b3-82b6-f23a-32f71ed107b6",
+      "lexeme_id": "lex-de-zumindest",
+      "position": 0
+    },
+    {
+      "cluster_id": "2390b3d0-39b3-82b6-f23a-32f71ed107b6",
+      "lexeme_id": "lex-de-mindestens",
+      "position": 1
+    },
+    {
+      "cluster_id": "2390b3d0-39b3-82b6-f23a-32f71ed107b6",
+      "lexeme_id": "lex-de-immerhin",
+      "position": 2
+    },
+    {
+      "cluster_id": "f743af50-cea5-b730-e130-8565cbbe0948",
+      "lexeme_id": "lex-de-nur",
+      "position": 0
+    },
+    {
+      "cluster_id": "f743af50-cea5-b730-e130-8565cbbe0948",
+      "lexeme_id": "lex-de-allein",
+      "position": 1
+    },
+    {
+      "cluster_id": "aeeca376-3089-ffc7-b22c-a61afc8a2f68",
+      "lexeme_id": "56cd7948-b81a-79ff-ff64-4bbb50a82791",
+      "position": 0
+    },
+    {
+      "cluster_id": "aeeca376-3089-ffc7-b22c-a61afc8a2f68",
+      "lexeme_id": "lex-de-haus",
+      "position": 1
+    },
+    {
+      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
+      "lexeme_id": "lex-de-wichtig",
+      "position": 0
+    },
+    {
+      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
+      "lexeme_id": "lex-de-dringend",
+      "position": 1
+    },
+    {
+      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
+      "lexeme_id": "lex-de-bedeutsam",
+      "position": 2
+    },
+    {
+      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
+      "lexeme_id": "lex-de-wesentlich",
+      "position": 3
+    },
+    {
+      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
+      "lexeme_id": "lex-de-entscheidend",
+      "position": 4
+    },
+    {
+      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
+      "lexeme_id": "lex-de-erheblich",
+      "position": 5
+    },
+    {
+      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
+      "lexeme_id": "lex-de-zentral",
+      "position": 6
+    },
+    {
+      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
+      "lexeme_id": "lex-de-grundlegend",
+      "position": 7
+    },
+    {
+      "cluster_id": "a8cb669b-36ff-766d-f48c-2a63b883853b",
+      "lexeme_id": "lex-de-massgeblich",
+      "position": 8
+    },
+    {
+      "cluster_id": "a8176da2-6d81-996d-09a0-2e656714bdf3",
+      "lexeme_id": "lex-de-derzeit",
+      "position": 0
+    },
+    {
+      "cluster_id": "a8176da2-6d81-996d-09a0-2e656714bdf3",
+      "lexeme_id": "lex-de-jetzt",
+      "position": 1
+    },
+    {
+      "cluster_id": "a8176da2-6d81-996d-09a0-2e656714bdf3",
+      "lexeme_id": "lex-de-im-moment",
+      "position": 2
+    },
+    {
+      "cluster_id": "014e14c1-c8ad-b44f-4498-8d5ba791eff3",
+      "lexeme_id": "lex-de-problem",
+      "position": 0
+    },
+    {
+      "cluster_id": "014e14c1-c8ad-b44f-4498-8d5ba791eff3",
+      "lexeme_id": "lex-de-herausforderung",
+      "position": 1
+    },
+    {
+      "cluster_id": "bf4d0266-58f5-49bc-8b56-1f9009fed74e",
+      "lexeme_id": "lex-de-noch",
+      "position": 0
+    },
+    {
+      "cluster_id": "bf4d0266-58f5-49bc-8b56-1f9009fed74e",
+      "lexeme_id": "lex-de-bisher",
+      "position": 1
+    },
+    {
+      "cluster_id": "a09ff1d5-0736-76c3-fb35-f5440ac735ac",
+      "lexeme_id": "lex-de-strasse",
+      "position": 0
+    },
+    {
+      "cluster_id": "a09ff1d5-0736-76c3-fb35-f5440ac735ac",
+      "lexeme_id": "lex-de-weg",
+      "position": 1
+    },
+    {
+      "cluster_id": "2952d688-498e-f49e-29f2-4bec8c229eb4",
+      "lexeme_id": "lex-de-notwendigkeit",
+      "position": 0
+    },
+    {
+      "cluster_id": "2952d688-498e-f49e-29f2-4bec8c229eb4",
+      "lexeme_id": "lex-de-bedarf",
+      "position": 1
+    },
+    {
+      "cluster_id": "2952d688-498e-f49e-29f2-4bec8c229eb4",
+      "lexeme_id": "lex-de-die-anforderung",
+      "position": 2
+    },
+    {
+      "cluster_id": "2952d688-498e-f49e-29f2-4bec8c229eb4",
+      "lexeme_id": "lex-de-voraussetzung",
+      "position": 3
+    },
+    {
+      "cluster_id": "2952d688-498e-f49e-29f2-4bec8c229eb4",
+      "lexeme_id": "lex-de-die-bedingung",
+      "position": 4
+    },
+    {
+      "cluster_id": "f5eb93aa-6ad4-38da-5b02-fc025c64949c",
+      "lexeme_id": "lex-de-angebot",
+      "position": 0
+    },
+    {
+      "cluster_id": "f5eb93aa-6ad4-38da-5b02-fc025c64949c",
+      "lexeme_id": "lex-de-einladung",
+      "position": 1
+    },
+    {
+      "cluster_id": "f5eb93aa-6ad4-38da-5b02-fc025c64949c",
+      "lexeme_id": "lex-de-moglichkeit",
+      "position": 2
+    },
+    {
+      "cluster_id": "f5eb93aa-6ad4-38da-5b02-fc025c64949c",
+      "lexeme_id": "lex-de-vorschlag",
+      "position": 3
+    },
+    {
+      "cluster_id": "f5eb93aa-6ad4-38da-5b02-fc025c64949c",
+      "lexeme_id": "lex-de-gelegenheit",
+      "position": 4
+    },
+    {
+      "cluster_id": "a33579e5-aed3-62cf-fe60-718ac9745634",
+      "lexeme_id": "lex-de-oft",
+      "position": 0
+    },
+    {
+      "cluster_id": "a33579e5-aed3-62cf-fe60-718ac9745634",
+      "lexeme_id": "lex-de-meist",
+      "position": 1
+    },
+    {
+      "cluster_id": "a33579e5-aed3-62cf-fe60-718ac9745634",
+      "lexeme_id": "lex-de-normalerweise",
+      "position": 2
+    },
+    {
+      "cluster_id": "a33579e5-aed3-62cf-fe60-718ac9745634",
+      "lexeme_id": "lex-de-in-der-regel",
+      "position": 3
+    },
+    {
+      "cluster_id": "a33579e5-aed3-62cf-fe60-718ac9745634",
+      "lexeme_id": "ce618408-9b12-82c5-858f-4790fec88c93",
+      "position": 4
+    },
+    {
+      "cluster_id": "a33579e5-aed3-62cf-fe60-718ac9745634",
+      "lexeme_id": "lex-de-durchschnittlich",
+      "position": 5
+    },
+    {
+      "cluster_id": "d4e48cb5-295f-97ac-575e-870b63b15b43",
+      "lexeme_id": "lex-de-ansonsten",
+      "position": 0
+    },
+    {
+      "cluster_id": "d4e48cb5-295f-97ac-575e-870b63b15b43",
+      "lexeme_id": "lex-de-sonst",
+      "position": 1
+    },
+    {
+      "cluster_id": "10c38b3e-3813-ccae-f1a5-767a85890202",
+      "lexeme_id": "lex-de-anrufen",
+      "position": 0
+    },
+    {
+      "cluster_id": "10c38b3e-3813-ccae-f1a5-767a85890202",
+      "lexeme_id": "lex-de-erreichen",
+      "position": 1
+    },
+    {
+      "cluster_id": "10c38b3e-3813-ccae-f1a5-767a85890202",
+      "lexeme_id": "lex-de-kommen",
+      "position": 2
+    },
+    {
+      "cluster_id": "0fa8f147-3071-d8e4-4b9f-79a57be488b7",
+      "lexeme_id": "9b35d918-81bd-a1e4-c675-249ba1b1a733",
+      "position": 0
+    },
+    {
+      "cluster_id": "0fa8f147-3071-d8e4-4b9f-79a57be488b7",
+      "lexeme_id": "lex-de-endlich",
+      "position": 1
+    },
+    {
+      "cluster_id": "0fa8f147-3071-d8e4-4b9f-79a57be488b7",
+      "lexeme_id": "lex-de-am-ende",
+      "position": 2
+    },
+    {
+      "cluster_id": "0fa8f147-3071-d8e4-4b9f-79a57be488b7",
+      "lexeme_id": "lex-de-schliesslich",
+      "position": 3
+    },
+    {
+      "cluster_id": "74ed7996-58d7-5e2c-417a-89650b0baf45",
+      "lexeme_id": "lex-de-lauf",
+      "position": 0
+    },
+    {
+      "cluster_id": "74ed7996-58d7-5e2c-417a-89650b0baf45",
+      "lexeme_id": "lexeme-de-a2-wettbewerb",
+      "position": 1
+    },
+    {
+      "cluster_id": "e6e39b6b-3e07-77c1-b891-fb1156b395a4",
+      "lexeme_id": "9ac3cf4a-bc77-71ce-a8c7-e3428e9104db",
+      "position": 0
+    },
+    {
+      "cluster_id": "e6e39b6b-3e07-77c1-b891-fb1156b395a4",
+      "lexeme_id": "lex-de-deutlich",
+      "position": 1
+    },
+    {
+      "cluster_id": "85bc2396-271e-f231-446b-844d1af8d59e",
+      "lexeme_id": "lex-de-putzen",
+      "position": 0
+    },
+    {
+      "cluster_id": "85bc2396-271e-f231-446b-844d1af8d59e",
+      "lexeme_id": "lex-de-reinigen",
+      "position": 1
+    },
+    {
+      "cluster_id": "0e29c953-7941-0f70-87b1-69a3038f91d8",
+      "lexeme_id": "lexeme-de-a1-stehen-bleiben",
+      "position": 0
+    },
+    {
+      "cluster_id": "0e29c953-7941-0f70-87b1-69a3038f91d8",
+      "lexeme_id": "lexeme-de-a1-stillstehen",
+      "position": 1
+    },
+    {
+      "cluster_id": "2523e819-61de-e12e-0314-28a0167f88df",
+      "lexeme_id": "lex-de-abstand",
+      "position": 0
+    },
+    {
+      "cluster_id": "2523e819-61de-e12e-0314-28a0167f88df",
+      "lexeme_id": "lex-de-entfernung",
+      "position": 1
+    },
+    {
+      "cluster_id": "ac554226-03d5-1bf2-ea57-951a9b80229d",
+      "lexeme_id": "lex-de-auf-keinen-fall",
+      "position": 0
+    },
+    {
+      "cluster_id": "ac554226-03d5-1bf2-ea57-951a9b80229d",
+      "lexeme_id": "lex-de-keinesfalls",
+      "position": 1
+    },
+    {
+      "cluster_id": "63df83b7-fe0b-77ae-cb4e-629efbf43e8d",
+      "lexeme_id": "lex-de-empfehlen",
+      "position": 0
+    },
+    {
+      "cluster_id": "63df83b7-fe0b-77ae-cb4e-629efbf43e8d",
+      "lexeme_id": "lex-de-vorschlagen",
+      "position": 1
+    },
+    {
+      "cluster_id": "b3f3ef74-547f-dc1c-7c5b-eca31ea63ea9",
+      "lexeme_id": "lex-de-ergebnis",
+      "position": 0
+    },
+    {
+      "cluster_id": "b3f3ef74-547f-dc1c-7c5b-eca31ea63ea9",
+      "lexeme_id": "lex-de-losung",
+      "position": 1
+    },
+    {
+      "cluster_id": "2e1ba454-c474-7425-f0e0-fabce4d35443",
+      "lexeme_id": "lex-de-reagieren",
+      "position": 0
+    },
+    {
+      "cluster_id": "2e1ba454-c474-7425-f0e0-fabce4d35443",
+      "lexeme_id": "lex-de-antworten",
+      "position": 1
+    },
+    {
+      "cluster_id": "27ddb271-39ee-033e-f984-94318c49e8d8",
+      "lexeme_id": "lex-de-teilnehmen",
+      "position": 0
+    },
+    {
+      "cluster_id": "27ddb271-39ee-033e-f984-94318c49e8d8",
+      "lexeme_id": "lex-de-rolle-spielen",
+      "position": 1
+    },
+    {
+      "cluster_id": "400df5e9-df33-bc96-29d4-aac36eb122ab",
+      "lexeme_id": "lex-de-vermeiden",
+      "position": 0
+    },
+    {
+      "cluster_id": "400df5e9-df33-bc96-29d4-aac36eb122ab",
+      "lexeme_id": "lex-de-verhindern",
+      "position": 1
+    },
+    {
+      "cluster_id": "c1b879e2-d36a-59b9-82e4-37cb4b4cdfc6",
+      "lexeme_id": "lex-de-wahrscheinlich",
+      "position": 0
+    },
+    {
+      "cluster_id": "c1b879e2-d36a-59b9-82e4-37cb4b4cdfc6",
+      "lexeme_id": "lex-de-vermutlich",
+      "position": 1
+    },
+    {
+      "cluster_id": "36a3586f-8a35-308b-c6f7-37bf0c5f9c91",
+      "lexeme_id": "lex-de-angemessen",
+      "position": 0
+    },
+    {
+      "cluster_id": "36a3586f-8a35-308b-c6f7-37bf0c5f9c91",
+      "lexeme_id": "lex-de-geeignet",
+      "position": 1
+    },
+    {
+      "cluster_id": "36e311b4-f005-5fd7-baff-bf0d5d94d664",
+      "lexeme_id": "lex-de-auf-dauer",
+      "position": 0
+    },
+    {
+      "cluster_id": "36e311b4-f005-5fd7-baff-bf0d5d94d664",
+      "lexeme_id": "lex-de-langfristig",
+      "position": 1
+    },
+    {
+      "cluster_id": "343b1b87-0dbc-3cd5-15f0-57d445faa531",
+      "lexeme_id": "lex-de-ausserdem",
+      "position": 0
+    },
+    {
+      "cluster_id": "343b1b87-0dbc-3cd5-15f0-57d445faa531",
+      "lexeme_id": "lex-de-zudem",
+      "position": 1
+    },
+    {
+      "cluster_id": "343b1b87-0dbc-3cd5-15f0-57d445faa531",
+      "lexeme_id": "lex-de-unter-anderem",
+      "position": 2
+    },
+    {
+      "cluster_id": "343b1b87-0dbc-3cd5-15f0-57d445faa531",
+      "lexeme_id": "lex-de-ebenfalls",
+      "position": 3
+    },
+    {
+      "cluster_id": "cc26fb89-ab3f-58fd-a28d-679bec9708a2",
+      "lexeme_id": "lex-de-auswirkung",
+      "position": 0
+    },
+    {
+      "cluster_id": "cc26fb89-ab3f-58fd-a28d-679bec9708a2",
+      "lexeme_id": "lex-de-die-wirkung",
+      "position": 1
+    },
+    {
+      "cluster_id": "cf937f95-1447-7671-ca8d-c5fdf10ea58a",
+      "lexeme_id": "lex-de-bewerten",
+      "position": 0
+    },
+    {
+      "cluster_id": "cf937f95-1447-7671-ca8d-c5fdf10ea58a",
+      "lexeme_id": "lex-de-abwagen",
+      "position": 1
+    },
+    {
+      "cluster_id": "cf937f95-1447-7671-ca8d-c5fdf10ea58a",
+      "lexeme_id": "lex-de-auswerten",
+      "position": 2
+    },
+    {
+      "cluster_id": "cf937f95-1447-7671-ca8d-c5fdf10ea58a",
+      "lexeme_id": "lex-de-einschatzen",
+      "position": 3
+    },
+    {
+      "cluster_id": "cf937f95-1447-7671-ca8d-c5fdf10ea58a",
+      "lexeme_id": "lex-de-beurteilen",
+      "position": 4
+    },
+    {
+      "cluster_id": "cf937f95-1447-7671-ca8d-c5fdf10ea58a",
+      "lexeme_id": "lex-de-einordnen",
+      "position": 5
+    },
+    {
+      "cluster_id": "c82a7ca3-8db7-5a6f-473b-a27838c400a1",
+      "lexeme_id": "lex-de-durchfuhren",
+      "position": 0
+    },
+    {
+      "cluster_id": "c82a7ca3-8db7-5a6f-473b-a27838c400a1",
+      "lexeme_id": "lex-de-umsetzen",
+      "position": 1
+    },
+    {
+      "cluster_id": "4d029361-0fb1-ee34-e7de-35aa0908740a",
+      "lexeme_id": "lex-de-erwarten",
+      "position": 0
+    },
+    {
+      "cluster_id": "4d029361-0fb1-ee34-e7de-35aa0908740a",
+      "lexeme_id": "lex-de-voraussetzen",
+      "position": 1
+    },
+    {
+      "cluster_id": "f2a6e685-6449-6cbf-0d8a-b81e64e7cf54",
+      "lexeme_id": "lex-de-feststellen",
+      "position": 0
+    },
+    {
+      "cluster_id": "f2a6e685-6449-6cbf-0d8a-b81e64e7cf54",
+      "lexeme_id": "lex-de-bestatigen",
+      "position": 1
+    },
+    {
+      "cluster_id": "7b765802-2bcf-34ed-241b-078594f1c4bf",
+      "lexeme_id": "lex-de-uberzeugen",
+      "position": 0
+    },
+    {
+      "cluster_id": "7b765802-2bcf-34ed-241b-078594f1c4bf",
+      "lexeme_id": "lex-de-beeindrucken",
+      "position": 1
+    },
+    {
+      "cluster_id": "fc71827c-35bf-5560-a8ca-88fc4be1310a",
+      "lexeme_id": "lex-de-vereinbarung",
+      "position": 0
+    },
+    {
+      "cluster_id": "fc71827c-35bf-5560-a8ca-88fc4be1310a",
+      "lexeme_id": "lex-de-die-einigung",
+      "position": 1
+    },
+    {
+      "cluster_id": "fc71827c-35bf-5560-a8ca-88fc4be1310a",
+      "lexeme_id": "lex-de-der-kompromiss",
+      "position": 2
+    },
+    {
+      "cluster_id": "fc71827c-35bf-5560-a8ca-88fc4be1310a",
+      "lexeme_id": "lex-de-das-zugestandnis",
+      "position": 3
+    },
+    {
+      "cluster_id": "fc71827c-35bf-5560-a8ca-88fc4be1310a",
+      "lexeme_id": "lex-de-die-zusage",
+      "position": 4
+    },
+    {
+      "cluster_id": "a69f818f-367b-5778-9254-405e8ae1301a",
+      "lexeme_id": "lex-de-vermitteln",
+      "position": 0
+    },
+    {
+      "cluster_id": "a69f818f-367b-5778-9254-405e8ae1301a",
+      "lexeme_id": "lex-de-schicken",
+      "position": 1
+    },
+    {
+      "cluster_id": "6d19e46a-5728-d625-e8b8-33153504ea10",
+      "lexeme_id": "lexeme-de-b2-auf-den-punkt-bringen",
+      "position": 0
+    },
+    {
+      "cluster_id": "6d19e46a-5728-d625-e8b8-33153504ea10",
+      "lexeme_id": "lex-de-zusammenfassen",
+      "position": 1
+    },
+    {
+      "cluster_id": "736cd683-99c4-2e48-a2dc-b738c07b2de6",
+      "lexeme_id": "lex-de-ausdrucklich",
+      "position": 0
+    },
+    {
+      "cluster_id": "736cd683-99c4-2e48-a2dc-b738c07b2de6",
+      "lexeme_id": "lex-de-eindeutig",
+      "position": 1
+    },
+    {
+      "cluster_id": "736cd683-99c4-2e48-a2dc-b738c07b2de6",
+      "lexeme_id": "lex-de-prazise",
+      "position": 2
+    },
+    {
+      "cluster_id": "856ca4b7-8c6c-47cc-c6ea-68797b7de0ee",
+      "lexeme_id": "lex-de-beeindruckend",
+      "position": 0
+    },
+    {
+      "cluster_id": "856ca4b7-8c6c-47cc-c6ea-68797b7de0ee",
+      "lexeme_id": "lex-de-eindrucksvoll",
+      "position": 1
+    },
+    {
+      "cluster_id": "535b1330-a5a0-0e75-3a73-b57e76dd17e5",
+      "lexeme_id": "lex-de-belastbar",
+      "position": 0
+    },
+    {
+      "cluster_id": "535b1330-a5a0-0e75-3a73-b57e76dd17e5",
+      "lexeme_id": "lex-de-zuverlassig",
+      "position": 1
+    },
+    {
+      "cluster_id": "93fde1d7-942f-74b7-5918-9d60d497c018",
+      "lexeme_id": "lex-de-der-druck",
+      "position": 0
+    },
+    {
+      "cluster_id": "93fde1d7-942f-74b7-5918-9d60d497c018",
+      "lexeme_id": "lex-de-der-stress",
+      "position": 1
+    },
+    {
+      "cluster_id": "0e741954-5121-a787-bfff-9faeabcba3ba",
+      "lexeme_id": "lex-de-herausfordernd",
+      "position": 0
+    },
+    {
+      "cluster_id": "0e741954-5121-a787-bfff-9faeabcba3ba",
+      "lexeme_id": "lexeme-de-c1-anspruchsvoll",
+      "position": 1
+    },
+    {
+      "cluster_id": "7d025fe5-6e8a-186b-8f10-867accd29b29",
+      "lexeme_id": "lex-de-klarstellen",
+      "position": 0
+    },
+    {
+      "cluster_id": "7d025fe5-6e8a-186b-8f10-867accd29b29",
+      "lexeme_id": "lexeme-de-c1-verdeutlichen",
+      "position": 1
+    },
+    {
+      "cluster_id": "c5ab0b74-577e-c417-75f6-f555b529e55a",
+      "lexeme_id": "lex-de-leisten",
+      "position": 0
+    },
+    {
+      "cluster_id": "c5ab0b74-577e-c417-75f6-f555b529e55a",
+      "lexeme_id": "lex-de-erbringen",
+      "position": 1
+    },
+    {
+      "cluster_id": "41a82da2-daa8-fbda-6f0a-151f1fec6473",
+      "lexeme_id": "lex-de-robust",
+      "position": 0
+    },
+    {
+      "cluster_id": "41a82da2-daa8-fbda-6f0a-151f1fec6473",
+      "lexeme_id": "lex-de-leistungsfahig",
+      "position": 1
+    },
+    {
+      "cluster_id": "d4527717-678f-5669-a6bd-2abce36aa103",
+      "lexeme_id": "lex-de-uberzeugend",
+      "position": 0
+    },
+    {
+      "cluster_id": "d4527717-678f-5669-a6bd-2abce36aa103",
+      "lexeme_id": "lex-de-plausibel",
+      "position": 1
+    },
+    {
+      "cluster_id": "d4527717-678f-5669-a6bd-2abce36aa103",
+      "lexeme_id": "lex-de-stichhaltig",
+      "position": 2
+    },
+    {
+      "cluster_id": "d4527717-678f-5669-a6bd-2abce36aa103",
+      "lexeme_id": "lex-de-vertretbar",
+      "position": 3
+    },
+    {
+      "cluster_id": "d4527717-678f-5669-a6bd-2abce36aa103",
+      "lexeme_id": "lex-de-nachvollziehbar",
+      "position": 4
+    },
+    {
+      "cluster_id": "0eedd7cb-6740-fa7d-8099-788473a708ec",
+      "lexeme_id": "lex-de-unklar",
+      "position": 0
+    },
+    {
+      "cluster_id": "0eedd7cb-6740-fa7d-8099-788473a708ec",
+      "lexeme_id": "lex-de-vage",
+      "position": 1
+    },
+    {
+      "cluster_id": "0eedd7cb-6740-fa7d-8099-788473a708ec",
+      "lexeme_id": "lex-de-missverstandlich",
+      "position": 2
+    },
+    {
+      "cluster_id": "f60df95e-7055-fef3-2dfa-4f3aa9b452ba",
+      "lexeme_id": "lex-de-verhandeln",
+      "position": 0
+    },
+    {
+      "cluster_id": "f60df95e-7055-fef3-2dfa-4f3aa9b452ba",
+      "lexeme_id": "lex-de-aushandeln",
+      "position": 1
+    },
+    {
+      "cluster_id": "c5c2b1e1-b2f7-66f3-321b-ec4388bbae04",
+      "lexeme_id": "lex-de-widersprechen",
+      "position": 0
+    },
+    {
+      "cluster_id": "c5c2b1e1-b2f7-66f3-321b-ec4388bbae04",
+      "lexeme_id": "lex-de-widerlegen",
+      "position": 1
+    },
+    {
+      "cluster_id": "c5c2b1e1-b2f7-66f3-321b-ec4388bbae04",
+      "lexeme_id": "lexeme-de-c2-entkraeften",
+      "position": 2
+    },
+    {
+      "cluster_id": "9a8b83d2-7012-e4c7-0a54-e99a1842b0fb",
+      "lexeme_id": "lex-de-zusammenhangen",
+      "position": 0
+    },
+    {
+      "cluster_id": "9a8b83d2-7012-e4c7-0a54-e99a1842b0fb",
+      "lexeme_id": "lex-de-verknupfen",
+      "position": 1
+    },
+    {
+      "cluster_id": "f3648ffe-37a2-4bc6-2c54-ef1c8f28e86c",
+      "lexeme_id": "lex-de-ableiten",
+      "position": 0
+    },
+    {
+      "cluster_id": "f3648ffe-37a2-4bc6-2c54-ef1c8f28e86c",
+      "lexeme_id": "lex-de-herleiten",
+      "position": 1
+    },
+    {
+      "cluster_id": "27cedf41-eaeb-2ee2-4d6c-3565867a7491",
+      "lexeme_id": "lex-de-die-beurteilung",
+      "position": 0
+    },
+    {
+      "cluster_id": "27cedf41-eaeb-2ee2-4d6c-3565867a7491",
+      "lexeme_id": "lex-de-einschatzung",
+      "position": 1
+    },
+    {
+      "cluster_id": "a03a2b8b-17b6-b64d-b652-638422908140",
+      "lexeme_id": "lex-de-die-folgerung",
+      "position": 0
+    },
+    {
+      "cluster_id": "a03a2b8b-17b6-b64d-b652-638422908140",
+      "lexeme_id": "lex-de-die-schlussfolgerung",
+      "position": 1
+    },
+    {
+      "cluster_id": "b8288c9e-2cca-e04f-4de6-84257b41d4c5",
+      "lexeme_id": "lex-de-das-kriterium",
+      "position": 0
+    },
+    {
+      "cluster_id": "b8288c9e-2cca-e04f-4de6-84257b41d4c5",
+      "lexeme_id": "lex-de-der-massstab",
+      "position": 1
+    },
+    {
+      "cluster_id": "8f6d4672-beb6-fe7d-0778-5fac13709fe6",
+      "lexeme_id": "lex-de-strukturiert",
+      "position": 0
+    },
+    {
+      "cluster_id": "8f6d4672-beb6-fe7d-0778-5fac13709fe6",
+      "lexeme_id": "lex-de-systematisch",
+      "position": 1
+    },
+    {
+      "cluster_id": "b15d5238-d8d7-f352-301b-3ff62dae57b3",
+      "lexeme_id": "lex-de-bahnbrechend",
+      "position": 0
+    },
+    {
+      "cluster_id": "b15d5238-d8d7-f352-301b-3ff62dae57b3",
+      "lexeme_id": "lex-de-wegweisend",
+      "position": 1
+    },
+    {
+      "cluster_id": "4af8e408-1646-9952-4ede-13927f371f62",
+      "lexeme_id": "lex-it-scendere",
+      "position": 0
+    },
+    {
+      "cluster_id": "4af8e408-1646-9952-4ede-13927f371f62",
+      "lexeme_id": "20f46a0d-6e76-96b5-e44e-dff1031793bd",
+      "position": 1
+    },
+    {
+      "cluster_id": "2dfea847-238a-d2ea-f4b9-8d5386e4d732",
+      "lexeme_id": "lex-it-caldo",
+      "position": 0
+    },
+    {
+      "cluster_id": "2dfea847-238a-d2ea-f4b9-8d5386e4d732",
+      "lexeme_id": "lex-it-caldo-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "08013d8b-1eca-b596-5268-900d5389b1e1",
+      "lexeme_id": "lex-it-andare",
+      "position": 0
+    },
+    {
+      "cluster_id": "08013d8b-1eca-b596-5268-900d5389b1e1",
+      "lexeme_id": "lex-it-correre",
+      "position": 1
+    },
+    {
+      "cluster_id": "08013d8b-1eca-b596-5268-900d5389b1e1",
+      "lexeme_id": "lexeme-it-a1-eilen",
+      "position": 2
+    },
+    {
+      "cluster_id": "08013d8b-1eca-b596-5268-900d5389b1e1",
+      "lexeme_id": "lexeme-it-a2-rasen",
+      "position": 3
+    },
+    {
+      "cluster_id": "08013d8b-1eca-b596-5268-900d5389b1e1",
+      "lexeme_id": "lexeme-it-a2-sprinten",
+      "position": 4
+    },
+    {
+      "cluster_id": "fb4e8462-7129-e2ec-7676-5fb820c00ea2",
+      "lexeme_id": "lex-it-dire",
+      "position": 0
+    },
+    {
+      "cluster_id": "fb4e8462-7129-e2ec-7676-5fb820c00ea2",
+      "lexeme_id": "lex-it-spiegare",
+      "position": 1
+    },
+    {
+      "cluster_id": "a3922d0e-f436-b1f9-59cc-304718b18c4e",
+      "lexeme_id": "lex-it-delizioso",
+      "position": 0
+    },
+    {
+      "cluster_id": "a3922d0e-f436-b1f9-59cc-304718b18c4e",
+      "lexeme_id": "lex-it-buono",
+      "position": 1
+    },
+    {
+      "cluster_id": "a3922d0e-f436-b1f9-59cc-304718b18c4e",
+      "lexeme_id": "lex-it-fantastico",
+      "position": 2
+    },
+    {
+      "cluster_id": "aa59367c-eefc-ceb9-add1-117eefdfbf56",
+      "lexeme_id": "lex-it-osservare",
+      "position": 0
+    },
+    {
+      "cluster_id": "aa59367c-eefc-ceb9-add1-117eefdfbf56",
+      "lexeme_id": "lex-it-prestare-attenzione",
+      "position": 1
+    },
+    {
+      "cluster_id": "aa59367c-eefc-ceb9-add1-117eefdfbf56",
+      "lexeme_id": "lex-it-considerare",
+      "position": 2
+    },
+    {
+      "cluster_id": "b7d15a75-0e97-1aab-5aa5-602916a5a8ee",
+      "lexeme_id": "lex-it-giovane",
+      "position": 0
+    },
+    {
+      "cluster_id": "b7d15a75-0e97-1aab-5aa5-602916a5a8ee",
+      "lexeme_id": "lex-it-nuovo",
+      "position": 1
+    },
+    {
+      "cluster_id": "b7d15a75-0e97-1aab-5aa5-602916a5a8ee",
+      "lexeme_id": "95c3931d-dda5-6603-26c9-f66ab6363f5f",
+      "position": 2
+    },
+    {
+      "cluster_id": "b7d15a75-0e97-1aab-5aa5-602916a5a8ee",
+      "lexeme_id": "lex-it-freddo",
+      "position": 3
+    },
+    {
+      "cluster_id": "b7d15a75-0e97-1aab-5aa5-602916a5a8ee",
+      "lexeme_id": "lex-it-vivace",
+      "position": 4
+    },
+    {
+      "cluster_id": "cfa82c7a-aa2e-a740-4f81-0c55de0afc4b",
+      "lexeme_id": "lex-it-smettere",
+      "position": 0
+    },
+    {
+      "cluster_id": "cfa82c7a-aa2e-a740-4f81-0c55de0afc4b",
+      "lexeme_id": "lex-it-finire",
+      "position": 1
+    },
+    {
+      "cluster_id": "85e2052e-21ec-d46c-7bdf-4e2bbb0cb698",
+      "lexeme_id": "lex-it-candidatura",
+      "position": 0
+    },
+    {
+      "cluster_id": "85e2052e-21ec-d46c-7bdf-4e2bbb0cb698",
+      "lexeme_id": "lex-it-istanza",
+      "position": 1
+    },
+    {
+      "cluster_id": "85e2052e-21ec-d46c-7bdf-4e2bbb0cb698",
+      "lexeme_id": "lex-it-domanda-formale",
+      "position": 2
+    },
+    {
+      "cluster_id": "be758479-f342-6684-0007-a0097da3f058",
+      "lexeme_id": "lex-it-richiesta-di-informazioni",
+      "position": 0
+    },
+    {
+      "cluster_id": "be758479-f342-6684-0007-a0097da3f058",
+      "lexeme_id": "lex-it-domanda",
+      "position": 1
+    },
+    {
+      "cluster_id": "0df945ad-a7a3-dc6e-3cce-1ceb611a295a",
+      "lexeme_id": "lex-it-quindi",
+      "position": 0
+    },
+    {
+      "cluster_id": "0df945ad-a7a3-dc6e-3cce-1ceb611a295a",
+      "lexeme_id": "lex-it-per-questo-motivo",
+      "position": 1
+    },
+    {
+      "cluster_id": "0df945ad-a7a3-dc6e-3cce-1ceb611a295a",
+      "lexeme_id": "lex-it-percio",
+      "position": 2
+    },
+    {
+      "cluster_id": "0df945ad-a7a3-dc6e-3cce-1ceb611a295a",
+      "lexeme_id": "lex-it-di-conseguenza",
+      "position": 3
+    },
+    {
+      "cluster_id": "0df945ad-a7a3-dc6e-3cce-1ceb611a295a",
+      "lexeme_id": "lexeme-it-a1-darum",
+      "position": 4
+    },
+    {
+      "cluster_id": "db6703e8-afb1-2d57-1716-6fc148d16d60",
+      "lexeme_id": "lex-it-andare-a-prendere",
+      "position": 0
+    },
+    {
+      "cluster_id": "db6703e8-afb1-2d57-1716-6fc148d16d60",
+      "lexeme_id": "lex-it-andare-a-prendere-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "eb6ffe65-1233-37f7-c3c0-6368243f882b",
+      "lexeme_id": "lex-it-perlomeno",
+      "position": 0
+    },
+    {
+      "cluster_id": "eb6ffe65-1233-37f7-c3c0-6368243f882b",
+      "lexeme_id": "lex-it-almeno-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "eb6ffe65-1233-37f7-c3c0-6368243f882b",
+      "lexeme_id": "lex-it-almeno-3",
+      "position": 2
+    },
+    {
+      "cluster_id": "2b245fec-e37b-5619-28f2-1e97843af510",
+      "lexeme_id": "lex-it-solo",
+      "position": 0
+    },
+    {
+      "cluster_id": "2b245fec-e37b-5619-28f2-1e97843af510",
+      "lexeme_id": "lex-it-da-solo",
+      "position": 1
+    },
+    {
+      "cluster_id": "d23ac697-a6ad-533f-b1e8-6462e0eef81c",
+      "lexeme_id": "cb6eb790-c7ea-722a-9459-362ab99e493f",
+      "position": 0
+    },
+    {
+      "cluster_id": "d23ac697-a6ad-533f-b1e8-6462e0eef81c",
+      "lexeme_id": "lex-it-casa",
+      "position": 1
+    },
+    {
+      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
+      "lexeme_id": "lex-it-importante",
+      "position": 0
+    },
+    {
+      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
+      "lexeme_id": "lex-it-urgente",
+      "position": 1
+    },
+    {
+      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
+      "lexeme_id": "lex-it-significativo",
+      "position": 2
+    },
+    {
+      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
+      "lexeme_id": "lex-it-essenziale",
+      "position": 3
+    },
+    {
+      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
+      "lexeme_id": "lex-it-decisivo",
+      "position": 4
+    },
+    {
+      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
+      "lexeme_id": "lex-it-notevole-2",
+      "position": 5
+    },
+    {
+      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
+      "lexeme_id": "lex-it-centrale",
+      "position": 6
+    },
+    {
+      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
+      "lexeme_id": "lex-it-fondamentale",
+      "position": 7
+    },
+    {
+      "cluster_id": "aa64e1f3-689f-5944-c379-6f1090d59f7c",
+      "lexeme_id": "lex-it-determinante",
+      "position": 8
+    },
+    {
+      "cluster_id": "ad67444c-0119-c21e-db1a-25b68d503260",
+      "lexeme_id": "lex-it-attualmente",
+      "position": 0
+    },
+    {
+      "cluster_id": "ad67444c-0119-c21e-db1a-25b68d503260",
+      "lexeme_id": "lex-it-adesso",
+      "position": 1
+    },
+    {
+      "cluster_id": "ad67444c-0119-c21e-db1a-25b68d503260",
+      "lexeme_id": "lex-it-al-momento",
+      "position": 2
+    },
+    {
+      "cluster_id": "437fa420-1684-abcc-c3ca-25ff0d7e430d",
+      "lexeme_id": "lex-it-problema",
+      "position": 0
+    },
+    {
+      "cluster_id": "437fa420-1684-abcc-c3ca-25ff0d7e430d",
+      "lexeme_id": "lex-it-sfida",
+      "position": 1
+    },
+    {
+      "cluster_id": "25fdbb1a-e1af-506c-9fcc-74df5e2d024e",
+      "lexeme_id": "lex-it-ancora-2",
+      "position": 0
+    },
+    {
+      "cluster_id": "25fdbb1a-e1af-506c-9fcc-74df5e2d024e",
+      "lexeme_id": "lex-it-finora",
+      "position": 1
+    },
+    {
+      "cluster_id": "72021489-c918-dadb-c9d2-8d7db5619061",
+      "lexeme_id": "lex-it-strada",
+      "position": 0
+    },
+    {
+      "cluster_id": "72021489-c918-dadb-c9d2-8d7db5619061",
+      "lexeme_id": "lex-it-via",
+      "position": 1
+    },
+    {
+      "cluster_id": "c637f0a6-8b20-2e1b-bc8d-0ee75eb1dffc",
+      "lexeme_id": "lex-it-necessita",
+      "position": 0
+    },
+    {
+      "cluster_id": "c637f0a6-8b20-2e1b-bc8d-0ee75eb1dffc",
+      "lexeme_id": "lex-it-fabbisogno",
+      "position": 1
+    },
+    {
+      "cluster_id": "c637f0a6-8b20-2e1b-bc8d-0ee75eb1dffc",
+      "lexeme_id": "lex-it-il-requisito",
+      "position": 2
+    },
+    {
+      "cluster_id": "c637f0a6-8b20-2e1b-bc8d-0ee75eb1dffc",
+      "lexeme_id": "lex-it-requisito",
+      "position": 3
+    },
+    {
+      "cluster_id": "c637f0a6-8b20-2e1b-bc8d-0ee75eb1dffc",
+      "lexeme_id": "lex-it-la-condizione",
+      "position": 4
+    },
+    {
+      "cluster_id": "b8f5fe4f-4794-1970-8423-1ee4aaaa72a2",
+      "lexeme_id": "lex-it-offerta",
+      "position": 0
+    },
+    {
+      "cluster_id": "b8f5fe4f-4794-1970-8423-1ee4aaaa72a2",
+      "lexeme_id": "lex-it-invito",
+      "position": 1
+    },
+    {
+      "cluster_id": "b8f5fe4f-4794-1970-8423-1ee4aaaa72a2",
+      "lexeme_id": "lex-it-possibilita",
+      "position": 2
+    },
+    {
+      "cluster_id": "b8f5fe4f-4794-1970-8423-1ee4aaaa72a2",
+      "lexeme_id": "lex-it-proposta",
+      "position": 3
+    },
+    {
+      "cluster_id": "b8f5fe4f-4794-1970-8423-1ee4aaaa72a2",
+      "lexeme_id": "lex-it-occasione",
+      "position": 4
+    },
+    {
+      "cluster_id": "4969a31d-327d-ea11-109e-57b1ceed6534",
+      "lexeme_id": "lex-it-spesso",
+      "position": 0
+    },
+    {
+      "cluster_id": "4969a31d-327d-ea11-109e-57b1ceed6534",
+      "lexeme_id": "lex-it-per-lo-piu",
+      "position": 1
+    },
+    {
+      "cluster_id": "4969a31d-327d-ea11-109e-57b1ceed6534",
+      "lexeme_id": "lex-it-normalmente",
+      "position": 2
+    },
+    {
+      "cluster_id": "4969a31d-327d-ea11-109e-57b1ceed6534",
+      "lexeme_id": "lex-it-di-solito",
+      "position": 3
+    },
+    {
+      "cluster_id": "4969a31d-327d-ea11-109e-57b1ceed6534",
+      "lexeme_id": "c5a9de91-2fa8-4f2a-7105-396e7b218248",
+      "position": 4
+    },
+    {
+      "cluster_id": "4969a31d-327d-ea11-109e-57b1ceed6534",
+      "lexeme_id": "lex-it-medio",
+      "position": 5
+    },
+    {
+      "cluster_id": "279a0c74-5700-d367-b17e-560ade2d862f",
+      "lexeme_id": "lex-it-per-il-resto",
+      "position": 0
+    },
+    {
+      "cluster_id": "279a0c74-5700-d367-b17e-560ade2d862f",
+      "lexeme_id": "lex-it-altrimenti",
+      "position": 1
+    },
+    {
+      "cluster_id": "442c2225-18c6-951c-63c7-5332c0c0f342",
+      "lexeme_id": "lex-it-chiamare",
+      "position": 0
+    },
+    {
+      "cluster_id": "442c2225-18c6-951c-63c7-5332c0c0f342",
+      "lexeme_id": "lex-it-raggiungere",
+      "position": 1
+    },
+    {
+      "cluster_id": "442c2225-18c6-951c-63c7-5332c0c0f342",
+      "lexeme_id": "lex-it-venire",
+      "position": 2
+    },
+    {
+      "cluster_id": "59cfcb17-cfe2-106d-aadd-73d50ef75256",
+      "lexeme_id": "db3a20a0-0aa2-f624-3d85-e242a61ce3b5",
+      "position": 0
+    },
+    {
+      "cluster_id": "59cfcb17-cfe2-106d-aadd-73d50ef75256",
+      "lexeme_id": "lex-it-finalmente",
+      "position": 1
+    },
+    {
+      "cluster_id": "59cfcb17-cfe2-106d-aadd-73d50ef75256",
+      "lexeme_id": "lex-it-alla-fine",
+      "position": 2
+    },
+    {
+      "cluster_id": "59cfcb17-cfe2-106d-aadd-73d50ef75256",
+      "lexeme_id": "lex-it-finalmente-2",
+      "position": 3
+    },
+    {
+      "cluster_id": "177c7edf-7f87-079c-08df-f8677e091a42",
+      "lexeme_id": "lex-it-corsa",
+      "position": 0
+    },
+    {
+      "cluster_id": "177c7edf-7f87-079c-08df-f8677e091a42",
+      "lexeme_id": "lexeme-it-a2-wettbewerb",
+      "position": 1
+    },
+    {
+      "cluster_id": "5c8c931b-0ec0-9dca-0f11-6a8631a1425c",
+      "lexeme_id": "53b34736-adf3-128d-f12f-fe97320afc32",
+      "position": 0
+    },
+    {
+      "cluster_id": "5c8c931b-0ec0-9dca-0f11-6a8631a1425c",
+      "lexeme_id": "lex-it-chiaro",
+      "position": 1
+    },
+    {
+      "cluster_id": "076a637b-6587-fe47-b814-c322a20b1312",
+      "lexeme_id": "lex-it-pulire",
+      "position": 0
+    },
+    {
+      "cluster_id": "076a637b-6587-fe47-b814-c322a20b1312",
+      "lexeme_id": "lex-it-pulire-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "764ac856-c5aa-e036-97e3-e27bfa615095",
+      "lexeme_id": "lexeme-it-a1-stehen-bleiben",
+      "position": 0
+    },
+    {
+      "cluster_id": "764ac856-c5aa-e036-97e3-e27bfa615095",
+      "lexeme_id": "lexeme-it-a1-stillstehen",
+      "position": 1
+    },
+    {
+      "cluster_id": "be5c2966-eb86-cfb5-2b29-c0195513f05a",
+      "lexeme_id": "lex-it-distanza",
+      "position": 0
+    },
+    {
+      "cluster_id": "be5c2966-eb86-cfb5-2b29-c0195513f05a",
+      "lexeme_id": "lex-it-distanza-3",
+      "position": 1
+    },
+    {
+      "cluster_id": "5d20a7b6-2565-1bed-01d1-26c5d123c1d0",
+      "lexeme_id": "lex-it-in-nessun-caso",
+      "position": 0
+    },
+    {
+      "cluster_id": "5d20a7b6-2565-1bed-01d1-26c5d123c1d0",
+      "lexeme_id": "lex-it-assolutamente-no",
+      "position": 1
+    },
+    {
+      "cluster_id": "ba8e4475-97f0-adbf-57af-691b18172c40",
+      "lexeme_id": "lex-it-consigliare",
+      "position": 0
+    },
+    {
+      "cluster_id": "ba8e4475-97f0-adbf-57af-691b18172c40",
+      "lexeme_id": "lex-it-proporre",
+      "position": 1
+    },
+    {
+      "cluster_id": "3a5d7076-1c59-2f98-6f2e-03b17be96dc5",
+      "lexeme_id": "lex-it-risultato",
+      "position": 0
+    },
+    {
+      "cluster_id": "3a5d7076-1c59-2f98-6f2e-03b17be96dc5",
+      "lexeme_id": "lex-it-soluzione",
+      "position": 1
+    },
+    {
+      "cluster_id": "d1cc4c86-8077-e9cf-3c86-6b1bde3b64b3",
+      "lexeme_id": "lex-it-reagire",
+      "position": 0
+    },
+    {
+      "cluster_id": "d1cc4c86-8077-e9cf-3c86-6b1bde3b64b3",
+      "lexeme_id": "lex-it-rispondere",
+      "position": 1
+    },
+    {
+      "cluster_id": "3b6502d2-60f6-5136-f568-2dad099d115b",
+      "lexeme_id": "lex-it-partecipare",
+      "position": 0
+    },
+    {
+      "cluster_id": "3b6502d2-60f6-5136-f568-2dad099d115b",
+      "lexeme_id": "lex-it-avere-un-ruolo",
+      "position": 1
+    },
+    {
+      "cluster_id": "666974c7-b2d9-06e6-b1fa-174b2ea2fb79",
+      "lexeme_id": "lex-it-evitare",
+      "position": 0
+    },
+    {
+      "cluster_id": "666974c7-b2d9-06e6-b1fa-174b2ea2fb79",
+      "lexeme_id": "lex-it-impedire",
+      "position": 1
+    },
+    {
+      "cluster_id": "55a9d7ed-9827-eff8-34c7-4d599714c490",
+      "lexeme_id": "lex-it-probabilmente",
+      "position": 0
+    },
+    {
+      "cluster_id": "55a9d7ed-9827-eff8-34c7-4d599714c490",
+      "lexeme_id": "lex-it-probabilmente-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "d5c694c9-215d-e4f6-d16f-5fb8cb8ad78e",
+      "lexeme_id": "lex-it-adeguato",
+      "position": 0
+    },
+    {
+      "cluster_id": "d5c694c9-215d-e4f6-d16f-5fb8cb8ad78e",
+      "lexeme_id": "lex-it-adatto",
+      "position": 1
+    },
+    {
+      "cluster_id": "c7c57a5b-5de0-38c9-ac61-12551beb0fc7",
+      "lexeme_id": "lex-it-alla-lunga",
+      "position": 0
+    },
+    {
+      "cluster_id": "c7c57a5b-5de0-38c9-ac61-12551beb0fc7",
+      "lexeme_id": "lex-it-a-lungo-termine",
+      "position": 1
+    },
+    {
+      "cluster_id": "d71ac862-6790-98b5-0662-f6590cd393ab",
+      "lexeme_id": "lex-it-inoltre",
+      "position": 0
+    },
+    {
+      "cluster_id": "d71ac862-6790-98b5-0662-f6590cd393ab",
+      "lexeme_id": "lex-it-inoltre-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "d71ac862-6790-98b5-0662-f6590cd393ab",
+      "lexeme_id": "lex-it-tra-l-altro",
+      "position": 2
+    },
+    {
+      "cluster_id": "d71ac862-6790-98b5-0662-f6590cd393ab",
+      "lexeme_id": "lex-it-altrettanto",
+      "position": 3
+    },
+    {
+      "cluster_id": "ceaa3489-c97b-90e8-85fc-eaa1d8fa7955",
+      "lexeme_id": "lex-it-effetto",
+      "position": 0
+    },
+    {
+      "cluster_id": "ceaa3489-c97b-90e8-85fc-eaa1d8fa7955",
+      "lexeme_id": "lex-it-l-effetto",
+      "position": 1
+    },
+    {
+      "cluster_id": "e7e1470d-f101-6620-0c06-f547561c426f",
+      "lexeme_id": "lex-it-valutare",
+      "position": 0
+    },
+    {
+      "cluster_id": "e7e1470d-f101-6620-0c06-f547561c426f",
+      "lexeme_id": "lex-it-soppesare",
+      "position": 1
+    },
+    {
+      "cluster_id": "e7e1470d-f101-6620-0c06-f547561c426f",
+      "lexeme_id": "lex-it-analizzare",
+      "position": 2
+    },
+    {
+      "cluster_id": "e7e1470d-f101-6620-0c06-f547561c426f",
+      "lexeme_id": "lex-it-valutare-2",
+      "position": 3
+    },
+    {
+      "cluster_id": "e7e1470d-f101-6620-0c06-f547561c426f",
+      "lexeme_id": "lex-it-giudicare",
+      "position": 4
+    },
+    {
+      "cluster_id": "e7e1470d-f101-6620-0c06-f547561c426f",
+      "lexeme_id": "lex-it-inquadrare",
+      "position": 5
+    },
+    {
+      "cluster_id": "7db68ed7-c1d5-bac7-e67d-bbbd8ade0e33",
+      "lexeme_id": "lex-it-svolgere",
+      "position": 0
+    },
+    {
+      "cluster_id": "7db68ed7-c1d5-bac7-e67d-bbbd8ade0e33",
+      "lexeme_id": "lex-it-attuare",
+      "position": 1
+    },
+    {
+      "cluster_id": "9debed8a-5665-49a4-3f55-8543f6e8df0e",
+      "lexeme_id": "lex-it-aspettarsi",
+      "position": 0
+    },
+    {
+      "cluster_id": "9debed8a-5665-49a4-3f55-8543f6e8df0e",
+      "lexeme_id": "lex-it-richiedere",
+      "position": 1
+    },
+    {
+      "cluster_id": "a09338c2-040c-66e7-bd5d-2d0d78bd0a7e",
+      "lexeme_id": "lex-it-constatare",
+      "position": 0
+    },
+    {
+      "cluster_id": "a09338c2-040c-66e7-bd5d-2d0d78bd0a7e",
+      "lexeme_id": "lex-it-confermare",
+      "position": 1
+    },
+    {
+      "cluster_id": "832b72ce-3c78-6486-7451-f24ed37a2cde",
+      "lexeme_id": "lex-it-convincere",
+      "position": 0
+    },
+    {
+      "cluster_id": "832b72ce-3c78-6486-7451-f24ed37a2cde",
+      "lexeme_id": "lex-it-colpire",
+      "position": 1
+    },
+    {
+      "cluster_id": "58d04df8-d65b-11c5-1905-a9d71e8dfea9",
+      "lexeme_id": "lex-it-accordo",
+      "position": 0
+    },
+    {
+      "cluster_id": "58d04df8-d65b-11c5-1905-a9d71e8dfea9",
+      "lexeme_id": "lex-it-l-accordo",
+      "position": 1
+    },
+    {
+      "cluster_id": "58d04df8-d65b-11c5-1905-a9d71e8dfea9",
+      "lexeme_id": "lex-it-il-compromesso",
+      "position": 2
+    },
+    {
+      "cluster_id": "58d04df8-d65b-11c5-1905-a9d71e8dfea9",
+      "lexeme_id": "lex-it-la-concessione",
+      "position": 3
+    },
+    {
+      "cluster_id": "58d04df8-d65b-11c5-1905-a9d71e8dfea9",
+      "lexeme_id": "lex-it-l-impegno",
+      "position": 4
+    },
+    {
+      "cluster_id": "3a6700de-65a9-441b-13bb-48ce2db33875",
+      "lexeme_id": "lex-it-trasmettere",
+      "position": 0
+    },
+    {
+      "cluster_id": "3a6700de-65a9-441b-13bb-48ce2db33875",
+      "lexeme_id": "lex-it-inviare",
+      "position": 1
+    },
+    {
+      "cluster_id": "6c464152-5099-4d32-73da-b334fd1c0aa2",
+      "lexeme_id": "lexeme-it-b2-andare-dritto-al-punto",
+      "position": 0
+    },
+    {
+      "cluster_id": "6c464152-5099-4d32-73da-b334fd1c0aa2",
+      "lexeme_id": "lex-it-riassumere",
+      "position": 1
+    },
+    {
+      "cluster_id": "a625809e-1551-d257-9e97-52fa54dd9d1c",
+      "lexeme_id": "lex-it-esplicito",
+      "position": 0
+    },
+    {
+      "cluster_id": "a625809e-1551-d257-9e97-52fa54dd9d1c",
+      "lexeme_id": "lex-it-inequivocabile-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "a625809e-1551-d257-9e97-52fa54dd9d1c",
+      "lexeme_id": "lex-it-preciso",
+      "position": 2
+    },
+    {
+      "cluster_id": "1bba9c84-c269-d30b-f70e-bc1d06d3c6ac",
+      "lexeme_id": "lex-it-impressionante",
+      "position": 0
+    },
+    {
+      "cluster_id": "1bba9c84-c269-d30b-f70e-bc1d06d3c6ac",
+      "lexeme_id": "lex-it-notevole",
+      "position": 1
+    },
+    {
+      "cluster_id": "21fe0a89-77af-bd8c-241f-b8fedfe74d25",
+      "lexeme_id": "lex-it-resistente",
+      "position": 0
+    },
+    {
+      "cluster_id": "21fe0a89-77af-bd8c-241f-b8fedfe74d25",
+      "lexeme_id": "lex-it-affidabile",
+      "position": 1
+    },
+    {
+      "cluster_id": "ce03874a-5271-2e3a-4611-69fc69a4e11b",
+      "lexeme_id": "lex-it-la-pressione",
+      "position": 0
+    },
+    {
+      "cluster_id": "ce03874a-5271-2e3a-4611-69fc69a4e11b",
+      "lexeme_id": "lex-it-lo-stress",
+      "position": 1
+    },
+    {
+      "cluster_id": "0f2e1e70-80fd-da31-91b0-f2608500805b",
+      "lexeme_id": "lex-it-impegnativo",
+      "position": 0
+    },
+    {
+      "cluster_id": "0f2e1e70-80fd-da31-91b0-f2608500805b",
+      "lexeme_id": "lexeme-it-c1-esigente",
+      "position": 1
+    },
+    {
+      "cluster_id": "4d04d894-0cb6-7c63-1dd3-52e9b10065b6",
+      "lexeme_id": "lex-it-chiarire-2",
+      "position": 0
+    },
+    {
+      "cluster_id": "4d04d894-0cb6-7c63-1dd3-52e9b10065b6",
+      "lexeme_id": "lexeme-it-c1-esplicitare",
+      "position": 1
+    },
+    {
+      "cluster_id": "987dacf6-620b-74ee-863e-031d3c11fc02",
+      "lexeme_id": "lex-it-realizzare",
+      "position": 0
+    },
+    {
+      "cluster_id": "987dacf6-620b-74ee-863e-031d3c11fc02",
+      "lexeme_id": "lex-it-fornire",
+      "position": 1
+    },
+    {
+      "cluster_id": "6f7cf015-e87b-7833-2fa4-1c10f1a0ba89",
+      "lexeme_id": "lex-it-robusto",
+      "position": 0
+    },
+    {
+      "cluster_id": "6f7cf015-e87b-7833-2fa4-1c10f1a0ba89",
+      "lexeme_id": "lex-it-performante",
+      "position": 1
+    },
+    {
+      "cluster_id": "a4cf3095-aadc-c83f-e455-bfd5c4ff07d8",
+      "lexeme_id": "lex-it-convincente",
+      "position": 0
+    },
+    {
+      "cluster_id": "a4cf3095-aadc-c83f-e455-bfd5c4ff07d8",
+      "lexeme_id": "lex-it-plausibile",
+      "position": 1
+    },
+    {
+      "cluster_id": "a4cf3095-aadc-c83f-e455-bfd5c4ff07d8",
+      "lexeme_id": "lex-it-valido",
+      "position": 2
+    },
+    {
+      "cluster_id": "a4cf3095-aadc-c83f-e455-bfd5c4ff07d8",
+      "lexeme_id": "lex-it-giustificabile",
+      "position": 3
+    },
+    {
+      "cluster_id": "a4cf3095-aadc-c83f-e455-bfd5c4ff07d8",
+      "lexeme_id": "lex-it-comprensibile",
+      "position": 4
+    },
+    {
+      "cluster_id": "d11c1ab7-fc58-56bc-853c-6386f574f62c",
+      "lexeme_id": "lex-it-poco-chiaro",
+      "position": 0
+    },
+    {
+      "cluster_id": "d11c1ab7-fc58-56bc-853c-6386f574f62c",
+      "lexeme_id": "lex-it-vago",
+      "position": 1
+    },
+    {
+      "cluster_id": "d11c1ab7-fc58-56bc-853c-6386f574f62c",
+      "lexeme_id": "lex-it-equivoco",
+      "position": 2
+    },
+    {
+      "cluster_id": "880e35b8-2570-70dd-1161-94bf3c29cfd5",
+      "lexeme_id": "lex-it-negoziare",
+      "position": 0
+    },
+    {
+      "cluster_id": "880e35b8-2570-70dd-1161-94bf3c29cfd5",
+      "lexeme_id": "lex-it-pattuire",
+      "position": 1
+    },
+    {
+      "cluster_id": "3bb7ad2a-bd94-5fc1-1cc6-5426928f2549",
+      "lexeme_id": "lex-it-contraddire",
+      "position": 0
+    },
+    {
+      "cluster_id": "3bb7ad2a-bd94-5fc1-1cc6-5426928f2549",
+      "lexeme_id": "lex-it-confutare",
+      "position": 1
+    },
+    {
+      "cluster_id": "3bb7ad2a-bd94-5fc1-1cc6-5426928f2549",
+      "lexeme_id": "lexeme-it-c2-invalidare",
+      "position": 2
+    },
+    {
+      "cluster_id": "aea325c7-ede7-d478-5e01-43f66d350a48",
+      "lexeme_id": "lex-it-essere-collegato",
+      "position": 0
+    },
+    {
+      "cluster_id": "aea325c7-ede7-d478-5e01-43f66d350a48",
+      "lexeme_id": "lex-it-collegare",
+      "position": 1
+    },
+    {
+      "cluster_id": "4ef18b48-c473-41e4-927c-8889c9f6cbc2",
+      "lexeme_id": "lex-it-derivare",
+      "position": 0
+    },
+    {
+      "cluster_id": "4ef18b48-c473-41e4-927c-8889c9f6cbc2",
+      "lexeme_id": "lex-it-dedurre",
+      "position": 1
+    },
+    {
+      "cluster_id": "3fbb9e20-fc78-681d-119f-524aabbd1cb4",
+      "lexeme_id": "lex-it-la-valutazione",
+      "position": 0
+    },
+    {
+      "cluster_id": "3fbb9e20-fc78-681d-119f-524aabbd1cb4",
+      "lexeme_id": "lex-it-valutazione",
+      "position": 1
+    },
+    {
+      "cluster_id": "8b55bbfc-4ec3-416f-6fb7-b04febba1baf",
+      "lexeme_id": "lex-it-la-deduzione",
+      "position": 0
+    },
+    {
+      "cluster_id": "8b55bbfc-4ec3-416f-6fb7-b04febba1baf",
+      "lexeme_id": "lex-it-la-conclusione",
+      "position": 1
+    },
+    {
+      "cluster_id": "7ad2e7be-8583-d209-f0f8-92389b063f54",
+      "lexeme_id": "lex-it-il-criterio",
+      "position": 0
+    },
+    {
+      "cluster_id": "7ad2e7be-8583-d209-f0f8-92389b063f54",
+      "lexeme_id": "lex-it-il-parametro",
+      "position": 1
+    },
+    {
+      "cluster_id": "12f9e80a-4a4b-65f6-a9fe-055743f7fa80",
+      "lexeme_id": "lex-it-strutturato",
+      "position": 0
+    },
+    {
+      "cluster_id": "12f9e80a-4a4b-65f6-a9fe-055743f7fa80",
+      "lexeme_id": "lex-it-sistematico",
+      "position": 1
+    },
+    {
+      "cluster_id": "beb7fce1-69a8-239a-0130-86a395d71341",
+      "lexeme_id": "lex-it-rivoluzionario",
+      "position": 0
+    },
+    {
+      "cluster_id": "beb7fce1-69a8-239a-0130-86a395d71341",
+      "lexeme_id": "lex-it-pionieristico",
+      "position": 1
+    },
+    {
+      "cluster_id": "74f62de9-5d08-5391-90aa-ce601f6c08e0",
+      "lexeme_id": "lex-en-get-off",
+      "position": 0
+    },
+    {
+      "cluster_id": "74f62de9-5d08-5391-90aa-ce601f6c08e0",
+      "lexeme_id": "3819378a-d110-b42e-8c0f-188aaafc8a03",
+      "position": 1
+    },
+    {
+      "cluster_id": "f93adb05-29d9-62f6-39a7-9f6be06850a2",
+      "lexeme_id": "lex-en-warm",
+      "position": 0
+    },
+    {
+      "cluster_id": "f93adb05-29d9-62f6-39a7-9f6be06850a2",
+      "lexeme_id": "lex-en-hot",
+      "position": 1
+    },
+    {
+      "cluster_id": "76f85eb5-d904-e8f0-b4dc-b88356495f02",
+      "lexeme_id": "lex-en-to-go",
+      "position": 0
+    },
+    {
+      "cluster_id": "76f85eb5-d904-e8f0-b4dc-b88356495f02",
+      "lexeme_id": "lex-en-run",
+      "position": 1
+    },
+    {
+      "cluster_id": "76f85eb5-d904-e8f0-b4dc-b88356495f02",
+      "lexeme_id": "lexeme-en-a1-eilen",
+      "position": 2
+    },
+    {
+      "cluster_id": "76f85eb5-d904-e8f0-b4dc-b88356495f02",
+      "lexeme_id": "lexeme-en-a2-rasen",
+      "position": 3
+    },
+    {
+      "cluster_id": "76f85eb5-d904-e8f0-b4dc-b88356495f02",
+      "lexeme_id": "lexeme-en-a2-sprinten",
+      "position": 4
+    },
+    {
+      "cluster_id": "934f9487-8f6a-875d-384c-9828c2fd194c",
+      "lexeme_id": "lex-en-to-say",
+      "position": 0
+    },
+    {
+      "cluster_id": "934f9487-8f6a-875d-384c-9828c2fd194c",
+      "lexeme_id": "lex-en-to-explain",
+      "position": 1
+    },
+    {
+      "cluster_id": "38b03ffb-a430-510d-fc8a-b1d2ce832437",
+      "lexeme_id": "lex-en-delicious",
+      "position": 0
+    },
+    {
+      "cluster_id": "38b03ffb-a430-510d-fc8a-b1d2ce832437",
+      "lexeme_id": "lex-en-good",
+      "position": 1
+    },
+    {
+      "cluster_id": "38b03ffb-a430-510d-fc8a-b1d2ce832437",
+      "lexeme_id": "lex-en-great",
+      "position": 2
+    },
+    {
+      "cluster_id": "1782727e-f292-8609-9134-9db5fc459379",
+      "lexeme_id": "lex-en-observe",
+      "position": 0
+    },
+    {
+      "cluster_id": "1782727e-f292-8609-9134-9db5fc459379",
+      "lexeme_id": "lex-en-pay-attention",
+      "position": 1
+    },
+    {
+      "cluster_id": "1782727e-f292-8609-9134-9db5fc459379",
+      "lexeme_id": "lex-en-take-into-account",
+      "position": 2
+    },
+    {
+      "cluster_id": "78fc648e-2a28-4a05-6239-28acbef473a1",
+      "lexeme_id": "lex-en-young",
+      "position": 0
+    },
+    {
+      "cluster_id": "78fc648e-2a28-4a05-6239-28acbef473a1",
+      "lexeme_id": "lex-en-new",
+      "position": 1
+    },
+    {
+      "cluster_id": "78fc648e-2a28-4a05-6239-28acbef473a1",
+      "lexeme_id": "dff6cc94-fb26-a7d2-2c7b-52093dae8bbf",
+      "position": 2
+    },
+    {
+      "cluster_id": "78fc648e-2a28-4a05-6239-28acbef473a1",
+      "lexeme_id": "lex-en-cold",
+      "position": 3
+    },
+    {
+      "cluster_id": "78fc648e-2a28-4a05-6239-28acbef473a1",
+      "lexeme_id": "lex-en-lively",
+      "position": 4
+    },
+    {
+      "cluster_id": "cb9949f6-0706-757f-0156-e52ca0f49a4c",
+      "lexeme_id": "lex-en-stop",
+      "position": 0
+    },
+    {
+      "cluster_id": "cb9949f6-0706-757f-0156-e52ca0f49a4c",
+      "lexeme_id": "lex-en-to-finish",
+      "position": 1
+    },
+    {
+      "cluster_id": "6df35ff4-ca45-0824-0352-f3ae718d1377",
+      "lexeme_id": "lex-en-application",
+      "position": 0
+    },
+    {
+      "cluster_id": "6df35ff4-ca45-0824-0352-f3ae718d1377",
+      "lexeme_id": "lex-en-petition",
+      "position": 1
+    },
+    {
+      "cluster_id": "6df35ff4-ca45-0824-0352-f3ae718d1377",
+      "lexeme_id": "lex-en-formal-application",
+      "position": 2
+    },
+    {
+      "cluster_id": "8abcc47e-21d8-307d-3da3-859c38add7ab",
+      "lexeme_id": "lex-en-inquiry",
+      "position": 0
+    },
+    {
+      "cluster_id": "8abcc47e-21d8-307d-3da3-859c38add7ab",
+      "lexeme_id": "lex-en-question",
+      "position": 1
+    },
+    {
+      "cluster_id": "1773ae09-055d-a802-6a02-c42500c80651",
+      "lexeme_id": "lex-en-therefore",
+      "position": 0
+    },
+    {
+      "cluster_id": "1773ae09-055d-a802-6a02-c42500c80651",
+      "lexeme_id": "lex-en-therefore-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "1773ae09-055d-a802-6a02-c42500c80651",
+      "lexeme_id": "lex-en-therefore-3",
+      "position": 2
+    },
+    {
+      "cluster_id": "1773ae09-055d-a802-6a02-c42500c80651",
+      "lexeme_id": "lex-en-consequently",
+      "position": 3
+    },
+    {
+      "cluster_id": "1773ae09-055d-a802-6a02-c42500c80651",
+      "lexeme_id": "lexeme-en-a1-darum",
+      "position": 4
+    },
+    {
+      "cluster_id": "86dd31d6-57ab-9f4c-ee8b-af84d2b247d6",
+      "lexeme_id": "lex-en-pick-up",
+      "position": 0
+    },
+    {
+      "cluster_id": "86dd31d6-57ab-9f4c-ee8b-af84d2b247d6",
+      "lexeme_id": "lex-en-to-fetch",
+      "position": 1
+    },
+    {
+      "cluster_id": "d2e71745-199c-6dc2-fd54-525b927a278f",
+      "lexeme_id": "lex-en-at-least",
+      "position": 0
+    },
+    {
+      "cluster_id": "d2e71745-199c-6dc2-fd54-525b927a278f",
+      "lexeme_id": "lex-en-at-least-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "d2e71745-199c-6dc2-fd54-525b927a278f",
+      "lexeme_id": "lex-en-at-least-3",
+      "position": 2
+    },
+    {
+      "cluster_id": "9f47cfd9-2d6f-f183-4bda-28a1c8ce90e7",
+      "lexeme_id": "lex-en-only",
+      "position": 0
+    },
+    {
+      "cluster_id": "9f47cfd9-2d6f-f183-4bda-28a1c8ce90e7",
+      "lexeme_id": "lex-en-alone",
+      "position": 1
+    },
+    {
+      "cluster_id": "1ced80ac-5842-2ee1-a9a5-07c8b4f26654",
+      "lexeme_id": "bc7c66c2-66d1-e048-a060-89ff07850115",
+      "position": 0
+    },
+    {
+      "cluster_id": "1ced80ac-5842-2ee1-a9a5-07c8b4f26654",
+      "lexeme_id": "lex-en-house",
+      "position": 1
+    },
+    {
+      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
+      "lexeme_id": "lex-en-important",
+      "position": 0
+    },
+    {
+      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
+      "lexeme_id": "lex-en-urgent",
+      "position": 1
+    },
+    {
+      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
+      "lexeme_id": "lex-en-significant",
+      "position": 2
+    },
+    {
+      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
+      "lexeme_id": "lex-en-essential",
+      "position": 3
+    },
+    {
+      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
+      "lexeme_id": "lex-en-crucial",
+      "position": 4
+    },
+    {
+      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
+      "lexeme_id": "lex-en-considerable",
+      "position": 5
+    },
+    {
+      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
+      "lexeme_id": "lex-en-central",
+      "position": 6
+    },
+    {
+      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
+      "lexeme_id": "lex-en-fundamental",
+      "position": 7
+    },
+    {
+      "cluster_id": "54284351-7a55-a520-2ff2-40aa325ecd52",
+      "lexeme_id": "lex-en-decisive",
+      "position": 8
+    },
+    {
+      "cluster_id": "deafa41d-eeaa-e2ca-a46f-3e7c6c50c48d",
+      "lexeme_id": "lex-en-currently",
+      "position": 0
+    },
+    {
+      "cluster_id": "deafa41d-eeaa-e2ca-a46f-3e7c6c50c48d",
+      "lexeme_id": "lex-en-now",
+      "position": 1
+    },
+    {
+      "cluster_id": "deafa41d-eeaa-e2ca-a46f-3e7c6c50c48d",
+      "lexeme_id": "lex-en-at-the-moment",
+      "position": 2
+    },
+    {
+      "cluster_id": "139e38f5-3fb7-c3bc-9c7f-61906192e27c",
+      "lexeme_id": "lex-en-problem",
+      "position": 0
+    },
+    {
+      "cluster_id": "139e38f5-3fb7-c3bc-9c7f-61906192e27c",
+      "lexeme_id": "lex-en-challenge",
+      "position": 1
+    },
+    {
+      "cluster_id": "aca4ed5e-f017-3f0c-9f31-370e58256b6c",
+      "lexeme_id": "lex-en-still-2",
+      "position": 0
+    },
+    {
+      "cluster_id": "aca4ed5e-f017-3f0c-9f31-370e58256b6c",
+      "lexeme_id": "lex-en-so-far",
+      "position": 1
+    },
+    {
+      "cluster_id": "6fb7c6de-f5d5-cfdd-427f-0bef2d99163d",
+      "lexeme_id": "lex-en-street",
+      "position": 0
+    },
+    {
+      "cluster_id": "6fb7c6de-f5d5-cfdd-427f-0bef2d99163d",
+      "lexeme_id": "lex-en-way",
+      "position": 1
+    },
+    {
+      "cluster_id": "0e6fd158-bb15-5422-e8be-e86a3aed0088",
+      "lexeme_id": "lex-en-necessity",
+      "position": 0
+    },
+    {
+      "cluster_id": "0e6fd158-bb15-5422-e8be-e86a3aed0088",
+      "lexeme_id": "lex-en-demand",
+      "position": 1
+    },
+    {
+      "cluster_id": "0e6fd158-bb15-5422-e8be-e86a3aed0088",
+      "lexeme_id": "lex-en-the-requirement",
+      "position": 2
+    },
+    {
+      "cluster_id": "0e6fd158-bb15-5422-e8be-e86a3aed0088",
+      "lexeme_id": "lex-en-prerequisite",
+      "position": 3
+    },
+    {
+      "cluster_id": "0e6fd158-bb15-5422-e8be-e86a3aed0088",
+      "lexeme_id": "lex-en-the-condition",
+      "position": 4
+    },
+    {
+      "cluster_id": "21f27459-6dd0-255d-df56-9705522fa19f",
+      "lexeme_id": "lex-en-offer",
+      "position": 0
+    },
+    {
+      "cluster_id": "21f27459-6dd0-255d-df56-9705522fa19f",
+      "lexeme_id": "lex-en-invitation",
+      "position": 1
+    },
+    {
+      "cluster_id": "21f27459-6dd0-255d-df56-9705522fa19f",
+      "lexeme_id": "lex-en-possibility",
+      "position": 2
+    },
+    {
+      "cluster_id": "21f27459-6dd0-255d-df56-9705522fa19f",
+      "lexeme_id": "lex-en-suggestion",
+      "position": 3
+    },
+    {
+      "cluster_id": "21f27459-6dd0-255d-df56-9705522fa19f",
+      "lexeme_id": "lex-en-opportunity",
+      "position": 4
+    },
+    {
+      "cluster_id": "c30c80d1-18ff-5fa1-e8ed-142e1ba23a8e",
+      "lexeme_id": "lex-en-often",
+      "position": 0
+    },
+    {
+      "cluster_id": "c30c80d1-18ff-5fa1-e8ed-142e1ba23a8e",
+      "lexeme_id": "lex-en-mostly-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "c30c80d1-18ff-5fa1-e8ed-142e1ba23a8e",
+      "lexeme_id": "lex-en-normally",
+      "position": 2
+    },
+    {
+      "cluster_id": "c30c80d1-18ff-5fa1-e8ed-142e1ba23a8e",
+      "lexeme_id": "lex-en-as-a-rule",
+      "position": 3
+    },
+    {
+      "cluster_id": "c30c80d1-18ff-5fa1-e8ed-142e1ba23a8e",
+      "lexeme_id": "1010dcf8-d4a6-a42a-5565-3a4e424e3ad6",
+      "position": 4
+    },
+    {
+      "cluster_id": "c30c80d1-18ff-5fa1-e8ed-142e1ba23a8e",
+      "lexeme_id": "lex-en-average",
+      "position": 5
+    },
+    {
+      "cluster_id": "ad3ee621-c6d9-b2aa-79b6-98033858a01b",
+      "lexeme_id": "lex-en-otherwise",
+      "position": 0
+    },
+    {
+      "cluster_id": "ad3ee621-c6d9-b2aa-79b6-98033858a01b",
+      "lexeme_id": "lex-en-otherwise-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "ac8ad750-774d-c4e4-2e8a-b022e4c7f61a",
+      "lexeme_id": "lex-en-call",
+      "position": 0
+    },
+    {
+      "cluster_id": "ac8ad750-774d-c4e4-2e8a-b022e4c7f61a",
+      "lexeme_id": "lex-en-to-reach",
+      "position": 1
+    },
+    {
+      "cluster_id": "ac8ad750-774d-c4e4-2e8a-b022e4c7f61a",
+      "lexeme_id": "lex-en-to-come",
+      "position": 2
+    },
+    {
+      "cluster_id": "3b6d9e53-86fa-03fe-ff16-10ea8de73129",
+      "lexeme_id": "f11ddb93-9fe7-aaa2-8f48-f02ef3556269",
+      "position": 0
+    },
+    {
+      "cluster_id": "3b6d9e53-86fa-03fe-ff16-10ea8de73129",
+      "lexeme_id": "lex-en-finally",
+      "position": 1
+    },
+    {
+      "cluster_id": "3b6d9e53-86fa-03fe-ff16-10ea8de73129",
+      "lexeme_id": "lex-en-in-the-end",
+      "position": 2
+    },
+    {
+      "cluster_id": "3b6d9e53-86fa-03fe-ff16-10ea8de73129",
+      "lexeme_id": "lex-en-finally-2",
+      "position": 3
+    },
+    {
+      "cluster_id": "4553bdc8-c498-e5e2-51ff-98878f7cb73d",
+      "lexeme_id": "lex-en-race",
+      "position": 0
+    },
+    {
+      "cluster_id": "4553bdc8-c498-e5e2-51ff-98878f7cb73d",
+      "lexeme_id": "lexeme-en-a2-wettbewerb",
+      "position": 1
+    },
+    {
+      "cluster_id": "220bbef1-aeb7-8f32-358d-8c373c1b7655",
+      "lexeme_id": "c9f7ab9b-bb57-4d05-2282-0508f90bb0fe",
+      "position": 0
+    },
+    {
+      "cluster_id": "220bbef1-aeb7-8f32-358d-8c373c1b7655",
+      "lexeme_id": "lex-en-clear",
+      "position": 1
+    },
+    {
+      "cluster_id": "c63a16eb-9ab3-a4b7-da4d-4e00c1d65ff0",
+      "lexeme_id": "lex-en-to-clean",
+      "position": 0
+    },
+    {
+      "cluster_id": "c63a16eb-9ab3-a4b7-da4d-4e00c1d65ff0",
+      "lexeme_id": "lex-en-to-clean-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "bed92022-1c1d-6b12-ea2f-713c9e101f5a",
+      "lexeme_id": "lexeme-en-a1-stehen-bleiben",
+      "position": 0
+    },
+    {
+      "cluster_id": "bed92022-1c1d-6b12-ea2f-713c9e101f5a",
+      "lexeme_id": "lexeme-en-a1-stillstehen",
+      "position": 1
+    },
+    {
+      "cluster_id": "5465d6c8-a77c-e7dc-e8f7-7f19be621c06",
+      "lexeme_id": "lex-en-gap",
+      "position": 0
+    },
+    {
+      "cluster_id": "5465d6c8-a77c-e7dc-e8f7-7f19be621c06",
+      "lexeme_id": "lex-en-distance",
+      "position": 1
+    },
+    {
+      "cluster_id": "30fc9ec0-87e7-b7c1-3d0a-e028b2027ecd",
+      "lexeme_id": "lex-en-by-no-means",
+      "position": 0
+    },
+    {
+      "cluster_id": "30fc9ec0-87e7-b7c1-3d0a-e028b2027ecd",
+      "lexeme_id": "lex-en-under-no-circumstances",
+      "position": 1
+    },
+    {
+      "cluster_id": "e5bc9865-69dd-c5a9-355e-b98581ecf9fd",
+      "lexeme_id": "lex-en-to-recommend",
+      "position": 0
+    },
+    {
+      "cluster_id": "e5bc9865-69dd-c5a9-355e-b98581ecf9fd",
+      "lexeme_id": "lex-en-to-suggest",
+      "position": 1
+    },
+    {
+      "cluster_id": "e095be83-dfcd-6496-a81b-b7e34f7ffa7f",
+      "lexeme_id": "lex-en-result",
+      "position": 0
+    },
+    {
+      "cluster_id": "e095be83-dfcd-6496-a81b-b7e34f7ffa7f",
+      "lexeme_id": "lex-en-solution",
+      "position": 1
+    },
+    {
+      "cluster_id": "d990162c-e4e9-856a-a76f-717124d6d5d1",
+      "lexeme_id": "lex-en-react",
+      "position": 0
+    },
+    {
+      "cluster_id": "d990162c-e4e9-856a-a76f-717124d6d5d1",
+      "lexeme_id": "lex-en-to-answer",
+      "position": 1
+    },
+    {
+      "cluster_id": "235943cc-0736-a0f8-813b-12a9a542df1a",
+      "lexeme_id": "lex-en-to-participate",
+      "position": 0
+    },
+    {
+      "cluster_id": "235943cc-0736-a0f8-813b-12a9a542df1a",
+      "lexeme_id": "lex-en-play-a-role",
+      "position": 1
+    },
+    {
+      "cluster_id": "8c7a23aa-0bff-b1d0-6dad-c5f258d51b1a",
+      "lexeme_id": "lex-en-to-avoid",
+      "position": 0
+    },
+    {
+      "cluster_id": "8c7a23aa-0bff-b1d0-6dad-c5f258d51b1a",
+      "lexeme_id": "lex-en-prevent",
+      "position": 1
+    },
+    {
+      "cluster_id": "8ed6c77d-180f-6895-a7d6-d08fa53ab4e0",
+      "lexeme_id": "lex-en-probably",
+      "position": 0
+    },
+    {
+      "cluster_id": "8ed6c77d-180f-6895-a7d6-d08fa53ab4e0",
+      "lexeme_id": "lex-en-probably-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "76f043dd-caa4-37c5-cf25-58c61173cf49",
+      "lexeme_id": "lex-en-appropriate",
+      "position": 0
+    },
+    {
+      "cluster_id": "76f043dd-caa4-37c5-cf25-58c61173cf49",
+      "lexeme_id": "lex-en-suitable",
+      "position": 1
+    },
+    {
+      "cluster_id": "c43521b9-a296-6df4-f61e-94492bdd8458",
+      "lexeme_id": "lex-en-in-the-long-run",
+      "position": 0
+    },
+    {
+      "cluster_id": "c43521b9-a296-6df4-f61e-94492bdd8458",
+      "lexeme_id": "lex-en-in-the-long-term",
+      "position": 1
+    },
+    {
+      "cluster_id": "a96760a5-1c14-0564-cc8f-a1f8d7e68c7f",
+      "lexeme_id": "lex-en-moreover",
+      "position": 0
+    },
+    {
+      "cluster_id": "a96760a5-1c14-0564-cc8f-a1f8d7e68c7f",
+      "lexeme_id": "lex-en-furthermore",
+      "position": 1
+    },
+    {
+      "cluster_id": "a96760a5-1c14-0564-cc8f-a1f8d7e68c7f",
+      "lexeme_id": "lex-en-among-other-things",
+      "position": 2
+    },
+    {
+      "cluster_id": "a96760a5-1c14-0564-cc8f-a1f8d7e68c7f",
+      "lexeme_id": "lex-en-also",
+      "position": 3
+    },
+    {
+      "cluster_id": "60319c93-2b40-2ab0-5756-eb99fbc5f8a0",
+      "lexeme_id": "lex-en-effect",
+      "position": 0
+    },
+    {
+      "cluster_id": "60319c93-2b40-2ab0-5756-eb99fbc5f8a0",
+      "lexeme_id": "lex-en-the-effect",
+      "position": 1
+    },
+    {
+      "cluster_id": "4d643b66-a04b-3eee-f61e-cbe583222c5e",
+      "lexeme_id": "lex-en-evaluate",
+      "position": 0
+    },
+    {
+      "cluster_id": "4d643b66-a04b-3eee-f61e-cbe583222c5e",
+      "lexeme_id": "lex-en-to-weigh-up",
+      "position": 1
+    },
+    {
+      "cluster_id": "4d643b66-a04b-3eee-f61e-cbe583222c5e",
+      "lexeme_id": "lex-en-to-analyse",
+      "position": 2
+    },
+    {
+      "cluster_id": "4d643b66-a04b-3eee-f61e-cbe583222c5e",
+      "lexeme_id": "lex-en-to-assess",
+      "position": 3
+    },
+    {
+      "cluster_id": "4d643b66-a04b-3eee-f61e-cbe583222c5e",
+      "lexeme_id": "lex-en-to-assess-2",
+      "position": 4
+    },
+    {
+      "cluster_id": "4d643b66-a04b-3eee-f61e-cbe583222c5e",
+      "lexeme_id": "lex-en-to-put-in-context",
+      "position": 5
+    },
+    {
+      "cluster_id": "4a8030d2-cb18-4121-a0cf-a5ea5d8c5cc2",
+      "lexeme_id": "lex-en-carry-out",
+      "position": 0
+    },
+    {
+      "cluster_id": "4a8030d2-cb18-4121-a0cf-a5ea5d8c5cc2",
+      "lexeme_id": "lex-en-implement",
+      "position": 1
+    },
+    {
+      "cluster_id": "4b7e2d5d-82c5-c09d-3cbb-cd2aaf3ef544",
+      "lexeme_id": "lex-en-to-expect",
+      "position": 0
+    },
+    {
+      "cluster_id": "4b7e2d5d-82c5-c09d-3cbb-cd2aaf3ef544",
+      "lexeme_id": "lex-en-to-require",
+      "position": 1
+    },
+    {
+      "cluster_id": "07451c31-1641-33eb-c579-7ccf03342444",
+      "lexeme_id": "lex-en-establish",
+      "position": 0
+    },
+    {
+      "cluster_id": "07451c31-1641-33eb-c579-7ccf03342444",
+      "lexeme_id": "lex-en-to-confirm",
+      "position": 1
+    },
+    {
+      "cluster_id": "464f605e-5cb5-2cd8-05a5-1bc545f619c0",
+      "lexeme_id": "lex-en-convince",
+      "position": 0
+    },
+    {
+      "cluster_id": "464f605e-5cb5-2cd8-05a5-1bc545f619c0",
+      "lexeme_id": "lex-en-to-impress",
+      "position": 1
+    },
+    {
+      "cluster_id": "99459a15-481e-bd25-5121-5862ecef2ea5",
+      "lexeme_id": "lex-en-agreement",
+      "position": 0
+    },
+    {
+      "cluster_id": "99459a15-481e-bd25-5121-5862ecef2ea5",
+      "lexeme_id": "lex-en-the-agreement",
+      "position": 1
+    },
+    {
+      "cluster_id": "99459a15-481e-bd25-5121-5862ecef2ea5",
+      "lexeme_id": "lex-en-the-compromise",
+      "position": 2
+    },
+    {
+      "cluster_id": "99459a15-481e-bd25-5121-5862ecef2ea5",
+      "lexeme_id": "lex-en-the-concession",
+      "position": 3
+    },
+    {
+      "cluster_id": "99459a15-481e-bd25-5121-5862ecef2ea5",
+      "lexeme_id": "lex-en-the-commitment",
+      "position": 4
+    },
+    {
+      "cluster_id": "24c10416-c56b-93e8-0d55-361718c3b890",
+      "lexeme_id": "lex-en-convey",
+      "position": 0
+    },
+    {
+      "cluster_id": "24c10416-c56b-93e8-0d55-361718c3b890",
+      "lexeme_id": "lex-en-send",
+      "position": 1
+    },
+    {
+      "cluster_id": "9793f0ba-1feb-5ca6-0c98-da00b32f7250",
+      "lexeme_id": "lexeme-en-b2-in-a-nutshell",
+      "position": 0
+    },
+    {
+      "cluster_id": "9793f0ba-1feb-5ca6-0c98-da00b32f7250",
+      "lexeme_id": "lex-en-to-summarize",
+      "position": 1
+    },
+    {
+      "cluster_id": "129653b1-6e43-5821-ec5f-eb391ef15310",
+      "lexeme_id": "lex-en-explicit",
+      "position": 0
+    },
+    {
+      "cluster_id": "129653b1-6e43-5821-ec5f-eb391ef15310",
+      "lexeme_id": "lex-en-unambiguous-2",
+      "position": 1
+    },
+    {
+      "cluster_id": "129653b1-6e43-5821-ec5f-eb391ef15310",
+      "lexeme_id": "lex-en-precise",
+      "position": 2
+    },
+    {
+      "cluster_id": "2b5de24e-94d5-1163-3f40-3d8bfb9cb353",
+      "lexeme_id": "lex-en-impressive",
+      "position": 0
+    },
+    {
+      "cluster_id": "2b5de24e-94d5-1163-3f40-3d8bfb9cb353",
+      "lexeme_id": "lex-en-striking",
+      "position": 1
+    },
+    {
+      "cluster_id": "a12a33bc-e09b-8c96-2039-49a33c0320e7",
+      "lexeme_id": "lex-en-resilient",
+      "position": 0
+    },
+    {
+      "cluster_id": "a12a33bc-e09b-8c96-2039-49a33c0320e7",
+      "lexeme_id": "lex-en-reliable",
+      "position": 1
+    },
+    {
+      "cluster_id": "4a05c374-89fb-5011-59f0-926befbfe4dd",
+      "lexeme_id": "lex-en-the-pressure",
+      "position": 0
+    },
+    {
+      "cluster_id": "4a05c374-89fb-5011-59f0-926befbfe4dd",
+      "lexeme_id": "lex-en-stress",
+      "position": 1
+    },
+    {
+      "cluster_id": "3b6b8fc2-00a7-33ff-3eac-0d57622fcf70",
+      "lexeme_id": "lex-en-challenging",
+      "position": 0
+    },
+    {
+      "cluster_id": "3b6b8fc2-00a7-33ff-3eac-0d57622fcf70",
+      "lexeme_id": "lexeme-en-c1-demanding",
+      "position": 1
+    },
+    {
+      "cluster_id": "0c547b10-f35a-5445-2e42-e20b7bc8b035",
+      "lexeme_id": "lex-en-to-clarify-2",
+      "position": 0
+    },
+    {
+      "cluster_id": "0c547b10-f35a-5445-2e42-e20b7bc8b035",
+      "lexeme_id": "lexeme-en-c1-elucidate",
+      "position": 1
+    },
+    {
+      "cluster_id": "0dc5fe90-716c-be3d-aaa3-2e0b7443ac6d",
+      "lexeme_id": "lex-en-to-accomplish",
+      "position": 0
+    },
+    {
+      "cluster_id": "0dc5fe90-716c-be3d-aaa3-2e0b7443ac6d",
+      "lexeme_id": "lex-en-to-provide",
+      "position": 1
+    },
+    {
+      "cluster_id": "66dacc78-7e9d-9400-3212-20bbc842a883",
+      "lexeme_id": "lex-en-robust",
+      "position": 0
+    },
+    {
+      "cluster_id": "66dacc78-7e9d-9400-3212-20bbc842a883",
+      "lexeme_id": "lex-en-high-performing",
+      "position": 1
+    },
+    {
+      "cluster_id": "db5088e5-67d0-f95f-3210-c1647ac4f520",
+      "lexeme_id": "lex-en-convincing",
+      "position": 0
+    },
+    {
+      "cluster_id": "db5088e5-67d0-f95f-3210-c1647ac4f520",
+      "lexeme_id": "lex-en-plausible",
+      "position": 1
+    },
+    {
+      "cluster_id": "db5088e5-67d0-f95f-3210-c1647ac4f520",
+      "lexeme_id": "lex-en-sound",
+      "position": 2
+    },
+    {
+      "cluster_id": "db5088e5-67d0-f95f-3210-c1647ac4f520",
+      "lexeme_id": "lex-en-justifiable",
+      "position": 3
+    },
+    {
+      "cluster_id": "db5088e5-67d0-f95f-3210-c1647ac4f520",
+      "lexeme_id": "lex-en-understandable",
+      "position": 4
+    },
+    {
+      "cluster_id": "300d6abd-b1f6-3f27-0729-584bf53b2ed4",
+      "lexeme_id": "lex-en-unclear",
+      "position": 0
+    },
+    {
+      "cluster_id": "300d6abd-b1f6-3f27-0729-584bf53b2ed4",
+      "lexeme_id": "lex-en-vague",
+      "position": 1
+    },
+    {
+      "cluster_id": "300d6abd-b1f6-3f27-0729-584bf53b2ed4",
+      "lexeme_id": "lex-en-open-to-misunderstanding",
+      "position": 2
+    },
+    {
+      "cluster_id": "9415671c-d8a1-cd51-84f4-984a6a4d89db",
+      "lexeme_id": "lex-en-to-negotiate",
+      "position": 0
+    },
+    {
+      "cluster_id": "9415671c-d8a1-cd51-84f4-984a6a4d89db",
+      "lexeme_id": "lex-en-to-hammer-out",
+      "position": 1
+    },
+    {
+      "cluster_id": "d96af742-49f7-ce08-fb1b-4fac49963a3c",
+      "lexeme_id": "lex-en-to-contradict",
+      "position": 0
+    },
+    {
+      "cluster_id": "d96af742-49f7-ce08-fb1b-4fac49963a3c",
+      "lexeme_id": "lex-en-to-refute",
+      "position": 1
+    },
+    {
+      "cluster_id": "d96af742-49f7-ce08-fb1b-4fac49963a3c",
+      "lexeme_id": "lexeme-en-c2-invalidate",
+      "position": 2
+    },
+    {
+      "cluster_id": "10b7886e-b24a-69f7-dafc-496d98af0dca",
+      "lexeme_id": "lex-en-to-be-connected",
+      "position": 0
+    },
+    {
+      "cluster_id": "10b7886e-b24a-69f7-dafc-496d98af0dca",
+      "lexeme_id": "lex-en-to-link",
+      "position": 1
+    },
+    {
+      "cluster_id": "968e0371-9f8b-e02d-6fb3-922d2d305c36",
+      "lexeme_id": "lex-en-to-derive",
+      "position": 0
+    },
+    {
+      "cluster_id": "968e0371-9f8b-e02d-6fb3-922d2d305c36",
+      "lexeme_id": "lex-en-to-deduce",
+      "position": 1
+    },
+    {
+      "cluster_id": "6035d16f-8506-8241-2b9d-de2d756c39d8",
+      "lexeme_id": "lex-en-the-assessment",
+      "position": 0
+    },
+    {
+      "cluster_id": "6035d16f-8506-8241-2b9d-de2d756c39d8",
+      "lexeme_id": "lex-en-assessment",
+      "position": 1
+    },
+    {
+      "cluster_id": "7b8e5fad-f83e-7f03-a15c-4d117add10f1",
+      "lexeme_id": "lex-en-the-inference",
+      "position": 0
+    },
+    {
+      "cluster_id": "7b8e5fad-f83e-7f03-a15c-4d117add10f1",
+      "lexeme_id": "lex-en-the-conclusion",
+      "position": 1
+    },
+    {
+      "cluster_id": "9c6364b3-9e65-690a-5049-c690d8034f5b",
+      "lexeme_id": "lex-en-the-criterion",
+      "position": 0
+    },
+    {
+      "cluster_id": "9c6364b3-9e65-690a-5049-c690d8034f5b",
+      "lexeme_id": "lex-en-the-benchmark",
+      "position": 1
+    },
+    {
+      "cluster_id": "6d08e30c-da95-b888-7610-9077fb19afdc",
+      "lexeme_id": "lex-en-structured",
+      "position": 0
+    },
+    {
+      "cluster_id": "6d08e30c-da95-b888-7610-9077fb19afdc",
+      "lexeme_id": "lex-en-systematic",
+      "position": 1
+    },
+    {
+      "cluster_id": "37d8bb0e-0751-caaa-81b7-3750cf0c792c",
+      "lexeme_id": "lex-en-groundbreaking",
+      "position": 0
+    },
+    {
+      "cluster_id": "37d8bb0e-0751-caaa-81b7-3750cf0c792c",
+      "lexeme_id": "lex-en-pioneering",
+      "position": 1
     }
   ],
   "concept_definitions": [
@@ -157817,6 +162071,26 @@
       "source": "resolved"
     },
     {
+      "relation_id": "cbd0ca97-74f0-5c3a-52a4-146d8b02fc6b",
+      "relation_type": "antonym",
+      "concept_a": "2e769167-00e6-f086-d72a-4e96521fa4ce",
+      "concept_b": "concept-b2-bewundernswert",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "acbcf227-9d20-0a93-8801-2adf9d5eb074",
+      "relation_type": "antonym",
+      "concept_a": "2e769167-00e6-f086-d72a-4e96521fa4ce",
+      "concept_b": "concept-c2-ueberragend",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "176ab2ba-b808-8e60-7168-d5baec854674",
       "relation_type": "antonym",
       "concept_a": "2e907009-86c6-df98-1b54-0446b3df23d7",
@@ -157934,6 +162208,16 @@
       "source": "resolved"
     },
     {
+      "relation_id": "823aefd6-9b1e-b1f4-63b4-cbdf554dfa54",
+      "relation_type": "antonym",
+      "concept_a": "434197ea-470c-0d8c-5882-c14d89eb9dfd",
+      "concept_b": "concept-b1-angemessen",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "16b6382c-c442-00b4-a1d8-87924066a2b6",
       "relation_type": "antonym",
       "concept_a": "44edd51b-48a3-0deb-43bb-3af582b97253",
@@ -157952,6 +162236,16 @@
         "de"
       ],
       "source": "ai"
+    },
+    {
+      "relation_id": "5dc85a63-4a95-7390-29d2-2294231af0ec",
+      "relation_type": "antonym",
+      "concept_a": "463fa707-6f6c-9519-2b0b-d2a3f612362a",
+      "concept_b": "concept-b1-teilweise",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
     },
     {
       "relation_id": "5fdf8cd6-c33a-5941-552c-a0e353e9be04",
@@ -158022,6 +162316,16 @@
       "relation_type": "antonym",
       "concept_a": "53755265-2825-a0ee-b1de-c5a680bdef75",
       "concept_b": "concept-a2-im-voraus",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "cd58bec8-e1c3-aae4-8256-7a6fb138fdc2",
+      "relation_type": "antonym",
+      "concept_a": "53755265-2825-a0ee-b1de-c5a680bdef75",
+      "concept_b": "concept-b1-zunaechst",
       "lang_scope_json": [
         "de"
       ],
@@ -158200,6 +162504,27 @@
       "source": "resolved"
     },
     {
+      "relation_id": "6712fb46-f91d-45c4-168c-5f2229b69dd1",
+      "relation_type": "antonym",
+      "concept_a": "76ddf07a-3708-809e-94da-35f0ec10678d",
+      "concept_b": "concept-a2-moeglichkeit",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "befa2516-62c5-296a-7291-397422ef84c2",
+      "relation_type": "antonym",
+      "concept_a": "772a77d1-87a2-e378-bb3b-dc8ae952ebea",
+      "concept_b": "concept-b1-kaum",
+      "lang_scope_json": [
+        "de",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
       "relation_id": "86fb4fe3-fe9c-d4e3-bdac-ffc9aba2ca95",
       "relation_type": "antonym",
       "concept_a": "79f6518e-8b4f-578e-f416-504b5f349185",
@@ -158252,6 +162577,16 @@
         "de"
       ],
       "source": "resolved"
+    },
+    {
+      "relation_id": "4ff9eb3e-65d7-b38e-b67c-c070988b1f1b",
+      "relation_type": "antonym",
+      "concept_a": "7c543f94-d74e-9ac0-b2c6-ca36a56b6c70",
+      "concept_b": "concept-b1-in-der-regel",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
     },
     {
       "relation_id": "74bdb673-bca4-c308-e850-1dd9a9e40ae6",
@@ -158390,6 +162725,16 @@
       "source": "resolved"
     },
     {
+      "relation_id": "1ff9163c-6c96-a07c-feef-3e1c5704ef16",
+      "relation_type": "antonym",
+      "concept_a": "b3378b56-2eea-7711-d47a-ac76ff43c442",
+      "concept_b": "concept-b2-missverstehen",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "1d0da0aa-3a9c-ea18-cc75-911157e2f06d",
       "relation_type": "antonym",
       "concept_a": "b3840a69-b660-0e8d-81ee-3b3284ed29ff",
@@ -158422,12 +162767,86 @@
       "source": "resolved"
     },
     {
+      "relation_id": "d6d02053-aba3-74e5-9a65-b350e7ba607c",
+      "relation_type": "antonym",
+      "concept_a": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "concept_b": "concept-b2-unklar",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "ee029a79-1710-eb73-2cf3-16a0457b4952",
+      "relation_type": "antonym",
+      "concept_a": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "concept_b": "concept-b2-vage",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "65d737da-20ff-1195-e8a3-6e7108650671",
+      "relation_type": "antonym",
+      "concept_a": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "concept_b": "concept-b2-zweideutig",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "be7f3dbb-30ae-164a-71ca-7ea72138aed9",
+      "relation_type": "antonym",
+      "concept_a": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "concept_b": "concept-c1-missverstaendlich",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "febc376a-0b37-e3a5-ed7b-d9b8b3c9ff31",
+      "relation_type": "antonym",
+      "concept_a": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "concept_b": "concept-c2-ambivalent",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "52b6e416-795a-08cd-1ffc-76ea63b30366",
       "relation_type": "antonym",
       "concept_a": "cd6bba6d-b8a8-e990-29d9-399bbf43d1ca",
       "concept_b": "edf3aabe-397b-07a2-e9e2-64b43161ff71",
       "lang_scope_json": [
         "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "21f50c74-6a79-d0cf-551c-ce527e72dc18",
+      "relation_type": "antonym",
+      "concept_a": "concept-a2-absagen",
+      "concept_b": "concept-b2-bestaetigen",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "2bd86e8a-4164-9321-79c8-dad922a6f819",
+      "relation_type": "antonym",
+      "concept_a": "concept-a2-deutlich",
+      "concept_b": "concept-b2-unklar",
+      "lang_scope_json": [
+        "de",
+        "en",
+        "it"
       ],
       "source": "resolved"
     },
@@ -158472,6 +162891,16 @@
       "source": "ai"
     },
     {
+      "relation_id": "2ddf84b2-69f8-6c6b-b6f2-3bb805e5316b",
+      "relation_type": "antonym",
+      "concept_a": "concept-a2-praktisch",
+      "concept_b": "concept-b2-abstrakt",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "13377a64-6c59-1512-b6c0-e53f429fa228",
       "relation_type": "antonym",
       "concept_a": "concept-a2-vermeiden",
@@ -158497,6 +162926,16 @@
       "concept_a": "concept-a2-vermeiden",
       "concept_b": "concept-b1-umgehen",
       "lang_scope_json": null,
+      "source": "ai"
+    },
+    {
+      "relation_id": "85464a54-d113-9a75-d5f7-4c115be8e93c",
+      "relation_type": "antonym",
+      "concept_a": "concept-a2-vorschlag",
+      "concept_b": "concept-c1-einwand",
+      "lang_scope_json": [
+        "de"
+      ],
       "source": "ai"
     },
     {
@@ -158548,6 +162987,16 @@
       "relation_type": "antonym",
       "concept_a": "concept-b1-durchfuehren",
       "concept_b": "concept-b1-verhindern",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "0c261567-df13-4983-a0d3-46f77b9a5ce0",
+      "relation_type": "antonym",
+      "concept_a": "concept-b1-durchschnittlich",
+      "concept_b": "concept-c2-ueberragend",
       "lang_scope_json": [
         "de"
       ],
@@ -158680,6 +163129,16 @@
       "source": "ai"
     },
     {
+      "relation_id": "4ae49f19-21de-cf5e-5881-907bf01580dd",
+      "relation_type": "antonym",
+      "concept_a": "concept-b2-bedeutsam",
+      "concept_b": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "12e5d51d-ffc9-512f-633a-d860e716437f",
       "relation_type": "antonym",
       "concept_a": "concept-b2-beeindruckend",
@@ -158784,10 +163243,40 @@
       "source": "ai"
     },
     {
+      "relation_id": "b90771f4-8ba4-cdaa-48c4-7870fc76075f",
+      "relation_type": "antonym",
+      "concept_a": "concept-b2-eindeutig",
+      "concept_b": "concept-c2-ambivalent",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "a4b20fd1-096a-d915-5a2b-2b27b56d54ad",
       "relation_type": "antonym",
       "concept_a": "concept-b2-einigung",
       "concept_b": "concept-b2-missverstaendnis",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "5aaa7fb4-57a3-7b3d-5fd8-2d3287543171",
+      "relation_type": "antonym",
+      "concept_a": "concept-b2-grundlegend",
+      "concept_b": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "136778dc-70a6-5fc0-af91-04d04ca42b88",
+      "relation_type": "antonym",
+      "concept_a": "concept-b2-herausfordernd",
+      "concept_b": "ec6fe4e3-fc8a-e7f0-0dcd-1bf1f7260b4a",
       "lang_scope_json": [
         "de"
       ],
@@ -158810,6 +163299,16 @@
       "relation_type": "antonym",
       "concept_a": "concept-b2-leisten-achieve",
       "concept_b": "concept-b2-scheitern",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "3fce8a7d-1464-7b8c-da72-558a7639302f",
+      "relation_type": "antonym",
+      "concept_a": "concept-b2-nennenswert",
+      "concept_b": "e57bd751-647d-7210-d0ca-f669b2915586",
       "lang_scope_json": [
         "de"
       ],
@@ -158862,6 +163361,16 @@
       "source": "ai"
     },
     {
+      "relation_id": "20171252-0a48-5557-ede9-072e42903201",
+      "relation_type": "antonym",
+      "concept_a": "concept-b2-relevant",
+      "concept_b": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "760deab1-09fa-285a-9740-b3b695988425",
       "relation_type": "antonym",
       "concept_a": "concept-b2-robust",
@@ -158870,6 +163379,16 @@
         "de",
         "en",
         "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "4b04aa78-27a5-17c7-cbd5-648d24e2d442",
+      "relation_type": "antonym",
+      "concept_a": "concept-b2-strittig",
+      "concept_b": "concept-c2-unumstritten",
+      "lang_scope_json": [
+        "de"
       ],
       "source": "ai"
     },
@@ -158900,6 +163419,17 @@
       "concept_b": "concept-b2-widersprechen",
       "lang_scope_json": [
         "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "c5a0c363-af78-bc75-4829-20168a501930",
+      "relation_type": "antonym",
+      "concept_a": "concept-b2-wesentlich",
+      "concept_b": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "lang_scope_json": [
+        "de",
+        "en"
       ],
       "source": "ai"
     },
@@ -158942,6 +163472,16 @@
       "relation_type": "antonym",
       "concept_a": "concept-c1-stichhaltig",
       "concept_b": "concept-c2-widerspruechlich",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "75735d22-7c77-93eb-3700-e6ef154ade53",
+      "relation_type": "antonym",
+      "concept_a": "concept-c1-zentral",
+      "concept_b": "e57bd751-647d-7210-d0ca-f669b2915586",
       "lang_scope_json": [
         "de"
       ],
@@ -159295,6 +163835,17 @@
       "source": "ai"
     },
     {
+      "relation_id": "c702a580-28e1-7500-1357-4d04df246dac",
+      "relation_type": "synonym",
+      "concept_a": "0bed6967-2ba5-ca39-d70b-646e23f07493",
+      "concept_b": "concept-b1-nach-wie-vor",
+      "tier": "close",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "6bb34082-25f5-83f1-dfe0-e46529299714",
       "relation_type": "synonym",
       "concept_a": "0dac5338-7ee7-54fe-72d6-a64e52cf943f",
@@ -159427,6 +163978,17 @@
       "source": "ai"
     },
     {
+      "relation_id": "f2eb46c5-f01a-fee4-3d31-aecc1c1098d6",
+      "relation_type": "synonym",
+      "concept_a": "2d050086-40f9-b407-fa9e-47ffceb49ec3",
+      "concept_b": "concept-b1-folglich",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
       "relation_id": "4644d0ec-d11c-40af-8f5b-6e7d8ae18c0b",
       "relation_type": "synonym",
       "concept_a": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
@@ -159517,6 +164079,140 @@
         "de"
       ],
       "source": "ai"
+    },
+    {
+      "relation_id": "daa2e9ef-e205-31cd-9b97-1c89eacbb89b",
+      "relation_type": "synonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "concept-b1-entscheidend",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "ef20979d-3dd5-72e6-db08-a030ec6d932e",
+      "relation_type": "synonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "concept-b2-bedeutsam",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "b0bd6310-cf7b-0885-66ce-a255dff39c46",
+      "relation_type": "synonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "concept-b2-nennenswert",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "25f3144f-6507-7c5b-e0db-897c11c48b96",
+      "relation_type": "synonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "concept-b2-relevant",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "60fed9ee-c796-8f14-8476-56abb95e6e2f",
+      "relation_type": "synonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "concept-b2-wesentlich",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "c2c97308-a9da-ed4f-9358-6c6ae7342ddb",
+      "relation_type": "synonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "concept-c1-massgeblich",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "2ad9d659-ab2b-90b7-adc2-e661128ecdd8",
+      "relation_type": "synonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "concept-c1-zentral",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "15a56952-7900-58b1-63bb-95559e706df7",
+      "relation_type": "synonym",
+      "concept_a": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
+      "concept_b": "e718be7a-3d76-3ce3-db35-35ba3b93eaa0",
+      "tier": "loose",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "4a46d094-206d-3005-e7e7-21620cd3cb68",
+      "relation_type": "synonym",
+      "concept_a": "4e503e75-ea9e-4bba-5a31-09b34df4d303",
+      "concept_b": "concept-b2-herausfordernd",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "b5a2ebf2-bfc7-92e1-3516-e1db52032928",
+      "relation_type": "synonym",
+      "concept_a": "68b4d02c-8d77-9e8b-58ca-8a06e4bcd361",
+      "concept_b": "6bdbb206-99e7-33fb-a26a-08985f3c7c79",
+      "tier": "close",
+      "lang_scope_json": [
+        "de",
+        "en"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "b934fd91-7a69-4a3a-3732-dd2d535f54d5",
+      "relation_type": "synonym",
+      "concept_a": "68b4d02c-8d77-9e8b-58ca-8a06e4bcd361",
+      "concept_b": "concept-a2-im-moment",
+      "tier": "close",
+      "lang_scope_json": [
+        "de",
+        "it"
+      ],
+      "source": "resolved"
+    },
+    {
+      "relation_id": "36a7a801-7b5e-d8d2-0db4-1f9b29a08c62",
+      "relation_type": "synonym",
+      "concept_a": "69f9cba0-70b3-6aa8-abd0-2f1cfd6229a4",
+      "concept_b": "concept-b1-herausforderung",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
     },
     {
       "relation_id": "26a931a6-8969-568a-69c5-fcbd0774d55a",
@@ -159657,6 +164353,17 @@
       "source": "ai"
     },
     {
+      "relation_id": "50aad3cc-cd8b-23f6-5174-574d5435e9ad",
+      "relation_type": "synonym",
+      "concept_a": "8c095125-c82a-103f-433f-7c32a1d70cba",
+      "concept_b": "concept-b1-regelmaessig",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "20803184-34fe-340f-6d1f-a630fe525862",
       "relation_type": "synonym",
       "concept_a": "8c095125-c82a-103f-433f-7c32a1d70cba",
@@ -159702,6 +164409,28 @@
       "source": "ai"
     },
     {
+      "relation_id": "c64e5d04-1553-d3c2-55c3-63e5f091004d",
+      "relation_type": "synonym",
+      "concept_a": "91f2e21d-1055-c502-52eb-6895fe4406c4",
+      "concept_b": "concept-b1-umfangreich",
+      "tier": "loose",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "0d28a3a5-df63-df55-6f40-2c3c4d3bfdfa",
+      "relation_type": "synonym",
+      "concept_a": "91f2e21d-1055-c502-52eb-6895fe4406c4",
+      "concept_b": "concept-b2-erheblich",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "22e63012-f599-7d96-062a-09ae3235a22c",
       "relation_type": "synonym",
       "concept_a": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
@@ -159710,6 +164439,28 @@
       "lang_scope_json": [
         "de",
         "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "a24797bd-2a02-3496-2a82-5ce46f733989",
+      "relation_type": "synonym",
+      "concept_a": "99419c2d-e802-269c-bafb-4f54f91cde4c",
+      "concept_b": "concept-a2-verdienen",
+      "tier": "loose",
+      "lang_scope_json": [
+        "it"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "27eb3cd6-403e-f61d-6771-b2e39e19ff69",
+      "relation_type": "synonym",
+      "concept_a": "99a205ca-71d1-db40-a4dd-56e7b8dda321",
+      "concept_b": "concept-b1-durchfuehren",
+      "tier": "loose",
+      "lang_scope_json": [
+        "en"
       ],
       "source": "ai"
     },
@@ -159828,6 +164579,50 @@
       "source": "resolved"
     },
     {
+      "relation_id": "7a8a6884-d92d-cbda-da40-fba1b48c0ad7",
+      "relation_type": "synonym",
+      "concept_a": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "concept_b": "concept-b2-ausdruecklich",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "456f8dbd-1b32-9e17-acb0-734a8abcdc17",
+      "relation_type": "synonym",
+      "concept_a": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "concept_b": "concept-b2-eindeutig",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "6b3ef643-32da-6ba6-2707-be2320eec002",
+      "relation_type": "synonym",
+      "concept_a": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "concept_b": "concept-b2-offensichtlich",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "755f2a50-5ffa-9b6c-604d-e63731ee04bf",
+      "relation_type": "synonym",
+      "concept_a": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "concept_b": "concept-c1-nachvollziehbar",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "b17e0d79-17b4-d447-66f7-abae4b691b94",
       "relation_type": "synonym",
       "concept_a": "concept-a1-darum",
@@ -159894,6 +164689,50 @@
       "source": "ai"
     },
     {
+      "relation_id": "095f8a50-0444-50f4-d052-6c35f8079873",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-deutlich",
+      "concept_b": "concept-b2-ausdruecklich",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "6a547aa9-2783-2afa-27e2-cf0057a3373f",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-deutlich",
+      "concept_b": "concept-b2-eindeutig",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "0ab37972-d9a7-eac9-516b-499011224f30",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-deutlich",
+      "concept_b": "concept-b2-offensichtlich",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "5450980e-a45b-96b5-7a09-4d72d36f893f",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-deutlich",
+      "concept_b": "concept-c1-nachvollziehbar",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "62645e3a-c7d4-b674-2183-62e1edb3e538",
       "relation_type": "synonym",
       "concept_a": "concept-a2-dringend",
@@ -159938,10 +164777,43 @@
       "source": "ai"
     },
     {
+      "relation_id": "ae54738e-9aae-3a1b-587e-8ccb6b398d50",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-entscheiden",
+      "concept_b": "concept-b2-festlegen",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "7c5465cf-179e-8033-ffbb-d743337819f8",
       "relation_type": "synonym",
       "concept_a": "concept-a2-ergebnis",
       "concept_b": "concept-a2-loesung",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "deb3f947-51b4-1a8c-3f84-a5a6b5094a10",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-ergebnis",
+      "concept_b": "concept-c1-schlussfolgerung",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "7e062c78-8aae-f7aa-56fe-41c53cfa69b9",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-erreichen",
+      "concept_b": "concept-b2-leisten-achieve",
       "tier": "loose",
       "lang_scope_json": [
         "de"
@@ -159997,6 +164869,17 @@
       "relation_type": "synonym",
       "concept_a": "concept-a2-teilnehmen",
       "concept_b": "concept-b1-eine-rolle-spielen",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "ef6fb152-3331-9592-5f79-be51bb3544a4",
+      "relation_type": "synonym",
+      "concept_a": "concept-a2-vergleichen",
+      "concept_b": "concept-b2-abwaegen",
       "tier": "loose",
       "lang_scope_json": [
         "de"
@@ -160070,6 +164953,17 @@
       "source": "resolved"
     },
     {
+      "relation_id": "9aafe45d-21d2-0a83-fb25-793228060f7c",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-behandeln",
+      "concept_b": "concept-c1-bewaeltigen",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "c46f08c6-6434-7268-df80-fba6dbcf2478",
       "relation_type": "synonym",
       "concept_a": "concept-b1-bewerten",
@@ -160103,6 +164997,17 @@
       "source": "ai"
     },
     {
+      "relation_id": "7acd177a-2d47-cb4f-97c9-8c1f040eb87c",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-bewerten",
+      "concept_b": "concept-c1-beurteilen",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "resolved"
+    },
+    {
       "relation_id": "f53826ca-7c00-74be-195f-b6765cc58afc",
       "relation_type": "synonym",
       "concept_a": "concept-b1-durchfuehren",
@@ -160119,6 +165024,17 @@
       "concept_a": "concept-b1-durchschnittlich",
       "concept_b": "dd649122-0105-6628-92d8-b638d43a5204",
       "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "114b51b9-abbc-66f3-2b4c-4b237d678319",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-entscheidend",
+      "concept_b": "concept-c1-massgeblich",
+      "tier": "close",
       "lang_scope_json": [
         "de"
       ],
@@ -160169,10 +165085,32 @@
       "source": "ai"
     },
     {
+      "relation_id": "4d62de09-d3fd-105f-5f05-e5aa99e22be9",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-kritik",
+      "concept_b": "concept-c1-einwand",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "f04e2cfe-a63c-1bd5-a2ff-60c22a222d1f",
       "relation_type": "synonym",
       "concept_a": "concept-b1-ueberzeugen",
       "concept_b": "concept-b2-beeindrucken",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "275ef921-57f3-c719-7289-0a9fe52ae860",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-umgehen",
+      "concept_b": "concept-c1-bewaeltigen",
       "tier": "loose",
       "lang_scope_json": [
         "de"
@@ -160235,6 +165173,17 @@
       "source": "resolved"
     },
     {
+      "relation_id": "43a037b8-b3cd-d25f-0b23-d88786aae392",
+      "relation_type": "synonym",
+      "concept_a": "concept-b1-voraussetzung",
+      "concept_b": "concept-c1-praemisse",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "ccd6ffe5-0172-0959-0cde-d882c29ec4f4",
       "relation_type": "synonym",
       "concept_a": "concept-b2-anforderung",
@@ -160250,6 +165199,17 @@
       "relation_type": "synonym",
       "concept_a": "concept-b2-auf-den-punkt-bringen",
       "concept_b": "concept-b2-zusammenfassen",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "4ecc0545-1e91-d8ef-366c-7d3482a86a5d",
+      "relation_type": "synonym",
+      "concept_a": "concept-b2-ausdauer",
+      "concept_b": "concept-c2-beharrlichkeit",
       "tier": "close",
       "lang_scope_json": [
         "de"
@@ -160317,6 +165277,17 @@
       "concept_a": "concept-b2-belastbar",
       "concept_b": "concept-b2-zuverlaessig",
       "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "a91fc118-2695-6ed3-53f0-9d95afc95e2d",
+      "relation_type": "synonym",
+      "concept_a": "concept-b2-belegen",
+      "concept_b": "concept-c2-untermauern",
+      "tier": "close",
       "lang_scope_json": [
         "de"
       ],
@@ -160422,6 +165393,17 @@
       "source": "ai"
     },
     {
+      "relation_id": "a050f1fb-735e-7634-8a69-3651785879bd",
+      "relation_type": "synonym",
+      "concept_a": "concept-b2-grundlegend",
+      "concept_b": "concept-c2-tiefgreifend",
+      "tier": "loose",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
       "relation_id": "96d930b6-d033-276f-eb51-47cc6f323e36",
       "relation_type": "synonym",
       "concept_a": "concept-b2-herausfordernd",
@@ -160459,6 +165441,17 @@
       "relation_type": "synonym",
       "concept_a": "concept-b2-leisten-achieve",
       "concept_b": "concept-c1-erbringen-provide",
+      "tier": "close",
+      "lang_scope_json": [
+        "de"
+      ],
+      "source": "ai"
+    },
+    {
+      "relation_id": "03c7e30c-ba06-e1ab-ed30-8b9ce82b323d",
+      "relation_type": "synonym",
+      "concept_a": "concept-b2-nuance",
+      "concept_b": "concept-c2-feinheit",
       "tier": "close",
       "lang_scope_json": [
         "de"

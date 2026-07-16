@@ -7,10 +7,13 @@ Concept-level lexical-content history lives in
 ## [Unreleased]
 
 - Content: flat synonym and antonym strings become a real concept graph:
-  concept_relations edges (synonym/antonym/related) with level adjacency,
-  a mutual-only automatic writer, and a human review queue for everything
-  ambiguous. CONTRACT.md documents the new optional field; consumers that
-  ignore it keep working.
+  concept_relations edges (synonym/antonym/related) with a mutual-only
+  automatic writer and a review queue for everything ambiguous. Relations
+  may span any two CEFR levels (ADR 0003): the dictionary records the
+  language, level pacing stays a consumer concern, and a wide span is an
+  editorial advisory instead of a write blocker. The full queue was
+  reviewed: the graph ships with 368 verified links. CONTRACT.md documents
+  the new optional field; consumers that ignore it keep working.
 - Content: noun plural coverage completed across A1 to C2 (German plurals
   on the lexeme, Italian and English via morphology overrides, genuine
   mass nouns marked as uncountable).

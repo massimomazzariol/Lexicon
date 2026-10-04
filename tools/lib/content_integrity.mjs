@@ -189,17 +189,17 @@ export function diagnoseCollisions(content, { excludeLangs = ['de'] } = {}) {
 // three dots across every string value (definitions, examples, notes, ...), so
 // regenerated content never reintroduces them.
 const _typographyReplacements = [
-  [/—/g, '-'], // em dash
-  [/–/g, '-'], // en dash
-  [/…/g, '...'], // ellipsis
+  [/\u2014/g, '-'], // em dash
+  [/\u2013/g, '-'], // en dash
+  [/\u2026/g, '...'], // ellipsis
 ];
 
 function _hasLongDash(value) {
   return (
     typeof value === 'string' &&
-    (value.includes('—') ||
-      value.includes('–') ||
-      value.includes('…'))
+    (value.includes('\u2014') ||
+      value.includes('\u2013') ||
+      value.includes('\u2026'))
   );
 }
 

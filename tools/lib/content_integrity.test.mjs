@@ -218,9 +218,9 @@ test('typography: em/en dashes and ellipsis are flagged and normalized everywher
     lexemes: [{ lexeme_id: 'l1', concept_id: 'c1', lang: 'de', text: 'x', is_primary: true }],
     lexeme_forms: [{ form_id: 'f1', lexeme_id: 'l1', lang: 'de', surface: 'x', tags_json: { slot_key: 'core' } }],
     concept_definitions: [
-      { concept_id: 'c1', lang: 'de', short_definition: 'a — b – c …', synonyms_json: ['x—y'] },
+      { concept_id: 'c1', lang: 'de', short_definition: 'a \u2014 b \u2013 c \u2026', synonyms_json: ['x\u2014y'] },
     ],
-    examples: [{ example_id: 'e1', concept_id: 'c1', lang: 'de', sentence: 'Er kommt — bald …' }],
+    examples: [{ example_id: 'e1', concept_id: 'c1', lang: 'de', sentence: 'Er kommt \u2014 bald \u2026' }],
   };
 
   assert.ok(diagnoseContent(content).some((i) => i.kind === 'long_dash'));

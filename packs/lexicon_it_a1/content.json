@@ -3467,9 +3467,9 @@
       "lexeme_id": "lex-en-still",
       "concept_id": "0bed6967-2ba5-ca39-d70b-646e23f07493",
       "lang": "en",
-      "text": "still (even now)",
+      "text": "still",
       "frequency_rank": null,
-      "lemma": "still (even now)",
+      "lemma": "still",
       "pos": "adv",
       "gender": "none",
       "countability": "none",
@@ -7683,9 +7683,9 @@
       "lexeme_id": "lex-it-andare-a-prendere-2",
       "concept_id": "ef8d4042-0601-42ca-3e94-d4afed72544e",
       "lang": "it",
-      "text": "andare a prendere (portare qui)",
+      "text": "andare a prendere",
       "frequency_rank": null,
-      "lemma": "andare a prendere (portare qui)",
+      "lemma": "andare a prendere",
       "pos": "verb",
       "gender": "none",
       "countability": "none",
@@ -10332,40 +10332,6 @@
       "is_active": true
     },
     {
-      "lexeme_id": "lex-en-to-know-a-person-place",
-      "concept_id": "c5163d51-2abb-04e1-8ccf-36cb1fd312a9",
-      "lang": "en",
-      "text": "to know (a person/place)",
-      "frequency_rank": null,
-      "lemma": "to know (a person/place)",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": "Translates German kennen: familiarity with a person or place, as opposed to wissen (to know a fact).",
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lex-it-conoscere-persona-o-luogo",
-      "concept_id": "c5163d51-2abb-04e1-8ccf-36cb1fd312a9",
-      "lang": "it",
-      "text": "conoscere (persona o luogo)",
-      "frequency_rank": null,
-      "lemma": "conoscere (persona o luogo)",
-      "pos": "verb",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
-      "status": "approved",
-      "notes": "Equivalent of German kennen: to know a person or place through familiarity, not factual knowledge (sapere).",
-      "is_active": true
-    },
-    {
       "lexeme_id": "lex-de-lieben",
       "concept_id": "c4313225-8e30-a2fd-4bc4-d95d4c25bd94",
       "lang": "de",
@@ -11117,9 +11083,9 @@
       "lexeme_id": "lex-it-caldo-2",
       "concept_id": "44775ff0-28a7-af91-e216-740eb9cc5583",
       "lang": "it",
-      "text": "caldo (bollente)",
+      "text": "caldo",
       "frequency_rank": null,
-      "lemma": "caldo (bollente)",
+      "lemma": "caldo",
       "pos": "adj",
       "gender": "none",
       "countability": "none",
@@ -15273,7 +15239,7 @@
       "countability": "none",
       "register": "neutral",
       "meaning_status": "exact",
-      "is_primary": false,
+      "is_primary": true,
       "status": "approved",
       "notes": "reviewed scoped support variant for kennen",
       "is_active": true
@@ -15290,7 +15256,7 @@
       "countability": "none",
       "register": "neutral",
       "meaning_status": "exact",
-      "is_primary": false,
+      "is_primary": true,
       "status": "approved",
       "notes": "reviewed scoped support variant for kennen",
       "is_active": true
@@ -15401,9 +15367,9 @@
       "lexeme_id": "lexeme-en-a1-stehen-bleiben",
       "concept_id": "concept-a1-stehen-bleiben",
       "lang": "en",
-      "text": "to stop (come to a halt)",
+      "text": "to stop",
       "frequency_rank": null,
-      "lemma": "to stop (come to a halt)",
+      "lemma": "to stop",
       "pos": "verb",
       "gender": "none",
       "countability": "none",
@@ -33855,42 +33821,6 @@
         "prefix": null,
         "stem": "kennen",
         "aux": "haben"
-      }
-    },
-    {
-      "form_id": "e6b8a7fc-f69d-956a-ccbc-cb1a7e825a3d",
-      "lexeme_id": "lex-en-to-know-a-person-place",
-      "lang": "en",
-      "surface": "to know (a person/place)",
-      "surface_search": "to know (a person/place)",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "47ba3d75-69f1-a388-e679-25b5c35d19ba",
-      "lexeme_id": "lex-it-conoscere-persona-o-luogo",
-      "lang": "it",
-      "surface": "conoscere (persona o luogo)",
-      "surface_search": "conoscere (persona o luogo)",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
       }
     },
     {
@@ -70893,10 +70823,8 @@
       "target_lang": "it",
       "unit_kind": "core_prod",
       "source_form_id": "a4bd9d65-5d2b-86d1-410d-9f81f81f6162",
-      "primary_expected_form_id": "47ba3d75-69f1-a388-e679-25b5c35d19ba",
-      "extra_expected_form_ids": [
-        "23ecfbf8-0cc9-4654-d416-ace956c88473"
-      ],
+      "primary_expected_form_id": "23ecfbf8-0cc9-4654-d416-ace956c88473",
+      "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -70907,12 +70835,12 @@
       "editor_notes": null
     },
     {
-      "study_unit_id": "835856db-656a-e1a9-da2d-8d0c4e0beba2",
+      "study_unit_id": "2b7c5e7e-de11-26c7-0cd7-103381395dbc",
       "concept_id": "c5163d51-2abb-04e1-8ccf-36cb1fd312a9",
       "source_lang": "it",
       "target_lang": "de",
       "unit_kind": "core_rec",
-      "source_form_id": "47ba3d75-69f1-a388-e679-25b5c35d19ba",
+      "source_form_id": "23ecfbf8-0cc9-4654-d416-ace956c88473",
       "primary_expected_form_id": "a4bd9d65-5d2b-86d1-410d-9f81f81f6162",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
@@ -70925,16 +70853,14 @@
       "editor_notes": null
     },
     {
-      "study_unit_id": "648df97f-0703-e4cd-5af8-085695741c7d",
+      "study_unit_id": "8ec8b1a5-8791-fbb8-17ee-2330de3993a4",
       "concept_id": "c5163d51-2abb-04e1-8ccf-36cb1fd312a9",
       "source_lang": "en",
       "target_lang": "it",
       "unit_kind": "core_prod",
-      "source_form_id": "e6b8a7fc-f69d-956a-ccbc-cb1a7e825a3d",
-      "primary_expected_form_id": "47ba3d75-69f1-a388-e679-25b5c35d19ba",
-      "extra_expected_form_ids": [
-        "23ecfbf8-0cc9-4654-d416-ace956c88473"
-      ],
+      "source_form_id": "75a20653-da68-3e62-a233-461c667f2778",
+      "primary_expected_form_id": "23ecfbf8-0cc9-4654-d416-ace956c88473",
+      "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -70945,16 +70871,14 @@
       "editor_notes": null
     },
     {
-      "study_unit_id": "9274f80d-f7a1-5bc4-fed9-6d245172d676",
+      "study_unit_id": "d37451e1-503e-2a06-8ea4-2d3a34005afa",
       "concept_id": "c5163d51-2abb-04e1-8ccf-36cb1fd312a9",
       "source_lang": "it",
       "target_lang": "en",
       "unit_kind": "core_rec",
-      "source_form_id": "47ba3d75-69f1-a388-e679-25b5c35d19ba",
-      "primary_expected_form_id": "e6b8a7fc-f69d-956a-ccbc-cb1a7e825a3d",
-      "extra_expected_form_ids": [
-        "75a20653-da68-3e62-a233-461c667f2778"
-      ],
+      "source_form_id": "23ecfbf8-0cc9-4654-d416-ace956c88473",
+      "primary_expected_form_id": "75a20653-da68-3e62-a233-461c667f2778",
+      "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -84543,7 +84467,7 @@
       "concept_id": "0bed6967-2ba5-ca39-d70b-646e23f07493",
       "lang": "en",
       "short_definition": "Shows that a state continues.",
-      "usage_note": null,
+      "usage_note": "even now",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
@@ -88431,7 +88355,7 @@
       "concept_id": "ef8d4042-0601-42ca-3e94-d4afed72544e",
       "lang": "it",
       "short_definition": "Recuperare qualcosa e portarla con sé.",
-      "usage_note": null,
+      "usage_note": "portare qui",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -90468,20 +90392,21 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "bekannt sein mit",
-        "kennenlernen"
+        "bekannt sein mit"
       ],
-      "antonyms_json": [
-        "verkennen"
-      ],
-      "antonym_policy_json": null,
+      "antonyms_json": [],
+      "antonym_policy_json": {
+        "status": "intentionally_none",
+        "reason": "No direct scalar opposite",
+        "reviewed_at": "2026-10-16"
+      },
       "hint_text": null
     },
     {
       "concept_id": "c5163d51-2abb-04e1-8ccf-36cb1fd312a9",
       "lang": "en",
       "short_definition": "To be familiar with a person or place through experience.",
-      "usage_note": null,
+      "usage_note": "a person/place",
       "context_tags_json": [],
       "source": "ai",
       "synonyms_json": [],
@@ -90493,7 +90418,7 @@
       "concept_id": "c5163d51-2abb-04e1-8ccf-36cb1fd312a9",
       "lang": "it",
       "short_definition": "Avere familiarità con una persona o un luogo.",
-      "usage_note": null,
+      "usage_note": "persona o luogo",
       "context_tags_json": [],
       "source": "ai",
       "synonyms_json": [],
@@ -91141,7 +91066,7 @@
       "concept_id": "44775ff0-28a7-af91-e216-740eb9cc5583",
       "lang": "it",
       "short_definition": "Un alto grado di calore o temperatura.",
-      "usage_note": null,
+      "usage_note": "bollente",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -92994,7 +92919,7 @@
       "concept_id": "concept-a1-stehen-bleiben",
       "lang": "en",
       "short_definition": "Ceasing to move.",
-      "usage_note": null,
+      "usage_note": "come to a halt",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],

@@ -153,7 +153,7 @@ Follow-up:
 ## DL-006 - `kennen` Is Modeled As `to know (a person/place)`
 
 Date: `2026-04-21`
-Status: `active`
+Status: `superseded by DL-013`
 
 Decision:
 - The English primary label for `kennen` is `to know (a person/place)`.
@@ -330,3 +330,32 @@ Follow-up:
 - Review Italian `in generale` (`meaning_status: "approximate"`) - the
   Italian side correctly reflects that there is no single-particle
   equivalent for the German discourse use. No change needed now.
+
+## DL-013 - No Parenthetical Qualifiers In Words
+
+Date: `2026-10-16`
+Status: `active`
+Supersedes: `DL-006`
+
+Decision:
+- A lexeme `text`, `lemma` or form `surface` is the bare word. A trailing
+  qualifier such as `(a person/place)`, `(persona o luogo)` or
+  `(in emphatic questions)` is never part of it.
+- The sense boundary stays modeled by the concept (`kennen` and `wissen`
+  remain separate concepts). The human-readable scope moves to the
+  definition's `usage_note`.
+- Where a qualified lexeme had a bare twin in the same concept and language,
+  the twin with fewer forms was dropped and the survivor kept primary status.
+
+Why:
+- Lexicon is a consumer-neutral library, not a learning tool. A word with a
+  gloss glued to it is a presentation choice of one consumer; any other
+  consumer (dictionary, search, grading) receives a word that does not exist.
+
+Impacts:
+- 25 lexemes in `packs/lexicon_source/content.json` (22 renamed, 3 dropped
+  with their forms), qualifiers moved to `usage_note`
+- `text` values in five `packs/templates/` files
+- `tools/pipeline/reviewed_semantic_boundaries.test.mjs` now fails on any
+  parenthesis in a lexeme text, lemma or form surface
+- `tools/scripts/draft_from_wishlist.mjs` rejects drafts with one

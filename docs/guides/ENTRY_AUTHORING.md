@@ -163,8 +163,10 @@ Reviewed boundary examples:
 - keep `il mattino` / `la mattina` together, but keep `il giorno` /
   `la giornata`, `la notte` / `la nottata`, `la sera` / `la serata`, and
   `l'anno` / `l'annata` separate by default
-- when cross-language scope matters, label it explicitly, for example
-  `to know (a person/place)` instead of a bare `know`
+- when cross-language scope matters, keep the senses as separate concepts and
+  write the scope in `usage_note` (for example `to know` with
+  `usage_note: "a person/place"`); never put a parenthetical qualifier in
+  `text` (LEXICAL_RULES principle 7, DL-013)
 - if the broader English form must still be accepted, keep it as a reviewed
   secondary lexeme, not as the primary label
 - do not flatten higher-register or higher-level words into A1 support:

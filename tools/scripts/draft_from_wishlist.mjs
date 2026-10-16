@@ -438,6 +438,8 @@ function validateDraft(r) {
     const text = str(lex?.text).trim();
     if (!text) issues.push(`${lang}.text empty`);
     else if (ARTICLES_BY_LANG[lang].includes(normalizeSearch(text))) issues.push(`${lang}.text is just an article ("${text}")`);
+    // DL-013: the word is bare; a sense qualifier belongs in the usage note.
+    if (/[()]/.test(text)) issues.push(`${lang}.text has a parenthetical qualifier ("${text}")`);
     if (!str(lex?.lemma).trim()) issues.push(`${lang}.lemma empty`);
     if (/_/.test(lex?.lemma ?? '')) issues.push(`${lang}.lemma has underscore`);
   }

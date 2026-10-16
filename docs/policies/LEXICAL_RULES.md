@@ -42,6 +42,16 @@ wrong or incomplete.
 4. Formatting-only transformations are not lexical variants.
 5. Polysemous or confusable forms must not be auto-promoted as support for one
    meaning without review.
+6. Lexicon is a consumer-neutral library, not a learning tool. It describes
+   words the way a dictionary does; how a consumer teaches, quizzes or grades
+   them is the consumer's business, never encoded in the data.
+7. A lexeme `text`, `lemma` or form `surface` is the bare word, exactly as a
+   dictionary prints it. It never carries a parenthetical qualifier such as
+   `to know (a person/place)` or `conoscere (persona o luogo)`. A sense
+   boundary is modeled by the concept itself; the human-readable scope goes in
+   the definition or `usage_note` (DL-013). A test in
+   `tools/pipeline/reviewed_semantic_boundaries.test.mjs` fails the build on
+   any parenthesis in a lexeme text, lemma or form surface.
 
 ## Decision Ladder
 
@@ -212,12 +222,14 @@ experiential, eventive, or otherwise more specific reading.
 ## Cross-Language Scoping
 
 When one language collapses meanings that another language keeps separate,
-scope the label explicitly instead of accepting a broad generic shortcut.
+keep the meanings as separate concepts instead of accepting a broad generic
+shortcut. The scope is written in the definition or `usage_note`, never in
+the word itself (principle 7).
 
 Example:
 
-- `to know` (scoped to familiarity with a person or place)
-- `conoscere` (scoped to familiarity with a person or place)
+- `to know` with `usage_note: "a person/place"` (concept `kennen`)
+- `conoscere` with `usage_note: "persona o luogo"` (concept `kennen`)
 
 Do not silently treat bare `know` as safe support if the course also needs a
 separate branch for `sapere`.

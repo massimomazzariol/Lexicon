@@ -11,14 +11,14 @@
     "concept_id": "2e15a945-9821-6cd1-ef18-663740b7bee6",
     "pos": "adv",
     "translations": {
-      "en": { "lexeme_id": "lex-en-at-least", "text": "at least (concession)", "lemma": "at least" }
+      "en": { "lexeme_id": "lex-en-at-least", "text": "at least", "lemma": "at least" }
     }
   },
   {
     "concept_id": "concept-b1-immerhin",
     "pos": "adv",
     "translations": {
-      "en": { "lexeme_id": "lex-en-at-least-3", "text": "at least (better than nothing)", "lemma": "at least" },
+      "en": { "lexeme_id": "lex-en-at-least-3", "text": "at least", "lemma": "at least" },
       "it": { "lexeme_id": "lex-it-almeno-3", "text": "se non altro", "lemma": "se non altro" }
     }
   },
@@ -26,7 +26,7 @@
     "concept_id": "0bed6967-2ba5-ca39-d70b-646e23f07493",
     "pos": "adv",
     "translations": {
-      "en": { "lexeme_id": "lex-en-still", "text": "still (even now)", "lemma": "still" },
+      "en": { "lexeme_id": "lex-en-still", "text": "still", "lemma": "still" },
       "it": { "lexeme_id": "lex-it-ancora", "text": "ancora adesso", "lemma": "ancora adesso" }
     }
   },
@@ -34,7 +34,7 @@
     "concept_id": "concept-b1-nach-wie-vor",
     "pos": "chunk",
     "translations": {
-      "en": { "lexeme_id": "lex-en-still-3", "text": "still (as before)", "lemma": "still" },
+      "en": { "lexeme_id": "lex-en-still-3", "text": "still", "lemma": "still" },
       "it": { "lexeme_id": "lex-it-ancora-3", "text": "tuttora", "lemma": "tuttora" }
     }
   },
@@ -77,36 +77,36 @@
     "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
     "pos": "verb",
     "translations": {
-      "en": { "lexeme_id": "lex-en-pick-up", "text": "to pick up (collect)", "lemma": "pick up" },
-      "it": { "lexeme_id": "lex-it-andare-a-prendere", "text": "andare a prendere (ritirare)", "lemma": "andare a prendere" }
+      "en": { "lexeme_id": "lex-en-pick-up", "text": "to pick up", "lemma": "pick up" },
+      "it": { "lexeme_id": "lex-it-andare-a-prendere", "text": "andare a prendere", "lemma": "andare a prendere" }
     }
   },
   {
     "concept_id": "ef8d4042-0601-42ca-3e94-d4afed72544e",
     "pos": "verb",
     "translations": {
-      "it": { "lexeme_id": "lex-it-andare-a-prendere-2", "text": "andare a prendere (portare qui)", "lemma": "andare a prendere" }
+      "it": { "lexeme_id": "lex-it-andare-a-prendere-2", "text": "andare a prendere", "lemma": "andare a prendere" }
     }
   },
   {
     "concept_id": "23f3cd66-40a2-652f-205a-7557f2a9e950",
     "pos": "verb",
     "translations": {
-      "en": { "lexeme_id": "lex-en-stop", "text": "to stop (doing something)", "lemma": "stop" }
+      "en": { "lexeme_id": "lex-en-stop", "text": "to stop", "lemma": "stop" }
     }
   },
   {
     "concept_id": "concept-a1-stehen-bleiben",
     "pos": "verb",
     "translations": {
-      "en": { "lexeme_id": "lexeme-en-a1-stehen-bleiben", "text": "to stop (come to a halt)", "lemma": "stop" }
+      "en": { "lexeme_id": "lexeme-en-a1-stehen-bleiben", "text": "to stop", "lemma": "stop" }
     }
   },
   {
     "concept_id": "44775ff0-28a7-af91-e216-740eb9cc5583",
     "pos": "adj",
     "translations": {
-      "it": { "lexeme_id": "lex-it-caldo-2", "text": "caldo (bollente)", "lemma": "caldo" }
+      "it": { "lexeme_id": "lex-it-caldo-2", "text": "caldo", "lemma": "caldo" }
     }
   },
   {
@@ -128,8 +128,8 @@
     "concept_id": "concept-b2-wohl-probability",
     "pos": "adv",
     "translations": {
-      "en": { "lexeme_id": "lex-en-probably-3", "text": "probably (I suppose)", "lemma": "probably" },
-      "it": { "lexeme_id": "lex-it-probabilmente-3", "text": "probabilmente (direi)", "lemma": "probabilmente" }
+      "en": { "lexeme_id": "lex-en-probably-3", "text": "probably", "lemma": "probably" },
+      "it": { "lexeme_id": "lex-it-probabilmente-3", "text": "probabilmente", "lemma": "probabilmente" }
     }
   },
   {
@@ -167,15 +167,15 @@
     "pos": "verb",
     "translations": {
       "en": { "lexeme_id": "lex-en-to-assess", "text": "to gauge", "lemma": "gauge" },
-      "it": { "lexeme_id": "lex-it-valutare-2", "text": "valutare (stimare)", "lemma": "valutare" }
+      "it": { "lexeme_id": "lex-it-valutare-2", "text": "valutare", "lemma": "valutare" }
     }
   },
   {
     "concept_id": "concept-b2-verantwortungsvoll",
     "pos": "adj",
     "translations": {
-      "en": { "lexeme_id": "lex-en-responsible-2", "text": "responsible (conscientious)", "lemma": "responsible" },
-      "it": { "lexeme_id": "lex-it-responsabile-2", "text": "responsabile (coscienzioso)", "lemma": "responsabile" }
+      "en": { "lexeme_id": "lex-en-responsible-2", "text": "responsible", "lemma": "responsible" },
+      "it": { "lexeme_id": "lex-it-responsabile-2", "text": "responsabile", "lemma": "responsabile" }
     }
   },
   {
@@ -189,15 +189,15 @@
     "concept_id": "concept-a2-abstand",
     "pos": "noun",
     "translations": {
-      "it": { "lexeme_id": "lex-it-distanza", "text": "la distanza (intervallo)", "lemma": "distanza" }
+      "it": { "lexeme_id": "lex-it-distanza", "text": "la distanza", "lemma": "distanza" }
     }
   },
   {
     "concept_id": "concept-a2-reinigen",
     "pos": "verb",
     "translations": {
-      "en": { "lexeme_id": "lex-en-to-clean-2", "text": "to clean (thoroughly)", "lemma": "clean" },
-      "it": { "lexeme_id": "lex-it-pulire-2", "text": "pulire (a fondo)", "lemma": "pulire" }
+      "en": { "lexeme_id": "lex-en-to-clean-2", "text": "to clean", "lemma": "clean" },
+      "it": { "lexeme_id": "lex-it-pulire-2", "text": "pulire", "lemma": "pulire" }
     }
   },
   {
@@ -220,7 +220,7 @@
     "pos": "noun",
     "translations": {
       "en": { "lexeme_id": "lex-en-assessment", "text": "the estimation", "lemma": "estimation" },
-      "it": { "lexeme_id": "lex-it-valutazione", "text": "la stima (valutazione)", "lemma": "stima" }
+      "it": { "lexeme_id": "lex-it-valutazione", "text": "la stima", "lemma": "stima" }
     }
   },
   {

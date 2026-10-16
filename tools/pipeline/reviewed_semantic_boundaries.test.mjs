@@ -101,8 +101,9 @@ test('reviewed semantic boundaries stay explicit in the source pack', () => {
     'c5163d51-2abb-04e1-8ccf-36cb1fd312a9',
     'en',
   );
-  assert.equal(kennenEnglish.includes('to know (a person/place)'), true);
-  assert.equal(kennenEnglish.includes('to know'), true);
+  // DL-013: the sense boundary lives in the concept and its usage note, never
+  // in the lexeme text.
+  assert.deepEqual(kennenEnglish, ['to know']);
   assert.equal(kennenEnglish.includes('to be familiar with'), false);
 
   const kennenItalian = conceptTextsByLang(
@@ -110,8 +111,14 @@ test('reviewed semantic boundaries stay explicit in the source pack', () => {
     'c5163d51-2abb-04e1-8ccf-36cb1fd312a9',
     'it',
   );
-  assert.equal(kennenItalian.includes('conoscere (persona o luogo)'), true);
-  assert.equal(kennenItalian.includes('conoscere'), true);
+  assert.deepEqual(kennenItalian, ['conoscere']);
+  const kennenNotes = Object.fromEntries(
+    (data.concept_definitions || [])
+      .filter((d) => d.concept_id === 'c5163d51-2abb-04e1-8ccf-36cb1fd312a9')
+      .map((d) => [d.lang, d.usage_note]),
+  );
+  assert.equal(kennenNotes.en, 'a person/place');
+  assert.equal(kennenNotes.it, 'persona o luogo');
 
   const wissenEnglish = conceptTextsByLang(
     data,
@@ -173,14 +180,30 @@ test('reviewed semantic boundaries stay explicit in the source pack', () => {
     'concept-a2-ueberhaupt-emphatic-question',
     'en',
   );
-  assert.deepEqual(ueberhauptQuestionEnglish, ['even (in emphatic questions)']);
+  assert.deepEqual(ueberhauptQuestionEnglish, ['even']);
 
   const ueberhauptQuestionItalian = conceptTextsByLang(
     data,
     'concept-a2-ueberhaupt-emphatic-question',
     'it',
   );
-  assert.deepEqual(ueberhauptQuestionItalian, ['poi (in domande enfatiche)']);
+  assert.deepEqual(ueberhauptQuestionItalian, ['poi']);
+});
+
+// DL-013: Lexicon is a consumer-neutral library. A lexeme text or form
+// surface is the bare word as a dictionary prints it; qualifiers such as
+// "(a person/place)" belong in usage_note / definitions, never in the word.
+test('no lexeme text, lemma or form surface carries a parenthetical qualifier', () => {
+  const data = readJson('packs/lexicon_source/content.json');
+  const offenders = [
+    ...(data.lexemes || [])
+      .filter((l) => /[()]/.test(l.text) || /[()]/.test(l.lemma ?? ''))
+      .map((l) => `lexeme ${l.lexeme_id}: ${l.text}`),
+    ...(data.lexeme_forms || [])
+      .filter((f) => /[()]/.test(f.surface))
+      .map((f) => `form ${f.form_id}: ${f.surface}`),
+  ];
+  assert.deepEqual(offenders, []);
 });
 
 test('reviewed templates and support waves match the same semantic boundaries', () => {
@@ -246,9 +269,10 @@ test('reviewed templates and support waves match the same semantic boundaries', 
   assert.equal(Object.hasOwn(bauchLegacy.translations.it, 'aliases'), false);
 
   const kennen = findEntry(batch17, 'core_verb_kennen');
-  assert.equal(kennen.translations.en.text, 'to know (a person/place)');
-  assert.deepEqual(kennen.translations.en.aliases, ['to know']);
-  assert.deepEqual(kennen.translations.it.aliases, ['conoscere']);
+  assert.equal(kennen.translations.en.text, 'to know');
+  assert.equal(kennen.translations.en.usage_note, 'a person/place');
+  assert.equal(kennen.translations.it.text, 'conoscere');
+  assert.equal(kennen.translations.it.usage_note, 'persona o luogo');
 
   const fahren = findEntry(batch18, 'core_verb_fahren');
   assert.equal(Object.hasOwn(fahren.translations.en, 'aliases'), false);
@@ -289,14 +313,8 @@ test('reviewed templates and support waves match the same semantic boundaries', 
     'ueberhaupt_emphatic_question',
   );
   assert.equal(ueberhauptQuestion.translations.de.text, 'überhaupt');
-  assert.equal(
-    ueberhauptQuestion.translations.it.text,
-    'poi (in domande enfatiche)',
-  );
-  assert.equal(
-    ueberhauptQuestion.translations.en.text,
-    'even (in emphatic questions)',
-  );
+  assert.equal(ueberhauptQuestion.translations.it.text, 'poi');
+  assert.equal(ueberhauptQuestion.translations.en.text, 'even');
 
   assert.equal(
     supportWave01.some(

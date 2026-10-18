@@ -211,7 +211,13 @@ pnpm node tools/pipeline/build_lexicon_distribution.mjs \
 
 ## Node Verification
 
-Run the most important Node-side checks:
+Run every tooling test (the same set CI runs):
+
+```bash
+pnpm test
+```
+
+Or run single checks:
 
 ```bash
 node --test tools/lib/related_word_guardrails.test.mjs

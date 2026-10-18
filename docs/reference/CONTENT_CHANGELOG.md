@@ -32,6 +32,12 @@ language (e.g. `einfach`, `überhaupt`, `Spitze`, `doch`; `la distanza`,
 `tra due luoghi`, `a person or place`. Editorial `usage_note` values are
 unchanged.
 
+## 2026-10-16 - Bare words, qualifiers move to usage notes (DL-013)
+
+Word fields hold the plain word only. Parenthetical qualifiers such as
+`to know (a person/place)` moved into the concept's `usage_note`, so every
+lexeme text is something a learner can type as an answer.
+
 ## 2026-07-16 - Graph review pass: 207 reviewed links join the concept graph
 
 All 346 queued word-link pairs were reviewed: 207 became edges (synonym,

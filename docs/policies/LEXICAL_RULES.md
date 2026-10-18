@@ -369,6 +369,68 @@ If a lexeme has `meaning_status: "exact"` but:
 
 ...then it should be downgraded to `approximate` or `functional`.
 
+## Sense Indicators
+
+When one word belongs to several concepts (German `einfach`: easy, just,
+one-way, plain), a reader needs to see at a glance which meaning is meant.
+`concept_definitions[].sense_indicator` carries that cue (DL-014).
+
+### Rules
+
+- Required for every concept that shares an active surface form with another
+  concept in any language, in every language the concept has a definition
+  row for.
+- Written in the row's language, 2-5 words, plain text: no brackets, no
+  semicolons, no concept ids, no editorial cross references.
+- Never contains the concept's own word in that language ("la distanza" is
+  not explained with "distanza").
+- Concepts that share a word have distinct labels in every language.
+- Prefer a short paraphrase or a typical context noun over a domain label:
+  `Fahrkarte, nur hin` (context + meaning), `nicht schwer` (paraphrase).
+  Avoid negating a sibling sense ("nicht leicht"): say what the sense is.
+- `usage_note` stays the editorial scope note; it is not the reader-facing
+  label.
+
+Checked automatically by `tools/lib/sense_indicators.test.mjs` (format,
+completeness, own-word repetition, distinctness). Whether the label really
+separates the senses is a human review.
+
+### What the lexicon does not decide
+
+- Which language a consumer shows the label in.
+- Whether a label gives away an answer in a given language pair (a label in
+  German can contain a German answer when a consumer asks Italian -> German).
+  That check depends on the direction and belongs to the consumer.
+
+### Sources
+
+The field follows established lexicographic practice:
+
+- Oxford bilingual dictionaries call these cues "sense indicators":
+  <https://india.oup.com/product/oxford-beginners-french-dictionary-9780198701910/>
+- Collins combines paraphrases with collocators for `einfach` (e.g. a ticket
+  context for "single"):
+  <https://www.collinsdictionary.com/us/dictionary/german-english/einfach>
+- PONS uses synonym-style sense headings:
+  <https://de.pons.com/übersetzung/deutsch-englisch/einfachen>
+- Langenscheidt separates senses by domain and typical companion words:
+  <https://en.langenscheidt.com/german-english/einfach>
+- Wiktionary names a short sense description a "sense gloss", distinct from
+  usage labels: <https://en.wiktionary.org/wiki/Template:sense>
+- TEI separates domain, collocation and sense-choice hints:
+  <https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-usg.html>
+- OntoLex-Lexicog models short explanations as language-tagged definitions:
+  <https://www.w3.org/2019/09/lexicog/>
+- Bilingual dictionaries guide users with source-language "meaning
+  indicators" and synonym-based indicators work better than subject labels
+  (DeCesaris, Universitat Pompeu Fabra):
+  <https://www.upf.edu/documents/2775284/0/dsna+georgia+2013-.pdf/06f9780e-d4a4-46d0-a844-a7360b822ab9>
+- Equivalent differentiation in bilingual dictionaries (Vrbinc, ELOPE 2011):
+  <https://journals.uni-lj.si/elope/article/view/3241>
+
+Consulted with Codex (gpt-6.1-sol) on 2026-10-17 for the field name and
+shape; the recommendation matched the sources above.
+
 ## Tooling Consequences
 
 The current toolchain enforces part of this policy:

@@ -23,6 +23,15 @@ The goal is to keep content history concept-first and language-neutral.
 Entries should describe meanings and cross-language lexicalizations, not treat
 one language as the owner of the change.
 
+## 2026-10-17 - Sense indicators for shared words (DL-014)
+
+The 50 concepts whose word is shared with another concept in at least one
+language (e.g. `einfach`, `überhaupt`, `Spitze`, `doch`; `la distanza`,
+`pulire`, `caldo`; `still`, `at least`, `to know`) now carry a short
+`sense_indicator` in de, en and it: 150 labels such as `Fahrkarte, nur hin`,
+`tra due luoghi`, `a person or place`. Editorial `usage_note` values are
+unchanged.
+
 ## 2026-07-16 - Graph review pass: 207 reviewed links join the concept graph
 
 All 346 queued word-link pairs were reviewed: 207 became edges (synonym,

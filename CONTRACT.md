@@ -131,6 +131,13 @@ fields:
   `"close"`. The primary translation is always `exact`. Keys are answer strings
   (they may be other concepts' words or free phrases), not lexeme ids.
 
+- `concept_definitions[].sense_indicator` - a short label (2-5 words, the
+  row's language, plain text) naming which meaning a concept has when its
+  word is shared with other concepts (DL-014). Present on every concept that
+  shares an active surface form; absent elsewhere. Consumers decide where and
+  in which language to show it, and must check themselves whether it would
+  reveal an answer in their language pair.
+
 - `concepts[].metadata_json.image_url` - optional illustration path for a
   concept (e.g. `/images/run_verb.jpg`). The distribution does not ship image
   assets yet: the path is a stable identifier a consumer MAY resolve against

@@ -359,3 +359,49 @@ Impacts:
 - `tools/pipeline/reviewed_semantic_boundaries.test.mjs` now fails on any
   parenthesis in a lexeme text, lemma or form surface
 - `tools/scripts/draft_from_wishlist.mjs` rejects drafts with one
+
+## DL-014 - Sense Indicators For Words Shared By Several Concepts
+
+Date: `2026-10-17`
+Status: `active`
+
+Decision:
+- `concept_definitions[].sense_indicator` is a new optional field: a short
+  label, in the row's language, that says which meaning a word has when the
+  same word belongs to several concepts (`einfach`: `nicht schwer`,
+  `Fahrkarte, nur hin`, `Lebensstil, ohne Luxus`, `ohne Weiteres`).
+- Every concept that shares an active surface form with another concept, in
+  any language, carries one in every language it has a definition row for.
+- Rules (checked by `tools/lib/sense_indicators.test.mjs`): at most 5 words,
+  plain text, no brackets, semicolons or internal ids; it never contains the
+  concept's own word in that language; concepts that share a word have
+  distinct labels in every language.
+- `usage_note` stays editorial (scope notes for authors, cross references);
+  it is not shown to readers as a sense label.
+
+Why:
+- A reader of a shared word cannot tell the senses apart by the word alone.
+  Bilingual dictionaries solve this with short "sense indicators" (Oxford),
+  paraphrase and collocator labels (Collins, PONS, Langenscheidt). The
+  existing `usage_note` values were written for editors and are unusable as
+  a reader-facing cue.
+- Sources and the full rule set: `docs/policies/LEXICAL_RULES.md`, section
+  "Sense Indicators".
+
+Impacts:
+- 150 rows in `packs/lexicon_source/content.json` (50 concepts x de/en/it)
+- `CONTRACT.md` lists the optional field
+- Which language a consumer shows, and whether a label would give away an
+  answer in a given language pair, is the consumer's decision: a neutral
+  lexicon cannot know which language supplies the answer.
+
+Follow-up:
+- New concepts that create a shared word need their labels in the same
+  change; the source test fails otherwise.
+- Reviewed by Codex (gpt-6.1-sol) on 2026-10-17: 21 labels rewritten (less
+  ambiguous, simpler for the concept's level, no idioms). Open content
+  question from that review: the three English `still` concepts
+  (`immer noch`, `noch`, `nach wie vor`) overlap in meaning; labels alone
+  cannot make them distinct senses. The pairs `pulire`/`clean`, `valutare`
+  and `probabilmente`/`probably` differ by tendency, not by exclusive meaning.
+  Both need a concept-boundary review, not a label fix.

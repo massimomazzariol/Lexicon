@@ -2,6 +2,7 @@
   "name": "lexicon-tools",
   "private": true,
   "scripts": {
+    "test": "node --test \"tools/**/*.test.mjs\"",
     "pipeline": "node tools/pipeline/run_pack_pipeline.mjs --with-forms",
     "pipeline:dry": "node tools/pipeline/run_pack_pipeline.mjs --with-forms --dry-run",
     "rebuild": "node tools/pipeline/rebuild_runtime_packs.mjs",

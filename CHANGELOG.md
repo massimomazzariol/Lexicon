@@ -4,6 +4,23 @@ All notable changes to this repository will be documented in this file.
 Concept-level lexical-content history lives in
 `docs/reference/CONTENT_CHANGELOG.md`.
 
+## [0.4.0] - 2026-10-18
+
+- Content: words are bare text only (DL-013). Parenthetical qualifiers such
+  as `to know (a person/place)` left the word fields; the scope now lives in
+  `usage_note`, so a consumer can grade the plain word.
+- Content: the 50 concepts that share a word with another concept carry a
+  short `sense_indicator` in de, en and it (DL-014, 150 labels).
+  CONTRACT.md documents the new optional field; consumers that ignore it
+  keep working.
+- CI and docs: the staging branch runs CI, and RELEASING documents the
+  stable and prerelease channels.
+- Tooling: `pnpm test` runs every tooling test, the same set CI runs.
+- Docs: a shorter README with a quick start for authors.
+- Docs: consumer-neutral wording across tooling, docs and the console asset;
+  repository URL in NOTICE; no em dash, en dash or ellipsis characters in
+  the integrity tooling.
+
 ## [0.3.0] - 2026-07-16
 
 - Content: flat synonym and antonym strings become a real concept graph:

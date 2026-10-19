@@ -3197,6 +3197,23 @@
       "status": "approved",
       "notes": null,
       "is_active": true
+    },
+    {
+      "lexeme_id": "lex-en-concise",
+      "concept_id": "concept-c2-praegnant",
+      "lang": "en",
+      "text": "concise",
+      "frequency_rank": null,
+      "lemma": "concise",
+      "pos": "adj",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
     }
   ],
   "lexeme_forms": [
@@ -7811,6 +7828,24 @@
       "tags_json": {
         "slot_key": "core"
       }
+    },
+    {
+      "form_id": "76bab7a4-3fb0-c661-7f3a-7a43b028b064",
+      "lexeme_id": "lex-en-concise",
+      "lang": "en",
+      "surface": "concise",
+      "surface_search": "concise",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
     }
   ],
   "study_units": [
@@ -9508,7 +9543,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "009637c8-a3a5-bf2b-0fe4-8605d559f728",
       "primary_expected_form_id": "89439e80-fe61-1229-0605-b741a13e596e",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "76bab7a4-3fb0-c661-7f3a-7a43b028b064"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -14671,6 +14708,246 @@
       "sentence": "Der Vorschlag ist ohne Wenn und Aber falsch.",
       "translation_lang": null,
       "translation_text": null
+    },
+    {
+      "example_id": "4bbcb113-2cf6-41fa-be2e-4fce5d098165",
+      "concept_id": "concept-c2-praedominant",
+      "lang": "de",
+      "sentence": "In diesem Wald gibt es fast nur Buchen, andere Bäume sind selten.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "c9f42c38-a578-8808-b768-b58b066a5af3",
+      "concept_id": "concept-c2-gratwanderung",
+      "lang": "it",
+      "sentence": "Tra lavoro e figli piccoli, ogni giornata è come camminare su una fune.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "fe7f71e0-fc14-3e77-2c6b-01e5a58ee458",
+      "concept_id": "concept-c2-inbegriff",
+      "lang": "it",
+      "sentence": "Per molti, la pizza napoletana rappresenta l'Italia in un solo piatto.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "27382190-40e5-7a76-ea09-6bcd7b97983a",
+      "concept_id": "concept-c2-tragweite",
+      "lang": "it",
+      "sentence": "Solo anni dopo si è capito quanto fossero gravi le conseguenze di quella decisione.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "ef2e03ce-a525-ce3f-0919-d76aa4b27dca",
+      "concept_id": "concept-c2-unabdingbar",
+      "lang": "it",
+      "sentence": "Per questo lavoro, senza l'inglese non si va da nessuna parte.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "09b92f3e-8126-62e3-8fd8-677096139543",
+      "concept_id": "concept-c2-stringent",
+      "lang": "it",
+      "sentence": "Il suo ragionamento è così logico che non c'è un punto debole.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "5fc4e78f-f5e9-71e3-8d62-324939ce65b0",
+      "concept_id": "concept-c2-kohaerent",
+      "lang": "it",
+      "sentence": "Il racconto non ha contraddizioni: ogni parte si collega alla precedente.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "7efd0de0-21d8-90b9-e5e7-f8296c95f6c7",
+      "concept_id": "concept-c2-eloquent",
+      "lang": "it",
+      "sentence": "Quando parla in pubblico, l'avvocata convince tutti con poche parole scelte bene.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "aa669192-b513-1c1d-928f-dc6d6063efae",
+      "concept_id": "concept-c2-subtil",
+      "lang": "it",
+      "sentence": "Tra le due versioni c'è una differenza che si nota solo guardando con attenzione.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "202167de-bbe0-def6-7f6e-f6f2c9a29eba",
+      "concept_id": "concept-c2-vielschichtig",
+      "lang": "it",
+      "sentence": "Il personaggio del romanzo è buono e cattivo, debole e forte allo stesso tempo.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "d39aabff-bb59-c770-01a3-55328641a4fb",
+      "concept_id": "concept-c2-befangen",
+      "lang": "it",
+      "sentence": "Non ha ancora ascoltato il nuovo collega, ma lo considera già incapace.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "789e2c0d-a5a3-6390-5a04-7d3b3f313c90",
+      "concept_id": "concept-c2-rueckblickend",
+      "lang": "it",
+      "sentence": "Oggi so che quella scelta era sbagliata, ma allora non potevo saperlo.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "3c5f49bc-7131-317d-b2dc-f0044fffe9de",
+      "concept_id": "concept-c2-diskrepanz",
+      "lang": "it",
+      "sentence": "Il conto dice 50 euro, ma lo scontrino ne mostra 35.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "957e2799-afa7-cd24-149d-95de59bb1278",
+      "concept_id": "concept-c2-zwickmuehle",
+      "lang": "it",
+      "sentence": "Se resto perdo il lavoro, se parto perdo gli amici: non so cosa fare.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "9ffd18e8-0234-565a-a734-1ef3b8a2a514",
+      "concept_id": "concept-c2-zwiespalt",
+      "lang": "it",
+      "sentence": "Una parte di lui vuole partire, l'altra vuole restare.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "357e509c-bdd6-9fbd-2724-c51bf35e3f0d",
+      "concept_id": "concept-c2-konsens",
+      "lang": "it",
+      "sentence": "Dopo lunghe discussioni, tutti nel gruppo sono finalmente d'accordo.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "d4a197b0-099c-f7a0-efc6-efb817897770",
+      "concept_id": "concept-c2-trugschluss",
+      "lang": "it",
+      "sentence": "Ha piovuto dopo che ho lavato la macchina, quindi lavarla fa piovere: un ragionamento sbagliato.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "51fba680-9c43-a33e-24c2-2eed214ba840",
+      "concept_id": "concept-c2-paradebeispiel",
+      "lang": "it",
+      "sentence": "Questo ponte dimostra alla perfezione quanto fossero bravi gli ingegneri romani.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f7b194c0-cb2b-f552-8e2d-4f50fc6491a3",
+      "concept_id": "concept-c2-zaesur",
+      "lang": "it",
+      "sentence": "La guerra ha diviso la storia del paese in un prima e un dopo.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f1199f23-ed8b-c512-9010-ce81b70c5c3b",
+      "concept_id": "concept-c2-anfechten",
+      "lang": "it",
+      "sentence": "L'azienda non accetta la sentenza e va in appello.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "38c16345-080f-612a-c0d6-8235de31c8b1",
+      "concept_id": "concept-c2-ermessen",
+      "lang": "it",
+      "sentence": "Le regole dicono il minimo e il massimo, il resto lo decide il giudice.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f625207f-926d-b5a2-8a81-9b047a49d550",
+      "concept_id": "concept-c2-willkuer",
+      "lang": "it",
+      "sentence": "Il capo sceglie chi promuovere senza nessun criterio, solo come gli pare.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "239d91e3-b977-1ff5-0f8a-aff3945b1acc",
+      "concept_id": "concept-c2-beharrlich",
+      "lang": "it",
+      "sentence": "Nonostante i rifiuti, continua a mandare curriculum finché non trova lavoro.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "bf849e87-bb62-168f-debd-35e32268a449",
+      "concept_id": "concept-c2-beharrlichkeit",
+      "lang": "it",
+      "sentence": "Ha tentato di superare l'esame cinque volte senza arrendersi, riuscendoci alla quinta.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "1c5ddf1a-3fc2-7c3f-b000-dced059ee55c",
+      "concept_id": "concept-c2-unverkennbar",
+      "lang": "it",
+      "sentence": "Quella voce la riconosco tra mille.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "ec2ef2b2-92ae-2710-0cdc-ba6bbb265e73",
+      "concept_id": "concept-c2-gespuer",
+      "lang": "it",
+      "sentence": "Capisce subito di quale persona può fidarsi.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "aff25a51-3c8e-f310-af20-a70c9a2e9b69",
+      "concept_id": "concept-c2-raffinesse",
+      "lang": "it",
+      "sentence": "Ogni dettaglio del vestito è curato con eleganza e intelligenza.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "78f26b71-66be-4be2-4035-4c1dbd4fa129",
+      "concept_id": "concept-c2-schlechthin",
+      "lang": "it",
+      "sentence": "Quando si dice il poeta, in Italia si pensa a Dante.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "5e238b18-cce7-e7b0-2ae7-2f261a2625a5",
+      "concept_id": "concept-c2-gewissermassen",
+      "lang": "it",
+      "sentence": "Il nostro gatto è, diciamo, il vero padrone di casa.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "70635f5f-9cd5-1c2b-2f6b-361aca39b285",
+      "concept_id": "concept-c2-schlichtweg",
+      "lang": "it",
+      "sentence": "Questa idea è assurda, senza se e senza ma.",
+      "translation_lang": null,
+      "translation_text": null
     }
   ],
   "concept_definitions": [
@@ -14686,8 +14963,7 @@
         "exzellent",
         "ausgezeichnet",
         "überlegen",
-        "vorzüglich",
-        "exemplarisch"
+        "vorzüglich"
       ],
       "antonyms_json": [
         "mangelhaft",
@@ -14700,7 +14976,12 @@
         "reason": "no_single_robust_opposite_for_outstanding_adjective",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "hervorragend": "exact",
+        "exzellent": "exact",
+        "ausgezeichnet": "exact"
+      }
     },
     {
       "concept_id": "concept-c2-ueberragend",
@@ -14737,7 +15018,7 @@
     {
       "concept_id": "concept-c2-unerschuetterlich",
       "lang": "de",
-      "short_definition": "Nicht zu erschüttern; absolut standhaft und fest.",
+      "short_definition": "Auch bei Schwierigkeiten oder Zweifeln fest bei seiner Haltung bleibend.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -14750,7 +15031,10 @@
         "unsicher"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "unbeirrbar": "exact"
+      }
     },
     {
       "concept_id": "concept-c2-unerschuetterlich",
@@ -14802,7 +15086,8 @@
         "reason": "Adjective without a direct single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c2-bahnbrechend",
@@ -14839,7 +15124,7 @@
     {
       "concept_id": "concept-c2-tiefgreifend",
       "lang": "de",
-      "short_definition": "Weitreichend und grundlegend; tief in etwas hineingehend.",
+      "short_definition": "So stark, dass es etwas grundsätzlich verändert.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -14856,7 +15141,8 @@
         "unumfassend"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c2-tiefgreifend",
@@ -14875,7 +15161,7 @@
     {
       "concept_id": "concept-c2-tiefgreifend",
       "lang": "it",
-      "short_definition": "Averefolgoricidenti.",
+      "short_definition": "Che provoca cambiamenti importanti e duraturi.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -14893,9 +15179,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "vorbildlich"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "konventionell",
         "altbewährt"
@@ -14905,7 +15189,8 @@
         "reason": "Adjective without a direct single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c2-wegweisend",
@@ -14955,7 +15240,10 @@
         "vereinfacht"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "differenziert": "exact"
+      }
     },
     {
       "concept_id": "concept-c2-nuanciert",
@@ -15003,7 +15291,10 @@
         "reason": "Adjective without a direct single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "zwiespältig": "exact"
+      }
     },
     {
       "concept_id": "concept-c2-ambivalent",
@@ -15040,7 +15331,7 @@
     {
       "concept_id": "concept-c2-praedominant",
       "lang": "de",
-      "short_definition": "Überwiegen oder bestimmendes Element in einem System.",
+      "short_definition": "Stärker oder häufiger als alles andere.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -15054,7 +15345,10 @@
         "nebenstehend"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "vorherrschend": "exact"
+      }
     },
     {
       "concept_id": "concept-c2-praedominant",
@@ -15130,7 +15424,7 @@
       "concept_id": "concept-c2-inbegriff",
       "lang": "de",
       "short_definition": "Die reinste Verkörperung einer Eigenschaft oder Idee.",
-      "usage_note": "Fast immer mit Genitiv: der reinste Ausdruck von etwas sein.",
+      "usage_note": "Häufig mit einem Genitiv oder mit von und Dativ.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -15185,7 +15479,7 @@
     {
       "concept_id": "concept-c2-tragweite",
       "lang": "en",
-      "short_definition": "How far the consequences of something reach.",
+      "short_definition": "The effects of an action or decision, often complicated or unwanted.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -15198,7 +15492,7 @@
       "concept_id": "concept-c2-tragweite",
       "lang": "it",
       "short_definition": "La misura in cui si estendono le conseguenze di qualcosa.",
-      "usage_note": "Qui solo nel senso figurato di ampiezza delle conseguenze, non la portata di un fiume o di un pranzo.",
+      "usage_note": "Qui indica l'ampiezza delle conseguenze, non la quantità d'acqua di un fiume o una parte del pasto.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -15307,7 +15601,7 @@
     {
       "concept_id": "concept-c2-stringent",
       "lang": "en",
-      "short_definition": "Built with airtight, compelling logic.",
+      "short_definition": "Based on careful reasoning without gaps.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -15361,7 +15655,7 @@
     {
       "concept_id": "concept-c2-kohaerent",
       "lang": "it",
-      "short_definition": "Internamente consistente e ben collegato, senza contraddizioni.",
+      "short_definition": "Logico e ben collegato, senza contraddizioni.",
       "usage_note": "logico",
       "sense_indicator": "ben collegato internamente",
       "context_tags_json": [],
@@ -15402,7 +15696,7 @@
     {
       "concept_id": "concept-c2-praegnant",
       "lang": "it",
-      "short_definition": "Espresso in modo breve e penetrante, con molto contenuto in poche parole.",
+      "short_definition": "Breve, chiaro e capace di colpire chi ascolta o legge.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -15510,7 +15804,7 @@
     {
       "concept_id": "concept-c2-vielschichtig",
       "lang": "en",
-      "short_definition": "Made up of many layers or aspects.",
+      "short_definition": "Having several connected levels or meanings.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -15618,8 +15912,8 @@
     {
       "concept_id": "concept-c2-befangen",
       "lang": "de",
-      "short_definition": "Wegen persönlicher Beteiligung nicht in der Lage, neutral zu urteilen.",
-      "usage_note": "Auch juristisch: ein Richter kann wegen Naehe zu einer Partei abgelehnt werden.",
+      "short_definition": "In seinem Urteil durch persönliche Interessen oder feste Vorurteile beeinflusst.",
+      "usage_note": "Auch vor Gericht: Ein Richter kann wegen seiner Nähe zu einer Partei abgelehnt werden.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -15636,7 +15930,7 @@
     {
       "concept_id": "concept-c2-befangen",
       "lang": "en",
-      "short_definition": "Unable to judge neutrally because of personal involvement.",
+      "short_definition": "Influenced by personal interests or fixed opinions when judging something.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -15648,7 +15942,7 @@
     {
       "concept_id": "concept-c2-befangen",
       "lang": "it",
-      "short_definition": "Incapace di giudicare in modo neutrale a causa di un coinvolgimento personale.",
+      "short_definition": "Influenzato da interessi personali o pregiudizi nel giudicare qualcosa.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -15688,7 +15982,7 @@
     {
       "concept_id": "concept-c2-rueckblickend",
       "lang": "it",
-      "short_definition": "Giudicato da un momento successivo nel tempo.",
+      "short_definition": "Guardando al passato con le conoscenze di adesso.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -15808,7 +16102,7 @@
     {
       "concept_id": "concept-c2-zwiespalt",
       "lang": "it",
-      "short_definition": "La sensazione di essere combattuti tra due sentimenti o lealtà.",
+      "short_definition": "La sensazione di essere divisi tra due sentimenti o desideri opposti.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -15820,8 +16114,8 @@
     {
       "concept_id": "concept-c2-konsens",
       "lang": "de",
-      "short_definition": "Eine breite, von allen getragene Übereinstimmung innerhalb einer Gruppe.",
-      "usage_note": "Anders als eine Einigung wird er nicht ausgehandelt, sondern stellt sich als geteilte Haltung ein.",
+      "short_definition": "Eine weitgehende Übereinstimmung innerhalb einer Gruppe.",
+      "usage_note": "Kann durch Gespräche und Verhandlungen entstehen.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -15838,7 +16132,7 @@
     {
       "concept_id": "concept-c2-konsens",
       "lang": "en",
-      "short_definition": "Broad agreement shared by everyone in a group.",
+      "short_definition": "General agreement within a group.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -15850,7 +16144,7 @@
     {
       "concept_id": "concept-c2-konsens",
       "lang": "it",
-      "short_definition": "Un ampio accordo condiviso da tutti all'interno di un gruppo.",
+      "short_definition": "Un accordo generale all'interno di un gruppo.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -15902,7 +16196,7 @@
     {
       "concept_id": "concept-c2-paradebeispiel",
       "lang": "de",
-      "short_definition": "Ein besonders typischer Fall, der eine allgemeine Aussage perfekt belegt.",
+      "short_definition": "Ein besonders typischer Fall, der etwas sehr deutlich zeigt.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -15918,7 +16212,7 @@
     {
       "concept_id": "concept-c2-paradebeispiel",
       "lang": "en",
-      "short_definition": "An especially typical case that perfectly proves a general point.",
+      "short_definition": "A particularly clear or typical case of something.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -15930,7 +16224,7 @@
     {
       "concept_id": "concept-c2-paradebeispiel",
       "lang": "it",
-      "short_definition": "Un caso particolarmente tipico che dimostra perfettamente un'affermazione generale.",
+      "short_definition": "Un caso particolarmente chiaro o tipico di qualcosa.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -16023,7 +16317,7 @@
       "concept_id": "concept-c2-entkraeften",
       "lang": "de",
       "short_definition": "Einem Argument oder Verdacht die Überzeugungskraft nehmen.",
-      "usage_note": "Schwächer als widerlegen: das Gegenargument verliert sein Gewicht, muss aber nicht bewiesen falsch sein.",
+      "usage_note": "Ein Argument oder Verdacht verliert an Gewicht, ohne dass das Gegenteil bewiesen sein muss.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -16038,7 +16332,7 @@
     {
       "concept_id": "concept-c2-entkraeften",
       "lang": "en",
-      "short_definition": "To take the persuasive force out of an argument or suspicion.",
+      "short_definition": "To show that an argument or claim is weak or wrong.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -16050,7 +16344,7 @@
     {
       "concept_id": "concept-c2-entkraeften",
       "lang": "it",
-      "short_definition": "Togliere forza persuasiva a un argomento o a un sospetto.",
+      "short_definition": "Togliere forza a un argomento o a un sospetto.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -16102,8 +16396,8 @@
     {
       "concept_id": "concept-c2-veranschaulichen",
       "lang": "de",
-      "short_definition": "Etwas Abstraktes durch Bilder oder Vergleiche anschaulich machen.",
-      "usage_note": "Stärker bildhaft als verdeutlichen: es geht um das konkrete Vorstellbarmachen.",
+      "short_definition": "Etwas Schwieriges durch Beispiele, Bilder oder Vergleiche leichter verständlich machen.",
+      "usage_note": "Häufig mit Beispielen, Bildern oder Vergleichen.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -16130,7 +16424,7 @@
     {
       "concept_id": "concept-c2-veranschaulichen",
       "lang": "it",
-      "short_definition": "Rendere vivido qualcosa di astratto con immagini o paragoni.",
+      "short_definition": "Spiegare un'idea con immagini, esempi o paragoni.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -16158,7 +16452,7 @@
     {
       "concept_id": "concept-c2-muenden",
       "lang": "en",
-      "short_definition": "To flow as a development into its final outcome.",
+      "short_definition": "To end in a particular result after a series of events.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -16170,8 +16464,8 @@
     {
       "concept_id": "concept-c2-muenden",
       "lang": "it",
-      "short_definition": "Confluire, come sviluppo, nel proprio esito finale.",
-      "usage_note": "Qui solo il senso figurato di sfociare in un risultato, non il fiume che sfocia nel mare.",
+      "short_definition": "Arrivare a un certo risultato dopo una serie di eventi.",
+      "usage_note": "Qui indica il risultato di una serie di eventi, non il movimento dell'acqua verso il mare.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -16211,7 +16505,7 @@
       "concept_id": "concept-c2-anfechten",
       "lang": "it",
       "short_definition": "Contestare formalmente una decisione o un contratto come non valido.",
-      "usage_note": "Qui solo il senso giuridico, non impugnare un'arma o un attrezzo.",
+      "usage_note": "Qui indica un'azione giuridica contro una decisione, non il gesto di afferrare un oggetto.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -16223,7 +16517,7 @@
       "concept_id": "concept-c2-ermessen",
       "lang": "de",
       "short_definition": "Die Befugnis, innerhalb von Regeln nach eigenem Urteil zu entscheiden.",
-      "usage_note": "Typisch: etwas liegt im eigenen Urteil einer Behörde oder Person.",
+      "usage_note": "Häufig bei Entscheidungen von Behörden innerhalb gesetzlicher Grenzen.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -16302,7 +16596,7 @@
     {
       "concept_id": "concept-c2-beharrlich",
       "lang": "de",
-      "short_definition": "Trotz Widerstand ruhig und stetig am eigenen Ziel festhaltend.",
+      "short_definition": "Trotz Schwierigkeiten oder Widerstand weiter ein Ziel verfolgend.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -16342,7 +16636,7 @@
     {
       "concept_id": "concept-c2-beharrlichkeit",
       "lang": "de",
-      "short_definition": "Das ruhige, stetige Festhalten an einem Ziel trotz Widerstand.",
+      "short_definition": "Das stetige Festhalten an einem Ziel trotz Schwierigkeiten oder Widerstand.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -16370,7 +16664,7 @@
     {
       "concept_id": "concept-c2-beharrlichkeit",
       "lang": "it",
-      "short_definition": "Il perseverare con calma e costanza verso un obiettivo nonostante le resistenze.",
+      "short_definition": "Il continuare a cercare di raggiungere un obiettivo anche quando è difficile.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -16462,7 +16756,7 @@
     {
       "concept_id": "concept-c2-feinheit",
       "lang": "de",
-      "short_definition": "Ein kleines, aber bedeutsames Detail einer Sache, das erst Kenner bemerken.",
+      "short_definition": "Ein kleines, aber wichtiges Detail, das leicht übersehen wird.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -16478,7 +16772,7 @@
     {
       "concept_id": "concept-c2-feinheit",
       "lang": "en",
-      "short_definition": "A small but meaningful detail of a subject, noticed only by experts.",
+      "short_definition": "A small but important detail that is easy to miss.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -16490,7 +16784,7 @@
     {
       "concept_id": "concept-c2-feinheit",
       "lang": "it",
-      "short_definition": "Un dettaglio piccolo ma significativo di una materia, che solo gli esperti notano.",
+      "short_definition": "Un piccolo dettaglio importante che può passare inosservato.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -16542,7 +16836,7 @@
     {
       "concept_id": "concept-c2-raffinesse",
       "lang": "de",
-      "short_definition": "Ausgeklügelte, feine Durchdachtheit in Gestaltung oder Vorgehen.",
+      "short_definition": "Die Qualität von etwas, das besonders klug und sorgfältig gemacht ist.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -16558,7 +16852,7 @@
     {
       "concept_id": "concept-c2-raffinesse",
       "lang": "en",
-      "short_definition": "Refined, clever thoughtfulness in design or execution.",
+      "short_definition": "The quality of being carefully designed and cleverly developed.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -16570,7 +16864,7 @@
     {
       "concept_id": "concept-c2-raffinesse",
       "lang": "it",
-      "short_definition": "Ricercatezza intelligente e curata nella forma o nell'esecuzione.",
+      "short_definition": "La qualità di qualcosa progettato con cura e intelligenza.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -16678,7 +16972,7 @@
     {
       "concept_id": "concept-c2-schlichtweg",
       "lang": "en",
-      "short_definition": "Bluntly intensifies a judgment with no qualification.",
+      "short_definition": "Used to emphasize a strong opinion about something.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",

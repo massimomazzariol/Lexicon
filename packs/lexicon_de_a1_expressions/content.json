@@ -2204,14 +2204,6 @@
       "translation_text": null
     },
     {
-      "example_id": "7bb010c3-28d7-ffcd-5f8e-80f4c4e9e5d0",
-      "concept_id": "concept-a1-what-time-is-it",
-      "lang": "de",
-      "sentence": "Vor der Abfahrt ist der Akku leer, also spricht ein Tourist eine Passantin an.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
       "example_id": "642fe804-c1c2-44a4-0bcc-7b447c460019",
       "concept_id": "concept-a1-wie-gehts",
       "lang": "de",
@@ -2338,6 +2330,30 @@
       "sentence": "Annuisce brevemente per mostrare di aver capito.",
       "translation_lang": null,
       "translation_text": null
+    },
+    {
+      "example_id": "851850bb-0c5f-1877-ec51-15d4e5276970",
+      "concept_id": "concept-a1-bis-bald",
+      "lang": "de",
+      "sentence": "Tschüss, wir sehen uns nächste Woche!",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "636a08cf-425c-f344-0c2b-05743434dd8a",
+      "concept_id": "concept-a1-wie-gehts",
+      "lang": "it",
+      "sentence": "Ciao Marco! Tutto bene? È da tanto che non ci vediamo.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "5aade397-a01f-8bb5-d2cb-206d7271371e",
+      "concept_id": "concept-a1-guten-appetit",
+      "lang": "it",
+      "sentence": "Il cameriere porta i piatti e ci augura di mangiare bene.",
+      "translation_lang": null,
+      "translation_text": null
     }
   ],
   "concept_definitions": [
@@ -2369,7 +2385,8 @@
         "ignorier mich"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "b76697b4-0a3a-5cae-4129-c6b61ae0ccde",
@@ -2385,12 +2402,13 @@
         "ignorami"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
       "lang": "en",
-      "short_definition": "Polite question used to ask for help.",
+      "short_definition": "A question asking someone to give support.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2402,29 +2420,29 @@
         "Can you leave me alone?"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
       "lang": "de",
-      "short_definition": "Höfliche Frage, um Unterstützung zu bitten.",
+      "short_definition": "Eine höfliche Bitte um Unterstützung.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "Bitte"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "lass mich in ruhe",
         "Kannst du mich in Ruhe lassen?"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "8424cc8b-b899-c152-b274-f0ec7f35a0fd",
       "lang": "it",
-      "short_definition": "Domanda cortese per chiedere aiuto.",
+      "short_definition": "Una domanda per chiedere una mano a qualcuno.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2435,19 +2453,17 @@
         "lasciami in pace"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a1-what-time-is-it",
       "lang": "de",
-      "short_definition": "Frage, um nach der Uhrzeit zu fragen.",
+      "short_definition": "Eine Frage danach, wie spät es ist.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "Welche Zeit ist es?",
-        "Was ist die Uhrzeit?"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
@@ -2459,7 +2475,7 @@
     {
       "concept_id": "concept-a1-what-time-is-it",
       "lang": "it",
-      "short_definition": "Domanda per chiedere l'ora.",
+      "short_definition": "Una domanda per sapere se sono, per esempio, le due o le tre.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2475,7 +2491,7 @@
     {
       "concept_id": "concept-a1-what-time-is-it",
       "lang": "en",
-      "short_definition": "Question used to ask for the time.",
+      "short_definition": "A question asking what hour and minute a clock shows.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2491,7 +2507,7 @@
     {
       "concept_id": "concept-a1-wie-gehts",
       "lang": "de",
-      "short_definition": "Übliche Frage nach dem Befinden einer Person bei der Begrüßung.",
+      "short_definition": "Eine Frage zur Begrüßung, mit der man wissen möchte, ob es jemandem gut geht.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2515,7 +2531,7 @@
     {
       "concept_id": "concept-a1-wie-gehts",
       "lang": "it",
-      "short_definition": "La domanda abituale sul benessere di una persona quando ci si saluta.",
+      "short_definition": "Una domanda per sapere se una persona sta bene quando la saluti.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2527,7 +2543,7 @@
     {
       "concept_id": "concept-a1-bis-bald",
       "lang": "de",
-      "short_definition": "Freundlicher Abschiedsgruß, wenn man sich in naher Zukunft wiedersieht.",
+      "short_definition": "Ein Gruß beim Weggehen, wenn man sich in kurzer Zeit wieder trifft.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2539,7 +2555,7 @@
     {
       "concept_id": "concept-a1-bis-bald",
       "lang": "en",
-      "short_definition": "A friendly farewell used when you will meet again in the near future.",
+      "short_definition": "A friendly goodbye when you expect to meet again shortly.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2599,7 +2615,7 @@
     {
       "concept_id": "concept-a1-es-tut-mir-leid",
       "lang": "de",
-      "short_definition": "Feste Wendung, um sich zu entschuldigen oder Bedauern auszudrücken.",
+      "short_definition": "Ein Ausdruck, mit dem man um Entschuldigung bittet oder zeigt, dass man traurig über etwas ist.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2611,7 +2627,7 @@
     {
       "concept_id": "concept-a1-es-tut-mir-leid",
       "lang": "en",
-      "short_definition": "The fixed phrase for apologizing or expressing regret.",
+      "short_definition": "Words used to apologize or show sadness about something.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2623,7 +2639,7 @@
     {
       "concept_id": "concept-a1-es-tut-mir-leid",
       "lang": "it",
-      "short_definition": "L'espressione fissa per scusarsi o esprimere rammarico.",
+      "short_definition": "Un'espressione per chiedere scusa o mostrare tristezza per qualcosa.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2635,7 +2651,7 @@
     {
       "concept_id": "concept-a1-herzlichen-glueckwunsch",
       "lang": "de",
-      "short_definition": "Feste Formel, um jemandem zu einem Erfolg oder Festtag zu gratulieren.",
+      "short_definition": "Ein Ausdruck, mit dem man jemandem zu einem Erfolg seine Freude zeigt.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2647,7 +2663,7 @@
     {
       "concept_id": "concept-a1-herzlichen-glueckwunsch",
       "lang": "en",
-      "short_definition": "The fixed formula for congratulating someone on a success or special day.",
+      "short_definition": "Words used to show that you are happy about someone's success.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2659,7 +2675,7 @@
     {
       "concept_id": "concept-a1-herzlichen-glueckwunsch",
       "lang": "it",
-      "short_definition": "La formula fissa per congratularsi con qualcuno per un successo o una ricorrenza.",
+      "short_definition": "Un'espressione per dire che si è felici del successo di qualcuno.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2683,7 +2699,7 @@
     {
       "concept_id": "concept-a1-guten-appetit",
       "lang": "en",
-      "short_definition": "The fixed formula before eating, wishing a pleasant meal.",
+      "short_definition": "Words said before eating to wish someone a pleasant time at the table.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2695,7 +2711,7 @@
     {
       "concept_id": "concept-a1-guten-appetit",
       "lang": "it",
-      "short_definition": "La formula fissa prima di mangiare, con cui si augura un buon pasto.",
+      "short_definition": "Un'espressione prima di mangiare per augurare un pasto piacevole.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",

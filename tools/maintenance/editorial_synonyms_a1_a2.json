@@ -1,0 +1,2826 @@
+{
+  "comment": "Synonym review of every A1/A2 synonym (2026-10): wrong synonyms removed, surface forms fixed, fully interchangeable ones tiered exact (graded as a perfect answer); the rest stay close (the CONTRACT.md default). Same format as editorial_corrections_a1_a2.json.",
+  "corrections": {
+    "79f6518e-8b4f-578e-f416-504b5f349185": {
+      "it": {
+        "synonyms": [
+          "sprintare"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "b5badb09-9fac-871c-a009-af06fbb2cef3": {
+      "de": {
+        "synonyms": [
+          "Rennen"
+        ],
+        "synonym_tiers": {
+          "Rennen": "exact"
+        }
+      },
+      "it": {
+        "synonyms": [
+          "la gara"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "25ce3d79-d199-4866-d355-30ab0c183666": {
+      "en": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "Esstisch"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "la tavola"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "b76697b4-0a3a-5cae-4129-c6b61ae0ccde": {
+      "de": {
+        "synonyms": [
+          "hör bitte zu"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "prestami attenzione"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6": {
+      "en": {
+        "synonyms": [
+          "ballot"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "eb287814-640f-16ad-e3a6-7c3e3806d7f4": {
+      "de": {
+        "synonyms": [
+          "starten"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "commence"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "avviare"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "62f4fd57-fcc0-8518-c58d-9ae9d5a67c46": {
+      "en": {
+        "synonyms": [
+          "the coming"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "Eintreffen"
+        ],
+        "synonym_tiers": {
+          "Eintreffen": "exact"
+        }
+      },
+      "it": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "c93359fa-c473-a404-22d8-d32702c89749": {
+      "en": {
+        "synonyms": [
+          "get up",
+          "rise"
+        ],
+        "synonym_tiers": {
+          "get up": "exact"
+        }
+      },
+      "de": {
+        "synonyms": [
+          "sich erheben"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "levarsi"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "04049abe-87cf-262a-e411-181972f0abb3": {
+      "en": {
+        "synonyms": [
+          "exit",
+          "alight",
+          "disembark"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "6bb4fa36-876a-6164-08c1-a9338bae6031": {
+      "de": {
+        "synonyms": [
+          "errichten",
+          "konstruieren"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "edificare",
+          "erigere"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "construct",
+          "erect"
+        ],
+        "synonym_tiers": {
+          "construct": "exact"
+        }
+      }
+    },
+    "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1": {
+      "en": {
+        "synonyms": [
+          "notice",
+          "take note"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "wahrnehmen",
+          "bemerken"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "28155ced-1190-8879-d1e4-766d9865a842": {
+      "en": {
+        "synonyms": [
+          "submission"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "Kandidatur"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "108c3ca7-5c1b-b740-7b9f-16bcc541a8c0": {
+      "en": {
+        "synonyms": [
+          "display"
+        ],
+        "synonym_tiers": {
+          "display": "exact"
+        }
+      },
+      "de": {
+        "synonyms": [
+          "Monitor"
+        ],
+        "synonym_tiers": {
+          "Monitor": "exact"
+        }
+      },
+      "it": {
+        "synonyms": [
+          "il monitor"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "08116c81-5e80-e8d9-d48a-2dcfafa2dae1": {
+      "en": {
+        "synonyms": [
+          "anything",
+          "a thing"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "ein Ding"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "qualunque cosa"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "29a483bf-d86a-a442-f816-17ee4e248a16": {
+      "en": {
+        "synonyms": [
+          "somebody",
+          "a person"
+        ],
+        "synonym_tiers": {
+          "somebody": "exact"
+        }
+      },
+      "de": {
+        "synonyms": [
+          "ein Mensch",
+          "eine Person"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "qualche persona",
+          "un individuo"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "2de09df9-4a0c-8b2a-f080-6c52571b7064": {
+      "en": {
+        "synonyms": [
+          "some place"
+        ],
+        "synonym_tiers": {
+          "some place": "exact"
+        }
+      },
+      "it": {
+        "synonyms": [
+          "in un certo punto",
+          "in un luogo imprecisato"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "d0981aa3-9aed-3007-290a-3e2779bacea5": {
+      "en": {
+        "synonyms": [
+          "as well",
+          "too",
+          "likewise"
+        ],
+        "synonym_tiers": {
+          "as well": "exact",
+          "too": "exact"
+        }
+      },
+      "de": {
+        "synonyms": [
+          "auch",
+          "gleichfalls"
+        ],
+        "synonym_tiers": {
+          "auch": "exact",
+          "gleichfalls": "exact"
+        }
+      },
+      "it": {
+        "synonyms": [
+          "anche",
+          "pure",
+          "allo stesso modo"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "0bed6967-2ba5-ca39-d70b-646e23f07493": {
+      "en": {
+        "synonyms": [
+          "yet"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "weiterhin"
+        ],
+        "synonym_tiers": {
+          "weiterhin": "exact"
+        }
+      }
+    },
+    "dce273cb-1477-41c8-14f3-84226c53e233": {
+      "en": {
+        "synonyms": [
+          "generally"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "3b1a3dc6-75a7-55a2-9ad9-09d0a75082a0": {
+      "en": {
+        "synonyms": [
+          "day trip"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "Tagestour"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "75fb9398-4b1a-dc12-4558-6e3555368393": {
+      "en": {
+        "synonyms": [
+          "lift"
+        ],
+        "synonym_tiers": {
+          "lift": "exact"
+        }
+      },
+      "it": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "5a3f0258-ae5f-5c70-4b43-84454023b3c7": {
+      "en": {
+        "synonyms": [
+          "alike",
+          "comparable"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "vergleichbar",
+          "gleichartig"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "analogo",
+          "somigliante"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "7a5071b5-7f6f-27f4-2ef9-7008b01524d4": {
+      "en": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "außen"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70": {
+      "en": {
+        "synonyms": [
+          "thus"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "8424cc8b-b899-c152-b274-f0ec7f35a0fd": {
+      "en": {
+        "synonyms": [
+          "Can you assist me?"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "dammi una mano"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "961ac32c-4e2b-36c8-3735-f91f2ddb9ece": {
+      "en": {
+        "synonyms": [
+          "still not"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "06afc93e-f8f6-3698-72af-3185f7367f80": {
+      "en": {
+        "synonyms": [
+          "certainly",
+          "undoubtedly",
+          "without a doubt"
+        ],
+        "synonym_tiers": {
+          "certainly": "exact",
+          "without a doubt": "exact"
+        }
+      },
+      "de": {
+        "synonyms": [
+          "sicher",
+          "gewiss",
+          "sicherlich"
+        ],
+        "synonym_tiers": {
+          "sicher": "exact"
+        }
+      },
+      "it": {
+        "synonyms": [
+          "senz'altro"
+        ],
+        "synonym_tiers": {
+          "senz'altro": "exact"
+        }
+      }
+    },
+    "548ac186-0a69-6839-73ff-5a0431f3aabc": {
+      "en": {
+        "synonyms": [
+          "all over",
+          "throughout"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "allenthalben"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "in tutti i posti"
+        ],
+        "synonym_tiers": {
+          "in tutti i posti": "exact"
+        }
+      }
+    },
+    "e26099e6-6292-9c2d-6b9a-69cf996ba8f7": {
+      "en": {
+        "synonyms": [
+          "in any way",
+          "in the least"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "affatto"
+        ],
+        "synonym_tiers": {
+          "affatto": "exact"
+        }
+      }
+    },
+    "e65a87f9-7e04-cfff-d26c-a3b387c75ee5": {
+      "en": {
+        "synonyms": [
+          "awesome"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "fantastisch"
+        ],
+        "synonym_tiers": {
+          "fantastisch": "exact"
+        }
+      },
+      "it": {
+        "synonyms": [
+          "ottimo"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "2d58295b-a22f-de2c-7710-8aff2ddae9cb": {
+      "en": {
+        "synonyms": [
+          "to retrieve"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "portare via",
+          "recuperare"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9": {
+      "en": {
+        "synonyms": [
+          "phone",
+          "contact"
+        ],
+        "synonym_tiers": {
+          "phone": "exact"
+        }
+      },
+      "de": {
+        "synonyms": [
+          "kontaktieren"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "contattare"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5": {
+      "en": {
+        "synonyms": [
+          "dispatch",
+          "transmit"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "übermitteln",
+          "zusenden"
+        ],
+        "synonym_tiers": {
+          "zusenden": "exact"
+        }
+      }
+    },
+    "a73af94e-f267-9f64-bf2b-134fa2544a0c": {
+      "en": {
+        "synonyms": [
+          "astonishment"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "das Erstaunen",
+          "der Schreck"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "lo stupore"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "23f3cd66-40a2-652f-205a-7557f2a9e950": {
+      "en": {
+        "synonyms": [
+          "to cease",
+          "to halt",
+          "to end"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "abbrechen"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "cessare",
+          "interrompere"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "77962681-e561-09cc-772c-9c4285175bf9": {
+      "en": {
+        "synonyms": [
+          "wedded"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "vermählt"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "coniugato"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "87664a7f-b773-5acd-374e-4c359b635e7c": {
+      "en": {
+        "synonyms": [
+          "proposal"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "8cdd7819-47ff-1fba-7ac4-dd44c3aec241": {
+      "de": {
+        "synonyms": [
+          "Fragestellung"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "il quesito"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "query"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "2bfef665-f822-93b9-3f9d-233a6f838aba": {
+      "de": {
+        "synonyms": [
+          "Erkundigung"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "enquiry",
+          "information request"
+        ],
+        "synonym_tiers": {
+          "enquiry": "exact"
+        }
+      }
+    },
+    "7aada285-5265-d708-2313-43997bc60f0f": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "4f291b92-ca93-0d8c-bc8f-fc9d225384a0": {
+      "de": {
+        "synonyms": [
+          "Dame"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "female",
+          "lady"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "80baf5ef-6ee7-8a27-6f5c-b5d7b88415d4": {
+      "de": {
+        "synonyms": [
+          "Herr"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "adult male"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "2c6d1583-9560-52cc-360a-ec0fb7fe1225": {
+      "en": {
+        "synonyms": [
+          "youngster"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "5166779c-fea2-00fe-92da-00661e14de80": {
+      "en": {
+        "synonyms": [
+          "canine"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "f00e94e5-0159-bd1b-2f6c-98d060fb54c9": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "feline",
+          "housecat"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "841a0138-2699-37ac-2d82-cf0c66b5171e": {
+      "de": {
+        "synonyms": [
+          "positiv",
+          "hervorragend"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "excellent"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "ottimo",
+          "eccellente"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "2e769167-00e6-f086-d72a-4e96521fa4ce": {
+      "de": {
+        "synonyms": [
+          "mangelhaft",
+          "unzureichend"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "poor"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "peggiore"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "91f2e21d-1055-c502-52eb-6895fe4406c4": {
+      "de": {
+        "synonyms": [
+          "riesig",
+          "gewaltig",
+          "massiv"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "huge"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "vasto"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "4b93435e-acbe-2f6b-9afb-313c8a88845b": {
+      "de": {
+        "synonyms": [
+          "winzig"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "little",
+          "tiny",
+          "minor"
+        ],
+        "synonym_tiers": {
+          "little": "exact"
+        }
+      },
+      "it": {
+        "synonyms": [
+          "minuto",
+          "ridotto"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "a9d290b4-b955-81a7-48e4-6b0103a82703": {
+      "de": {
+        "synonyms": [
+          "speisen"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "consume",
+          "devour",
+          "ingest"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "consumare"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "f12a03fc-6b3f-af98-a308-f29bd66e55ac": {
+      "en": {
+        "synonyms": [
+          "imbibe",
+          "quaff"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "4775779b-a5cc-8aa3-5450-f10dc8d74714": {
+      "de": {
+        "synonyms": [
+          "existieren"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "exist"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "trovarsi"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "ed3cb78e-250a-50dc-44e1-b3cab1cf00ba": {
+      "de": {
+        "synonyms": [
+          "besitzen",
+          "verfügen über"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "possess",
+          "own",
+          "hold"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "disporre di",
+          "possedere"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "7f5957ca-0809-865b-57d2-de96cf0392eb": {
+      "de": {
+        "synonyms": [
+          "rötlich"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "crimson",
+          "scarlet"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "9d3ef2fe-beae-af51-b2f1-15508c1302ba": {
+      "de": {
+        "synonyms": [
+          "himmelblau"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "azure"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "azzurro",
+          "celeste"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "7132c2a6-c640-5a9f-859e-80ff8ee5ee38": {
+      "en": {
+        "synonyms": [
+          "emerald"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "51d03b3b-92ee-3dc6-036e-76f257d5e1a5": {
+      "de": {
+        "synonyms": [
+          "goldgelb"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "golden"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "dorato"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "29e2704f-65fe-3f63-cd16-496af9d832d2": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "108d1fed-1c66-2bac-ccbe-ef989d0a502c": {
+      "de": {
+        "synonyms": [
+          "schneeweiß"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "154140dc-6a12-f58d-e630-2d05193ddb1a": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "aged"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "antico"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "41491802-4027-0f74-b392-e0f8f9a301fb": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "recente"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "0dac5338-7ee7-54fe-72d6-a64e52cf943f": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "mild"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "tiepido"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "3f777d3a-5323-3d49-40ca-1d04e8ff376a": {
+      "de": {
+        "synonyms": [
+          "kühl"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "chilly",
+          "freezing",
+          "frigid"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "gelido"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "a1fca915-0802-770f-5d98-81fe56f6ec8f": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "02beeb9f-aeca-138c-b4c6-5b15f6c0ddb1": {
+      "de": {
+        "synonyms": [
+          "Eisenbahn"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "691b1d35-324e-dd44-4886-e365a7653034": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "metropolis",
+          "urban area"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "metropoli",
+          "il centro urbano"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "1a2d6eb8-6a6d-b96f-49f8-e58293b71539": {
+      "it": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "99a205ca-71d1-db40-a4dd-56e7b8dda321": {
+      "de": {
+        "synonyms": [
+          "anfertigen",
+          "ausführen",
+          "tun"
+        ],
+        "synonym_tiers": {
+          "tun": "exact"
+        }
+      },
+      "en": {
+        "synonyms": [
+          "to do"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "compiere"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "cffce3e7-9410-c5e4-e2ce-0e74503dbc20": {
+      "de": {
+        "synonyms": [
+          "entsprechen",
+          "übereinstimmen"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "to fit",
+          "to suit"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d": {
+      "de": {
+        "synonyms": [
+          "erledigen",
+          "abschließen"
+        ],
+        "synonym_tiers": {
+          "abschließen": "exact"
+        }
+      },
+      "en": {
+        "synonyms": [
+          "to complete",
+          "to end",
+          "to wrap up"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "13bf153f-5b95-81b3-6ec2-646e49af8f3f": {
+      "en": {
+        "synonyms": [
+          "travel",
+          "journey",
+          "proceed"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "a6a02266-de00-f0d8-462f-29e0e630ad11": {
+      "de": {
+        "synonyms": [
+          "ankommen",
+          "eintreffen"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "arrive"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "arrivare"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "13f0479b-0b4b-23e7-be43-7c1fece87b8d": {
+      "de": {
+        "synonyms": [
+          "äußern",
+          "mitteilen"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "to tell",
+          "to communicate"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "raccontare",
+          "comunicare"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "ca09ed6c-97c5-3209-56ec-117bb486ac72": {
+      "de": {
+        "synonyms": [
+          "überreichen",
+          "aushändigen"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "to hand over",
+          "to pass on",
+          "to transfer"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "concedere",
+          "trasferire",
+          "donare"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "f392f36d-7108-8400-a824-a35262d7340a": {
+      "de": {
+        "synonyms": [
+          "annehmen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "e6ebe015-f086-029b-f50c-43b6f011cee2": {
+      "de": {
+        "synonyms": [
+          "überlegen",
+          "meinen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "f8b7d1f2-7548-a134-db29-f44ff09d4c13": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "a2e3018b-85ab-de3c-e90d-c0ee2e9d6aae": {
+      "de": {
+        "synonyms": [
+          "bemerken",
+          "entdecken"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "158e3815-0dd5-73e4-18ae-e312c31f5b31": {
+      "de": {
+        "synonyms": [
+          "lauschen",
+          "anhören"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "f317ab3b-230d-500d-13d0-9ae0ad37d3e5": {
+      "de": {
+        "synonyms": [
+          "tätig sein"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "10f30580-3426-1376-22e2-f69bb5ba1216": {
+      "de": {
+        "synonyms": [
+          "erlernen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "c40939f6-05b4-15ad-db95-005d41d4d52b": {
+      "de": {
+        "synonyms": [
+          "Schädel"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "f03d3b4e-6da7-1082-5cf6-6140c1107f27": {
+      "de": {
+        "synonyms": [
+          "Robe"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "344b393f-c8c5-d726-184b-5aa51dc21804": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "e862ebdc-37c5-3949-cb12-a38ed17f3b95": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "8296eafc-1921-0814-800a-cd8d880ff0bf": {
+      "de": {
+        "synonyms": [
+          "stoßen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "229db39a-2e2c-b36e-ea61-7e66f625c16f": {
+      "de": {
+        "synonyms": [
+          "ruhen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "052c3da8-739e-04b4-50f3-17f1cb29af6f": {
+      "de": {
+        "synonyms": [
+          "Erdapfel"
+        ],
+        "synonym_tiers": {
+          "Erdapfel": "exact"
+        }
+      }
+    },
+    "e1234203-3cac-9d4f-193d-3dcddf79a992": {
+      "de": {
+        "synonyms": [
+          "zubereiten",
+          "garen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "e57fdbbb-2876-2d18-1265-48a12931473a": {
+      "de": {
+        "synonyms": [
+          "Mittagsmahl"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "dc64b800-cb87-cdc6-9781-98c5997183b4": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "5970f929-d3f8-99a9-ea06-a65bd7517888": {
+      "de": {
+        "synonyms": [
+          "ständig",
+          "dauernd"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "159b0cd5-492f-4ed1-bcb4-facae13daef2": {
+      "de": {
+        "synonyms": [
+          "schmackhaft",
+          "herrlich"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "44edd51b-48a3-0deb-43bb-3af582b97253": {
+      "de": {
+        "synonyms": [
+          "führen",
+          "tragen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "37e9d02c-f7aa-4738-1336-b61e253608f7": {
+      "de": {
+        "synonyms": [
+          "Torte"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "3ccd8f0b-5c40-e014-6e2d-6a092ffc9519": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "6bdbb206-99e7-33fb-a26a-08985f3c7c79": {
+      "de": {
+        "synonyms": [
+          "gerade",
+          "aktuell"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "53755265-2825-a0ee-b1de-c5a680bdef75": {
+      "de": {
+        "synonyms": [
+          "nachher",
+          "hinterher"
+        ],
+        "synonym_tiers": {
+          "nachher": "exact"
+        }
+      }
+    },
+    "8e500fa1-b38e-0693-1476-184a937ba73d": {
+      "de": {
+        "synonyms": [
+          "daraufhin",
+          "danach"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "da0a630f-c9ae-b03d-988c-02e609e61026": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "1dcf02c8-3505-2a8a-0093-ccad78a3c7ec": {
+      "de": {
+        "synonyms": [
+          "Flocken"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "f62b0871-8768-d1b5-fc27-aa9b253d73eb": {
+      "de": {
+        "synonyms": [
+          "flink"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "d5a6cfdf-d6ee-10c8-1d58-1fb0bafaae70": {
+      "de": {
+        "synonyms": [
+          "träge"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "7f70a8ad-7527-3553-4724-13d0e258d92c": {
+      "de": {
+        "synonyms": [
+          "Raum"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "094a1cbc-41fc-d596-9178-a9c5363e1aa5": {
+      "de": {
+        "synonyms": [
+          "Waschraum"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "7a125020-365f-2257-c90f-31991e0c1dce": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "b546f276-eb9f-6c6f-1620-a9d4391a76b0": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "b0c85f68-410b-f1e1-9c4e-6357fc8135b7": {
+      "de": {
+        "synonyms": [
+          "Polsterstuhl"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "3add2bf7-29f3-d61f-e220-af3cda554fa1": {
+      "de": {
+        "synonyms": [
+          "Wandschrank",
+          "Bücherschrank"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "e77cd55e-9d2d-e3c1-e012-1659eab9864a": {
+      "de": {
+        "synonyms": [
+          "verriegeln",
+          "versperren"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "772a77d1-87a2-e378-bb3b-dc8ae952ebea": {
+      "de": {
+        "synonyms": [
+          "äußerst",
+          "höchst",
+          "ziemlich"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "463fa707-6f6c-9519-2b0b-d2a3f612362a": {
+      "de": {
+        "synonyms": [
+          "komplett",
+          "vollständig"
+        ],
+        "synonym_tiers": {
+          "komplett": "exact",
+          "vollständig": "exact"
+        }
+      }
+    },
+    "a9f17a4d-fc92-de54-5c2d-234b0438575e": {
+      "de": {
+        "synonyms": [
+          "die Verwandtschaft"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "aaf081c3-d913-9f7f-bbea-8f8ae910688b": {
+      "de": {
+        "synonyms": [
+          "Bekannter",
+          "Gefährte"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "f321212f-1480-4537-66eb-4a8a3ad99396": {
+      "de": {
+        "synonyms": [
+          "Bekannte",
+          "Gefährtin"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "dd680297-ce9d-3e9e-4629-58035aa88670": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "9a05eb45-5fb6-48db-946d-506dd663bc5c": {
+      "de": {
+        "synonyms": [
+          "genannt werden",
+          "sich nennen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "c5163d51-2abb-04e1-8ccf-36cb1fd312a9": {
+      "de": {
+        "synonyms": [
+          "bekannt sein mit"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "c4313225-8e30-a2fd-4bc4-d95d4c25bd94": {
+      "de": {
+        "synonyms": [
+          "mögen",
+          "gern haben"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "c865d20f-a380-fca4-1e9a-946628371556": {
+      "de": {
+        "synonyms": [
+          "einsam"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "21c1c48d-eb39-b214-93fc-566062ee1668": {
+      "de": {
+        "synonyms": [
+          "jugendlich"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "b9f299f7-010d-9958-8895-e29a4d33b95e": {
+      "de": {
+        "synonyms": [
+          "Pfad",
+          "Route"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "7057a828-dfdd-f221-4cb8-756bdb85a783": {
+      "de": {
+        "synonyms": [
+          "Gasse"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "7986ba06-6488-c4dc-66ee-01df0107e1a9": {
+      "de": {
+        "synonyms": [
+          "Haltestelle",
+          "Station"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "4a751289-0ae5-d62d-cd17-6b0c7c5e65be": {
+      "de": {
+        "synonyms": [
+          "steuern",
+          "lenken"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "f2d7cb30-12e2-9c7d-8005-f7f2bdc4c13d": {
+      "de": {
+        "synonyms": [
+          "fern",
+          "entfernt"
+        ],
+        "synonym_tiers": {
+          "fern": "exact"
+        }
+      }
+    },
+    "d8302f33-c204-cfed-38dd-fd9eca19c924": {
+      "de": {
+        "synonyms": [
+          "nächster"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "6b44cb6a-6bb1-f151-6f87-02f9b28995ad": {
+      "de": {
+        "synonyms": [
+          "hübsch",
+          "ansehnlich",
+          "wunderschön"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "27afa76c-1447-b010-6329-8e32127a92be": {
+      "de": {
+        "synonyms": [
+          "abstoßend",
+          "scheußlich"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "44775ff0-28a7-af91-e216-740eb9cc5583": {
+      "de": {
+        "synonyms": [
+          "glühend"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "3afa0fc5-faa9-1677-c7ba-020ab75c129a": {
+      "de": {
+        "synonyms": [
+          "ausschließlich"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "a19f2798-dfe3-5d93-b37f-7798054bfa32": {
+      "de": {
+        "synonyms": [
+          "die Lehranstalt"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "a8b40977-c59c-6634-1050-25d67175ffb0": {
+      "de": {
+        "synonyms": [
+          "Schülergruppe"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "632b1356-e865-9aa6-ec1b-b86e243b8f5c": {
+      "de": {
+        "synonyms": [
+          "Pädagoge"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "6263900a-b914-e118-2842-4b97a612c620": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "c63a2ccd-e3d1-50d7-80eb-2446ba7b9a38": {
+      "de": {
+        "synonyms": [
+          "Notizbuch"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "dfafba91-89e1-256b-ebc9-711b1fe4228f": {
+      "de": {
+        "synonyms": [
+          "Kuli",
+          "Feder"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "04c5d87f-440f-3e11-14cb-853783408621": {
+      "de": {
+        "synonyms": [
+          "studieren"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "2703c468-988a-0cf9-31e2-00f228ecb187": {
+      "de": {
+        "synonyms": [
+          "notieren",
+          "aufschreiben"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "27ea4876-e57e-7e6f-be3d-3a7e485e75b8": {
+      "de": {
+        "synonyms": [
+          "nachfragen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "e1adcaf9-1698-837c-2419-e43587d33c11": {
+      "de": {
+        "synonyms": [
+          "beantworten"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "f4df005a-fe7b-9056-ccfb-ff2884941202": {
+      "de": {
+        "synonyms": [
+          "Begriff",
+          "Ausdruck"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "05e8f99b-09b8-996b-4b00-2717128f2062": {
+      "de": {
+        "synonyms": [
+          "wahr",
+          "zutreffend"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "434197ea-470c-0d8c-5882-c14d89eb9dfd": {
+      "de": {
+        "synonyms": [
+          "fehlerhaft",
+          "irrig"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "b3378b56-2eea-7711-d47a-ac76ff43c442": {
+      "de": {
+        "synonyms": [
+          "begreifen",
+          "erkennen"
+        ],
+        "synonym_tiers": {
+          "begreifen": "exact"
+        }
+      }
+    },
+    "ec6fe4e3-fc8a-e7f0-0dcd-1bf1f7260b4a": {
+      "de": {
+        "synonyms": [
+          "unkompliziert"
+        ],
+        "synonym_tiers": {
+          "unkompliziert": "exact"
+        }
+      }
+    },
+    "4e503e75-ea9e-4bba-5a31-09b34df4d303": {
+      "de": {
+        "synonyms": [
+          "problematisch",
+          "aufwändig",
+          "kompliziert"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "1ab3fdb9-f2df-546f-aa47-ee93161ed095": {
+      "de": {
+        "synonyms": [
+          "möglicherweise",
+          "eventuell"
+        ],
+        "synonym_tiers": {
+          "möglicherweise": "exact",
+          "eventuell": "exact"
+        }
+      }
+    },
+    "69f9cba0-70b3-6aa8-abd0-2f1cfd6229a4": {
+      "de": {
+        "synonyms": [
+          "Schwierigkeit"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "c8d6f640-caa6-df3b-b9c3-c57596e39817": {
+      "de": {
+        "synonyms": [
+          "Hausarzt"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "cf2250ea-ec5f-af07-513a-4fe7f5bd8752": {
+      "de": {
+        "synonyms": [
+          "Erkrankung",
+          "Gesundheitsstörung"
+        ],
+        "synonym_tiers": {
+          "Erkrankung": "exact"
+        }
+      }
+    },
+    "a45eb74e-228d-96c9-3e92-3e21ea775ebd": {
+      "de": {
+        "synonyms": [
+          "Leiden",
+          "Qual"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "2510cd11-d44c-e4bb-2570-ae89a95b36db": {
+      "de": {
+        "synonyms": [
+          "unterstützen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "283a4308-79e5-702e-4ad5-e469a8e8ca40": {
+      "de": {
+        "synonyms": [
+          "benötigen"
+        ],
+        "synonym_tiers": {
+          "benötigen": "exact"
+        }
+      }
+    },
+    "0d2589ee-2440-dbee-a208-b8c746185d20": {
+      "de": {
+        "synonyms": [
+          "wohlauf"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "6d361fa8-6b91-5bc2-d807-071ecd666ee8": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "7e4de04e-1096-d02c-d6fa-6a3fae4e58f2": {
+      "de": {
+        "synonyms": [
+          "Arzneimittel",
+          "Heilmittel"
+        ],
+        "synonym_tiers": {
+          "Arzneimittel": "exact"
+        }
+      }
+    },
+    "6ef09324-148c-2ced-92b9-0882f58deb3a": {
+      "de": {
+        "synonyms": [
+          "Klinik",
+          "Spital"
+        ],
+        "synonym_tiers": {
+          "Klinik": "exact",
+          "Spital": "exact"
+        }
+      }
+    },
+    "concept-a2-entscheidung": {
+      "de": {
+        "synonyms": [
+          "Urteil",
+          "Auswahl"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-loesung": {
+      "de": {
+        "synonyms": [
+          "Auflösung"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-erklaeren": {
+      "de": {
+        "synonyms": [
+          "erläutern",
+          "darlegen"
+        ],
+        "synonym_tiers": {
+          "erläutern": "exact"
+        }
+      }
+    },
+    "concept-a2-entscheiden": {
+      "de": {
+        "synonyms": [
+          "beschließen",
+          "bestimmen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-vergleichen": {
+      "de": {
+        "synonyms": [
+          "gegenüberstellen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-empfehlen": {
+      "de": {
+        "synonyms": [
+          "anraten"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-reservieren": {
+      "it": {
+        "synonyms": [
+          "riservare"
+        ],
+        "synonym_tiers": {
+          "riservare": "exact"
+        }
+      }
+    },
+    "concept-a2-moeglich": {
+      "de": {
+        "synonyms": [
+          "erreichbar",
+          "realisierbar"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-noetig": {
+      "it": {
+        "synonyms": [
+          "indispensabile"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "needed"
+        ],
+        "synonym_tiers": {
+          "needed": "exact"
+        }
+      }
+    },
+    "concept-a2-puenktlich": {
+      "de": {
+        "synonyms": [
+          "rechtzeitig",
+          "termingerecht"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-besonders": {
+      "it": {
+        "synonyms": [
+          "specialmente"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-im-voraus": {
+      "de": {
+        "synonyms": [
+          "vorher",
+          "früh"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-erfahrung": {
+      "de": {
+        "synonyms": [
+          "Erlebnis"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-einladung": {
+      "de": {
+        "synonyms": [
+          "Aufforderung"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-nachricht": {
+      "de": {
+        "synonyms": [
+          "Mitteilung",
+          "Botschaft"
+        ],
+        "synonym_tiers": {
+          "Mitteilung": "exact"
+        }
+      }
+    },
+    "concept-a2-termin": {
+      "de": {
+        "synonyms": [
+          "Verabredung"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-moeglichkeit": {
+      "de": {
+        "synonyms": [
+          "Chance",
+          "Alternative"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-meinung": {
+      "de": {
+        "synonyms": [
+          "Ansicht"
+        ],
+        "synonym_tiers": {
+          "Ansicht": "exact"
+        }
+      }
+    },
+    "concept-a2-gewohnheit": {
+      "de": {
+        "synonyms": [
+          "Angewohnheit"
+        ],
+        "synonym_tiers": {
+          "Angewohnheit": "exact"
+        }
+      }
+    },
+    "concept-a2-anmeldung": {
+      "de": {
+        "synonyms": [
+          "Eintrag",
+          "Registrierung"
+        ],
+        "synonym_tiers": {
+          "Registrierung": "exact"
+        }
+      }
+    },
+    "concept-a2-verspaetung": {
+      "de": {
+        "synonyms": [
+          "Verzögerung"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-umzug": {
+      "de": {
+        "synonyms": [
+          "Umsiedlung"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-erlaubnis": {
+      "de": {
+        "synonyms": [
+          "Genehmigung"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-vorschlag": {
+      "de": {
+        "synonyms": [
+          "Idee",
+          "Empfehlung"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-gespraech": {
+      "de": {
+        "synonyms": [
+          "Unterhaltung",
+          "Plauderei"
+        ],
+        "synonym_tiers": {
+          "Unterhaltung": "exact"
+        }
+      }
+    },
+    "concept-a2-teilnehmen": {
+      "en": {
+        "synonyms": [
+          "to take part",
+          "take part"
+        ],
+        "synonym_tiers": {
+          "to take part": "exact",
+          "take part": "exact"
+        }
+      }
+    },
+    "concept-a2-vorbereiten": {
+      "de": {
+        "synonyms": [
+          "vorrichten",
+          "einrichten"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-absagen": {
+      "de": {
+        "synonyms": [
+          "stornieren",
+          "aufheben"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-verschieben": {
+      "de": {
+        "synonyms": [
+          "hinauszögern",
+          "aufschieben"
+        ],
+        "synonym_tiers": {
+          "aufschieben": "exact"
+        }
+      }
+    },
+    "concept-a2-verbessern": {
+      "de": {
+        "synonyms": [
+          "optimieren",
+          "vervollkommnen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-vermeiden": {
+      "de": {
+        "synonyms": [
+          "ausweichen",
+          "entgehen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-erreichen": {
+      "de": {
+        "synonyms": [
+          "gelangen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-fehlen": {
+      "en": {
+        "synonyms": [
+          "to be absent"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-stattfinden": {
+      "en": {
+        "synonyms": [
+          "to happen",
+          "happen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-sparen": {
+      "de": {
+        "synonyms": [
+          "einsparen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-verdienen": {
+      "de": {
+        "synonyms": [
+          "erwirtschaften",
+          "erarbeiten"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-unterschreiben": {
+      "de": {
+        "synonyms": [
+          "unterzeichnen",
+          "unterfertigen"
+        ],
+        "synonym_tiers": {
+          "unterzeichnen": "exact"
+        }
+      }
+    },
+    "concept-a2-umziehen-verb": {
+      "de": {
+        "synonyms": [
+          "umsiedeln"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-zurueckgeben": {
+      "en": {
+        "synonyms": [
+          "to return",
+          "return"
+        ],
+        "synonym_tiers": {
+          "to return": "exact",
+          "return": "exact"
+        }
+      }
+    },
+    "concept-a2-verfuegbar": {
+      "de": {
+        "synonyms": [
+          "zugänglich",
+          "erreichbar"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-offiziell": {
+      "de": {
+        "synonyms": [
+          "amtlich"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-praktisch": {
+      "de": {
+        "synonyms": [
+          "nützlich",
+          "funktional",
+          "effizient",
+          "nutzbringend"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-unterschiedlich": {
+      "de": {
+        "synonyms": [
+          "verschieden"
+        ],
+        "synonym_tiers": {
+          "verschieden": "exact"
+        }
+      }
+    },
+    "concept-a2-lebendig": {
+      "de": {
+        "synonyms": [
+          "dynamisch",
+          "kraftvoll"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-bequem": {
+      "de": {
+        "synonyms": [
+          "angenehm",
+          "gemütlich"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-deshalb": {
+      "de": {
+        "synonyms": [
+          "wegen dessen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-drinnen": {
+      "de": {
+        "synonyms": [
+          "innen",
+          "im Inneren"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-unterwegs": {
+      "de": {
+        "synonyms": [
+          "auf dem Weg"
+        ],
+        "synonym_tiers": {
+          "auf dem Weg": "exact"
+        }
+      }
+    },
+    "concept-a2-bisher": {
+      "de": {
+        "synonyms": [
+          "bislang"
+        ],
+        "synonym_tiers": {
+          "bislang": "exact"
+        }
+      }
+    },
+    "concept-a2-sonst": {
+      "de": {
+        "synonyms": [
+          "falls nicht"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-ploetzlich": {
+      "de": {
+        "synonyms": [
+          "unvermittelt"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-im-moment": {
+      "de": {
+        "synonyms": [
+          "aktuell"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-so-schnell-wie-moeglich": {
+      "de": {
+        "synonyms": [
+          "gleich"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-es-kommt-darauf-an": {
+      "de": {
+        "synonyms": [
+          "hängt davon ab"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-unter-druck": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-im-durchschnitt": {
+      "de": {
+        "synonyms": [
+          "im Mittel"
+        ],
+        "synonym_tiers": {
+          "im Mittel": "exact"
+        }
+      }
+    },
+    "concept-a2-ergebnis": {
+      "de": {
+        "synonyms": [
+          "Resultat"
+        ],
+        "synonym_tiers": {
+          "Resultat": "exact"
+        }
+      }
+    },
+    "concept-a2-reagieren": {
+      "de": {
+        "synonyms": [
+          "replizieren"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-mitbringen": {
+      "de": {
+        "synonyms": [
+          "mitführen",
+          "mitnehmen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-uebernachten": {
+      "de": {
+        "synonyms": [
+          "die Nacht verbringen",
+          "in der Nacht bleiben"
+        ],
+        "synonym_tiers": {
+          "die Nacht verbringen": "exact"
+        }
+      }
+    },
+    "concept-a2-deutlich": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-seltsam": {
+      "de": {
+        "synonyms": [
+          "merkwürdig"
+        ],
+        "synonym_tiers": {
+          "merkwürdig": "exact"
+        }
+      }
+    },
+    "concept-a2-normalerweise": {
+      "de": {
+        "synonyms": [
+          "üblicherweise"
+        ],
+        "synonym_tiers": {
+          "üblicherweise": "exact"
+        }
+      }
+    },
+    "concept-a2-sogar": {
+      "de": {
+        "synonyms": [
+          "selbst",
+          "gar"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a1-uhr-device": {
+      "de": {
+        "synonyms": [
+          "Zeitmesser"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-vergleich": {
+      "de": {
+        "synonyms": [
+          "Gegenüberstellung",
+          "Abgleich"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a1-putzen": {
+      "de": {
+        "synonyms": [
+          "aufwischen",
+          "bereinigen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-reinigen": {
+      "de": {
+        "synonyms": [
+          "säubern"
+        ],
+        "synonym_tiers": {
+          "säubern": "exact"
+        }
+      }
+    },
+    "concept-a2-spuelen": {
+      "de": {
+        "synonyms": [
+          "ausspülen",
+          "abspülen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-spitz-pointed": {
+      "de": {
+        "synonyms": [
+          "zugespitzt"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-spitze-tip": {
+      "de": {
+        "synonyms": [
+          "Kuppe"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-abstand": {
+      "de": {
+        "synonyms": [
+          "Zwischenraum"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "lo spazio"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "space"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-unterschied": {
+      "de": {
+        "synonyms": [
+          "Differenz"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-ueberhaupt-general": {
+      "de": {
+        "synonyms": [
+          "allgemein",
+          "generell"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-ueberhaupt-emphatic-question": {
+      "de": {
+        "synonyms": [
+          "wirklich"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-unklar": {
+      "de": {
+        "synonyms": [
+          "unbestimmt"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a1-stillstehen": {
+      "de": {
+        "synonyms": [
+          "verharren"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-sprinten": {
+      "de": {
+        "synonyms": [
+          "spurten"
+        ],
+        "synonym_tiers": {
+          "spurten": "exact"
+        }
+      }
+    },
+    "concept-a2-rasen": {
+      "de": {
+        "synonyms": [
+          "hetzen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a1-stehen-bleiben": {
+      "de": {
+        "synonyms": [
+          "anhalten"
+        ],
+        "synonym_tiers": {
+          "anhalten": "exact"
+        }
+      }
+    },
+    "concept-a1-ubrigens": {
+      "it": {
+        "synonyms": [
+          "incidentalmente"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-herausfinden": {
+      "de": {
+        "synonyms": [
+          "ermitteln"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a1-darum": {
+      "it": {
+        "synonyms": [
+          "così"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a1-eilen": {
+      "it": {
+        "synonyms": [
+          "spicciarsi"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a1-schlendern": {
+      "de": {
+        "synonyms": [
+          "bummeln"
+        ],
+        "synonym_tiers": {
+          "bummeln": "exact"
+        }
+      }
+    },
+    "concept-a1-spazierengehen": {
+      "it": {
+        "synonyms": [
+          "camminare"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-a2-wettbewerb": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "il concorso"
+        ],
+        "synonym_tiers": {}
+      }
+    }
+  }
+}

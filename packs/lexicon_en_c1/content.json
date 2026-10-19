@@ -12696,6 +12696,158 @@
       "sentence": "L'intervista alla testimone è stata molto rivelatrice.",
       "translation_lang": null,
       "translation_text": null
+    },
+    {
+      "example_id": "0196996c-eaef-375b-ebe7-87e680812eb5",
+      "concept_id": "concept-c1-nachvollziehbar",
+      "lang": "de",
+      "sentence": "Ich kann gut verstehen, warum sie wütend ist.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "ef8ca464-4a88-854f-f1ca-bedccf0b4f27",
+      "concept_id": "concept-c1-einschaetzung",
+      "lang": "de",
+      "sentence": "Der Arzt meint nach der Untersuchung, dass es nichts Schlimmes ist.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "1fe258e1-9bb9-3a31-5705-d77b6ed3c51d",
+      "concept_id": "concept-c1-folgerung",
+      "lang": "de",
+      "sentence": "Er hat Fieber und Husten, also hat er sich wohl erkältet.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "db61db88-f70f-cc90-d139-c05fae13c7ac",
+      "concept_id": "concept-c1-nachweis",
+      "lang": "de",
+      "sentence": "Für die Versicherung brauchen wir ein Dokument, das den Schaden zeigt.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "04c91f0a-472c-5353-7fb6-185f431fb390",
+      "concept_id": "concept-c1-schlussfolgerung",
+      "lang": "de",
+      "sentence": "Nach allen Tests kommen die Forscher zu einem klaren Ergebnis.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "c2147bad-ca5b-e596-7498-a702a7a86d7a",
+      "concept_id": "concept-c1-hypothese",
+      "lang": "de",
+      "sentence": "Die Forscher vermuten, dass das Medikament hilft, und testen es jetzt.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "5e8c5800-19c9-5b28-57a6-383b8f0d38d4",
+      "concept_id": "concept-c1-plausibel",
+      "lang": "de",
+      "sentence": "Seine Erklärung für die Verspätung klingt logisch, ich glaube ihm.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f234eaca-3c1f-5162-e915-3de000793dcb",
+      "concept_id": "concept-c1-fundiert",
+      "lang": "de",
+      "sentence": "Ihre Meinung beruht auf vielen Jahren Forschung.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "a0002bdd-242a-8a54-d7f1-4a5eb88b74a7",
+      "concept_id": "concept-c1-stichhaltig",
+      "lang": "de",
+      "sentence": "Die Anwältin hat Argumente, die niemand widerlegen kann.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "36e96125-bba9-d64f-218a-561c6c349c9e",
+      "concept_id": "concept-c1-systematisch",
+      "lang": "de",
+      "sentence": "Er geht jeden Raum der Reihe nach durch und sucht dort den Schlüssel.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f0ac5b7e-c052-ebad-bacb-fdc4ab99d459",
+      "concept_id": "concept-c1-strukturiert",
+      "lang": "de",
+      "sentence": "Der Vortrag hat eine Einleitung, drei klare Teile und einen Schluss.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "9c7eee2f-938d-8526-d774-9ef3a9e30e4a",
+      "concept_id": "concept-c1-differenzieren",
+      "lang": "de",
+      "sentence": "Kritik und Beleidigung sind nicht dasselbe, da muss man genau hinschauen.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "7738ba7d-d6d2-2b98-c8b6-ee86d51c30b3",
+      "concept_id": "concept-c1-bewaeltigen",
+      "lang": "it",
+      "sentence": "Con molta pazienza è riuscita a gestire tutto il lavoro da sola.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "7b271344-763c-b9aa-474c-ba9d44c88030",
+      "concept_id": "concept-c1-anspruchsvoll",
+      "lang": "it",
+      "sentence": "La professoressa vuole compiti perfetti e non accetta nemmeno un piccolo errore.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "90985862-e932-ef02-e024-6deb148de778",
+      "concept_id": "concept-c1-sich-bewaehren",
+      "lang": "it",
+      "sentence": "Il nuovo metodo ha funzionato bene per tre anni di fila.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "8245a59f-c8b2-4559-e2ed-32c64707be32",
+      "concept_id": "concept-c1-spielraum",
+      "lang": "it",
+      "sentence": "Il capo ci dà solo il budget, il resto possiamo deciderlo noi.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "c2663ece-7ee4-233f-bd23-b14d512b7d1b",
+      "concept_id": "concept-c1-stellenwert",
+      "lang": "it",
+      "sentence": "In questa famiglia lo sport conta più di qualsiasi altra cosa.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "16eb33d2-0f2d-a9f2-c471-458ba3b2e42e",
+      "concept_id": "concept-c1-kernaussage",
+      "lang": "it",
+      "sentence": "Alla fine del discorso tutti ricordano solo una frase: insieme siamo più forti.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "322c8e9e-2d30-c77e-c440-bca412d9aa66",
+      "concept_id": "concept-c1-eingehend",
+      "lang": "it",
+      "sentence": "Il medico l'ha visitato per un'ora, controllando ogni dettaglio.",
+      "translation_lang": null,
+      "translation_text": null
     }
   ],
   "concept_definitions": [
@@ -12717,7 +12869,8 @@
         "reason": "no_single_robust_opposite_for_hammer_out_verb",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-aushandeln",
@@ -12771,7 +12924,8 @@
         "reason": "no_single_robust_opposite_for_formal_provide_result_verb",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-erbringen-provide",
@@ -12827,13 +12981,14 @@
         "reason": "no_single_robust_opposite_for_high_performance_adjective",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-leistungsfaehig",
       "lang": "it",
-      "short_definition": "Capace di lavorare o produrre risultati in modo forte, efficace e affidabile anche sotto carico.",
-      "usage_note": "Puo riferirsi a persone, team, sistemi o dispositivi.",
+      "short_definition": "Capace di lavorare bene e ottenere buoni risultati anche sotto pressione.",
+      "usage_note": "Può riferirsi a persone, gruppi, sistemi o dispositivi.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -12848,7 +13003,7 @@
     {
       "concept_id": "concept-c1-leistungsfaehig",
       "lang": "en",
-      "short_definition": "Able to work or produce results strongly, effectively, and reliably even under strain.",
+      "short_definition": "Able to work well and produce good results even under pressure.",
       "usage_note": "This can describe people, teams, systems, or devices.",
       "context_tags_json": [],
       "source": "manual",
@@ -12869,7 +13024,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "Effizienz",
         "Produktivität"
       ],
       "antonyms_json": [
@@ -12884,13 +13038,14 @@
         "reason": "no_single_robust_opposite_for_performance_capacity_noun",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-leistungsfaehigkeit",
       "lang": "it",
-      "short_definition": "La capacità di fornire risultati buoni e affidabili anche in presenza di richieste o carico.",
-      "usage_note": "Puo riferirsi a persone, gruppi, macchine o sistemi.",
+      "short_definition": "Quanto lavoro una persona o una macchina può svolgere e con quali risultati.",
+      "usage_note": "Quanto lavoro una persona o una macchina può svolgere e con quali risultati.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -12905,7 +13060,7 @@
     {
       "concept_id": "concept-c1-leistungsfaehigkeit",
       "lang": "en",
-      "short_definition": "The ability to deliver good and reliable results even under requirements or strain.",
+      "short_definition": "The ability to produce good results even under pressure.",
       "usage_note": "This can refer to people, teams, machines, or systems.",
       "context_tags_json": [],
       "source": "manual",
@@ -12936,13 +13091,14 @@
         "reason": "no_single_robust_opposite_for_entail_verb",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-bedingen",
       "lang": "it",
       "short_definition": "Avere come conseguenza qualcosa o rendere necessario un altro sviluppo.",
-      "usage_note": "Qui nel senso piu formale di implicare o rendere necessario.",
+      "usage_note": "Qui nel senso più formale di implicare o rendere necessario.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -12958,7 +13114,7 @@
       "concept_id": "concept-c1-bedingen",
       "lang": "en",
       "short_definition": "To have something as a consequence or make another step necessary.",
-      "usage_note": "This covers the formal sense of entailing or making something necessary.",
+      "usage_note": "Used formally for consequences or necessary further steps.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -12992,7 +13148,8 @@
         "reason": "no_single_robust_opposite_for_understandable_reasoning_adjective",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-nachvollziehbar",
@@ -13013,7 +13170,7 @@
     {
       "concept_id": "concept-c1-nachvollziehbar",
       "lang": "en",
-      "short_definition": "Clear and logical",
+      "short_definition": "Possible to understand.",
       "usage_note": "Typical for decisions, arguments, procedures, or reactions.",
       "context_tags_json": [],
       "source": "ai",
@@ -13047,7 +13204,8 @@
         "reason": "contextual_opposite_varies_for_misunderstandable_adjective",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-missverstaendlich",
@@ -13085,7 +13243,7 @@
       "concept_id": "concept-c1-einschaetzung",
       "lang": "de",
       "short_definition": "Ein Urteil oder eine Beurteilung, die auf Erfahrung, Information oder Beobachtung beruht.",
-      "usage_note": "Typisch für Lageeinschätzungen, Risikoabschätzungen oder persönliche Beurteilungen.",
+      "usage_note": "Typisch für Urteile über Situationen, Risiken oder Personen.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
@@ -13098,13 +13256,14 @@
         "reason": "no_single_robust_opposite_for_assessment_noun",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-einschaetzung",
       "lang": "it",
-      "short_definition": "Un giudizio o una stima fondati su esperienza, informazioni o osservazione.",
-      "usage_note": "Tipico per valutazioni della situazione, dei rischi o di un contesto.; valutazione",
+      "short_definition": "Un giudizio basato su esperienza, informazioni o osservazione.",
+      "usage_note": "Tipico per giudizi su situazioni, rischi o persone.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -13119,7 +13278,7 @@
     {
       "concept_id": "concept-c1-einschaetzung",
       "lang": "en",
-      "short_definition": "A judgment or estimate based on experience, information, or observation.",
+      "short_definition": "A judgment based on experience, information, or observation.",
       "usage_note": "Typical for situation assessments, risk assessments, or considered judgments.",
       "context_tags_json": [],
       "source": "manual",
@@ -13150,7 +13309,8 @@
         "reason": "no_single_robust_opposite_for_contextualize_verb",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-einordnen",
@@ -13171,7 +13331,7 @@
     {
       "concept_id": "concept-c1-einordnen",
       "lang": "en",
-      "short_definition": "To place something in a broader context or suitable category so that it can be understood better.",
+      "short_definition": "To explain how something relates to a wider situation.",
       "usage_note": "This is used especially for information, events, statements, or developments.",
       "context_tags_json": [],
       "source": "manual",
@@ -13187,7 +13347,7 @@
     {
       "concept_id": "concept-c1-einordnung",
       "lang": "de",
-      "short_definition": "Die gedankliche Einbettung oder Kategorisierung von etwas, damit es besser verstanden werden kann.",
+      "short_definition": "Die Erklärung, wie eine Sache mit anderen Dingen zusammenhängt.",
       "usage_note": "Typisch für Erklärungen, Analysen oder Kommentare, die Fakten in einen Zusammenhang setzen.",
       "context_tags_json": [],
       "source": "manual",
@@ -13207,12 +13367,13 @@
         "reason": "no_single_robust_opposite_for_contextualization_noun",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-einordnung",
       "lang": "it",
-      "short_definition": "L'inserimento o la classificazione ragionata di qualcosa in un contesto più ampio per capirlo meglio.",
+      "short_definition": "La spiegazione dei legami tra qualcosa e la situazione generale.",
       "usage_note": "Tipico per spiegazioni, analisi o commenti che danno prospettiva ai fatti.",
       "context_tags_json": [],
       "source": "manual",
@@ -13228,7 +13389,7 @@
     {
       "concept_id": "concept-c1-einordnung",
       "lang": "en",
-      "short_definition": "The act or result of placing something in a broader context so that it can be understood better.",
+      "short_definition": "An explanation of how something relates to a wider situation.",
       "usage_note": "Typical for explanations, analyses, or commentary that put facts into perspective.",
       "context_tags_json": [],
       "source": "manual",
@@ -13249,7 +13410,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "der Schluß"
+        "der Schluss"
       ],
       "antonyms_json": [],
       "antonym_policy_json": {
@@ -13257,7 +13418,8 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-folgerung",
@@ -13294,7 +13456,7 @@
     {
       "concept_id": "concept-c1-einwand",
       "lang": "de",
-      "short_definition": "Ein Argument oder Bedenken gegen eine Idee oder Entscheidung.",
+      "short_definition": "Ein Grund, der gegen eine Idee oder Entscheidung spricht.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -13310,7 +13472,8 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-einwand",
@@ -13331,7 +13494,7 @@
     {
       "concept_id": "concept-c1-einwand",
       "lang": "it",
-      "short_definition": "Un argomento o preoccupazione sollevato contro un'idea o decisione.",
+      "short_definition": "Un motivo per non accettare un'idea o una decisione.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -13359,7 +13522,11 @@
         "der Gegenbeweis"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Beweis": "exact",
+        "Beleg": "exact"
+      }
     },
     {
       "concept_id": "concept-c1-nachweis",
@@ -13378,7 +13545,7 @@
     {
       "concept_id": "concept-c1-nachweis",
       "lang": "it",
-      "short_definition": "Un'evidenza o documentazione che supporta un'affermazione.",
+      "short_definition": "Un documento o un fatto che conferma un'affermazione.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -13405,7 +13572,8 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-schlussfolgerung",
@@ -13446,15 +13614,14 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "bestreiten"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "unterstützen",
         "vertreten"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-widerlegen",
@@ -13546,7 +13713,8 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-praemisse",
@@ -13567,7 +13735,7 @@
     {
       "concept_id": "concept-c1-praemisse",
       "lang": "it",
-      "short_definition": "Un'assunzione o condizione su cui si basa un argomento.",
+      "short_definition": "Un'idea considerata vera da cui parte un ragionamento.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -13602,7 +13770,8 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-hypothese",
@@ -13738,7 +13907,7 @@
     {
       "concept_id": "concept-c1-plausibel",
       "lang": "de",
-      "short_definition": "Überzeugend und vernünftig; gut zu glauben.",
+      "short_definition": "So verständlich und vernünftig, dass es wahr sein könnte.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -13751,7 +13920,8 @@
         "zweifelhaft"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-plausibel",
@@ -13792,8 +13962,6 @@
       "source": "manual",
       "synonyms_json": [
         "begründet",
-        "sachlich",
-        "nachweisbar",
         "gut untermauert"
       ],
       "antonyms_json": [
@@ -13803,7 +13971,10 @@
         "unbegründet"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "gut untermauert": "exact"
+      }
     },
     {
       "concept_id": "concept-c1-fundiert",
@@ -13855,12 +14026,13 @@
         "schwach"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-stichhaltig",
       "lang": "en",
-      "short_definition": "Logically valid and difficult to refute.",
+      "short_definition": "Based on good reasons and difficult to prove wrong.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -13904,7 +14076,8 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-kriterium",
@@ -13954,7 +14127,8 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-massstab",
@@ -13991,25 +14165,24 @@
     {
       "concept_id": "concept-c1-beurteilung",
       "lang": "de",
-      "short_definition": "Ein formelles Urteil oder eine Bewertung.",
+      "short_definition": "Ein Urteil über die Qualität oder den Zustand von etwas.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "Prüfung"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-beurteilung",
       "lang": "en",
-      "short_definition": "A formal evaluation or judgment.",
+      "short_definition": "A judgment about the quality or condition of something.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -14025,7 +14198,7 @@
     {
       "concept_id": "concept-c1-beurteilung",
       "lang": "it",
-      "short_definition": "Un'analisi critica e sistematica di qualcosa, spesso con l'obiettivo di determinare il suo valore o la sua qualità.",
+      "short_definition": "Un giudizio sul valore o sulla qualità di qualcosa.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -14071,7 +14244,7 @@
     {
       "concept_id": "concept-c1-zentral",
       "lang": "it",
-      "short_definition": "Di massima importanza; al centro dell'attenzione.",
+      "short_definition": "Molto importante per una questione o attività.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -14086,7 +14259,7 @@
     {
       "concept_id": "concept-c1-massgeblich",
       "lang": "de",
-      "short_definition": "Von entscheidender Bedeutung; als Norm oder Autorität geltend.",
+      "short_definition": "So wichtig, dass es ein Ergebnis stark beeinflusst.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -14101,7 +14274,7 @@
     {
       "concept_id": "concept-c1-massgeblich",
       "lang": "en",
-      "short_definition": "Having a determining influence; regarded as authoritative.",
+      "short_definition": "So important that it decides the final result.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -14133,7 +14306,7 @@
       "lang": "de",
       "short_definition": "Durchgängig und folgerichtig; ohne Widersprüche.",
       "usage_note": null,
-      "sense_indicator": "treu den eigenen Prinzipien",
+      "sense_indicator": "den eigenen Prinzipien treu",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
@@ -14146,7 +14319,8 @@
         "inkonsistent"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-konsequent",
@@ -14166,7 +14340,7 @@
     {
       "concept_id": "concept-c1-konsequent",
       "lang": "it",
-      "short_definition": "Che agisce in conformità con i propri principi dichiarati, senza contraddizioni.",
+      "short_definition": "Che agisce secondo i propri principi, senza contraddirli.",
       "usage_note": null,
       "sense_indicator": "fedele ai propri principi",
       "context_tags_json": [],
@@ -14196,7 +14370,10 @@
         "willkürlich"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "methodisch": "exact"
+      }
     },
     {
       "concept_id": "concept-c1-systematisch",
@@ -14244,7 +14421,10 @@
         "ungeordnet"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "gegliedert": "exact"
+      }
     },
     {
       "concept_id": "concept-c1-strukturiert",
@@ -14264,7 +14444,7 @@
     {
       "concept_id": "concept-c1-strukturiert",
       "lang": "it",
-      "short_definition": "Chiaramente organizzato con un quadro riconoscibile.",
+      "short_definition": "Organizzato in parti chiare e ben collegate.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -14298,12 +14478,15 @@
         "reason": "Verb without a single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "unterscheiden": "exact"
+      }
     },
     {
       "concept_id": "concept-c1-differenzieren",
       "lang": "en",
-      "short_definition": "To identify and articulate fine distinctions between similar things.",
+      "short_definition": "To recognize and describe small differences between similar things.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -14319,7 +14502,7 @@
     {
       "concept_id": "concept-c1-differenzieren",
       "lang": "it",
-      "short_definition": "Identificare e articolare distinzioni sottili tra cose simili.",
+      "short_definition": "Riconoscere e descrivere piccole differenze tra cose simili.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -14352,7 +14535,10 @@
         "reason": "Verb without a single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "verbinden": "exact"
+      }
     },
     {
       "concept_id": "concept-c1-verknuepfen",
@@ -14373,7 +14559,7 @@
     {
       "concept_id": "concept-c1-verknuepfen",
       "lang": "it",
-      "short_definition": "Connettere due o più cose nel pensiero o nei contenuti.",
+      "short_definition": "Mettere in relazione due o più cose o idee.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -14402,7 +14588,8 @@
         "reason": "Verb without a single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-c1-implizieren",
@@ -14439,7 +14626,7 @@
     {
       "concept_id": "concept-c1-bewaeltigen",
       "lang": "de",
-      "short_definition": "Eine schwierige Aufgabe, Menge oder Situation erfolgreich meistern.",
+      "short_definition": "Eine schwierige Aufgabe erledigen oder mit einer schwierigen Situation zurechtkommen.",
       "usage_note": "Typisch mit Herausforderungen, Arbeitspensum, Krisen oder Verlusten.",
       "context_tags_json": [],
       "source": "manual",
@@ -14455,7 +14642,7 @@
     {
       "concept_id": "concept-c1-bewaeltigen",
       "lang": "en",
-      "short_definition": "To deal successfully with a difficult task, amount, or situation.",
+      "short_definition": "To deal successfully with a difficult task or situation.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -14467,7 +14654,7 @@
     {
       "concept_id": "concept-c1-bewaeltigen",
       "lang": "it",
-      "short_definition": "Affrontare e gestire con successo un compito, una quantità o una situazione difficile.",
+      "short_definition": "Affrontare e gestire con successo un compito o una situazione difficile.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -14507,7 +14694,7 @@
     {
       "concept_id": "concept-c1-gewaehrleisten",
       "lang": "it",
-      "short_definition": "Assicurare formalmente che una condizione sia rispettata o che qualcosa funzioni in modo affidabile.",
+      "short_definition": "Fare in modo che una condizione sia rispettata o che qualcosa funzioni bene.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -14671,7 +14858,7 @@
     {
       "concept_id": "concept-c1-absehbar",
       "lang": "it",
-      "short_definition": "Che si può prevedere o anticipare a partire dalla situazione attuale.",
+      "short_definition": "Che si può conoscere in anticipo in base alla situazione attuale.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -14724,7 +14911,7 @@
       "concept_id": "concept-c1-verdeutlichen",
       "lang": "de",
       "short_definition": "Etwas so darstellen, dass es leichter zu verstehen ist, oft mit Beispielen oder Bildern.",
-      "usage_note": "Anders als klarstellen geht es nicht um Korrektur, sondern um besseres Verständnis.",
+      "usage_note": "Häufig beim Erklären von Ideen, Zusammenhängen oder Ergebnissen.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],

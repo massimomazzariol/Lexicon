@@ -1,0 +1,138 @@
+[
+  {
+    "source_key": "a1_noun_land_country",
+    "concept_id": "concept-a1-land-country",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": ["Travel", "Places"],
+    "notes": "Sense split (2026-10 A1/A2 review). Land as a country or nation. The countryside sense stays in concept 1a2d6eb8, whose English word becomes the countryside.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-land-country",
+        "text": "Land",
+        "lemma": "Land",
+        "article_nom_sg_def": "das",
+        "gender": "n",
+        "plural": "Länder",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ein Gebiet mit eigener Regierung und eigenen Grenzen.",
+        "examples": ["Italien und Österreich haben eine gemeinsame Grenze."]
+      },
+      "it": {
+        "lexeme_id": "lex-it-paese",
+        "text": "il paese",
+        "lemma": "paese",
+        "countability": "count",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Un territorio con un proprio governo e propri confini.",
+        "examples": ["L'Italia e l'Austria hanno un confine in comune."]
+      },
+      "en": {
+        "lexeme_id": "lex-en-country-nation",
+        "text": "the country",
+        "lemma": "country",
+        "countability": "count",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "An area with its own government and borders.",
+        "examples": ["Italy and Austria share a border."]
+      }
+    }
+  },
+  {
+    "source_key": "a1_noun_land_countryside_en",
+    "concept_id": "1a2d6eb8-6a6d-b96f-49f8-e58293b71539",
+    "pos": "noun",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-country", "text": "the countryside", "lemma": "countryside" }
+    }
+  },
+  {
+    "source_key": "a1_noun_platz_seat",
+    "concept_id": "concept-a1-platz-seat",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": ["Travel", "Daily"],
+    "notes": "Sense split (2026-10 A1/A2 review). Platz as a place to sit. The town-square sense stays in concept 18ea0529.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-platz-seat",
+        "text": "Platz",
+        "lemma": "Platz",
+        "article_nom_sg_def": "der",
+        "gender": "m",
+        "plural": "Plätze",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Eine Stelle, an der eine Person sitzen kann, zum Beispiel im Zug oder im Kino.",
+        "examples": ["Entschuldigung, ist hier noch frei?"]
+      },
+      "it": {
+        "lexeme_id": "lex-it-posto",
+        "text": "il posto",
+        "lemma": "posto",
+        "countability": "count",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Un punto dove una persona può sedersi, per esempio in treno o al cinema.",
+        "examples": ["Scusi, è libero qui?"]
+      },
+      "en": {
+        "lexeme_id": "lex-en-seat",
+        "text": "the seat",
+        "lemma": "seat",
+        "countability": "count",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "A place where a person can sit, for example on a train or in a cinema.",
+        "examples": ["Excuse me, is this one free?"]
+      }
+    }
+  },
+  {
+    "source_key": "a1_noun_platz_seat_de_sitzplatz",
+    "concept_id": "concept-a1-platz-seat",
+    "pos": "noun",
+    "translations": {
+      "de": { "lexeme_id": "lex-de-sitzplatz", "text": "der Sitzplatz", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a1_noun_platz_seat_it_posto_a_sedere",
+    "concept_id": "concept-a1-platz-seat",
+    "pos": "noun",
+    "translations": {
+      "it": { "lexeme_id": "lex-it-posto-a-sedere", "text": "il posto a sedere", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a2_verb_passen_it_stare_bene",
+    "concept_id": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
+    "pos": "verb",
+    "translations": {
+      "it": {
+        "lexeme_id": "lex-it-stare-bene",
+        "text": "stare bene",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Andare d'accordo con qualcosa, fare una bella figura insieme."
+      }
+    }
+  },
+  {
+    "source_key": "a2_verb_passen_it_abbinare_demoted",
+    "concept_id": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
+    "pos": "verb",
+    "translations": {
+      "it": {
+        "lexeme_id": "lex-it-abbinare",
+        "text": "abbinare",
+        "meaning_status": "approximate",
+        "is_primary": false,
+        "notes": "Transitive (someone combines things); passen says the things match. Kept for display, not graded."
+      }
+    }
+  }
+]

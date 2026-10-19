@@ -653,6 +653,23 @@
       "status": "approved",
       "notes": null,
       "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-riassumere-in-poche-parole",
+      "concept_id": "concept-b2-auf-den-punkt-bringen",
+      "lang": "it",
+      "text": "riassumere in poche parole",
+      "frequency_rank": null,
+      "lemma": "riassumere in poche parole",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
     }
   ],
   "lexeme_forms": [
@@ -1195,6 +1212,24 @@
       "tags_json": {
         "slot_key": "core"
       }
+    },
+    {
+      "form_id": "1a6ef011-ca5e-50f5-1634-d3ff80ba9cb2",
+      "lexeme_id": "lex-it-riassumere-in-poche-parole",
+      "lang": "it",
+      "surface": "riassumere in poche parole",
+      "surface_search": "riassumere in poche parole",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
     }
   ],
   "study_units": [
@@ -1494,7 +1529,9 @@
       "unit_kind": "core_prod",
       "source_form_id": "b65d896d-8c53-0fea-7695-e7805f82a32a",
       "primary_expected_form_id": "5ba727fb-7936-9d31-444d-13d7c9125de5",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "1a6ef011-ca5e-50f5-1634-d3ff80ba9cb2"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -1530,7 +1567,9 @@
       "unit_kind": "core_prod",
       "source_form_id": "88df68db-5da2-0fee-51af-d7eb6cd57275",
       "primary_expected_form_id": "5ba727fb-7936-9d31-444d-13d7c9125de5",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "1a6ef011-ca5e-50f5-1634-d3ff80ba9cb2"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -2002,13 +2041,101 @@
       "sentence": "Dass der Plan scheitern musste, konnte wirklich jeder sofort sehen.",
       "translation_lang": null,
       "translation_text": null
+    },
+    {
+      "example_id": "25e287f3-253f-7583-61f9-56c88f2caf73",
+      "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",
+      "lang": "de",
+      "sentence": "Der Techniker erklärt alles mit Fachwörtern, für mich ist das wie eine fremde Sprache.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "12828c2f-8bd5-a7bb-b788-b0301735b334",
+      "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",
+      "lang": "it",
+      "sentence": "Il tecnico usa solo parole difficili e io non ho idea di cosa stia dicendo.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "01c0fd91-923a-0e30-cabe-444810b60bd1",
+      "concept_id": "concept-b2-die-daumen-druecken",
+      "lang": "it",
+      "sentence": "Domani ho l'esame: speriamo che vada bene!",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "36101c6b-9266-cccc-a240-793ebe795a4d",
+      "concept_id": "concept-b2-auf-dem-laufenden-sein",
+      "lang": "it",
+      "sentence": "Leggo le notizie ogni mattina, così so sempre cosa succede.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "0c0ef1b1-7fc4-391e-a54f-3c63321f39cd",
+      "concept_id": "concept-b2-ins-gespraech-kommen",
+      "lang": "it",
+      "sentence": "In treno ho cominciato a parlare con una signora, e abbiamo chiacchierato per due ore.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "ad34ef95-6aeb-268d-f638-4ac9c45004d1",
+      "concept_id": "concept-b2-auf-den-punkt-bringen",
+      "lang": "it",
+      "sentence": "Non abbiamo tempo: dimmi in una frase che cosa vuoi.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "0ced3bb8-0079-8c84-b198-3e0804f1e64e",
+      "concept_id": "concept-b2-den-ueberblick-behalten",
+      "lang": "it",
+      "sentence": "Uso una tabella per sapere sempre come procedono tutti e venti i progetti.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "aa9c23a4-d683-5a6c-5c82-a333f7c44da0",
+      "concept_id": "concept-b2-zur-verfuegung-stehen",
+      "lang": "it",
+      "sentence": "Se avete domande, io sono qui tutto il pomeriggio.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f3555561-7b05-d3cc-d250-d8939b3a042a",
+      "concept_id": "concept-b2-im-gegensatz-zu",
+      "lang": "it",
+      "sentence": "Mio fratello ama il mare, io invece preferisco la montagna.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "c5d0c285-aae7-b133-6565-33d7fd953267",
+      "concept_id": "concept-b2-unter-vier-augen",
+      "lang": "it",
+      "sentence": "Posso parlarti da solo, senza gli altri?",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "9ff073f1-8970-bc08-135c-ddae05417f72",
+      "concept_id": "concept-b2-es-liegt-auf-der-hand",
+      "lang": "it",
+      "sentence": "Ha le valigie davanti alla porta e il biglietto in mano: parte oggi, non ci sono dubbi.",
+      "translation_lang": null,
+      "translation_text": null
     }
   ],
   "concept_definitions": [
     {
       "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",
       "lang": "en",
-      "short_definition": "Used to say that you do not understand anything being said.",
+      "short_definition": "Used when everything someone says is unclear to you.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "migrated_from_gloss_alias",
@@ -2022,12 +2149,13 @@
         "I follow every word"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",
       "lang": "de",
-      "short_definition": "Wird verwendet, um auszudrücken, dass man nichts versteht.",
+      "short_definition": "Wird gesagt, wenn einem alles Gesagte völlig unklar ist.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "migrated_from_gloss_alias",
@@ -2040,26 +2168,25 @@
         "Es ist mir alles klar"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5",
       "lang": "it",
-      "short_definition": "Usato per dire che non si capisce nulla di ciò che viene detto.",
+      "short_definition": "Usato quando non si riesce a dare un senso a ciò che viene detto.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "migrated_from_gloss_alias",
-      "synonyms_json": [
-        "Non capire un tubo",
-        "Non avere idea"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "capisco tutto",
         "Capire tutto",
         "Comprendere perfettamente"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-die-daumen-druecken",
@@ -2136,7 +2263,7 @@
     {
       "concept_id": "concept-b2-ins-gespraech-kommen",
       "lang": "de",
-      "short_definition": "Mit jemandem ungeplant zu reden beginnen und einen Austausch aufbauen.",
+      "short_definition": "Mit jemandem zu reden beginnen.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2148,7 +2275,7 @@
     {
       "concept_id": "concept-b2-ins-gespraech-kommen",
       "lang": "en",
-      "short_definition": "To start an unplanned conversation with someone.",
+      "short_definition": "To begin a conversation with someone.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2160,7 +2287,7 @@
     {
       "concept_id": "concept-b2-ins-gespraech-kommen",
       "lang": "it",
-      "short_definition": "Iniziare una conversazione non programmata con qualcuno.",
+      "short_definition": "Iniziare una conversazione con qualcuno.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2220,7 +2347,7 @@
     {
       "concept_id": "concept-b2-den-ueberblick-behalten",
       "lang": "en",
-      "short_definition": "To keep the whole picture in view despite many details.",
+      "short_definition": "To continue knowing what is happening or where things are.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2304,7 +2431,7 @@
     {
       "concept_id": "concept-b2-im-gegensatz-zu",
       "lang": "it",
-      "short_definition": "Introduce un confronto che sottolinea una differenza.",
+      "short_definition": "Introduce un confronto che mostra come due cose non siano uguali.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",

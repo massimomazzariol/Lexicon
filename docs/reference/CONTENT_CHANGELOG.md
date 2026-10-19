@@ -23,6 +23,85 @@ The goal is to keep content history concept-first and language-neutral.
 Entries should describe meanings and cross-language lexicalizations, not treat
 one language as the owner of the change.
 
+## 2026-10-19 - A1/A2 answer support and editorial review
+
+Everyday words a learner would give as the answer were missing or only
+partly credited. They are now secondary lexemes with
+`meaning_status: "exact"`, so a consumer grades them as fully correct:
+
+- hearing: `sentire` next to `ascoltare`
+- sending: `spedire`, `mandare`, `senden`, `zuschicken`
+- room: `la camera`; car: `la macchina`, `l'automobile`
+- taking part: `mitmachen` (`mitmachen bei`, `teilnehmen an`)
+- mostly: `meistens`; elevator: `der Fahrstuhl`; outing: `la gita`
+- free of charge: `gratis` (de, it), `umsonst` (scoped to "without paying")
+- necessary: `notwendig`; picking up: `passare a prendere`; fast: `rapido`
+- something / someone: `etwas`, `jemand`; nowhere: `nirgends`
+- there: `da` (place only, not the conjunction)
+- finishing: `terminare`, `concludere`; dart: `la freccetta`
+
+Concept boundaries narrowed to the meaning the translations carry:
+
+- `Land` splits in two: the countryside (`la campagna`, English now
+  `the countryside`) and the new A1 concept country or nation
+  (`il paese`, `the country`), with sense indicators on both
+- `Platz` splits in two: the town square (`la piazza`) and the new A1
+  concept seat (`il posto`, `the seat`, also `der Sitzplatz`,
+  `il posto a sedere`)
+- `passen`: Italian `stare bene` is the primary answer; transitive
+  `abbinare` stays for display as `approximate`
+- `ganz` is defined as whole, with no part missing (the adverbial senses are
+  not modeled yet)
+- `einfach` (just): indicators and definition say it stresses a statement,
+  not "without thinking"; the three `einfach` usage notes no longer show
+  internal ids
+- `fahren`: Italian definition was French ("Conduire"); examples no longer
+  contain the word itself; usage note: at the wheel, not as a passenger
+- `schon`: definition is only the temporal sense; false synonym
+  `frühzeitig` removed
+- `Lauf` is a running race, not a training run or a winning streak
+- `malen` is making a picture, not painting walls (`streichen`)
+
+False or unnatural synonyms removed: `Kaninchen` (`Hase`), `kernig`
+(`wichtig`), `Mantel` and `Pullover` (`Jacke`), `rivalry` (`Lauf`), the
+generic `Bereich` / `Ort` / `Fläche` (`Platz`), and two calqued German time
+questions. Definitions rewritten for `Jacke`, `Wort`, `stillstehen`,
+`spazieren gehen`, `Hand`, `meist`, `langsam` (en). Examples replaced where
+they taught the wrong sense, repeated the definition, or contained the
+target word (`verheiratet`, `Hand`, `Wasser`, `langsam`, `herausfinden`,
+`malen`); `essen` gained a German example; duplicate examples in
+`Unterschied` and the time question removed; missing Italian definitions
+added for `herausfinden` and `Dart`.
+
+Synonyms: all 561 A1/A2 synonyms reviewed. 97 removed as wrong (a different
+thing or sense: `Zugang` for `Ankunft`, `desk` for `table`, `dunkel` for
+`schwarz`, `Fahrzeug` for `Auto`), 14 surface forms fixed (Italian articles,
+English `to`), and 67 fully interchangeable ones tiered `exact` in
+`synonym_tiers_json` (graded as a perfect answer: `Rennen`, `Eintreffen`,
+`lift`, `Klinik`, `bummeln`...). The rest stay `close` (partial credit).
+
+Definitions: every A1/A2 definition, usage note and sense indicator
+reviewed; 348 rewritten (wrong sense, a definition that contained the word,
+vocabulary above A2, missing capital or full stop, missing accents). English
+noun answers now carry `the` like the others (`the house`, `the table`...),
+the bare form stays accepted. `hören`: Italian `sentire` (hear) is the
+primary answer, `ascoltare` stays accepted. New A1 concepts: `ganz`
+before an adjective (completely, also `völlig`, `del tutto`) and
+`Bleistift` (pencil), apart from the generic `Stift`.
+
+Example coverage: every A1/A2 concept now has a German example (178 added)
+and an Italian example (162 added).
+
+B1 to C2, same review: 469 synonyms (58 removed, 9 surface forms fixed, 79
+tiered `exact`), 960 definition rows (274 rewritten), and every concept now
+has a German example (91 added) and an Italian example (109 added). New
+exact answers: `concise` (`prägnant`), `sensible` (`sinnvoll`),
+`riassumere in poche parole` (`auf den Punkt bringen`). `schnell` and
+`langsam` also accept the adverb answers `velocemente`, `lentamente`,
+`quickly`, `slowly`. Each
+sentence gives a context for the meaning without naming the word, its forms
+or its synonyms (no-spoiler rule), and was reviewed for naturalness and level.
+
 ## 2026-10-17 - Sense indicators for shared words (DL-014)
 
 The 50 concepts whose word is shared with another concept in at least one

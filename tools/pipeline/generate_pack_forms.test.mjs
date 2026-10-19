@@ -166,11 +166,29 @@ test('REGRESSION: generate_pack_forms preserves the concept_relations graph', ()
         { concept_id: 'c-a', pos: 'noun' },
         { concept_id: 'c-b', pos: 'noun' },
       ],
-      lexemes: [{
-        lexeme_id: 'lex-de-a', concept_id: 'c-a', lang: 'de',
-        text: 'Lauf', lemma: 'Lauf', pos: 'noun', gender: 'masc', is_primary: true,
+      lexemes: [
+        {
+          lexeme_id: 'lex-de-a', concept_id: 'c-a', lang: 'de',
+          text: 'Lauf', lemma: 'Lauf', pos: 'noun', gender: 'masc', is_primary: true,
+        },
+        // 2026-10-19: the first lexeme in file order was always made primary,
+        // overriding an authored primary that comes later.
+        {
+          lexeme_id: 'lex-it-old', concept_id: 'c-a', lang: 'it',
+          text: 'abbinare', pos: 'verb', is_primary: false,
+        },
+        {
+          lexeme_id: 'lex-it-new', concept_id: 'c-a', lang: 'it',
+          text: 'stare bene', pos: 'verb', is_primary: true,
+        },
+      ],
+      // 2026-10-19: definition rows were rebuilt from a fixed field list, which
+      // dropped every sense_indicator (DL-014) and synonym_tiers_json.
+      concept_definitions: [{
+        concept_id: 'c-a', lang: 'de', short_definition: 'Ein Rennen.',
+        sense_indicator: 'Wettbewerb', synonym_tiers_json: { Rennen: 'exact' },
       }],
-      concept_definitions: [], examples: [],
+      examples: [],
       concept_relations: [edge],
     });
 
@@ -180,6 +198,12 @@ test('REGRESSION: generate_pack_forms preserves the concept_relations graph', ()
 
     const after = JSON.parse(fs.readFileSync(contentPath, 'utf8'));
     assert.deepEqual(after.concept_relations, [edge], 'the graph survives generation');
+    const [definition] = after.concept_definitions;
+    assert.equal(definition.sense_indicator, 'Wettbewerb');
+    assert.deepEqual(definition.synonym_tiers_json, { Rennen: 'exact' });
+    const primaryOf = (id) => after.lexemes.find((row) => row.lexeme_id === id).is_primary;
+    assert.equal(primaryOf('lex-it-old'), false);
+    assert.equal(primaryOf('lex-it-new'), true);
   } finally {
     fs.rmSync(tempRoot, { recursive: true, force: true });
   }

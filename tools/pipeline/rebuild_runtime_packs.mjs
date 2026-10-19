@@ -47,8 +47,11 @@ function parseArgs(argv) {
   return options;
 }
 
+// Line endings do not count: a git checkout on Windows (autocrlf) rewrites
+// packs with CRLF, which must not read as a content change and bump versions.
 function hashFile(filePath) {
-  return crypto.createHash('sha256').update(fs.readFileSync(filePath)).digest('hex');
+  const text = fs.readFileSync(filePath, 'utf8').replace(/\r\n/g, '\n');
+  return crypto.createHash('sha256').update(text).digest('hex');
 }
 
 /**

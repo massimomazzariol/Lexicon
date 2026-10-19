@@ -2022,6 +2022,62 @@
       "sentence": "Nominando lei stessa i punti deboli, ha spiazzato i critici.",
       "translation_lang": null,
       "translation_text": null
+    },
+    {
+      "example_id": "0594684d-fba7-3e00-df2a-3a89fd073f49",
+      "concept_id": "concept-c2-auf-den-zahn-fuehlen",
+      "lang": "it",
+      "sentence": "La polizia fa al sospettato domande su domande per ore.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "30e37885-5327-dd95-bf69-d09a929bb1c5",
+      "concept_id": "concept-c2-kind-beim-namen",
+      "lang": "it",
+      "sentence": "Lei non gira intorno ai problemi: dice le cose come stanno.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "4c110c2c-76c4-7032-d8c9-f12c56ce1df1",
+      "concept_id": "concept-c2-zweierlei-mass",
+      "lang": "it",
+      "sentence": "Il professore punisce Marco per un ritardo, ma con sua figlia chiude un occhio.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "8b0235c6-5ef1-e82a-cc22-4c3a01e905b6",
+      "concept_id": "concept-c2-spreu-vom-weizen",
+      "lang": "it",
+      "sentence": "Su internet bisogna distinguere le notizie vere da quelle false.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "841e3d14-e45d-e20a-0956-4f366751a419",
+      "concept_id": "concept-c2-auf-granit-beissen",
+      "lang": "it",
+      "sentence": "Abbiamo chiesto mille volte un aumento, ma il capo dice sempre di no.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "df68c42c-29ea-116c-b9ec-7930f98e67f4",
+      "concept_id": "concept-c2-im-sande-verlaufen",
+      "lang": "it",
+      "sentence": "Il progetto era partito con entusiasmo, ma poi nessuno ne ha più parlato.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "44cef95f-da3c-0ee7-c4e8-8ec9f732ead8",
+      "concept_id": "concept-c2-bogen-ueberspannen",
+      "lang": "it",
+      "sentence": "Aveva già ottenuto un giorno libero, ma ne ha chiesti altri tre e il capo si è arrabbiato.",
+      "translation_lang": null,
+      "translation_text": null
     }
   ],
   "concept_definitions": [
@@ -2124,7 +2180,7 @@
     {
       "concept_id": "concept-c2-kind-beim-namen",
       "lang": "it",
-      "short_definition": "Dire apertamente e direttamente una cosa scomoda.",
+      "short_definition": "Parlare apertamente e senza nascondere cose scomode.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2256,7 +2312,7 @@
     {
       "concept_id": "concept-c2-auf-granit-beissen",
       "lang": "en",
-      "short_definition": "To meet completely unyielding resistance with a request.",
+      "short_definition": "To face opposition that makes further progress impossible.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2268,7 +2324,7 @@
     {
       "concept_id": "concept-c2-auf-granit-beissen",
       "lang": "it",
-      "short_definition": "Incontrare una resistenza del tutto inflessibile con una richiesta.",
+      "short_definition": "Non riuscire a procedere perché gli altri si oppongono del tutto.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2352,7 +2408,7 @@
     {
       "concept_id": "concept-c2-wind-aus-den-segeln",
       "lang": "de",
-      "short_definition": "Die stärksten Argumente eines Gegners vorwegnehmen und so entwerten.",
+      "short_definition": "Durch eine unerwartete Reaktion jemandes Sicherheit oder Begeisterung schwächen.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2364,7 +2420,7 @@
     {
       "concept_id": "concept-c2-wind-aus-den-segeln",
       "lang": "en",
-      "short_definition": "To pre-empt an opponent's strongest arguments and so defuse them.",
+      "short_definition": "To make someone lose confidence or enthusiasm through an unexpected response.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2376,7 +2432,7 @@
     {
       "concept_id": "concept-c2-wind-aus-den-segeln",
       "lang": "it",
-      "short_definition": "Anticipare gli argomenti più forti di un avversario, togliendo loro efficacia.",
+      "short_definition": "Togliere sicurezza o entusiasmo a qualcuno con una risposta inattesa.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",

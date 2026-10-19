@@ -742,6 +742,40 @@
       "status": "approved",
       "notes": null,
       "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-etwas",
+      "concept_id": "08116c81-5e80-e8d9-d48a-2dcfafa2dae1",
+      "lang": "de",
+      "text": "etwas",
+      "frequency_rank": null,
+      "lemma": "etwas",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-jemand",
+      "concept_id": "29a483bf-d86a-a442-f816-17ee4e248a16",
+      "lang": "de",
+      "text": "jemand",
+      "frequency_rank": null,
+      "lemma": "jemand",
+      "pos": "chunk",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
     }
   ],
   "lexeme_forms": [
@@ -1356,6 +1390,42 @@
       "tags_json": {
         "slot_key": "core"
       }
+    },
+    {
+      "form_id": "edb6a396-1f6e-b7d9-0e89-e94ce24377d0",
+      "lexeme_id": "lex-de-etwas",
+      "lang": "de",
+      "surface": "etwas",
+      "surface_search": "etwas",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "4e055550-3152-06bf-1028-363359aae62b",
+      "lexeme_id": "lex-de-jemand",
+      "lang": "de",
+      "surface": "jemand",
+      "surface_search": "jemand",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
     }
   ],
   "study_units": [
@@ -1385,7 +1455,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "c46453ea-0252-32f6-9e7b-528a6ec6edad",
       "primary_expected_form_id": "343a7382-2be7-107a-c008-e4f6c27c8425",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "edb6a396-1f6e-b7d9-0e89-e94ce24377d0"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -1457,7 +1529,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "d800c535-ab2d-1311-b0b1-e986650348a7",
       "primary_expected_form_id": "6cd3facb-7a62-dae3-d759-9ccb74da1ead",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "4e055550-3152-06bf-1028-363359aae62b"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -2202,13 +2276,157 @@
       "sentence": "Non preoccuparti, va benissimo così.",
       "translation_lang": null,
       "translation_text": null
+    },
+    {
+      "example_id": "ce9bbda1-f635-4bd9-969e-a622f0691f71",
+      "concept_id": "29a483bf-d86a-a442-f816-17ee4e248a16",
+      "lang": "de",
+      "sentence": "Es klingelt an der Tür, aber ich erwarte keinen Besuch.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "431f0b98-272b-1972-21c4-21a5b4dc20d3",
+      "concept_id": "06afc93e-f8f6-3698-72af-3185f7367f80",
+      "lang": "de",
+      "sentence": "Kommst du zur Party? Ja, ich freue mich schon!",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f3de57f7-2135-1dbb-0de5-2a557d3bc002",
+      "concept_id": "concept-a2-im-voraus",
+      "lang": "de",
+      "sentence": "Die Tickets kaufe ich schon eine Woche vor dem Konzert.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "14522db6-b088-ce3b-1655-c2d7584326aa",
+      "concept_id": "concept-a2-im-moment",
+      "lang": "de",
+      "sentence": "Ich habe gerade keine Zeit, ich koche.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "bd5ca40d-2dff-3d70-573e-00b3e0abef4c",
+      "concept_id": "concept-a2-so-schnell-wie-moeglich",
+      "lang": "de",
+      "sentence": "Bitte ruf mich sofort zurück, es ist dringend!",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "115dc72d-99fe-43ad-f14c-a10b2072b3f7",
+      "concept_id": "concept-a2-es-kommt-darauf-an",
+      "lang": "de",
+      "sentence": "Gehst du morgen schwimmen? Wenn es warm ist, ja, sonst nicht.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "47639d06-fb3d-0ff0-89f5-59316210c431",
+      "concept_id": "concept-a2-unter-druck",
+      "lang": "de",
+      "sentence": "Vor der Prüfung hat sie viel Stress und schläft schlecht.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "12c79582-621b-b000-af9d-9fcd70536c44",
+      "concept_id": "concept-a2-im-durchschnitt",
+      "lang": "de",
+      "sentence": "Am Montag lese ich zehn Seiten, am Dienstag zwanzig: Das sind fünfzehn Seiten pro Tag.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "9a5f402f-b891-fe38-c1e3-a20b58880ef7",
+      "concept_id": "concept-a2-auf-keinen-fall",
+      "lang": "de",
+      "sentence": "Fährst du bei diesem Sturm mit dem Fahrrad? Nein, niemals!",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "90c3fe4e-7fd1-245f-c78f-9ad47915d4bd",
+      "concept_id": "concept-a2-kein-problem",
+      "lang": "de",
+      "sentence": "Kannst du mir helfen? Klar, gerne!",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "63e5626e-fd96-22cf-527e-2f09aaacd149",
+      "concept_id": "06afc93e-f8f6-3698-72af-3185f7367f80",
+      "lang": "it",
+      "sentence": "Vieni alla festa? Sì, sicuramente!",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "213414e8-71a4-05fc-7e41-89f1b9d8a206",
+      "concept_id": "concept-a2-im-voraus",
+      "lang": "it",
+      "sentence": "Compro i biglietti una settimana prima del concerto.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "ba415f53-1d67-95df-a94c-f9751f01ef79",
+      "concept_id": "concept-a2-im-moment",
+      "lang": "it",
+      "sentence": "Ora non ho tempo, sto cucinando.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "6432c300-95a6-c695-d76e-98d468157011",
+      "concept_id": "concept-a2-so-schnell-wie-moeglich",
+      "lang": "it",
+      "sentence": "Richiamami subito, è urgente!",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "6dfb88e1-d653-c68e-9c29-e503682b67d6",
+      "concept_id": "concept-a2-es-kommt-darauf-an",
+      "lang": "it",
+      "sentence": "Vai a nuotare domani? Decido in base al tempo.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "5e8cd5d1-5a9e-c50b-3469-b22cd0d6cab3",
+      "concept_id": "concept-a2-unter-druck",
+      "lang": "it",
+      "sentence": "Il capo vuole tutto subito e lui non riesce a lavorare tranquillo.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "393a50e6-b884-02ce-da5b-0c1b55396137",
+      "concept_id": "concept-a2-im-durchschnitt",
+      "lang": "it",
+      "sentence": "Ieri ho bevuto un litro, oggi tre: sono due litri al giorno.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "9dc5c202-924d-c2ce-84ae-356ba1f0ce2e",
+      "concept_id": "concept-a2-auf-keinen-fall",
+      "lang": "it",
+      "sentence": "Vai in bici con questa tempesta? No, mai!",
+      "translation_lang": null,
+      "translation_text": null
     }
   ],
   "concept_definitions": [
     {
       "concept_id": "08116c81-5e80-e8d9-d48a-2dcfafa2dae1",
       "lang": "en",
-      "short_definition": "An unspecified thing.",
+      "short_definition": "A thing that is not named.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2220,7 +2438,8 @@
         "nothing"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "08116c81-5e80-e8d9-d48a-2dcfafa2dae1",
@@ -2230,15 +2449,14 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "etwas",
-        "ein Ding",
-        "einiges"
+        "ein Ding"
       ],
       "antonyms_json": [
         "nichts"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "08116c81-5e80-e8d9-d48a-2dcfafa2dae1",
@@ -2255,12 +2473,13 @@
         "nulla"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "29a483bf-d86a-a442-f816-17ee4e248a16",
       "lang": "en",
-      "short_definition": "An unspecified person.",
+      "short_definition": "A person who is not named.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2272,7 +2491,10 @@
         "no one"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "somebody": "exact"
+      }
     },
     {
       "concept_id": "29a483bf-d86a-a442-f816-17ee4e248a16",
@@ -2282,7 +2504,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "jemand",
         "ein Mensch",
         "eine Person"
       ],
@@ -2291,7 +2512,8 @@
         "keiner"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "29a483bf-d86a-a442-f816-17ee4e248a16",
@@ -2308,7 +2530,8 @@
         "nessuno"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "06afc93e-f8f6-3698-72af-3185f7367f80",
@@ -2326,24 +2549,30 @@
         "absolutely not"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "certainly": "exact",
+        "without a doubt": "exact"
+      }
     },
     {
       "concept_id": "06afc93e-f8f6-3698-72af-3185f7367f80",
       "lang": "de",
-      "short_definition": "Wird verwendet, um Gewissheit oder Zustimmung auszudrücken.",
+      "short_definition": "Bedeutet: ganz sicher oder ja, bestimmt.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "migrated_from_gloss_alias",
       "synonyms_json": [
         "sicher",
         "gewiss",
-        "jedenfalls",
         "sicherlich"
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "sicher": "exact"
+      }
     },
     {
       "concept_id": "06afc93e-f8f6-3698-72af-3185f7367f80",
@@ -2353,12 +2582,14 @@
       "context_tags_json": [],
       "source": "migrated_from_gloss_alias",
       "synonyms_json": [
-        "comunque",
         "senz'altro"
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "senz'altro": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-im-voraus",
@@ -2379,7 +2610,8 @@
         "reason": "Opposite is contextual",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-im-voraus",
@@ -2431,7 +2663,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-im-moment",
@@ -2468,7 +2701,7 @@
     {
       "concept_id": "concept-a2-so-schnell-wie-moeglich",
       "lang": "de",
-      "short_definition": "Mit maximaler Geschwindigkeit oder ohne unnötige Verzögerung.",
+      "short_definition": "Zum frühesten Zeitpunkt, an dem es geht.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2484,12 +2717,13 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-so-schnell-wie-moeglich",
       "lang": "it",
-      "short_definition": "Con la massima rapidità o senza ritardi inutili.",
+      "short_definition": "Appena si può.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2505,7 +2739,7 @@
     {
       "concept_id": "concept-a2-so-schnell-wie-moeglich",
       "lang": "en",
-      "short_definition": "With the greatest speed or without unnecessary delay.",
+      "short_definition": "At the earliest time you can manage.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2536,7 +2770,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-es-kommt-darauf-an",
@@ -2557,7 +2792,7 @@
     {
       "concept_id": "concept-a2-es-kommt-darauf-an",
       "lang": "en",
-      "short_definition": "The answer is not always the same, but depends on the situation.",
+      "short_definition": "The answer changes with the situation.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2577,10 +2812,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "Hektik",
-        "Anspannung"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "entspannt sein",
         "in Ruhe sein",
@@ -2591,7 +2823,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-unter-druck",
@@ -2612,7 +2845,7 @@
     {
       "concept_id": "concept-a2-unter-druck",
       "lang": "en",
-      "short_definition": "In a situation with strong stress or high expectations.",
+      "short_definition": "Feeling stress because much is expected of you.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2628,7 +2861,7 @@
     {
       "concept_id": "concept-a2-im-durchschnitt",
       "lang": "de",
-      "short_definition": "Wenn man mehrere Werte zusammen betrachtet und ihren Mittelwert meint.",
+      "short_definition": "Mit einer Zahl, die man durch Zusammenzählen und Teilen durch die Anzahl erhält.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2641,12 +2874,15 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "im Mittel": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-im-durchschnitt",
       "lang": "it",
-      "short_definition": "Quando si guardano più valori insieme e si intende il loro valore medio.",
+      "short_definition": "Con il numero ottenuto sommando tutti i valori e dividendo per quanti sono.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2662,7 +2898,7 @@
     {
       "concept_id": "concept-a2-im-durchschnitt",
       "lang": "en",
-      "short_definition": "When you look at several values together and mean their average value.",
+      "short_definition": "Using the number found by adding all the values and dividing by how many there are.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",

@@ -375,7 +375,15 @@ test('upsert_pack_entries preserves existing lexeme metadata and supports explic
         },
       ],
       examples: [],
-      concept_definitions: [],
+      concept_definitions: [
+        {
+          concept_id: 'concept-a2-great',
+          lang: 'de',
+          short_definition: 'Alt.',
+          sense_indicator: 'sehr gut',
+          synonym_tiers_json: { super: 'exact' },
+        },
+      ],
     });
     writeJson(entriesPath, [
       {
@@ -448,6 +456,14 @@ test('upsert_pack_entries preserves existing lexeme metadata and supports explic
     assert.equal(variantLexeme.countability, 'none');
     assert.equal(variantLexeme.status, 'approved');
     assert.equal(variantLexeme.is_active, true);
+
+    // A template definition update keeps the fields a template cannot set.
+    const definition = content.concept_definitions.find(
+      (row) => row.concept_id === 'concept-a2-great' && row.lang === 'de',
+    );
+    assert.equal(definition.short_definition, 'Sehr gut oder beeindruckend.');
+    assert.equal(definition.sense_indicator, 'sehr gut');
+    assert.deepEqual(definition.synonym_tiers_json, { super: 'exact' });
   } finally {
     fs.rmSync(tempRoot, { recursive: true, force: true });
   }

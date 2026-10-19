@@ -1,0 +1,106 @@
+[
+  {
+    "source_key": "a1_adv_ganz_completely",
+    "concept_id": "concept-a1-ganz-completely",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": ["Daily", "Abstract"],
+    "notes": "Sense split (2026-10 A1/A2 review). ganz before an adjective: completely, fully. The whole-object sense stays in concept 463fa707. The softer sense quite (ganz gut) is not modeled.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-ganz-completely",
+        "text": "ganz",
+        "lemma": "ganz",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In vollem Maß, ohne Ausnahme; steht oft vor einem Adjektiv.",
+        "usage_note": "Hier im Sinn von vollständig. Nicht im Sinn von ziemlich, wie in ganz gut.",
+        "examples": ["Nach dem Regen bin ich nass bis auf die Haut."]
+      },
+      "it": {
+        "lexeme_id": "lex-it-completamente",
+        "text": "completamente",
+        "lemma": "completamente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In modo pieno, senza eccezioni.",
+        "examples": ["Dopo la pioggia sono bagnato fino alle ossa."]
+      },
+      "en": {
+        "lexeme_id": "lex-en-completely",
+        "text": "completely",
+        "lemma": "completely",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Fully, to the full degree.",
+        "examples": ["After the rain I am wet to the skin."]
+      }
+    }
+  },
+  {
+    "source_key": "a1_adv_ganz_completely_de_voellig",
+    "concept_id": "concept-a1-ganz-completely",
+    "pos": "adv",
+    "translations": {
+      "de": { "lexeme_id": "lex-de-voellig", "text": "völlig", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a1_adv_ganz_completely_it_del_tutto",
+    "concept_id": "concept-a1-ganz-completely",
+    "pos": "adv",
+    "translations": {
+      "it": { "lexeme_id": "lex-it-del-tutto", "text": "del tutto", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a1_adv_ganz_completely_en_totally",
+    "concept_id": "concept-a1-ganz-completely",
+    "pos": "adv",
+    "translations": {
+      "en": { "lexeme_id": "lex-en-totally", "text": "totally", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a1_noun_bleistift",
+    "concept_id": "concept-a1-bleistift",
+    "pos": "noun",
+    "level_auto": "A1",
+    "domain_tags": ["Daily", "Education"],
+    "notes": "Added in the 2026-10 A1/A2 review: Stift (concept dfafba91) is the generic pen; the pencil is its own everyday word.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-bleistift",
+        "text": "Bleistift",
+        "lemma": "Bleistift",
+        "article_nom_sg_def": "der",
+        "gender": "m",
+        "plural": "Bleistifte",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ein Schreibgerät aus Holz mit grauer Mine; was man schreibt, kann man wegradieren.",
+        "examples": ["Beim Zeichnen kann ich Fehler einfach wegradieren."]
+      },
+      "it": {
+        "lexeme_id": "lex-it-matita",
+        "text": "la matita",
+        "lemma": "matita",
+        "countability": "count",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Uno strumento di legno con una punta grigia per scrivere o disegnare; il segno si cancella con la gomma.",
+        "examples": ["Disegno una casa e poi cancello gli errori con la gomma."]
+      },
+      "en": {
+        "lexeme_id": "lex-en-pencil",
+        "text": "the pencil",
+        "lemma": "pencil",
+        "countability": "count",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "A wooden tool with a grey tip for writing or drawing; you can rub out what it writes.",
+        "examples": ["I draw a house and rub out my mistakes with an eraser."]
+      }
+    }
+  }
+]

@@ -1,0 +1,192 @@
+{
+  "comment": "Editorial corrections from the 2026-10 A1/A2 content review. Keyed by concept_id, then lang. 'definition' replaces short_definition; 'usage_note' and 'sense_indicator' replace those fields (null clears); 'synonyms' replaces the whole synonym list (empty array clears it); 'remove_examples' drops examples by example_id; 'add_examples' appends sentences. Omitted fields stay untouched. Applied by apply_editorial_corrections.mjs.",
+  "corrections": {
+    "1a2d6eb8-6a6d-b96f-49f8-e58293b71539": {
+      "de": { "definition": "Die Gegend außerhalb der Stadt, mit Feldern und Dörfern.", "synonyms": [], "sense_indicator": "außerhalb der Stadt" },
+      "en": { "definition": "The area outside towns and cities, with fields and villages.", "synonyms": [], "sense_indicator": "outside towns" },
+      "it": { "definition": "La zona fuori città, con campi e piccoli centri.", "sense_indicator": "fuori città" }
+    },
+    "concept-a1-land-country": {
+      "de": { "sense_indicator": "Staat, Nation" },
+      "en": { "sense_indicator": "nation, state" },
+      "it": { "sense_indicator": "nazione, stato" }
+    },
+    "18ea0529-66e2-e81f-48ec-9494a593c31e": {
+      "de": { "definition": "Eine offene Fläche in einer Stadt, oft zwischen Häusern.", "synonyms": [], "sense_indicator": "in der Stadt" },
+      "en": { "definition": "An open area in a town, often surrounded by buildings.", "sense_indicator": "in a town" },
+      "it": { "definition": "Uno spazio aperto in una città, spesso circondato da edifici.", "sense_indicator": "in città" }
+    },
+    "concept-a1-platz-seat": {
+      "de": { "sense_indicator": "zum Sitzen" },
+      "en": { "sense_indicator": "to sit on" },
+      "it": { "sense_indicator": "per sedersi" }
+    },
+    "concept-a1-einfach-just": {
+      "de": {
+        "definition": "Verstärkt eine Aussage: nur, schlicht, nicht mehr.",
+        "usage_note": "Hier nur die Bedeutung nur, schlicht. Nicht das Adjektiv im Sinn von leicht.",
+        "sense_indicator": "verstärkt eine Aussage"
+      },
+      "en": { "definition": "Used to stress a statement: just, only.", "sense_indicator": "stresses a statement" },
+      "it": { "definition": "Rafforza un'affermazione: solo, nient'altro.", "sense_indicator": "rafforza un'affermazione" }
+    },
+    "concept-a1-einfach-oneway": {
+      "de": { "usage_note": "Hier nur bei Fahrkarten: nur eine Richtung, nicht hin und zurück." }
+    },
+    "concept-a2-einfach-plain": {
+      "de": { "usage_note": "Hier nur im Sinn von schlicht, bescheiden, zum Beispiel beim Lebensstil." }
+    },
+    "4a751289-0ae5-d62d-cd17-6b0c7c5e65be": {
+      "de": {
+        "usage_note": "Hier: selbst am Steuer, nicht als Fahrgast.",
+        "remove_examples": ["9ca89b74-0e60-3b12-06e0-8cec7134198d"],
+        "add_examples": ["Jeden Morgen sitze ich selbst am Steuer."]
+      },
+      "it": {
+        "definition": "Condurre un veicolo.",
+        "remove_examples": ["example-it-a1-fahren-guidare"],
+        "add_examples": ["Ogni mattina sono io al volante."]
+      }
+    },
+    "e2d3c1e2-8f4d-c7a2-d131-2351cd0d30c9": {
+      "de": { "definition": "Früher als erwartet.", "synonyms": [] }
+    },
+    "463fa707-6f6c-9519-2b0b-d2a3f612362a": {
+      "de": { "definition": "Vollständig, ohne dass ein Teil fehlt.", "sense_indicator": "alle Teile" },
+      "en": { "definition": "Complete, with no part missing.", "sense_indicator": "all parts" },
+      "it": { "definition": "Completo, senza che ne manchi una parte.", "sense_indicator": "tutte le parti" }
+    },
+    "concept-a1-ganz-completely": {
+      "de": { "sense_indicator": "vor Adjektiven" },
+      "en": { "sense_indicator": "before adjectives" },
+      "it": { "sense_indicator": "davanti ad aggettivi" }
+    },
+    "b5badb09-9fac-871c-a009-af06fbb2cef3": {
+      "de": {
+        "definition": "Ein Wettbewerb, bei dem Menschen eine Strecke laufen.",
+        "remove_examples": ["4f20c85f-fccb-0611-f767-af5b18c6328d"]
+      },
+      "en": {
+        "definition": "A competition in which people run a set distance.",
+        "synonyms": [],
+        "remove_examples": ["05590f45-f5de-f2d4-e057-d67d4d43cf70", "54cf7ab2-eefe-ecfa-ed07-566ebf2e4006"],
+        "add_examples": ["The 5 km event starts at eight o'clock."]
+      },
+      "it": {
+        "definition": "Una gara in cui si corre per una distanza stabilita.",
+        "synonyms": ["la gara"],
+        "add_examples": ["Alla partenza ci sono duecento persone con il numero sul petto."]
+      }
+    },
+    "324d681d-6d2e-552f-6831-9758934c5d65": {
+      "de": {
+        "definition": "Ein Bild mit Farben machen.",
+        "synonyms": [],
+        "remove_examples": ["e33e9528-86d2-d398-37fe-dee5b949cdaf"],
+        "add_examples": ["Sie mischt Farben für ein Bild."]
+      },
+      "en": {
+        "definition": "To make a picture with colors.",
+        "synonyms": [],
+        "add_examples": ["She mixes colors for a picture."]
+      },
+      "it": {
+        "definition": "Creare un'immagine con i colori.",
+        "synonyms": [],
+        "remove_examples": ["551fcf6e-5554-d44e-8bad-ea30f4a21415"],
+        "add_examples": ["Mescola i colori per un quadro."]
+      }
+    },
+    "3b1a3dc6-75a7-55a2-9ad9-09d0a75082a0": {
+      "it": { "synonyms": [] }
+    },
+    "75fb9398-4b1a-dc12-4558-6e3555368393": {
+      "de": { "synonyms": [] }
+    },
+    "12cffbc2-f662-4698-38f7-affc9b050090": {
+      "de": { "synonyms": [] }
+    },
+    "425e7444-8f55-9052-ca01-d2fd5eacb59e": {
+      "de": { "synonyms": [] }
+    },
+    "27ba1619-d58a-a98b-aa69-cdd127349f4b": {
+      "de": {
+        "definition": "Ein kurzes Kleidungsstück für den Oberkörper. Man trägt es über einem Hemd oder Pullover.",
+        "synonyms": []
+      }
+    },
+    "f4df005a-fe7b-9056-ccfb-ff2884941202": {
+      "de": { "definition": "Ein Teil der Sprache, zum Beispiel Haus oder gehen." }
+    },
+    "concept-a1-stillstehen": {
+      "de": { "definition": "An einem Ort bleiben und sich nicht bewegen." }
+    },
+    "concept-a1-spazierengehen": {
+      "de": { "definition": "Zur Erholung draußen zu Fuß gehen." },
+      "en": { "definition": "To walk outdoors for pleasure." },
+      "it": { "definition": "Camminare all'aperto per piacere." }
+    },
+    "77962681-e561-09cc-772c-9c4285175bf9": {
+      "de": {
+        "remove_examples": ["03fd9db6-8b61-dbc8-5c9f-e5f4a6102a24"],
+        "add_examples": ["Seit der Hochzeit tragen beide einen Ring."]
+      },
+      "en": {
+        "remove_examples": ["34248aa8-548d-5bf6-56d9-989659881034"],
+        "add_examples": ["Since the wedding, they both wear a ring."]
+      },
+      "it": {
+        "remove_examples": ["29e9d001-44e7-7b36-c832-df81725e7073"],
+        "add_examples": ["Dal giorno delle nozze portano entrambi un anello."]
+      }
+    },
+    "ccc568db-1da2-1dea-712e-ae8083a0ca60": {
+      "de": {
+        "definition": "Der Teil am Ende des Arms, mit dem man greift.",
+        "remove_examples": ["example-de-fix-hand"],
+        "add_examples": ["Er hält den Stift zwischen Daumen und Fingern."]
+      },
+      "en": {
+        "remove_examples": ["example-en-fix-hand"],
+        "add_examples": ["She waves goodbye to her friends."]
+      }
+    },
+    "119b32bf-e698-b599-5463-c7b7942586d1": {
+      "de": {
+        "remove_examples": ["795e27d6-8754-f7d4-6def-0dfc597e40f5"],
+        "add_examples": ["Das klare Getränk kommt aus dem Hahn."]
+      },
+      "en": {
+        "remove_examples": ["e05997f4-a488-3625-2ae2-f873739333a5"],
+        "add_examples": ["The clear drink comes from the tap."]
+      }
+    },
+    "d5a6cfdf-d6ee-10c8-1d58-1fb0bafaae70": {
+      "en": { "definition": "Not moving or happening quickly." },
+      "it": {
+        "remove_examples": ["example-it-fix-langsam"],
+        "add_examples": ["La lumaca attraversa il giardino in un'ora."]
+      }
+    },
+    "a9d290b4-b955-81a7-48e4-6b0103a82703": {
+      "de": { "add_examples": ["Zum Mittag gibt es Suppe und Brot."] }
+    },
+    "concept-a2-herausfinden": {
+      "it": {
+        "remove_examples": ["example-it-a2-herausfinden"],
+        "add_examples": ["Dopo una lunga ricerca, finalmente sa la verità."]
+      },
+      "en": {
+        "remove_examples": ["example-en-a2-herausfinden"],
+        "add_examples": ["After a long search, she finally knows the truth."]
+      }
+    },
+    "concept-a2-unterschied": {
+      "de": { "remove_examples": ["7c2182cb-4d59-e979-67f8-43ab2ee93666"] },
+      "it": { "definition": "Ciò in cui due o più cose non sono uguali." }
+    },
+    "concept-a1-what-time-is-it": {
+      "de": { "synonyms": [], "remove_examples": ["7bb010c3-28d7-ffcd-5f8e-80f4c4e9e5d0"] }
+    }
+  }
+}

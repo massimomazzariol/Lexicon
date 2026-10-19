@@ -1,0 +1,244 @@
+[
+  {
+    "source_key": "a1_exact_it_hoeren_sentire",
+    "concept_id": "158e3815-0dd5-73e4-18ae-e312c31f5b31",
+    "pos": "verb",
+    "translations": {
+      "it": { "lexeme_id": "lex-it-sentire", "text": "sentire", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a2_exact_it_schicken_spedire",
+    "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
+    "pos": "verb",
+    "translations": {
+      "it": { "lexeme_id": "lex-it-spedire", "text": "spedire", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a2_exact_it_schicken_mandare",
+    "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
+    "pos": "verb",
+    "translations": {
+      "it": { "lexeme_id": "lex-it-mandare", "text": "mandare", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a2_exact_de_schicken_senden",
+    "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
+    "pos": "verb",
+    "translations": {
+      "de": { "lexeme_id": "lex-de-senden", "text": "senden", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a2_exact_de_schicken_zuschicken",
+    "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
+    "pos": "verb",
+    "translations": {
+      "de": { "lexeme_id": "lex-de-zuschicken", "text": "zuschicken", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a1_exact_it_zimmer_camera",
+    "concept_id": "7f70a8ad-7527-3553-4724-13d0e258d92c",
+    "pos": "noun",
+    "translations": {
+      "it": { "lexeme_id": "lex-it-camera", "text": "la camera", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a1_exact_it_auto_macchina",
+    "concept_id": "a1fca915-0802-770f-5d98-81fe56f6ec8f",
+    "pos": "noun",
+    "translations": {
+      "it": { "lexeme_id": "lex-it-macchina", "text": "la macchina", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a1_exact_it_auto_automobile",
+    "concept_id": "a1fca915-0802-770f-5d98-81fe56f6ec8f",
+    "pos": "noun",
+    "translations": {
+      "it": { "lexeme_id": "lex-it-automobile", "text": "l'automobile", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a2_exact_de_teilnehmen_mitmachen",
+    "concept_id": "concept-a2-teilnehmen",
+    "pos": "verb",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-mitmachen",
+        "text": "mitmachen",
+        "meaning_status": "exact",
+        "is_primary": false,
+        "usage_note": "mitmachen bei etwas, teilnehmen an etwas."
+      }
+    }
+  },
+  {
+    "source_key": "a2_exact_de_meist_meistens",
+    "concept_id": "dce273cb-1477-41c8-14f3-84226c53e233",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-meistens",
+        "text": "meistens",
+        "meaning_status": "exact",
+        "is_primary": false,
+        "definition": "In den meisten Fällen."
+      }
+    }
+  },
+  {
+    "source_key": "a1_exact_de_aufzug_fahrstuhl",
+    "concept_id": "75fb9398-4b1a-dc12-4558-6e3555368393",
+    "pos": "noun",
+    "translations": {
+      "de": { "lexeme_id": "lex-de-fahrstuhl", "text": "der Fahrstuhl", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a1_exact_it_ausflug_gita",
+    "concept_id": "3b1a3dc6-75a7-55a2-9ad9-09d0a75082a0",
+    "pos": "noun",
+    "translations": {
+      "it": { "lexeme_id": "lex-it-gita", "text": "la gita", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a2_exact_it_kostenlos_gratis",
+    "concept_id": "concept-a2-kostenlos",
+    "pos": "adj",
+    "translations": {
+      "it": { "lexeme_id": "lex-it-gratis", "text": "gratis", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a2_exact_de_kostenlos_gratis",
+    "concept_id": "concept-a2-kostenlos",
+    "pos": "adj",
+    "translations": {
+      "de": { "lexeme_id": "lex-de-gratis", "text": "gratis", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a2_exact_de_kostenlos_umsonst",
+    "concept_id": "concept-a2-kostenlos",
+    "pos": "adj",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-umsonst",
+        "text": "umsonst",
+        "meaning_status": "exact",
+        "is_primary": false,
+        "usage_note": "umsonst hier nur im Sinn von ohne zu bezahlen, nicht im Sinn von vergeblich."
+      }
+    }
+  },
+  {
+    "source_key": "a2_exact_de_noetig_notwendig",
+    "concept_id": "concept-a2-noetig",
+    "pos": "adj",
+    "translations": {
+      "de": { "lexeme_id": "lex-de-notwendig", "text": "notwendig", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a2_exact_it_abholen_passare_a_prendere",
+    "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
+    "pos": "verb",
+    "translations": {
+      "it": { "lexeme_id": "lex-it-passare-a-prendere", "text": "passare a prendere", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a1_exact_it_schnell_rapido",
+    "concept_id": "f62b0871-8768-d1b5-fc27-aa9b253d73eb",
+    "pos": "adj",
+    "translations": {
+      "it": { "lexeme_id": "lex-it-rapido", "text": "rapido", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a1_exact_de_irgendetwas_etwas",
+    "concept_id": "08116c81-5e80-e8d9-d48a-2dcfafa2dae1",
+    "pos": "chunk",
+    "translations": {
+      "de": { "lexeme_id": "lex-de-etwas", "text": "etwas", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a1_exact_de_irgendjemand_jemand",
+    "concept_id": "29a483bf-d86a-a442-f816-17ee4e248a16",
+    "pos": "chunk",
+    "translations": {
+      "de": { "lexeme_id": "lex-de-jemand", "text": "jemand", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a2_exact_it_beenden_terminare",
+    "concept_id": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
+    "pos": "verb",
+    "translations": {
+      "it": { "lexeme_id": "lex-it-terminare", "text": "terminare", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a2_exact_it_beenden_concludere",
+    "concept_id": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
+    "pos": "verb",
+    "translations": {
+      "it": { "lexeme_id": "lex-it-concludere", "text": "concludere", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a2_exact_de_nirgendwo_nirgends",
+    "concept_id": "concept-a2-nirgendwo",
+    "pos": "adv",
+    "translations": {
+      "de": { "lexeme_id": "lex-de-nirgends", "text": "nirgends", "meaning_status": "exact", "is_primary": false }
+    }
+  },
+  {
+    "source_key": "a1_exact_de_dort_da",
+    "concept_id": "82329b0f-c31c-baee-9d6e-914944d823c1",
+    "pos": "adv",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-da",
+        "text": "da",
+        "meaning_status": "exact",
+        "is_primary": false,
+        "usage_note": "da hier nur als Ortsangabe, nicht als Konjunktion im Sinn von weil."
+      }
+    }
+  },
+  {
+    "source_key": "a2_exact_it_dart_freccetta",
+    "concept_id": "concept-a2-dart",
+    "pos": "noun",
+    "translations": {
+      "it": {
+        "lexeme_id": "lex-it-freccetta",
+        "text": "la freccetta",
+        "meaning_status": "exact",
+        "is_primary": false,
+        "definition": "Un piccolo oggetto appuntito che si lancia contro un bersaglio, per gioco."
+      }
+    }
+  },
+  {
+    "source_key": "a2_missing_it_definition_herausfinden",
+    "concept_id": "concept-a2-herausfinden",
+    "pos": "verb",
+    "translations": {
+      "it": {
+        "lexeme_id": "lexeme-it-a2-herausfinden",
+        "text": "scoprire",
+        "definition": "Arrivare a sapere qualcosa cercando informazioni o riflettendo."
+      }
+    }
+  }
+]

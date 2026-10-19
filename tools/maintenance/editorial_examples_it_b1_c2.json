@@ -1,0 +1,768 @@
+{
+  "comment": "Missing it examples for A1/A2 concepts (2026-10 review). Same format as editorial_corrections_a1_a2.json.",
+  "corrections": {
+    "fef8f67b-8883-20ff-c027-67735487d38d": {
+      "it": {
+        "add_examples": [
+          "Abbiamo cercato a lungo e alla fine abbiamo trovato un albergo."
+        ]
+      }
+    },
+    "d44d4a04-9c80-66ac-6dae-10528f189ad5": {
+      "it": {
+        "add_examples": [
+          "Io cucino e tu, mentre aspetti, apparecchi la tavola."
+        ]
+      }
+    },
+    "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5": {
+      "it": {
+        "add_examples": [
+          "Il tecnico usa solo parole difficili e io non ho idea di cosa stia dicendo."
+        ]
+      }
+    },
+    "76ddf07a-3708-809e-94da-35f0ec10678d": {
+      "it": {
+        "add_examples": [
+          "In campagna senza macchina non si vive."
+        ]
+      }
+    },
+    "8f698c56-8c4a-4fde-1a01-9050abcb2a45": {
+      "it": {
+        "add_examples": [
+          "D'inverno i negozi consumano molto più gasolio che d'estate."
+        ]
+      }
+    },
+    "25b5725b-13ce-48ce-2a99-7bb508a4de54": {
+      "it": {
+        "add_examples": [
+          "Questa vecchia moneta non vale nemmeno un centesimo."
+        ]
+      }
+    },
+    "dcac462c-da14-34b2-8201-977a04e36d35": {
+      "it": {
+        "add_examples": [
+          "Dopo tre ore di discussione ci siamo finalmente messi d'accordo."
+        ]
+      }
+    },
+    "concept-b1-herausforderung": {
+      "it": {
+        "add_examples": [
+          "Con tre bambini piccoli e un lavoro a tempo pieno ogni giornata è dura ma stimolante."
+        ]
+      }
+    },
+    "concept-b1-zusammenhang": {
+      "it": {
+        "add_examples": [
+          "La polizia controlla se i due furti hanno qualcosa in comune."
+        ]
+      }
+    },
+    "concept-b1-vorgehen": {
+      "it": {
+        "add_examples": [
+          "Prima raccogliamo le idee, poi le valutiamo e alla fine decidiamo."
+        ]
+      }
+    },
+    "concept-b1-eindruck": {
+      "it": {
+        "add_examples": [
+          "Il nuovo collega sembra molto gentile e competente."
+        ]
+      }
+    },
+    "concept-b1-verantwortung": {
+      "it": {
+        "add_examples": [
+          "Come capitana deve occuparsi di tutte le persone a bordo."
+        ]
+      }
+    },
+    "concept-b1-beschwerde": {
+      "it": {
+        "add_examples": [
+          "Il cibo era freddo, così ho scritto all'albergo per dire che non ero contento."
+        ]
+      }
+    },
+    "concept-b1-vereinbarung": {
+      "it": {
+        "add_examples": [
+          "Abbiamo deciso insieme che ognuno cucina una volta alla settimana."
+        ]
+      }
+    },
+    "concept-b1-verhindern": {
+      "it": {
+        "add_examples": [
+          "Una recinzione serve a non far correre i bambini in strada."
+        ]
+      }
+    },
+    "concept-b1-umsetzen": {
+      "it": {
+        "add_examples": [
+          "L'idea è buona, ora dobbiamo solo metterla in pratica."
+        ]
+      }
+    },
+    "concept-b1-verantwortlich": {
+      "it": {
+        "add_examples": [
+          "Nella nostra ditta la signora Berger si occupa di tutte le finanze."
+        ]
+      }
+    },
+    "concept-b1-bewusst": {
+      "it": {
+        "add_examples": [
+          "So benissimo che il rischio è grande, ma lo faccio lo stesso."
+        ]
+      }
+    },
+    "concept-b1-geeignet": {
+      "it": {
+        "add_examples": [
+          "Queste scarpe sono perfette per camminare in montagna."
+        ]
+      }
+    },
+    "concept-b1-keinesfalls": {
+      "it": {
+        "add_examples": [
+          "La finestra resta chiusa, qualunque cosa succeda!"
+        ]
+      }
+    },
+    "concept-b1-teilweise": {
+      "it": {
+        "add_examples": [
+          "Solo metà della strada è chiusa al traffico."
+        ]
+      }
+    },
+    "concept-b1-folglich": {
+      "it": {
+        "add_examples": [
+          "Non ha studiato, quindi non ha passato l'esame."
+        ]
+      }
+    },
+    "concept-b1-ausserdem": {
+      "it": {
+        "add_examples": [
+          "L'albergo costa poco ed è anche proprio sulla spiaggia."
+        ]
+      }
+    },
+    "concept-b1-weltweit": {
+      "it": {
+        "add_examples": [
+          "Questa canzone la conoscono in ogni paese, dall'Asia all'America."
+        ]
+      }
+    },
+    "concept-b1-ueberwiegend": {
+      "it": {
+        "add_examples": [
+          "In questa città abitano soprattutto studenti."
+        ]
+      }
+    },
+    "concept-b1-gleichzeitig": {
+      "it": {
+        "add_examples": [
+          "Telefona mentre cucina."
+        ]
+      }
+    },
+    "concept-b1-unter-anderem": {
+      "it": {
+        "add_examples": [
+          "In vacanza abbiamo visitato Roma, Firenze e qualche altra città."
+        ]
+      }
+    },
+    "concept-b1-auf-dauer": {
+      "it": {
+        "add_examples": [
+          "Mangiare fast food ogni giorno non fa bene, se lo fai per anni."
+        ]
+      }
+    },
+    "concept-b1-eine-rolle-spielen": {
+      "it": {
+        "add_examples": [
+          "Quando si compra casa, la posizione conta molto."
+        ]
+      }
+    },
+    "concept-b1-in-der-regel": {
+      "it": {
+        "add_examples": [
+          "La scuola comincia quasi sempre alle otto."
+        ]
+      }
+    },
+    "concept-b2-klarstellen": {
+      "it": {
+        "add_examples": [
+          "Voglio dirlo subito, così non ci sono equivoci: domani non lavoro."
+        ]
+      }
+    },
+    "concept-b1-doch-contradiction": {
+      "it": {
+        "add_examples": [
+          "Dice che non ha fame, ma ha mangiato due piatti di pasta."
+        ]
+      }
+    },
+    "concept-b1-doch-encouragement": {
+      "it": {
+        "add_examples": [
+          "Vieni anche tu, siediti con noi!"
+        ]
+      }
+    },
+    "concept-b1-mal-softening": {
+      "it": {
+        "add_examples": [
+          "Mi apri la finestra, per favore? Ci vuole un secondo."
+        ]
+      }
+    },
+    "concept-b1-halt-eben-fatalism": {
+      "it": {
+        "add_examples": [
+          "Piove di nuovo, non ci si può fare niente, è autunno."
+        ]
+      }
+    },
+    "concept-b1-ja-shared-knowledge": {
+      "it": {
+        "add_examples": [
+          "Lo sai che non mangio pesce!"
+        ]
+      }
+    },
+    "concept-b2-wohl-probability": {
+      "it": {
+        "add_examples": [
+          "L'autobus non arriva, penso che sia bloccato nel traffico."
+        ]
+      }
+    },
+    "concept-b2-nuance": {
+      "it": {
+        "add_examples": [
+          "Tra stanco ed esausto c'è una piccola differenza."
+        ]
+      }
+    },
+    "concept-b2-dilemma": {
+      "it": {
+        "add_examples": [
+          "Mi trasferisco lontano dalla famiglia o resto qui e rimango disoccupato?"
+        ]
+      }
+    },
+    "concept-b2-subtilitat": {
+      "it": {
+        "add_examples": [
+          "Le sue battute sono così fini che non tutti le capiscono."
+        ]
+      }
+    },
+    "concept-c1-bewaeltigen": {
+      "it": {
+        "add_examples": [
+          "Con molta pazienza è riuscita a gestire tutto il lavoro da sola."
+        ]
+      }
+    },
+    "concept-c1-anspruchsvoll": {
+      "it": {
+        "add_examples": [
+          "La professoressa vuole compiti perfetti e non accetta nemmeno un piccolo errore."
+        ]
+      }
+    },
+    "concept-c1-sich-bewaehren": {
+      "it": {
+        "add_examples": [
+          "Il nuovo metodo ha funzionato bene per tre anni di fila."
+        ]
+      }
+    },
+    "concept-c1-spielraum": {
+      "it": {
+        "add_examples": [
+          "Il capo ci dà solo il budget, il resto possiamo deciderlo noi."
+        ]
+      }
+    },
+    "concept-c1-stellenwert": {
+      "it": {
+        "add_examples": [
+          "In questa famiglia lo sport conta più di qualsiasi altra cosa."
+        ]
+      }
+    },
+    "concept-c1-kernaussage": {
+      "it": {
+        "add_examples": [
+          "Alla fine del discorso tutti ricordano solo una frase: insieme siamo più forti."
+        ]
+      }
+    },
+    "concept-c1-eingehend": {
+      "it": {
+        "add_examples": [
+          "Il medico l'ha visitato per un'ora, controllando ogni dettaglio."
+        ]
+      }
+    },
+    "concept-c2-gratwanderung": {
+      "it": {
+        "add_examples": [
+          "Tra lavoro e figli piccoli, ogni giornata è come camminare su una fune."
+        ]
+      }
+    },
+    "concept-c2-inbegriff": {
+      "it": {
+        "add_examples": [
+          "Per molti, la pizza napoletana rappresenta l'Italia in un solo piatto."
+        ]
+      }
+    },
+    "concept-c2-tragweite": {
+      "it": {
+        "add_examples": [
+          "Solo anni dopo si è capito quanto fossero gravi le conseguenze di quella decisione."
+        ]
+      }
+    },
+    "concept-c2-unabdingbar": {
+      "it": {
+        "add_examples": [
+          "Per questo lavoro, senza l'inglese non si va da nessuna parte."
+        ]
+      }
+    },
+    "concept-c2-stringent": {
+      "it": {
+        "add_examples": [
+          "Il suo ragionamento è così logico che non c'è un punto debole."
+        ]
+      }
+    },
+    "concept-c2-kohaerent": {
+      "it": {
+        "add_examples": [
+          "Il racconto non ha contraddizioni: ogni parte si collega alla precedente."
+        ]
+      }
+    },
+    "concept-c2-eloquent": {
+      "it": {
+        "add_examples": [
+          "Quando parla in pubblico, l'avvocata convince tutti con poche parole scelte bene."
+        ]
+      }
+    },
+    "concept-c2-subtil": {
+      "it": {
+        "add_examples": [
+          "Tra le due versioni c'è una differenza che si nota solo guardando con attenzione."
+        ]
+      }
+    },
+    "concept-c2-vielschichtig": {
+      "it": {
+        "add_examples": [
+          "Il personaggio del romanzo è buono e cattivo, debole e forte allo stesso tempo."
+        ]
+      }
+    },
+    "concept-c2-befangen": {
+      "it": {
+        "add_examples": [
+          "Non ha ancora ascoltato il nuovo collega, ma lo considera già incapace."
+        ]
+      }
+    },
+    "concept-c2-rueckblickend": {
+      "it": {
+        "add_examples": [
+          "Oggi so che quella scelta era sbagliata, ma allora non potevo saperlo."
+        ]
+      }
+    },
+    "concept-c2-diskrepanz": {
+      "it": {
+        "add_examples": [
+          "Il conto dice 50 euro, ma lo scontrino ne mostra 35."
+        ]
+      }
+    },
+    "concept-c2-zwickmuehle": {
+      "it": {
+        "add_examples": [
+          "Se resto perdo il lavoro, se parto perdo gli amici: non so cosa fare."
+        ]
+      }
+    },
+    "concept-c2-zwiespalt": {
+      "it": {
+        "add_examples": [
+          "Una parte di lui vuole partire, l'altra vuole restare."
+        ]
+      }
+    },
+    "concept-c2-konsens": {
+      "it": {
+        "add_examples": [
+          "Dopo lunghe discussioni, tutti nel gruppo sono finalmente d'accordo."
+        ]
+      }
+    },
+    "concept-c2-trugschluss": {
+      "it": {
+        "add_examples": [
+          "Ha piovuto dopo che ho lavato la macchina, quindi lavarla fa piovere: un ragionamento sbagliato."
+        ]
+      }
+    },
+    "concept-c2-paradebeispiel": {
+      "it": {
+        "add_examples": [
+          "Questo ponte dimostra alla perfezione quanto fossero bravi gli ingegneri romani."
+        ]
+      }
+    },
+    "concept-c2-zaesur": {
+      "it": {
+        "add_examples": [
+          "La guerra ha diviso la storia del paese in un prima e un dopo."
+        ]
+      }
+    },
+    "concept-c2-anfechten": {
+      "it": {
+        "add_examples": [
+          "L'azienda non accetta la sentenza e va in appello."
+        ]
+      }
+    },
+    "concept-c2-ermessen": {
+      "it": {
+        "add_examples": [
+          "Le regole dicono il minimo e il massimo, il resto lo decide il giudice."
+        ]
+      }
+    },
+    "concept-c2-willkuer": {
+      "it": {
+        "add_examples": [
+          "Il capo sceglie chi promuovere senza nessun criterio, solo come gli pare."
+        ]
+      }
+    },
+    "concept-c2-beharrlich": {
+      "it": {
+        "add_examples": [
+          "Nonostante i rifiuti, continua a mandare curriculum finché non trova lavoro."
+        ]
+      }
+    },
+    "concept-c2-beharrlichkeit": {
+      "it": {
+        "add_examples": [
+          "Ha tentato di superare l'esame cinque volte senza arrendersi, riuscendoci alla quinta."
+        ]
+      }
+    },
+    "concept-c2-unverkennbar": {
+      "it": {
+        "add_examples": [
+          "Quella voce la riconosco tra mille."
+        ]
+      }
+    },
+    "concept-c2-gespuer": {
+      "it": {
+        "add_examples": [
+          "Capisce subito di quale persona può fidarsi."
+        ]
+      }
+    },
+    "concept-c2-raffinesse": {
+      "it": {
+        "add_examples": [
+          "Ogni dettaglio del vestito è curato con eleganza e intelligenza."
+        ]
+      }
+    },
+    "concept-c2-schlechthin": {
+      "it": {
+        "add_examples": [
+          "Quando si dice il poeta, in Italia si pensa a Dante."
+        ]
+      }
+    },
+    "concept-c2-gewissermassen": {
+      "it": {
+        "add_examples": [
+          "Il nostro gatto è, diciamo, il vero padrone di casa."
+        ]
+      }
+    },
+    "concept-c2-schlichtweg": {
+      "it": {
+        "add_examples": [
+          "Questa idea è assurda, senza se e senza ma."
+        ]
+      }
+    },
+    "concept-b1-auf-eigene-faust": {
+      "it": {
+        "add_examples": [
+          "Nessuno gliel'ha chiesto: ha deciso da solo di pulire tutto l'ufficio."
+        ]
+      }
+    },
+    "concept-b1-ab-und-zu": {
+      "it": {
+        "add_examples": [
+          "Non vado spesso al cinema, solo qualche volta."
+        ]
+      }
+    },
+    "concept-b1-auf-anhieb": {
+      "it": {
+        "add_examples": [
+          "Ha passato l'esame di guida subito, senza ripeterlo."
+        ]
+      }
+    },
+    "concept-b1-im-grossen-und-ganzen": {
+      "it": {
+        "add_examples": [
+          "Ci sono stati alcuni problemi, ma la vacanza è stata bella."
+        ]
+      }
+    },
+    "concept-b2-die-daumen-druecken": {
+      "it": {
+        "add_examples": [
+          "Domani ho l'esame: speriamo che vada bene!"
+        ]
+      }
+    },
+    "concept-b2-auf-dem-laufenden-sein": {
+      "it": {
+        "add_examples": [
+          "Leggo le notizie ogni mattina, così so sempre cosa succede."
+        ]
+      }
+    },
+    "concept-b2-ins-gespraech-kommen": {
+      "it": {
+        "add_examples": [
+          "In treno ho cominciato a parlare con una signora, e abbiamo chiacchierato per due ore."
+        ]
+      }
+    },
+    "concept-b2-auf-den-punkt-bringen": {
+      "it": {
+        "add_examples": [
+          "Non abbiamo tempo: dimmi in una frase che cosa vuoi."
+        ]
+      }
+    },
+    "concept-b2-den-ueberblick-behalten": {
+      "it": {
+        "add_examples": [
+          "Uso una tabella per sapere sempre come procedono tutti e venti i progetti."
+        ]
+      }
+    },
+    "concept-b2-zur-verfuegung-stehen": {
+      "it": {
+        "add_examples": [
+          "Se avete domande, io sono qui tutto il pomeriggio."
+        ]
+      }
+    },
+    "concept-b2-im-gegensatz-zu": {
+      "it": {
+        "add_examples": [
+          "Mio fratello ama il mare, io invece preferisco la montagna."
+        ]
+      }
+    },
+    "concept-b2-unter-vier-augen": {
+      "it": {
+        "add_examples": [
+          "Posso parlarti da solo, senza gli altri?"
+        ]
+      }
+    },
+    "concept-b2-es-liegt-auf-der-hand": {
+      "it": {
+        "add_examples": [
+          "Ha le valigie davanti alla porta e il biglietto in mano: parte oggi, non ci sono dubbi."
+        ]
+      }
+    },
+    "concept-c1-in-kauf-nehmen": {
+      "it": {
+        "add_examples": [
+          "Accettiamo un tragitto più lungo per andare al lavoro perché la casa costa poco."
+        ]
+      }
+    },
+    "concept-c1-nagel-auf-den-kopf": {
+      "it": {
+        "add_examples": [
+          "Con una sola frase ha detto esattamente quello che pensavamo tutti."
+        ]
+      }
+    },
+    "concept-c1-sich-ins-zeug-legen": {
+      "it": {
+        "add_examples": [
+          "Si allena ogni giorno con tutte le sue forze per vincere la gara."
+        ]
+      }
+    },
+    "concept-c1-zwischen-den-zeilen": {
+      "it": {
+        "add_examples": [
+          "Nella lettera non lo dice, ma si capisce che è triste."
+        ]
+      }
+    },
+    "concept-c1-lange-bank": {
+      "it": {
+        "add_examples": [
+          "Il dentista? Ne parla da due anni, ma non prende mai l'appuntamento."
+        ]
+      }
+    },
+    "concept-c1-den-rahmen-sprengen": {
+      "it": {
+        "add_examples": [
+          "Questa domanda va oltre il tema della riunione di oggi."
+        ]
+      }
+    },
+    "concept-c1-hand-in-hand": {
+      "it": {
+        "add_examples": [
+          "Nella vita, libertà e responsabilità crescono insieme."
+        ]
+      }
+    },
+    "concept-c1-ins-detail-gehen": {
+      "it": {
+        "add_examples": [
+          "Non abbiamo tempo di spiegare ogni particolare, vi do solo l'idea generale."
+        ]
+      }
+    },
+    "concept-c1-wert-legen": {
+      "it": {
+        "add_examples": [
+          "Per lei la puntualità conta moltissimo."
+        ]
+      }
+    },
+    "concept-c1-ins-leben-rufen": {
+      "it": {
+        "add_examples": [
+          "Due studenti hanno fondato un'associazione per aiutare gli anziani."
+        ]
+      }
+    },
+    "concept-c2-auf-den-zahn-fuehlen": {
+      "it": {
+        "add_examples": [
+          "La polizia fa al sospettato domande su domande per ore."
+        ]
+      }
+    },
+    "concept-c2-kind-beim-namen": {
+      "it": {
+        "add_examples": [
+          "Lei non gira intorno ai problemi: dice le cose come stanno."
+        ]
+      }
+    },
+    "concept-c2-zweierlei-mass": {
+      "it": {
+        "add_examples": [
+          "Il professore punisce Marco per un ritardo, ma con sua figlia chiude un occhio."
+        ]
+      }
+    },
+    "concept-c2-spreu-vom-weizen": {
+      "it": {
+        "add_examples": [
+          "Su internet bisogna distinguere le notizie vere da quelle false."
+        ]
+      }
+    },
+    "concept-c2-auf-granit-beissen": {
+      "it": {
+        "add_examples": [
+          "Abbiamo chiesto mille volte un aumento, ma il capo dice sempre di no."
+        ]
+      }
+    },
+    "concept-c2-im-sande-verlaufen": {
+      "it": {
+        "add_examples": [
+          "Il progetto era partito con entusiasmo, ma poi nessuno ne ha più parlato."
+        ]
+      }
+    },
+    "concept-c2-bogen-ueberspannen": {
+      "it": {
+        "add_examples": [
+          "Aveva già ottenuto un giorno libero, ma ne ha chiesti altri tre e il capo si è arrabbiato."
+        ]
+      }
+    },
+    "75aaec59-5c45-791b-c003-18dcee16a9cb": {
+      "it": {
+        "add_examples": [
+          "Alla mia candidatura hanno risposto solo con un breve no."
+        ]
+      }
+    },
+    "de7729bf-7055-b380-9ec0-7e315525c625": {
+      "it": {
+        "add_examples": [
+          "Non ho visto il segnale di stop e ho preso una multa."
+        ]
+      }
+    },
+    "b3840a69-b660-0e8d-81ee-3b3284ed29ff": {
+      "it": {
+        "add_examples": [
+          "Prima la zuppa, poi la carne e alla fine il dolce."
+        ]
+      }
+    }
+  }
+}

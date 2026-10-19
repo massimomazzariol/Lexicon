@@ -1,10 +1,10 @@
-﻿import crypto from 'node:crypto';
-import fs from 'node:fs';
+﻿import fs from 'node:fs';
 import path from 'node:path';
 
 import { handleCliHelp } from '../lib/cli_help.mjs';
 import { normalizeDomainTags } from '../lib/content_taxonomy.mjs';
 import { DEFAULT_SOURCE_PACK_DIR } from '../lib/default_pack_paths.mjs';
+import { deterministicUuid } from '../lib/deterministic_id.mjs';
 import {
   findFormattingOnlyDuplicates,
   languageRequiresArticlefulNounSurfaces,
@@ -50,11 +50,6 @@ function parseArgs(argv) {
   }
 
   return options;
-}
-
-function deterministicUuid(seed) {
-  const hash = crypto.createHash('sha1').update(seed).digest('hex');
-  return `${hash.slice(0, 8)}-${hash.slice(8, 12)}-${hash.slice(12, 16)}-${hash.slice(16, 20)}-${hash.slice(20, 32)}`;
 }
 
 function normalizeText(value) {
@@ -469,6 +464,8 @@ function main() {
           conceptDefinitions,
           (row) => row.concept_id === conceptId && row.lang === lang,
           {
+            // Keep fields a template cannot set (sense_indicator, synonym_tiers_json, ...).
+            ...(existingDefinition ?? {}),
             concept_id: conceptId,
             lang,
             short_definition:

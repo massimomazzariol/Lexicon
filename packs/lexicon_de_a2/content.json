@@ -1518,14 +1518,15 @@
       "level_auto": "A2",
       "level_override": null,
       "domain_tags": [
-        "investigation"
+        "Daily",
+        "Investigation"
       ],
       "notes": null,
-      "review_status": "reviewed",
       "metadata_json": {
         "source": "ai",
         "generated_at": "2026-06-26T12:03:06.241Z"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-a2-dart",
@@ -1534,14 +1535,15 @@
       "level_auto": "A2",
       "level_override": null,
       "domain_tags": [
-        "sports"
+        "Daily",
+        "Sports"
       ],
       "notes": null,
-      "review_status": "reviewed",
       "metadata_json": {
         "source": "ai",
         "generated_at": "2026-06-26T15:51:32.478Z"
-      }
+      },
+      "review_status": "reviewed"
     },
     {
       "concept_id": "concept-a2-wettbewerb",
@@ -2650,7 +2652,7 @@
       "lexeme_id": "lex-en-formal-application",
       "concept_id": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
       "lang": "en",
-      "text": "formal application",
+      "text": "the formal application",
       "frequency_rank": null,
       "lemma": "formal application",
       "pos": "noun",
@@ -2701,7 +2703,7 @@
       "lexeme_id": "lex-en-inquiry",
       "concept_id": "2bfef665-f822-93b9-3f9d-233a6f838aba",
       "lang": "en",
-      "text": "inquiry",
+      "text": "the inquiry",
       "frequency_rank": null,
       "lemma": "inquiry",
       "pos": "noun",
@@ -2759,10 +2761,10 @@
       "gender": "none",
       "countability": "none",
       "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": true,
+      "meaning_status": "approximate",
+      "is_primary": false,
       "status": "approved",
-      "notes": null,
+      "notes": "Transitive (someone combines things); passen says the things match. Kept for display, not graded.",
       "is_active": true
     },
     {
@@ -7427,7 +7429,7 @@
       "lexeme_id": "lexeme-en-a2-dart",
       "concept_id": "concept-a2-dart",
       "lang": "en",
-      "text": "dart",
+      "text": "the dart",
       "frequency_rank": null,
       "lemma": "dart",
       "pos": "noun",
@@ -7793,6 +7795,329 @@
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-spedire",
+      "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
+      "lang": "it",
+      "text": "spedire",
+      "frequency_rank": null,
+      "lemma": "spedire",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-mandare",
+      "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
+      "lang": "it",
+      "text": "mandare",
+      "frequency_rank": null,
+      "lemma": "mandare",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-senden",
+      "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
+      "lang": "de",
+      "text": "senden",
+      "frequency_rank": null,
+      "lemma": "senden",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-zuschicken",
+      "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
+      "lang": "de",
+      "text": "zuschicken",
+      "frequency_rank": null,
+      "lemma": "zuschicken",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-mitmachen",
+      "concept_id": "concept-a2-teilnehmen",
+      "lang": "de",
+      "text": "mitmachen",
+      "frequency_rank": null,
+      "lemma": "mitmachen",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-meistens",
+      "concept_id": "dce273cb-1477-41c8-14f3-84226c53e233",
+      "lang": "de",
+      "text": "meistens",
+      "frequency_rank": null,
+      "lemma": "meistens",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-gratis",
+      "concept_id": "concept-a2-kostenlos",
+      "lang": "it",
+      "text": "gratis",
+      "frequency_rank": null,
+      "lemma": "gratis",
+      "pos": "adj",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-gratis",
+      "concept_id": "concept-a2-kostenlos",
+      "lang": "de",
+      "text": "gratis",
+      "frequency_rank": null,
+      "lemma": "gratis",
+      "pos": "adj",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-umsonst",
+      "concept_id": "concept-a2-kostenlos",
+      "lang": "de",
+      "text": "umsonst",
+      "frequency_rank": null,
+      "lemma": "umsonst",
+      "pos": "adj",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-notwendig",
+      "concept_id": "concept-a2-noetig",
+      "lang": "de",
+      "text": "notwendig",
+      "frequency_rank": null,
+      "lemma": "notwendig",
+      "pos": "adj",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-passare-a-prendere",
+      "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
+      "lang": "it",
+      "text": "passare a prendere",
+      "frequency_rank": null,
+      "lemma": "passare a prendere",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-terminare",
+      "concept_id": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
+      "lang": "it",
+      "text": "terminare",
+      "frequency_rank": null,
+      "lemma": "terminare",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-concludere",
+      "concept_id": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
+      "lang": "it",
+      "text": "concludere",
+      "frequency_rank": null,
+      "lemma": "concludere",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-nirgends",
+      "concept_id": "concept-a2-nirgendwo",
+      "lang": "de",
+      "text": "nirgends",
+      "frequency_rank": null,
+      "lemma": "nirgends",
+      "pos": "adv",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-freccetta",
+      "concept_id": "concept-a2-dart",
+      "lang": "it",
+      "text": "la freccetta",
+      "frequency_rank": null,
+      "lemma": "freccetta",
+      "pos": "noun",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-stare-bene",
+      "concept_id": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
+      "lang": "it",
+      "text": "stare bene",
+      "frequency_rank": null,
+      "lemma": "stare bene",
+      "pos": "verb",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-en-formal-application-bare",
+      "concept_id": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
+      "lang": "en",
+      "text": "formal application",
+      "frequency_rank": null,
+      "lemma": "formal application",
+      "pos": "noun",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-en-inquiry-bare",
+      "concept_id": "2bfef665-f822-93b9-3f9d-233a6f838aba",
+      "lang": "en",
+      "text": "inquiry",
+      "frequency_rank": null,
+      "lemma": "inquiry",
+      "pos": "noun",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lexeme-en-a2-dart-bare",
+      "concept_id": "concept-a2-dart",
+      "lang": "en",
+      "text": "dart",
+      "frequency_rank": null,
+      "lemma": "dart",
+      "pos": "noun",
+      "gender": "none",
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
       "status": "approved",
       "notes": null,
       "is_active": true
@@ -9595,11 +9920,11 @@
       "form_id": "cbb09cb5-4aa6-538e-9212-03921ea88539",
       "lexeme_id": "lex-en-formal-application",
       "lang": "en",
-      "surface": "formal application",
-      "surface_search": "formal application",
+      "surface": "the formal application",
+      "surface_search": "the formal application",
       "number_value": "sg",
       "grammatical_case": "none",
-      "definiteness": "bare",
+      "definiteness": "def",
       "form_role": "core",
       "status": "approved",
       "sort_order": 0,
@@ -9793,11 +10118,11 @@
       "form_id": "fe548a22-e5ac-3a57-9c36-7aeabe8efdd2",
       "lexeme_id": "lex-en-inquiry",
       "lang": "en",
-      "surface": "inquiry",
-      "surface_search": "inquiry",
+      "surface": "the inquiry",
+      "surface_search": "the inquiry",
       "number_value": "sg",
       "grammatical_case": "none",
-      "definiteness": "bare",
+      "definiteness": "def",
       "form_role": "core",
       "status": "approved",
       "sort_order": 0,
@@ -18515,11 +18840,11 @@
       "form_id": "49c0b94a-1ff8-268b-1202-0cbf96ca4b5b",
       "lexeme_id": "lexeme-en-a2-dart",
       "lang": "en",
-      "surface": "dart",
-      "surface_search": "dart",
+      "surface": "the dart",
+      "surface_search": "the dart",
       "number_value": "sg",
       "grammatical_case": "none",
-      "definiteness": "bare",
+      "definiteness": "def",
       "form_role": "core",
       "status": "approved",
       "sort_order": 0,
@@ -19075,6 +19400,360 @@
       "editor_notes": null,
       "tags_json": {
         "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "58b64ab2-d103-27a1-4a50-77f44e6a0a05",
+      "lexeme_id": "lex-it-spedire",
+      "lang": "it",
+      "surface": "spedire",
+      "surface_search": "spedire",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "92567c84-184e-908d-9431-e102a10f0582",
+      "lexeme_id": "lex-it-mandare",
+      "lang": "it",
+      "surface": "mandare",
+      "surface_search": "mandare",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "b7971177-9c69-ce5d-459b-256377021ccd",
+      "lexeme_id": "lex-de-senden",
+      "lang": "de",
+      "surface": "senden",
+      "surface_search": "senden",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core",
+        "verb_class": "simple",
+        "prefix": null,
+        "stem": "senden",
+        "aux": "haben"
+      }
+    },
+    {
+      "form_id": "531fc63e-2c8d-28ce-0caf-69dadc9c5623",
+      "lexeme_id": "lex-de-zuschicken",
+      "lang": "de",
+      "surface": "zuschicken",
+      "surface_search": "zuschicken",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core",
+        "verb_class": "separable",
+        "prefix": "zu",
+        "stem": "schicken",
+        "aux": "haben"
+      }
+    },
+    {
+      "form_id": "eddd6e1b-5b0e-fa78-e23f-51a3cb82fdc9",
+      "lexeme_id": "lex-de-mitmachen",
+      "lang": "de",
+      "surface": "mitmachen",
+      "surface_search": "mitmachen",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core",
+        "verb_class": "separable",
+        "prefix": "mit",
+        "stem": "machen",
+        "aux": "haben"
+      }
+    },
+    {
+      "form_id": "f5774c36-0e47-5e4e-0a0a-2eea6b14247b",
+      "lexeme_id": "lex-de-meistens",
+      "lang": "de",
+      "surface": "meistens",
+      "surface_search": "meistens",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "58610fe2-42c3-f221-87f4-49af3f609cc7",
+      "lexeme_id": "lex-it-gratis",
+      "lang": "it",
+      "surface": "gratis",
+      "surface_search": "gratis",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "a4ffabc0-10c8-b542-30fd-1c74a98a0a56",
+      "lexeme_id": "lex-de-gratis",
+      "lang": "de",
+      "surface": "gratis",
+      "surface_search": "gratis",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "e3f8574c-f02d-52cb-c59b-6d913e1abf66",
+      "lexeme_id": "lex-de-umsonst",
+      "lang": "de",
+      "surface": "umsonst",
+      "surface_search": "umsonst",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "b966af6d-67bd-b270-f2ff-b1e15fd8a515",
+      "lexeme_id": "lex-de-notwendig",
+      "lang": "de",
+      "surface": "notwendig",
+      "surface_search": "notwendig",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "c0710d6e-3a38-b1df-5e93-32f6b2c97bc8",
+      "lexeme_id": "lex-it-passare-a-prendere",
+      "lang": "it",
+      "surface": "passare a prendere",
+      "surface_search": "passare a prendere",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "69066ee8-cc8f-2a47-741c-1f93f4e9d776",
+      "lexeme_id": "lex-it-terminare",
+      "lang": "it",
+      "surface": "terminare",
+      "surface_search": "terminare",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "1acf47d2-b1c3-eea1-4c85-443ecd7ef0fe",
+      "lexeme_id": "lex-it-concludere",
+      "lang": "it",
+      "surface": "concludere",
+      "surface_search": "concludere",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "fbbaa3e4-20ee-6e9a-58f2-8a0bb10bcfc4",
+      "lexeme_id": "lex-de-nirgends",
+      "lang": "de",
+      "surface": "nirgends",
+      "surface_search": "nirgends",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "76fbe5e7-4b09-dd7b-b5cc-5745a78e305e",
+      "lexeme_id": "lex-it-freccetta",
+      "lang": "it",
+      "surface": "la freccetta",
+      "surface_search": "la freccetta",
+      "number_value": "sg",
+      "grammatical_case": "none",
+      "definiteness": "def",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:noun-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "0063b559-a1f7-3725-421c-9ff0f7b08cbe",
+      "lexeme_id": "lex-it-stare-bene",
+      "lang": "it",
+      "surface": "stare bene",
+      "surface_search": "stare bene",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
+    },
+    {
+      "form_id": "9352b3ad-9778-2884-df3a-0d82c3ee4c9a",
+      "lexeme_id": "lex-en-formal-application-bare",
+      "lang": "en",
+      "surface": "formal application",
+      "surface_search": "formal application",
+      "number_value": "sg",
+      "grammatical_case": "none",
+      "definiteness": "bare",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:noun-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "6ecfda92-6d16-3e4d-e733-71c2eb13ddb4",
+      "lexeme_id": "lex-en-inquiry-bare",
+      "lang": "en",
+      "surface": "inquiry",
+      "surface_search": "inquiry",
+      "number_value": "sg",
+      "grammatical_case": "none",
+      "definiteness": "bare",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:noun-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "sg_core"
+      }
+    },
+    {
+      "form_id": "07d9a0aa-0ab5-f1f4-33e0-481b45516128",
+      "lexeme_id": "lexeme-en-a2-dart-bare",
+      "lang": "en",
+      "surface": "dart",
+      "surface_search": "dart",
+      "number_value": "sg",
+      "grammatical_case": "none",
+      "definiteness": "bare",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:noun-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "sg_core"
       }
     }
   ],
@@ -20335,7 +21014,9 @@
       "unit_kind": "core_prod",
       "source_form_id": "03ff5155-ccb9-6368-1145-0445d3b5a062",
       "primary_expected_form_id": "c97fba5a-191c-b5d5-3353-6328f2d24b1d",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "f5774c36-0e47-5e4e-0a0a-2eea6b14247b"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -20371,7 +21052,9 @@
       "unit_kind": "core_prod",
       "source_form_id": "b9f15197-c459-ab4d-a157-b618b3ac2096",
       "primary_expected_form_id": "c97fba5a-191c-b5d5-3353-6328f2d24b1d",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "f5774c36-0e47-5e4e-0a0a-2eea6b14247b"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -20753,7 +21436,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "1806325b-c1a3-db44-959b-339de5b8b17b",
       "primary_expected_form_id": "8ed6831d-d4d7-4353-19b6-39d0b3e786d5",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "c0710d6e-3a38-b1df-5e93-32f6b2c97bc8"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -20915,7 +21600,10 @@
       "unit_kind": "core_prod",
       "source_form_id": "b3a83375-0721-b26a-c3fa-7d1ba86cd096",
       "primary_expected_form_id": "f244b3ee-c1c6-89da-4a45-9ce1ce1beaa0",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "b7971177-9c69-ce5d-459b-256377021ccd",
+        "531fc63e-2c8d-28ce-0caf-69dadc9c5623"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -20951,7 +21639,10 @@
       "unit_kind": "core_prod",
       "source_form_id": "3658d10d-f459-783d-7d74-fa0fe7bd367a",
       "primary_expected_form_id": "f244b3ee-c1c6-89da-4a45-9ce1ce1beaa0",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "b7971177-9c69-ce5d-459b-256377021ccd",
+        "531fc63e-2c8d-28ce-0caf-69dadc9c5623"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -20969,7 +21660,10 @@
       "unit_kind": "core_rec",
       "source_form_id": "f244b3ee-c1c6-89da-4a45-9ce1ce1beaa0",
       "primary_expected_form_id": "3658d10d-f459-783d-7d74-fa0fe7bd367a",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "58b64ab2-d103-27a1-4a50-77f44e6a0a05",
+        "92567c84-184e-908d-9431-e102a10f0582"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -22109,7 +22803,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "d6760ca8-a538-066a-1335-160b9160da47",
       "primary_expected_form_id": "cbb09cb5-4aa6-538e-9212-03921ea88539",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "9352b3ad-9778-2884-df3a-0d82c3ee4c9a"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -22184,7 +22880,9 @@
       "unit_kind": "grammar_rec",
       "source_form_id": "8e02091e-42d8-6188-4f5d-7950b9501fff",
       "primary_expected_form_id": "cbb09cb5-4aa6-538e-9212-03921ea88539",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "9352b3ad-9778-2884-df3a-0d82c3ee4c9a"
+      ],
       "acceptable_form_ids": [],
       "is_core": false,
       "status": "approved",
@@ -22226,7 +22924,9 @@
       "unit_kind": "grammar_rec",
       "source_form_id": "08e57304-f475-4676-1ff8-f09a3ff37c39",
       "primary_expected_form_id": "cbb09cb5-4aa6-538e-9212-03921ea88539",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "9352b3ad-9778-2884-df3a-0d82c3ee4c9a"
+      ],
       "acceptable_form_ids": [],
       "is_core": false,
       "status": "approved",
@@ -22268,7 +22968,9 @@
       "unit_kind": "grammar_rec",
       "source_form_id": "82ccc333-b497-8d1a-7fa3-73bd20cc5df0",
       "primary_expected_form_id": "cbb09cb5-4aa6-538e-9212-03921ea88539",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "9352b3ad-9778-2884-df3a-0d82c3ee4c9a"
+      ],
       "acceptable_form_ids": [],
       "is_core": false,
       "status": "approved",
@@ -22589,7 +23291,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "a41e4947-11d2-58b5-df57-72ed92e5420c",
       "primary_expected_form_id": "fe548a22-e5ac-3a57-9c36-7aeabe8efdd2",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "6ecfda92-6d16-3e4d-e733-71c2eb13ddb4"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -22664,7 +23368,9 @@
       "unit_kind": "grammar_rec",
       "source_form_id": "ccbdfce3-fdfb-118b-d58d-5b30c7efd42b",
       "primary_expected_form_id": "fe548a22-e5ac-3a57-9c36-7aeabe8efdd2",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "6ecfda92-6d16-3e4d-e733-71c2eb13ddb4"
+      ],
       "acceptable_form_ids": [],
       "is_core": false,
       "status": "approved",
@@ -22706,7 +23412,9 @@
       "unit_kind": "grammar_rec",
       "source_form_id": "596f0a84-9cc8-5c46-1729-6a20d1fff15c",
       "primary_expected_form_id": "fe548a22-e5ac-3a57-9c36-7aeabe8efdd2",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "6ecfda92-6d16-3e4d-e733-71c2eb13ddb4"
+      ],
       "acceptable_form_ids": [],
       "is_core": false,
       "status": "approved",
@@ -22748,7 +23456,9 @@
       "unit_kind": "grammar_rec",
       "source_form_id": "ceba9ffe-5b10-d974-2f96-36549009b95c",
       "primary_expected_form_id": "fe548a22-e5ac-3a57-9c36-7aeabe8efdd2",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "6ecfda92-6d16-3e4d-e733-71c2eb13ddb4"
+      ],
       "acceptable_form_ids": [],
       "is_core": false,
       "status": "approved",
@@ -23080,12 +23790,12 @@
       "editor_notes": null
     },
     {
-      "study_unit_id": "eb43d3d8-1667-5ca4-8a2c-68576ac90456",
+      "study_unit_id": "2b6c09b2-7cd6-e60a-154c-ab732564ef0c",
       "concept_id": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
       "source_lang": "it",
       "target_lang": "de",
       "unit_kind": "core_prod",
-      "source_form_id": "01f7fd9e-801f-702c-420c-3f19943fd6b0",
+      "source_form_id": "0063b559-a1f7-3725-421c-9ff0f7b08cbe",
       "primary_expected_form_id": "eeafbd1a-9008-2595-1181-a498fcbf7b5c",
       "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
@@ -23104,8 +23814,10 @@
       "target_lang": "it",
       "unit_kind": "core_rec",
       "source_form_id": "eeafbd1a-9008-2595-1181-a498fcbf7b5c",
-      "primary_expected_form_id": "01f7fd9e-801f-702c-420c-3f19943fd6b0",
-      "extra_expected_form_ids": [],
+      "primary_expected_form_id": "0063b559-a1f7-3725-421c-9ff0f7b08cbe",
+      "extra_expected_form_ids": [
+        "01f7fd9e-801f-702c-420c-3f19943fd6b0"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -23177,7 +23889,10 @@
       "unit_kind": "core_rec",
       "source_form_id": "0812b788-d64a-686b-d721-5be4e1809b76",
       "primary_expected_form_id": "f6acecfe-c5b1-9553-45dd-08f644de6b76",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "69066ee8-cc8f-2a47-741c-1f93f4e9d776",
+        "1acf47d2-b1c3-eea1-4c85-443ecd7ef0fe"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -24597,7 +25312,9 @@
       "unit_kind": "core_prod",
       "source_form_id": "adb16ad4-a1b7-0fe1-6360-d1b356d246be",
       "primary_expected_form_id": "ce955945-938e-7d03-9d87-c2eaaa5d9595",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "b966af6d-67bd-b270-f2ff-b1e15fd8a515"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -24633,7 +25350,9 @@
       "unit_kind": "core_prod",
       "source_form_id": "3a0b7087-200a-6695-923b-f65cb57dc454",
       "primary_expected_form_id": "ce955945-938e-7d03-9d87-c2eaaa5d9595",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "b966af6d-67bd-b270-f2ff-b1e15fd8a515"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -31197,7 +31916,9 @@
       "unit_kind": "core_prod",
       "source_form_id": "c78d86d4-22a0-2d5b-d795-897a43bcae37",
       "primary_expected_form_id": "b1424967-0f5c-acfb-a15d-6541e5fd3f5f",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "eddd6e1b-5b0e-fa78-e23f-51a3cb82fdc9"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -31235,7 +31956,9 @@
       "unit_kind": "core_prod",
       "source_form_id": "04b53c39-d606-5b9c-fd23-f77c32353d5b",
       "primary_expected_form_id": "b1424967-0f5c-acfb-a15d-6541e5fd3f5f",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "eddd6e1b-5b0e-fa78-e23f-51a3cb82fdc9"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -32377,7 +33100,10 @@
       "unit_kind": "core_prod",
       "source_form_id": "b6fb95b1-53ff-5dde-3b6d-ce4ccf32eee0",
       "primary_expected_form_id": "d225f71b-287d-c29d-5645-2493070b8f7e",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "a4ffabc0-10c8-b542-30fd-1c74a98a0a56",
+        "e3f8574c-f02d-52cb-c59b-6d913e1abf66"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -32413,7 +33139,10 @@
       "unit_kind": "core_prod",
       "source_form_id": "93694309-31bc-40c3-9c52-f19a2e180540",
       "primary_expected_form_id": "d225f71b-287d-c29d-5645-2493070b8f7e",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "a4ffabc0-10c8-b542-30fd-1c74a98a0a56",
+        "e3f8574c-f02d-52cb-c59b-6d913e1abf66"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -32431,7 +33160,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "d225f71b-287d-c29d-5645-2493070b8f7e",
       "primary_expected_form_id": "93694309-31bc-40c3-9c52-f19a2e180540",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "58610fe2-42c3-f221-87f4-49af3f609cc7"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -34705,7 +35436,9 @@
       "unit_kind": "core_prod",
       "source_form_id": "3f1cdb98-d4df-5e0b-a61a-081c6bd6d68b",
       "primary_expected_form_id": "5a74af23-8611-f93e-edd2-06602c86cc3e",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "fbbaa3e4-20ee-6e9a-58f2-8a0bb10bcfc4"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -34741,7 +35474,9 @@
       "unit_kind": "core_prod",
       "source_form_id": "402d04a0-7b4b-df63-4a40-2315f3892b21",
       "primary_expected_form_id": "5a74af23-8611-f93e-edd2-06602c86cc3e",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "fbbaa3e4-20ee-6e9a-58f2-8a0bb10bcfc4"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -38471,7 +39206,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "5fbd6129-9c35-7d0d-2bb6-bfb75b3e28db",
       "primary_expected_form_id": "49c0b94a-1ff8-268b-1202-0cbf96ca4b5b",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "07d9a0aa-0ab5-f1f4-33e0-481b45516128"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -38546,7 +39283,9 @@
       "unit_kind": "grammar_rec",
       "source_form_id": "600c2993-ee00-9bc6-ebf8-8616cd1c3630",
       "primary_expected_form_id": "49c0b94a-1ff8-268b-1202-0cbf96ca4b5b",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "07d9a0aa-0ab5-f1f4-33e0-481b45516128"
+      ],
       "acceptable_form_ids": [],
       "is_core": false,
       "status": "approved",
@@ -38588,7 +39327,9 @@
       "unit_kind": "grammar_rec",
       "source_form_id": "16e1a33b-4350-834c-d315-c31feb838faf",
       "primary_expected_form_id": "49c0b94a-1ff8-268b-1202-0cbf96ca4b5b",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "07d9a0aa-0ab5-f1f4-33e0-481b45516128"
+      ],
       "acceptable_form_ids": [],
       "is_core": false,
       "status": "approved",
@@ -38630,7 +39371,9 @@
       "unit_kind": "grammar_rec",
       "source_form_id": "236726ac-d90f-c170-cf2b-aeecbc87d060",
       "primary_expected_form_id": "49c0b94a-1ff8-268b-1202-0cbf96ca4b5b",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "07d9a0aa-0ab5-f1f4-33e0-481b45516128"
+      ],
       "acceptable_form_ids": [],
       "is_core": false,
       "status": "approved",
@@ -38711,7 +39454,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "5fbd6129-9c35-7d0d-2bb6-bfb75b3e28db",
       "primary_expected_form_id": "20f3f567-8af1-70df-2d8e-f94f7fe4c512",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "76fbe5e7-4b09-dd7b-b5cc-5745a78e305e"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -38786,7 +39531,9 @@
       "unit_kind": "grammar_rec",
       "source_form_id": "600c2993-ee00-9bc6-ebf8-8616cd1c3630",
       "primary_expected_form_id": "20f3f567-8af1-70df-2d8e-f94f7fe4c512",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "76fbe5e7-4b09-dd7b-b5cc-5745a78e305e"
+      ],
       "acceptable_form_ids": [],
       "is_core": false,
       "status": "approved",
@@ -38828,7 +39575,9 @@
       "unit_kind": "grammar_rec",
       "source_form_id": "16e1a33b-4350-834c-d315-c31feb838faf",
       "primary_expected_form_id": "20f3f567-8af1-70df-2d8e-f94f7fe4c512",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "76fbe5e7-4b09-dd7b-b5cc-5745a78e305e"
+      ],
       "acceptable_form_ids": [],
       "is_core": false,
       "status": "approved",
@@ -38870,7 +39619,9 @@
       "unit_kind": "grammar_rec",
       "source_form_id": "236726ac-d90f-c170-cf2b-aeecbc87d060",
       "primary_expected_form_id": "20f3f567-8af1-70df-2d8e-f94f7fe4c512",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "76fbe5e7-4b09-dd7b-b5cc-5745a78e305e"
+      ],
       "acceptable_form_ids": [],
       "is_core": false,
       "status": "approved",
@@ -39840,30 +40591,6 @@
   ],
   "examples": [
     {
-      "example_id": "05590f45-f5de-f2d4-e057-d67d4d43cf70",
-      "concept_id": "b5badb09-9fac-871c-a009-af06fbb2cef3",
-      "lang": "en",
-      "sentence": "He went for a run in the park.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "54cf7ab2-eefe-ecfa-ed07-566ebf2e4006",
-      "concept_id": "b5badb09-9fac-871c-a009-af06fbb2cef3",
-      "lang": "en",
-      "sentence": "The team is on a winning run.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "4f20c85f-fccb-0611-f767-af5b18c6328d",
-      "concept_id": "b5badb09-9fac-871c-a009-af06fbb2cef3",
-      "lang": "de",
-      "sentence": "Das Team hat eine Siegesserie.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
       "example_id": "94262318-1651-7447-44ec-d0bb2b131604",
       "concept_id": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
       "lang": "it",
@@ -39908,22 +40635,6 @@
       "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
       "lang": "it",
       "sentence": "Ha ritirato il suo pacco dall'ufficio postale.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "e33e9528-86d2-d398-37fe-dee5b949cdaf",
-      "concept_id": "324d681d-6d2e-552f-6831-9758934c5d65",
-      "lang": "de",
-      "sentence": "Sie haben die Wände blau gemalt.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "551fcf6e-5554-d44e-8bad-ea30f4a21415",
-      "concept_id": "324d681d-6d2e-552f-6831-9758934c5d65",
-      "lang": "it",
-      "sentence": "Hanno dipinto le pareti di blu.",
       "translation_lang": null,
       "translation_text": null
     },
@@ -40168,30 +40879,6 @@
       "translation_text": null
     },
     {
-      "example_id": "03fd9db6-8b61-dbc8-5c9f-e5f4a6102a24",
-      "concept_id": "77962681-e561-09cc-772c-9c4285175bf9",
-      "lang": "de",
-      "sentence": "Sie leben zusammen seit vielen Jahren.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "29e9d001-44e7-7b36-c832-df81725e7073",
-      "concept_id": "77962681-e561-09cc-772c-9c4285175bf9",
-      "lang": "it",
-      "sentence": "Vivono insieme da molti anni.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "34248aa8-548d-5bf6-56d9-989659881034",
-      "concept_id": "77962681-e561-09cc-772c-9c4285175bf9",
-      "lang": "en",
-      "sentence": "They have lived together for many years.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
       "example_id": "049d5f3e-90e8-efd0-1eae-4e3aa4ff66d3",
       "concept_id": "dce273cb-1477-41c8-14f3-84226c53e233",
       "lang": "de",
@@ -40244,14 +40931,6 @@
       "concept_id": "d0981aa3-9aed-3007-290a-3e2779bacea5",
       "lang": "de",
       "sentence": "Danke, dir einen schönen Abend.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "340fb551-ef80-10c4-258a-41fa4d79f438",
-      "concept_id": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
-      "lang": "it",
-      "sentence": "La camicia e i pantaloni si abbinano molto bene.",
       "translation_lang": null,
       "translation_text": null
     },
@@ -40708,14 +41387,6 @@
       "concept_id": "concept-a2-abstand",
       "lang": "en",
       "sentence": "Keep a couple of meters from the car in front.",
-      "translation_lang": null,
-      "translation_text": null
-    },
-    {
-      "example_id": "7c2182cb-4d59-e979-67f8-43ab2ee93666",
-      "concept_id": "concept-a2-unterschied",
-      "lang": "de",
-      "sentence": "Die beiden Geräte sehen ähnlich aus, funktionieren aber nicht gleich.",
       "translation_lang": null,
       "translation_text": null
     },
@@ -41374,28 +42045,6 @@
       "reviewed_by": "ai"
     },
     {
-      "example_id": "example-it-a2-herausfinden",
-      "concept_id": "concept-a2-herausfinden",
-      "lang": "it",
-      "sentence": "Ha scoperto che lui mente.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
-      "example_id": "example-en-a2-herausfinden",
-      "concept_id": "concept-a2-herausfinden",
-      "lang": "en",
-      "sentence": "She found out that he is lying.",
-      "source": "ai",
-      "generated_by": "ai",
-      "notes": null,
-      "review_status": "reviewed",
-      "reviewed_by": "ai"
-    },
-    {
       "example_id": "f42ac9f1-14e9-53aa-bee1-80162132326e",
       "concept_id": "concept-a2-einfach-plain",
       "lang": "it",
@@ -41442,19 +42091,993 @@
       "sentence": "Er ignoriert die Regeln.",
       "translation_lang": "it",
       "translation_text": "Lui ignora le regole."
+    },
+    {
+      "example_id": "8ebf61ab-0291-42b2-b7ca-6f52692c2f85",
+      "concept_id": "b5badb09-9fac-871c-a009-af06fbb2cef3",
+      "lang": "en",
+      "sentence": "The 5 km event starts at eight o'clock.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "62989d49-ad4c-635a-996a-3e7ca6518b1f",
+      "concept_id": "b5badb09-9fac-871c-a009-af06fbb2cef3",
+      "lang": "it",
+      "sentence": "Alla partenza ci sono duecento persone con il numero sul petto.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "837ffa17-3ad5-c543-3387-0e7ad935085f",
+      "concept_id": "324d681d-6d2e-552f-6831-9758934c5d65",
+      "lang": "de",
+      "sentence": "Sie mischt Farben für ein Bild.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "30f410f7-e14a-2601-a3a2-ffead39b2cf2",
+      "concept_id": "324d681d-6d2e-552f-6831-9758934c5d65",
+      "lang": "en",
+      "sentence": "She mixes colors for a picture.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "0a879fce-6602-2ac3-3d06-c6b08809a358",
+      "concept_id": "324d681d-6d2e-552f-6831-9758934c5d65",
+      "lang": "it",
+      "sentence": "Mescola i colori per un quadro.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "00b1aedc-d709-23ba-66b9-a3137083d29b",
+      "concept_id": "77962681-e561-09cc-772c-9c4285175bf9",
+      "lang": "de",
+      "sentence": "Seit der Hochzeit tragen beide einen Ring.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "ca1f55d0-4481-7225-3dc2-ae969fe3a0d3",
+      "concept_id": "77962681-e561-09cc-772c-9c4285175bf9",
+      "lang": "en",
+      "sentence": "Since the wedding, they both wear a ring.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "64c06bd2-03bb-4866-2a3b-163d3bc74039",
+      "concept_id": "77962681-e561-09cc-772c-9c4285175bf9",
+      "lang": "it",
+      "sentence": "Dal giorno delle nozze portano entrambi un anello.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "a1663020-d61d-942c-ae4e-44ca9f7b96d2",
+      "concept_id": "concept-a2-herausfinden",
+      "lang": "it",
+      "sentence": "Dopo una lunga ricerca, finalmente sa la verità.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "b141e82d-00d6-6e7b-b61d-2262f33d1abe",
+      "concept_id": "concept-a2-herausfinden",
+      "lang": "en",
+      "sentence": "After a long search, she finally knows the truth.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "49affd59-b161-4bb7-060c-d7cb04ca4f94",
+      "concept_id": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
+      "lang": "de",
+      "sentence": "Am Ende hebt jeder die Hand: Wer ist für den Plan?",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f9e7fbc3-244e-a740-14ae-9cf981fa1986",
+      "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
+      "lang": "de",
+      "sentence": "Um fünf bin ich mit dem Auto am Bahnhof und nehme dich mit.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "c406780b-0e3e-97bb-dca0-592c437c9fcd",
+      "concept_id": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
+      "lang": "de",
+      "sentence": "Ich habe ihre Nummer gewählt, aber sie geht nicht ans Telefon.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "ecae702f-d282-70b0-afd1-fb6bfa794609",
+      "concept_id": "a73af94e-f267-9f64-bf2b-134fa2544a0c",
+      "lang": "de",
+      "sentence": "Zum Geburtstag steht plötzlich die ganze Familie vor der Tür.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "4e89b590-2f52-5b3c-239c-cc56c1719cde",
+      "concept_id": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
+      "lang": "de",
+      "sentence": "Die blaue Hose und das weiße Hemd sehen zusammen gut aus.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "c17990cc-dfcb-19bd-08d7-2ab36713a088",
+      "concept_id": "concept-a2-loesung",
+      "lang": "de",
+      "sentence": "Wir haben das Problem gemeinsam besprochen und eine Antwort gefunden.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "a7f4ee7b-08be-d4b1-5da7-852bf4ecfbd5",
+      "concept_id": "concept-a2-moeglich",
+      "lang": "de",
+      "sentence": "Heute Nachmittag habe ich Zeit, dann geht es.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "0d54d876-b84c-6df1-d2f6-d87e1972238d",
+      "concept_id": "concept-a2-puenktlich",
+      "lang": "de",
+      "sentence": "Der Zug kommt genau um 8:00 Uhr an, keine Minute später.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "24e88aed-1c9b-e0da-a56f-169a5696cadb",
+      "concept_id": "concept-a2-wahrscheinlich",
+      "lang": "de",
+      "sentence": "Es ist sehr bewölkt, es regnet bestimmt bald.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "9112257f-ef1f-cfc2-786b-d4a526917e39",
+      "concept_id": "concept-a2-besonders",
+      "lang": "de",
+      "sentence": "Ich mag alle Früchte, aber Erdbeeren am meisten.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "ded85d64-1014-fdcd-a60f-1da97674eec1",
+      "concept_id": "concept-a2-endlich",
+      "lang": "de",
+      "sentence": "Nach drei Stunden Warten ist der Bus da!",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "4ac131f2-35b4-5fda-8ad7-96c40d01f2db",
+      "concept_id": "concept-a2-erfahrung",
+      "lang": "de",
+      "sentence": "Sie arbeitet seit zehn Jahren als Köchin und weiß sehr viel.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "41c6c45e-f769-95c5-1be9-b47e9121b605",
+      "concept_id": "concept-a2-einladung",
+      "lang": "de",
+      "sentence": "Auf der Karte steht: Kommt am Samstag zu unserer Hochzeit!",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "0890f051-b485-021a-88b0-20afa73c4ea2",
+      "concept_id": "concept-a2-nachricht",
+      "lang": "de",
+      "sentence": "Ich schreibe dir später eine SMS.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "17eb702f-934e-3e4d-d3e4-2dce6dbcff50",
+      "concept_id": "concept-a2-termin",
+      "lang": "de",
+      "sentence": "Am Dienstag um zehn muss ich zum Zahnarzt.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f4b2eb8f-ffde-093c-2437-5513f5f561dc",
+      "concept_id": "concept-a2-moeglichkeit",
+      "lang": "de",
+      "sentence": "Du kannst mit dem Bus oder mit dem Zug fahren, beides geht.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "4b27ead7-9ca8-08b7-9c7c-11d2efee93eb",
+      "concept_id": "concept-a2-meinung",
+      "lang": "de",
+      "sentence": "Was denkst du über den neuen Film?",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "c57e0f8a-69cc-9ef1-ba64-082f22f2fc20",
+      "concept_id": "concept-a2-gewohnheit",
+      "lang": "de",
+      "sentence": "Jeden Morgen trinkt er zuerst ein Glas Wasser, ohne nachzudenken.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "ada0a627-a539-1793-646a-b1ea17ecfcba",
+      "concept_id": "concept-a2-verspaetung",
+      "lang": "de",
+      "sentence": "Der Zug kommt heute zwanzig Minuten später an.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "87393a96-f579-a30e-9863-1b387d9e4b5e",
+      "concept_id": "concept-a2-erlaubnis",
+      "lang": "de",
+      "sentence": "Darf ich heute länger bleiben? Ja, das darfst du.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "32a028ce-af51-ca70-9889-6ec7c1b3f7a3",
+      "concept_id": "concept-a2-vorschlag",
+      "lang": "de",
+      "sentence": "Wie wäre es, wenn wir heute Abend Pizza essen?",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "b19e5180-8bbc-b5d2-a69a-d9e8c56202dc",
+      "concept_id": "concept-a2-gespraech",
+      "lang": "de",
+      "sentence": "Die zwei Freundinnen reden eine Stunde lang am Telefon.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "7c1925e6-e2c1-87f3-6538-86f7a47809e6",
+      "concept_id": "concept-a2-vorbereiten",
+      "lang": "de",
+      "sentence": "Vor der Party mache ich Salate und stelle Getränke kalt.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "fa0bcd17-20aa-227a-34a6-df4ef6d466cd",
+      "concept_id": "concept-a2-absagen",
+      "lang": "de",
+      "sentence": "Das Konzert fällt aus, weil es stark regnet.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "e7d991b3-4ebc-6410-1386-252dd54613f8",
+      "concept_id": "concept-a2-verschieben",
+      "lang": "de",
+      "sentence": "Das Treffen ist nicht heute, sondern erst nächste Woche.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "9f6df313-ca1d-7bb0-d3fc-c59778889e02",
+      "concept_id": "concept-a2-verbessern",
+      "lang": "de",
+      "sentence": "Sie übt jeden Tag, und ihr Deutsch wird immer besser.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "af683df7-0d35-7027-f686-ef55f3909949",
+      "concept_id": "concept-a2-vermeiden",
+      "lang": "de",
+      "sentence": "Wegen des Staus fahre ich nicht auf der Autobahn.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "2b61d68f-fe7d-a88d-0e8f-5588832a5d62",
+      "concept_id": "concept-a2-stattfinden",
+      "lang": "de",
+      "sentence": "Das Konzert ist am Samstag im Park.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "2d6df5dc-e5e4-dfe3-54c4-9681e0cb7564",
+      "concept_id": "concept-a2-umziehen-verb",
+      "lang": "de",
+      "sentence": "Nächsten Monat wohnen wir in einer neuen Wohnung in Berlin.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "af11f21d-eed6-3296-0ad5-51cc128813a6",
+      "concept_id": "concept-a2-zurueckgeben",
+      "lang": "de",
+      "sentence": "Hier ist dein Buch, danke fürs Leihen!",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "47f1bcdd-94b0-18e5-4867-cb1b641388d2",
+      "concept_id": "concept-a2-verfuegbar",
+      "lang": "de",
+      "sentence": "Das Hotel hat noch drei freie Zimmer.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "cc2c054f-c648-4d24-8125-d7a8a08e94df",
+      "concept_id": "concept-a2-kostenlos",
+      "lang": "de",
+      "sentence": "Der Eintritt ins Museum kostet heute nichts.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "895346ba-a952-4533-7027-42cda4db194e",
+      "concept_id": "concept-a2-praktisch",
+      "lang": "de",
+      "sentence": "Die kleine Tasche hat viele Fächer und hilft mir jeden Tag.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "65199d28-fa8d-99b3-3cbe-61c0da25e7a5",
+      "concept_id": "concept-a2-unterschiedlich",
+      "lang": "de",
+      "sentence": "Die Zwillinge sehen gleich aus, aber sie haben andere Hobbys.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "38a27d12-5151-e03f-59d4-2c68ac512c10",
+      "concept_id": "concept-a2-bequem",
+      "lang": "de",
+      "sentence": "Das Sofa ist weich, hier sitze ich gern.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "9a03f04d-5dc7-a1e0-de80-a319c66c4d02",
+      "concept_id": "concept-a2-deshalb",
+      "lang": "de",
+      "sentence": "Der Bus kommt nicht, und so gehe ich zu Fuß.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "4eae2b71-2ea2-d895-801e-39e64802ed16",
+      "concept_id": "concept-a2-drinnen",
+      "lang": "de",
+      "sentence": "Draußen regnet es, also spielen die Kinder im Haus.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f7269394-9cd4-fbcc-10ae-527d387e8f4c",
+      "concept_id": "concept-a2-unterwegs",
+      "lang": "de",
+      "sentence": "Ich sitze gerade im Zug nach Hamburg.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "8311369e-3a82-dc94-a0c3-1010e35b0a73",
+      "concept_id": "concept-a2-bisher",
+      "lang": "de",
+      "sentence": "Bis jetzt war das Wetter im Urlaub schön.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "18a6aafe-a522-8d2a-28c8-4edabdfe72c9",
+      "concept_id": "concept-a2-sonst",
+      "lang": "de",
+      "sentence": "Zieh eine Jacke an, oder dir wird kalt.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "a41dfaaa-c7ac-0dda-aaa8-f23b8aa40726",
+      "concept_id": "concept-a2-mindestens",
+      "lang": "de",
+      "sentence": "Du musst 18 Jahre oder älter sein.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "936af8cc-9e5a-300e-7cfb-0b582b250210",
+      "concept_id": "concept-a2-ploetzlich",
+      "lang": "de",
+      "sentence": "Auf einmal geht das Licht aus.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "45cbb6c4-4008-cbdb-67ff-1928f6407585",
+      "concept_id": "concept-a2-veranstaltung",
+      "lang": "de",
+      "sentence": "Am Samstag gibt es im Park ein Konzert mit drei Bands.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "7213009d-12cc-508e-b52d-5ce9f04677fd",
+      "concept_id": "concept-a2-ergebnis",
+      "lang": "de",
+      "sentence": "Nach dem Spiel steht es 2 zu 1 für unsere Mannschaft.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "87ba8a8d-f050-75df-4295-7875bab18588",
+      "concept_id": "concept-a2-mitbringen",
+      "lang": "de",
+      "sentence": "Zur Party kommt jeder mit einem Salat.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f91cee1d-ee2a-62d8-fdde-b47651399716",
+      "concept_id": "concept-a2-uebernachten",
+      "lang": "de",
+      "sentence": "Auf der Reise schlafen wir in einem kleinen Hotel am See.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "89632133-1a39-4e82-b955-68239ecc3557",
+      "concept_id": "concept-a2-seltsam",
+      "lang": "de",
+      "sentence": "Das Essen riecht komisch, ich esse es lieber nicht.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "5f7f2dde-20f9-e9ab-5bd1-cbb78f06836d",
+      "concept_id": "concept-a2-normalerweise",
+      "lang": "de",
+      "sentence": "Unter der Woche stehe ich um sechs auf, aber heute erst um neun.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "33a1276a-ba95-c054-5346-935422b7351b",
+      "concept_id": "concept-a2-nirgendwo",
+      "lang": "de",
+      "sentence": "Ich habe überall gesucht, aber meine Schlüssel sind weg.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "ad0c3325-00c2-95da-799c-ebb617787406",
+      "concept_id": "concept-a2-sogar",
+      "lang": "de",
+      "sentence": "Er spricht fünf Sprachen, auch Chinesisch!",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "d908af3e-ed1e-7eac-514a-8f1481e44a84",
+      "concept_id": "concept-a2-ueberhaupt-general",
+      "lang": "de",
+      "sentence": "Ich spreche nicht nur über diese Schule, sondern über alle Schulen.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "d1f843fa-c29c-7fcc-9c65-e0c55f8fb198",
+      "concept_id": "concept-a2-rasen",
+      "lang": "de",
+      "sentence": "Das Auto fährt mit 200 km/h über die Autobahn.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "c3b553c5-9b3b-e139-8bc8-ed049f35e79f",
+      "concept_id": "concept-a2-kontext",
+      "lang": "de",
+      "sentence": "Ohne den ganzen Satz verstehe ich die Bedeutung nicht.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "ae7e31ec-7289-c25f-c7a9-d84f9e15f261",
+      "concept_id": "concept-a2-herausfinden",
+      "lang": "de",
+      "sentence": "Ich sehe im Internet nach und erfahre: Der Laden öffnet um neun.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "d12ed2e5-b8cc-bb03-bca5-ce955b46dc47",
+      "concept_id": "concept-a2-dart",
+      "lang": "de",
+      "sentence": "In der Kneipe werfen sie kleine Pfeile auf eine runde Scheibe.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "d115dd88-a615-d378-0055-deab9f78be4b",
+      "concept_id": "concept-a2-wettbewerb",
+      "lang": "de",
+      "sentence": "Beim Lauf am Sonntag will jeder als Erster ins Ziel kommen.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "fc92654e-422d-ac49-9af8-a167a1af0047",
+      "concept_id": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "lang": "de",
+      "sentence": "Die Farbe ist egal, Hauptsache, das Auto fährt.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "96e83cb2-5a74-6ef4-e34b-1b8ddda59260",
+      "concept_id": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "lang": "de",
+      "sentence": "Die Lehrerin erklärt alles so gut, dass jeder es versteht.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "3979fa34-489d-2be9-150a-5b76c4af6572",
+      "concept_id": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "lang": "de",
+      "sentence": "Ich gehe fast nie ins Theater, vielleicht einmal im Jahr.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "a749ce9d-6879-b2e5-6da8-a57655a189c9",
+      "concept_id": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
+      "lang": "de",
+      "sentence": "Um acht gehe ich aus dem Haus und fahre zur Arbeit.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "3c0ec2ec-f850-cc73-4c77-31f873879331",
+      "concept_id": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
+      "lang": "it",
+      "sentence": "Al semaforo rosso guarda bene prima di attraversare.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "c94d83ea-dde2-ffe6-38bf-bb36541c4672",
+      "concept_id": "28155ced-1190-8879-d1e4-766d9865a842",
+      "lang": "it",
+      "sentence": "Ho mandato il mio curriculum all'azienda per quel lavoro.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "efaf115c-be0b-a6f9-1a6e-dc7b93a2c13a",
+      "concept_id": "d0981aa3-9aed-3007-290a-3e2779bacea5",
+      "lang": "it",
+      "sentence": "Buon fine settimana! Grazie, ricambio di cuore!",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "2773b3e2-9968-c9e0-9a36-9de66a2ff6f5",
+      "concept_id": "a73af94e-f267-9f64-bf2b-134fa2544a0c",
+      "lang": "it",
+      "sentence": "Per il suo compleanno, tutta la famiglia appare all'improvviso alla porta.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "8fcdf2a8-f300-6c0d-4d33-b4eb2faac2ea",
+      "concept_id": "87664a7f-b773-5acd-374e-4c359b635e7c",
+      "lang": "it",
+      "sentence": "Oggi al supermercato il caffè costa la metà.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "08a58c2b-db8e-6bfc-07c9-215a51208e88",
+      "concept_id": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
+      "lang": "it",
+      "sentence": "I pantaloni blu e la camicia bianca sono perfetti insieme.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "b0acee73-5792-2eae-e8e8-cf701d4a4ed7",
+      "concept_id": "concept-a2-entscheidung",
+      "lang": "it",
+      "sentence": "Alla fine ho scelto: accetto il nuovo lavoro.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "3f43a6c5-2a28-be8f-41fe-11a101e0fe3c",
+      "concept_id": "concept-a2-loesung",
+      "lang": "it",
+      "sentence": "Abbiamo parlato del problema e abbiamo trovato una risposta.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "10299b29-561d-2b8a-068d-59402369f938",
+      "concept_id": "concept-a2-moeglich",
+      "lang": "it",
+      "sentence": "Oggi pomeriggio ho tempo, quindi si può fare.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "76322c94-f73b-40b1-6c4b-2b1463f1d49d",
+      "concept_id": "concept-a2-noetig",
+      "lang": "it",
+      "sentence": "Senza acqua non si può vivere.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "9b74c24e-1df9-a010-2af5-938f81c18ff9",
+      "concept_id": "concept-a2-puenktlich",
+      "lang": "it",
+      "sentence": "L'appuntamento è alle otto e arrivo alle otto precise.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "517e17b0-4c98-e65c-eb2a-df264650fc1f",
+      "concept_id": "concept-a2-wahrscheinlich",
+      "lang": "it",
+      "sentence": "Il cielo è pieno di nuvole: quasi sicuramente tra poco pioverà.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "2220556d-db94-d2aa-03d1-0985e7e69026",
+      "concept_id": "concept-a2-besonders",
+      "lang": "it",
+      "sentence": "Mi piace tutta la frutta, ma le fragole più di tutto.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "7897ae3e-669e-16d3-725e-1ce947614949",
+      "concept_id": "concept-a2-endlich",
+      "lang": "it",
+      "sentence": "Dopo tre ore di attesa, ecco l'autobus!",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "fadd26d9-68f2-47b8-0c75-aeda497c8636",
+      "concept_id": "concept-a2-erfahrung",
+      "lang": "it",
+      "sentence": "Il mio primo viaggio da solo mi ha insegnato tante cose.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "e24dadae-12b2-f4f8-c68a-f3c962ce25c0",
+      "concept_id": "concept-a2-einladung",
+      "lang": "it",
+      "sentence": "Anna e Tommaso ci scrivono: Venite al nostro matrimonio sabato!",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "e01c4bd2-393d-7b17-7339-49e6c947fb48",
+      "concept_id": "concept-a2-nachricht",
+      "lang": "it",
+      "sentence": "Ti scrivo un SMS più tardi.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "b604a51a-9c60-8878-e292-9942da74ebc6",
+      "concept_id": "concept-a2-termin",
+      "lang": "it",
+      "sentence": "Martedì alle dieci devo andare dal dentista.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "a9cdc7bf-9357-5811-d7c4-f29db23f0972",
+      "concept_id": "concept-a2-moeglichkeit",
+      "lang": "it",
+      "sentence": "Puoi andare in autobus o in treno, vanno bene tutti e due.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "41db9f73-4cac-a7a5-7794-e1683c88cd84",
+      "concept_id": "concept-a2-meinung",
+      "lang": "it",
+      "sentence": "Che cosa pensi del nuovo film?",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "9c853172-2e6a-82dc-5500-c0afab6d8ec9",
+      "concept_id": "concept-a2-gewohnheit",
+      "lang": "it",
+      "sentence": "Ogni mattina beve prima un bicchiere d'acqua, senza pensarci.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "4843e630-bbf5-cd9e-073d-9affc771f987",
+      "concept_id": "concept-a2-verspaetung",
+      "lang": "it",
+      "sentence": "Oggi il treno arriva venti minuti dopo l'orario previsto.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f219248a-b368-150b-0cc9-a7bddca3771a",
+      "concept_id": "concept-a2-erlaubnis",
+      "lang": "it",
+      "sentence": "Posso restare fuori più a lungo stasera? Sì, puoi.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "05e4fac8-4606-0375-a119-38c1f7a0f914",
+      "concept_id": "concept-a2-vorschlag",
+      "lang": "it",
+      "sentence": "Che ne dite se stasera mangiamo una pizza?",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "859dfc6b-dba1-0fc9-d5ba-a7303b93302c",
+      "concept_id": "concept-a2-gespraech",
+      "lang": "it",
+      "sentence": "Le due amiche parlano al telefono per un'ora.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "46579633-4ac9-c65c-ae7e-aa168657d177",
+      "concept_id": "concept-a2-teilnehmen",
+      "lang": "it",
+      "sentence": "Domenica corro anch'io la maratona della città con altre mille persone.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "ecec834d-4416-2f57-a851-a7f90250d1f9",
+      "concept_id": "concept-a2-verschieben",
+      "lang": "it",
+      "sentence": "Dovevamo fare la riunione oggi, ma la facciamo venerdì.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "6d46067f-d563-0773-8ab3-3b61b65b5c60",
+      "concept_id": "concept-a2-verbessern",
+      "lang": "it",
+      "sentence": "Studia ogni giorno e il suo tedesco va sempre meglio.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "a1f75f33-3b75-ee16-e3d5-f6f7016f4a70",
+      "concept_id": "concept-a2-vermeiden",
+      "lang": "it",
+      "sentence": "Per via del traffico non prendo l'autostrada.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f1332af8-3d26-e3ba-f852-0d405022c50d",
+      "concept_id": "concept-a2-stattfinden",
+      "lang": "it",
+      "sentence": "Il concerto è sabato nel parco.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "27b15e2e-6197-e344-54f8-3d21aa126e22",
+      "concept_id": "concept-a2-verfuegbar",
+      "lang": "it",
+      "sentence": "L'albergo ha ancora tre camere libere.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "bb01425d-1fc3-083a-99a9-2c67e86711a1",
+      "concept_id": "concept-a2-praktisch",
+      "lang": "it",
+      "sentence": "La piccola borsa è molto utile nella vita di tutti i giorni.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "26e6cfd5-6d11-cab0-f642-ff1415e52ef5",
+      "concept_id": "concept-a2-lebendig",
+      "lang": "it",
+      "sentence": "Il quartiere è pieno di gente, musica e bar fino a tardi.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "fecbb629-cf6d-ffaf-613f-ab594d6ae518",
+      "concept_id": "concept-a2-drinnen",
+      "lang": "it",
+      "sentence": "Fuori piove, quindi i bambini giocano in casa.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f8cae1b3-642d-8af3-598d-611ce753e6eb",
+      "concept_id": "concept-a2-unterwegs",
+      "lang": "it",
+      "sentence": "Sono sul treno per Milano proprio adesso.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "11f8d7ca-1fc3-1213-705e-f854713746cd",
+      "concept_id": "concept-a2-bisher",
+      "lang": "it",
+      "sentence": "Fino ad oggi il tempo in vacanza è stato bello.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "317a8e0d-6167-be4d-7065-ec4f2d74fa26",
+      "concept_id": "concept-a2-mindestens",
+      "lang": "it",
+      "sentence": "Devi avere 18 anni o più.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "9348b9ad-125f-dcd6-6e3b-d8b9a8ded691",
+      "concept_id": "concept-a2-ploetzlich",
+      "lang": "it",
+      "sentence": "Tutto a un tratto si spegne la luce.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "34ab05aa-ea77-bc4e-03b0-6cfbdf88be72",
+      "concept_id": "concept-a2-veranstaltung",
+      "lang": "it",
+      "sentence": "Sabato nel parco c'è un concerto con tre gruppi.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "bd6dc8bb-e176-45d9-05e3-16f2fb6eb821",
+      "concept_id": "concept-a2-ergebnis",
+      "lang": "it",
+      "sentence": "La partita è finita: abbiamo vinto due a uno.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "2383392d-0ec5-bf8b-5952-db586c2afa5a",
+      "concept_id": "concept-a2-normalerweise",
+      "lang": "it",
+      "sentence": "Durante la settimana mi alzo alle sei, ma oggi alle nove.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "06466aa7-de44-9dfe-dfe3-f8f37bb96d9f",
+      "concept_id": "concept-a2-nirgendwo",
+      "lang": "it",
+      "sentence": "Ho cercato ovunque, ma le chiavi sono sparite.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "4e1889e4-df1e-7bac-46de-eccd19c4d7c9",
+      "concept_id": "concept-a2-sogar",
+      "lang": "it",
+      "sentence": "Parla cinque lingue, anche il cinese!",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "dacc1fbd-1393-a22d-1b80-70e36c042ab8",
+      "concept_id": "concept-a2-ueberhaupt-general",
+      "lang": "it",
+      "sentence": "Non parlo solo di questa scuola: parlo di tutte le scuole.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "8d70be85-5e45-b23c-e91a-09d1494aaf6f",
+      "concept_id": "concept-a2-kontext",
+      "lang": "it",
+      "sentence": "Senza la frase intera non capisco il significato.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "17023793-ff94-6516-f627-8f56f955748b",
+      "concept_id": "concept-a2-dart",
+      "lang": "it",
+      "sentence": "Al pub lanciano piccole frecce contro un bersaglio rotondo.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "edadbfee-a04d-4fff-fc1a-e6a55b043568",
+      "concept_id": "concept-a2-wettbewerb",
+      "lang": "it",
+      "sentence": "Alla corsa di domenica tutti vogliono arrivare primi.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "033af529-bfa1-4883-2451-b108cb033d69",
+      "concept_id": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "lang": "it",
+      "sentence": "Lo saluto, ma lui fa finta di non vedermi.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "efbfa865-f85f-d008-f2f3-ece5a8f42fcd",
+      "concept_id": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "lang": "it",
+      "sentence": "Il colore non conta, basta che la macchina funzioni.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "0157e507-676c-fb73-60fd-c80b820deaaf",
+      "concept_id": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "lang": "it",
+      "sentence": "L'insegnante spiega tutto così bene che tutti capiscono.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "493123c7-3e6e-65e1-a877-1cf31f49a63f",
+      "concept_id": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "lang": "it",
+      "sentence": "Non vado quasi mai a teatro, forse una volta all'anno.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "cc23fe86-4125-fb2e-835e-98cd56e8bb96",
+      "concept_id": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
+      "lang": "it",
+      "sentence": "Alle otto esco di casa e vado al lavoro.",
+      "translation_lang": null,
+      "translation_text": null
     }
   ],
   "concept_definitions": [
     {
       "concept_id": "b5badb09-9fac-871c-a009-af06fbb2cef3",
       "lang": "en",
-      "short_definition": "A competitive running event over a set distance.",
+      "short_definition": "A competition in which people run a set distance.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "rivalry"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "standstill",
         "walk"
@@ -41465,33 +43088,36 @@
     {
       "concept_id": "b5badb09-9fac-871c-a009-af06fbb2cef3",
       "lang": "de",
-      "short_definition": "Sportliche Etappe oder Distanz in einem Rennen.",
+      "short_definition": "Ein Wettbewerb, bei dem Menschen eine Strecke laufen.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "Rennen",
-        "Wettkampf"
+        "Rennen"
       ],
       "antonyms_json": [
         "Stillstand"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Rennen": "exact"
+      }
     },
     {
       "concept_id": "b5badb09-9fac-871c-a009-af06fbb2cef3",
       "lang": "it",
-      "short_definition": "Prova sportiva su una distanza definita.",
+      "short_definition": "Una gara in cui si corre per una distanza stabilita.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "gara"
+        "la gara"
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
@@ -41507,7 +43133,8 @@
         "abstain"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
@@ -41524,7 +43151,7 @@
     {
       "concept_id": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
       "lang": "it",
-      "short_definition": "Esprimere un parere su una questione.",
+      "short_definition": "Scegliere una persona o una proposta, per esempio durante un'elezione.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -41551,23 +43178,24 @@
         "neglect"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
       "lang": "de",
-      "short_definition": "Etwas oder jemanden bewusst wahrnehmen und berücksichtigen.",
+      "short_definition": "Auf jemanden oder etwas achten.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
         "wahrnehmen",
-        "bemerken",
-        "beobachten"
+        "bemerken"
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
@@ -41584,7 +43212,7 @@
     {
       "concept_id": "28155ced-1190-8879-d1e4-766d9865a842",
       "lang": "en",
-      "short_definition": "Formal request to participate in a competition for a job, admission to courses or enrollment in programs.",
+      "short_definition": "A written request for a job or course.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -41595,12 +43223,13 @@
         "withdrawal"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "28155ced-1190-8879-d1e4-766d9865a842",
       "lang": "de",
-      "short_definition": "Antrag oder Formular zur Teilnahme an einem Wettbewerb um eine Stelle, einen Studienplatz oder ein Programm.",
+      "short_definition": "Ein Schreiben, mit dem man um eine Stelle oder einen Studienplatz bittet.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -41611,42 +43240,44 @@
         "Absage"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "28155ced-1190-8879-d1e4-766d9865a842",
       "lang": "it",
-      "short_definition": "Richiesta ufficiale per partecipare a un concorso di lavoro, ammissione a corsi o aderire a programmi.",
+      "short_definition": "Una richiesta scritta per ottenere un lavoro o un posto in un corso.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
-      "synonyms_json": [
-        "richiesta"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "rinuncia",
         "abbandono"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "2de09df9-4a0c-8b2a-f080-6c52571b7064",
       "lang": "en",
-      "short_definition": "In an unspecified place.",
+      "short_definition": "In a place that is not named.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "some place",
-        "a certain spot"
+        "some place"
       ],
       "antonyms_json": [
         "a specific place",
         "a particular location"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "some place": "exact"
+      }
     },
     {
       "concept_id": "2de09df9-4a0c-8b2a-f080-6c52571b7064",
@@ -41676,7 +43307,8 @@
         "in un luogo ben definito"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "d0981aa3-9aed-3007-290a-3e2779bacea5",
@@ -41696,12 +43328,16 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "as well": "exact",
+        "too": "exact"
+      }
     },
     {
       "concept_id": "d0981aa3-9aed-3007-290a-3e2779bacea5",
       "lang": "de",
-      "short_definition": "Signalisiert, dass für eine zweite Person dasselbe gilt.",
+      "short_definition": "Zeigt, dass das Gleiche auch für jemand anderen gilt.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -41715,7 +43351,11 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "auch": "exact",
+        "gleichfalls": "exact"
+      }
     },
     {
       "concept_id": "d0981aa3-9aed-3007-290a-3e2779bacea5",
@@ -41735,12 +43375,13 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "dce273cb-1477-41c8-14f3-84226c53e233",
       "lang": "en",
-      "short_definition": "In most situations.",
+      "short_definition": "Usually, or mainly.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -41752,15 +43393,16 @@
         "infrequently"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "dce273cb-1477-41c8-14f3-84226c53e233",
       "lang": "de",
-      "short_definition": "Häufig, aber nicht immer.",
+      "short_definition": "Fast immer oder zum größten Teil.",
       "usage_note": null,
       "context_tags_json": [],
-      "source": "ai",
+      "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
@@ -41793,7 +43435,8 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "5a3f0258-ae5f-5c70-4b43-84454023b3c7",
@@ -41810,7 +43453,8 @@
         "verschieden"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "5a3f0258-ae5f-5c70-4b43-84454023b3c7",
@@ -41825,12 +43469,13 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
       "lang": "en",
-      "short_definition": "Introduces the logical result of what was said before.",
+      "short_definition": "For the reason just given.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -41841,12 +43486,13 @@
         "however"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
       "lang": "de",
-      "short_definition": "Leitet eine logische Folge ein.",
+      "short_definition": "Aus dem gerade genannten Grund.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -41858,7 +43504,7 @@
     {
       "concept_id": "b4ac4179-3dfb-2b88-3c74-b45ab5d20c70",
       "lang": "it",
-      "short_definition": "Introduce una conseguenza logica.",
+      "short_definition": "Per la ragione appena detta.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -41870,7 +43516,7 @@
     {
       "concept_id": "e26099e6-6292-9c2d-6b9a-69cf996ba8f7",
       "lang": "en",
-      "short_definition": "Used with a negation to emphasize that something is completely not the case.",
+      "short_definition": "Used with words like “not” to make a negative statement stronger.",
       "usage_note": null,
       "sense_indicator": "stresses a negation",
       "context_tags_json": [],
@@ -41885,32 +43531,31 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "e26099e6-6292-9c2d-6b9a-69cf996ba8f7",
       "lang": "de",
-      "short_definition": "Verstärkt mit einer Verneinung, dass etwas gar nicht der Fall ist.",
+      "short_definition": "Macht Aussagen mit „nicht“ oder „kein“ stärker.",
       "usage_note": null,
       "sense_indicator": "verstärkt eine Verneinung",
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "gar nicht",
-        "nicht einmal"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "e26099e6-6292-9c2d-6b9a-69cf996ba8f7",
       "lang": "it",
-      "short_definition": "Rafforza una negazione e significa che qualcosa non vale in alcun modo.",
+      "short_definition": "Rende più forte una frase con parole come «non».",
       "usage_note": null,
       "sense_indicator": "rafforza una negazione",
       "context_tags_json": [],
@@ -41924,7 +43569,10 @@
         "reason": "no_robust_lexical_opposite_a1_a2",
         "reviewed_at": "2026-03-02"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "affatto": "exact"
+      }
     },
     {
       "concept_id": "e65a87f9-7e04-cfff-d26c-a3b387c75ee5",
@@ -41940,7 +43588,8 @@
         "terrible"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "e65a87f9-7e04-cfff-d26c-a3b387c75ee5",
@@ -41956,12 +43605,15 @@
         "schrecklich"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "fantastisch": "exact"
+      }
     },
     {
       "concept_id": "e65a87f9-7e04-cfff-d26c-a3b387c75ee5",
       "lang": "it",
-      "short_definition": "Molto impressionante o di alta qualità.",
+      "short_definition": "Molto bello o molto buono.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -41972,7 +43624,8 @@
         "terribile"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
@@ -41983,14 +43636,15 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "retrieve"
+        "to retrieve"
       ],
       "antonyms_json": [
         "drop off",
         "leave behind"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
@@ -42010,7 +43664,7 @@
     {
       "concept_id": "2d58295b-a22f-de2c-7710-8aff2ddae9cb",
       "lang": "it",
-      "short_definition": "Andare in un luogo per prendere qualcuno o qualcosa e portarlo via.",
+      "short_definition": "Raggiungere qualcuno o qualcosa in un posto e portarlo via.",
       "usage_note": "ritirare",
       "sense_indicator": "portare via qualcuno o qualcosa",
       "context_tags_json": [],
@@ -42024,19 +43678,17 @@
         "abbandonare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "324d681d-6d2e-552f-6831-9758934c5d65",
       "lang": "en",
-      "short_definition": "To apply colors to a surface.",
+      "short_definition": "To make a picture with colors.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
-      "synonyms_json": [
-        "color",
-        "daub"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "erase",
         "remove"
@@ -42047,14 +43699,11 @@
     {
       "concept_id": "324d681d-6d2e-552f-6831-9758934c5d65",
       "lang": "de",
-      "short_definition": "Ein Bild mit Farben erstellen oder eine Fläche mit Farbe bedecken.",
+      "short_definition": "Ein Bild mit Farben machen.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "migrated_from_gloss_alias",
-      "synonyms_json": [
-        "pinseln",
-        "streichen"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "radieren"
       ],
@@ -42064,13 +43713,11 @@
     {
       "concept_id": "324d681d-6d2e-552f-6831-9758934c5d65",
       "lang": "it",
-      "short_definition": "Creare un'immagine usando colori o coprire una superficie con vernice.",
+      "short_definition": "Creare un'immagine con i colori.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "migrated_from_gloss_alias",
-      "synonyms_json": [
-        "colorare"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "cancellare",
         "rimuovere"
@@ -42094,7 +43741,10 @@
         "leave alone"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "phone": "exact"
+      }
     },
     {
       "concept_id": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
@@ -42110,7 +43760,8 @@
         "auflegen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
@@ -42127,12 +43778,13 @@
         "lasciare perdere"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
       "lang": "en",
-      "short_definition": "To dispatch something to someone.",
+      "short_definition": "To make something go to another person or place.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -42144,7 +43796,8 @@
         "receive"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
@@ -42161,18 +43814,19 @@
         "empfangen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "zusenden": "exact"
+      }
     },
     {
       "concept_id": "f5dbf3b3-77b4-7b3b-c7d5-578449d376e5",
       "lang": "it",
-      "short_definition": "Trasmettere qualcosa a qualcuno.",
+      "short_definition": "Far arrivare qualcosa a qualcuno, per esempio per posta.",
       "usage_note": null,
       "context_tags_json": [],
-      "source": "ai",
-      "synonyms_json": [
-        "mandare"
-      ],
+      "source": "manual",
+      "synonyms_json": [],
       "antonyms_json": [
         "ricevere"
       ],
@@ -42182,7 +43836,7 @@
     {
       "concept_id": "a73af94e-f267-9f64-bf2b-134fa2544a0c",
       "lang": "en",
-      "short_definition": "An unexpected event or feeling of amazement.",
+      "short_definition": "Something that happens when you do not expect it.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "migrated_from_gloss_alias",
@@ -42195,12 +43849,13 @@
         "the predictable"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "a73af94e-f267-9f64-bf2b-134fa2544a0c",
       "lang": "de",
-      "short_definition": "Ein unerwartetes Ereignis oder ein Gefühl der Verwunderung.",
+      "short_definition": "Etwas, das passiert, obwohl man nicht damit gerechnet hat.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "migrated_from_gloss_alias",
@@ -42213,7 +43868,8 @@
         "Vorhersehbarkeit"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "a73af94e-f267-9f64-bf2b-134fa2544a0c",
@@ -42223,14 +43879,15 @@
       "context_tags_json": [],
       "source": "migrated_from_gloss_alias",
       "synonyms_json": [
-        "stupore"
+        "lo stupore"
       ],
       "antonyms_json": [
         "aspettativa",
         "previsione"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "23f3cd66-40a2-652f-205a-7557f2a9e950",
@@ -42241,9 +43898,9 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "cease",
-        "halt",
-        "end"
+        "to cease",
+        "to halt",
+        "to end"
       ],
       "antonyms_json": [
         "continue",
@@ -42251,7 +43908,8 @@
         "persist"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "23f3cd66-40a2-652f-205a-7557f2a9e950",
@@ -42269,12 +43927,13 @@
         "weitermachen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "23f3cd66-40a2-652f-205a-7557f2a9e950",
       "lang": "it",
-      "short_definition": "Non continuare piu un'azione.",
+      "short_definition": "Non continuare più un'azione.",
       "usage_note": null,
       "sense_indicator": "finire un'attività",
       "context_tags_json": [],
@@ -42288,12 +43947,13 @@
         "proseguire"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "77962681-e561-09cc-772c-9c4285175bf9",
       "lang": "en",
-      "short_definition": "Legally joined as spouses.",
+      "short_definition": "Having a husband or wife.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -42305,7 +43965,8 @@
         "unmarried"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "77962681-e561-09cc-772c-9c4285175bf9",
@@ -42322,7 +43983,8 @@
         "unverheiratet"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "77962681-e561-09cc-772c-9c4285175bf9",
@@ -42340,7 +44002,8 @@
         "nubile"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "87664a7f-b773-5acd-374e-4c359b635e7c",
@@ -42357,7 +44020,8 @@
         "refusal"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "87664a7f-b773-5acd-374e-4c359b635e7c",
@@ -42376,7 +44040,7 @@
     {
       "concept_id": "87664a7f-b773-5acd-374e-4c359b635e7c",
       "lang": "it",
-      "short_definition": "Un'offerta o proposta, spesso in contesto commerciale.",
+      "short_definition": "Una proposta di dare, vendere o fare qualcosa.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -42390,7 +44054,7 @@
     {
       "concept_id": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
       "lang": "de",
-      "short_definition": "Eine formelle Bitte oder ein offizielles Gesuch.",
+      "short_definition": "Eine offizielle Bitte, etwas zu bekommen oder tun zu dürfen.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -42402,7 +44066,7 @@
     {
       "concept_id": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
       "lang": "it",
-      "short_definition": "Richiesta ufficiale presentata a un ente.",
+      "short_definition": "Una richiesta ufficiale fatta a un ufficio.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -42414,7 +44078,7 @@
     {
       "concept_id": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
       "lang": "en",
-      "short_definition": "An official request submitted to an authority.",
+      "short_definition": "An official request made to an office or organization.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -42437,24 +44101,24 @@
         "Antwort"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "2bfef665-f822-93b9-3f9d-233a6f838aba",
       "lang": "it",
-      "short_definition": "Domanda fatta per ottenere informazioni.",
+      "short_definition": "Una domanda per sapere qualcosa.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "interrogazione"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "risposta",
         "negazione"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "2bfef665-f822-93b9-3f9d-233a6f838aba",
@@ -42469,12 +44133,15 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "enquiry": "exact"
+      }
     },
     {
       "concept_id": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
       "lang": "de",
-      "short_definition": "Mit etwas übereinstimmen oder gut dazu aussehen.",
+      "short_definition": "Zusammen mit etwas anderem gut aussehen.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -42488,12 +44155,13 @@
         "reason": "Contextual meaning",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
       "lang": "en",
-      "short_definition": "To agree with something or look good with it.",
+      "short_definition": "To look good together with something else.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -42511,18 +44179,17 @@
         "reason": "Contextual meaning",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
       "lang": "it",
-      "short_definition": "Essere in accordo con qualcosa o stare bene assieme.",
+      "short_definition": "Avere un bell'aspetto insieme a qualcos'altro.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "corrispondere"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "disconcordare",
         "discordare"
@@ -42532,7 +44199,8 @@
         "reason": "Contextual meaning",
         "reviewed_at": "2026-03-04"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
@@ -42549,25 +44217,29 @@
         "fortsetzen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "abschließen": "exact"
+      }
     },
     {
       "concept_id": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
       "lang": "en",
-      "short_definition": "To bring something to a conclusion.",
+      "short_definition": "To complete something or bring it to an end.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "complete",
-        "end",
-        "wrap up"
+        "to complete",
+        "to end",
+        "to wrap up"
       ],
       "antonyms_json": [
         "prolong"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
@@ -42576,10 +44248,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "concludere",
-        "terminare"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "prolungare"
       ],
@@ -42606,7 +44275,8 @@
         "reason": "No direct lexical opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-entscheidung",
@@ -42656,7 +44326,8 @@
         "reason": "Problem is related, not a strict opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-loesung",
@@ -42709,7 +44380,10 @@
         "reason": "No clean everyday opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "erläutern": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-erklaeren",
@@ -42762,7 +44436,8 @@
         "reason": "No clean lexical opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-entscheiden",
@@ -42800,7 +44475,7 @@
       "concept_id": "concept-a2-vergleichen",
       "lang": "de",
       "short_definition": "Zwei oder mehr Dinge bewusst nebeneinander prüfen, um Ähnlichkeiten oder Unterschiede zu sehen.",
-      "usage_note": "Gemeint ist das bewusste Gegenüberstellen von Dingen, nicht bloß das Feststellen eines einzelnen Unterschieds.",
+      "usage_note": "Dabei achtet man darauf, was gleich und was anders ist.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
@@ -42812,13 +44487,14 @@
         "reason": "no_single_robust_opposite_for_compare_verb",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-vergleichen",
       "lang": "it",
       "short_definition": "Mettere due o più cose una accanto all'altra per vedere somiglianze o differenze.",
-      "usage_note": "Indica un confronto intenzionale, non il semplice notare una singola differenza.",
+      "usage_note": "Si guarda che cosa è uguale e che cosa cambia.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -42834,7 +44510,7 @@
       "concept_id": "concept-a2-vergleichen",
       "lang": "en",
       "short_definition": "To examine two or more things side by side to see similarities or differences.",
-      "usage_note": "This means making an intentional comparison, not just noticing one difference.",
+      "usage_note": "You look at what is the same and what is different.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -42862,7 +44538,8 @@
         "reason": "No clean lexical opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-empfehlen",
@@ -42915,7 +44592,7 @@
     {
       "concept_id": "concept-a2-reservieren",
       "lang": "it",
-      "short_definition": "Bloccare qualcosa in anticipo per usarla dopo.",
+      "short_definition": "Far tenere qualcosa per sé, per esempio un tavolo o una camera.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -42928,7 +44605,10 @@
         "reason": "No clean lexical opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "riservare": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-reservieren",
@@ -42961,7 +44641,8 @@
         "unmöglich"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-moeglich",
@@ -42998,9 +44679,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "notwendig"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "unnötig"
       ],
@@ -43021,7 +44700,8 @@
         "inutile"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-noetig",
@@ -43037,7 +44717,10 @@
         "unnecessary"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "needed": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-puenktlich",
@@ -43056,7 +44739,8 @@
         "unpünktlich"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-puenktlich",
@@ -43089,9 +44773,9 @@
     {
       "concept_id": "concept-a2-wahrscheinlich",
       "lang": "de",
-      "short_definition": "Mit großer Chance so.",
+      "short_definition": "gute Chancen, nicht sicher",
       "usage_note": null,
-      "sense_indicator": "große Chance",
+      "sense_indicator": "gute Chancen, nicht sicher",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -43109,9 +44793,9 @@
     {
       "concept_id": "concept-a2-wahrscheinlich",
       "lang": "it",
-      "short_definition": "Con grande possibilità.",
+      "short_definition": "buone possibilità",
       "usage_note": null,
-      "sense_indicator": "molte possibilità",
+      "sense_indicator": "buone possibilità",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -43143,7 +44827,7 @@
     {
       "concept_id": "concept-a2-besonders",
       "lang": "de",
-      "short_definition": "Mehr als andere oder auf spezielle Weise.",
+      "short_definition": "Vor allem; mehr als andere Dinge oder Personen.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -43159,7 +44843,7 @@
     {
       "concept_id": "concept-a2-besonders",
       "lang": "it",
-      "short_definition": "Più delle altre cose o in modo speciale.",
+      "short_definition": "Più di tutto il resto.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -43172,12 +44856,13 @@
         "reason": "No direct lexical opposite",
         "reviewed_at": "2026-03-11"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-besonders",
       "lang": "en",
-      "short_definition": "More than other things or in a special way.",
+      "short_definition": "More than anything else; mainly.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -43193,7 +44878,7 @@
     {
       "concept_id": "concept-a2-endlich",
       "lang": "de",
-      "short_definition": "Nach einer langen Wartezeit oder am Schluss.",
+      "short_definition": "Nach einer langen Wartezeit.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -43209,7 +44894,7 @@
     {
       "concept_id": "concept-a2-endlich",
       "lang": "it",
-      "short_definition": "Dopo una lunga attesa o alla fine.",
+      "short_definition": "Dopo una lunga attesa.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -43225,7 +44910,7 @@
     {
       "concept_id": "concept-a2-endlich",
       "lang": "en",
-      "short_definition": "After a long wait or at the end.",
+      "short_definition": "After a long wait.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -43246,8 +44931,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "Erlebnis",
-        "Kenntnis"
+        "Erlebnis"
       ],
       "antonyms_json": [
         "Unwissenheit",
@@ -43259,7 +44943,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-erfahrung",
@@ -43296,7 +44981,7 @@
     {
       "concept_id": "concept-a2-einladung",
       "lang": "de",
-      "short_definition": "Eine Bitte oder Nachricht, mit der man jemanden zu etwas einlädt.",
+      "short_definition": "Eine Nachricht, mit der man jemanden bittet, zu kommen oder mitzumachen.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -43309,12 +44994,13 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-einladung",
       "lang": "it",
-      "short_definition": "Una richiesta o un messaggio con cui si invita qualcuno.",
+      "short_definition": "Un messaggio che chiede a qualcuno di venire o unirsi agli altri.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -43360,7 +45046,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Mitteilung": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-nachricht",
@@ -43410,7 +45099,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-termin",
@@ -43447,7 +45137,7 @@
     {
       "concept_id": "concept-a2-moeglichkeit",
       "lang": "de",
-      "short_definition": "Etwas, das möglich ist oder als Wahl offensteht.",
+      "short_definition": "Etwas, das passieren kann, oder eine Gelegenheit.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -43464,12 +45154,13 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-moeglichkeit",
       "lang": "it",
-      "short_definition": "Qualcosa che è possibile o che resta come scelta.",
+      "short_definition": "Qualcosa che può succedere o un'occasione.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -43514,7 +45205,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Ansicht": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-meinung",
@@ -43556,8 +45250,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "Angewohnheit",
-        "Verhaltensweise"
+        "Angewohnheit"
       ],
       "antonyms_json": [
         "Unangewöhnlichkeit",
@@ -43568,7 +45261,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Angewohnheit": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-gewohnheit",
@@ -43605,7 +45301,7 @@
     {
       "concept_id": "concept-a2-anmeldung",
       "lang": "de",
-      "short_definition": "Der Vorgang, bei dem man sich offiziell registriert.",
+      "short_definition": "Das Eintragen des Namens und anderer Angaben, um mitmachen zu dürfen.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -43621,12 +45317,15 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Registrierung": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-anmeldung",
       "lang": "it",
-      "short_definition": "La procedura con cui ti registri ufficialmente.",
+      "short_definition": "L'azione di dare il proprio nome per entrare in un gruppo o seguire un corso.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -43671,7 +45370,8 @@
         "Sofortigkeit"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-verspaetung",
@@ -43709,7 +45409,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "Verlegung",
         "Umsiedlung"
       ],
       "antonyms_json": [],
@@ -43718,12 +45417,13 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-umzug",
       "lang": "it",
-      "short_definition": "Il passaggio a una nuova casa o appartamento.",
+      "short_definition": "Il passaggio da una casa a un'altra.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -43755,7 +45455,7 @@
     {
       "concept_id": "concept-a2-erlaubnis",
       "lang": "de",
-      "short_definition": "Das Recht oder Ja, etwas tun zu dürfen.",
+      "short_definition": "Ein Ja dazu, dass jemand etwas tun darf.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -43766,7 +45466,8 @@
         "Verbot"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-erlaubnis",
@@ -43813,7 +45514,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-vorschlag",
@@ -43867,7 +45569,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Unterhaltung": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-gespraech",
@@ -43905,7 +45610,7 @@
       "concept_id": "concept-a2-teilnehmen",
       "lang": "de",
       "short_definition": "Bei einer Aktivität, einem Kurs oder einem Ereignis mitmachen.",
-      "usage_note": null,
+      "usage_note": "mitmachen bei etwas, teilnehmen an etwas.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -43920,7 +45625,7 @@
     {
       "concept_id": "concept-a2-teilnehmen",
       "lang": "it",
-      "short_definition": "Entrare in un'attività o evento.",
+      "short_definition": "Fare qualcosa con altre persone, per esempio durante un corso o un evento.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -43950,7 +45655,11 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "to take part": "exact",
+        "take part": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-vorbereiten",
@@ -43972,12 +45681,13 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-vorbereiten",
       "lang": "it",
-      "short_definition": "Rendere qualcosa pronta prima che serva.",
+      "short_definition": "Rendere qualcosa pronto prima che serva.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -44015,8 +45725,7 @@
       "source": "manual",
       "synonyms_json": [
         "stornieren",
-        "aufheben",
-        "abschaffen"
+        "aufheben"
       ],
       "antonyms_json": [
         "zusagen",
@@ -44024,7 +45733,8 @@
         "erlauben"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-absagen",
@@ -44066,7 +45776,10 @@
         "vorverlegen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "aufschieben": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-verschieben",
@@ -44113,7 +45826,8 @@
         "verwässern"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-verbessern",
@@ -44163,12 +45877,13 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-vermeiden",
       "lang": "it",
-      "short_definition": "Cercare di fare in modo che qualcosa non succeda o di non farla.",
+      "short_definition": "Fare in modo che qualcosa non succeda o scegliere di non farlo.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -44200,8 +45915,8 @@
     {
       "concept_id": "concept-a2-erreichen",
       "lang": "de",
-      "short_definition": "An einen Ort gelangen oder ein Ziel verwirklichen.",
-      "usage_note": "Nicht im Sinn von jemanden telefonisch oder digital kontaktieren.",
+      "short_definition": "An einen Ort oder an ein Ziel gelangen.",
+      "usage_note": "Es geht um Orte und Ziele, nicht um Kontakt per Telefon oder Internet.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
@@ -44217,12 +45932,13 @@
         "reason": "no_single_robust_opposite_across_place_and_goal_senses",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-erreichen",
       "lang": "it",
-      "short_definition": "Arrivare in un luogo o conseguire un obiettivo.",
+      "short_definition": "Arrivare in un luogo o ottenere ciò che si voleva.",
       "usage_note": "Non nel senso di contattare qualcuno per telefono o in modo digitale.",
       "context_tags_json": [],
       "source": "manual",
@@ -44299,12 +46015,13 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-stattfinden",
       "lang": "de",
-      "short_definition": "Passieren oder organisiert werden.",
+      "short_definition": "Passieren, wenn es um ein Fest oder ein Treffen geht.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -44318,7 +46035,7 @@
     {
       "concept_id": "concept-a2-stattfinden",
       "lang": "it",
-      "short_definition": "Succedere o essere organizzato.",
+      "short_definition": "Succedere, per esempio quando si parla di una festa o di un incontro.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -44332,7 +46049,7 @@
     {
       "concept_id": "concept-a2-stattfinden",
       "lang": "en",
-      "short_definition": "To happen or be organized.",
+      "short_definition": "To happen, for example when talking about a meeting or party.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -44344,7 +46061,8 @@
         "be canceled"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-sparen",
@@ -44361,7 +46079,8 @@
         "ausgeben"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-sparen",
@@ -44411,7 +46130,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-verdienen",
@@ -44462,7 +46182,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "unterzeichnen": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-unterschreiben",
@@ -44504,8 +46227,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "umsiedeln",
-        "verlegen"
+        "umsiedeln"
       ],
       "antonyms_json": [
         "bleiben",
@@ -44517,12 +46239,13 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-umziehen-verb",
       "lang": "it",
-      "short_definition": "Andare a vivere in una nuova casa o appartamento.",
+      "short_definition": "Andare a vivere in un'altra casa.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -44582,7 +46305,7 @@
     {
       "concept_id": "concept-a2-zurueckgeben",
       "lang": "en",
-      "short_definition": "To give something again to the person or place it came from.",
+      "short_definition": "To return something to its earlier owner or place.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -44594,7 +46317,11 @@
         "keep"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "to return": "exact",
+        "return": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-verfuegbar",
@@ -44614,7 +46341,8 @@
         "unbrauchbar"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-verfuegbar",
@@ -44647,25 +46375,25 @@
     {
       "concept_id": "concept-a2-offiziell",
       "lang": "de",
-      "short_definition": "Von einer zuständigen Stelle bestätigt oder bekannt gemacht.",
+      "short_definition": "Von einem Amt oder einer anderen verantwortlichen Stelle bestätigt.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "amtlich",
-        "staatlich"
+        "amtlich"
       ],
       "antonyms_json": [
         "inoffiziell",
         "unoffiziell"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-offiziell",
       "lang": "it",
-      "short_definition": "Confermato o comunicato da un'autorità competente.",
+      "short_definition": "Confermato o comunicato da un ufficio responsabile.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -44694,13 +46422,10 @@
       "concept_id": "concept-a2-kostenlos",
       "lang": "de",
       "short_definition": "So, dass man nichts bezahlen muss.",
-      "usage_note": null,
+      "usage_note": "umsonst hier nur im Sinn von ohne zu bezahlen, nicht im Sinn von vergeblich.",
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "umsonst",
-        "gratis"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "kostenpflichtig",
         "gebührenpflichtig"
@@ -44803,7 +46528,8 @@
         "ineffektiv"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-praktisch",
@@ -44845,7 +46571,10 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "verschieden": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-unterschiedlich",
@@ -44899,7 +46628,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-lebendig",
@@ -44950,7 +46680,8 @@
         "unwohl"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-bequem",
@@ -44999,7 +46730,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-deshalb",
@@ -45046,7 +46778,8 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-drinnen",
@@ -45090,7 +46823,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "auf dem Weg": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-unterwegs",
@@ -45142,7 +46878,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "bislang": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-bisher",
@@ -45192,7 +46931,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-sonst",
@@ -45291,7 +47031,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-ploetzlich",
@@ -45344,7 +47085,7 @@
     {
       "concept_id": "concept-a2-veranstaltung",
       "lang": "it",
-      "short_definition": "un avvenimento pianificato a cui partecipano persone",
+      "short_definition": "Un avvenimento pianificato a cui partecipano persone.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -45360,7 +47101,7 @@
     {
       "concept_id": "concept-a2-veranstaltung",
       "lang": "en",
-      "short_definition": "a planned occasion that people attend",
+      "short_definition": "A planned occasion that people attend.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -45389,7 +47130,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "Resultat": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-ergebnis",
@@ -45426,7 +47170,7 @@
     {
       "concept_id": "concept-a2-reagieren",
       "lang": "de",
-      "short_definition": "Auf etwas antworten oder sich wegen etwas sichtbar verhalten.",
+      "short_definition": "Wegen etwas, das passiert, etwas sagen, tun oder fühlen.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -45435,12 +47179,13 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-reagieren",
       "lang": "it",
-      "short_definition": "Rispondere a qualcosa o comportarsi in un certo modo per una situazione.",
+      "short_definition": "Dire, fare o sentire qualcosa a causa di ciò che succede.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -45464,7 +47209,7 @@
     {
       "concept_id": "concept-a2-mitbringen",
       "lang": "de",
-      "short_definition": "Etwas oder jemanden zusammen mit sich an einen Ort bringen.",
+      "short_definition": "Etwas oder jemanden dabeihaben, wenn man an einen Ort kommt.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -45481,12 +47226,13 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-mitbringen",
       "lang": "it",
-      "short_definition": "Portare qualcosa o qualcuno con te in un posto.",
+      "short_definition": "Avere qualcuno o qualcosa con sé quando si arriva in un posto.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -45534,7 +47280,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "die Nacht verbringen": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-uebernachten",
@@ -45576,16 +47325,15 @@
       "sense_indicator": "gut zu sehen oder hören",
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "einwandfrei"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "undeutlich",
         "unverständlich",
         "verworren"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-deutlich",
@@ -45627,7 +47375,10 @@
         "normal"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "merkwürdig": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-seltsam",
@@ -45673,7 +47424,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "üblicherweise": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-normalerweise",
@@ -45714,9 +47468,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "nirgends"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
@@ -45765,7 +47517,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-sogar",
@@ -45804,7 +47557,7 @@
     {
       "concept_id": "concept-a2-vergleich",
       "lang": "de",
-      "short_definition": "Das Betrachten von zwei oder mehr Dingen, um Ähnlichkeiten oder Unterschiede festzustellen.",
+      "short_definition": "Das Prüfen von Dingen darauf, was gleich und was anders ist.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -45818,7 +47571,8 @@
         "reason": "no_single_robust_opposite_for_comparison_noun",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-vergleich",
@@ -45906,8 +47660,8 @@
     {
       "concept_id": "concept-a2-reinigen",
       "lang": "de",
-      "short_definition": "Etwas gründlich oder fachlich von Schmutz, Rückständen oder anderen Stoffen befreien.",
-      "usage_note": "Formeller und technischer als putzen; häufig bei Filtern, Geräten, Oberflächen oder Materialien.",
+      "short_definition": "Schmutz oder andere unerwünschte Stoffe von etwas entfernen.",
+      "usage_note": "Im Deutschen formeller als „putzen“, zum Beispiel bei Geräten.",
       "sense_indicator": "gründlich oder professionell",
       "context_tags_json": [],
       "source": "manual",
@@ -45924,13 +47678,16 @@
         "reason": "no_single_robust_opposite_for_formal_clean_verb",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "säubern": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-reinigen",
       "lang": "it",
-      "short_definition": "Liberare qualcosa in modo accurato o più tecnico da sporco, residui o altre sostanze.",
-      "usage_note": "Più formale o tecnico del normale pulire di casa; utile per filtri, dispositivi, superfici o materiali.; a fondo",
+      "short_definition": "Togliere lo sporco o altre sostanze da qualcosa.",
+      "usage_note": "Il verbo tedesco è più formale di «putzen» e si usa spesso per apparecchi.",
       "sense_indicator": "a fondo o per lavoro",
       "context_tags_json": [],
       "source": "manual",
@@ -45946,8 +47703,8 @@
     {
       "concept_id": "concept-a2-reinigen",
       "lang": "en",
-      "short_definition": "To remove dirt, residue, or other substances from something in a thorough or more technical way.",
-      "usage_note": "More formal or technical than the everyday household sense; useful for filters, devices, surfaces, or materials.; thoroughly",
+      "short_definition": "To remove dirt or other unwanted material from something.",
+      "usage_note": "The German verb is more formal than “putzen” and is often used for equipment.",
       "sense_indicator": "thoroughly or professionally",
       "context_tags_json": [],
       "source": "manual",
@@ -45963,8 +47720,8 @@
     {
       "concept_id": "concept-a2-spuelen",
       "lang": "de",
-      "short_definition": "Mit Wasser Essensreste, Seife oder andere Rückstände von Geschirr, Gläsern oder anderen Dingen entfernen.",
-      "usage_note": "Oft bei Tellern, Tassen, Gläsern oder Haaren; hier nicht im Sinn von eine Toilette spülen.",
+      "short_definition": "Essensreste oder Seife mit Wasser von etwas entfernen.",
+      "usage_note": "Zum Beispiel bei Geschirr oder Haaren; eine Toilette ist hier nicht gemeint.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
@@ -45977,12 +47734,13 @@
         "reason": "no_single_robust_opposite_for_rinse_verb",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-spuelen",
       "lang": "it",
-      "short_definition": "Togliere con l'acqua residui di cibo, sapone o altre sostanze da piatti, bicchieri o altri oggetti.",
+      "short_definition": "Togliere resti di cibo o sapone da qualcosa con acqua.",
       "usage_note": "Spesso per stoviglie, bicchieri o capelli; qui non nel senso di tirare l'acqua del water.",
       "context_tags_json": [],
       "source": "manual",
@@ -45998,7 +47756,7 @@
     {
       "concept_id": "concept-a2-spuelen",
       "lang": "en",
-      "short_definition": "To remove food, soap, or other residue with water from dishes, glasses, or other objects.",
+      "short_definition": "To use water to remove food or soap from something.",
       "usage_note": "Often used for dishes, glasses, or hair; not used here in the sense of flushing a toilet.",
       "context_tags_json": [],
       "source": "manual",
@@ -46014,8 +47772,8 @@
     {
       "concept_id": "concept-a2-spitz-pointed",
       "lang": "de",
-      "short_definition": "Mit einem schmalen, zulaufenden Ende oder einer Form, die sich zum Ende hin verengt.",
-      "usage_note": "Hier nur die körperliche Form eines Gegenstands; nicht die umgangssprachliche Bewertung spitze! = großartig und nicht die übertragene Bedeutung für verletzende Bemerkungen.",
+      "short_definition": "Mit einem schmalen Ende, das zum Beispiel wie bei einer Nadel aussieht.",
+      "usage_note": "Gemeint ist die Form eines Gegenstands, zum Beispiel einer Nadel.",
       "sense_indicator": "Form, schmales Ende",
       "context_tags_json": [],
       "source": "manual",
@@ -46028,13 +47786,14 @@
         "abgerundet"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-spitz-pointed",
       "lang": "it",
-      "short_definition": "Che termina con una punta stretta o con una forma che si assottiglia verso la fine.",
-      "usage_note": "Qui solo il senso fisico della forma; non il valore figurato di osservazione pungente.",
+      "short_definition": "Con un'estremità sottile come quella di un ago.",
+      "usage_note": "Si parla della forma di un oggetto.",
       "sense_indicator": "forma, estremità stretta",
       "context_tags_json": [],
       "source": "manual",
@@ -46049,7 +47808,7 @@
       "concept_id": "concept-a2-spitz-pointed",
       "lang": "en",
       "short_definition": "Having a narrow end or a shape that becomes thinner toward the end.",
-      "usage_note": "Only the physical shape sense is modeled here, not the figurative sense for biting remarks.",
+      "usage_note": "Used for the shape of an object.",
       "sense_indicator": "shape, narrow end",
       "context_tags_json": [],
       "source": "manual",
@@ -46063,14 +47822,13 @@
     {
       "concept_id": "concept-a2-spitze-tip",
       "lang": "de",
-      "short_definition": "Der äußerste, schmale oder oberste Endpunkt eines Gegenstands oder Bauwerks.",
-      "usage_note": "Hier nur die körperliche Spitze oder der oberste Abschluss; getrennt von Führung oder Topposition und von Spitze als Stoff.",
+      "short_definition": "Das schmale Ende oder der höchste Teil eines Gegenstands.",
+      "usage_note": "Gemeint ist ein Teil eines Gegenstands, nicht eine hohe Position oder ein Stoff.",
       "sense_indicator": "Ende eines Gegenstands",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "Kuppe",
-        "Ende"
+        "Kuppe"
       ],
       "antonyms_json": [
         "Grund",
@@ -46081,13 +47839,14 @@
         "reason": "no_single_robust_opposite_for_tip_point_noun",
         "reviewed_at": "2026-03-26"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-spitze-tip",
       "lang": "it",
       "short_definition": "La parte più estrema, sottile o più alta di un oggetto o di una struttura.",
-      "usage_note": "Qui solo il senso fisico di punta o estremità superiore, non altri usi figurati.",
+      "usage_note": "Si parla della parte finale o più alta di un oggetto.",
       "sense_indicator": "estremità di un oggetto",
       "context_tags_json": [],
       "source": "manual",
@@ -46104,7 +47863,7 @@
       "concept_id": "concept-a2-spitze-tip",
       "lang": "en",
       "short_definition": "The narrow end or the highest end point of an object or structure.",
-      "usage_note": "Only the physical tip or upper end is modeled here, not broader abstract uses.",
+      "usage_note": "Used for a physical part of an object.",
       "sense_indicator": "end of an object",
       "context_tags_json": [],
       "source": "manual",
@@ -46120,8 +47879,8 @@
     {
       "concept_id": "concept-a2-abstand",
       "lang": "de",
-      "short_definition": "Der freie Raum oder die ausreichende Distanz zwischen Personen oder Dingen.",
-      "usage_note": "Hier geht es eher um Zwischenraum oder Sicherheitsabstand als um die Strecke zwischen zwei Orten; dafür steht eher Entfernung.",
+      "short_definition": "Der Raum zwischen Personen oder Dingen.",
+      "usage_note": "Man spricht zum Beispiel darüber, wie weit Personen voneinander weg sind.",
       "sense_indicator": "Platz zwischen Dingen",
       "context_tags_json": [],
       "source": "manual",
@@ -46134,18 +47893,19 @@
         "reason": "no_single_robust_opposite_for_gap_noun",
         "reviewed_at": "2026-04-17"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-abstand",
       "lang": "it",
-      "short_definition": "Lo spazio o margine da lasciare tra persone o cose.",
-      "usage_note": "Qui soprattutto nel senso di spazio o distanza di sicurezza, non della lunghezza di un percorso.; intervallo",
+      "short_definition": "Lo spazio tra persone o cose.",
+      "usage_note": "Si parla dello spazio tra persone o cose, anche per la sicurezza.",
       "sense_indicator": "spazio tra persone o cose",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "spazio"
+        "lo spazio"
       ],
       "antonyms_json": [],
       "antonym_policy_json": {
@@ -46153,13 +47913,14 @@
         "reason": "no_single_robust_opposite_for_gap_noun",
         "reviewed_at": "2026-04-17"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-abstand",
       "lang": "en",
-      "short_definition": "The space or safe distance between people or things.",
-      "usage_note": "This focuses on gap or clearance, not the general distance between places.",
+      "short_definition": "The space between people or things.",
+      "usage_note": "Used for the space between people or objects.",
       "sense_indicator": "space between things",
       "context_tags_json": [],
       "source": "manual",
@@ -46172,7 +47933,8 @@
         "reason": "no_single_robust_opposite_for_gap_noun",
         "reviewed_at": "2026-04-17"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-unterschied",
@@ -46188,12 +47950,13 @@
         "Ähnlichkeit"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-unterschied",
       "lang": "it",
-      "short_definition": "Cio in cui due o piu cose non sono uguali.",
+      "short_definition": "Ciò in cui due o più cose non sono uguali.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -46221,7 +47984,7 @@
     {
       "concept_id": "concept-a2-ueberhaupt-general",
       "lang": "de",
-      "short_definition": "Spricht über etwas in sehr allgemeinen Zügen.",
+      "short_definition": "Ganz allgemein, ohne einen bestimmten Fall zu meinen.",
       "usage_note": null,
       "sense_indicator": "ganz allgemein gesagt",
       "context_tags_json": [],
@@ -46239,7 +48002,8 @@
         "reason": "German modal particle - has no standard lexical antonym across the modeled languages",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-ueberhaupt-general",
@@ -46278,7 +48042,7 @@
     {
       "concept_id": "concept-a2-ueberhaupt-emphatic-question",
       "lang": "de",
-      "short_definition": "Wird in einer betonten Frage benutzt, um etwas in Zweifel zu ziehen oder herauszufordern.",
+      "short_definition": "Betont eine Frage und zeigt, dass man Zweifel hat.",
       "usage_note": null,
       "sense_indicator": "Fragen, die Zweifel ausdrücken",
       "context_tags_json": [],
@@ -46292,13 +48056,14 @@
         "reason": "German modal particle - has no standard lexical antonym across the modeled languages",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-ueberhaupt-emphatic-question",
       "lang": "it",
-      "short_definition": "Usato in una domanda enfatica per mettere in dubbio se qualcosa abbia davvero senso o sia possibile.",
-      "usage_note": "in domande enfatiche",
+      "short_definition": "Rende una domanda più forte e mostra un dubbio.",
+      "usage_note": "In domande che esprimono dubbi.",
       "sense_indicator": "domande che esprimono dubbi",
       "context_tags_json": [],
       "source": "manual",
@@ -46314,8 +48079,8 @@
     {
       "concept_id": "concept-a2-ueberhaupt-emphatic-question",
       "lang": "en",
-      "short_definition": "Used in a question to challenge whether something is really true, relevant, or possible.",
-      "usage_note": "in emphatic questions",
+      "short_definition": "Used to make a question stronger and show doubt.",
+      "usage_note": "In questions that express doubt.",
       "sense_indicator": "questions expressing doubt",
       "context_tags_json": [],
       "source": "manual",
@@ -46331,7 +48096,7 @@
     {
       "concept_id": "concept-b2-unklar",
       "lang": "de",
-      "short_definition": "Nicht deutlich oder verständlich; mehrdeutig.",
+      "short_definition": "Nicht gut zu verstehen oder nicht eindeutig.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -46340,12 +48105,13 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-unklar",
       "lang": "en",
-      "short_definition": "Not clear or easy to understand; ambiguous.",
+      "short_definition": "Hard to understand or having more than one meaning.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -46359,7 +48125,7 @@
     {
       "concept_id": "concept-b2-unklar",
       "lang": "it",
-      "short_definition": "Non chiaro o facile da capire; ambiguo.",
+      "short_definition": "Difficile da capire o con più di un significato.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -46373,7 +48139,7 @@
     {
       "concept_id": "concept-a2-sprinten",
       "lang": "de",
-      "short_definition": "Schnell und intensiv über eine kurze Distanz laufen.",
+      "short_definition": "Über eine kurze Strecke so schnell wie möglich laufen.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -46382,12 +48148,15 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "spurten": "exact"
+      }
     },
     {
       "concept_id": "concept-a2-sprinten",
       "lang": "it",
-      "short_definition": "Correre velocemente e intensamente per una breve distanza.",
+      "short_definition": "Correre al massimo della velocità per una breve distanza.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -46399,7 +48168,7 @@
     {
       "concept_id": "concept-a2-sprinten",
       "lang": "en",
-      "short_definition": "Run quickly and intensely over a short distance.",
+      "short_definition": "To run as fast as possible over a short distance.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -46420,7 +48189,8 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-rasen",
@@ -46449,7 +48219,7 @@
     {
       "concept_id": "concept-a2-kontext",
       "lang": "de",
-      "short_definition": "Die Umstände oder Bedingungen, die etwas beeinflussen.",
+      "short_definition": "Die Situation, in der etwas passiert oder gesagt wird.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -46461,7 +48231,7 @@
     {
       "concept_id": "concept-a2-kontext",
       "lang": "it",
-      "short_definition": "Le circostanze o condizioni che influenzano qualcosa.",
+      "short_definition": "La situazione in cui qualcosa succede o viene detto.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -46473,7 +48243,7 @@
     {
       "concept_id": "concept-a2-kontext",
       "lang": "en",
-      "short_definition": "The circumstances or conditions that influence something.",
+      "short_definition": "The situation in which something happens or is said.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -46485,7 +48255,7 @@
     {
       "concept_id": "concept-a2-herausfinden",
       "lang": "de",
-      "short_definition": "Etwas durch Nachforschung oder Überlegung entdecken.",
+      "short_definition": "Durch Suchen oder Nachdenken etwas Neues erfahren.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -46494,12 +48264,13 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-herausfinden",
       "lang": "en",
-      "short_definition": "Discover something through research or reasoning.",
+      "short_definition": "To discover something by looking for information or thinking.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -46526,7 +48297,7 @@
       "short_definition": "A small arrow thrown at a board in a game.",
       "usage_note": null,
       "context_tags_json": [],
-      "source": "ai",
+      "source": "manual",
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
@@ -46535,16 +48306,15 @@
     {
       "concept_id": "concept-a2-wettbewerb",
       "lang": "de",
-      "short_definition": "Ein Ereignis, bei dem mehrere Teilnehmer gegeneinander antreten.",
+      "short_definition": "Eine Veranstaltung, bei der mehrere Personen versuchen, die Besten zu sein.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
-      "synonyms_json": [
-        "Konkurrenz"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-wettbewerb",
@@ -46554,16 +48324,17 @@
       "context_tags_json": [],
       "source": "ai",
       "synonyms_json": [
-        "concorso"
+        "il concorso"
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-a2-wettbewerb",
       "lang": "en",
-      "short_definition": "An event where multiple participants compete against each other.",
+      "short_definition": "An event in which people try to win against others.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -46576,7 +48347,7 @@
       "concept_id": "concept-a2-einfach-plain",
       "lang": "de",
       "short_definition": "Bescheiden, ohne Luxus oder Verzierungen.",
-      "usage_note": "Hier nur im Sinne von 'schlicht, bescheiden' (z. B. Lebensstil); nicht 'leicht' (siehe Konzept ec6fe4e3).",
+      "usage_note": "Hier nur im Sinn von schlicht, bescheiden, zum Beispiel beim Lebensstil.",
       "sense_indicator": "Lebensstil, ohne Luxus",
       "context_tags_json": [],
       "source": "manual",
@@ -46786,6 +48557,30 @@
       "concept_id": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
       "lang": "en",
       "short_definition": "To go away from a place.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a2-dart",
+      "lang": "it",
+      "short_definition": "Un piccolo oggetto appuntito che si lancia contro un bersaglio, per gioco.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null
+    },
+    {
+      "concept_id": "concept-a2-herausfinden",
+      "lang": "it",
+      "short_definition": "Arrivare a sapere qualcosa cercando informazioni o riflettendo.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",

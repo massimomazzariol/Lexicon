@@ -2008,6 +2008,86 @@
       "sentence": "Vor zehn Jahren gründete sie die Stiftung für junge Musiker.",
       "translation_lang": null,
       "translation_text": null
+    },
+    {
+      "example_id": "524ebdb8-a7a8-7056-ff48-4e785ce036d1",
+      "concept_id": "concept-c1-in-kauf-nehmen",
+      "lang": "it",
+      "sentence": "Accettiamo un tragitto più lungo per andare al lavoro perché la casa costa poco.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "5c77d53a-0032-93d2-40d8-d3f54c8ea79d",
+      "concept_id": "concept-c1-nagel-auf-den-kopf",
+      "lang": "it",
+      "sentence": "Con una sola frase ha detto esattamente quello che pensavamo tutti.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "58f16454-6940-619b-aca3-8359d873e815",
+      "concept_id": "concept-c1-sich-ins-zeug-legen",
+      "lang": "it",
+      "sentence": "Si allena ogni giorno con tutte le sue forze per vincere la gara.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "d6a45c16-ca29-28ae-2dd3-c997c779470d",
+      "concept_id": "concept-c1-zwischen-den-zeilen",
+      "lang": "it",
+      "sentence": "Nella lettera non lo dice, ma si capisce che è triste.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "9fb1f162-2389-a229-63c8-1289eef6d04c",
+      "concept_id": "concept-c1-lange-bank",
+      "lang": "it",
+      "sentence": "Il dentista? Ne parla da due anni, ma non prende mai l'appuntamento.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "25a61884-af4f-b5a1-7505-fd2d19c1b000",
+      "concept_id": "concept-c1-den-rahmen-sprengen",
+      "lang": "it",
+      "sentence": "Questa domanda va oltre il tema della riunione di oggi.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "8d2423b1-00c4-0de2-afa8-64d829215261",
+      "concept_id": "concept-c1-hand-in-hand",
+      "lang": "it",
+      "sentence": "Nella vita, libertà e responsabilità crescono insieme.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "ca6452a0-8867-e24c-b1ab-682e3686759d",
+      "concept_id": "concept-c1-ins-detail-gehen",
+      "lang": "it",
+      "sentence": "Non abbiamo tempo di spiegare ogni particolare, vi do solo l'idea generale.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "51607e94-551a-e76d-503b-fa2f99192087",
+      "concept_id": "concept-c1-wert-legen",
+      "lang": "it",
+      "sentence": "Per lei la puntualità conta moltissimo.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "5f0bc24a-a540-9597-8966-1b9a17ecdecd",
+      "concept_id": "concept-c1-ins-leben-rufen",
+      "lang": "it",
+      "sentence": "Due studenti hanno fondato un'associazione per aiutare gli anziani.",
+      "translation_lang": null,
+      "translation_text": null
     }
   ],
   "concept_definitions": [
@@ -2146,7 +2226,7 @@
     {
       "concept_id": "concept-c1-zwischen-den-zeilen",
       "lang": "it",
-      "short_definition": "Riconoscere ciò che non viene detto dietro le parole.",
+      "short_definition": "Capire un significato che le parole non esprimono direttamente.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2278,7 +2358,7 @@
     {
       "concept_id": "concept-c1-ins-detail-gehen",
       "lang": "en",
-      "short_definition": "To discuss a matter with all its particulars.",
+      "short_definition": "To discuss something thoroughly, including its smaller points.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2326,7 +2406,7 @@
     {
       "concept_id": "concept-c1-wert-legen",
       "lang": "it",
-      "short_definition": "Considerare qualcosa particolarmente importante e agire di conseguenza.",
+      "short_definition": "Pensare che qualcosa conti molto e comportarsi di conseguenza.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2350,7 +2430,7 @@
     {
       "concept_id": "concept-c1-ins-leben-rufen",
       "lang": "en",
-      "short_definition": "To newly found an institution or initiative.",
+      "short_definition": "To start an organization, project, or activity.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2362,7 +2442,7 @@
     {
       "concept_id": "concept-c1-ins-leben-rufen",
       "lang": "it",
-      "short_definition": "Fondare ex novo un'istituzione o un'iniziativa.",
+      "short_definition": "Creare un'organizzazione, un progetto o un'attività.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",

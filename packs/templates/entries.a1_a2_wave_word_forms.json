@@ -1,0 +1,447 @@
+[
+  {
+    "source_key": "en_article_residential_building",
+    "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "bc7c66c2-66d1-e048-a060-89ff07850115",
+        "text": "the residential building",
+        "lemma": "residential building",
+        "is_primary": true
+      }
+    }
+  },
+  {
+    "source_key": "en_article_residential_building_bare",
+    "concept_id": "40c1d9f3-3e67-6223-6f19-85a08384f1b7",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "bc7c66c2-66d1-e048-a060-89ff07850115-bare",
+        "text": "residential building",
+        "lemma": "residential building",
+        "meaning_status": "exact",
+        "is_primary": false
+      }
+    }
+  },
+  {
+    "source_key": "en_article_elevator",
+    "concept_id": "75fb9398-4b1a-dc12-4558-6e3555368393",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lex-en-elevator",
+        "text": "the elevator",
+        "lemma": "elevator",
+        "is_primary": true
+      }
+    }
+  },
+  {
+    "source_key": "en_article_elevator_bare",
+    "concept_id": "75fb9398-4b1a-dc12-4558-6e3555368393",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lex-en-elevator-bare",
+        "text": "elevator",
+        "lemma": "elevator",
+        "meaning_status": "exact",
+        "is_primary": false
+      }
+    }
+  },
+  {
+    "source_key": "en_article_excursion",
+    "concept_id": "3b1a3dc6-75a7-55a2-9ad9-09d0a75082a0",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lex-en-excursion",
+        "text": "the excursion",
+        "lemma": "excursion",
+        "is_primary": true
+      }
+    }
+  },
+  {
+    "source_key": "en_article_excursion_bare",
+    "concept_id": "3b1a3dc6-75a7-55a2-9ad9-09d0a75082a0",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lex-en-excursion-bare",
+        "text": "excursion",
+        "lemma": "excursion",
+        "meaning_status": "exact",
+        "is_primary": false
+      }
+    }
+  },
+  {
+    "source_key": "en_article_house",
+    "concept_id": "e329e8c3-374b-a9d6-ec94-7c17e329d222",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lex-en-house",
+        "text": "the house",
+        "lemma": "house",
+        "is_primary": true
+      }
+    }
+  },
+  {
+    "source_key": "en_article_house_bare",
+    "concept_id": "e329e8c3-374b-a9d6-ec94-7c17e329d222",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lex-en-house-bare",
+        "text": "house",
+        "lemma": "house",
+        "meaning_status": "exact",
+        "is_primary": false
+      }
+    }
+  },
+  {
+    "source_key": "en_article_question",
+    "concept_id": "8cdd7819-47ff-1fba-7ac4-dd44c3aec241",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lex-en-question",
+        "text": "the question",
+        "lemma": "question",
+        "is_primary": true
+      }
+    }
+  },
+  {
+    "source_key": "en_article_question_bare",
+    "concept_id": "8cdd7819-47ff-1fba-7ac4-dd44c3aec241",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lex-en-question-bare",
+        "text": "question",
+        "lemma": "question",
+        "meaning_status": "exact",
+        "is_primary": false
+      }
+    }
+  },
+  {
+    "source_key": "en_article_screen",
+    "concept_id": "108c3ca7-5c1b-b740-7b9f-16bcc541a8c0",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lex-en-screen",
+        "text": "the screen",
+        "lemma": "screen",
+        "is_primary": true
+      }
+    }
+  },
+  {
+    "source_key": "en_article_screen_bare",
+    "concept_id": "108c3ca7-5c1b-b740-7b9f-16bcc541a8c0",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lex-en-screen-bare",
+        "text": "screen",
+        "lemma": "screen",
+        "meaning_status": "exact",
+        "is_primary": false
+      }
+    }
+  },
+  {
+    "source_key": "en_article_table",
+    "concept_id": "25ce3d79-d199-4866-d355-30ab0c183666",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lex-en-table",
+        "text": "the table",
+        "lemma": "table",
+        "is_primary": true
+      }
+    }
+  },
+  {
+    "source_key": "en_article_table_bare",
+    "concept_id": "25ce3d79-d199-4866-d355-30ab0c183666",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lex-en-table-bare",
+        "text": "table",
+        "lemma": "table",
+        "meaning_status": "exact",
+        "is_primary": false
+      }
+    }
+  },
+  {
+    "source_key": "en_article_formal_application",
+    "concept_id": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lex-en-formal-application",
+        "text": "the formal application",
+        "lemma": "formal application",
+        "is_primary": true
+      }
+    }
+  },
+  {
+    "source_key": "en_article_formal_application_bare",
+    "concept_id": "c8fcb8ac-05d4-d108-0f6c-529a1468707c",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lex-en-formal-application-bare",
+        "text": "formal application",
+        "lemma": "formal application",
+        "meaning_status": "exact",
+        "is_primary": false
+      }
+    }
+  },
+  {
+    "source_key": "en_article_inquiry",
+    "concept_id": "2bfef665-f822-93b9-3f9d-233a6f838aba",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lex-en-inquiry",
+        "text": "the inquiry",
+        "lemma": "inquiry",
+        "is_primary": true
+      }
+    }
+  },
+  {
+    "source_key": "en_article_inquiry_bare",
+    "concept_id": "2bfef665-f822-93b9-3f9d-233a6f838aba",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lex-en-inquiry-bare",
+        "text": "inquiry",
+        "lemma": "inquiry",
+        "meaning_status": "exact",
+        "is_primary": false
+      }
+    }
+  },
+  {
+    "source_key": "en_article_dart",
+    "concept_id": "concept-a2-dart",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a2-dart",
+        "text": "the dart",
+        "lemma": "dart",
+        "is_primary": true
+      }
+    }
+  },
+  {
+    "source_key": "en_article_dart_bare",
+    "concept_id": "concept-a2-dart",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lexeme-en-a2-dart-bare",
+        "text": "dart",
+        "lemma": "dart",
+        "meaning_status": "exact",
+        "is_primary": false
+      }
+    }
+  },
+  {
+    "source_key": "en_article_rejection",
+    "concept_id": "75aaec59-5c45-791b-c003-18dcee16a9cb",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "3fc1df3e-3e21-7e31-931d-84b64e748d21",
+        "text": "the rejection",
+        "lemma": "rejection",
+        "is_primary": true
+      }
+    }
+  },
+  {
+    "source_key": "en_article_rejection_bare",
+    "concept_id": "75aaec59-5c45-791b-c003-18dcee16a9cb",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "3fc1df3e-3e21-7e31-931d-84b64e748d21-bare",
+        "text": "rejection",
+        "lemma": "rejection",
+        "meaning_status": "exact",
+        "is_primary": false
+      }
+    }
+  },
+  {
+    "source_key": "en_article_petition",
+    "concept_id": "ed8e2fd9-341b-1cad-7908-35e22a2f2388",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lex-en-petition",
+        "text": "the petition",
+        "lemma": "petition",
+        "is_primary": true
+      }
+    }
+  },
+  {
+    "source_key": "en_article_petition_bare",
+    "concept_id": "ed8e2fd9-341b-1cad-7908-35e22a2f2388",
+    "pos": "noun",
+    "translations": {
+      "en": {
+        "lexeme_id": "lex-en-petition-bare",
+        "text": "petition",
+        "lemma": "petition",
+        "meaning_status": "exact",
+        "is_primary": false
+      }
+    }
+  },
+  {
+    "source_key": "a1_verb_hoeren_it_sentire_primary",
+    "concept_id": "158e3815-0dd5-73e4-18ae-e312c31f5b31",
+    "pos": "verb",
+    "translations": {
+      "it": {
+        "lexeme_id": "lex-it-sentire",
+        "text": "sentire",
+        "meaning_status": "exact",
+        "is_primary": true
+      }
+    }
+  },
+  {
+    "source_key": "a1_verb_hoeren_it_ascoltare_secondary",
+    "concept_id": "158e3815-0dd5-73e4-18ae-e312c31f5b31",
+    "pos": "verb",
+    "translations": {
+      "it": {
+        "lexeme_id": "lex-it-ascoltare",
+        "text": "ascoltare",
+        "meaning_status": "exact",
+        "is_primary": false
+      }
+    }
+  },
+  {
+    "source_key": "adverb_answer_velocemente",
+    "concept_id": "f62b0871-8768-d1b5-fc27-aa9b253d73eb",
+    "pos": "adj",
+    "translations": {
+      "it": {
+        "lexeme_id": "lex-it-velocemente",
+        "text": "velocemente",
+        "meaning_status": "exact",
+        "is_primary": false,
+        "notes": "Adverb use of the German word (schnell/langsam fahren)."
+      }
+    }
+  },
+  {
+    "source_key": "adverb_answer_quickly",
+    "concept_id": "f62b0871-8768-d1b5-fc27-aa9b253d73eb",
+    "pos": "adj",
+    "translations": {
+      "en": {
+        "lexeme_id": "lex-en-quickly",
+        "text": "quickly",
+        "meaning_status": "exact",
+        "is_primary": false,
+        "notes": "Adverb use of the German word (schnell/langsam fahren)."
+      }
+    }
+  },
+  {
+    "source_key": "adverb_answer_lentamente",
+    "concept_id": "d5a6cfdf-d6ee-10c8-1d58-1fb0bafaae70",
+    "pos": "adj",
+    "translations": {
+      "it": {
+        "lexeme_id": "lex-it-lentamente",
+        "text": "lentamente",
+        "meaning_status": "exact",
+        "is_primary": false,
+        "notes": "Adverb use of the German word (schnell/langsam fahren)."
+      }
+    }
+  },
+  {
+    "source_key": "adverb_answer_slowly",
+    "concept_id": "d5a6cfdf-d6ee-10c8-1d58-1fb0bafaae70",
+    "pos": "adj",
+    "translations": {
+      "en": {
+        "lexeme_id": "lex-en-slowly",
+        "text": "slowly",
+        "meaning_status": "exact",
+        "is_primary": false,
+        "notes": "Adverb use of the German word (schnell/langsam fahren)."
+      }
+    }
+  },
+  {
+    "source_key": "b1_c2_exact_lex-en-concise",
+    "concept_id": "concept-c2-praegnant",
+    "pos": "adj",
+    "translations": {
+      "en": {
+        "lexeme_id": "lex-en-concise",
+        "text": "concise",
+        "meaning_status": "exact",
+        "is_primary": false
+      }
+    }
+  },
+  {
+    "source_key": "b1_c2_exact_lex-en-sensible",
+    "concept_id": "f2dddaa7-908e-fe4c-9d44-508a3617791f",
+    "pos": "adj",
+    "translations": {
+      "en": {
+        "lexeme_id": "lex-en-sensible",
+        "text": "sensible",
+        "meaning_status": "exact",
+        "is_primary": false
+      }
+    }
+  },
+  {
+    "source_key": "b1_c2_exact_lex-it-riassumere-in-poche-parole",
+    "concept_id": "concept-b2-auf-den-punkt-bringen",
+    "pos": "chunk",
+    "translations": {
+      "it": {
+        "lexeme_id": "lex-it-riassumere-in-poche-parole",
+        "text": "riassumere in poche parole",
+        "meaning_status": "exact",
+        "is_primary": false
+      }
+    }
+  }
+]

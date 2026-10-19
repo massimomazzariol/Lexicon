@@ -172,12 +172,17 @@ export const germanMetadataCurationPlugin = {
         conceptsWithDomainUpdates += 1;
       }
 
+      // Only the words in the table: an override set elsewhere (a template,
+      // an editor) is not this plugin's to clear.
       const override = germanLevelOverrideByWord[key] ?? null;
       const normalizedOverride =
         override && allowedLevels.has(override.toUpperCase())
           ? override.toUpperCase()
           : null;
-      if ((concept.level_override ?? null) !== normalizedOverride) {
+      if (
+        normalizedOverride &&
+        (concept.level_override ?? null) !== normalizedOverride
+      ) {
         concept.level_override = normalizedOverride;
         conceptsWithLevelOverrideUpdates += 1;
       }

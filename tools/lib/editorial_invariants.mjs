@@ -5,6 +5,17 @@ import {
 
 const ARTICLEFUL_NOUN_LANGS = new Set(['it']);
 
+// Text a learner reads must never carry repository ids ("siehe Konzept
+// ec6fe4e3", "concept-a1-..."): consumers show these fields as they are.
+const LEARNER_FACING_DEFINITION_FIELDS = [
+  'short_definition',
+  'usage_note',
+  'hint_text',
+  'sense_indicator',
+];
+const INTERNAL_ID_PATTERN =
+  /\b(?:concept|lex|lexeme|example)-[a-z0-9]|\b[0-9a-f]{8}-[0-9a-f]{4}\b|\b(?:Konzept|concetto|concept) [0-9a-f]{6,}\b/i;
+
 function normalizeText(value) {
   return String(value ?? '').replace(/\s+/g, ' ').trim();
 }
@@ -253,6 +264,19 @@ export function collectEditorialInvariantViolations({
     if (!conceptId || !lang) {
       continue;
     }
+    for (const field of LEARNER_FACING_DEFINITION_FIELDS) {
+      const value = normalizeText(definition?.[field]);
+      if (value && INTERNAL_ID_PATTERN.test(value)) {
+        violations.push({
+          kind: 'internal_id_in_learner_text',
+          field: `concept_definitions.${field}`,
+          concept_id: conceptId,
+          lexeme_id: null,
+          lang,
+          value,
+        });
+      }
+    }
     if (!pos) {
       continue;
     }
@@ -288,6 +312,20 @@ export function collectEditorialInvariantViolations({
         lang,
         value: synonym,
         canonical_value: matchedCanonical,
+      });
+    }
+  }
+
+  for (const example of Array.isArray(content?.examples) ? content.examples : []) {
+    const sentence = normalizeText(example?.sentence);
+    if (sentence && INTERNAL_ID_PATTERN.test(sentence)) {
+      violations.push({
+        kind: 'internal_id_in_learner_text',
+        field: 'examples.sentence',
+        concept_id: normalizeText(example?.concept_id),
+        lexeme_id: null,
+        lang: normalizeLang(example?.lang),
+        value: sentence,
       });
     }
   }

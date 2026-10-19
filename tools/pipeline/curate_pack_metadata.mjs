@@ -1,9 +1,9 @@
-import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 
 import { handleCliHelp } from '../lib/cli_help.mjs';
 import { DEFAULT_SOURCE_PACK_DIR } from '../lib/default_pack_paths.mjs';
+import { deterministicUuid } from '../lib/deterministic_id.mjs';
 import { LEXICON_LEVELS } from '../lib/lexicon_conventions.mjs';
 import { listMetadataCurationPlugins } from '../lib/language_plugins/build_language_plugin_registry.mjs';
 
@@ -66,11 +66,6 @@ function normalizeSearchKey(value) {
     .toLowerCase();
 }
 
-function deterministicUuid(seed) {
-  const hash = crypto.createHash('sha1').update(seed).digest('hex');
-  return `${hash.slice(0, 8)}-${hash.slice(8, 12)}-${hash.slice(12, 16)}-${hash.slice(16, 20)}-${hash.slice(20, 32)}`;
-}
-
 function titleCaseDomain(value) {
   const normalized = normalizeText(value).toLowerCase();
   if (normalized === 'daily') return 'Daily';
@@ -131,6 +126,34 @@ function buildMetadataCurationHelpers(packId) {
       return makeClusterId(packId, label, type);
     },
   };
+}
+
+/**
+ * Replaces the rows of the clusters in [owned] (grouped by cluster_id) where
+ * they already stand, keeps every other row, and appends owned clusters that
+ * are new.
+ */
+function mergeOwnedRows(existing, owned) {
+  const ownedByCluster = new Map();
+  for (const row of owned) {
+    if (!ownedByCluster.has(row.cluster_id)) ownedByCluster.set(row.cluster_id, []);
+    ownedByCluster.get(row.cluster_id).push(row);
+  }
+  const merged = [];
+  const emitted = new Set();
+  for (const row of existing ?? []) {
+    const replacement = ownedByCluster.get(row.cluster_id);
+    if (!replacement) {
+      merged.push(row);
+    } else if (!emitted.has(row.cluster_id)) {
+      emitted.add(row.cluster_id);
+      merged.push(...replacement);
+    }
+  }
+  for (const [clusterId, rows] of ownedByCluster) {
+    if (!emitted.has(clusterId)) merged.push(...rows);
+  }
+  return merged;
 }
 
 function main() {
@@ -197,8 +220,14 @@ function main() {
       });
     }
 
-    content.clusters = curatedClusters;
-    content.cluster_members = curatedClusterMembers;
+    // Plugins own only the clusters they generate. Clusters from other tools
+    // (interconnect synonym clusters, editors) stay with their members, and
+    // every row keeps its place so an unchanged pack rebuilds unchanged.
+    content.clusters = mergeOwnedRows(content.clusters, curatedClusters);
+    content.cluster_members = mergeOwnedRows(
+      content.cluster_members,
+      curatedClusterMembers,
+    );
   }
 
   manifest.generated_at = new Date().toISOString();

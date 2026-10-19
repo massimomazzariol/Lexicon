@@ -1,0 +1,2248 @@
+{
+  "comment": "Synonym review of every B1 to C2 synonym (2026-10): wrong synonyms removed, surface forms fixed, fully interchangeable ones tiered exact (graded as a perfect answer); the rest stay close (the CONTRACT.md default). Same format as editorial_corrections_a1_a2.json.",
+  "corrections": {
+    "f4c57801-260c-4027-ff73-0b38dee09fac": {
+      "en": {
+        "synonyms": [
+          "greeting"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "Begrüßung"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "fef8f67b-8883-20ff-c027-67735487d38d": {
+      "en": {
+        "synonyms": [
+          "at last"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "letztendlich"
+        ],
+        "synonym_tiers": {
+          "letztendlich": "exact"
+        }
+      }
+    },
+    "2e15a945-9821-6cd1-ef18-663740b7bee6": {
+      "en": {
+        "synonyms": [
+          "as a minimum",
+          "no less than"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "wenigstens"
+        ],
+        "synonym_tiers": {
+          "wenigstens": "exact"
+        }
+      },
+      "it": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "c1792d23-111c-1a16-efae-133d6bb4fb64": {
+      "en": {
+        "synonyms": [
+          "in fact"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "in Wirklichkeit"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "di fatto"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "916e8799-a429-9dfd-3f4c-5553af33dbd9": {
+      "en": {
+        "synonyms": [
+          "or else",
+          "if not"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "andernfalls"
+        ],
+        "synonym_tiers": {
+          "andernfalls": "exact"
+        }
+      },
+      "it": {
+        "synonyms": [
+          "in caso contrario"
+        ],
+        "synonym_tiers": {
+          "in caso contrario": "exact"
+        }
+      }
+    },
+    "d44d4a04-9c80-66ac-6dae-10528f189ad5": {
+      "en": {
+        "synonyms": [
+          "in the interim",
+          "during this time",
+          "all the while"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "währenddessen"
+        ],
+        "synonym_tiers": {
+          "währenddessen": "exact"
+        }
+      },
+      "it": {
+        "synonyms": [
+          "intanto"
+        ],
+        "synonym_tiers": {
+          "intanto": "exact"
+        }
+      }
+    },
+    "68b4d02c-8d77-9e8b-58ca-8a06e4bcd361": {
+      "en": {
+        "synonyms": [
+          "at present"
+        ],
+        "synonym_tiers": {
+          "at present": "exact"
+        }
+      },
+      "de": {
+        "synonyms": [
+          "momentan",
+          "aktuell",
+          "zurzeit"
+        ],
+        "synonym_tiers": {
+          "momentan": "exact",
+          "zurzeit": "exact"
+        }
+      }
+    },
+    "03e06d4d-6e66-57de-675b-848282e41d06": {
+      "en": {
+        "synonyms": [
+          "however"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "dennoch"
+        ],
+        "synonym_tiers": {
+          "dennoch": "exact"
+        }
+      },
+      "it": {
+        "synonyms": [
+          "comunque"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5": {
+      "en": {
+        "synonyms": [
+          "I don't get it",
+          "I'm lost"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "Ich habe keinen Schimmer"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "Non capisco un tubo"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "76ddf07a-3708-809e-94da-35f0ec10678d": {
+      "de": {
+        "synonyms": [
+          "Erfordernis"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "8f698c56-8c4a-4fde-1a01-9050abcb2a45": {
+      "de": {
+        "synonyms": [
+          "Bedürfnis"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "l'esigenza"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "99419c2d-e802-269c-bafb-4f54f91cde4c": {
+      "en": {
+        "synonyms": [
+          "obtain",
+          "gain",
+          "secure",
+          "attain"
+        ],
+        "synonym_tiers": {
+          "obtain": "exact"
+        }
+      },
+      "de": {
+        "synonyms": [
+          "erlangen",
+          "bekommen"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "ottenere"
+        ],
+        "synonym_tiers": {
+          "ottenere": "exact"
+        }
+      }
+    },
+    "f2dddaa7-908e-fe4c-9d44-508a3617791f": {
+      "en": {
+        "synonyms": [
+          "sensible",
+          "useful"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "nützlich",
+          "vernünftig"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "ragionevole",
+          "utile"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "e718be7a-3d76-3ce3-db35-35ba3b93eaa0": {
+      "en": {
+        "synonyms": [
+          "precious",
+          "high-value"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "kostbar",
+          "von hohem Wert"
+        ],
+        "synonym_tiers": {
+          "kostbar": "exact",
+          "von hohem Wert": "exact"
+        }
+      },
+      "it": {
+        "synonyms": [
+          "di valore"
+        ],
+        "synonym_tiers": {
+          "di valore": "exact"
+        }
+      }
+    },
+    "25b5725b-13ce-48ce-2a99-7bb508a4de54": {
+      "en": {
+        "synonyms": [
+          "valueless",
+          "useless"
+        ],
+        "synonym_tiers": {
+          "valueless": "exact"
+        }
+      },
+      "de": {
+        "synonyms": [
+          "ohne Wert",
+          "nutzlos"
+        ],
+        "synonym_tiers": {
+          "ohne Wert": "exact"
+        }
+      },
+      "it": {
+        "synonyms": [
+          "inutile"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "18e272ee-84df-dc32-fa8c-4335c5ffaf5c": {
+      "en": {
+        "synonyms": [
+          "monitor"
+        ],
+        "synonym_tiers": {}
+      },
+      "de": {
+        "synonyms": [
+          "beobachten",
+          "anschauen",
+          "besehen"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "esaminare",
+          "studiare"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "dcac462c-da14-34b2-8201-977a04e36d35": {
+      "en": {
+        "synonyms": [
+          "ultimately"
+        ],
+        "synonym_tiers": {
+          "ultimately": "exact"
+        }
+      },
+      "it": {
+        "synonyms": [
+          "in ultima analisi"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "ed8e2fd9-341b-1cad-7908-35e22a2f2388": {
+      "en": {
+        "synonyms": [
+          "formal request"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "58284b76-2879-c670-ee71-409216781e51": {
+      "de": {
+        "synonyms": [
+          "nötigen",
+          "verpflichten"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "to compel",
+          "to oblige"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "obbligare"
+        ],
+        "synonym_tiers": {
+          "obbligare": "exact"
+        }
+      }
+    },
+    "f73861a9-0a0c-eb72-c5e3-8628aa2e96bb": {
+      "de": {
+        "synonyms": [
+          "sich verlassen auf"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "to rely on",
+          "believe in"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "credere",
+          "affidarsi"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-gelegenheit": {
+      "de": {
+        "synonyms": [
+          "Chance"
+        ],
+        "synonym_tiers": {
+          "Chance": "exact"
+        }
+      }
+    },
+    "concept-b1-herausforderung": {
+      "de": {
+        "synonyms": [
+          "Aufgabe",
+          "Prüfung"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-zusammenhang": {
+      "de": {
+        "synonyms": [
+          "Verbindung",
+          "Beziehung"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-vorgehen": {
+      "de": {
+        "synonyms": [
+          "Ansatz",
+          "Vorgehensweise"
+        ],
+        "synonym_tiers": {
+          "Vorgehensweise": "exact"
+        }
+      }
+    },
+    "concept-b1-eindruck": {
+      "de": {
+        "synonyms": [
+          "Vorstellung",
+          "Bild",
+          "Empfindung",
+          "Wahrnehmung"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-verantwortung": {
+      "de": {
+        "synonyms": [
+          "Pflicht",
+          "Verpflichtung"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-beschwerde": {
+      "de": {
+        "synonyms": [
+          "Klage"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-auswirkung": {
+      "de": {
+        "synonyms": [
+          "Folge",
+          "Konsequenz"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-vereinbarung": {
+      "de": {
+        "synonyms": [
+          "Übereinkunft"
+        ],
+        "synonym_tiers": {
+          "Übereinkunft": "exact"
+        }
+      }
+    },
+    "concept-b1-vermitteln": {
+      "de": {
+        "synonyms": [
+          "mitteilen",
+          "übermitteln"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-entstehen": {
+      "de": {
+        "synonyms": [
+          "aufkommen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-verhindern": {
+      "de": {
+        "synonyms": [
+          "hindern",
+          "blockieren",
+          "unterbinden"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-foerdern": {
+      "de": {
+        "synonyms": [
+          "begünstigen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-ueberzeugen": {
+      "de": {
+        "synonyms": [
+          "überreden"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-behaupten": {
+      "de": {
+        "synonyms": [
+          "vorgeben"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-feststellen": {
+      "de": {
+        "synonyms": [
+          "erkennen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-beruecksichtigen": {
+      "de": {
+        "synonyms": [
+          "einbeziehen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-behandeln": {
+      "de": {
+        "synonyms": [
+          "bearbeiten"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-ankuendigen": {
+      "de": {
+        "synonyms": [
+          "bekanntgeben",
+          "verkünden",
+          "melden",
+          "mitteilen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-ergaenzen": {
+      "de": {
+        "synonyms": [
+          "vollständig machen",
+          "erweitern"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-ablehnen": {
+      "de": {
+        "synonyms": [
+          "verweigern",
+          "zurückweisen",
+          "verwerfen"
+        ],
+        "synonym_tiers": {
+          "zurückweisen": "exact"
+        }
+      }
+    },
+    "concept-b1-durchfuehren": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-umsetzen": {
+      "de": {
+        "synonyms": [
+          "realisieren"
+        ],
+        "synonym_tiers": {
+          "realisieren": "exact"
+        }
+      }
+    },
+    "concept-b1-entscheidend": {
+      "de": {
+        "synonyms": [
+          "kritisch"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-verantwortlich": {
+      "de": {
+        "synonyms": [
+          "zuständig",
+          "verpflichtet"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-begeistert": {
+      "de": {
+        "synonyms": [
+          "fasziniert"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-bewusst": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-durchschnittlich": {
+      "de": {
+        "synonyms": [
+          "mittelmäßig",
+          "normal"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-unabhaengig": {
+      "de": {
+        "synonyms": [
+          "selbstständig",
+          "eigenständig"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-flexibel": {
+      "de": {
+        "synonyms": [
+          "anpassungsfähig"
+        ],
+        "synonym_tiers": {
+          "anpassungsfähig": "exact"
+        }
+      }
+    },
+    "concept-b1-umfangreich": {
+      "de": {
+        "synonyms": [
+          "umfassend",
+          "ausführlich"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-geeignet": {
+      "de": {
+        "synonyms": [
+          "passend"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-angemessen": {
+      "de": {
+        "synonyms": [
+          "passend"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-vermutlich": {
+      "de": {
+        "synonyms": [
+          "voraussichtlich"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-keinesfalls": {
+      "de": {
+        "synonyms": [
+          "auf gar keinen Fall",
+          "unter keinen Umständen"
+        ],
+        "synonym_tiers": {
+          "auf gar keinen Fall": "exact",
+          "unter keinen Umständen": "exact"
+        }
+      }
+    },
+    "concept-b1-teilweise": {
+      "de": {
+        "synonyms": [
+          "in Teilen"
+        ],
+        "synonym_tiers": {
+          "in Teilen": "exact"
+        }
+      }
+    },
+    "concept-b1-dagegen": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-ausserdem": {
+      "de": {
+        "synonyms": [
+          "darüber hinaus"
+        ],
+        "synonym_tiers": {
+          "darüber hinaus": "exact"
+        }
+      }
+    },
+    "concept-b1-weltweit": {
+      "de": {
+        "synonyms": [
+          "global",
+          "international"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-ueberwiegend": {
+      "de": {
+        "synonyms": [
+          "hauptsächlich",
+          "vorwiegend"
+        ],
+        "synonym_tiers": {
+          "hauptsächlich": "exact",
+          "vorwiegend": "exact"
+        }
+      }
+    },
+    "concept-b1-langfristig": {
+      "de": {
+        "synonyms": [
+          "auf lange Sicht"
+        ],
+        "synonym_tiers": {
+          "auf lange Sicht": "exact"
+        }
+      }
+    },
+    "concept-b1-gleichzeitig": {
+      "de": {
+        "synonyms": [
+          "zugleich"
+        ],
+        "synonym_tiers": {
+          "zugleich": "exact"
+        }
+      }
+    },
+    "concept-b1-unter-anderem": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-eine-rolle-spielen": {
+      "de": {
+        "synonyms": [
+          "beeinflussen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-in-der-regel": {
+      "de": {
+        "synonyms": [
+          "üblicherweise"
+        ],
+        "synonym_tiers": {
+          "üblicherweise": "exact"
+        }
+      }
+    },
+    "concept-b1-nach-wie-vor": {
+      "de": {
+        "synonyms": [
+          "weiterhin",
+          "gleichbleibend",
+          "unverändert"
+        ],
+        "synonym_tiers": {
+          "weiterhin": "exact"
+        }
+      }
+    },
+    "concept-b1-empfindlich": {
+      "de": {
+        "synonyms": [
+          "reizbar",
+          "feinfühlig",
+          "empfindsam",
+          "sensibel",
+          "empfänglich"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-leistung": {
+      "de": {
+        "synonyms": [
+          "Darbietung"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-spitze-lace": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-spitze-top-position": {
+      "de": {
+        "synonyms": [
+          "Höhepunkt",
+          "Oberste Stufe",
+          "Krone"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-spitz-cutting": {
+      "de": {
+        "synonyms": [
+          "scharf",
+          "verletzend"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-vereinbaren": {
+      "de": {
+        "synonyms": [
+          "sich einigen",
+          "absprechen"
+        ],
+        "synonym_tiers": {
+          "absprechen": "exact"
+        }
+      }
+    },
+    "concept-b2-verbindlich-binding": {
+      "de": {
+        "synonyms": [
+          "obligatorisch",
+          "vereinbart"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-verhandlung-negotiation": {
+      "de": {
+        "synonyms": [
+          "Aushandlung"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-verhandeln-negotiation": {
+      "de": {
+        "synonyms": [
+          "absprechen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c1-aushandeln": {
+      "de": {
+        "synonyms": [
+          "ausmachen",
+          "feilschen",
+          "ausfechten"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-leisten-achieve": {
+      "de": {
+        "synonyms": [
+          "schaffen",
+          "vollbringen",
+          "erledigen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c1-erbringen-provide": {
+      "de": {
+        "synonyms": [
+          "liefern",
+          "vorbringen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c1-leistungsfaehig": {
+      "de": {
+        "synonyms": [
+          "effizient",
+          "produktiv"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c1-leistungsfaehigkeit": {
+      "de": {
+        "synonyms": [
+          "Produktivität"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c2-ueberragend": {
+      "de": {
+        "synonyms": [
+          "hervorragend",
+          "exzellent",
+          "ausgezeichnet",
+          "überlegen",
+          "vorzüglich"
+        ],
+        "synonym_tiers": {
+          "hervorragend": "exact",
+          "exzellent": "exact",
+          "ausgezeichnet": "exact"
+        }
+      }
+    },
+    "concept-b2-voraussetzen-requirement": {
+      "de": {
+        "synonyms": [
+          "erfordern",
+          "verlangen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c1-bedingen": {
+      "de": {
+        "synonyms": [
+          "verursachen",
+          "veranlassen",
+          "bewirken"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-zusammenhaengen": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-nachvollziehen-reasoning": {
+      "de": {
+        "synonyms": [
+          "begreifen",
+          "erkennen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c1-nachvollziehbar": {
+      "de": {
+        "synonyms": [
+          "einleuchtend",
+          "verständlich"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-herausfordern": {
+      "de": {
+        "synonyms": [
+          "auf die Probe stellen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-herausfordernd": {
+      "de": {
+        "synonyms": [
+          "komplex"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-missverstaendnis": {
+      "de": {
+        "synonyms": [
+          "Fehlinterpretation",
+          "Irrtum"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-missverstehen": {
+      "de": {
+        "synonyms": [
+          "falsch verstehen",
+          "verkehrt interpretieren"
+        ],
+        "synonym_tiers": {
+          "falsch verstehen": "exact"
+        }
+      }
+    },
+    "concept-b2-beeindrucken": {
+      "de": {
+        "synonyms": [
+          "begeistern"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-klarstellen": {
+      "de": {
+        "synonyms": [
+          "erläutern",
+          "präzisieren",
+          "ausführen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-eindeutig": {
+      "de": {
+        "synonyms": [
+          "unzweideutig"
+        ],
+        "synonym_tiers": {
+          "unzweideutig": "exact"
+        }
+      }
+    },
+    "concept-c1-missverstaendlich": {
+      "de": {
+        "synonyms": [
+          "verworren",
+          "unpräzise",
+          "verdrehbar"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-einschaetzen": {
+      "de": {
+        "synonyms": [
+          "schätzen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c1-einschaetzung": {
+      "de": {
+        "synonyms": [
+          "Bewertung",
+          "Urteil"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-ueberzeugend": {
+      "de": {
+        "synonyms": [
+          "eindringlich",
+          "persuasiv",
+          "glaubwürdig"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-verantwortungsvoll": {
+      "de": {
+        "synonyms": [
+          "gewissenhaft",
+          "verantwortungsbewusst"
+        ],
+        "synonym_tiers": {
+          "verantwortungsbewusst": "exact"
+        }
+      }
+    },
+    "concept-b2-zuverlaessig": {
+      "de": {
+        "synonyms": [
+          "stetig",
+          "konstant",
+          "verlässlich",
+          "vertrauenswürdig"
+        ],
+        "synonym_tiers": {
+          "verlässlich": "exact"
+        }
+      }
+    },
+    "concept-c1-einordnen": {
+      "de": {
+        "synonyms": [
+          "einpassen",
+          "klassifizieren",
+          "verorten"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c1-einordnung": {
+      "de": {
+        "synonyms": [
+          "Einbettung",
+          "Kategorisierung",
+          "Verortung",
+          "Zuordnung"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-gruselig": {
+      "de": {
+        "synonyms": [
+          "unheimlich"
+        ],
+        "synonym_tiers": {
+          "unheimlich": "exact"
+        }
+      },
+      "en": {
+        "synonyms": [
+          "spooky"
+        ],
+        "synonym_tiers": {
+          "spooky": "exact"
+        }
+      }
+    },
+    "concept-b2-robust": {
+      "de": {
+        "synonyms": [
+          "stabil"
+        ],
+        "synonym_tiers": {}
+      },
+      "it": {
+        "synonyms": [
+          "solido"
+        ],
+        "synonym_tiers": {
+          "solido": "exact"
+        }
+      },
+      "en": {
+        "synonyms": [
+          "sturdy"
+        ],
+        "synonym_tiers": {
+          "sturdy": "exact"
+        }
+      }
+    },
+    "concept-b2-belastbar": {
+      "de": {
+        "synonyms": [
+          "fest",
+          "stabil",
+          "tragfähig"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-verletzlich": {
+      "de": {
+        "synonyms": [
+          "verwundbar"
+        ],
+        "synonym_tiers": {
+          "verwundbar": "exact"
+        }
+      }
+    },
+    "concept-b1-vorschlagen": {
+      "de": {
+        "synonyms": [
+          "vorbringen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-faehigkeit": {
+      "de": {
+        "synonyms": [
+          "Kompetenz",
+          "Können"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-insgesamt": {
+      "de": {
+        "synonyms": [
+          "in Summe",
+          "im Ganzen",
+          "global"
+        ],
+        "synonym_tiers": {
+          "in Summe": "exact"
+        }
+      }
+    },
+    "concept-b1-regelmaessig": {
+      "de": {
+        "synonyms": [
+          "periodisch"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-ausreichend": {
+      "de": {
+        "synonyms": [
+          "genügend"
+        ],
+        "synonym_tiers": {
+          "genügend": "exact"
+        }
+      }
+    },
+    "concept-b1-verbesserung": {
+      "de": {
+        "synonyms": [
+          "die Vervollkommnung",
+          "die Optimierung"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-ziel": {
+      "de": {
+        "synonyms": [
+          "Zweck",
+          "Absicht",
+          "Vorhaben"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-klaeren": {
+      "de": {
+        "synonyms": [
+          "aufklären",
+          "erläutern"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-vorwurf": {
+      "de": {
+        "synonyms": [
+          "Rüge",
+          "Tadel"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-umgehen": {
+      "de": {
+        "synonyms": [
+          "meistern"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-ansprechen": {
+      "de": {
+        "synonyms": [
+          "erwähnen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-zusammenfassung": {
+      "de": {
+        "synonyms": [
+          "Übersicht",
+          "Kurzfassung"
+        ],
+        "synonym_tiers": {
+          "Kurzfassung": "exact"
+        }
+      }
+    },
+    "concept-b1-kaum": {
+      "de": {
+        "synonyms": [
+          "schwerlich"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-zunaechst": {
+      "de": {
+        "synonyms": [
+          "zuerst",
+          "anfangs",
+          "erstens"
+        ],
+        "synonym_tiers": {
+          "zuerst": "exact"
+        }
+      }
+    },
+    "concept-b1-zudem": {
+      "de": {
+        "synonyms": [
+          "überdies"
+        ],
+        "synonym_tiers": {
+          "überdies": "exact"
+        }
+      }
+    },
+    "concept-b1-erwarten": {
+      "de": {
+        "synonyms": [
+          "erhoffen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-schritt": {
+      "de": {
+        "synonyms": [
+          "Akt",
+          "Maßnahme"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-abschnitt": {
+      "de": {
+        "synonyms": [
+          "Teil",
+          "Kapitel"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-ablauf": {
+      "de": {
+        "synonyms": [
+          "Verlauf",
+          "Gang",
+          "Schrittfolge",
+          "Prozedur",
+          "Vorgang"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-ursache": {
+      "de": {
+        "synonyms": [
+          "Grund",
+          "Auslöser"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-wirkung": {
+      "de": {
+        "synonyms": [
+          "Einfluss",
+          "Folge",
+          "Resultat",
+          "Konsequenz"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-kritik": {
+      "de": {
+        "synonyms": [
+          "Anmerkung",
+          "Bemerkung",
+          "Urteil"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-immerhin": {
+      "de": {
+        "synonyms": [
+          "wenigstens"
+        ],
+        "synonym_tiers": {
+          "wenigstens": "exact"
+        }
+      }
+    },
+    "concept-b1-stattdessen": {
+      "de": {
+        "synonyms": [
+          "anstelle dessen"
+        ],
+        "synonym_tiers": {
+          "anstelle dessen": "exact"
+        }
+      }
+    },
+    "concept-b1-aufwand": {
+      "de": {
+        "synonyms": [
+          "Mühe",
+          "Einsatz",
+          "Bemühung"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-rueckmeldung": {
+      "de": {
+        "synonyms": [
+          "Kommentar",
+          "Urteil"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-notiz": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-einsetzen": {
+      "de": {
+        "synonyms": [
+          "einbringen",
+          "verwenden"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-beeindruckend": {
+      "de": {
+        "synonyms": [
+          "bewundernswürdig",
+          "erstaunlich"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-ueberrascht": {
+      "de": {
+        "synonyms": [
+          "verblüfft",
+          "erstaunt"
+        ],
+        "synonym_tiers": {
+          "erstaunt": "exact"
+        }
+      }
+    },
+    "concept-b2-enttaeuschend": {
+      "de": {
+        "synonyms": [
+          "entmutigend",
+          "frustrierend"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-enttaeuscht": {
+      "de": {
+        "synonyms": [
+          "frustriert",
+          "traurig"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-ueberraschend": {
+      "de": {
+        "synonyms": [
+          "erstaunlich",
+          "unvorhergesehen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-enttaeuschung": {
+      "de": {
+        "synonyms": [
+          "das Missfallen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-bewundernswert": {
+      "de": {
+        "synonyms": [
+          "herausragend",
+          "lobenswert"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-eindrucksvoll": {
+      "de": {
+        "synonyms": [
+          "bemerkenswert"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-relevant": {
+      "de": {
+        "synonyms": [
+          "bedeutend"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-wesentlich": {
+      "de": {
+        "synonyms": [
+          "notwendig",
+          "unerlässlich"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-erheblich": {
+      "de": {
+        "synonyms": [
+          "bedeutend",
+          "signifikant"
+        ],
+        "synonym_tiers": {
+          "bedeutend": "exact"
+        }
+      }
+    },
+    "concept-b2-objektiv": {
+      "de": {
+        "synonyms": [
+          "rational",
+          "unvoreingenommen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-subjektiv": {
+      "de": {
+        "synonyms": [
+          "persönlich",
+          "individuell"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-grundlegend": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-strittig": {
+      "de": {
+        "synonyms": [
+          "umstritten"
+        ],
+        "synonym_tiers": {
+          "umstritten": "exact"
+        }
+      }
+    },
+    "concept-b2-nennenswert": {
+      "de": {
+        "synonyms": [
+          "bedeutend",
+          "bemerkenswert",
+          "auffällig"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-praezise": {
+      "de": {
+        "synonyms": [
+          "genau",
+          "exakt"
+        ],
+        "synonym_tiers": {
+          "genau": "exact",
+          "exakt": "exact"
+        }
+      }
+    },
+    "concept-b2-vage": {
+      "de": {
+        "synonyms": [
+          "unscharf",
+          "unbestimmt",
+          "unpräzise"
+        ],
+        "synonym_tiers": {
+          "unpräzise": "exact"
+        }
+      }
+    },
+    "concept-b2-ausdruecklich": {
+      "de": {
+        "synonyms": [
+          "direkt",
+          "offen",
+          "unmissverständlich"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-zweideutig": {
+      "de": {
+        "synonyms": [
+          "doppelsinnig"
+        ],
+        "synonym_tiers": {
+          "doppelsinnig": "exact"
+        }
+      }
+    },
+    "concept-b2-konkret": {
+      "de": {
+        "synonyms": [
+          "spezifisch"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-abstrakt": {
+      "de": {
+        "synonyms": [
+          "begrifflich",
+          "ideell"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-offensichtlich": {
+      "de": {
+        "synonyms": [
+          "evident"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-verpflichtend": {
+      "de": {
+        "synonyms": [
+          "zwingend"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-zustimmen": {
+      "de": {
+        "synonyms": [
+          "einwilligen",
+          "billigen"
+        ],
+        "synonym_tiers": {
+          "einwilligen": "exact"
+        }
+      }
+    },
+    "concept-b2-widersprechen": {
+      "de": {
+        "synonyms": [
+          "bestreiten",
+          "entgegnen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-bestaetigen": {
+      "de": {
+        "synonyms": [
+          "verifizieren"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-einigung": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-bedingung": {
+      "de": {
+        "synonyms": [
+          "Erfordernis"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-zusage": {
+      "de": {
+        "synonyms": [
+          "Verpflichtung"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-anforderung": {
+      "de": {
+        "synonyms": [
+          "Vorgabe"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-zugestaendnis": {
+      "de": {
+        "synonyms": [
+          "Abstriche",
+          "Nachgabe"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-druck": {
+      "de": {
+        "synonyms": [
+          "Belastung",
+          "Zwang"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-stress": {
+      "de": {
+        "synonyms": [
+          "Belastung",
+          "Anspannung",
+          "Überlastung"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-belastend": {
+      "de": {
+        "synonyms": [
+          "anstrengend",
+          "beanspruchend"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-ueberwaealtigt": {
+      "de": {
+        "synonyms": [
+          "überrumpelt",
+          "erschlagen",
+          "überfordert"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-widerstehen": {
+      "de": {
+        "synonyms": [
+          "abwehren"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-ausdauer": {
+      "de": {
+        "synonyms": [
+          "Zähigkeit"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-durchhalten": {
+      "de": {
+        "synonyms": [
+          "bestehen",
+          "durchstehen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-scheitern": {
+      "de": {
+        "synonyms": [
+          "versagen",
+          "misslingen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-belasten": {
+      "de": {
+        "synonyms": [
+          "beanspruchen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-rueckschlag": {
+      "de": {
+        "synonyms": [
+          "Rückschritt",
+          "Rückfall"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-nachweislich": {
+      "de": {
+        "synonyms": [
+          "beweisbar",
+          "erweislich"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-vertretbar": {
+      "de": {
+        "synonyms": [
+          "gerechtfertigt"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-abwaegen": {
+      "de": {
+        "synonyms": [
+          "bedenken",
+          "überlegen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-ueberpruefen": {
+      "de": {
+        "synonyms": [
+          "prüfen",
+          "kontrollieren"
+        ],
+        "synonym_tiers": {
+          "prüfen": "exact",
+          "kontrollieren": "exact"
+        }
+      }
+    },
+    "concept-b2-festlegen": {
+      "de": {
+        "synonyms": [
+          "bestimmen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-vereinfachen": {
+      "de": {
+        "synonyms": [
+          "erleichtern"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-belegen": {
+      "de": {
+        "synonyms": [
+          "begründen",
+          "stützen"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-hervorheben": {
+      "de": {
+        "synonyms": [
+          "betonen",
+          "unterstreichen"
+        ],
+        "synonym_tiers": {
+          "betonen": "exact",
+          "unterstreichen": "exact"
+        }
+      }
+    },
+    "concept-b2-auswerten": {
+      "de": {
+        "synonyms": [
+          "interpretieren"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c1-folgerung": {
+      "de": {
+        "synonyms": [
+          "der Schluss"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c1-einwand": {
+      "de": {
+        "synonyms": [
+          "Einwurf"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c1-nachweis": {
+      "de": {
+        "synonyms": [
+          "Beweis",
+          "Beleg"
+        ],
+        "synonym_tiers": {
+          "Beweis": "exact",
+          "Beleg": "exact"
+        }
+      }
+    },
+    "concept-c1-schlussfolgerung": {
+      "de": {
+        "synonyms": [
+          "das Fazit"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c1-widerlegen": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c1-praemisse": {
+      "de": {
+        "synonyms": [
+          "Annahme"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c1-hypothese": {
+      "de": {
+        "synonyms": [
+          "Vermutung",
+          "Annahme",
+          "These"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c1-plausibel": {
+      "de": {
+        "synonyms": [
+          "vernünftig"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c1-fundiert": {
+      "de": {
+        "synonyms": [
+          "begründet",
+          "gut untermauert"
+        ],
+        "synonym_tiers": {
+          "gut untermauert": "exact"
+        }
+      }
+    },
+    "concept-c1-stichhaltig": {
+      "de": {
+        "synonyms": [
+          "einleuchtend",
+          "begründet",
+          "wasserdicht"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c1-kriterium": {
+      "de": {
+        "synonyms": [
+          "Maßgabe",
+          "Norm"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c1-massstab": {
+      "de": {
+        "synonyms": [
+          "Norm"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c1-beurteilung": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c1-konsequent": {
+      "de": {
+        "synonyms": [
+          "folgerichtig",
+          "konsistent"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c1-systematisch": {
+      "de": {
+        "synonyms": [
+          "methodisch",
+          "geordnet"
+        ],
+        "synonym_tiers": {
+          "methodisch": "exact"
+        }
+      }
+    },
+    "concept-c1-strukturiert": {
+      "de": {
+        "synonyms": [
+          "gegliedert"
+        ],
+        "synonym_tiers": {
+          "gegliedert": "exact"
+        }
+      }
+    },
+    "concept-c1-differenzieren": {
+      "de": {
+        "synonyms": [
+          "abgrenzen",
+          "unterscheiden",
+          "trennen"
+        ],
+        "synonym_tiers": {
+          "unterscheiden": "exact"
+        }
+      }
+    },
+    "concept-c1-verknuepfen": {
+      "de": {
+        "synonyms": [
+          "verbinden"
+        ],
+        "synonym_tiers": {
+          "verbinden": "exact"
+        }
+      }
+    },
+    "concept-c1-implizieren": {
+      "de": {
+        "synonyms": [
+          "andeuten"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c2-unerschuetterlich": {
+      "de": {
+        "synonyms": [
+          "unbeirrbar",
+          "beständig"
+        ],
+        "synonym_tiers": {
+          "unbeirrbar": "exact"
+        }
+      }
+    },
+    "concept-c2-bahnbrechend": {
+      "de": {
+        "synonyms": [
+          "revolutionär",
+          "pionierhaft",
+          "neuartig"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c2-tiefgreifend": {
+      "de": {
+        "synonyms": [
+          "umfassend",
+          "weitreichend"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c2-wegweisend": {
+      "de": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-c2-nuanciert": {
+      "de": {
+        "synonyms": [
+          "differenziert"
+        ],
+        "synonym_tiers": {
+          "differenziert": "exact"
+        }
+      }
+    },
+    "concept-c2-ambivalent": {
+      "de": {
+        "synonyms": [
+          "zwiespältig"
+        ],
+        "synonym_tiers": {
+          "zwiespältig": "exact"
+        }
+      }
+    },
+    "concept-c2-praedominant": {
+      "de": {
+        "synonyms": [
+          "hauptsächlich",
+          "vorherrschend"
+        ],
+        "synonym_tiers": {
+          "vorherrschend": "exact"
+        }
+      }
+    },
+    "concept-b1-doch-encouragement": {
+      "it": {
+        "synonyms": [
+          "su"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "just"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-mal-softening": {
+      "it": {
+        "synonyms": [
+          "un momento"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-halt-eben-fatalism": {
+      "de": {
+        "synonyms": [
+          "eben"
+        ],
+        "synonym_tiers": {
+          "eben": "exact"
+        }
+      },
+      "it": {
+        "synonyms": [
+          "purtroppo"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b1-ja-shared-knowledge": {
+      "it": {
+        "synonyms": [
+          "dopotutto"
+        ],
+        "synonym_tiers": {}
+      },
+      "en": {
+        "synonyms": [
+          "after all"
+        ],
+        "synonym_tiers": {}
+      }
+    },
+    "concept-b2-wohl-probability": {
+      "it": {
+        "synonyms": [],
+        "synonym_tiers": {}
+      }
+    }
+  }
+}

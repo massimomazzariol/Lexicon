@@ -10,6 +10,7 @@ import {
 import {
   getLeadingArticleTokens,
 } from '../lib/language_text_conventions.mjs';
+import { collectSenseIndicatorViolations } from '../lib/sense_indicators.mjs';
 
 const DEFAULT_PACK_DIR = DEFAULT_SOURCE_PACK_DIR;
 const DEFAULT_OUT_DIR = 'docs/data';
@@ -395,10 +396,19 @@ function buildExampleAuthoringRequest({
 }
 
 function assertNoEditorialInvariantViolations({ packDir, content }) {
-  const violations = collectEditorialInvariantViolations({
-    content,
-    lexemeOverridesById: loadLexemeMorphologyOverrides(packDir),
-  });
+  const violations = [
+    ...collectEditorialInvariantViolations({
+      content,
+      lexemeOverridesById: loadLexemeMorphologyOverrides(packDir),
+    }),
+    // DL-014 was only unit-tested; a missing or duplicate sense indicator
+    // must stop the pipeline like any other editorial invariant.
+    ...collectSenseIndicatorViolations(content).map((violation) => ({
+      ...violation,
+      field: `concept_definitions.sense_indicator (${violation.kind})`,
+      value: violation.detail,
+    })),
+  ];
   if (violations.length === 0) {
     return;
   }

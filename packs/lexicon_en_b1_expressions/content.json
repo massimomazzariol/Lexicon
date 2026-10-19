@@ -1985,6 +1985,126 @@
       "sentence": "Abgesehen von kleinen Fehlern ist die Arbeit insgesamt gelungen.",
       "translation_lang": null,
       "translation_text": null
+    },
+    {
+      "example_id": "c117a823-3bc2-5b57-0539-0016d4782c89",
+      "concept_id": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "lang": "de",
+      "sentence": "Nach drei Stunden Diskussion haben wir uns schließlich geeinigt.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "c4091fda-d91a-2b28-cfb3-c40b99cbdc60",
+      "concept_id": "concept-b1-unter-anderem",
+      "lang": "de",
+      "sentence": "Im Urlaub haben wir Rom, Florenz und noch ein paar andere Städte besucht.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "7155f78c-0f47-3333-8e33-ae425b322cb4",
+      "concept_id": "concept-b1-auf-dauer",
+      "lang": "de",
+      "sentence": "Jeden Tag Fast Food ist für den Körper nicht gesund, wenn man es jahrelang macht.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "30e55a1e-4b79-3380-1c6c-4b85a4f846ad",
+      "concept_id": "concept-b1-eine-rolle-spielen",
+      "lang": "de",
+      "sentence": "Beim Kauf einer Wohnung ist die Lage sehr wichtig.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "5b29d453-d08b-8a04-5d4e-fb2286322ed3",
+      "concept_id": "concept-b1-in-der-regel",
+      "lang": "de",
+      "sentence": "Fast immer fängt die Schule um acht an.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "57f8c82e-8820-fa66-f356-945b5361f018",
+      "concept_id": "concept-b1-nach-wie-vor",
+      "lang": "de",
+      "sentence": "Seit zehn Jahren wohnt er im selben Haus, und er will dort nicht weg.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "3bf12fc2-401a-14e5-e00d-e7f7b9c8a646",
+      "concept_id": "dcac462c-da14-34b2-8201-977a04e36d35",
+      "lang": "it",
+      "sentence": "Dopo tre ore di discussione ci siamo finalmente messi d'accordo.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "58f070da-f32a-3ed2-4cd2-5d7cb236baa7",
+      "concept_id": "concept-b1-unter-anderem",
+      "lang": "it",
+      "sentence": "In vacanza abbiamo visitato Roma, Firenze e qualche altra città.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "a2aedceb-17f9-e718-dc18-4e228a6e778a",
+      "concept_id": "concept-b1-auf-dauer",
+      "lang": "it",
+      "sentence": "Mangiare fast food ogni giorno non fa bene, se lo fai per anni.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f8001e47-55c8-5e69-e2c3-102f8da37780",
+      "concept_id": "concept-b1-eine-rolle-spielen",
+      "lang": "it",
+      "sentence": "Quando si compra casa, la posizione conta molto.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "19cbdc9f-af47-ccd7-7037-a0c26f1489a4",
+      "concept_id": "concept-b1-in-der-regel",
+      "lang": "it",
+      "sentence": "La scuola comincia quasi sempre alle otto.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "c5b41c9a-22fc-0e43-da92-e8c53f6a0dc6",
+      "concept_id": "concept-b1-auf-eigene-faust",
+      "lang": "it",
+      "sentence": "Nessuno gliel'ha chiesto: ha deciso da solo di pulire tutto l'ufficio.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "c607eeb1-665e-9ee3-8a1d-1f222ee46fc8",
+      "concept_id": "concept-b1-ab-und-zu",
+      "lang": "it",
+      "sentence": "Non vado spesso al cinema, solo qualche volta.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "e49ed3fe-552c-1121-4c4c-a9b60ffc045c",
+      "concept_id": "concept-b1-auf-anhieb",
+      "lang": "it",
+      "sentence": "Ha passato l'esame di guida subito, senza ripeterlo.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "a07e307c-3b6f-2363-4a04-62d7154639b0",
+      "concept_id": "concept-b1-im-grossen-und-ganzen",
+      "lang": "it",
+      "sentence": "Ci sono stati alcuni problemi, ma la vacanza è stata bella.",
+      "translation_lang": null,
+      "translation_text": null
     }
   ],
   "concept_definitions": [
@@ -2003,12 +2123,15 @@
         "at first"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "ultimately": "exact"
+      }
     },
     {
       "concept_id": "dcac462c-da14-34b2-8201-977a04e36d35",
       "lang": "de",
-      "short_definition": "Wird verwendet, um das Endergebnis nach einem Prozess oder Ereignissen zu beschreiben.",
+      "short_definition": "Beschreibt, was nach allen Ereignissen oder Handlungen herauskommt.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "migrated_from_gloss_alias",
@@ -2034,7 +2157,8 @@
         "subito"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b1-unter-anderem",
@@ -2043,9 +2167,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "darüber hinaus"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "nichts als"
       ],
@@ -2054,7 +2176,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b1-unter-anderem",
@@ -2091,7 +2214,7 @@
     {
       "concept_id": "concept-b1-auf-dauer",
       "lang": "de",
-      "short_definition": "Wenn man an einen längeren Zeitraum denkt.",
+      "short_definition": "Über einen längeren Zeitraum hinweg.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2111,7 +2234,7 @@
     {
       "concept_id": "concept-b1-auf-dauer",
       "lang": "it",
-      "short_definition": "Se si considera un periodo più lungo.",
+      "short_definition": "Dopo che è passato molto tempo.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2127,7 +2250,7 @@
     {
       "concept_id": "concept-b1-auf-dauer",
       "lang": "en",
-      "short_definition": "When thinking about a longer period of time.",
+      "short_definition": "After a long time has passed.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2148,8 +2271,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "beeinflussen",
-        "wirken"
+        "beeinflussen"
       ],
       "antonyms_json": [
         "unwichtig sein",
@@ -2162,7 +2284,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b1-eine-rolle-spielen",
@@ -2214,7 +2337,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "üblicherweise": "exact"
+      }
     },
     {
       "concept_id": "concept-b1-in-der-regel",
@@ -2269,7 +2395,10 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "weiterhin": "exact"
+      }
     },
     {
       "concept_id": "concept-b1-nach-wie-vor",
@@ -2320,7 +2449,7 @@
     {
       "concept_id": "concept-b1-auf-eigene-faust",
       "lang": "en",
-      "short_definition": "Without outside help or permission, on one's own responsibility.",
+      "short_definition": "Because you choose to act, without being told to do so.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -2332,7 +2461,7 @@
     {
       "concept_id": "concept-b1-auf-eigene-faust",
       "lang": "it",
-      "short_definition": "Senza aiuto o permesso altrui, sotto la propria responsabilità.",
+      "short_definition": "Per propria scelta, senza che altri lo chiedano.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",

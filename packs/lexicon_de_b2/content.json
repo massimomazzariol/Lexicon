@@ -27862,6 +27862,230 @@
       "notes": null,
       "review_status": "reviewed",
       "reviewed_by": "ai"
+    },
+    {
+      "example_id": "031fcb8c-02de-f8e1-dc84-b4e5733f7e99",
+      "concept_id": "76ddf07a-3708-809e-94da-35f0ec10678d",
+      "lang": "de",
+      "sentence": "Ein Auto ist auf dem Land kein Luxus, sondern ein Muss.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "9a6546e9-fc5a-a5f9-a7f7-802018b0b9da",
+      "concept_id": "concept-b2-zusammenhaengen",
+      "lang": "de",
+      "sentence": "Die Kopfschmerzen kommen daher, dass ich zu wenig geschlafen habe.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "05ddcf59-4ef5-6431-e3ca-af8b2812a7fd",
+      "concept_id": "concept-b2-missverstehen",
+      "lang": "de",
+      "sentence": "Ich meinte morgen, aber er dachte, ich meinte heute.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "2b951b98-f2d8-4c76-c7b4-71a59d2bdb09",
+      "concept_id": "concept-b2-eindeutig",
+      "lang": "de",
+      "sentence": "Das Ergebnis lässt keinen Zweifel: Wir haben gewonnen.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "27321c25-6611-31bd-c443-5468341f36f8",
+      "concept_id": "concept-b2-einschaetzen",
+      "lang": "de",
+      "sentence": "Wie lange brauchst du für die Arbeit? Ich glaube, etwa zwei Stunden.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "dec46a70-e419-18ec-400b-a2c666b84d80",
+      "concept_id": "concept-b2-zuverlaessig",
+      "lang": "de",
+      "sentence": "Auf Maria kann man immer zählen, sie kommt nie zu spät.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "ef04b47a-381d-e3a2-cbd9-f4b527566600",
+      "concept_id": "concept-b2-ueberrascht",
+      "lang": "de",
+      "sentence": "Als sie die Geschenke sah, machte sie große Augen.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "5a79de04-bdcf-b1c6-e284-b6ed9a29011a",
+      "concept_id": "concept-b2-enttaeuscht",
+      "lang": "de",
+      "sentence": "Er hatte sich so auf den Urlaub gefreut, und dann regnete es jeden Tag.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "91f73d0a-9fbd-af54-caf7-6d5bb64f242b",
+      "concept_id": "concept-b2-wesentlich",
+      "lang": "de",
+      "sentence": "Ohne Wasser kann keine Pflanze leben.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "0a5a237b-83fa-9aa6-16e5-11bd91a8c122",
+      "concept_id": "concept-b2-subjektiv",
+      "lang": "de",
+      "sentence": "Ob ein Film gut ist, sieht jeder anders.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "070884c4-ac93-7d24-1227-073a24fbb9ff",
+      "concept_id": "concept-b2-grundlegend",
+      "lang": "de",
+      "sentence": "Lesen und Schreiben sind die Basis für alles andere in der Schule.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "83752728-6447-e55d-3fce-a75f665d789c",
+      "concept_id": "concept-b2-nennenswert",
+      "lang": "de",
+      "sentence": "Im Januar gab es fast keinen Regen, höchstens ein paar Tropfen.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "9aa1e0d9-f0bf-5b6b-0e10-7da7fe685319",
+      "concept_id": "concept-b2-vage",
+      "lang": "de",
+      "sentence": "Er sagte nur, er komme irgendwann am Nachmittag.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "edda332b-abb9-d6fc-bc9e-30c8e85a61a0",
+      "concept_id": "concept-b2-ausdruecklich",
+      "lang": "de",
+      "sentence": "Der Chef hat klar und deutlich gesagt: Keine Handys im Meeting!",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "1608051f-8304-b77d-20d9-6e017ccd54d6",
+      "concept_id": "concept-b2-offensichtlich",
+      "lang": "de",
+      "sentence": "Seine Jacke ist nass, er war also draußen im Regen.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "51e8f830-c40c-f68f-ecf3-4cd599bedb35",
+      "concept_id": "concept-b2-bedingung",
+      "lang": "de",
+      "sentence": "Du darfst mitkommen, aber nur, wenn du dein Zimmer aufräumst.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "0bf8962c-b2cb-5b51-29b3-24860aa6fe98",
+      "concept_id": "concept-b2-ueberpruefen",
+      "lang": "de",
+      "sentence": "Vor der Reise schaue ich noch einmal nach, ob ich den Pass habe.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "0de23139-cca9-92c4-66f3-08c44ea48e13",
+      "concept_id": "concept-b2-zusammenfassen",
+      "lang": "de",
+      "sentence": "Kannst du mir in zwei Sätzen sagen, worum es in dem Buch geht?",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "57d9915f-6e13-3ef3-22b3-7f50519d93ee",
+      "concept_id": "concept-b2-wohl-probability",
+      "lang": "de",
+      "sentence": "Der Bus ist noch nicht da, ich denke, er steht im Stau.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "52d981c6-366e-fd04-ef8f-fe0928965683",
+      "concept_id": "concept-b2-nuance",
+      "lang": "de",
+      "sentence": "Zwischen müde und erschöpft gibt es einen kleinen Unterschied.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "53638928-d9fa-3700-d225-cb08a3b32f13",
+      "concept_id": "concept-b2-dilemma",
+      "lang": "de",
+      "sentence": "Ziehe ich für den Job weg oder bleibe ich und werde arbeitslos?",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "a9851fe2-a2ae-6f9a-901b-11a8dbd9fa6f",
+      "concept_id": "concept-b2-subtilitat",
+      "lang": "de",
+      "sentence": "Seine Witze sind so fein, dass nicht jeder sie versteht.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "377d4f54-d6c5-bd38-a662-76e953f8adfd",
+      "concept_id": "76ddf07a-3708-809e-94da-35f0ec10678d",
+      "lang": "it",
+      "sentence": "In campagna senza macchina non si vive.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "41a12718-53c6-45aa-6910-5e78bb5359a9",
+      "concept_id": "concept-b2-klarstellen",
+      "lang": "it",
+      "sentence": "Voglio dirlo subito, così non ci sono equivoci: domani non lavoro.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "9c97eab3-00b7-2e99-ddfa-d7ea4b4ac395",
+      "concept_id": "concept-b2-wohl-probability",
+      "lang": "it",
+      "sentence": "L'autobus non arriva, penso che sia bloccato nel traffico.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "543ad469-9f10-f092-9158-a150cbbe9bc0",
+      "concept_id": "concept-b2-nuance",
+      "lang": "it",
+      "sentence": "Tra stanco ed esausto c'è una piccola differenza.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "b3293037-fd4d-cd40-55e8-305dcb7e344c",
+      "concept_id": "concept-b2-dilemma",
+      "lang": "it",
+      "sentence": "Mi trasferisco lontano dalla famiglia o resto qui e rimango disoccupato?",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "df6e7e78-3791-3560-2bf9-218980481138",
+      "concept_id": "concept-b2-subtilitat",
+      "lang": "it",
+      "sentence": "Le sue battute sono così fini che non tutti le capiscono.",
+      "translation_lang": null,
+      "translation_text": null
     }
   ],
   "concept_definitions": [
@@ -27879,7 +28103,8 @@
         "farewell"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "f4c57801-260c-4027-ff73-0b38dee09fac",
@@ -27895,7 +28120,8 @@
         "Verabschiedung"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "f4c57801-260c-4027-ff73-0b38dee09fac",
@@ -27904,15 +28130,13 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
-      "synonyms_json": [
-        "formula di cortesia",
-        "formula di inizio"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "commiato"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "68b4d02c-8d77-9e8b-58ca-8a06e4bcd361",
@@ -27930,7 +28154,10 @@
         "formerly"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "at present": "exact"
+      }
     },
     {
       "concept_id": "68b4d02c-8d77-9e8b-58ca-8a06e4bcd361",
@@ -27949,7 +28176,11 @@
         "zukünftig"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "momentan": "exact",
+        "zurzeit": "exact"
+      }
     },
     {
       "concept_id": "68b4d02c-8d77-9e8b-58ca-8a06e4bcd361",
@@ -27970,7 +28201,7 @@
     {
       "concept_id": "76ddf07a-3708-809e-94da-35f0ec10678d",
       "lang": "en",
-      "short_definition": "a requirement that cannot be avoided or ignored",
+      "short_definition": "A requirement that cannot be avoided or ignored.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -27992,8 +28223,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "Erfordernis",
-        "Verpflichtung"
+        "Erfordernis"
       ],
       "antonyms_json": [
         "Optionalität",
@@ -28002,24 +28232,24 @@
         "Freiheit"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "76ddf07a-3708-809e-94da-35f0ec10678d",
       "lang": "it",
-      "short_definition": "Qualcosa che e indispensabile o strettamente necessario.",
+      "short_definition": "Qualcosa di cui non si può fare a meno.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "indispensabilità"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "opzionalità",
         "inutilità"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "99419c2d-e802-269c-bafb-4f54f91cde4c",
@@ -28040,7 +28270,10 @@
         "give up"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "obtain": "exact"
+      }
     },
     {
       "concept_id": "99419c2d-e802-269c-bafb-4f54f91cde4c",
@@ -28059,7 +28292,8 @@
         "entziehen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "99419c2d-e802-269c-bafb-4f54f91cde4c",
@@ -28077,7 +28311,10 @@
         "abbandonare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "ottenere": "exact"
+      }
     },
     {
       "concept_id": "concept-b2-vereinbaren",
@@ -28087,7 +28324,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "einigen",
+        "sich einigen",
         "absprechen"
       ],
       "antonyms_json": [
@@ -28098,7 +28335,10 @@
         "reason": "no_single_robust_opposite_for_agree_on_verb",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "absprechen": "exact"
+      }
     },
     {
       "concept_id": "concept-b2-vereinbaren",
@@ -28120,7 +28360,7 @@
       "concept_id": "concept-b2-vereinbaren",
       "lang": "en",
       "short_definition": "To settle or fix a date, rule, or condition together with someone.",
-      "usage_note": "This covers agreeing on a specific point, date, or condition.",
+      "usage_note": "Used here for deciding a specific point, date, or condition together.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -28154,7 +28394,8 @@
         "reason": "contextual_opposite_varies_for_binding_adjective",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-verbindlich-binding",
@@ -28176,7 +28417,7 @@
       "concept_id": "concept-b2-verbindlich-binding",
       "lang": "en",
       "short_definition": "Officially valid or fixed in a way that has to be respected.",
-      "usage_note": "Only the binding or obligatory sense is modeled here.",
+      "usage_note": "Used here for rules or decisions that must be followed.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -28192,7 +28433,7 @@
       "concept_id": "concept-b2-verhandlung-negotiation",
       "lang": "de",
       "short_definition": "Ein Gespräch oder eine Reihe von Gesprächen, in denen Bedingungen, Preise oder Entscheidungen ausgehandelt werden.",
-      "usage_note": "Hier nur der Sinn von Verhandlung als Gespräch oder Negotiation, nicht Gerichtsverhandlung.",
+      "usage_note": "Bezeichnet hier Gespräche über Bedingungen, Preise oder Entscheidungen, keinen Prozess vor Gericht.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
@@ -28206,7 +28447,8 @@
         "reason": "no_single_robust_opposite_for_negotiation_noun",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-verhandlung-negotiation",
@@ -28228,7 +28470,7 @@
       "concept_id": "concept-b2-verhandlung-negotiation",
       "lang": "en",
       "short_definition": "A discussion or series of discussions in which conditions, prices, or decisions are worked out.",
-      "usage_note": "Only the negotiation or talks sense is modeled here, not the courtroom-trial sense.",
+      "usage_note": "Used here for talks about terms, prices, or decisions, rather than a court hearing.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -28256,7 +28498,8 @@
         "reason": "no_single_robust_opposite_for_negotiate_verb",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-verhandeln-negotiation",
@@ -28294,7 +28537,7 @@
       "concept_id": "concept-b2-leisten-achieve",
       "lang": "de",
       "short_definition": "Mit Einsatz etwas schaffen, erreichen oder als Ergebnis hervorbringen.",
-      "usage_note": "Hier nur im Sinn von etwas erreichen oder zustande bringen, nicht im Sinn von sich etwas leisten = bezahlen können.",
+      "usage_note": "Bezeichnet hier das Erreichen eines Ergebnisses durch Einsatz, nicht die Fähigkeit, etwas zu bezahlen.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
@@ -28312,7 +28555,8 @@
         "reason": "no_single_robust_opposite_for_accomplish_verb",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-leisten-achieve",
@@ -28334,7 +28578,7 @@
       "concept_id": "concept-b2-leisten-achieve",
       "lang": "en",
       "short_definition": "To achieve, carry out, or produce something through effort.",
-      "usage_note": "Only the achieve or carry out sense is modeled here, not the afford sense.",
+      "usage_note": "Used here for achieving or carrying out something through effort.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -28363,13 +28607,14 @@
         "reason": "no_single_robust_opposite_for_require_as_precondition_verb",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-voraussetzen-requirement",
       "lang": "it",
-      "short_definition": "Esigere come condizione necessaria o presupporre come gia presente per poter procedere.",
-      "usage_note": "Qui solo nel senso di richiedere come prerequisito, non di supporre mentalmente qualcosa.",
+      "short_definition": "Avere bisogno di qualcosa perché un'attività sia possibile.",
+      "usage_note": "Qui indica una condizione necessaria per fare qualcosa, non una semplice supposizione.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -28384,8 +28629,8 @@
     {
       "concept_id": "concept-b2-voraussetzen-requirement",
       "lang": "en",
-      "short_definition": "To demand as a necessary condition or to need as already present.",
-      "usage_note": "Only the precondition sense is modeled here, not the sense of assuming something mentally.",
+      "short_definition": "To need something before an activity can take place.",
+      "usage_note": "Used here for needing something as a condition, rather than assuming it exists.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -28400,15 +28645,11 @@
     {
       "concept_id": "concept-b2-zusammenhaengen",
       "lang": "de",
-      "short_definition": "Inhaltlich oder ursachlich miteinander verbunden sein.",
+      "short_definition": "Inhaltlich oder durch Ursache und Wirkung miteinander verbunden sein.",
       "usage_note": "Hier nur die abstrakte Verbindung zwischen Fakten, Ereignissen oder Ideen.",
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "verbinden",
-        "in Verbindung bringen",
-        "zusammenbringen"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "trennen",
         "voneinander abhalten",
@@ -28419,7 +28660,8 @@
         "reason": "no_single_robust_opposite_for_be_connected_verb",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-zusammenhaengen",
@@ -28441,7 +28683,7 @@
       "concept_id": "concept-b2-zusammenhaengen",
       "lang": "en",
       "short_definition": "To be linked in content, cause, or meaning.",
-      "usage_note": "Only the abstract relation between facts, ideas, or events is modeled here.",
+      "usage_note": "Used here for relationships between facts, ideas, or events.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -28470,13 +28712,14 @@
         "reason": "no_single_robust_opposite_for_follow_reasoning_verb",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-nachvollziehen-reasoning",
       "lang": "it",
       "short_definition": "Capire mentalmente il ragionamento, la logica o il motivo di qualcosa.",
-      "usage_note": "Qui nel senso di riuscire a seguire un'argomentazione o una motivazione.",
+      "usage_note": "Qui indica il capire un ragionamento o i motivi di una scelta.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -28492,7 +28735,7 @@
       "concept_id": "concept-b2-nachvollziehen-reasoning",
       "lang": "en",
       "short_definition": "To understand the reasoning, logic, or motivation behind something.",
-      "usage_note": "Only the abstract reasoning sense is modeled here, not physical following.",
+      "usage_note": "Used here for understanding someone's reasoning or reasons, rather than moving behind them.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -28507,7 +28750,7 @@
     {
       "concept_id": "concept-b2-herausfordern",
       "lang": "de",
-      "short_definition": "Von jemandem oder etwas viel Einsatz, Fähigkeit oder eine starke Reaktion verlangen.",
+      "short_definition": "Von jemandem viel Einsatz oder Können verlangen.",
       "usage_note": "Hier im Sinn von fordern oder stark beanspruchen, nicht im engen Sinn einer formellen Herausforderung zum Duell.",
       "context_tags_json": [],
       "source": "manual",
@@ -28523,13 +28766,14 @@
         "reason": "no_single_robust_opposite_for_challenge_verb",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-herausfordern",
       "lang": "it",
-      "short_definition": "Richiedere molto impegno, capacità o una forte reazione a qualcuno o qualcosa.",
-      "usage_note": "Qui nel senso ampio di mettere alla prova, non solo di lanciare una sfida formale.",
+      "short_definition": "Mettere alla prova le capacità di qualcuno.",
+      "usage_note": "Qui indica una prova delle capacità, non un invito a una gara o a un duello.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -28544,8 +28788,8 @@
     {
       "concept_id": "concept-b2-herausfordern",
       "lang": "en",
-      "short_definition": "To demand a lot of effort, ability, or response from someone or something.",
-      "usage_note": "This covers the broader sense of testing or demanding a lot, not only a formal challenge.",
+      "short_definition": "To test someone's abilities by requiring effort or skill.",
+      "usage_note": "Used here for testing abilities rather than inviting someone to a contest.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -28575,13 +28819,14 @@
         "reason": "no_single_robust_opposite_for_challenging_adjective",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-herausfordernd",
       "lang": "it",
-      "short_definition": "Difficile e richiedente, tanto da domandare un vero impegno.",
-      "usage_note": "Puo riferirsi a compiti, situazioni, periodi o obiettivi.",
+      "short_definition": "Difficile e tale da richiedere molto lavoro o attenzione.",
+      "usage_note": "Può riferirsi a compiti, situazioni, periodi o obiettivi.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -28617,7 +28862,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "Verwirrung",
         "Fehlinterpretation",
         "Irrtum"
       ],
@@ -28631,7 +28875,8 @@
         "reason": "no_single_robust_opposite_for_misunderstanding_noun",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-missverstaendnis",
@@ -28684,7 +28929,10 @@
         "reason": "no_single_robust_opposite_for_misunderstand_verb",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "falsch verstehen": "exact"
+      }
     },
     {
       "concept_id": "concept-b2-missverstehen",
@@ -28721,8 +28969,8 @@
     {
       "concept_id": "concept-b2-beeindrucken",
       "lang": "de",
-      "short_definition": "Bei jemandem durch Qualität, Fähigkeit, Auftreten oder Leistung einen starken positiven Eindruck hinterlassen.",
-      "usage_note": "Hier geht es um einen spürbaren positiven Eindruck, nicht um bloßes Gefallen oder Zustimmung.",
+      "short_definition": "Bei jemandem wegen besonderer Fähigkeiten oder Leistungen große Achtung auslösen.",
+      "usage_note": "Bezeichnet hier eine starke positive Wirkung auf andere, nicht bloßes Gefallen.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
@@ -28737,13 +28985,14 @@
         "reason": "no_single_robust_opposite_for_impress_verb",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-beeindrucken",
       "lang": "it",
       "short_definition": "Lasciare una forte impressione positiva grazie a qualità, capacità, presenza o risultati.",
-      "usage_note": "Qui solo nel senso di fare impressione in positivo, non nel senso fisico di colpire.",
+      "usage_note": "Qui indica una forte reazione positiva alle qualità di qualcuno o qualcosa.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -28758,8 +29007,8 @@
     {
       "concept_id": "concept-b2-beeindrucken",
       "lang": "en",
-      "short_definition": "To leave a strong positive impression through quality, ability, presence, or results.",
-      "usage_note": "This covers making a noticeable positive impression, not simply being liked.",
+      "short_definition": "To make someone admire a person or thing for their abilities or qualities.",
+      "usage_note": "Used for causing strong admiration rather than simply being liked.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -28775,7 +29024,7 @@
       "concept_id": "concept-b2-klarstellen",
       "lang": "de",
       "short_definition": "Etwas so erklären oder formulieren, dass kein Missverständnis mehr bleibt.",
-      "usage_note": "Hier geht es um ausdrückliches Klarwerdenlassen einer Aussage, Position oder Situation.",
+      "usage_note": "Wird verwendet, wenn eine Aussage, Position oder Situation genau erklärt werden soll.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
@@ -28794,7 +29043,8 @@
         "reason": "no_single_robust_opposite_for_clarify_verb",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-klarstellen",
@@ -28816,7 +29066,7 @@
       "concept_id": "concept-b2-klarstellen",
       "lang": "en",
       "short_definition": "To explain or formulate something so that no misunderstanding remains.",
-      "usage_note": "This covers making a statement, position, or situation explicit and clear.",
+      "usage_note": "Used for explaining a statement, position, or situation precisely.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -28848,7 +29098,10 @@
         "reason": "contextual_opposite_varies_for_unambiguous_adjective",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "unzweideutig": "exact"
+      }
     },
     {
       "concept_id": "concept-b2-eindeutig",
@@ -28886,7 +29139,7 @@
       "concept_id": "concept-b2-einschaetzen",
       "lang": "de",
       "short_definition": "Etwas auf Grundlage von Erfahrung, Informationen oder Beobachtung beurteilen oder abschätzen.",
-      "usage_note": "Hier geht es um ein urteilendes Einschätzen, nicht um exaktes Messen.",
+      "usage_note": "Bezeichnet hier ein Urteil auf Grundlage von Erfahrung oder Informationen, keine genaue Messung.",
       "sense_indicator": "aus Erfahrung beurteilen",
       "context_tags_json": [],
       "source": "manual",
@@ -28899,13 +29152,14 @@
         "reason": "no_single_robust_opposite_for_assess_verb",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-einschaetzen",
       "lang": "it",
       "short_definition": "Giudicare o stimare qualcosa sulla base di esperienza, informazioni o osservazione.",
-      "usage_note": "Qui nel senso di farsi una valutazione ragionata, non di misurare con precisione.; stimare",
+      "usage_note": "Qui indica un giudizio basato su esperienza o informazioni, non una misura precisa.",
       "sense_indicator": "stimare per esperienza",
       "context_tags_json": [],
       "source": "manual",
@@ -28938,7 +29192,7 @@
     {
       "concept_id": "concept-b2-ueberzeugend",
       "lang": "de",
-      "short_definition": "So stark begründet oder präsentiert, dass es andere glaubhaft mitnimmt.",
+      "short_definition": "So gut erklärt oder begründet, dass andere es für richtig halten.",
       "usage_note": "Typisch für Argumente, Auftritte, Belege oder Konzepte.",
       "context_tags_json": [],
       "source": "manual",
@@ -28957,7 +29211,8 @@
         "reason": "contextual_opposite_varies_for_convincing_adjective",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-ueberzeugend",
@@ -29013,13 +29268,16 @@
         "reason": "contextual_opposite_varies_for_responsible_manner_adjective",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "verantwortungsbewusst": "exact"
+      }
     },
     {
       "concept_id": "concept-b2-verantwortungsvoll",
       "lang": "it",
       "short_definition": "Che agisce tenendo seriamente conto delle conseguenze e trattando con cura un compito o un ruolo.",
-      "usage_note": "Qui nel senso del modo di agire, non solo dell'essere formalmente incaricato.; coscienzioso",
+      "usage_note": "Qui descrive chi agisce con cura, pensando alle conseguenze delle proprie azioni.",
       "sense_indicator": "tiene conto delle conseguenze",
       "context_tags_json": [],
       "source": "manual",
@@ -29036,7 +29294,7 @@
       "concept_id": "concept-b2-verantwortungsvoll",
       "lang": "en",
       "short_definition": "Acting in a way that takes consequences seriously and treats a role or task with care.",
-      "usage_note": "This covers responsible conduct, not only formal responsibility or being in charge.; conscientious",
+      "usage_note": "Describes careful conduct that takes consequences seriously, rather than simply being in charge.",
       "sense_indicator": "takes consequences seriously",
       "context_tags_json": [],
       "source": "manual",
@@ -29072,12 +29330,15 @@
         "reason": "contextual_opposite_varies_for_reliable_adjective",
         "reviewed_at": "2026-03-30"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "verlässlich": "exact"
+      }
     },
     {
       "concept_id": "concept-b2-zuverlaessig",
       "lang": "it",
-      "short_definition": "Tale da potervi fare affidamento, perché funziona o agisce bene in modo costante.",
+      "short_definition": "Che agisce o funziona bene nel tempo, senza creare problemi.",
       "usage_note": "Può riferirsi a persone, informazioni, sistemi o processi.",
       "context_tags_json": [],
       "source": "manual",
@@ -29118,13 +29379,14 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-robust",
       "lang": "it",
       "short_definition": "Forte, solido e non facile da danneggiare o far cedere.",
-      "usage_note": "Puo riferirsi a persone, strutture, dispositivi o sistemi; qui non nel senso militare.",
+      "usage_note": "Può riferirsi a persone, strutture, dispositivi o sistemi; qui non nel senso militare.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
@@ -29132,7 +29394,10 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "solido": "exact"
+      }
     },
     {
       "concept_id": "concept-b2-robust",
@@ -29146,13 +29411,16 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "sturdy": "exact"
+      }
     },
     {
       "concept_id": "concept-b2-belastbar",
       "lang": "de",
-      "short_definition": "Fähig, Druck, Beanspruchung oder Belastung gut auszuhalten.",
-      "usage_note": "Kann Menschen, Teams, Systeme oder Materialien beschreiben; hier nicht im Sinn von belastbaren Zahlen oder Daten.",
+      "short_definition": "Fähig, auch bei hohem Druck oder großen Anforderungen gut zu funktionieren.",
+      "usage_note": "Kann Menschen, Teams, Systeme oder Materialien beschreiben.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
@@ -29167,13 +29435,14 @@
         "unzuverlässig"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-belastbar",
       "lang": "it",
       "short_definition": "Capace di reggere bene pressione, sforzo o richieste pesanti.",
-      "usage_note": "Puo riferirsi a persone, team, sistemi o materiali; qui non nel senso di dati affidabili o verificabili.",
+      "usage_note": "Può riferirsi a persone, gruppi, sistemi o materiali.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -29185,7 +29454,7 @@
       "concept_id": "concept-b2-belastbar",
       "lang": "en",
       "short_definition": "Able to cope well with pressure, strain, or heavy demands.",
-      "usage_note": "Can describe people, teams, systems, or materials; not the evidence or verifiable-data sense.",
+      "usage_note": "Can describe people, teams, systems, or materials.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -29205,13 +29474,16 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "verwundbar": "exact"
+      }
     },
     {
       "concept_id": "concept-b2-verletzlich",
       "lang": "it",
       "short_definition": "Facile da colpire, danneggiare o ferire sul piano personale o pratico.",
-      "usage_note": "Puo riferirsi a persone, relazioni, posizioni o sistemi.",
+      "usage_note": "Può riferirsi a persone, relazioni, posizioni o sistemi.",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -29234,7 +29506,7 @@
     {
       "concept_id": "concept-b2-beeindruckend",
       "lang": "de",
-      "short_definition": "So gut oder bemerkenswert, dass man tief beeindruckt ist.",
+      "short_definition": "So gut oder besonders, dass es große Achtung oder Begeisterung auslöst.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -29248,7 +29520,8 @@
         "ganz normal"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-beeindruckend",
@@ -29287,8 +29560,7 @@
       "source": "manual",
       "synonyms_json": [
         "verblüfft",
-        "erstaunt",
-        "fasziniert"
+        "erstaunt"
       ],
       "antonyms_json": [
         "erwartet",
@@ -29296,12 +29568,15 @@
         "gewohnt"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "erstaunt": "exact"
+      }
     },
     {
       "concept_id": "concept-b2-ueberrascht",
       "lang": "en",
-      "short_definition": "Feeling astonishment at something unexpected.",
+      "short_definition": "Feeling wonder or shock at something unexpected.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -29329,7 +29604,7 @@
     {
       "concept_id": "concept-b2-enttaeuschend",
       "lang": "de",
-      "short_definition": "nicht den Erwartungen gerecht werdend",
+      "short_definition": "Schlechter als erwartet.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -29344,12 +29619,13 @@
         "erwartungsgemäß"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-enttaeuschend",
       "lang": "en",
-      "short_definition": "Worse than expected, causing disappointment.",
+      "short_definition": "Worse than expected and making someone feel unhappy.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -29363,7 +29639,7 @@
     {
       "concept_id": "concept-b2-enttaeuschend",
       "lang": "it",
-      "short_definition": "Inferiore alle aspettative, che genera delusione.",
+      "short_definition": "Peggiore di quanto si sperava e quindi motivo di tristezza.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -29377,13 +29653,12 @@
     {
       "concept_id": "concept-b2-enttaeuscht",
       "lang": "de",
-      "short_definition": "Ein Gefühl, wenn Erwartungen nicht erfüllt wurden.",
+      "short_definition": "Traurig oder unzufrieden, weil etwas schlechter als erwartet ist.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
         "frustriert",
-        "verloren",
         "traurig"
       ],
       "antonyms_json": [
@@ -29391,7 +29666,8 @@
         "erfreut"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-enttaeuscht",
@@ -29411,7 +29687,7 @@
     {
       "concept_id": "concept-b2-enttaeuscht",
       "lang": "it",
-      "short_definition": "Che prova delusione perché le aspettative non sono state soddisfatte.",
+      "short_definition": "Triste o insoddisfatto perché qualcosa è peggio di quanto si sperava.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -29425,14 +29701,12 @@
     {
       "concept_id": "concept-b2-ueberraschend",
       "lang": "de",
-      "short_definition": "Unerwartet und deshalb bemerkbar.",
+      "short_definition": "Anders als erwartet und deshalb erstaunlich.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
         "erstaunlich",
-        "ungewöhnlich",
-        "außergewöhnlich",
         "unvorhergesehen"
       ],
       "antonyms_json": [
@@ -29441,12 +29715,13 @@
         "erwartet"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-ueberraschend",
       "lang": "en",
-      "short_definition": "unexpected and noticeable",
+      "short_definition": "Unexpected or unusual enough to make people notice.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -29460,7 +29735,7 @@
     {
       "concept_id": "concept-b2-ueberraschend",
       "lang": "it",
-      "short_definition": "Che causa sorpresa; inaspettato.",
+      "short_definition": "Che è diverso da quanto ci si aspettava.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -29477,8 +29752,7 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "das Missfallen",
-        "der Groll"
+        "das Missfallen"
       ],
       "antonyms_json": [
         "die Begeisterung",
@@ -29486,7 +29760,8 @@
         "Zufriedenheit"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-enttaeuschung",
@@ -29521,12 +29796,11 @@
     {
       "concept_id": "concept-b2-bewundernswert",
       "lang": "de",
-      "short_definition": "Verdient Bewunderung wegen Mut, Qualität oder Leistung.",
+      "short_definition": "Wegen besonderer Fähigkeiten oder Taten großen Respekt verdienend.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "erstaunlich",
         "herausragend",
         "lobenswert"
       ],
@@ -29542,7 +29816,8 @@
         "reason": "Adjective without a direct single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-bewundernswert",
@@ -29579,7 +29854,7 @@
     {
       "concept_id": "concept-b2-eindrucksvoll",
       "lang": "de",
-      "short_definition": "Beeindruckend und bemerkenswert.",
+      "short_definition": "So besonders, dass es stark auf Menschen wirkt.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -29594,7 +29869,8 @@
         "reason": "Adjective without a direct single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-eindrucksvoll",
@@ -29615,7 +29891,7 @@
     {
       "concept_id": "concept-b2-eindrucksvoll",
       "lang": "it",
-      "short_definition": "Che lascia un segno profondo per qualità o apparenza.",
+      "short_definition": "Che attira fortemente l'attenzione per il suo aspetto o la sua qualità.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -29645,7 +29921,8 @@
         "unwesentlich"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-relevant",
@@ -29691,7 +29968,8 @@
         "irrelevant"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-wesentlich",
@@ -29754,7 +30032,7 @@
     {
       "concept_id": "concept-b2-bedeutsam",
       "lang": "it",
-      "short_definition": "Di notevole importanza o significato.",
+      "short_definition": "Di grande importanza o ricco di senso.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -29783,7 +30061,10 @@
         "unwesentlich"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "bedeutend": "exact"
+      }
     },
     {
       "concept_id": "concept-b2-erheblich",
@@ -29823,7 +30104,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "geordnet",
         "rational",
         "unvoreingenommen"
       ],
@@ -29831,7 +30111,8 @@
         "voreingenommen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-objektiv",
@@ -29870,7 +30151,8 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-subjektiv",
@@ -29905,9 +30187,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "kernig"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "nebensächlich",
         "oberflächlich",
@@ -29916,7 +30196,8 @@
         "flüchtig"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-grundlegend",
@@ -29949,7 +30230,7 @@
     {
       "concept_id": "concept-b2-strittig",
       "lang": "de",
-      "short_definition": "Umstritten; nicht allgemein anerkannt.",
+      "short_definition": "So, dass Menschen darüber verschiedener Meinung sind.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -29962,7 +30243,10 @@
         "einwandfrei"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "umstritten": "exact"
+      }
     },
     {
       "concept_id": "concept-b2-strittig",
@@ -30003,7 +30287,6 @@
       "synonyms_json": [
         "bedeutend",
         "bemerkenswert",
-        "hervorragend",
         "auffällig"
       ],
       "antonyms_json": [
@@ -30013,7 +30296,8 @@
         "nebensächlich"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-nennenswert",
@@ -30059,7 +30343,11 @@
         "unpräzise"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "genau": "exact",
+        "exakt": "exact"
+      }
     },
     {
       "concept_id": "concept-b2-praezise",
@@ -30107,7 +30395,10 @@
         "definitiv"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "unpräzise": "exact"
+      }
     },
     {
       "concept_id": "concept-b2-vage",
@@ -30152,7 +30443,8 @@
         "unpräzise"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-ausdruecklich",
@@ -30192,12 +30484,14 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "doppelsinnig",
-        "unscharf"
+        "doppelsinnig"
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "doppelsinnig": "exact"
+      }
     },
     {
       "concept_id": "concept-b2-zweideutig",
@@ -30235,7 +30529,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "realistisch",
         "spezifisch"
       ],
       "antonyms_json": [
@@ -30243,12 +30536,13 @@
         "unbestimmbar"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-konkret",
       "lang": "en",
-      "short_definition": "Relating to specific, tangible facts or examples.",
+      "short_definition": "Based on specific facts or examples.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -30260,7 +30554,7 @@
     {
       "concept_id": "concept-b2-konkret",
       "lang": "it",
-      "short_definition": "Relativo a fatti o esempi specifici e tangibili.",
+      "short_definition": "Basato su fatti o esempi precisi.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -30284,7 +30578,8 @@
         "realistisch"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-abstrakt",
@@ -30326,7 +30621,8 @@
         "verdunkelt"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-offensichtlich",
@@ -30417,7 +30713,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "zwangsläufig",
         "zwingend"
       ],
       "antonyms_json": [
@@ -30425,7 +30720,8 @@
         "optional"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-verpflichtend",
@@ -30459,7 +30755,7 @@
     {
       "concept_id": "concept-b2-zustimmen",
       "lang": "de",
-      "short_definition": "Eine Zustimmung oder Einwilligung geben.",
+      "short_definition": "Einverstanden sein oder etwas erlauben.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -30469,7 +30765,10 @@
       ],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "einwilligen": "exact"
+      }
     },
     {
       "concept_id": "concept-b2-zustimmen",
@@ -30488,7 +30787,7 @@
     {
       "concept_id": "concept-b2-zustimmen",
       "lang": "it",
-      "short_definition": "Dare il proprio consenso o esprimere la stessa opinione.",
+      "short_definition": "Accettare una richiesta o permettere che qualcosa avvenga.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -30515,7 +30814,8 @@
         "unterstützen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-widersprechen",
@@ -30555,12 +30855,13 @@
         "verneinen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-bestaetigen",
       "lang": "en",
-      "short_definition": "To state the correctness of something or make it firm.",
+      "short_definition": "To state that something is true or that a plan will go ahead.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -30592,9 +30893,7 @@
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "der Vertrag"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [
         "der Streit",
         "der Konflikt",
@@ -30602,7 +30901,8 @@
         "die Auseinandersetzung"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-einigung",
@@ -30650,7 +30950,8 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-bedingung",
@@ -30700,7 +31001,8 @@
         "Unverbindlichkeit"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-zusage",
@@ -30719,7 +31021,7 @@
     {
       "concept_id": "concept-b2-zusage",
       "lang": "it",
-      "short_definition": "Un'assicurazione vincolante di fare qualcosa.",
+      "short_definition": "Una promessa precisa di fare qualcosa.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -30744,7 +31046,8 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-anforderung",
@@ -30800,7 +31103,8 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-zugestaendnis",
@@ -30855,12 +31159,13 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-druck",
       "lang": "en",
-      "short_definition": "A burdensome demand or expectation.",
+      "short_definition": "A difficult demand or expectation that makes someone feel worried.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -30876,7 +31181,7 @@
     {
       "concept_id": "concept-b2-druck",
       "lang": "it",
-      "short_definition": "Un'esigenza o aspettativa gravosa.",
+      "short_definition": "Una richiesta o aspettativa che crea preoccupazione o fatica.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -30908,7 +31213,8 @@
         "Leichtigkeit"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-stress",
@@ -30943,7 +31249,7 @@
     {
       "concept_id": "concept-b2-belastend",
       "lang": "de",
-      "short_definition": "Eine schwere oder drückende Last erzeugend.",
+      "short_definition": "So, dass es Sorgen, seelischen Druck oder große Anstrengung verursacht.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -30959,7 +31265,8 @@
         "schonend"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-belastend",
@@ -30992,7 +31299,7 @@
     {
       "concept_id": "concept-b2-ueberwaealtigt",
       "lang": "de",
-      "short_definition": "Von Gefühlen oder Anforderungen übermannt.",
+      "short_definition": "So stark von Gefühlen oder Aufgaben betroffen, dass man kaum damit umgehen kann.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -31007,7 +31314,8 @@
         "ruhig"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-ueberwaealtigt",
@@ -31042,7 +31350,7 @@
     {
       "concept_id": "concept-b2-widerstehen",
       "lang": "de",
-      "short_definition": "Einer Versuchung oder einem Druck standhaft entgegenwirken.",
+      "short_definition": "Einer Versuchung oder einem Druck nicht nachgeben.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -31058,7 +31366,8 @@
         "reason": "Verb without a single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-widerstehen",
@@ -31079,7 +31388,7 @@
     {
       "concept_id": "concept-b2-widerstehen",
       "lang": "it",
-      "short_definition": "Opporsi e reggere a una tentazione o a una pressione.",
+      "short_definition": "Non cedere a una tentazione o a una pressione.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -31107,7 +31416,8 @@
         "die Resignation"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-ausdauer",
@@ -31158,7 +31468,8 @@
         "reason": "Verb without a single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-durchhalten",
@@ -31208,7 +31519,8 @@
         "erfolgreich sein"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-scheitern",
@@ -31253,7 +31565,8 @@
         "entlasten"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-belasten",
@@ -31291,7 +31604,6 @@
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
-        "Rückgang",
         "Rückschritt",
         "Rückfall"
       ],
@@ -31305,7 +31617,8 @@
         "reason": "Noun with no single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-rueckschlag",
@@ -31342,7 +31655,7 @@
     {
       "concept_id": "concept-b2-nachweislich",
       "lang": "de",
-      "short_definition": "Durch Beweise erweislich.",
+      "short_definition": "So, dass es durch Beweise klar gezeigt werden kann.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -31360,7 +31673,8 @@
         "reason": "Adjective without a direct single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-nachweislich",
@@ -31381,7 +31695,7 @@
     {
       "concept_id": "concept-b2-nachweislich",
       "lang": "it",
-      "short_definition": "In modo che può essere provato con evidenza.",
+      "short_definition": "In un modo che può essere provato con fatti chiari.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "manual",
@@ -31397,7 +31711,7 @@
     {
       "concept_id": "concept-b2-vertretbar",
       "lang": "de",
-      "short_definition": "Rechtfertigung zulassend.",
+      "short_definition": "Mit guten Gründen zu rechtfertigen.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -31412,7 +31726,8 @@
         "ungültig"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-vertretbar",
@@ -31459,7 +31774,8 @@
         "reason": "Verb without a single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-abwaegen",
@@ -31510,7 +31826,11 @@
         "reason": "Verb without a single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "prüfen": "exact",
+        "kontrollieren": "exact"
+      }
     },
     {
       "concept_id": "concept-b2-ueberpruefen",
@@ -31563,7 +31883,8 @@
         "reason": "Verb without a single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-festlegen",
@@ -31613,7 +31934,8 @@
         "verkomplizieren"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-vereinfachen",
@@ -31659,7 +31981,8 @@
         "leugnen"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-belegen",
@@ -31705,7 +32028,11 @@
         "reason": "Verb without a single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {
+        "betonen": "exact",
+        "unterstreichen": "exact"
+      }
     },
     {
       "concept_id": "concept-b2-hervorheben",
@@ -31809,7 +32136,8 @@
         "reason": "Verb without a single-word lexical antonym at this level",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-auswerten",
@@ -31863,21 +32191,20 @@
     {
       "concept_id": "concept-b2-wohl-probability",
       "lang": "it",
-      "short_definition": "Esprime una supposizione o probabilità, spesso con una leggera incertezza.",
+      "short_definition": "Indica che qualcosa sembra vero, ma non è certo.",
       "usage_note": "direi",
       "sense_indicator": "supposizione, un po' incerta",
       "context_tags_json": [],
       "source": "manual",
-      "synonyms_json": [
-        "credo"
-      ],
+      "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": {
         "status": "intentionally_none",
         "reason": "German modal particle - has no standard lexical antonym across the modeled languages",
         "reviewed_at": "2026-05-25"
       },
-      "hint_text": null
+      "hint_text": null,
+      "synonym_tiers_json": {}
     },
     {
       "concept_id": "concept-b2-wohl-probability",
@@ -31911,7 +32238,7 @@
     {
       "concept_id": "concept-b2-nuance",
       "lang": "it",
-      "short_definition": "Una sottile differenza di significato o esecuzione.",
+      "short_definition": "Una piccola differenza di significato o nel modo di fare qualcosa.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -31923,7 +32250,7 @@
     {
       "concept_id": "concept-b2-nuance",
       "lang": "en",
-      "short_definition": "A subtle difference in meaning or execution.",
+      "short_definition": "A small difference in meaning or in how something is done.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -31971,7 +32298,7 @@
     {
       "concept_id": "concept-b2-subtilitat",
       "lang": "de",
-      "short_definition": "Feine, zarte und oft schwer zu erkennende Qualität.",
+      "short_definition": "Ein feiner Unterschied oder eine Besonderheit, die schwer zu bemerken ist.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -31985,7 +32312,7 @@
     {
       "concept_id": "concept-b2-subtilitat",
       "lang": "it",
-      "short_definition": "Qualità fine e delicata, spesso difficile da riconoscere.",
+      "short_definition": "Una piccola differenza o caratteristica difficile da notare.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",
@@ -31997,7 +32324,7 @@
     {
       "concept_id": "concept-b2-subtilitat",
       "lang": "en",
-      "short_definition": "A fine and delicate quality, often hard to notice.",
+      "short_definition": "A small difference or feature that is difficult to notice.",
       "usage_note": null,
       "context_tags_json": [],
       "source": "ai",

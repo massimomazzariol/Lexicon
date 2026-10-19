@@ -1,0 +1,1091 @@
+{
+  "comment": "Definition review of every B1 to C2 definition, usage note and sense indicator (2026-10): wrong sense, wrong language, spoilers, vocabulary harder than the word, missing capital or full stop. Same format as editorial_corrections_a1_a2.json.",
+  "corrections": {
+    "fef8f67b-8883-20ff-c027-67735487d38d": {
+      "en": {
+        "definition": "After some time, often after a delay or difficulty."
+      },
+      "de": {
+        "definition": "Nach einiger Zeit, oft nach Schwierigkeiten oder einer Verzögerung."
+      },
+      "it": {
+        "definition": "Dopo un certo tempo, spesso dopo attese o difficoltà."
+      }
+    },
+    "c1792d23-111c-1a16-efae-133d6bb4fb64": {
+      "de": {
+        "definition": "Wird verwendet, um eine Aussage zu berichtigen oder genauer zu erklären."
+      }
+    },
+    "916e8799-a429-9dfd-3f4c-5553af33dbd9": {
+      "en": {
+        "definition": "Used to add information beyond what was just mentioned."
+      },
+      "de": {
+        "definition": "Was die übrigen Dinge betrifft."
+      },
+      "it": {
+        "definition": "Per quanto riguarda le altre cose."
+      }
+    },
+    "03e06d4d-6e66-57de-675b-848282e41d06": {
+      "de": {
+        "definition": "Zeigt, dass etwas anders geschieht, als man erwarten würde."
+      },
+      "it": {
+        "definition": "Indica contrasto rispetto a ciò che ci si aspetta."
+      }
+    },
+    "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5": {
+      "en": {
+        "definition": "Used when everything someone says is unclear to you."
+      },
+      "de": {
+        "definition": "Wird gesagt, wenn einem alles Gesagte völlig unklar ist."
+      },
+      "it": {
+        "definition": "Usato quando non si riesce a dare un senso a ciò che viene detto."
+      }
+    },
+    "76ddf07a-3708-809e-94da-35f0ec10678d": {
+      "en": {
+        "definition": "A requirement that cannot be avoided or ignored."
+      },
+      "it": {
+        "definition": "Qualcosa di cui non si può fare a meno."
+      }
+    },
+    "8f698c56-8c4a-4fde-1a01-9050abcb2a45": {
+      "de": {
+        "definition": "Die Menge einer Sache, die gebraucht wird."
+      },
+      "it": {
+        "definition": "La quantità di qualcosa di cui si ha bisogno."
+      }
+    },
+    "f2dddaa7-908e-fe4c-9d44-508a3617791f": {
+      "it": {
+        "definition": "Che ha logica e utilità pratica."
+      }
+    },
+    "e718be7a-3d76-3ce3-db35-35ba3b93eaa0": {
+      "en": {
+        "definition": "Worth a lot of money or very important."
+      },
+      "de": {
+        "definition": "Sehr wichtig oder so beschaffen, dass man viel Geld dafür bekommen kann."
+      }
+    },
+    "25b5725b-13ce-48ce-2a99-7bb508a4de54": {
+      "de": {
+        "definition": "Ohne Nutzen, Bedeutung oder möglichen Verkaufspreis."
+      },
+      "it": {
+        "definition": "Che non ha utilità o importanza reale."
+      }
+    },
+    "18e272ee-84df-dc32-fa8c-4335c5ffaf5c": {
+      "en": {
+        "definition": "To watch or look at something carefully."
+      },
+      "de": {
+        "definition": "Etwas aufmerksam ansehen."
+      },
+      "it": {
+        "definition": "Guardare qualcosa con attenzione."
+      }
+    },
+    "dcac462c-da14-34b2-8201-977a04e36d35": {
+      "de": {
+        "definition": "Beschreibt, was nach allen Ereignissen oder Handlungen herauskommt."
+      }
+    },
+    "ed8e2fd9-341b-1cad-7908-35e22a2f2388": {
+      "it": {
+        "definition": "Una richiesta formale rivolta a un'autorità."
+      }
+    },
+    "concept-b1-eindruck": {
+      "de": {
+        "definition": "Das Bild oder Gefühl, das eine Person oder Sache bei jemandem auslöst."
+      }
+    },
+    "concept-b1-auswirkung": {
+      "it": {
+        "definition": "Il risultato di un'azione o di un evento."
+      },
+      "en": {
+        "definition": "A consequence caused by something."
+      }
+    },
+    "concept-b1-entstehen": {
+      "it": {
+        "definition": "Comparire o cominciare a svilupparsi."
+      },
+      "en": {
+        "definition": "To appear or begin to develop."
+      }
+    },
+    "concept-b1-foerdern": {
+      "it": {
+        "definition": "Sostenere qualcosa o contribuire al suo sviluppo."
+      }
+    },
+    "concept-b1-ueberzeugen": {
+      "en": {
+        "definition": "To make someone believe or do something by giving good reasons."
+      }
+    },
+    "concept-b1-behaupten": {
+      "de": {
+        "definition": "Etwas als wahr darstellen, ohne es zu beweisen."
+      }
+    },
+    "concept-b1-durchfuehren": {
+      "de": {
+        "definition": "Eine geplante Aufgabe oder Tätigkeit ausführen."
+      },
+      "it": {
+        "definition": "Eseguire un'attività o un compito previsto."
+      },
+      "en": {
+        "definition": "To do a planned task or activity."
+      }
+    },
+    "concept-b1-begeistert": {
+      "it": {
+        "definition": "Pieno di gioia e di grande interesse per qualcosa."
+      },
+      "en": {
+        "definition": "Full of interest and excitement about something."
+      }
+    },
+    "concept-b1-bewusst": {
+      "de": {
+        "definition": "Mit dem Wissen, dass etwas existiert oder geschieht."
+      },
+      "it": {
+        "definition": "Che sa o si rende conto di qualcosa."
+      },
+      "en": {
+        "definition": "Knowing that something exists or is happening."
+      }
+    },
+    "concept-b1-unabhaengig": {
+      "de": {
+        "definition": "Frei, selbst zu entscheiden und ohne fremde Hilfe zu handeln."
+      },
+      "it": {
+        "definition": "Libero di decidere e agire senza l'aiuto degli altri."
+      },
+      "en": {
+        "definition": "Free to decide and act without help from others."
+      }
+    },
+    "concept-b1-keinesfalls": {
+      "en": {
+        "definition": "Never, whatever the situation."
+      }
+    },
+    "concept-b1-teilweise": {
+      "de": {
+        "definition": "Weniger als ganz, aber mehr als gar nicht."
+      }
+    },
+    "concept-b1-folglich": {
+      "de": {
+        "definition": "Aus diesem Grund; deshalb."
+      },
+      "it": {
+        "definition": "Per questo motivo; quindi."
+      }
+    },
+    "concept-b1-dagegen": {
+      "de": {
+        "definition": "Gegen etwas gerichtet oder damit nicht einverstanden."
+      }
+    },
+    "concept-b1-weltweit": {
+      "de": {
+        "definition": "In allen Ländern oder überall auf der Erde."
+      },
+      "it": {
+        "definition": "In ogni paese o in tutto il pianeta."
+      },
+      "en": {
+        "definition": "All around the world."
+      }
+    },
+    "concept-b1-langfristig": {
+      "de": {
+        "definition": "Über einen langen Zeitraum oder auf längere Sicht."
+      },
+      "it": {
+        "definition": "Per un periodo lungo o guardando al futuro lontano."
+      },
+      "en": {
+        "definition": "Over a long period or far into the future."
+      }
+    },
+    "concept-b1-auf-dauer": {
+      "de": {
+        "definition": "Über einen längeren Zeitraum hinweg."
+      },
+      "it": {
+        "definition": "Dopo che è passato molto tempo."
+      },
+      "en": {
+        "definition": "After a long time has passed."
+      }
+    },
+    "concept-b1-empfindlich": {
+      "de": {
+        "usage_note": "Kann Personen, Haut, Geräte oder Materialien beschreiben."
+      },
+      "it": {
+        "usage_note": "Può riferirsi a persone, pelle, dispositivi o materiali."
+      },
+      "en": {
+        "usage_note": "Can describe people, skin, devices, or materials."
+      }
+    },
+    "concept-b1-leistung": {
+      "de": {
+        "usage_note": "Bezeichnet hier die Qualität einer Arbeit oder ein erreichtes Niveau."
+      },
+      "it": {
+        "definition": "Ciò che una persona o un sistema riesce a fare nel lavoro, nello studio, nello sport o in campo tecnico."
+      }
+    },
+    "concept-b1-spitze-lace": {
+      "de": {
+        "usage_note": "Bezeichnet hier einen dekorativen Stoff, keine Form oder Rangposition."
+      },
+      "en": {
+        "usage_note": "Used here for a type of decorative fabric."
+      }
+    },
+    "concept-b1-spitze-top-position": {
+      "de": {
+        "usage_note": "Bezeichnet hier eine führende Stellung, keinen Gegenstand oder Stoff."
+      },
+      "it": {
+        "definition": "La posizione più alta o di guida in una classifica, in un gruppo o in una struttura."
+      }
+    },
+    "concept-b1-spitz-cutting": {
+      "en": {
+        "usage_note": "Used here for hurtful words or tone of voice."
+      }
+    },
+    "concept-b2-vereinbaren": {
+      "en": {
+        "usage_note": "Used here for deciding a specific point, date, or condition together."
+      }
+    },
+    "concept-b2-verbindlich-binding": {
+      "en": {
+        "usage_note": "Used here for rules or decisions that must be followed."
+      }
+    },
+    "concept-b2-verhandlung-negotiation": {
+      "de": {
+        "usage_note": "Bezeichnet hier Gespräche über Bedingungen, Preise oder Entscheidungen, keinen Prozess vor Gericht."
+      },
+      "en": {
+        "usage_note": "Used here for talks about terms, prices, or decisions, rather than a court hearing."
+      }
+    },
+    "concept-b2-leisten-achieve": {
+      "de": {
+        "usage_note": "Bezeichnet hier das Erreichen eines Ergebnisses durch Einsatz, nicht die Fähigkeit, etwas zu bezahlen."
+      },
+      "en": {
+        "usage_note": "Used here for achieving or carrying out something through effort."
+      }
+    },
+    "concept-c1-leistungsfaehig": {
+      "it": {
+        "definition": "Capace di lavorare bene e ottenere buoni risultati anche sotto pressione.",
+        "usage_note": "Può riferirsi a persone, gruppi, sistemi o dispositivi."
+      },
+      "en": {
+        "definition": "Able to work well and produce good results even under pressure."
+      }
+    },
+    "concept-c1-leistungsfaehigkeit": {
+      "it": {
+        "definition": "Quanto lavoro una persona o una macchina può svolgere e con quali risultati.",
+        "usage_note": "Quanto lavoro una persona o una macchina può svolgere e con quali risultati."
+      },
+      "en": {
+        "definition": "The ability to produce good results even under pressure."
+      }
+    },
+    "concept-b2-voraussetzen-requirement": {
+      "it": {
+        "definition": "Avere bisogno di qualcosa perché un'attività sia possibile.",
+        "usage_note": "Qui indica una condizione necessaria per fare qualcosa, non una semplice supposizione."
+      },
+      "en": {
+        "definition": "To need something before an activity can take place.",
+        "usage_note": "Used here for needing something as a condition, rather than assuming it exists."
+      }
+    },
+    "concept-c1-bedingen": {
+      "it": {
+        "usage_note": "Qui nel senso più formale di implicare o rendere necessario."
+      },
+      "en": {
+        "usage_note": "Used formally for consequences or necessary further steps."
+      }
+    },
+    "concept-b2-zusammenhaengen": {
+      "de": {
+        "definition": "Inhaltlich oder durch Ursache und Wirkung miteinander verbunden sein."
+      },
+      "en": {
+        "usage_note": "Used here for relationships between facts, ideas, or events."
+      }
+    },
+    "concept-b2-nachvollziehen-reasoning": {
+      "it": {
+        "usage_note": "Qui indica il capire un ragionamento o i motivi di una scelta."
+      },
+      "en": {
+        "usage_note": "Used here for understanding someone's reasoning or reasons, rather than moving behind them."
+      }
+    },
+    "concept-c1-nachvollziehbar": {
+      "en": {
+        "definition": "Possible to understand."
+      }
+    },
+    "concept-b2-herausfordern": {
+      "de": {
+        "definition": "Von jemandem viel Einsatz oder Können verlangen."
+      },
+      "it": {
+        "definition": "Mettere alla prova le capacità di qualcuno.",
+        "usage_note": "Qui indica una prova delle capacità, non un invito a una gara o a un duello."
+      },
+      "en": {
+        "definition": "To test someone's abilities by requiring effort or skill.",
+        "usage_note": "Used here for testing abilities rather than inviting someone to a contest."
+      }
+    },
+    "concept-b2-herausfordernd": {
+      "it": {
+        "definition": "Difficile e tale da richiedere molto lavoro o attenzione.",
+        "usage_note": "Può riferirsi a compiti, situazioni, periodi o obiettivi."
+      }
+    },
+    "concept-b2-beeindrucken": {
+      "de": {
+        "definition": "Bei jemandem wegen besonderer Fähigkeiten oder Leistungen große Achtung auslösen.",
+        "usage_note": "Bezeichnet hier eine starke positive Wirkung auf andere, nicht bloßes Gefallen."
+      },
+      "it": {
+        "usage_note": "Qui indica una forte reazione positiva alle qualità di qualcuno o qualcosa."
+      },
+      "en": {
+        "definition": "To make someone admire a person or thing for their abilities or qualities.",
+        "usage_note": "Used for causing strong admiration rather than simply being liked."
+      }
+    },
+    "concept-b2-klarstellen": {
+      "de": {
+        "usage_note": "Wird verwendet, wenn eine Aussage, Position oder Situation genau erklärt werden soll."
+      },
+      "en": {
+        "usage_note": "Used for explaining a statement, position, or situation precisely."
+      }
+    },
+    "concept-b2-einschaetzen": {
+      "de": {
+        "usage_note": "Bezeichnet hier ein Urteil auf Grundlage von Erfahrung oder Informationen, keine genaue Messung."
+      },
+      "it": {
+        "usage_note": "Qui indica un giudizio basato su esperienza o informazioni, non una misura precisa."
+      }
+    },
+    "concept-c1-einschaetzung": {
+      "de": {
+        "usage_note": "Typisch für Urteile über Situationen, Risiken oder Personen."
+      },
+      "it": {
+        "definition": "Un giudizio basato su esperienza, informazioni o osservazione.",
+        "usage_note": "Tipico per giudizi su situazioni, rischi o persone."
+      },
+      "en": {
+        "definition": "A judgment based on experience, information, or observation."
+      }
+    },
+    "concept-b2-ueberzeugend": {
+      "de": {
+        "definition": "So gut erklärt oder begründet, dass andere es für richtig halten."
+      }
+    },
+    "concept-b2-verantwortungsvoll": {
+      "it": {
+        "usage_note": "Qui descrive chi agisce con cura, pensando alle conseguenze delle proprie azioni."
+      },
+      "en": {
+        "usage_note": "Describes careful conduct that takes consequences seriously, rather than simply being in charge."
+      }
+    },
+    "concept-b2-zuverlaessig": {
+      "it": {
+        "definition": "Che agisce o funziona bene nel tempo, senza creare problemi."
+      }
+    },
+    "concept-c1-einordnen": {
+      "en": {
+        "definition": "To explain how something relates to a wider situation."
+      }
+    },
+    "concept-c1-einordnung": {
+      "de": {
+        "definition": "Die Erklärung, wie eine Sache mit anderen Dingen zusammenhängt."
+      },
+      "it": {
+        "definition": "La spiegazione dei legami tra qualcosa e la situazione generale."
+      },
+      "en": {
+        "definition": "An explanation of how something relates to a wider situation."
+      }
+    },
+    "concept-b2-robust": {
+      "it": {
+        "usage_note": "Può riferirsi a persone, strutture, dispositivi o sistemi; qui non nel senso militare."
+      }
+    },
+    "concept-b2-belastbar": {
+      "de": {
+        "definition": "Fähig, auch bei hohem Druck oder großen Anforderungen gut zu funktionieren.",
+        "usage_note": "Kann Menschen, Teams, Systeme oder Materialien beschreiben."
+      },
+      "it": {
+        "usage_note": "Può riferirsi a persone, gruppi, sistemi o materiali."
+      },
+      "en": {
+        "usage_note": "Can describe people, teams, systems, or materials."
+      }
+    },
+    "concept-b2-verletzlich": {
+      "it": {
+        "usage_note": "Può riferirsi a persone, relazioni, posizioni o sistemi."
+      }
+    },
+    "concept-b1-vorschlagen": {
+      "it": {
+        "definition": "Presentare un'idea perché gli altri possano valutarla."
+      }
+    },
+    "concept-b1-verbesserung": {
+      "de": {
+        "definition": "Eine Veränderung, durch die die Qualität von etwas steigt."
+      },
+      "it": {
+        "definition": "Un cambiamento che aumenta la qualità di qualcosa."
+      }
+    },
+    "concept-b1-klaeren": {
+      "de": {
+        "definition": "Eine Frage beantworten oder ein Problem verständlich erklären."
+      }
+    },
+    "concept-b1-umgehen": {
+      "it": {
+        "definition": "Occuparsi di una situazione difficile e cercare di controllarla."
+      }
+    },
+    "concept-b1-ansprechen": {
+      "de": {
+        "definition": "Ein Thema zur Sprache bringen."
+      },
+      "en": {
+        "definition": "To bring up a topic and deal with it."
+      },
+      "it": {
+        "definition": "Parlare di un argomento e occuparsene."
+      }
+    },
+    "concept-b1-zunaechst": {
+      "de": {
+        "definition": "Am Anfang; als Erstes in einer Reihe von Schritten."
+      }
+    },
+    "concept-b1-zudem": {
+      "de": {
+        "definition": "Außerdem; als weiteres Argument oder zusätzlicher Punkt."
+      }
+    },
+    "concept-b1-rueckmeldung": {
+      "de": {
+        "definition": "Eine Antwort auf eine Anfrage oder ein Urteil über eine Arbeit."
+      },
+      "en": {
+        "definition": "A response to a request or comments about someone's work."
+      }
+    },
+    "concept-b2-beeindruckend": {
+      "de": {
+        "definition": "So gut oder besonders, dass es große Achtung oder Begeisterung auslöst."
+      }
+    },
+    "concept-b2-ueberrascht": {
+      "en": {
+        "definition": "Feeling wonder or shock at something unexpected."
+      }
+    },
+    "concept-b2-enttaeuschend": {
+      "de": {
+        "definition": "Schlechter als erwartet."
+      },
+      "en": {
+        "definition": "Worse than expected and making someone feel unhappy."
+      },
+      "it": {
+        "definition": "Peggiore di quanto si sperava e quindi motivo di tristezza."
+      }
+    },
+    "concept-b2-enttaeuscht": {
+      "de": {
+        "definition": "Traurig oder unzufrieden, weil etwas schlechter als erwartet ist."
+      },
+      "it": {
+        "definition": "Triste o insoddisfatto perché qualcosa è peggio di quanto si sperava."
+      }
+    },
+    "concept-b2-ueberraschend": {
+      "de": {
+        "definition": "Anders als erwartet und deshalb erstaunlich."
+      },
+      "en": {
+        "definition": "Unexpected or unusual enough to make people notice."
+      },
+      "it": {
+        "definition": "Che è diverso da quanto ci si aspettava."
+      }
+    },
+    "concept-b2-bewundernswert": {
+      "de": {
+        "definition": "Wegen besonderer Fähigkeiten oder Taten großen Respekt verdienend."
+      }
+    },
+    "concept-b2-eindrucksvoll": {
+      "de": {
+        "definition": "So besonders, dass es stark auf Menschen wirkt."
+      },
+      "it": {
+        "definition": "Che attira fortemente l'attenzione per il suo aspetto o la sua qualità."
+      }
+    },
+    "concept-b2-bedeutsam": {
+      "it": {
+        "definition": "Di grande importanza o ricco di senso."
+      }
+    },
+    "concept-b2-strittig": {
+      "de": {
+        "definition": "So, dass Menschen darüber verschiedener Meinung sind."
+      }
+    },
+    "concept-b2-konkret": {
+      "en": {
+        "definition": "Based on specific facts or examples."
+      },
+      "it": {
+        "definition": "Basato su fatti o esempi precisi."
+      }
+    },
+    "concept-b2-zustimmen": {
+      "de": {
+        "definition": "Einverstanden sein oder etwas erlauben."
+      },
+      "it": {
+        "definition": "Accettare una richiesta o permettere che qualcosa avvenga."
+      }
+    },
+    "concept-b2-bestaetigen": {
+      "en": {
+        "definition": "To state that something is true or that a plan will go ahead."
+      }
+    },
+    "concept-b2-zusage": {
+      "it": {
+        "definition": "Una promessa precisa di fare qualcosa."
+      }
+    },
+    "concept-b2-druck": {
+      "en": {
+        "definition": "A difficult demand or expectation that makes someone feel worried."
+      },
+      "it": {
+        "definition": "Una richiesta o aspettativa che crea preoccupazione o fatica."
+      }
+    },
+    "concept-b2-belastend": {
+      "de": {
+        "definition": "So, dass es Sorgen, seelischen Druck oder große Anstrengung verursacht."
+      }
+    },
+    "concept-b2-ueberwaealtigt": {
+      "de": {
+        "definition": "So stark von Gefühlen oder Aufgaben betroffen, dass man kaum damit umgehen kann."
+      }
+    },
+    "concept-b2-widerstehen": {
+      "de": {
+        "definition": "Einer Versuchung oder einem Druck nicht nachgeben."
+      },
+      "it": {
+        "definition": "Non cedere a una tentazione o a una pressione."
+      }
+    },
+    "concept-b2-nachweislich": {
+      "de": {
+        "definition": "So, dass es durch Beweise klar gezeigt werden kann."
+      },
+      "it": {
+        "definition": "In un modo che può essere provato con fatti chiari."
+      }
+    },
+    "concept-b2-vertretbar": {
+      "de": {
+        "definition": "Mit guten Gründen zu rechtfertigen."
+      }
+    },
+    "concept-c1-einwand": {
+      "de": {
+        "definition": "Ein Grund, der gegen eine Idee oder Entscheidung spricht."
+      },
+      "it": {
+        "definition": "Un motivo per non accettare un'idea o una decisione."
+      }
+    },
+    "concept-c1-nachweis": {
+      "it": {
+        "definition": "Un documento o un fatto che conferma un'affermazione."
+      }
+    },
+    "concept-c1-praemisse": {
+      "it": {
+        "definition": "Un'idea considerata vera da cui parte un ragionamento."
+      }
+    },
+    "concept-c1-plausibel": {
+      "de": {
+        "definition": "So verständlich und vernünftig, dass es wahr sein könnte."
+      }
+    },
+    "concept-c1-stichhaltig": {
+      "en": {
+        "definition": "Based on good reasons and difficult to prove wrong."
+      }
+    },
+    "concept-c1-beurteilung": {
+      "de": {
+        "definition": "Ein Urteil über die Qualität oder den Zustand von etwas."
+      },
+      "en": {
+        "definition": "A judgment about the quality or condition of something."
+      },
+      "it": {
+        "definition": "Un giudizio sul valore o sulla qualità di qualcosa."
+      }
+    },
+    "concept-c1-zentral": {
+      "it": {
+        "definition": "Molto importante per una questione o attività."
+      }
+    },
+    "concept-c1-massgeblich": {
+      "de": {
+        "definition": "So wichtig, dass es ein Ergebnis stark beeinflusst."
+      },
+      "en": {
+        "definition": "So important that it decides the final result."
+      }
+    },
+    "concept-c1-konsequent": {
+      "de": {
+        "sense_indicator": "den eigenen Prinzipien treu"
+      },
+      "it": {
+        "definition": "Che agisce secondo i propri principi, senza contraddirli."
+      }
+    },
+    "concept-c1-strukturiert": {
+      "it": {
+        "definition": "Organizzato in parti chiare e ben collegate."
+      }
+    },
+    "concept-c1-differenzieren": {
+      "en": {
+        "definition": "To recognize and describe small differences between similar things."
+      },
+      "it": {
+        "definition": "Riconoscere e descrivere piccole differenze tra cose simili."
+      }
+    },
+    "concept-c1-verknuepfen": {
+      "it": {
+        "definition": "Mettere in relazione due o più cose o idee."
+      }
+    },
+    "concept-c2-unerschuetterlich": {
+      "de": {
+        "definition": "Auch bei Schwierigkeiten oder Zweifeln fest bei seiner Haltung bleibend."
+      }
+    },
+    "concept-c2-tiefgreifend": {
+      "de": {
+        "definition": "So stark, dass es etwas grundsätzlich verändert."
+      },
+      "it": {
+        "definition": "Che provoca cambiamenti importanti e duraturi."
+      }
+    },
+    "concept-c2-praedominant": {
+      "de": {
+        "definition": "Stärker oder häufiger als alles andere."
+      }
+    },
+    "concept-b1-doch-contradiction": {
+      "it": {
+        "usage_note": "La parola tedesca serve anche a rispondere affermativamente a una frase negativa; in italiano si può usare «sì, invece»."
+      },
+      "en": {
+        "usage_note": "The German word can answer a negative statement positively; English often uses a positive reply such as “Yes, I did.”"
+      }
+    },
+    "concept-b1-doch-encouragement": {
+      "it": {
+        "usage_note": "La parola tedesca rende un invito più amichevole o incoraggiante; la traduzione dipende dal contesto."
+      },
+      "en": {
+        "usage_note": "The German word can make a request sound friendlier or more encouraging; the translation depends on the sentence."
+      }
+    },
+    "concept-b1-mal-softening": {
+      "it": {
+        "usage_note": "La parola tedesca rende una richiesta meno diretta; in italiano si può usare una forma di cortesia."
+      },
+      "en": {
+        "usage_note": "The German word makes a request sound less direct; its translation depends on the sentence."
+      }
+    },
+    "concept-b1-halt-eben-fatalism": {
+      "it": {
+        "usage_note": "La parola tedesca presenta un fatto come ovvio o difficile da cambiare; la traduzione dipende dal contesto."
+      },
+      "en": {
+        "usage_note": "The German word presents a fact as obvious or difficult to change; its translation depends on the sentence."
+      }
+    },
+    "concept-b1-ja-shared-knowledge": {
+      "it": {
+        "usage_note": "La parola tedesca presenta un fatto come già noto a chi ascolta; la traduzione dipende dalla frase."
+      },
+      "en": {
+        "usage_note": "The German word presents a fact as already known to the listener; its translation depends on the sentence."
+      }
+    },
+    "concept-b2-wohl-probability": {
+      "it": {
+        "definition": "Indica che qualcosa sembra vero, ma non è certo."
+      }
+    },
+    "concept-b2-nuance": {
+      "it": {
+        "definition": "Una piccola differenza di significato o nel modo di fare qualcosa."
+      },
+      "en": {
+        "definition": "A small difference in meaning or in how something is done."
+      }
+    },
+    "concept-b2-subtilitat": {
+      "de": {
+        "definition": "Ein feiner Unterschied oder eine Besonderheit, die schwer zu bemerken ist."
+      },
+      "it": {
+        "definition": "Una piccola differenza o caratteristica difficile da notare."
+      },
+      "en": {
+        "definition": "A small difference or feature that is difficult to notice."
+      }
+    },
+    "concept-c1-bewaeltigen": {
+      "de": {
+        "definition": "Eine schwierige Aufgabe erledigen oder mit einer schwierigen Situation zurechtkommen."
+      },
+      "en": {
+        "definition": "To deal successfully with a difficult task or situation."
+      },
+      "it": {
+        "definition": "Affrontare e gestire con successo un compito o una situazione difficile."
+      }
+    },
+    "concept-c1-gewaehrleisten": {
+      "it": {
+        "definition": "Fare in modo che una condizione sia rispettata o che qualcosa funzioni bene."
+      }
+    },
+    "concept-c1-absehbar": {
+      "it": {
+        "definition": "Che si può conoscere in anticipo in base alla situazione attuale."
+      }
+    },
+    "concept-c1-verdeutlichen": {
+      "de": {
+        "usage_note": "Häufig beim Erklären von Ideen, Zusammenhängen oder Ergebnissen."
+      }
+    },
+    "concept-c2-inbegriff": {
+      "de": {
+        "usage_note": "Häufig mit einem Genitiv oder mit von und Dativ."
+      }
+    },
+    "concept-c2-tragweite": {
+      "en": {
+        "definition": "The effects of an action or decision, often complicated or unwanted."
+      },
+      "it": {
+        "usage_note": "Qui indica l'ampiezza delle conseguenze, non la quantità d'acqua di un fiume o una parte del pasto."
+      }
+    },
+    "concept-c2-stringent": {
+      "en": {
+        "definition": "Based on careful reasoning without gaps."
+      }
+    },
+    "concept-c2-kohaerent": {
+      "it": {
+        "definition": "Logico e ben collegato, senza contraddizioni."
+      }
+    },
+    "concept-c2-praegnant": {
+      "it": {
+        "definition": "Breve, chiaro e capace di colpire chi ascolta o legge."
+      }
+    },
+    "concept-c2-vielschichtig": {
+      "en": {
+        "definition": "Having several connected levels or meanings."
+      }
+    },
+    "concept-c2-befangen": {
+      "de": {
+        "definition": "In seinem Urteil durch persönliche Interessen oder feste Vorurteile beeinflusst.",
+        "usage_note": "Auch vor Gericht: Ein Richter kann wegen seiner Nähe zu einer Partei abgelehnt werden."
+      },
+      "en": {
+        "definition": "Influenced by personal interests or fixed opinions when judging something."
+      },
+      "it": {
+        "definition": "Influenzato da interessi personali o pregiudizi nel giudicare qualcosa."
+      }
+    },
+    "concept-c2-rueckblickend": {
+      "it": {
+        "definition": "Guardando al passato con le conoscenze di adesso."
+      }
+    },
+    "concept-c2-zwiespalt": {
+      "it": {
+        "definition": "La sensazione di essere divisi tra due sentimenti o desideri opposti."
+      }
+    },
+    "concept-c2-konsens": {
+      "de": {
+        "definition": "Eine weitgehende Übereinstimmung innerhalb einer Gruppe.",
+        "usage_note": "Kann durch Gespräche und Verhandlungen entstehen."
+      },
+      "en": {
+        "definition": "General agreement within a group."
+      },
+      "it": {
+        "definition": "Un accordo generale all'interno di un gruppo."
+      }
+    },
+    "concept-c2-paradebeispiel": {
+      "de": {
+        "definition": "Ein besonders typischer Fall, der etwas sehr deutlich zeigt."
+      },
+      "en": {
+        "definition": "A particularly clear or typical case of something."
+      },
+      "it": {
+        "definition": "Un caso particolarmente chiaro o tipico di qualcosa."
+      }
+    },
+    "concept-c2-entkraeften": {
+      "de": {
+        "usage_note": "Ein Argument oder Verdacht verliert an Gewicht, ohne dass das Gegenteil bewiesen sein muss."
+      },
+      "en": {
+        "definition": "To show that an argument or claim is weak or wrong."
+      },
+      "it": {
+        "definition": "Togliere forza a un argomento o a un sospetto."
+      }
+    },
+    "concept-c2-veranschaulichen": {
+      "de": {
+        "definition": "Etwas Schwieriges durch Beispiele, Bilder oder Vergleiche leichter verständlich machen.",
+        "usage_note": "Häufig mit Beispielen, Bildern oder Vergleichen."
+      },
+      "it": {
+        "definition": "Spiegare un'idea con immagini, esempi o paragoni."
+      }
+    },
+    "concept-c2-muenden": {
+      "en": {
+        "definition": "To end in a particular result after a series of events."
+      },
+      "it": {
+        "definition": "Arrivare a un certo risultato dopo una serie di eventi.",
+        "usage_note": "Qui indica il risultato di una serie di eventi, non il movimento dell'acqua verso il mare."
+      }
+    },
+    "concept-c2-anfechten": {
+      "it": {
+        "usage_note": "Qui indica un'azione giuridica contro una decisione, non il gesto di afferrare un oggetto."
+      }
+    },
+    "concept-c2-ermessen": {
+      "de": {
+        "usage_note": "Häufig bei Entscheidungen von Behörden innerhalb gesetzlicher Grenzen."
+      }
+    },
+    "concept-c2-beharrlich": {
+      "de": {
+        "definition": "Trotz Schwierigkeiten oder Widerstand weiter ein Ziel verfolgend."
+      }
+    },
+    "concept-c2-beharrlichkeit": {
+      "de": {
+        "definition": "Das stetige Festhalten an einem Ziel trotz Schwierigkeiten oder Widerstand."
+      },
+      "it": {
+        "definition": "Il continuare a cercare di raggiungere un obiettivo anche quando è difficile."
+      }
+    },
+    "concept-c2-feinheit": {
+      "de": {
+        "definition": "Ein kleines, aber wichtiges Detail, das leicht übersehen wird."
+      },
+      "en": {
+        "definition": "A small but important detail that is easy to miss."
+      },
+      "it": {
+        "definition": "Un piccolo dettaglio importante che può passare inosservato."
+      }
+    },
+    "concept-c2-raffinesse": {
+      "de": {
+        "definition": "Die Qualität von etwas, das besonders klug und sorgfältig gemacht ist."
+      },
+      "en": {
+        "definition": "The quality of being carefully designed and cleverly developed."
+      },
+      "it": {
+        "definition": "La qualità di qualcosa progettato con cura e intelligenza."
+      }
+    },
+    "concept-c2-schlichtweg": {
+      "en": {
+        "definition": "Used to emphasize a strong opinion about something."
+      }
+    },
+    "concept-b1-auf-eigene-faust": {
+      "en": {
+        "definition": "Because you choose to act, without being told to do so."
+      },
+      "it": {
+        "definition": "Per propria scelta, senza che altri lo chiedano."
+      }
+    },
+    "concept-b2-ins-gespraech-kommen": {
+      "de": {
+        "definition": "Mit jemandem zu reden beginnen."
+      },
+      "en": {
+        "definition": "To begin a conversation with someone."
+      },
+      "it": {
+        "definition": "Iniziare una conversazione con qualcuno."
+      }
+    },
+    "concept-b2-den-ueberblick-behalten": {
+      "en": {
+        "definition": "To continue knowing what is happening or where things are."
+      }
+    },
+    "concept-b2-im-gegensatz-zu": {
+      "it": {
+        "definition": "Introduce un confronto che mostra come due cose non siano uguali."
+      }
+    },
+    "concept-c1-zwischen-den-zeilen": {
+      "it": {
+        "definition": "Capire un significato che le parole non esprimono direttamente."
+      }
+    },
+    "concept-c1-ins-detail-gehen": {
+      "en": {
+        "definition": "To discuss something thoroughly, including its smaller points."
+      }
+    },
+    "concept-c1-wert-legen": {
+      "it": {
+        "definition": "Pensare che qualcosa conti molto e comportarsi di conseguenza."
+      }
+    },
+    "concept-c1-ins-leben-rufen": {
+      "en": {
+        "definition": "To start an organization, project, or activity."
+      },
+      "it": {
+        "definition": "Creare un'organizzazione, un progetto o un'attività."
+      }
+    },
+    "concept-c2-kind-beim-namen": {
+      "it": {
+        "definition": "Parlare apertamente e senza nascondere cose scomode."
+      }
+    },
+    "concept-c2-auf-granit-beissen": {
+      "en": {
+        "definition": "To face opposition that makes further progress impossible."
+      },
+      "it": {
+        "definition": "Non riuscire a procedere perché gli altri si oppongono del tutto."
+      }
+    },
+    "concept-c2-wind-aus-den-segeln": {
+      "de": {
+        "definition": "Durch eine unerwartete Reaktion jemandes Sicherheit oder Begeisterung schwächen."
+      },
+      "en": {
+        "definition": "To make someone lose confidence or enthusiasm through an unexpected response."
+      },
+      "it": {
+        "definition": "Togliere sicurezza o entusiasmo a qualcuno con una risposta inattesa."
+      }
+    },
+    "dd649122-0105-6628-92d8-b638d43a5204": {
+      "de": {
+        "definition": "In den meisten Fällen; normalerweise."
+      },
+      "it": {
+        "definition": "Nella maggior parte dei casi."
+      },
+      "en": {
+        "definition": "In most cases; most of the time."
+      }
+    }
+  }
+}

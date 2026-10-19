@@ -4,6 +4,43 @@ All notable changes to this repository will be documented in this file.
 Concept-level lexical-content history lives in
 `docs/reference/CONTENT_CHANGELOG.md`.
 
+## [0.5.0] - 2026-10-19
+
+- Content: A1/A2 review pass. 25 everyday equivalents become exact answers
+  (for example `la camera`, `la macchina`, `spedire`, `meistens`,
+  `der Fahrstuhl`), mixed senses narrowed (`Land`, `Platz`, `Lauf`, `malen`),
+  false synonyms removed (`Kaninchen` for `Hase`, `kernig` for `wichtig`),
+  weak definitions and examples rewritten. Land and Platz split into two
+  concepts each. Every concept at every level has a German and an Italian
+  example. Every synonym reviewed (155 removed, 146 tiered exact) and every
+  definition, usage note and sense indicator reviewed (622 fixes). See
+  CONTENT_CHANGELOG.md.
+- Validation: `quality_clean_pack` now enforces the DL-014 sense indicator
+  rules (they were only unit-tested), so a shared word without labels stops
+  the pipeline.
+- Fix: `generate_pack_forms` and `upsert_pack_entries` rebuilt definition rows
+  from a fixed field list, which dropped every `sense_indicator` and
+  `synonym_tiers_json`. Both now keep the fields they do not touch; tests cover it.
+- Fix: `curate_pack_metadata` replaced every cluster with the German plugin's
+  seven (wiping 219 interconnect synonym clusters) and cleared every
+  `level_override` outside the plugin's word table. Plugins now update only
+  the clusters and overrides they own, in place; a regression test covers it.
+  `pnpm run pipeline` is safe to run on the current source again.
+- Fix: `generate_pack_forms` made the first lexeme in file order the primary
+  one and ignored the authored `is_primary`, so a template could never change
+  a primary. The authored flag now wins; file order decides only when no
+  lexeme is marked.
+- Validation: learner-facing text (definitions, usage notes, hints, sense
+  indicators, examples) must not contain repository ids; three usage notes
+  showed "siehe Konzept ec6fe4e3" to learners.
+- Fix: `rebuild_runtime_packs` ignores line endings when it decides whether a
+  pack changed, so a Windows checkout (CRLF) no longer bumps every version.
+- Tooling: one shared `deterministicUuid` (tools/lib/deterministic_id.mjs)
+  replaces three copies.
+- Tooling: `tools/maintenance/apply_editorial_corrections.mjs` applies the
+  reviewed definition, synonym, usage note, sense indicator and example
+  corrections from a JSON file (`--corrections` picks the file).
+
 ## [0.4.0] - 2026-10-18
 
 - Content: words are bare text only (DL-013). Parenthetical qualifiers such

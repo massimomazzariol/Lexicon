@@ -483,6 +483,40 @@ test('quality_clean_pack reports a missing example for authoring and never auto-
   }
 });
 
+test('quality_clean_pack rejects a shared word without sense indicators (DL-014)', () => {
+  const tempRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'lexicon-quality-'));
+  const packDir = path.join(tempRoot, 'lexicon_source');
+  try {
+    fs.mkdirSync(packDir, { recursive: true });
+    writeJson(path.join(packDir, 'manifest.json'), {
+      pack_id: 'lexicon.source', version: 'test-version', pack_role: 'source',
+    });
+    const lexeme = (conceptId) => ({
+      lexeme_id: `lex-${conceptId}`, concept_id: conceptId, lang: 'de', text: 'Platz', pos: 'noun', is_primary: true,
+    });
+    const definition = (conceptId) => ({
+      concept_id: conceptId, lang: 'de', short_definition: 'Eine Stelle.', synonyms_json: [], antonyms_json: [],
+    });
+    writeJson(path.join(packDir, 'content.json'), {
+      concepts: [{ concept_id: 'c-square', pos: 'noun' }, { concept_id: 'c-seat', pos: 'noun' }],
+      lexemes: [lexeme('c-square'), lexeme('c-seat')],
+      concept_definitions: [definition('c-square'), definition('c-seat')],
+      examples: [],
+    });
+
+    assert.throws(
+      () => execFileSync(
+        process.execPath,
+        [qualityToolPath, '--pack-dir', packDir, '--out-dir', path.join(tempRoot, 'reports')],
+        { cwd: repoRoot, stdio: 'pipe', encoding: 'utf8' },
+      ),
+      /sense_indicator \(missing\)/,
+    );
+  } finally {
+    fs.rmSync(tempRoot, { recursive: true, force: true });
+  }
+});
+
 test('quality_clean_pack rejects Italian noun support rows that only drop the article', () => {
   const tempRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'lexicon-quality-'));
   const packDir = path.join(tempRoot, 'lexicon_source');

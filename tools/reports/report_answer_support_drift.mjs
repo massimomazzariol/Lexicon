@@ -1,9 +1,9 @@
-import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 
 import { handleCliHelp } from '../lib/cli_help.mjs';
 import { DEFAULT_SOURCE_PACK_DIR } from '../lib/default_pack_paths.mjs';
+import { deterministicUuid } from '../lib/deterministic_id.mjs';
 
 const HELP_TEXT = `
 Usage:
@@ -66,11 +66,6 @@ function normalizeOptional(value) {
 function normalizePos(value) {
   const normalized = normalizeText(value).toLowerCase();
   return VALID_POS.has(normalized) ? normalized : 'chunk';
-}
-
-function deterministicUuid(seed) {
-  const hash = crypto.createHash('sha1').update(seed).digest('hex');
-  return `${hash.slice(0, 8)}-${hash.slice(8, 12)}-${hash.slice(12, 16)}-${hash.slice(16, 20)}-${hash.slice(20, 32)}`;
 }
 
 function readJson(filePath) {

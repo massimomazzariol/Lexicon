@@ -279,6 +279,8 @@ function incrementCounter(map, key, amount = 1) {
 
 function cloneConceptDefinition(row) {
   return {
+    // Keep fields this step does not normalize (sense_indicator, synonym_tiers_json, ...).
+    ...row,
     concept_id: row.concept_id,
     lang: row.lang,
     short_definition: normalizeOptional(row.short_definition),
@@ -610,13 +612,25 @@ function main() {
   const lexemeRankById = new Map();
   const exactSurfaceSeen = new Set();
   const primarySeen = new Set();
+  // The authored primary wins; file order decides only where none is marked
+  // (it used to decide always, so a template could not change the primary).
+  const authoredPrimaryByKey = new Map();
+  for (const lexeme of rawLexemes) {
+    const key = `${lexeme.concept_id}|${normalizeLang(lexeme.lang)}`;
+    if (lexeme.is_primary === true && lexeme.is_active !== false && !authoredPrimaryByKey.has(key)) {
+      authoredPrimaryByKey.set(key, lexeme.lexeme_id);
+    }
+  }
   const lexemes = rawLexemes.map((lexeme, index) => {
     const conceptPos = conceptPosById.get(lexeme.concept_id);
     const normalizedSurface = normalizeForSearch(lexeme.text);
     const duplicateKey = `${lexeme.concept_id}|${normalizeLang(lexeme.lang)}|${normalizedSurface}`;
     const primaryKey = `${lexeme.concept_id}|${normalizeLang(lexeme.lang)}`;
     const isDuplicateExact = exactSurfaceSeen.has(duplicateKey);
-    const isPrimary = !primarySeen.has(primaryKey);
+    const authoredPrimary = authoredPrimaryByKey.get(primaryKey);
+    const isPrimary = authoredPrimary
+      ? authoredPrimary === lexeme.lexeme_id
+      : !primarySeen.has(primaryKey);
     exactSurfaceSeen.add(duplicateKey);
     if (!isDuplicateExact) {
       primarySeen.add(primaryKey);

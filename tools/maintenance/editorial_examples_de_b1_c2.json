@@ -1,0 +1,642 @@
+{
+  "comment": "Missing de examples for A1/A2 concepts (2026-10 review). Same format as editorial_corrections_a1_a2.json.",
+  "corrections": {
+    "fef8f67b-8883-20ff-c027-67735487d38d": {
+      "de": {
+        "add_examples": [
+          "Wir haben lange gesucht und am Ende doch ein Hotel gefunden."
+        ]
+      }
+    },
+    "d44d4a04-9c80-66ac-6dae-10528f189ad5": {
+      "de": {
+        "add_examples": [
+          "Ich koche, und du deckst in der Zwischenzeit den Tisch."
+        ]
+      }
+    },
+    "4a6485cb-9cfb-3f95-523d-0a830ca9e5d5": {
+      "de": {
+        "add_examples": [
+          "Der Techniker erklärt alles mit Fachwörtern, für mich ist das wie eine fremde Sprache."
+        ]
+      }
+    },
+    "76ddf07a-3708-809e-94da-35f0ec10678d": {
+      "de": {
+        "add_examples": [
+          "Ein Auto ist auf dem Land kein Luxus, sondern ein Muss."
+        ]
+      }
+    },
+    "8f698c56-8c4a-4fde-1a01-9050abcb2a45": {
+      "de": {
+        "add_examples": [
+          "Im Winter brauchen die Geschäfte viel mehr Heizöl als im Sommer."
+        ]
+      }
+    },
+    "25b5725b-13ce-48ce-2a99-7bb508a4de54": {
+      "de": {
+        "add_examples": [
+          "Die alte Münze kann man nirgends verkaufen, niemand will sie haben."
+        ]
+      }
+    },
+    "dcac462c-da14-34b2-8201-977a04e36d35": {
+      "de": {
+        "add_examples": [
+          "Nach drei Stunden Diskussion haben wir uns schließlich geeinigt."
+        ]
+      }
+    },
+    "concept-b1-gelegenheit": {
+      "de": {
+        "add_examples": [
+          "Wenn du in Rom bist, musst du unbedingt das Kolosseum besuchen, so schnell kommst du nicht wieder hin!"
+        ]
+      }
+    },
+    "concept-b1-herausforderung": {
+      "de": {
+        "add_examples": [
+          "Mit drei kleinen Kindern und einem Vollzeitjob ist jeder Tag schwierig, aber spannend."
+        ]
+      }
+    },
+    "concept-b1-zusammenhang": {
+      "de": {
+        "add_examples": [
+          "Die Polizei prüft, ob die beiden Einbrüche etwas miteinander zu tun haben."
+        ]
+      }
+    },
+    "concept-b1-vorgehen": {
+      "de": {
+        "add_examples": [
+          "Zuerst sammeln wir Ideen, dann bewerten wir sie, und am Schluss entscheiden wir."
+        ]
+      }
+    },
+    "concept-b1-voraussetzung": {
+      "de": {
+        "add_examples": [
+          "Ohne Führerschein bekommst du diesen Job nicht."
+        ]
+      }
+    },
+    "concept-b1-eindruck": {
+      "de": {
+        "add_examples": [
+          "Der neue Kollege wirkt sehr freundlich und kompetent."
+        ]
+      }
+    },
+    "concept-b1-verantwortung": {
+      "de": {
+        "add_examples": [
+          "Als Kapitänin muss sie für alle Menschen an Bord sorgen."
+        ]
+      }
+    },
+    "concept-b1-beschwerde": {
+      "de": {
+        "add_examples": [
+          "Das Essen war kalt, also habe ich mich schriftlich beim Hotel darüber beklagt."
+        ]
+      }
+    },
+    "concept-b1-vereinbarung": {
+      "de": {
+        "add_examples": [
+          "Wir haben abgemacht, dass jeder einmal pro Woche kocht."
+        ]
+      }
+    },
+    "concept-b1-verhindern": {
+      "de": {
+        "add_examples": [
+          "Ein Zaun soll dafür sorgen, dass die Kinder nicht auf die Straße laufen."
+        ]
+      }
+    },
+    "concept-b1-feststellen": {
+      "de": {
+        "add_examples": [
+          "Beim Einkaufen merke ich, dass ich mein Portemonnaie vergessen habe."
+        ]
+      }
+    },
+    "concept-b1-ankuendigen": {
+      "de": {
+        "add_examples": [
+          "Der Bürgermeister sagt im Radio, dass nächste Woche eine neue Brücke eröffnet wird."
+        ]
+      }
+    },
+    "concept-b1-ablehnen": {
+      "de": {
+        "add_examples": [
+          "Er hat das Jobangebot nicht angenommen, weil das Gehalt zu niedrig war."
+        ]
+      }
+    },
+    "concept-b1-durchfuehren": {
+      "de": {
+        "add_examples": [
+          "Die Firma macht jedes Jahr eine Umfrage unter den Kunden."
+        ]
+      }
+    },
+    "concept-b1-umsetzen": {
+      "de": {
+        "add_examples": [
+          "Die Idee ist gut, jetzt müssen wir sie nur noch in die Praxis bringen."
+        ]
+      }
+    },
+    "concept-b1-entscheidend": {
+      "de": {
+        "add_examples": [
+          "Das letzte Tor in der 90. Minute bringt den Sieg."
+        ]
+      }
+    },
+    "concept-b1-verantwortlich": {
+      "de": {
+        "add_examples": [
+          "In unserer Firma kümmert sich Frau Berger um alle Finanzen."
+        ]
+      }
+    },
+    "concept-b1-begeistert": {
+      "de": {
+        "add_examples": [
+          "Nach dem Konzert springen alle Fans vor Freude in die Luft."
+        ]
+      }
+    },
+    "concept-b1-bewusst": {
+      "de": {
+        "add_examples": [
+          "Ich weiß genau, dass das Risiko groß ist, und mache es trotzdem."
+        ]
+      }
+    },
+    "concept-b1-flexibel": {
+      "de": {
+        "add_examples": [
+          "Sie kann morgens, mittags oder abends arbeiten, wie es gerade passt."
+        ]
+      }
+    },
+    "concept-b1-geeignet": {
+      "de": {
+        "add_examples": [
+          "Diese Schuhe sind perfekt zum Wandern in den Bergen."
+        ]
+      }
+    },
+    "concept-b1-angemessen": {
+      "de": {
+        "add_examples": [
+          "Für ein Bewerbungsgespräch ist ein T-Shirt nicht die richtige Kleidung."
+        ]
+      }
+    },
+    "concept-b1-vermutlich": {
+      "de": {
+        "add_examples": [
+          "Das Licht ist aus, er schläft wohl schon."
+        ]
+      }
+    },
+    "concept-b1-keinesfalls": {
+      "de": {
+        "add_examples": [
+          "Das Fenster bleibt zu, egal was passiert!"
+        ]
+      }
+    },
+    "concept-b1-teilweise": {
+      "de": {
+        "add_examples": [
+          "Nur die Hälfte der Straße ist gesperrt."
+        ]
+      }
+    },
+    "concept-b1-folglich": {
+      "de": {
+        "add_examples": [
+          "Er hat nicht gelernt, also hat er die Prüfung nicht bestanden."
+        ]
+      }
+    },
+    "concept-b1-dagegen": {
+      "de": {
+        "add_examples": [
+          "Alle wollen ins Kino, nur Paul ist anderer Meinung."
+        ]
+      }
+    },
+    "concept-b1-ausserdem": {
+      "de": {
+        "add_examples": [
+          "Das Hotel ist billig, und es liegt auch noch direkt am Strand."
+        ]
+      }
+    },
+    "concept-b1-ueberwiegend": {
+      "de": {
+        "add_examples": [
+          "In dieser Stadt wohnen vor allem Studenten."
+        ]
+      }
+    },
+    "concept-b1-langfristig": {
+      "de": {
+        "add_examples": [
+          "In zwanzig Jahren wollen wir ein eigenes Haus besitzen."
+        ]
+      }
+    },
+    "concept-b1-gleichzeitig": {
+      "de": {
+        "add_examples": [
+          "Er telefoniert, während er kocht."
+        ]
+      }
+    },
+    "concept-b1-unter-anderem": {
+      "de": {
+        "add_examples": [
+          "Im Urlaub haben wir Rom, Florenz und noch ein paar andere Städte besucht."
+        ]
+      }
+    },
+    "concept-b1-auf-dauer": {
+      "de": {
+        "add_examples": [
+          "Jeden Tag Fast Food ist für den Körper nicht gesund, wenn man es jahrelang macht."
+        ]
+      }
+    },
+    "concept-b1-eine-rolle-spielen": {
+      "de": {
+        "add_examples": [
+          "Beim Kauf einer Wohnung ist die Lage sehr wichtig."
+        ]
+      }
+    },
+    "concept-b1-in-der-regel": {
+      "de": {
+        "add_examples": [
+          "Fast immer fängt die Schule um acht an."
+        ]
+      }
+    },
+    "concept-b1-nach-wie-vor": {
+      "de": {
+        "add_examples": [
+          "Seit zehn Jahren wohnt er im selben Haus, und er will dort nicht weg."
+        ]
+      }
+    },
+    "concept-b2-zusammenhaengen": {
+      "de": {
+        "add_examples": [
+          "Die Kopfschmerzen kommen daher, dass ich zu wenig geschlafen habe."
+        ]
+      }
+    },
+    "concept-c1-nachvollziehbar": {
+      "de": {
+        "add_examples": [
+          "Ich kann gut verstehen, warum sie wütend ist."
+        ]
+      }
+    },
+    "concept-b2-missverstehen": {
+      "de": {
+        "add_examples": [
+          "Ich meinte morgen, aber er dachte, ich meinte heute."
+        ]
+      }
+    },
+    "concept-b2-eindeutig": {
+      "de": {
+        "add_examples": [
+          "Das Ergebnis lässt keinen Zweifel: Wir haben gewonnen."
+        ]
+      }
+    },
+    "concept-b2-einschaetzen": {
+      "de": {
+        "add_examples": [
+          "Wie lange brauchst du für die Arbeit? Ich glaube, etwa zwei Stunden."
+        ]
+      }
+    },
+    "concept-c1-einschaetzung": {
+      "de": {
+        "add_examples": [
+          "Der Arzt meint nach der Untersuchung, dass es nichts Schlimmes ist."
+        ]
+      }
+    },
+    "concept-b2-zuverlaessig": {
+      "de": {
+        "add_examples": [
+          "Auf Maria kann man immer zählen, sie kommt nie zu spät."
+        ]
+      }
+    },
+    "concept-b1-zusammenfassung": {
+      "de": {
+        "add_examples": [
+          "Am Ende des Kapitels stehen die wichtigsten Punkte in fünf Sätzen."
+        ]
+      }
+    },
+    "concept-b1-zudem": {
+      "de": {
+        "add_examples": [
+          "Die Wohnung ist zu teuer, und sie ist auch noch sehr klein."
+        ]
+      }
+    },
+    "concept-b1-schritt": {
+      "de": {
+        "add_examples": [
+          "Zuerst lädt man die App herunter, danach meldet man sich an."
+        ]
+      }
+    },
+    "concept-b1-abschnitt": {
+      "de": {
+        "add_examples": [
+          "Lies bitte die Zeilen 10 bis 20 noch einmal."
+        ]
+      }
+    },
+    "concept-b1-ursache": {
+      "de": {
+        "add_examples": [
+          "Die Polizei weiß noch nicht, warum das Feuer begonnen hat."
+        ]
+      }
+    },
+    "concept-b2-ueberrascht": {
+      "de": {
+        "add_examples": [
+          "Als sie die Geschenke sah, machte sie große Augen."
+        ]
+      }
+    },
+    "concept-b2-enttaeuscht": {
+      "de": {
+        "add_examples": [
+          "Er hatte sich so auf den Urlaub gefreut, und dann regnete es jeden Tag."
+        ]
+      }
+    },
+    "concept-b2-wesentlich": {
+      "de": {
+        "add_examples": [
+          "Ohne Wasser kann keine Pflanze leben."
+        ]
+      }
+    },
+    "concept-b2-subjektiv": {
+      "de": {
+        "add_examples": [
+          "Ob ein Film gut ist, sieht jeder anders."
+        ]
+      }
+    },
+    "concept-b2-grundlegend": {
+      "de": {
+        "add_examples": [
+          "Lesen und Schreiben sind die Basis für alles andere in der Schule."
+        ]
+      }
+    },
+    "concept-b2-nennenswert": {
+      "de": {
+        "add_examples": [
+          "Im Januar gab es fast keinen Regen, höchstens ein paar Tropfen."
+        ]
+      }
+    },
+    "concept-b2-vage": {
+      "de": {
+        "add_examples": [
+          "Er sagte nur, er komme irgendwann am Nachmittag."
+        ]
+      }
+    },
+    "concept-b2-ausdruecklich": {
+      "de": {
+        "add_examples": [
+          "Der Chef hat klar und deutlich gesagt: Keine Handys im Meeting!"
+        ]
+      }
+    },
+    "concept-b2-offensichtlich": {
+      "de": {
+        "add_examples": [
+          "Seine Jacke ist nass, er war also draußen im Regen."
+        ]
+      }
+    },
+    "concept-b2-bedingung": {
+      "de": {
+        "add_examples": [
+          "Du darfst mitkommen, aber nur, wenn du dein Zimmer aufräumst."
+        ]
+      }
+    },
+    "concept-b2-ueberpruefen": {
+      "de": {
+        "add_examples": [
+          "Vor der Reise schaue ich noch einmal nach, ob ich den Pass habe."
+        ]
+      }
+    },
+    "concept-b2-zusammenfassen": {
+      "de": {
+        "add_examples": [
+          "Kannst du mir in zwei Sätzen sagen, worum es in dem Buch geht?"
+        ]
+      }
+    },
+    "concept-c1-folgerung": {
+      "de": {
+        "add_examples": [
+          "Er hat Fieber und Husten, also hat er sich wohl erkältet."
+        ]
+      }
+    },
+    "concept-c1-nachweis": {
+      "de": {
+        "add_examples": [
+          "Für die Versicherung brauchen wir ein Dokument, das den Schaden zeigt."
+        ]
+      }
+    },
+    "concept-c1-schlussfolgerung": {
+      "de": {
+        "add_examples": [
+          "Nach allen Tests kommen die Forscher zu einem klaren Ergebnis."
+        ]
+      }
+    },
+    "concept-c1-hypothese": {
+      "de": {
+        "add_examples": [
+          "Die Forscher vermuten, dass das Medikament hilft, und testen es jetzt."
+        ]
+      }
+    },
+    "concept-c1-plausibel": {
+      "de": {
+        "add_examples": [
+          "Seine Erklärung für die Verspätung klingt logisch, ich glaube ihm."
+        ]
+      }
+    },
+    "concept-c1-fundiert": {
+      "de": {
+        "add_examples": [
+          "Ihre Meinung beruht auf vielen Jahren Forschung."
+        ]
+      }
+    },
+    "concept-c1-stichhaltig": {
+      "de": {
+        "add_examples": [
+          "Die Anwältin hat Argumente, die niemand widerlegen kann."
+        ]
+      }
+    },
+    "concept-c1-systematisch": {
+      "de": {
+        "add_examples": [
+          "Er geht jeden Raum der Reihe nach durch und sucht dort den Schlüssel."
+        ]
+      }
+    },
+    "concept-c1-strukturiert": {
+      "de": {
+        "add_examples": [
+          "Der Vortrag hat eine Einleitung, drei klare Teile und einen Schluss."
+        ]
+      }
+    },
+    "concept-c1-differenzieren": {
+      "de": {
+        "add_examples": [
+          "Kritik und Beleidigung sind nicht dasselbe, da muss man genau hinschauen."
+        ]
+      }
+    },
+    "concept-c2-praedominant": {
+      "de": {
+        "add_examples": [
+          "In diesem Wald gibt es fast nur Buchen, andere Bäume sind selten."
+        ]
+      }
+    },
+    "concept-b1-doch-contradiction": {
+      "de": {
+        "add_examples": [
+          "Du glaubst, ich komme nicht mit? Das stimmt nicht, ich bin dabei!"
+        ]
+      }
+    },
+    "concept-b1-doch-encouragement": {
+      "de": {
+        "add_examples": [
+          "Komm, setz dich zu uns!"
+        ]
+      }
+    },
+    "concept-b1-mal-softening": {
+      "de": {
+        "add_examples": [
+          "Kannst du bitte kurz das Fenster aufmachen?"
+        ]
+      }
+    },
+    "concept-b1-halt-eben-fatalism": {
+      "de": {
+        "add_examples": [
+          "Es regnet schon wieder, da kann man nichts machen, es ist Herbst."
+        ]
+      }
+    },
+    "concept-b1-ja-shared-knowledge": {
+      "de": {
+        "add_examples": [
+          "Du weißt doch, dass ich keinen Fisch esse!"
+        ]
+      }
+    },
+    "concept-b2-wohl-probability": {
+      "de": {
+        "add_examples": [
+          "Der Bus ist noch nicht da, ich denke, er steht im Stau."
+        ]
+      }
+    },
+    "concept-b2-nuance": {
+      "de": {
+        "add_examples": [
+          "Zwischen müde und erschöpft gibt es einen kleinen Unterschied."
+        ]
+      }
+    },
+    "concept-b2-dilemma": {
+      "de": {
+        "add_examples": [
+          "Ziehe ich für den Job weg oder bleibe ich und werde arbeitslos?"
+        ]
+      }
+    },
+    "concept-b2-subtilitat": {
+      "de": {
+        "add_examples": [
+          "Seine Witze sind so fein, dass nicht jeder sie versteht."
+        ]
+      }
+    },
+    "75aaec59-5c45-791b-c003-18dcee16a9cb": {
+      "de": {
+        "add_examples": [
+          "Auf meine Bewerbung kam leider nur ein kurzes Nein."
+        ]
+      }
+    },
+    "dd649122-0105-6628-92d8-b638d43a5204": {
+      "de": {
+        "add_examples": [
+          "Am Sonntag frühstücken wir fast immer lange."
+        ]
+      }
+    },
+    "de7729bf-7055-b380-9ec0-7e315525c625": {
+      "de": {
+        "add_examples": [
+          "Ich habe das Stoppschild nicht bemerkt und musste eine Strafe zahlen."
+        ]
+      }
+    },
+    "b3840a69-b660-0e8d-81ee-3b3284ed29ff": {
+      "de": {
+        "add_examples": [
+          "Erst die Suppe, dann das Fleisch, und am Schluss der Nachtisch."
+        ]
+      }
+    }
+  }
+}

@@ -149,6 +149,11 @@ function main() {
     }
 
     const hashBefore = fs.existsSync(contentPath) ? hashFile(contentPath) : null;
+    // The build rewrites both files every time (fresh generated_at, line
+    // endings); an unchanged pack gets its original bytes back below.
+    const originalBytes = hashBefore
+      ? { content: fs.readFileSync(contentPath), manifest: fs.readFileSync(manifestPath) }
+      : null;
 
     const buildArgs = [
       '--source-pack-dir', sourcePackDir,
@@ -183,6 +188,8 @@ function main() {
       console.log(`  ${dirName}: rebuilt  ${manifest.version} → ${newVersion}  (content changed)`);
       bumped++;
     } else {
+      fs.writeFileSync(contentPath, originalBytes.content);
+      fs.writeFileSync(manifestPath, originalBytes.manifest);
       console.log(`  ${dirName}: no changes (${manifest.version})`);
       unchanged++;
     }

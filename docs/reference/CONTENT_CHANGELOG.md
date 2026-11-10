@@ -35,6 +35,14 @@ practically), schnell (velocemente, quickly) and langsam (lentamente,
 slowly). velocemente, quickly, lentamente and slowly move off the adjective
 concepts. Every concept that now shares a word carries sense indicators.
 
+## 2026-11-10 - English examples for every B1-C2 concept
+
+The last 141 concepts without an English example, at B1 to C2, now have
+one (`tools/maintenance/editorial_examples_en_b1_c2.json`), with the same
+checks as the A1/A2 batch below. Idioms are shown through the situation they
+describe, never with their own words. Every concept now has an example in
+every language.
+
 ## 2026-11-10 - English examples for every A1/A2 concept
 
 The 210 A1/A2 concepts without an English example now have one

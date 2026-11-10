@@ -1,0 +1,992 @@
+{
+  "comment": "Missing en examples for B1-C2 concepts (2026-11 review). Same format as editorial_corrections_a1_a2.json.",
+  "corrections": {
+    "f4c57801-260c-4027-ff73-0b38dee09fac": {
+      "en": {
+        "add_examples": [
+          "She began the letter with \"Dear Mr. Smith\"."
+        ]
+      }
+    },
+    "d44d4a04-9c80-66ac-6dae-10528f189ad5": {
+      "en": {
+        "add_examples": [
+          "I was cooking dinner; my brother, for his part, set the table."
+        ]
+      }
+    },
+    "03e06d4d-6e66-57de-675b-848282e41d06": {
+      "en": {
+        "add_examples": [
+          "It was raining hard; still, we went for a walk."
+        ]
+      }
+    },
+    "76ddf07a-3708-809e-94da-35f0ec10678d": {
+      "en": {
+        "add_examples": [
+          "For this job, a driving licence is an absolute must."
+        ]
+      }
+    },
+    "8f698c56-8c4a-4fde-1a01-9050abcb2a45": {
+      "en": {
+        "add_examples": [
+          "The city needs about two hundred new teachers every year."
+        ]
+      }
+    },
+    "dcac462c-da14-34b2-8201-977a04e36d35": {
+      "en": {
+        "add_examples": [
+          "After a long discussion, we finally chose the cheaper hotel."
+        ]
+      }
+    },
+    "58284b76-2879-c670-ee71-409216781e51": {
+      "en": {
+        "add_examples": [
+          "The storm left the pilot no choice but to land early."
+        ]
+      }
+    },
+    "f73861a9-0a0c-eb72-c5e3-8628aa2e96bb": {
+      "en": {
+        "add_examples": [
+          "I can count on my sister, she always keeps her promises."
+        ]
+      }
+    },
+    "concept-b1-gelegenheit": {
+      "en": {
+        "add_examples": [
+          "Working abroad gave me the perfect moment to learn a new language."
+        ]
+      }
+    },
+    "concept-b1-herausforderung": {
+      "en": {
+        "add_examples": [
+          "Running a marathon was the hardest thing I have ever tried."
+        ]
+      }
+    },
+    "concept-b1-zusammenhang": {
+      "en": {
+        "add_examples": [
+          "The police believe the two robberies were planned by the same group."
+        ]
+      }
+    },
+    "concept-b1-vorgehen": {
+      "en": {
+        "add_examples": [
+          "Our teacher has a new way of explaining grammar with games."
+        ]
+      }
+    },
+    "concept-b1-voraussetzung": {
+      "en": {
+        "add_examples": [
+          "You need a B2 certificate before you can enrol in this course."
+        ]
+      }
+    },
+    "concept-b1-eindruck": {
+      "en": {
+        "add_examples": [
+          "At the interview she seemed calm and friendly to everyone."
+        ]
+      }
+    },
+    "concept-b1-verantwortung": {
+      "en": {
+        "add_examples": [
+          "As the team leader, she has to answer for every decision."
+        ]
+      }
+    },
+    "concept-b1-beschwerde": {
+      "en": {
+        "add_examples": [
+          "I wrote to the airline because they lost my suitcase."
+        ]
+      }
+    },
+    "concept-b1-vereinbarung": {
+      "en": {
+        "add_examples": [
+          "After long talks, both sides accepted the same terms."
+        ]
+      }
+    },
+    "concept-b1-bewerten": {
+      "en": {
+        "add_examples": [
+          "The jury looks at every project and gives it points from one to ten."
+        ]
+      }
+    },
+    "concept-b1-verhindern": {
+      "en": {
+        "add_examples": [
+          "Washing your hands often stops many illnesses from spreading."
+        ]
+      }
+    },
+    "concept-b1-foerdern": {
+      "en": {
+        "add_examples": [
+          "Lower rents help small shops in the old town to grow."
+        ]
+      }
+    },
+    "concept-b1-ueberzeugen": {
+      "en": {
+        "add_examples": [
+          "After an hour of good arguments, my father finally agreed to the trip."
+        ]
+      }
+    },
+    "concept-b1-beruecksichtigen": {
+      "en": {
+        "add_examples": [
+          "When you plan the budget, remember the cost of the hotel too."
+        ]
+      }
+    },
+    "concept-b1-behandeln": {
+      "en": {
+        "add_examples": [
+          "Today's meeting focuses on the broken heating."
+        ]
+      }
+    },
+    "concept-b1-ergaenzen": {
+      "en": {
+        "add_examples": [
+          "Please add your phone number to the form, it is missing."
+        ]
+      }
+    },
+    "concept-b1-ablehnen": {
+      "en": {
+        "add_examples": [
+          "The bank said no to our loan request."
+        ]
+      }
+    },
+    "concept-b1-umsetzen": {
+      "en": {
+        "add_examples": [
+          "The new rules will be put into practice from January."
+        ]
+      }
+    },
+    "concept-b1-entscheidend": {
+      "en": {
+        "add_examples": [
+          "The last goal decided the whole match."
+        ]
+      }
+    },
+    "concept-b1-verantwortlich": {
+      "en": {
+        "add_examples": [
+          "Who is in charge of the keys this week?"
+        ]
+      }
+    },
+    "concept-b1-begeistert": {
+      "en": {
+        "add_examples": [
+          "The children were full of excitement about the trip to the zoo."
+        ]
+      }
+    },
+    "concept-b1-durchschnittlich": {
+      "en": {
+        "add_examples": [
+          "He is neither tall nor short, just normal height."
+        ]
+      }
+    },
+    "concept-b1-flexibel": {
+      "en": {
+        "add_examples": [
+          "My working hours can change: I can start at seven or at ten."
+        ]
+      }
+    },
+    "concept-b1-umfangreich": {
+      "en": {
+        "add_examples": [
+          "The report covers every topic in great detail, on two hundred pages."
+        ]
+      }
+    },
+    "concept-b1-geeignet": {
+      "en": {
+        "add_examples": [
+          "These shoes are perfect for long walks in the mountains."
+        ]
+      }
+    },
+    "concept-b1-angemessen": {
+      "en": {
+        "add_examples": [
+          "Jeans are not right for a job interview at a bank."
+        ]
+      }
+    },
+    "concept-b1-keinesfalls": {
+      "en": {
+        "add_examples": [
+          "You must never open this door during the flight."
+        ]
+      }
+    },
+    "concept-b1-teilweise": {
+      "en": {
+        "add_examples": [
+          "The report is only half true."
+        ]
+      }
+    },
+    "concept-b1-folglich": {
+      "en": {
+        "add_examples": [
+          "The train was cancelled, so we arrived two hours late."
+        ]
+      }
+    },
+    "concept-b1-dagegen": {
+      "en": {
+        "add_examples": [
+          "I like the idea, but my brother has nothing good to say about it."
+        ]
+      }
+    },
+    "concept-b1-ausserdem": {
+      "en": {
+        "add_examples": [
+          "The flat is cheap, and on top of that it is close to the station."
+        ]
+      }
+    },
+    "concept-b1-weltweit": {
+      "en": {
+        "add_examples": [
+          "This song is famous on every continent."
+        ]
+      }
+    },
+    "concept-b1-langfristig": {
+      "en": {
+        "add_examples": [
+          "Saving a little every month pays off over many years."
+        ]
+      }
+    },
+    "concept-b1-gleichzeitig": {
+      "en": {
+        "add_examples": [
+          "She cooks while she talks on the phone."
+        ]
+      }
+    },
+    "concept-b1-unter-anderem": {
+      "en": {
+        "add_examples": [
+          "In Rome we visited the Colosseum, the Vatican and several churches."
+        ]
+      }
+    },
+    "concept-b1-eine-rolle-spielen": {
+      "en": {
+        "add_examples": [
+          "The weather is important when you plan a wedding outside."
+        ]
+      }
+    },
+    "concept-b1-in-der-regel": {
+      "en": {
+        "add_examples": [
+          "On most days I take the bus, but today I walked."
+        ]
+      }
+    },
+    "concept-b2-klarstellen": {
+      "en": {
+        "add_examples": [
+          "Let me explain once more, so that nobody misunderstands."
+        ]
+      }
+    },
+    "concept-b1-doch-contradiction": {
+      "en": {
+        "add_examples": [
+          "\"You never help me!\" \"That's not true, I washed the dishes yesterday!\""
+        ]
+      }
+    },
+    "concept-b1-doch-encouragement": {
+      "en": {
+        "add_examples": [
+          "Please, take one more piece of cake, it's homemade!"
+        ]
+      }
+    },
+    "concept-b1-mal-softening": {
+      "en": {
+        "add_examples": [
+          "Could you wait a moment? I'll be right there."
+        ]
+      }
+    },
+    "concept-b1-halt-eben-fatalism": {
+      "en": {
+        "add_examples": [
+          "The trains are often late here; there is nothing we can do about it."
+        ]
+      }
+    },
+    "concept-b1-ja-shared-knowledge": {
+      "en": {
+        "add_examples": [
+          "As we all learned at school, water boils at 100 degrees."
+        ]
+      }
+    },
+    "concept-b2-wohl-probability": {
+      "en": {
+        "add_examples": [
+          "It looks like it will rain later, but I'm not sure."
+        ]
+      }
+    },
+    "concept-b2-nuance": {
+      "en": {
+        "add_examples": [
+          "There is a small difference in meaning between these two words."
+        ]
+      }
+    },
+    "concept-b2-subtilitat": {
+      "en": {
+        "add_examples": [
+          "Only an expert can hear the tiny differences between the two violins."
+        ]
+      }
+    },
+    "concept-c1-bewaeltigen": {
+      "en": {
+        "add_examples": [
+          "After the accident she bravely rebuilt her life."
+        ]
+      }
+    },
+    "concept-c1-gewaehrleisten": {
+      "en": {
+        "add_examples": [
+          "The guard checks every bag so that everyone is safe."
+        ]
+      }
+    },
+    "concept-c1-anspruchsvoll": {
+      "en": {
+        "add_examples": [
+          "My boss expects perfect work and checks every detail."
+        ]
+      }
+    },
+    "concept-c1-sich-bewaehren": {
+      "en": {
+        "add_examples": [
+          "In his first months at the company, the new engineer showed that he was reliable."
+        ]
+      }
+    },
+    "concept-c1-spielraum": {
+      "en": {
+        "add_examples": [
+          "The manager lets us decide how to organize our own time."
+        ]
+      }
+    },
+    "concept-c1-absehbar": {
+      "en": {
+        "add_examples": [
+          "With these prices, it was clear that the shop would close soon."
+        ]
+      }
+    },
+    "concept-c1-stellenwert": {
+      "en": {
+        "add_examples": [
+          "Science has a high position in this country's culture."
+        ]
+      }
+    },
+    "concept-c1-verdeutlichen": {
+      "en": {
+        "add_examples": [
+          "The professor used a simple drawing to make the theory easier to understand."
+        ]
+      }
+    },
+    "concept-c1-kernaussage": {
+      "en": {
+        "add_examples": [
+          "The main point of her speech was that education is for everyone."
+        ]
+      }
+    },
+    "concept-c1-eingehend": {
+      "en": {
+        "add_examples": [
+          "The journalist spent six months studying every detail of the case."
+        ]
+      }
+    },
+    "concept-c1-aufschlussreich": {
+      "en": {
+        "add_examples": [
+          "The interview showed a side of the singer we had never seen."
+        ]
+      }
+    },
+    "concept-c2-gratwanderung": {
+      "en": {
+        "add_examples": [
+          "Working full time and raising three children means keeping many plates spinning without dropping one."
+        ]
+      }
+    },
+    "concept-c2-inbegriff": {
+      "en": {
+        "add_examples": [
+          "For many people, this cafe is the perfect picture of Viennese charm."
+        ]
+      }
+    },
+    "concept-c2-tragweite": {
+      "en": {
+        "add_examples": [
+          "Nobody could predict all the effects of the new law."
+        ]
+      }
+    },
+    "concept-c2-unabdingbar": {
+      "en": {
+        "add_examples": [
+          "Without a good map, this hike is impossible."
+        ]
+      }
+    },
+    "concept-c2-akribisch": {
+      "en": {
+        "add_examples": [
+          "He checks every number in the report three times."
+        ]
+      }
+    },
+    "concept-c2-stringent": {
+      "en": {
+        "add_examples": [
+          "The study follows a strict method with no gaps in the logic."
+        ]
+      }
+    },
+    "concept-c2-kohaerent": {
+      "en": {
+        "add_examples": [
+          "Her essay is clear from start to finish, and every part fits together."
+        ]
+      }
+    },
+    "concept-c2-praegnant": {
+      "en": {
+        "add_examples": [
+          "In just two sentences, the critic named the film's main weakness."
+        ]
+      }
+    },
+    "concept-c2-eloquent": {
+      "en": {
+        "add_examples": [
+          "The lawyer spoke so well that the whole room listened in silence."
+        ]
+      }
+    },
+    "concept-c2-subtil": {
+      "en": {
+        "add_examples": [
+          "There was a faint smell of lemon in the room."
+        ]
+      }
+    },
+    "concept-c2-vielschichtig": {
+      "en": {
+        "add_examples": [
+          "The novel can be read as a love story, a crime story and a history lesson."
+        ]
+      }
+    },
+    "concept-c2-widerspruechlich": {
+      "en": {
+        "add_examples": [
+          "First he said he was at home, then he said he was at work."
+        ]
+      }
+    },
+    "concept-c2-unumstritten": {
+      "en": {
+        "add_examples": [
+          "Nobody doubts that she is the best player in the team."
+        ]
+      }
+    },
+    "concept-c2-befangen": {
+      "en": {
+        "add_examples": [
+          "The referee always favours the home team."
+        ]
+      }
+    },
+    "concept-c2-rueckblickend": {
+      "en": {
+        "add_examples": [
+          "Looking back now, I should have taken that job."
+        ]
+      }
+    },
+    "concept-c2-diskrepanz": {
+      "en": {
+        "add_examples": [
+          "The bill says 50 euros, but the price on the menu was 40."
+        ]
+      }
+    },
+    "concept-c2-zwickmuehle": {
+      "en": {
+        "add_examples": [
+          "If I take the job, I move away from my family; if I refuse, I lose a great chance."
+        ]
+      }
+    },
+    "concept-c2-zwiespalt": {
+      "en": {
+        "add_examples": [
+          "Part of him wanted to stay, part of him wanted to leave."
+        ]
+      }
+    },
+    "concept-c2-konsens": {
+      "en": {
+        "add_examples": [
+          "After a long debate, everyone in the group agreed on the plan."
+        ]
+      }
+    },
+    "concept-c2-trugschluss": {
+      "en": {
+        "add_examples": [
+          "\"Everyone does it, so it must be right\" is a false argument."
+        ]
+      }
+    },
+    "concept-c2-paradebeispiel": {
+      "en": {
+        "add_examples": [
+          "This bridge shows perfectly how old and new design can work together."
+        ]
+      }
+    },
+    "concept-c2-zaesur": {
+      "en": {
+        "add_examples": [
+          "The war divided the history of the town into before and after."
+        ]
+      }
+    },
+    "concept-c2-untermauern": {
+      "en": {
+        "add_examples": [
+          "She supported her theory with data from ten countries."
+        ]
+      }
+    },
+    "concept-c2-entkraeften": {
+      "en": {
+        "add_examples": [
+          "New evidence showed that the old theory was wrong."
+        ]
+      }
+    },
+    "concept-c2-bekraeftigen": {
+      "en": {
+        "add_examples": [
+          "The minister repeated firmly that taxes would not rise."
+        ]
+      }
+    },
+    "concept-c2-veranschaulichen": {
+      "en": {
+        "add_examples": [
+          "The teacher used a pizza to show how fractions work."
+        ]
+      }
+    },
+    "concept-c2-muenden": {
+      "en": {
+        "add_examples": [
+          "Months of protests ended in a huge march through the capital."
+        ]
+      }
+    },
+    "concept-c2-anfechten": {
+      "en": {
+        "add_examples": [
+          "The company took the decision to court to have it cancelled."
+        ]
+      }
+    },
+    "concept-c2-ermessen": {
+      "en": {
+        "add_examples": [
+          "The judge may decide the amount of the fine within the law's limits."
+        ]
+      }
+    },
+    "concept-c2-willkuer": {
+      "en": {
+        "add_examples": [
+          "The boss gives bonuses without any rules, just as he likes."
+        ]
+      }
+    },
+    "concept-c2-beharrlich": {
+      "en": {
+        "add_examples": [
+          "She asked the company again and again until they answered."
+        ]
+      }
+    },
+    "concept-c2-beharrlichkeit": {
+      "en": {
+        "add_examples": [
+          "Thanks to years of hard work and never giving up, he finally won the title."
+        ]
+      }
+    },
+    "concept-c2-verblueffend": {
+      "en": {
+        "add_examples": [
+          "The magician's final trick left the audience speechless."
+        ]
+      }
+    },
+    "concept-c2-unverkennbar": {
+      "en": {
+        "add_examples": [
+          "You can recognise her voice immediately among a thousand others."
+        ]
+      }
+    },
+    "concept-c2-feinheit": {
+      "en": {
+        "add_examples": [
+          "The contract has a small detail on page twelve that many people miss."
+        ]
+      }
+    },
+    "concept-c2-gespuer": {
+      "en": {
+        "add_examples": [
+          "She has a good nose for people who are not honest."
+        ]
+      }
+    },
+    "concept-c2-raffinesse": {
+      "en": {
+        "add_examples": [
+          "The watch is made of 300 tiny parts that work together perfectly."
+        ]
+      }
+    },
+    "concept-c2-schlechthin": {
+      "en": {
+        "add_examples": [
+          "Paris is the city of love above all others."
+        ]
+      }
+    },
+    "concept-c2-gewissermassen": {
+      "en": {
+        "add_examples": [
+          "My old car is like a member of the family, if you like."
+        ]
+      }
+    },
+    "concept-c2-schlichtweg": {
+      "en": {
+        "add_examples": [
+          "That idea is completely ridiculous!"
+        ]
+      }
+    },
+    "concept-b1-auf-eigene-faust": {
+      "en": {
+        "add_examples": [
+          "Nobody asked him, but he cleaned the whole office."
+        ]
+      }
+    },
+    "concept-b1-ab-und-zu": {
+      "en": {
+        "add_examples": [
+          "We meet for a coffee a few times a year."
+        ]
+      }
+    },
+    "concept-b1-auf-anhieb": {
+      "en": {
+        "add_examples": [
+          "She passed her driving test without having to repeat it."
+        ]
+      }
+    },
+    "concept-b1-im-grossen-und-ganzen": {
+      "en": {
+        "add_examples": [
+          "There were a few problems, but the trip was great when you look at the whole thing."
+        ]
+      }
+    },
+    "concept-b2-die-daumen-druecken": {
+      "en": {
+        "add_examples": [
+          "Good luck with your exam tomorrow, I'm hoping for you!"
+        ]
+      }
+    },
+    "concept-b2-auf-dem-laufenden-sein": {
+      "en": {
+        "add_examples": [
+          "I read the news every morning, so I know what is happening."
+        ]
+      }
+    },
+    "concept-b2-ins-gespraech-kommen": {
+      "en": {
+        "add_examples": [
+          "On the train I started chatting with an old man from Hamburg."
+        ]
+      }
+    },
+    "concept-b2-auf-den-punkt-bringen": {
+      "en": {
+        "add_examples": [
+          "In one sentence: the project is late and too expensive."
+        ]
+      }
+    },
+    "concept-b2-den-ueberblick-behalten": {
+      "en": {
+        "add_examples": [
+          "With so many emails, it is hard to know which ones I have answered."
+        ]
+      }
+    },
+    "concept-b2-zur-verfuegung-stehen": {
+      "en": {
+        "add_examples": [
+          "I can help you on Monday, I have the whole day free."
+        ]
+      }
+    },
+    "concept-b2-im-gegensatz-zu": {
+      "en": {
+        "add_examples": [
+          "Paul loves sport, while his brother hates it."
+        ]
+      }
+    },
+    "concept-b2-unter-vier-augen": {
+      "en": {
+        "add_examples": [
+          "Can we talk alone, without the others?"
+        ]
+      }
+    },
+    "concept-b2-es-liegt-auf-der-hand": {
+      "en": {
+        "add_examples": [
+          "Anyone can see that he is in love with her."
+        ]
+      }
+    },
+    "concept-c1-in-kauf-nehmen": {
+      "en": {
+        "add_examples": [
+          "We accept the long trip because the beach is wonderful."
+        ]
+      }
+    },
+    "concept-c1-nagel-auf-den-kopf": {
+      "en": {
+        "add_examples": [
+          "Your comment describes the problem exactly."
+        ]
+      }
+    },
+    "concept-c1-sich-ins-zeug-legen": {
+      "en": {
+        "add_examples": [
+          "The team gave everything to win the final."
+        ]
+      }
+    },
+    "concept-c1-zwischen-den-zeilen": {
+      "en": {
+        "add_examples": [
+          "She did not say she was angry, but I understood it from her short answer."
+        ]
+      }
+    },
+    "concept-c1-den-rahmen-sprengen": {
+      "en": {
+        "add_examples": [
+          "That question is too big for today's lesson."
+        ]
+      }
+    },
+    "concept-c1-hand-in-hand": {
+      "en": {
+        "add_examples": [
+          "Good sleep and good health always come together."
+        ]
+      }
+    },
+    "concept-c1-ins-detail-gehen": {
+      "en": {
+        "add_examples": [
+          "I don't have time to explain every small point now."
+        ]
+      }
+    },
+    "concept-c1-wert-legen": {
+      "en": {
+        "add_examples": [
+          "My grandmother thinks good manners are very important."
+        ]
+      }
+    },
+    "concept-c1-ins-leben-rufen": {
+      "en": {
+        "add_examples": [
+          "Ten years ago, two students started this charity."
+        ]
+      }
+    },
+    "concept-c2-auf-den-zahn-fuehlen": {
+      "en": {
+        "add_examples": [
+          "The police asked the suspect questions for six hours."
+        ]
+      }
+    },
+    "concept-c2-heisser-brei": {
+      "en": {
+        "add_examples": [
+          "Stop talking about the weather and tell me what really happened!"
+        ]
+      }
+    },
+    "concept-c2-kind-beim-namen": {
+      "en": {
+        "add_examples": [
+          "She always says exactly what she thinks, even when it hurts."
+        ]
+      }
+    },
+    "concept-c2-zweierlei-mass": {
+      "en": {
+        "add_examples": [
+          "He punishes his son for being late, but he is late every day himself."
+        ]
+      }
+    },
+    "concept-c2-spreu-vom-weizen": {
+      "en": {
+        "add_examples": [
+          "The first round of interviews helps us find the really good candidates."
+        ]
+      }
+    },
+    "concept-c2-aus-dem-fenster-lehnen": {
+      "en": {
+        "add_examples": [
+          "He promised publicly that the project would finish in May, a risky thing to say."
+        ]
+      }
+    },
+    "concept-c2-auf-granit-beissen": {
+      "en": {
+        "add_examples": [
+          "Every time we asked for more money, the answer was no, and we could go no further."
+        ]
+      }
+    },
+    "concept-c2-im-sande-verlaufen": {
+      "en": {
+        "add_examples": [
+          "The protest started big but slowly ended without any result."
+        ]
+      }
+    },
+    "concept-c2-bogen-ueberspannen": {
+      "en": {
+        "add_examples": [
+          "The union asked for too much and lost the deal it already had."
+        ]
+      }
+    },
+    "concept-c2-wind-aus-den-segeln": {
+      "en": {
+        "add_examples": [
+          "He was ready to argue, but she agreed with him at once, and he did not know what to say."
+        ]
+      }
+    },
+    "75aaec59-5c45-791b-c003-18dcee16a9cb": {
+      "en": {
+        "add_examples": [
+          "I got a letter saying they would not give me the job."
+        ]
+      }
+    },
+    "dd649122-0105-6628-92d8-b638d43a5204": {
+      "en": {
+        "add_examples": [
+          "Most mornings I drink tea, not coffee."
+        ]
+      }
+    },
+    "de7729bf-7055-b380-9ec0-7e315525c625": {
+      "en": {
+        "add_examples": [
+          "I did not notice the mistake on the last page."
+        ]
+      }
+    },
+    "b3840a69-b660-0e8d-81ee-3b3284ed29ff": {
+      "en": {
+        "add_examples": [
+          "First wash the vegetables, then cut them, and at the end add salt."
+        ]
+      }
+    }
+  }
+}

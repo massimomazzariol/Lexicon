@@ -120,7 +120,7 @@ async function main() {
 
   // 5. LINK + GATE (final pass)
   run('interconnect.mjs', ['--apply']);
-  run('review_autopromote.mjs', ['--apply']);
+  finalize();
 
   // 6. optional: add referenced-but-missing words, then re-link
   if (addDangling) {
@@ -128,8 +128,7 @@ async function main() {
     run('interconnect.mjs', ['--dangling-out', wish]);
     run('draft_from_wishlist.mjs', ['--wishlist', wish, ...(args.model ? ['--model', args.model] : [])]);
     run('promote_drafts.mjs', ['--apply']);
-    regenerateForms(); // the freshly-promoted words need their forms before we build
-    run('review_autopromote.mjs', ['--apply']);
+    finalize(); // the freshly-promoted words need their forms and the gate before we build
     run('interconnect.mjs', ['--apply']);
   }
   // 6b. AI auto-review: a judge promotes the medium-confidence queue it is confident about
@@ -190,6 +189,11 @@ function pipeline(script, argv) {
 // id when the slot already exists. Re-running is safe: it only adds forms for lexemes that lack
 // them, never rewrites a live id (verified: 0 rewrites on the current pack). Keeps the editorial
 // pipeline drift-free so a casual run never churns ids (RH-18).
+// Forms for new words + integrity repair + the review gate, in one place
+// (finalize_source.mjs); a word promoted mid-run is otherwise formless.
+function finalize() {
+  pipeline('finalize_source.mjs', []);
+}
 function regenerateForms() {
   console.log(C.dim('  ...syncing source forms so new lexemes have their forms (RH-18)...'));
   pipeline('generate_pack_forms.mjs', []);
@@ -199,7 +203,7 @@ function regenerateForms() {
 function publishStep(tag) {
   console.log(`\n📦 publish (${tag}) → link · triage · build...`);
   run('interconnect.mjs', ['--apply']);
-  run('review_autopromote.mjs', ['--apply']);
+  finalize();
   pipeline('rebuild_runtime_packs.mjs', ['--with-distribution']);
   // With --push, stream each chunk across machines too: a per-chunk commit (detailed message)
   // so the serving machine's `pnpm run refresh` picks up the new words live, not only at the end.

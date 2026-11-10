@@ -10,7 +10,9 @@ const HELP_TEXT = `
 Usage:
   pnpm node tools/pipeline/run_pack_pipeline.mjs [options]
 
-Runs the source-pack authoring pipeline: upsert → curate → sanitize → QA → nouns.
+Runs the source-pack authoring pipeline: upsert → curate → sanitize → QA →
+forms → finalize (forms for new words, review gate, and with --entries a check
+that every upserted concept will ship).
 This script operates on the canonical source pack only.
 
 To rebuild runtime packs after this pipeline, run:
@@ -120,6 +122,14 @@ function main() {
       packDir,
     ]);
   }
+
+  // Forms for new words, the review gate, and (with --entries) a hard check
+  // that every upserted concept will ship.
+  runNodeScript(path.join(toolsDir, 'finalize_source.mjs'), [
+    '--pack-dir',
+    packDir,
+    ...(entriesPath ? ['--require', entriesPath] : []),
+  ]);
 
   console.log(
     [

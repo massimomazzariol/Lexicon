@@ -376,9 +376,8 @@ async function doExpand() {
   writeFileSync(wish, slice.map((w) => JSON.stringify(w)).join('\n') + '\n');
   sh('draft_from_wishlist.mjs', ['--wishlist', wish]);
   sh('promote_drafts.mjs', ['--apply']);
-  sh('generate_pack_forms.mjs', [], 'pipeline'); // new lexemes need their source forms (RH-18)
   sh('interconnect.mjs', ['--apply']);
-  sh('review_autopromote.mjs', ['--apply']);
+  sh('finalize_source.mjs', [], 'pipeline'); // forms for new words + integrity + review gate
 }
 
 // 5. AUTOPILOT - runs on its own: fill → publish → push, chunk by chunk. Sensible defaults,
@@ -473,7 +472,7 @@ async function doPublish() {
   console.log(C.dim('\nThis approves the clean AI content, rebuilds the packs, and (optionally) pushes to'));
   console.log(C.dim('GitHub so a serving machine can update via ') + C.yellow('pnpm run refresh') + C.dim('.'));
   if (!(await confirm(C.b('Approve clean content + build packs?') + ` ${C.dim('[y/N]')} `))) return;
-  sh('review_autopromote.mjs', ['--apply']);
+  sh('finalize_source.mjs', [], 'pipeline'); // forms for new words + integrity + review gate
   sh('rebuild_runtime_packs.mjs', ['--with-distribution'], 'pipeline');
   if (await confirm('Push to GitHub now? ' + C.dim('[y/N]') + ' ')) gitPush();
   else console.log(C.dim('Built locally - not pushed.'));
@@ -493,9 +492,8 @@ async function addWords(items) {
   console.log(C.dim(`\nAdding ${items.length} word(s)...`));
   sh('draft_from_wishlist.mjs', ['--wishlist', wish]);
   sh('promote_drafts.mjs', ['--apply']);
-  sh('generate_pack_forms.mjs', [], 'pipeline'); // new lexemes need their source forms (RH-18)
   sh('interconnect.mjs', ['--apply']);
-  sh('review_autopromote.mjs', ['--apply']);
+  sh('finalize_source.mjs', [], 'pipeline'); // forms for new words + integrity + review gate
   console.log(C.green('Done.') + C.dim(' Saved LOCALLY - nothing pushed to GitHub yet (use Publish to ship).'));
   console.log(C.dim(' See the ✅/👀/✋ triage above. Richer synonyms/examples come from Autopilot.'));
 }

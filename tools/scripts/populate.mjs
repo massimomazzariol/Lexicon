@@ -91,7 +91,9 @@ function main() {
   if (!draft) { console.error('Drafter produced no draft file - stopping.'); process.exit(1); }
   step('promote', 'promote_drafts.mjs', ['--file', draft, '--apply']);
   if (args.refine) step('refine', 'eval_fix.mjs', ['--level', level, '--apply', ...refineArgs()]);
-  step('gate', 'review_autopromote.mjs', ['--apply']);
+  // Forms for the new words + the review gate; promote alone leaves them
+  // formless, so they would never be studyable.
+  pipeline('finalize_source.mjs', [], 'finalize');
   if (args.build) pipeline('rebuild_runtime_packs.mjs', ['--with-distribution']);
 
   console.log(`\nDone. Review:  git diff packs/lexicon_source/content.json   then commit${args.build ? '' : '  (then `pnpm run release`)'}.`);
@@ -105,10 +107,10 @@ function step(label, script, argv) {
     process.exit(r.status || 1);
   }
 }
-function pipeline(script, argv) {
-  console.log('\n=== build ===');
+function pipeline(script, argv, label = 'build') {
+  console.log(`\n=== ${label} ===`);
   const r = spawnSync(process.execPath, [resolve(REPO, 'tools/pipeline', script), ...argv], { stdio: 'inherit', cwd: REPO });
-  if (r.status !== 0) { console.error(`Build failed (exit ${r.status}).`); process.exit(r.status || 1); }
+  if (r.status !== 0) { console.error(`Step "${label}" failed (exit ${r.status}).`); process.exit(r.status || 1); }
 }
 function refineArgs() {
   const a = [];

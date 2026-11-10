@@ -37563,6 +37563,566 @@
       "sentence": "Alle otto esco di casa e vado al lavoro.",
       "translation_lang": null,
       "translation_text": null
+    },
+    {
+      "example_id": "da2aa609-cd9f-e9d0-7fd0-e0e04c94d861",
+      "concept_id": "4f5ed470-4d8e-31b8-3b10-8b5f734e5df6",
+      "lang": "en",
+      "sentence": "On Sunday everyone chooses a new mayor.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "199a2325-0bb7-c18a-3638-f25b0dca0c87",
+      "concept_id": "b2f2ad3d-2e93-d8d0-86dd-3ea64d6e85b1",
+      "lang": "en",
+      "sentence": "Listen carefully to what the teacher says.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "fb8abc0c-2a2d-0ad7-b062-1c904ed55f92",
+      "concept_id": "28155ced-1190-8879-d1e4-766d9865a842",
+      "lang": "en",
+      "sentence": "I sent my CV to the company for that job.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "c2a78c81-50f0-4a81-b979-4b4482278486",
+      "concept_id": "9209d2a2-eae3-4e6f-29f4-b8b476d6e8f9",
+      "lang": "en",
+      "sentence": "Tonight I will dial my mother's number to hear her voice.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "e99476b9-572d-1521-4c1e-3413979826a1",
+      "concept_id": "a73af94e-f267-9f64-bf2b-134fa2544a0c",
+      "lang": "en",
+      "sentence": "For her birthday we hid a present under her bed.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "53547f93-f48a-58f6-120d-9260a9a533a0",
+      "concept_id": "87664a7f-b773-5acd-374e-4c359b635e7c",
+      "lang": "en",
+      "sentence": "The shop sells two coffees for the price of one today.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f59f6f5b-1f44-2bb5-ced7-0840092adcd3",
+      "concept_id": "cffce3e7-9410-c5e4-e2ce-0e74503dbc20",
+      "lang": "en",
+      "sentence": "Those shoes go well with your dress.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "398b08ce-b009-5e6e-e5ee-4d5261d448f5",
+      "concept_id": "7d3ad48d-f88e-ad64-bdbe-6488dc0ccb7d",
+      "lang": "en",
+      "sentence": "My homework is done, so I can play now.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "36e9b537-fb0d-8b63-5bba-24ca081229ab",
+      "concept_id": "concept-a2-entscheidung",
+      "lang": "en",
+      "sentence": "After a long talk, we chose the bigger flat.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "04bb24a1-673b-4c19-e6b5-f8643ffdddef",
+      "concept_id": "concept-a2-loesung",
+      "lang": "en",
+      "sentence": "I found a way to fix the problem.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "09cb8cf4-6f6f-28fe-3071-2538eac7232b",
+      "concept_id": "concept-a2-erklaeren",
+      "lang": "en",
+      "sentence": "Can you show me how this machine works?",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "6b077772-9c9b-f0a6-d83a-587a13d9294d",
+      "concept_id": "concept-a2-empfehlen",
+      "lang": "en",
+      "sentence": "I suggest the fish, it is very good here.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "da40b7bf-3c00-2728-3a85-806c2769267e",
+      "concept_id": "concept-a2-reservieren",
+      "lang": "en",
+      "sentence": "I booked a table for two at eight o'clock.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "519fadd0-c7f3-4f1e-0b16-12f5face0422",
+      "concept_id": "concept-a2-moeglich",
+      "lang": "en",
+      "sentence": "Is it doable to finish by Friday?",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "aa3b14ef-9739-4be1-4294-04f233dbc82f",
+      "concept_id": "concept-a2-noetig",
+      "lang": "en",
+      "sentence": "You need a visa to travel to this country.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "71da52fc-d87f-e50e-8eb3-6309eaec4d42",
+      "concept_id": "concept-a2-puenktlich",
+      "lang": "en",
+      "sentence": "The train left exactly at 8:00, not one minute late.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "007c6362-6737-0315-5dff-774a92caeeda",
+      "concept_id": "concept-a2-wahrscheinlich",
+      "lang": "en",
+      "sentence": "It will most likely rain tomorrow.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "b817b4ab-ed36-4499-6ed4-1e6a951e4c9f",
+      "concept_id": "concept-a2-besonders",
+      "lang": "en",
+      "sentence": "I like all fruit, above all strawberries.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "2eefe702-d3f8-5925-f0d4-da7374463658",
+      "concept_id": "concept-a2-endlich",
+      "lang": "en",
+      "sentence": "After two hours of waiting, the bus arrived at last.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "d86790dd-e0cc-e260-b256-f75d92caac23",
+      "concept_id": "concept-a2-erfahrung",
+      "lang": "en",
+      "sentence": "Living abroad for a year taught me a lot.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "d259b802-fece-4f1b-f3ca-e15ef05aacea",
+      "concept_id": "concept-a2-einladung",
+      "lang": "en",
+      "sentence": "We got a card asking us to come to their wedding.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "99d64ee7-e119-b80e-3ce6-7467effb06fe",
+      "concept_id": "concept-a2-nachricht",
+      "lang": "en",
+      "sentence": "She sent me a text to say she is late.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "bb723d00-e3ac-22a7-a473-3f81536c574f",
+      "concept_id": "concept-a2-termin",
+      "lang": "en",
+      "sentence": "I am seeing the dentist on Tuesday at nine.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "fb9da1f7-3019-ade0-e95a-f6a5c1e53012",
+      "concept_id": "concept-a2-meinung",
+      "lang": "en",
+      "sentence": "What do you think about the new film?",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f835dc22-406d-e219-16ba-746c196efbe6",
+      "concept_id": "concept-a2-gewohnheit",
+      "lang": "en",
+      "sentence": "I drink a glass of water every morning without thinking about it.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "5c2cd874-317d-0b8c-5717-38be40370dfc",
+      "concept_id": "concept-a2-umzug",
+      "lang": "en",
+      "sentence": "Next month we go to a new flat, and we need lots of boxes.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "ede785e4-a943-66f5-d179-124f35a44737",
+      "concept_id": "concept-a2-erlaubnis",
+      "lang": "en",
+      "sentence": "Can I leave early today? Yes, you can.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f5aaa6de-783f-8e75-69c2-f35104ca3d89",
+      "concept_id": "concept-a2-gespraech",
+      "lang": "en",
+      "sentence": "We talked for two hours over coffee.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "16f1f9ed-feed-c188-5b52-d880b2435bc0",
+      "concept_id": "concept-a2-teilnehmen",
+      "lang": "en",
+      "sentence": "Twenty runners are in the race on Sunday.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f55b2b58-678f-69a9-dc51-dd86f14b0c93",
+      "concept_id": "concept-a2-vorbereiten",
+      "lang": "en",
+      "sentence": "I get everything ready the evening before the trip.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "9724afe8-8c45-c78d-b88e-e17b3ef31a0e",
+      "concept_id": "concept-a2-absagen",
+      "lang": "en",
+      "sentence": "The concert is off because the singer is ill.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "6d6aeebc-1a81-55ad-89a0-dfdb5e5b4262",
+      "concept_id": "concept-a2-verschieben",
+      "lang": "en",
+      "sentence": "The meeting moves from Monday to Friday.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "c1a36ccf-039d-22f4-fa22-0d69103c4dfc",
+      "concept_id": "concept-a2-verbessern",
+      "lang": "en",
+      "sentence": "My German gets better every week.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "719a6094-bf02-f072-c739-ffbf18db6d87",
+      "concept_id": "concept-a2-vermeiden",
+      "lang": "en",
+      "sentence": "I stay away from sugar in the evening.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "d5161d66-b0fe-9fca-fc89-d09733dfdbca",
+      "concept_id": "concept-a2-fehlen",
+      "lang": "en",
+      "sentence": "One sock is not in the drawer. Where is it?",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "ba211137-4bba-c8f7-152f-117c7d54b20d",
+      "concept_id": "concept-a2-stattfinden",
+      "lang": "en",
+      "sentence": "The concert is on Saturday in the park.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "6c808f79-cccf-cb32-a1f1-2affa8a3c118",
+      "concept_id": "concept-a2-verdienen",
+      "lang": "en",
+      "sentence": "She makes 2,000 euros a month at the bank.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "7a5d22e9-2e2a-5928-a8a8-087d1d9323dd",
+      "concept_id": "concept-a2-unterschreiben",
+      "lang": "en",
+      "sentence": "Please write your name at the bottom of the contract.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "37987463-72b3-0555-f5dd-000da1104a53",
+      "concept_id": "concept-a2-umziehen-verb",
+      "lang": "en",
+      "sentence": "Next month we are going to live in a bigger flat.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "c076553a-52b9-4b83-d7b0-65bdf8c2a5ab",
+      "concept_id": "concept-a2-zurueckgeben",
+      "lang": "en",
+      "sentence": "I borrowed my friend's bike, and the next day it was in his garage again.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "185ed589-9a5e-28a1-9658-92d11af936cc",
+      "concept_id": "concept-a2-verfuegbar",
+      "lang": "en",
+      "sentence": "Is this room free on Saturday?",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "e7874800-2d56-e04d-733d-139fd21b3e78",
+      "concept_id": "concept-a2-kostenlos",
+      "lang": "en",
+      "sentence": "The museum costs nothing on Sundays.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "fd9791d2-853f-9db2-d115-13a92f2a7fda",
+      "concept_id": "concept-a2-dringend",
+      "lang": "en",
+      "sentence": "Call a doctor right now, it cannot wait!",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "332c7034-c157-c463-f48d-6dc4275d45d4",
+      "concept_id": "concept-a2-praktisch",
+      "lang": "en",
+      "sentence": "A small backpack is useful for city trips.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "c375b355-d45e-74d4-4bcf-5a710b41f0e7",
+      "concept_id": "concept-a2-unterschiedlich",
+      "lang": "en",
+      "sentence": "My brother and I are not alike at all.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "b07698e4-cd50-eb0e-3947-4a33897f7c69",
+      "concept_id": "concept-a2-lebendig",
+      "lang": "en",
+      "sentence": "The market is full of people, music and colors.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "0f82b1b5-79ae-0ec0-e1f6-bd63baa22c7d",
+      "concept_id": "concept-a2-bequem",
+      "lang": "en",
+      "sentence": "This sofa is soft and nice to sit on.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "d958c74e-0f4a-1910-e3d8-525ee0034914",
+      "concept_id": "concept-a2-deshalb",
+      "lang": "en",
+      "sentence": "It was raining, so we stayed at home.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "348e3d79-831c-f17c-2eaa-e7b809d4784e",
+      "concept_id": "concept-a2-drinnen",
+      "lang": "en",
+      "sentence": "It is cold, let's go in.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "6c6867c9-b443-1379-0ac3-37608d7968ad",
+      "concept_id": "concept-a2-unterwegs",
+      "lang": "en",
+      "sentence": "I am in the car, I'll be there in ten minutes.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "60591380-ca91-a4ed-91e1-77d954aa9513",
+      "concept_id": "concept-a2-bisher",
+      "lang": "en",
+      "sentence": "Until now the trip has been great.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "356cf72a-c2ef-939f-5b88-c9b8e94eb449",
+      "concept_id": "concept-a2-sonst",
+      "lang": "en",
+      "sentence": "Hurry up, or we will miss the train.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "fda70788-486c-c9dd-1b11-b31b168b82e0",
+      "concept_id": "concept-a2-mindestens",
+      "lang": "en",
+      "sentence": "Drink a minimum of two liters of water a day.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "beefe3c8-ad0b-4c35-a364-cb389ee85736",
+      "concept_id": "concept-a2-ploetzlich",
+      "lang": "en",
+      "sentence": "All at once the lights went out.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "368c0530-67b4-4380-48d9-6d69227adc65",
+      "concept_id": "concept-a2-veranstaltung",
+      "lang": "en",
+      "sentence": "The town festival is on Saturday in the main square.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "63456f45-7b70-087d-8fcd-6d6392c9387e",
+      "concept_id": "concept-a2-ergebnis",
+      "lang": "en",
+      "sentence": "My exam score was 90 out of 100.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "8b1c087f-e1dd-98ef-ca86-83bb9ba93303",
+      "concept_id": "concept-a2-mitbringen",
+      "lang": "en",
+      "sentence": "Take your swimsuit with you to the lake.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "cd1478b9-d436-601e-ed4c-3fb2208731ba",
+      "concept_id": "concept-a2-uebernachten",
+      "lang": "en",
+      "sentence": "We slept at a small hotel near the station.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "57684dd5-a15b-d89e-1ee6-89b9a47fb65f",
+      "concept_id": "concept-a2-seltsam",
+      "lang": "en",
+      "sentence": "That is odd: the door was locked a minute ago.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "0366bcea-714d-8283-a4da-b14ffe9b03f8",
+      "concept_id": "concept-a2-sogar",
+      "lang": "en",
+      "sentence": "Everybody came to the party, my grandmother too!",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "e310733b-695e-1d33-4e28-9bf728ebe640",
+      "concept_id": "concept-a2-ueberhaupt-general",
+      "lang": "en",
+      "sentence": "Usually I go to bed at eleven.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "be45bbc4-be54-53e4-6493-d30514ae622e",
+      "concept_id": "concept-a2-rasen",
+      "lang": "en",
+      "sentence": "The children ran across the field as fast as they could.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "a46946f7-ca2b-7f4e-161c-b3a66890b46b",
+      "concept_id": "concept-a2-kontext",
+      "lang": "en",
+      "sentence": "This word has a different meaning in a medical text.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "4f3a8d33-178e-0cb9-9c5e-a37f5536da82",
+      "concept_id": "concept-a2-dart",
+      "lang": "en",
+      "sentence": "He threw the little arrow and hit the center of the board.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "404bd2c8-bcea-4b93-4289-16d029997aeb",
+      "concept_id": "concept-a2-wettbewerb",
+      "lang": "en",
+      "sentence": "Our school team won first prize in the contest.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "50625890-1b6a-e982-fa28-dc3a92327181",
+      "concept_id": "6130e3ff-563e-b1e4-0a60-4621b3012ace",
+      "lang": "en",
+      "sentence": "He saw me, but he looked away and said nothing.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "3f8759e4-5cf0-aabc-b8fd-9477fec878c3",
+      "concept_id": "e57bd751-647d-7210-d0ca-f669b2915586",
+      "lang": "en",
+      "sentence": "Forget about it, it does not matter.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "0ee966ab-d13c-74d8-e051-37beeb4be5db",
+      "concept_id": "cb00662c-c1cb-6fd7-17d8-3a90330706ec",
+      "lang": "en",
+      "sentence": "The teacher's explanation was easy to follow.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "cc4a7a17-16ce-4358-cd20-bcccdf501353",
+      "concept_id": "2faa785b-cd9a-5df5-03c6-46cb92e5604a",
+      "lang": "en",
+      "sentence": "I almost never eat meat.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "bfcff506-e72b-944f-c9f8-439b49f095ea",
+      "concept_id": "bfe7a189-368e-225c-d580-cb8a5b09f36e",
+      "lang": "en",
+      "sentence": "We go out of the house at seven every morning.",
+      "translation_lang": null,
+      "translation_text": null
     }
   ],
   "concept_definitions": [

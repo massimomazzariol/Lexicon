@@ -23,6 +23,15 @@ The goal is to keep content history concept-first and language-neutral.
 Entries should describe meanings and cross-language lexicalizations, not treat
 one language as the owner of the change.
 
+## 2026-11-10 - English examples for every A1/A2 concept
+
+The 210 A1/A2 concepts without an English example now have one
+(`tools/maintenance/editorial_examples_en_a1_a2.json`). Each sentence follows
+the concept's definition, stays at A1/A2 level and passes the no-spoiler
+check: no target word, inflection or listed synonym. Copulas and possession
+are paraphrased the way the German and Italian examples do ("We live happily
+in a quiet town." for "to be"). B1 to C2 still miss 141 English examples.
+
 ## 2026-10-19 - A1/A2 answer support and editorial review
 
 Everyday words a learner would give as the answer were missing or only

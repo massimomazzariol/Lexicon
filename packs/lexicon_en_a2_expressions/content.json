@@ -782,10 +782,10 @@
       "concept_id": "concept-a2-im-durchschnitt",
       "lang": "de",
       "text": "durchschnittlich",
+      "frequency_rank": null,
       "lemma": "durchschnittlich",
       "pos": "chunk",
-      "gender": null,
-      "frequency_rank": null,
+      "gender": "none",
       "countability": "none",
       "register": "neutral",
       "meaning_status": "exact",
@@ -1443,6 +1443,24 @@
       "tags_json": {
         "slot_key": "core"
       }
+    },
+    {
+      "form_id": "834926b2-bfed-64c7-76d5-230c132b1b93",
+      "lexeme_id": "lex-de-durchschnittlich-adv",
+      "lang": "de",
+      "surface": "durchschnittlich",
+      "surface_search": "durchschnittlich",
+      "number_value": "none",
+      "grammatical_case": "none",
+      "definiteness": "none",
+      "form_role": "core",
+      "status": "approved",
+      "sort_order": 0,
+      "plugin_source": "core:lexeme-form-generation",
+      "editor_notes": null,
+      "tags_json": {
+        "slot_key": "core"
+      }
     }
   ],
   "study_units": [
@@ -2056,7 +2074,9 @@
       "unit_kind": "core_rec",
       "source_form_id": "1970abec-c42a-6c9f-6d7f-c894eff80488",
       "primary_expected_form_id": "70929a25-a3ff-ed06-de0f-48c5b513c431",
-      "extra_expected_form_ids": [],
+      "extra_expected_form_ids": [
+        "834926b2-bfed-64c7-76d5-230c132b1b93"
+      ],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",

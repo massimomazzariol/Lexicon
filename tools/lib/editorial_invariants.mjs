@@ -196,6 +196,18 @@ export function collectEditorialInvariantViolations({
     const canonicalTextBucket =
       canonicalLexemeTextsByConceptLang.get(canonicalConceptLangKey) ?? [];
     if (text) {
+      // The same word twice in one concept and language is a duplicate row,
+      // not a variant (24 such empty copies were found on 2026-11-10).
+      if (canonicalTextBucket.some((seen) => seen.toLowerCase() === text.toLowerCase())) {
+        violations.push({
+          kind: 'duplicate_lexeme_text',
+          field: 'lexemes.text',
+          concept_id: conceptId,
+          lexeme_id: lexemeId,
+          lang,
+          value: text,
+        });
+      }
       canonicalTextBucket.push(text);
       canonicalLexemeTextsByConceptLang.set(
         canonicalConceptLangKey,

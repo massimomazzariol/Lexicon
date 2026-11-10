@@ -31,3 +31,21 @@ test('learner-facing text must not carry internal ids', () => {
     'concept_definitions.usage_note: Not the adverb (see concept-a1-einfach-just).',
   ]);
 });
+
+test('the same word twice in one concept and language is a violation', () => {
+  const lexeme = (id, lang, text) => ({ lexeme_id: id, concept_id: 'c-1', lang, text, pos: 'adv' });
+  const content = {
+    concepts: [{ concept_id: 'c-1', pos: 'adv' }],
+    lexemes: [
+      lexeme('lex-de-oft', 'de', 'oft'),
+      lexeme('lex-de-oft-2', 'de', 'Oft'),
+      lexeme('lex-de-haeufig', 'de', 'häufig'),
+      lexeme('lex-en-often', 'en', 'oft'),
+    ],
+    concept_definitions: [],
+  };
+  const duplicates = collectEditorialInvariantViolations({ content })
+    .filter((violation) => violation.kind === 'duplicate_lexeme_text')
+    .map((violation) => violation.lexeme_id);
+  assert.deepEqual(duplicates, ['lex-de-oft-2']);
+});

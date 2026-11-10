@@ -1,0 +1,424 @@
+[
+  {
+    "source_key": "a1_adv_gut_well",
+    "concept_id": "concept-a1-gut-well",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": ["Daily", "Abstract"],
+    "notes": "Adverb sense split (2026-11, DL-015). German uses one form for the adjective and the adverb; Italian and English do not. The adjective sense stays in concept 841a0138.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-gut-adv",
+        "text": "gut",
+        "lemma": "gut",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Auf eine Weise, die gelingt oder angenehm ist; sagt, wie man etwas tut oder wie es jemandem geht.",
+        "usage_note": "Hier als Adverb (Er spricht gut Deutsch, Mir geht es gut). Das Adjektiv (ein guter Film) ist ein eigenes Konzept.",
+        "examples": ["Sie spricht ausgezeichnet Deutsch."]
+      },
+      "it": {
+        "lexeme_id": "lex-it-bene",
+        "text": "bene",
+        "lemma": "bene",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In modo giusto o piacevole; dice come si fa qualcosa o come si sta.",
+        "examples": ["Parla tedesco in modo eccellente."]
+      },
+      "en": {
+        "lexeme_id": "lex-en-well-adv",
+        "text": "well",
+        "lemma": "well",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In a good or successful way; says how something is done or how someone feels.",
+        "examples": ["She speaks excellent German."]
+      }
+    }
+  },
+  {
+    "source_key": "a1_adv_schlecht_badly",
+    "concept_id": "concept-a1-schlecht-badly",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": ["Daily", "Abstract"],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept 2e769167.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-schlecht-adv",
+        "text": "schlecht",
+        "lemma": "schlecht",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Auf eine Weise, die nicht gelingt oder unangenehm ist.",
+        "usage_note": "Hier als Adverb (Ich habe schlecht geschlafen). Das Adjektiv (ein schlechter Film) ist ein eigenes Konzept.",
+        "examples": ["Nach dem Essen fühle ich mich nicht wohl."]
+      },
+      "it": {
+        "lexeme_id": "lex-it-male-adv",
+        "text": "male",
+        "lemma": "male",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In modo non riuscito o spiacevole.",
+        "examples": ["Stanotte non ho riposato per niente."]
+      },
+      "en": {
+        "lexeme_id": "lex-en-badly",
+        "text": "badly",
+        "lemma": "badly",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In a poor or unsuccessful way.",
+        "examples": ["I hardly slept last night and I feel tired."]
+      }
+    }
+  },
+  {
+    "source_key": "a1_adv_richtig_correctly",
+    "concept_id": "concept-a1-richtig-correctly",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": ["Daily", "Abstract", "Education"],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept 05e8f99b.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-richtig-adv",
+        "text": "richtig",
+        "lemma": "richtig",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ohne Fehler, so wie es sein soll.",
+        "usage_note": "Hier als Adverb (Du hast das Wort richtig geschrieben). Das Adjektiv (die richtige Antwort) ist ein eigenes Konzept.",
+        "examples": ["Du hast jedes Wort ohne Fehler geschrieben."]
+      },
+      "it": {
+        "lexeme_id": "lex-it-correttamente",
+        "text": "correttamente",
+        "lemma": "correttamente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Senza errori, nel modo giusto.",
+        "examples": ["Hai scritto ogni parola senza errori."]
+      },
+      "en": {
+        "lexeme_id": "lex-en-correctly",
+        "text": "correctly",
+        "lemma": "correctly",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Without mistakes, in the right way.",
+        "examples": ["You wrote every word without a mistake."]
+      }
+    }
+  },
+  {
+    "source_key": "a1_adv_falsch_wrongly",
+    "concept_id": "concept-a1-falsch-wrongly",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": ["Daily", "Abstract", "Education"],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept 434197ea.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-falsch-adv",
+        "text": "falsch",
+        "lemma": "falsch",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Mit einem Fehler, nicht so wie es sein soll.",
+        "usage_note": "Hier als Adverb (Du hast meinen Namen falsch geschrieben). Das Adjektiv (die falsche Antwort) ist ein eigenes Konzept.",
+        "examples": ["In meinem Namen fehlt ein Buchstabe, bitte schreib ihn neu."]
+      },
+      "it": {
+        "lexeme_id": "lex-it-in-modo-sbagliato",
+        "text": "in modo sbagliato",
+        "lemma": "in modo sbagliato",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Con un errore, non nel modo giusto.",
+        "examples": ["Nel mio nome manca una lettera, riscrivilo per favore."]
+      },
+      "en": {
+        "lexeme_id": "lex-en-wrongly",
+        "text": "wrongly",
+        "lemma": "wrongly",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "With a mistake, not in the right way.",
+        "examples": ["My name is missing a letter, please write it again."]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adv_deutlich_clearly",
+    "concept_id": "concept-a2-deutlich-clearly",
+    "pos": "adv",
+    "level_auto": "A2",
+    "domain_tags": ["Communication", "Daily"],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept-a2-deutlich.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-deutlich-adv",
+        "text": "deutlich",
+        "lemma": "deutlich",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So, dass man es gut sehen, hören oder verstehen kann.",
+        "usage_note": "Hier als Adverb (Sprich bitte deutlich). Das Adjektiv (eine deutliche Antwort) ist ein eigenes Konzept.",
+        "examples": ["Sprich bitte langsam und laut, ich verstehe dich nicht."]
+      },
+      "it": {
+        "lexeme_id": "lex-it-chiaramente",
+        "text": "chiaramente",
+        "lemma": "chiaramente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In modo che si possa vedere, sentire o capire bene.",
+        "examples": ["Parla piano e forte, per favore, non ti capisco."]
+      },
+      "en": {
+        "lexeme_id": "lex-en-clearly",
+        "text": "clearly",
+        "lemma": "clearly",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In a way that is easy to see, hear or understand.",
+        "examples": ["Please speak slowly and loudly, I cannot understand you."]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adv_puenktlich_punctually",
+    "concept_id": "concept-a2-puenktlich-punctually",
+    "pos": "adv",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Time"],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept-a2-puenktlich.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-puenktlich-adv",
+        "text": "pünktlich",
+        "lemma": "pünktlich",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Genau zur richtigen Zeit.",
+        "usage_note": "Hier als Adverb (Der Zug kommt pünktlich). Das Adjektiv (ein pünktlicher Mensch) ist ein eigenes Konzept.",
+        "examples": ["Der Bus fährt genau um acht Uhr ab."]
+      },
+      "it": {
+        "lexeme_id": "lex-it-puntualmente",
+        "text": "puntualmente",
+        "lemma": "puntualmente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Esattamente all'ora giusta.",
+        "examples": ["L'autobus parte alle otto in punto."]
+      },
+      "en": {
+        "lexeme_id": "lex-en-punctually",
+        "text": "punctually",
+        "lemma": "punctually",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "At exactly the right time.",
+        "examples": ["The bus leaves at eight o'clock sharp."]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adv_dringend_urgently",
+    "concept_id": "concept-a2-dringend-urgently",
+    "pos": "adv",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Time"],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept-a2-dringend.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-dringend-adv",
+        "text": "dringend",
+        "lemma": "dringend",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Sehr bald, weil es nicht warten kann.",
+        "usage_note": "Hier als Adverb (Ich muss dringend zum Arzt). Das Adjektiv (ein dringender Anruf) ist ein eigenes Konzept.",
+        "examples": ["Ich habe Zahnschmerzen und brauche sofort einen Termin."]
+      },
+      "it": {
+        "lexeme_id": "lex-it-urgentemente",
+        "text": "urgentemente",
+        "lemma": "urgentemente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Molto presto, perché non può aspettare.",
+        "examples": ["Ho mal di denti e mi serve subito un appuntamento."]
+      },
+      "en": {
+        "lexeme_id": "lex-en-urgently",
+        "text": "urgently",
+        "lemma": "urgently",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Very soon, because it cannot wait.",
+        "examples": ["I have a toothache and need an appointment right away."]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adv_bequem_comfortably",
+    "concept_id": "concept-a2-bequem-comfortably",
+    "pos": "adv",
+    "level_auto": "A2",
+    "domain_tags": ["Daily", "Home"],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept-a2-bequem.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-bequem-adv",
+        "text": "bequem",
+        "lemma": "bequem",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Auf angenehme Weise, ohne Mühe oder Schmerzen.",
+        "usage_note": "Hier als Adverb (Hier sitzt man bequem). Das Adjektiv (ein bequemer Stuhl) ist ein eigenes Konzept.",
+        "examples": ["Auf diesem weichen Sofa sitzt man sehr angenehm."]
+      },
+      "it": {
+        "lexeme_id": "lex-it-comodamente",
+        "text": "comodamente",
+        "lemma": "comodamente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In modo piacevole, senza fatica.",
+        "examples": ["Su questo divano morbido si sta seduti in modo piacevole."]
+      },
+      "en": {
+        "lexeme_id": "lex-en-comfortably",
+        "text": "comfortably",
+        "lemma": "comfortably",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In a pleasant way, without effort or pain.",
+        "examples": ["You can sit very pleasantly on this soft sofa."]
+      }
+    }
+  },
+  {
+    "source_key": "a2_adv_praktisch_practically",
+    "concept_id": "concept-a2-praktisch-practically",
+    "pos": "adv",
+    "level_auto": "A2",
+    "domain_tags": ["Daily"],
+    "notes": "Adverb sense split (2026-11, DL-015): praktisch as almost. The adjective sense (useful) stays in concept-a2-praktisch.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-praktisch-adv",
+        "text": "praktisch",
+        "lemma": "praktisch",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Fast, so gut wie.",
+        "usage_note": "Hier im Sinn von fast (Ich bin praktisch fertig). Das Adjektiv (ein praktischer Rucksack) ist ein eigenes Konzept.",
+        "examples": ["Ich bin so gut wie fertig, nur noch fünf Minuten."]
+      },
+      "it": {
+        "lexeme_id": "lex-it-praticamente",
+        "text": "praticamente",
+        "lemma": "praticamente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Quasi del tutto.",
+        "examples": ["Ho quasi finito, ancora cinque minuti."]
+      },
+      "en": {
+        "lexeme_id": "lex-en-practically",
+        "text": "practically",
+        "lemma": "practically",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Almost; very nearly.",
+        "examples": ["I am almost done, just five more minutes."]
+      }
+    }
+  },
+  {
+    "source_key": "a1_adv_schnell_quickly",
+    "concept_id": "concept-a1-schnell-quickly",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": ["Daily", "Action"],
+    "notes": "Adverb sense split (2026-11, DL-015). velocemente and quickly move here from the adjective concept f62b0871, where they were adverb answers on an adjective.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-schnell-adv",
+        "text": "schnell",
+        "lemma": "schnell",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Mit hoher Geschwindigkeit oder in kurzer Zeit.",
+        "usage_note": "Hier als Adverb (Er fährt schnell). Das Adjektiv (ein schnelles Auto) ist ein eigenes Konzept.",
+        "examples": ["Der Zug fährt 300 Kilometer pro Stunde."]
+      },
+      "it": {
+        "lexeme_id": "lex-it-velocemente",
+        "text": "velocemente",
+        "lemma": "velocemente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "notes": null,
+        "definition": "Con grande rapidità o in poco tempo.",
+        "examples": ["Il treno va a 300 chilometri all'ora."]
+      },
+      "en": {
+        "lexeme_id": "lex-en-quickly",
+        "text": "quickly",
+        "lemma": "quickly",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "notes": null,
+        "definition": "At high speed or in a short time.",
+        "examples": ["The train goes 300 kilometers an hour."]
+      }
+    }
+  },
+  {
+    "source_key": "a1_adv_langsam_slowly",
+    "concept_id": "concept-a1-langsam-slowly",
+    "pos": "adv",
+    "level_auto": "A1",
+    "domain_tags": ["Daily", "Action"],
+    "notes": "Adverb sense split (2026-11, DL-015). lentamente and slowly move here from the adjective concept d5a6cfdf, where they were adverb answers on an adjective.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-langsam-adv",
+        "text": "langsam",
+        "lemma": "langsam",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Mit geringer Geschwindigkeit, ohne Eile.",
+        "usage_note": "Hier als Adverb (Sprich bitte langsam). Das Adjektiv (ein langsamer Zug) ist ein eigenes Konzept.",
+        "examples": ["Oma geht mit kleinen Schritten und nimmt sich Zeit."]
+      },
+      "it": {
+        "lexeme_id": "lex-it-lentamente",
+        "text": "lentamente",
+        "lemma": "lentamente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "notes": null,
+        "definition": "A bassa velocità, senza fretta.",
+        "examples": ["La nonna cammina a piccoli passi e se la prende comoda."]
+      },
+      "en": {
+        "lexeme_id": "lex-en-slowly",
+        "text": "slowly",
+        "lemma": "slowly",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "notes": null,
+        "definition": "At low speed, without hurry.",
+        "examples": ["Grandma walks with small steps and takes her time."]
+      }
+    }
+  }
+]

@@ -405,3 +405,42 @@ Follow-up:
   cannot make them distinct senses. The pairs `pulire`/`clean`, `valutare`
   and `probabilmente`/`probably` differ by tendency, not by exclusive meaning.
   Both need a concept-boundary review, not a label fix.
+
+## DL-015 - Adverb Senses Of German Adjectives Are Their Own Concepts
+
+Date: `2026-11-10`
+Status: `active`
+
+Decision:
+- When a German adjective is also used as an adverb and Italian or English
+  use a different word for that use (`gut`: buono / bene, `schnell`: veloce /
+  velocemente), the adverb use is its own concept with `pos: "adv"`, not a
+  secondary answer on the adjective concept.
+- The German lexeme is the same word in both concepts, so both carry sense
+  indicators (DL-014): the adjective a short paraphrase of its meaning, the
+  adverb `wie man etwas tut` / `come si fa qualcosa` / `how something is
+  done` (or its own meaning, as `praktisch`: almost).
+- Where the target languages use the same word for both uses (`weit` /
+  lontano, `nah` / vicino), nothing is split.
+
+Why:
+- The lexicon states what is true about words. An Italian adverb stored on
+  an adjective concept was graded as an exact answer for the adjective and
+  carried the adjective's `pos`, which is wrong for any consumer.
+- How lenient a learning app is with an answer that fits another sense of
+  the same word is the consumer's decision, not data.
+
+Impacts:
+- `packs/templates/entries.a1_a2_wave_adverb_senses.json`: 11 adverb
+  concepts at A1/A2 (gut, schlecht, richtig, falsch, deutlich, pünktlich,
+  dringend, bequem, praktisch, schnell, langsam). `velocemente` / `quickly`
+  and `lentamente` / `slowly` move from the adjective concepts to the new
+  adverb ones.
+- `tools/maintenance/editorial_sense_indicators_adverbs.json`: labels for
+  the 22 concepts that now share a word, plus `gesund` (shares `well`).
+- The new concepts are `needs_review` for their CEFR placement.
+
+Follow-up:
+- `klar` as an adverb (klar sprechen) is not modeled: it would add a third
+  concept to an already shared word. B1 and above were not reviewed for the
+  same pattern.

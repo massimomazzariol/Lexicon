@@ -350,62 +350,6 @@
     }
   },
   {
-    "source_key": "adverb_answer_velocemente",
-    "concept_id": "f62b0871-8768-d1b5-fc27-aa9b253d73eb",
-    "pos": "adj",
-    "translations": {
-      "it": {
-        "lexeme_id": "lex-it-velocemente",
-        "text": "velocemente",
-        "meaning_status": "exact",
-        "is_primary": false,
-        "notes": "Adverb use of the German word (schnell/langsam fahren)."
-      }
-    }
-  },
-  {
-    "source_key": "adverb_answer_quickly",
-    "concept_id": "f62b0871-8768-d1b5-fc27-aa9b253d73eb",
-    "pos": "adj",
-    "translations": {
-      "en": {
-        "lexeme_id": "lex-en-quickly",
-        "text": "quickly",
-        "meaning_status": "exact",
-        "is_primary": false,
-        "notes": "Adverb use of the German word (schnell/langsam fahren)."
-      }
-    }
-  },
-  {
-    "source_key": "adverb_answer_lentamente",
-    "concept_id": "d5a6cfdf-d6ee-10c8-1d58-1fb0bafaae70",
-    "pos": "adj",
-    "translations": {
-      "it": {
-        "lexeme_id": "lex-it-lentamente",
-        "text": "lentamente",
-        "meaning_status": "exact",
-        "is_primary": false,
-        "notes": "Adverb use of the German word (schnell/langsam fahren)."
-      }
-    }
-  },
-  {
-    "source_key": "adverb_answer_slowly",
-    "concept_id": "d5a6cfdf-d6ee-10c8-1d58-1fb0bafaae70",
-    "pos": "adj",
-    "translations": {
-      "en": {
-        "lexeme_id": "lex-en-slowly",
-        "text": "slowly",
-        "meaning_status": "exact",
-        "is_primary": false,
-        "notes": "Adverb use of the German word (schnell/langsam fahren)."
-      }
-    }
-  },
-  {
     "source_key": "b1_c2_exact_lex-en-concise",
     "concept_id": "concept-c2-praegnant",
     "pos": "adj",

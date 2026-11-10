@@ -9639,6 +9639,161 @@
       "notes": "Added in the 2026-10 A1/A2 review: Stift (concept dfafba91) is the generic pen; the pencil is its own everyday word.",
       "metadata_json": {},
       "review_status": "reviewed"
+    },
+    {
+      "concept_id": "concept-a1-gut-well",
+      "pos": "adv",
+      "difficulty_score_auto": 20,
+      "level_auto": "A1",
+      "level_override": null,
+      "domain_tags": [
+        "Daily",
+        "Abstract"
+      ],
+      "notes": "Adverb sense split (2026-11, DL-015). German uses one form for the adjective and the adverb; Italian and English do not. The adjective sense stays in concept 841a0138.",
+      "metadata_json": {},
+      "review_status": "needs_review"
+    },
+    {
+      "concept_id": "concept-a1-schlecht-badly",
+      "pos": "adv",
+      "difficulty_score_auto": 20,
+      "level_auto": "A1",
+      "level_override": null,
+      "domain_tags": [
+        "Daily",
+        "Abstract"
+      ],
+      "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept 2e769167.",
+      "metadata_json": {},
+      "review_status": "needs_review"
+    },
+    {
+      "concept_id": "concept-a1-richtig-correctly",
+      "pos": "adv",
+      "difficulty_score_auto": 20,
+      "level_auto": "A1",
+      "level_override": null,
+      "domain_tags": [
+        "Daily",
+        "Abstract",
+        "Education"
+      ],
+      "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept 05e8f99b.",
+      "metadata_json": {},
+      "review_status": "needs_review"
+    },
+    {
+      "concept_id": "concept-a1-falsch-wrongly",
+      "pos": "adv",
+      "difficulty_score_auto": 20,
+      "level_auto": "A1",
+      "level_override": null,
+      "domain_tags": [
+        "Daily",
+        "Abstract",
+        "Education"
+      ],
+      "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept 434197ea.",
+      "metadata_json": {},
+      "review_status": "needs_review"
+    },
+    {
+      "concept_id": "concept-a2-deutlich-clearly",
+      "pos": "adv",
+      "difficulty_score_auto": 35,
+      "level_auto": "A2",
+      "level_override": null,
+      "domain_tags": [
+        "Communication",
+        "Daily"
+      ],
+      "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept-a2-deutlich.",
+      "metadata_json": {},
+      "review_status": "needs_review"
+    },
+    {
+      "concept_id": "concept-a2-puenktlich-punctually",
+      "pos": "adv",
+      "difficulty_score_auto": 35,
+      "level_auto": "A2",
+      "level_override": null,
+      "domain_tags": [
+        "Daily",
+        "Time"
+      ],
+      "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept-a2-puenktlich.",
+      "metadata_json": {},
+      "review_status": "needs_review"
+    },
+    {
+      "concept_id": "concept-a2-dringend-urgently",
+      "pos": "adv",
+      "difficulty_score_auto": 35,
+      "level_auto": "A2",
+      "level_override": null,
+      "domain_tags": [
+        "Daily",
+        "Time"
+      ],
+      "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept-a2-dringend.",
+      "metadata_json": {},
+      "review_status": "needs_review"
+    },
+    {
+      "concept_id": "concept-a2-bequem-comfortably",
+      "pos": "adv",
+      "difficulty_score_auto": 35,
+      "level_auto": "A2",
+      "level_override": null,
+      "domain_tags": [
+        "Daily",
+        "Home"
+      ],
+      "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept-a2-bequem.",
+      "metadata_json": {},
+      "review_status": "needs_review"
+    },
+    {
+      "concept_id": "concept-a2-praktisch-practically",
+      "pos": "adv",
+      "difficulty_score_auto": 35,
+      "level_auto": "A2",
+      "level_override": null,
+      "domain_tags": [
+        "Daily"
+      ],
+      "notes": "Adverb sense split (2026-11, DL-015): praktisch as almost. The adjective sense (useful) stays in concept-a2-praktisch.",
+      "metadata_json": {},
+      "review_status": "needs_review"
+    },
+    {
+      "concept_id": "concept-a1-schnell-quickly",
+      "pos": "adv",
+      "difficulty_score_auto": 20,
+      "level_auto": "A1",
+      "level_override": null,
+      "domain_tags": [
+        "Daily",
+        "Action"
+      ],
+      "notes": "Adverb sense split (2026-11, DL-015). velocemente and quickly move here from the adjective concept f62b0871, where they were adverb answers on an adjective.",
+      "metadata_json": {},
+      "review_status": "needs_review"
+    },
+    {
+      "concept_id": "concept-a1-langsam-slowly",
+      "pos": "adv",
+      "difficulty_score_auto": 20,
+      "level_auto": "A1",
+      "level_override": null,
+      "domain_tags": [
+        "Daily",
+        "Action"
+      ],
+      "notes": "Adverb sense split (2026-11, DL-015). lentamente and slowly move here from the adjective concept d5a6cfdf, where they were adverb answers on an adjective.",
+      "metadata_json": {},
+      "review_status": "needs_review"
     }
   ],
   "lexemes": [
@@ -47775,68 +47930,68 @@
     },
     {
       "lexeme_id": "lex-it-velocemente",
-      "concept_id": "f62b0871-8768-d1b5-fc27-aa9b253d73eb",
+      "concept_id": "concept-a1-schnell-quickly",
       "lang": "it",
       "text": "velocemente",
       "frequency_rank": null,
       "lemma": "velocemente",
-      "pos": "adj",
+      "pos": "adv",
       "gender": "none",
       "countability": "none",
       "register": "neutral",
       "meaning_status": "exact",
-      "is_primary": false,
+      "is_primary": true,
       "status": "approved",
       "notes": "Adverb use of the German word (schnell/langsam fahren).",
       "is_active": true
     },
     {
       "lexeme_id": "lex-en-quickly",
-      "concept_id": "f62b0871-8768-d1b5-fc27-aa9b253d73eb",
+      "concept_id": "concept-a1-schnell-quickly",
       "lang": "en",
       "text": "quickly",
       "frequency_rank": null,
       "lemma": "quickly",
-      "pos": "adj",
+      "pos": "adv",
       "gender": "none",
       "countability": "none",
       "register": "neutral",
       "meaning_status": "exact",
-      "is_primary": false,
+      "is_primary": true,
       "status": "approved",
       "notes": "Adverb use of the German word (schnell/langsam fahren).",
       "is_active": true
     },
     {
       "lexeme_id": "lex-it-lentamente",
-      "concept_id": "d5a6cfdf-d6ee-10c8-1d58-1fb0bafaae70",
+      "concept_id": "concept-a1-langsam-slowly",
       "lang": "it",
       "text": "lentamente",
       "frequency_rank": null,
       "lemma": "lentamente",
-      "pos": "adj",
+      "pos": "adv",
       "gender": "none",
       "countability": "none",
       "register": "neutral",
       "meaning_status": "exact",
-      "is_primary": false,
+      "is_primary": true,
       "status": "approved",
       "notes": "Adverb use of the German word (schnell/langsam fahren).",
       "is_active": true
     },
     {
       "lexeme_id": "lex-en-slowly",
-      "concept_id": "d5a6cfdf-d6ee-10c8-1d58-1fb0bafaae70",
+      "concept_id": "concept-a1-langsam-slowly",
       "lang": "en",
       "text": "slowly",
       "frequency_rank": null,
       "lemma": "slowly",
-      "pos": "adj",
+      "pos": "adv",
       "gender": "none",
       "countability": "none",
       "register": "neutral",
       "meaning_status": "exact",
-      "is_primary": false,
+      "is_primary": true,
       "status": "approved",
       "notes": "Adverb use of the German word (schnell/langsam fahren).",
       "is_active": true
@@ -47888,6 +48043,499 @@
       "register": "neutral",
       "meaning_status": "exact",
       "is_primary": false,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-gut-adv",
+      "concept_id": "concept-a1-gut-well",
+      "lang": "de",
+      "text": "gut",
+      "lemma": "gut",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-bene",
+      "concept_id": "concept-a1-gut-well",
+      "lang": "it",
+      "text": "bene",
+      "lemma": "bene",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-en-well-adv",
+      "concept_id": "concept-a1-gut-well",
+      "lang": "en",
+      "text": "well",
+      "lemma": "well",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-schlecht-adv",
+      "concept_id": "concept-a1-schlecht-badly",
+      "lang": "de",
+      "text": "schlecht",
+      "lemma": "schlecht",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-male-adv",
+      "concept_id": "concept-a1-schlecht-badly",
+      "lang": "it",
+      "text": "male",
+      "lemma": "male",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-en-badly",
+      "concept_id": "concept-a1-schlecht-badly",
+      "lang": "en",
+      "text": "badly",
+      "lemma": "badly",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-richtig-adv",
+      "concept_id": "concept-a1-richtig-correctly",
+      "lang": "de",
+      "text": "richtig",
+      "lemma": "richtig",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-correttamente",
+      "concept_id": "concept-a1-richtig-correctly",
+      "lang": "it",
+      "text": "correttamente",
+      "lemma": "correttamente",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-en-correctly",
+      "concept_id": "concept-a1-richtig-correctly",
+      "lang": "en",
+      "text": "correctly",
+      "lemma": "correctly",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-falsch-adv",
+      "concept_id": "concept-a1-falsch-wrongly",
+      "lang": "de",
+      "text": "falsch",
+      "lemma": "falsch",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-in-modo-sbagliato",
+      "concept_id": "concept-a1-falsch-wrongly",
+      "lang": "it",
+      "text": "in modo sbagliato",
+      "lemma": "in modo sbagliato",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-en-wrongly",
+      "concept_id": "concept-a1-falsch-wrongly",
+      "lang": "en",
+      "text": "wrongly",
+      "lemma": "wrongly",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-deutlich-adv",
+      "concept_id": "concept-a2-deutlich-clearly",
+      "lang": "de",
+      "text": "deutlich",
+      "lemma": "deutlich",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-chiaramente",
+      "concept_id": "concept-a2-deutlich-clearly",
+      "lang": "it",
+      "text": "chiaramente",
+      "lemma": "chiaramente",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-en-clearly",
+      "concept_id": "concept-a2-deutlich-clearly",
+      "lang": "en",
+      "text": "clearly",
+      "lemma": "clearly",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-puenktlich-adv",
+      "concept_id": "concept-a2-puenktlich-punctually",
+      "lang": "de",
+      "text": "pünktlich",
+      "lemma": "pünktlich",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-puntualmente",
+      "concept_id": "concept-a2-puenktlich-punctually",
+      "lang": "it",
+      "text": "puntualmente",
+      "lemma": "puntualmente",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-en-punctually",
+      "concept_id": "concept-a2-puenktlich-punctually",
+      "lang": "en",
+      "text": "punctually",
+      "lemma": "punctually",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-dringend-adv",
+      "concept_id": "concept-a2-dringend-urgently",
+      "lang": "de",
+      "text": "dringend",
+      "lemma": "dringend",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-urgentemente",
+      "concept_id": "concept-a2-dringend-urgently",
+      "lang": "it",
+      "text": "urgentemente",
+      "lemma": "urgentemente",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-en-urgently",
+      "concept_id": "concept-a2-dringend-urgently",
+      "lang": "en",
+      "text": "urgently",
+      "lemma": "urgently",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-bequem-adv",
+      "concept_id": "concept-a2-bequem-comfortably",
+      "lang": "de",
+      "text": "bequem",
+      "lemma": "bequem",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-comodamente",
+      "concept_id": "concept-a2-bequem-comfortably",
+      "lang": "it",
+      "text": "comodamente",
+      "lemma": "comodamente",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-en-comfortably",
+      "concept_id": "concept-a2-bequem-comfortably",
+      "lang": "en",
+      "text": "comfortably",
+      "lemma": "comfortably",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-praktisch-adv",
+      "concept_id": "concept-a2-praktisch-practically",
+      "lang": "de",
+      "text": "praktisch",
+      "lemma": "praktisch",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-it-praticamente",
+      "concept_id": "concept-a2-praktisch-practically",
+      "lang": "it",
+      "text": "praticamente",
+      "lemma": "praticamente",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-en-practically",
+      "concept_id": "concept-a2-praktisch-practically",
+      "lang": "en",
+      "text": "practically",
+      "lemma": "practically",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-schnell-adv",
+      "concept_id": "concept-a1-schnell-quickly",
+      "lang": "de",
+      "text": "schnell",
+      "lemma": "schnell",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
+      "status": "approved",
+      "notes": null,
+      "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-langsam-adv",
+      "concept_id": "concept-a1-langsam-slowly",
+      "lang": "de",
+      "text": "langsam",
+      "lemma": "langsam",
+      "pos": "adv",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": true,
       "status": "approved",
       "notes": null,
       "is_active": true
@@ -63809,6 +64457,270 @@
       "sentence": "We go out of the house at seven every morning.",
       "translation_lang": null,
       "translation_text": null
+    },
+    {
+      "example_id": "23e6bb56-a010-972a-0158-8e5bbaa1cb55",
+      "concept_id": "concept-a1-gut-well",
+      "lang": "de",
+      "sentence": "Sie spricht ausgezeichnet Deutsch.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "02c27e5b-e673-8ee7-8dfc-e36dea473fe1",
+      "concept_id": "concept-a1-gut-well",
+      "lang": "it",
+      "sentence": "Parla tedesco in modo eccellente.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f2d5a5b9-afa9-9d4e-a919-097e63c1f385",
+      "concept_id": "concept-a1-gut-well",
+      "lang": "en",
+      "sentence": "She speaks excellent German.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "95e6234d-e233-4309-593c-6ce35d345a17",
+      "concept_id": "concept-a1-schlecht-badly",
+      "lang": "de",
+      "sentence": "Nach dem Essen fühle ich mich nicht wohl.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "27676568-7dd6-789b-f397-06d0e2a05e12",
+      "concept_id": "concept-a1-schlecht-badly",
+      "lang": "it",
+      "sentence": "Stanotte non ho riposato per niente.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "62168f08-646a-b12f-79d6-35fac6fd08d4",
+      "concept_id": "concept-a1-schlecht-badly",
+      "lang": "en",
+      "sentence": "I hardly slept last night and I feel tired.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "fba9869d-6ff6-71e6-06df-b0a2db8ad78d",
+      "concept_id": "concept-a1-richtig-correctly",
+      "lang": "de",
+      "sentence": "Du hast jedes Wort ohne Fehler geschrieben.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "0a7d578d-3f04-4e55-68cd-a0d2df7e1948",
+      "concept_id": "concept-a1-richtig-correctly",
+      "lang": "it",
+      "sentence": "Hai scritto ogni parola senza errori.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "cc43a988-c274-fd39-8085-d074186968f0",
+      "concept_id": "concept-a1-richtig-correctly",
+      "lang": "en",
+      "sentence": "You wrote every word without a mistake.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "4a542598-ef52-0e71-13ba-2ab80bd2a343",
+      "concept_id": "concept-a1-falsch-wrongly",
+      "lang": "de",
+      "sentence": "In meinem Namen fehlt ein Buchstabe, bitte schreib ihn neu.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "48c5a6d2-c374-29b7-11a2-685fb99b1774",
+      "concept_id": "concept-a1-falsch-wrongly",
+      "lang": "it",
+      "sentence": "Nel mio nome manca una lettera, riscrivilo per favore.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "a1fd7674-2700-34e6-09ee-e43cad4b0931",
+      "concept_id": "concept-a1-falsch-wrongly",
+      "lang": "en",
+      "sentence": "My name is missing a letter, please write it again.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f0b58959-a95c-83af-d375-37f16cd49abf",
+      "concept_id": "concept-a2-deutlich-clearly",
+      "lang": "de",
+      "sentence": "Sprich bitte langsam und laut, ich verstehe dich nicht.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "f67e55db-f716-743e-b9c8-61d1e5efeedb",
+      "concept_id": "concept-a2-deutlich-clearly",
+      "lang": "it",
+      "sentence": "Parla piano e forte, per favore, non ti capisco.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "a42f7e15-608d-9388-a399-6aea6ef1c42d",
+      "concept_id": "concept-a2-deutlich-clearly",
+      "lang": "en",
+      "sentence": "Please speak slowly and loudly, I cannot understand you.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "230b3424-0ce3-2f4a-3fe8-a2e5e9833d09",
+      "concept_id": "concept-a2-puenktlich-punctually",
+      "lang": "de",
+      "sentence": "Der Bus fährt genau um acht Uhr ab.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "d51c5f35-ffaa-d933-d569-1c43421db1c0",
+      "concept_id": "concept-a2-puenktlich-punctually",
+      "lang": "it",
+      "sentence": "L'autobus parte alle otto in punto.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "50fd7fe6-cdd5-35f6-8068-30ee7c3700a1",
+      "concept_id": "concept-a2-puenktlich-punctually",
+      "lang": "en",
+      "sentence": "The bus leaves at eight o'clock sharp.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "ec0b5622-5be9-c769-c11c-17734671e390",
+      "concept_id": "concept-a2-dringend-urgently",
+      "lang": "de",
+      "sentence": "Ich habe Zahnschmerzen und brauche sofort einen Termin.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "a214c628-7d80-b3ea-c63c-bdb942f96612",
+      "concept_id": "concept-a2-dringend-urgently",
+      "lang": "it",
+      "sentence": "Ho mal di denti e mi serve subito un appuntamento.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "6b7cef2f-a35d-d999-9b8f-f764b8732d5d",
+      "concept_id": "concept-a2-dringend-urgently",
+      "lang": "en",
+      "sentence": "I have a toothache and need an appointment right away.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "33b73069-fb30-ac9b-5bec-15762db57c72",
+      "concept_id": "concept-a2-bequem-comfortably",
+      "lang": "de",
+      "sentence": "Auf diesem weichen Sofa sitzt man sehr angenehm.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "fad77ba3-1e3a-d991-53a6-3cf13ebfbd7c",
+      "concept_id": "concept-a2-bequem-comfortably",
+      "lang": "it",
+      "sentence": "Su questo divano morbido si sta seduti in modo piacevole.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "6a87492d-9dd1-12e9-6c23-65183e150c13",
+      "concept_id": "concept-a2-bequem-comfortably",
+      "lang": "en",
+      "sentence": "You can sit very pleasantly on this soft sofa.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "adde24cd-0ff1-4c08-2e37-eed09acea249",
+      "concept_id": "concept-a2-praktisch-practically",
+      "lang": "de",
+      "sentence": "Ich bin so gut wie fertig, nur noch fünf Minuten.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "aff52fbb-b3cc-eada-a0d6-febc3e44edf2",
+      "concept_id": "concept-a2-praktisch-practically",
+      "lang": "it",
+      "sentence": "Ho quasi finito, ancora cinque minuti.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "d5fd49f0-d412-e262-1c7d-3ad27faad897",
+      "concept_id": "concept-a2-praktisch-practically",
+      "lang": "en",
+      "sentence": "I am almost done, just five more minutes.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "ba6c9713-3244-649c-1720-5986b4078651",
+      "concept_id": "concept-a1-schnell-quickly",
+      "lang": "de",
+      "sentence": "Der Zug fährt 300 Kilometer pro Stunde.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "3140fcfb-da24-dca9-ff6c-d5e3eb15f103",
+      "concept_id": "concept-a1-schnell-quickly",
+      "lang": "it",
+      "sentence": "Il treno va a 300 chilometri all'ora.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "c644be08-2d5e-262e-e30c-12b244bf6969",
+      "concept_id": "concept-a1-schnell-quickly",
+      "lang": "en",
+      "sentence": "The train goes 300 kilometers an hour.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "fa37d1dd-6beb-1073-a1c1-181d7dc398e5",
+      "concept_id": "concept-a1-langsam-slowly",
+      "lang": "de",
+      "sentence": "Oma geht mit kleinen Schritten und nimmt sich Zeit.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "1e50038b-1479-74d4-ee42-ffd7bbb2f70b",
+      "concept_id": "concept-a1-langsam-slowly",
+      "lang": "it",
+      "sentence": "La nonna cammina a piccoli passi e se la prende comoda.",
+      "translation_lang": null,
+      "translation_text": null
+    },
+    {
+      "example_id": "9db0d4d2-23b7-3410-a3c4-d86ddcb3b2a4",
+      "concept_id": "concept-a1-langsam-slowly",
+      "lang": "en",
+      "sentence": "Grandma walks with small steps and takes her time.",
+      "translation_lang": null,
+      "translation_text": null
     }
   ],
   "clusters": [
@@ -72216,7 +73128,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "positiv, von Qualität"
     },
     {
       "concept_id": "841a0138-2699-37ac-2d82-cf0c66b5171e",
@@ -72233,7 +73146,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "positive, of quality"
     },
     {
       "concept_id": "841a0138-2699-37ac-2d82-cf0c66b5171e",
@@ -72249,7 +73163,8 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "positivo, di qualità"
     },
     {
       "concept_id": "2e769167-00e6-f086-d72a-4e96521fa4ce",
@@ -72267,7 +73182,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "negativ, ohne Qualität"
     },
     {
       "concept_id": "2e769167-00e6-f086-d72a-4e96521fa4ce",
@@ -72284,7 +73200,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "negative, of poor quality"
     },
     {
       "concept_id": "2e769167-00e6-f086-d72a-4e96521fa4ce",
@@ -72302,7 +73219,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "negativo, scadente"
     },
     {
       "concept_id": "91f2e21d-1055-c502-52eb-6895fe4406c4",
@@ -76615,7 +77533,8 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "mit hohem Tempo"
     },
     {
       "concept_id": "f62b0871-8768-d1b5-fc27-aa9b253d73eb",
@@ -76627,7 +77546,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "with high speed"
     },
     {
       "concept_id": "f62b0871-8768-d1b5-fc27-aa9b253d73eb",
@@ -76639,7 +77559,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "ad alta andatura"
     },
     {
       "concept_id": "d5a6cfdf-d6ee-10c8-1d58-1fb0bafaae70",
@@ -76654,7 +77575,8 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "mit wenig Tempo"
     },
     {
       "concept_id": "d5a6cfdf-d6ee-10c8-1d58-1fb0bafaae70",
@@ -76666,7 +77588,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "with low speed"
     },
     {
       "concept_id": "d5a6cfdf-d6ee-10c8-1d58-1fb0bafaae70",
@@ -76678,7 +77601,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "a bassa andatura"
     },
     {
       "concept_id": "7f70a8ad-7527-3553-4724-13d0e258d92c",
@@ -79119,7 +80043,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "zutreffend, ohne Fehler"
     },
     {
       "concept_id": "05e8f99b-09b8-996b-4b00-2717128f2062",
@@ -79131,7 +80056,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "true, without errors"
     },
     {
       "concept_id": "05e8f99b-09b8-996b-4b00-2717128f2062",
@@ -79143,7 +80069,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "vero, senza errori"
     },
     {
       "concept_id": "434197ea-470c-0d8c-5882-c14d89eb9dfd",
@@ -79162,7 +80089,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "nicht wahr, mit Fehler"
     },
     {
       "concept_id": "434197ea-470c-0d8c-5882-c14d89eb9dfd",
@@ -79174,7 +80102,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "untrue, with errors"
     },
     {
       "concept_id": "434197ea-470c-0d8c-5882-c14d89eb9dfd",
@@ -79186,7 +80115,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "non vero, con errori"
     },
     {
       "concept_id": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
@@ -79787,7 +80717,8 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "ohne Krankheit"
     },
     {
       "concept_id": "0d2589ee-2440-dbee-a208-b8c746185d20",
@@ -79799,7 +80730,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "free of illness"
     },
     {
       "concept_id": "0d2589ee-2440-dbee-a208-b8c746185d20",
@@ -79811,7 +80743,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "senza malattie"
     },
     {
       "concept_id": "6d361fa8-6b91-5bc2-d807-071ecd666ee8",
@@ -80532,7 +81465,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "kommt nie zu spät"
     },
     {
       "concept_id": "concept-a2-puenktlich",
@@ -80546,7 +81480,8 @@
         "in ritardo"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "mai in ritardo"
     },
     {
       "concept_id": "concept-a2-puenktlich",
@@ -80560,7 +81495,8 @@
         "late"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "never late"
     },
     {
       "concept_id": "concept-a2-wahrscheinlich",
@@ -82321,7 +83257,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "kann nicht warten"
     },
     {
       "concept_id": "concept-a2-dringend",
@@ -82337,7 +83274,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "non può aspettare"
     },
     {
       "concept_id": "concept-a2-dringend",
@@ -82353,7 +83291,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "cannot wait"
     },
     {
       "concept_id": "concept-a2-praktisch",
@@ -82375,7 +83314,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "nützlich im Alltag"
     },
     {
       "concept_id": "concept-a2-praktisch",
@@ -82389,7 +83329,8 @@
         "scomodo"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "utile ogni giorno"
     },
     {
       "concept_id": "concept-a2-praktisch",
@@ -82403,7 +83344,8 @@
         "impractical"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "useful every day"
     },
     {
       "concept_id": "concept-a2-unterschiedlich",
@@ -82527,7 +83469,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "angenehm zum Sitzen"
     },
     {
       "concept_id": "concept-a2-bequem",
@@ -82541,7 +83484,8 @@
         "scomodo"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "piacevole da usare"
     },
     {
       "concept_id": "concept-a2-bequem",
@@ -82555,7 +83499,8 @@
         "uncomfortable"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "pleasant to use"
     },
     {
       "concept_id": "concept-a2-deshalb",
@@ -100202,6 +101147,435 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null
+    },
+    {
+      "concept_id": "concept-a1-gut-well",
+      "lang": "de",
+      "short_definition": "Auf eine Weise, die gelingt oder angenehm ist; sagt, wie man etwas tut oder wie es jemandem geht.",
+      "usage_note": "Hier als Adverb (Er spricht gut Deutsch, Mir geht es gut). Das Adjektiv (ein guter Film) ist ein eigenes Konzept.",
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "wie man etwas tut"
+    },
+    {
+      "concept_id": "concept-a1-gut-well",
+      "lang": "it",
+      "short_definition": "In modo giusto o piacevole; dice come si fa qualcosa o come si sta.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "come si fa qualcosa"
+    },
+    {
+      "concept_id": "concept-a1-gut-well",
+      "lang": "en",
+      "short_definition": "In a good or successful way; says how something is done or how someone feels.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "how something is done"
+    },
+    {
+      "concept_id": "concept-a1-schlecht-badly",
+      "lang": "de",
+      "short_definition": "Auf eine Weise, die nicht gelingt oder unangenehm ist.",
+      "usage_note": "Hier als Adverb (Ich habe schlecht geschlafen). Das Adjektiv (ein schlechter Film) ist ein eigenes Konzept.",
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "wie man etwas tut"
+    },
+    {
+      "concept_id": "concept-a1-schlecht-badly",
+      "lang": "it",
+      "short_definition": "In modo non riuscito o spiacevole.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "come si fa qualcosa"
+    },
+    {
+      "concept_id": "concept-a1-schlecht-badly",
+      "lang": "en",
+      "short_definition": "In a poor or unsuccessful way.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "how something is done"
+    },
+    {
+      "concept_id": "concept-a1-richtig-correctly",
+      "lang": "de",
+      "short_definition": "Ohne Fehler, so wie es sein soll.",
+      "usage_note": "Hier als Adverb (Du hast das Wort richtig geschrieben). Das Adjektiv (die richtige Antwort) ist ein eigenes Konzept.",
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "wie man etwas tut"
+    },
+    {
+      "concept_id": "concept-a1-richtig-correctly",
+      "lang": "it",
+      "short_definition": "Senza errori, nel modo giusto.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "come si fa qualcosa"
+    },
+    {
+      "concept_id": "concept-a1-richtig-correctly",
+      "lang": "en",
+      "short_definition": "Without mistakes, in the right way.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "how something is done"
+    },
+    {
+      "concept_id": "concept-a1-falsch-wrongly",
+      "lang": "de",
+      "short_definition": "Mit einem Fehler, nicht so wie es sein soll.",
+      "usage_note": "Hier als Adverb (Du hast meinen Namen falsch geschrieben). Das Adjektiv (die falsche Antwort) ist ein eigenes Konzept.",
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "wie man etwas tut"
+    },
+    {
+      "concept_id": "concept-a1-falsch-wrongly",
+      "lang": "it",
+      "short_definition": "Con un errore, non nel modo giusto.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "come si fa qualcosa"
+    },
+    {
+      "concept_id": "concept-a1-falsch-wrongly",
+      "lang": "en",
+      "short_definition": "With a mistake, not in the right way.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "how something is done"
+    },
+    {
+      "concept_id": "concept-a2-deutlich-clearly",
+      "lang": "de",
+      "short_definition": "So, dass man es gut sehen, hören oder verstehen kann.",
+      "usage_note": "Hier als Adverb (Sprich bitte deutlich). Das Adjektiv (eine deutliche Antwort) ist ein eigenes Konzept.",
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "wie man etwas tut"
+    },
+    {
+      "concept_id": "concept-a2-deutlich-clearly",
+      "lang": "it",
+      "short_definition": "In modo che si possa vedere, sentire o capire bene.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "come si fa qualcosa"
+    },
+    {
+      "concept_id": "concept-a2-deutlich-clearly",
+      "lang": "en",
+      "short_definition": "In a way that is easy to see, hear or understand.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "how something is done"
+    },
+    {
+      "concept_id": "concept-a2-puenktlich-punctually",
+      "lang": "de",
+      "short_definition": "Genau zur richtigen Zeit.",
+      "usage_note": "Hier als Adverb (Der Zug kommt pünktlich). Das Adjektiv (ein pünktlicher Mensch) ist ein eigenes Konzept.",
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "wie man etwas tut"
+    },
+    {
+      "concept_id": "concept-a2-puenktlich-punctually",
+      "lang": "it",
+      "short_definition": "Esattamente all'ora giusta.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "come si fa qualcosa"
+    },
+    {
+      "concept_id": "concept-a2-puenktlich-punctually",
+      "lang": "en",
+      "short_definition": "At exactly the right time.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "how something is done"
+    },
+    {
+      "concept_id": "concept-a2-dringend-urgently",
+      "lang": "de",
+      "short_definition": "Sehr bald, weil es nicht warten kann.",
+      "usage_note": "Hier als Adverb (Ich muss dringend zum Arzt). Das Adjektiv (ein dringender Anruf) ist ein eigenes Konzept.",
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "wie man etwas tut"
+    },
+    {
+      "concept_id": "concept-a2-dringend-urgently",
+      "lang": "it",
+      "short_definition": "Molto presto, perché non può aspettare.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "come si fa qualcosa"
+    },
+    {
+      "concept_id": "concept-a2-dringend-urgently",
+      "lang": "en",
+      "short_definition": "Very soon, because it cannot wait.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "how something is done"
+    },
+    {
+      "concept_id": "concept-a2-bequem-comfortably",
+      "lang": "de",
+      "short_definition": "Auf angenehme Weise, ohne Mühe oder Schmerzen.",
+      "usage_note": "Hier als Adverb (Hier sitzt man bequem). Das Adjektiv (ein bequemer Stuhl) ist ein eigenes Konzept.",
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "wie man etwas tut"
+    },
+    {
+      "concept_id": "concept-a2-bequem-comfortably",
+      "lang": "it",
+      "short_definition": "In modo piacevole, senza fatica.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "come si fa qualcosa"
+    },
+    {
+      "concept_id": "concept-a2-bequem-comfortably",
+      "lang": "en",
+      "short_definition": "In a pleasant way, without effort or pain.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "how something is done"
+    },
+    {
+      "concept_id": "concept-a2-praktisch-practically",
+      "lang": "de",
+      "short_definition": "Fast, so gut wie.",
+      "usage_note": "Hier im Sinn von fast (Ich bin praktisch fertig). Das Adjektiv (ein praktischer Rucksack) ist ein eigenes Konzept.",
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "fast, beinahe"
+    },
+    {
+      "concept_id": "concept-a2-praktisch-practically",
+      "lang": "it",
+      "short_definition": "Quasi del tutto.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "quasi del tutto"
+    },
+    {
+      "concept_id": "concept-a2-praktisch-practically",
+      "lang": "en",
+      "short_definition": "Almost; very nearly.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "almost, nearly"
+    },
+    {
+      "concept_id": "concept-a1-schnell-quickly",
+      "lang": "de",
+      "short_definition": "Mit hoher Geschwindigkeit oder in kurzer Zeit.",
+      "usage_note": "Hier als Adverb (Er fährt schnell). Das Adjektiv (ein schnelles Auto) ist ein eigenes Konzept.",
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "wie man etwas tut"
+    },
+    {
+      "concept_id": "concept-a1-schnell-quickly",
+      "lang": "it",
+      "short_definition": "Con grande rapidità o in poco tempo.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "come si fa qualcosa"
+    },
+    {
+      "concept_id": "concept-a1-schnell-quickly",
+      "lang": "en",
+      "short_definition": "At high speed or in a short time.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "how something is done"
+    },
+    {
+      "concept_id": "concept-a1-langsam-slowly",
+      "lang": "de",
+      "short_definition": "Mit geringer Geschwindigkeit, ohne Eile.",
+      "usage_note": "Hier als Adverb (Sprich bitte langsam). Das Adjektiv (ein langsamer Zug) ist ein eigenes Konzept.",
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "wie man etwas tut"
+    },
+    {
+      "concept_id": "concept-a1-langsam-slowly",
+      "lang": "it",
+      "short_definition": "A bassa velocità, senza fretta.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "come si fa qualcosa"
+    },
+    {
+      "concept_id": "concept-a1-langsam-slowly",
+      "lang": "en",
+      "short_definition": "At low speed, without hurry.",
+      "usage_note": null,
+      "context_tags_json": [],
+      "source": "manual",
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "antonym_policy_json": null,
+      "hint_text": null,
+      "sense_indicator": "how something is done"
     }
   ],
   "lexeme_forms": [

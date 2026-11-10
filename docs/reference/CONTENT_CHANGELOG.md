@@ -23,6 +23,18 @@ The goal is to keep content history concept-first and language-neutral.
 Entries should describe meanings and cross-language lexicalizations, not treat
 one language as the owner of the change.
 
+## 2026-11-10 - Adverb senses of German adjectives (DL-015)
+
+Eleven A1/A2 German adjectives get their adverb use as a separate concept,
+because Italian and English use another word there: gut (bene, well),
+schlecht (male, badly), richtig (correttamente, correctly), falsch (in modo
+sbagliato, wrongly), deutlich (chiaramente, clearly), pünktlich
+(puntualmente, punctually), dringend (urgentemente, urgently), bequem
+(comodamente, comfortably), praktisch as almost (praticamente,
+practically), schnell (velocemente, quickly) and langsam (lentamente,
+slowly). velocemente, quickly, lentamente and slowly move off the adjective
+concepts. Every concept that now shares a word carries sense indicators.
+
 ## 2026-11-10 - English examples for every A1/A2 concept
 
 The 210 A1/A2 concepts without an English example now have one

@@ -1,0 +1,247 @@
+{
+  "comment": "Sense indicators for the adjective/adverb split (DL-015, 2026-11). Same format as editorial_corrections_a1_a2.json.",
+  "corrections": {
+    "841a0138-2699-37ac-2d82-cf0c66b5171e": {
+      "de": {
+        "sense_indicator": "positiv, von Qualität"
+      },
+      "it": {
+        "sense_indicator": "positivo, di qualità"
+      },
+      "en": {
+        "sense_indicator": "positive, of quality"
+      }
+    },
+    "2e769167-00e6-f086-d72a-4e96521fa4ce": {
+      "de": {
+        "sense_indicator": "negativ, ohne Qualität"
+      },
+      "it": {
+        "sense_indicator": "negativo, scadente"
+      },
+      "en": {
+        "sense_indicator": "negative, of poor quality"
+      }
+    },
+    "05e8f99b-09b8-996b-4b00-2717128f2062": {
+      "de": {
+        "sense_indicator": "zutreffend, ohne Fehler"
+      },
+      "it": {
+        "sense_indicator": "vero, senza errori"
+      },
+      "en": {
+        "sense_indicator": "true, without errors"
+      }
+    },
+    "434197ea-470c-0d8c-5882-c14d89eb9dfd": {
+      "de": {
+        "sense_indicator": "nicht wahr, mit Fehler"
+      },
+      "it": {
+        "sense_indicator": "non vero, con errori"
+      },
+      "en": {
+        "sense_indicator": "untrue, with errors"
+      }
+    },
+    "concept-a2-bequem": {
+      "de": {
+        "sense_indicator": "angenehm zum Sitzen"
+      },
+      "it": {
+        "sense_indicator": "piacevole da usare"
+      },
+      "en": {
+        "sense_indicator": "pleasant to use"
+      }
+    },
+    "concept-a2-dringend": {
+      "de": {
+        "sense_indicator": "kann nicht warten"
+      },
+      "it": {
+        "sense_indicator": "non può aspettare"
+      },
+      "en": {
+        "sense_indicator": "cannot wait"
+      }
+    },
+    "concept-a2-praktisch": {
+      "de": {
+        "sense_indicator": "nützlich im Alltag"
+      },
+      "it": {
+        "sense_indicator": "utile ogni giorno"
+      },
+      "en": {
+        "sense_indicator": "useful every day"
+      }
+    },
+    "concept-a2-puenktlich": {
+      "de": {
+        "sense_indicator": "kommt nie zu spät"
+      },
+      "it": {
+        "sense_indicator": "mai in ritardo"
+      },
+      "en": {
+        "sense_indicator": "never late"
+      }
+    },
+    "f62b0871-8768-d1b5-fc27-aa9b253d73eb": {
+      "de": {
+        "sense_indicator": "mit hohem Tempo"
+      },
+      "it": {
+        "sense_indicator": "ad alta andatura"
+      },
+      "en": {
+        "sense_indicator": "with high speed"
+      }
+    },
+    "d5a6cfdf-d6ee-10c8-1d58-1fb0bafaae70": {
+      "de": {
+        "sense_indicator": "mit wenig Tempo"
+      },
+      "it": {
+        "sense_indicator": "a bassa andatura"
+      },
+      "en": {
+        "sense_indicator": "with low speed"
+      }
+    },
+    "0d2589ee-2440-dbee-a208-b8c746185d20": {
+      "de": {
+        "sense_indicator": "ohne Krankheit"
+      },
+      "it": {
+        "sense_indicator": "senza malattie"
+      },
+      "en": {
+        "sense_indicator": "free of illness"
+      }
+    },
+    "concept-a1-gut-well": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-a1-schlecht-badly": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-a1-richtig-correctly": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-a1-falsch-wrongly": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-a2-deutlich-clearly": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-a2-puenktlich-punctually": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-a2-dringend-urgently": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-a2-bequem-comfortably": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-a1-schnell-quickly": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-a1-langsam-slowly": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-a2-praktisch-practically": {
+      "de": {
+        "sense_indicator": "fast, beinahe"
+      },
+      "it": {
+        "sense_indicator": "quasi del tutto"
+      },
+      "en": {
+        "sense_indicator": "almost, nearly"
+      }
+    }
+  }
+}

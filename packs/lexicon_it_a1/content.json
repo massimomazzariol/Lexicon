@@ -16506,74 +16506,6 @@
       "status": "approved",
       "notes": null,
       "is_active": true
-    },
-    {
-      "lexeme_id": "lex-it-velocemente",
-      "concept_id": "f62b0871-8768-d1b5-fc27-aa9b253d73eb",
-      "lang": "it",
-      "text": "velocemente",
-      "frequency_rank": null,
-      "lemma": "velocemente",
-      "pos": "adj",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": false,
-      "status": "approved",
-      "notes": "Adverb use of the German word (schnell/langsam fahren).",
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lex-en-quickly",
-      "concept_id": "f62b0871-8768-d1b5-fc27-aa9b253d73eb",
-      "lang": "en",
-      "text": "quickly",
-      "frequency_rank": null,
-      "lemma": "quickly",
-      "pos": "adj",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": false,
-      "status": "approved",
-      "notes": "Adverb use of the German word (schnell/langsam fahren).",
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lex-it-lentamente",
-      "concept_id": "d5a6cfdf-d6ee-10c8-1d58-1fb0bafaae70",
-      "lang": "it",
-      "text": "lentamente",
-      "frequency_rank": null,
-      "lemma": "lentamente",
-      "pos": "adj",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": false,
-      "status": "approved",
-      "notes": "Adverb use of the German word (schnell/langsam fahren).",
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lex-en-slowly",
-      "concept_id": "d5a6cfdf-d6ee-10c8-1d58-1fb0bafaae70",
-      "lang": "en",
-      "text": "slowly",
-      "frequency_rank": null,
-      "lemma": "slowly",
-      "pos": "adj",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": false,
-      "status": "approved",
-      "notes": "Adverb use of the German word (schnell/langsam fahren).",
-      "is_active": true
     }
   ],
   "lexeme_forms": [
@@ -45935,78 +45867,6 @@
       "tags_json": {
         "slot_key": "sg_core"
       }
-    },
-    {
-      "form_id": "24fcc4c3-83b4-029c-63d3-c3f0dcc326f5",
-      "lexeme_id": "lex-it-velocemente",
-      "lang": "it",
-      "surface": "velocemente",
-      "surface_search": "velocemente",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "3295e959-1f42-6dd6-3324-6c501a21544c",
-      "lexeme_id": "lex-en-quickly",
-      "lang": "en",
-      "surface": "quickly",
-      "surface_search": "quickly",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "4b010cca-5384-065f-f0a3-e887bf23dc4a",
-      "lexeme_id": "lex-it-lentamente",
-      "lang": "it",
-      "surface": "lentamente",
-      "surface_search": "lentamente",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "948f8022-0dd5-a8e0-755b-efb08bacc774",
-      "lexeme_id": "lex-en-slowly",
-      "lang": "en",
-      "surface": "slowly",
-      "surface_search": "slowly",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
     }
   ],
   "study_units": [
@@ -66737,8 +66597,7 @@
       "source_form_id": "256027a6-e044-6cf5-7fd8-61fdc24eaf6b",
       "primary_expected_form_id": "8f692706-4ccb-0ae1-ea25-ab6173f9917d",
       "extra_expected_form_ids": [
-        "83c1539f-bbc0-6621-7387-e0d76ce0b982",
-        "24fcc4c3-83b4-029c-63d3-c3f0dcc326f5"
+        "83c1539f-bbc0-6621-7387-e0d76ce0b982"
       ],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -66778,8 +66637,7 @@
       "source_form_id": "280c27ee-18fd-0dac-fd0a-ed7ccc7c374b",
       "primary_expected_form_id": "8f692706-4ccb-0ae1-ea25-ab6173f9917d",
       "extra_expected_form_ids": [
-        "83c1539f-bbc0-6621-7387-e0d76ce0b982",
-        "24fcc4c3-83b4-029c-63d3-c3f0dcc326f5"
+        "83c1539f-bbc0-6621-7387-e0d76ce0b982"
       ],
       "acceptable_form_ids": [],
       "is_core": true,
@@ -66798,9 +66656,7 @@
       "unit_kind": "core_rec",
       "source_form_id": "8f692706-4ccb-0ae1-ea25-ab6173f9917d",
       "primary_expected_form_id": "280c27ee-18fd-0dac-fd0a-ed7ccc7c374b",
-      "extra_expected_form_ids": [
-        "3295e959-1f42-6dd6-3324-6c501a21544c"
-      ],
+      "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -66818,9 +66674,7 @@
       "unit_kind": "core_prod",
       "source_form_id": "5b207088-a3d2-6925-8c32-94b94ba61fdb",
       "primary_expected_form_id": "b2d9fd54-2af2-554c-ef50-bc0ea2d0a23a",
-      "extra_expected_form_ids": [
-        "4b010cca-5384-065f-f0a3-e887bf23dc4a"
-      ],
+      "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -66856,9 +66710,7 @@
       "unit_kind": "core_prod",
       "source_form_id": "71b26f16-093b-b7dc-6643-333ad63014d9",
       "primary_expected_form_id": "b2d9fd54-2af2-554c-ef50-bc0ea2d0a23a",
-      "extra_expected_form_ids": [
-        "4b010cca-5384-065f-f0a3-e887bf23dc4a"
-      ],
+      "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -66876,9 +66728,7 @@
       "unit_kind": "core_rec",
       "source_form_id": "b2d9fd54-2af2-554c-ef50-bc0ea2d0a23a",
       "primary_expected_form_id": "71b26f16-093b-b7dc-6643-333ad63014d9",
-      "extra_expected_form_ids": [
-        "948f8022-0dd5-a8e0-755b-efb08bacc774"
-      ],
+      "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -90412,7 +90262,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "positiv, von Qualität"
     },
     {
       "concept_id": "841a0138-2699-37ac-2d82-cf0c66b5171e",
@@ -90429,7 +90280,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "positive, of quality"
     },
     {
       "concept_id": "841a0138-2699-37ac-2d82-cf0c66b5171e",
@@ -90445,7 +90297,8 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "positivo, di qualità"
     },
     {
       "concept_id": "2e769167-00e6-f086-d72a-4e96521fa4ce",
@@ -90463,7 +90316,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "negativ, ohne Qualität"
     },
     {
       "concept_id": "2e769167-00e6-f086-d72a-4e96521fa4ce",
@@ -90480,7 +90334,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "negative, of poor quality"
     },
     {
       "concept_id": "2e769167-00e6-f086-d72a-4e96521fa4ce",
@@ -90498,7 +90353,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "negativo, scadente"
     },
     {
       "concept_id": "91f2e21d-1055-c502-52eb-6895fe4406c4",
@@ -94568,7 +94424,8 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "mit hohem Tempo"
     },
     {
       "concept_id": "f62b0871-8768-d1b5-fc27-aa9b253d73eb",
@@ -94580,7 +94437,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "with high speed"
     },
     {
       "concept_id": "f62b0871-8768-d1b5-fc27-aa9b253d73eb",
@@ -94592,7 +94450,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "ad alta andatura"
     },
     {
       "concept_id": "d5a6cfdf-d6ee-10c8-1d58-1fb0bafaae70",
@@ -94607,7 +94466,8 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "mit wenig Tempo"
     },
     {
       "concept_id": "d5a6cfdf-d6ee-10c8-1d58-1fb0bafaae70",
@@ -94619,7 +94479,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "with low speed"
     },
     {
       "concept_id": "d5a6cfdf-d6ee-10c8-1d58-1fb0bafaae70",
@@ -94631,7 +94492,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "a bassa andatura"
     },
     {
       "concept_id": "7f70a8ad-7527-3553-4724-13d0e258d92c",
@@ -97072,7 +96934,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "zutreffend, ohne Fehler"
     },
     {
       "concept_id": "05e8f99b-09b8-996b-4b00-2717128f2062",
@@ -97084,7 +96947,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "true, without errors"
     },
     {
       "concept_id": "05e8f99b-09b8-996b-4b00-2717128f2062",
@@ -97096,7 +96960,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "vero, senza errori"
     },
     {
       "concept_id": "434197ea-470c-0d8c-5882-c14d89eb9dfd",
@@ -97115,7 +96980,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "nicht wahr, mit Fehler"
     },
     {
       "concept_id": "434197ea-470c-0d8c-5882-c14d89eb9dfd",
@@ -97127,7 +96993,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "untrue, with errors"
     },
     {
       "concept_id": "434197ea-470c-0d8c-5882-c14d89eb9dfd",
@@ -97139,7 +97006,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "non vero, con errori"
     },
     {
       "concept_id": "425e7444-8f55-9052-ca01-d2fd5eacb59e",
@@ -97740,7 +97608,8 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "ohne Krankheit"
     },
     {
       "concept_id": "0d2589ee-2440-dbee-a208-b8c746185d20",
@@ -97752,7 +97621,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "free of illness"
     },
     {
       "concept_id": "0d2589ee-2440-dbee-a208-b8c746185d20",
@@ -97764,7 +97634,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "senza malattie"
     },
     {
       "concept_id": "6d361fa8-6b91-5bc2-d807-071ecd666ee8",

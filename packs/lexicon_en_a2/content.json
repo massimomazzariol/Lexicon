@@ -34856,7 +34856,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "kommt nie zu spät"
     },
     {
       "concept_id": "concept-a2-puenktlich",
@@ -34870,7 +34871,8 @@
         "in ritardo"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "mai in ritardo"
     },
     {
       "concept_id": "concept-a2-puenktlich",
@@ -34884,7 +34886,8 @@
         "late"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "never late"
     },
     {
       "concept_id": "concept-a2-wahrscheinlich",
@@ -36591,7 +36594,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "kann nicht warten"
     },
     {
       "concept_id": "concept-a2-dringend",
@@ -36607,7 +36611,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "non può aspettare"
     },
     {
       "concept_id": "concept-a2-dringend",
@@ -36623,7 +36628,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "cannot wait"
     },
     {
       "concept_id": "concept-a2-praktisch",
@@ -36645,7 +36651,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "nützlich im Alltag"
     },
     {
       "concept_id": "concept-a2-praktisch",
@@ -36659,7 +36666,8 @@
         "scomodo"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "utile ogni giorno"
     },
     {
       "concept_id": "concept-a2-praktisch",
@@ -36673,7 +36681,8 @@
         "impractical"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "useful every day"
     },
     {
       "concept_id": "concept-a2-unterschiedlich",
@@ -36797,7 +36806,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "angenehm zum Sitzen"
     },
     {
       "concept_id": "concept-a2-bequem",
@@ -36811,7 +36821,8 @@
         "scomodo"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "piacevole da usare"
     },
     {
       "concept_id": "concept-a2-bequem",
@@ -36825,7 +36836,8 @@
         "uncomfortable"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "pleasant to use"
     },
     {
       "concept_id": "concept-a2-deshalb",

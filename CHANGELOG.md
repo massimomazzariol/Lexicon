@@ -4,6 +4,18 @@ All notable changes to this repository will be documented in this file.
 Concept-level lexical-content history lives in
 `docs/reference/CONTENT_CHANGELOG.md`.
 
+## [0.6.0] - 2026-11-10
+
+- Content: every concept now has an English example (351 added, 210 at
+  A1/A2 and 141 at B1 to C2), checked against the no-spoiler rule. Every
+  concept has an example in every language.
+- Content: the adverb use of 11 A1/A2 German adjectives is its own concept
+  where Italian and English use another word (gut: bene, well; schlecht:
+  male, badly; schnell: velocemente, quickly; ...). `velocemente`,
+  `quickly`, `lentamente` and `slowly` move off the adjective concepts. New
+  rule DL-015; every concept that now shares a word carries sense
+  indicators. See CONTENT_CHANGELOG.md.
+
 ## [0.5.0] - 2026-10-19
 
 - Content: A1/A2 review pass. 25 everyday equivalents become exact answers

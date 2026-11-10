@@ -1,0 +1,103 @@
+{
+  "comment": "Lexeme cleanup (2026-11 review): empty duplicate lexemes (same text twice in a concept, no forms, no clusters) removed, keeping the primary; nouns removed from the ambivalent adjective; nachweislich is an adverb.",
+  "concepts": {
+    "4f291b92-ca93-0d8c-bc8f-fc9d225384a0": {
+      "remove_lexemes": [
+        "lex-de-frau",
+        "lex-en-woman-2",
+        "lex-it-donna"
+      ]
+    },
+    "80baf5ef-6ee7-8a27-6f5c-b5d7b88415d4": {
+      "remove_lexemes": [
+        "lex-de-mann-2",
+        "lex-en-man-2",
+        "lex-it-uomo-2"
+      ]
+    },
+    "2c6d1583-9560-52cc-360a-ec0fb7fe1225": {
+      "remove_lexemes": [
+        "lex-de-kind",
+        "lex-en-child-2",
+        "lex-it-bambino"
+      ]
+    },
+    "24b03fc5-f88c-d60b-acee-22ec75494a6c": {
+      "remove_lexemes": [
+        "lex-it-ora-2"
+      ]
+    },
+    "concept-a2-spitze-tip": {
+      "remove_lexemes": [
+        "lex-it-punta-2"
+      ]
+    },
+    "concept-b1-leistung": {
+      "remove_lexemes": [
+        "lex-it-prestazione-2"
+      ]
+    },
+    "concept-b1-spitze-lace": {
+      "remove_lexemes": [
+        "lex-it-pizzo-2"
+      ]
+    },
+    "concept-b1-spitze-top-position": {
+      "remove_lexemes": [
+        "lex-it-vertice-2"
+      ]
+    },
+    "concept-b2-verhandlung-negotiation": {
+      "remove_lexemes": [
+        "lex-it-trattativa-2"
+      ]
+    },
+    "concept-c1-leistungsfaehigkeit": {
+      "remove_lexemes": [
+        "lex-it-capacita-di-rendimento-2"
+      ]
+    },
+    "concept-b2-missverstaendnis": {
+      "remove_lexemes": [
+        "lex-it-malinteso-2"
+      ]
+    },
+    "concept-b2-eindeutig": {
+      "remove_lexemes": [
+        "lex-it-inequivocabile",
+        "lex-en-unambiguous"
+      ]
+    },
+    "concept-c1-einordnung": {
+      "remove_lexemes": [
+        "lex-it-contestualizzazione-2"
+      ]
+    },
+    "concept-a2-unterschied": {
+      "remove_lexemes": [
+        "lex-it-differenza-2"
+      ]
+    },
+    "7c543f94-d74e-9ac0-b2c6-ca36a56b6c70": {
+      "remove_lexemes": [
+        "lex-de-niemals-2"
+      ]
+    },
+    "8c095125-c82a-103f-433f-7c32a1d70cba": {
+      "remove_lexemes": [
+        "lex-de-haufig-2",
+        "lex-en-frequently-2"
+      ]
+    },
+    "concept-c2-ambivalent": {
+      "remove_lexemes": [
+        "lexeme-de-b1-ambivalenz",
+        "lexeme-it-b1-ambivalenz",
+        "lexeme-en-b1-ambivalenz"
+      ]
+    },
+    "concept-b2-nachweislich": {
+      "pos": "adv"
+    }
+  }
+}

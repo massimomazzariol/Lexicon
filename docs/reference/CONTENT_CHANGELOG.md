@@ -35,6 +35,20 @@ practically), schnell (velocemente, quickly) and langsam (lentamente,
 slowly). velocemente, quickly, lentamente and slowly move off the adjective
 concepts. Every concept that now shares a word carries sense indicators.
 
+## 2026-11-10 - Adverb senses at B1-C2 and lexeme cleanup
+
+DL-015 now covers every level: 40 B1-C2 German adjectives get their adverb
+use as a separate concept (regelmäßig: regolarmente, regularly;
+offensichtlich: evidentemente, obviously; erheblich: notevolmente,
+considerably; ...), and `durchschnittlich` joins the A2 chunk `im
+Durchschnitt`. `nachweislich` becomes an adverb concept.
+
+Cleanup over the whole source (`tools/maintenance/editorial_lexeme_cleanup.json`):
+24 empty duplicate lexemes removed (the same text twice in one concept, for
+example `Frau`, `Mann`, `Kind`, `la differenza`, `unambiguous`; the kept
+lexeme is the primary one with the forms), and the nouns `die Ambivalenz`,
+`l'ambivalenza`, `ambivalence` removed from the adjective `ambivalent`.
+
 ## 2026-11-10 - English examples for every B1-C2 concept
 
 The last 141 concepts without an English example, at B1 to C2, now have

@@ -14,7 +14,9 @@ Usage:
 Applies the editorial corrections in
 tools/maintenance/editorial_corrections_a1_a2.json: replaces definitions and
 usage notes, sense indicators and whole synonym lists (null clears a usage
-note), removes examples by id and adds new example sentences.
+note), removes examples by id and adds new example sentences. A top-level
+"concepts" map can set a concept's pos (its lexemes follow) and remove
+lexemes by id (with their forms and cluster memberships).
 Synonyms removed from a list are also pruned from synonym_tiers_json. Fails if
 a referenced concept, definition row or example does not exist. Dry run by
 default: prints every change and writes nothing without --apply.
@@ -40,7 +42,9 @@ const correctionsPath =
   correctionsIndex >= 0
     ? path.resolve(args[correctionsIndex + 1])
     : path.join(here, 'editorial_corrections_a1_a2.json');
-const { corrections } = JSON.parse(fs.readFileSync(correctionsPath, 'utf8'));
+const { corrections = {}, concepts: conceptFixes = {} } = JSON.parse(
+  fs.readFileSync(correctionsPath, 'utf8'),
+);
 
 const contentPath = path.join(packDir, 'content.json');
 
@@ -51,6 +55,33 @@ function correct(content) {
     changes += 1;
     console.log(line);
   };
+
+  for (const [conceptId, fix] of Object.entries(conceptFixes)) {
+    const concept = content.concepts.find((row) => row.concept_id === conceptId);
+    if (!concept) throw new Error(`Unknown concept ${conceptId}.`);
+    if (fix.pos !== undefined && concept.pos !== fix.pos) {
+      log(`${conceptId} POS ${concept.pos} -> ${fix.pos}`);
+      concept.pos = fix.pos;
+      for (const row of content.lexemes) if (row.concept_id === conceptId) row.pos = fix.pos;
+    }
+    for (const lexemeId of fix.remove_lexemes ?? []) {
+      const index = content.lexemes.findIndex((row) => row.lexeme_id === lexemeId);
+      if (index < 0) {
+        // Re-runs are expected: a removed lexeme stays removed.
+        console.log(`${conceptId} LEX already removed: ${lexemeId}`);
+        continue;
+      }
+      const lexeme = content.lexemes[index];
+      if (lexeme.concept_id !== conceptId) {
+        throw new Error(`${conceptId}: lexeme ${lexemeId} belongs to ${lexeme.concept_id}.`);
+      }
+      if (lexeme.is_primary) throw new Error(`${conceptId}: ${lexemeId} is primary; pick another primary first.`);
+      log(`${conceptId} [${lexeme.lang}] LEX - ${lexeme.text}`);
+      content.lexemes.splice(index, 1);
+      content.lexeme_forms = content.lexeme_forms.filter((row) => row.lexeme_id !== lexemeId);
+      content.cluster_members = content.cluster_members.filter((row) => row.lexeme_id !== lexemeId);
+    }
+  }
 
   for (const [conceptId, byLang] of Object.entries(corrections)) {
     if (!conceptIds.has(conceptId)) throw new Error(`Unknown concept ${conceptId}.`);

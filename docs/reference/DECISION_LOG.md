@@ -440,7 +440,18 @@ Impacts:
   the 22 concepts that now share a word, plus `gesund` (shares `well`).
 - The new concepts are `needs_review` for their CEFR placement.
 
+- 2026-11-10, B1 to C2 (`entries.b1_c2_wave_adverb_senses.json`): the same
+  rule on all 92 adjectives above A2. 40 have a real adverb use with another
+  Italian and English word (regelmäßig: regolarmente, offensichtlich:
+  evidentemente, erheblich: notevolmente, wesentlich: di gran lunga, ...).
+  `durchschnittlich` as an adverb is the existing A2 chunk `im Durchschnitt`
+  and joins it as a German word instead of a new concept. Adjectives with
+  no real adverb use (gruselig, spitz, wertvoll, robust, relevant, ...)
+  stay unsplit. Labels for B1 to C2 follow one pattern: adjective `wie
+  etwas ist` / `com'è qualcosa` / `how something is`, adverb as above.
+- `nachweislich` was an adjective concept whose answers are adverbs
+  (dimostrabilmente, demonstrably): it is now `pos: "adv"`.
+
 Follow-up:
 - `klar` as an adverb (klar sprechen) is not modeled: it would add a third
-  concept to an already shared word. B1 and above were not reviewed for the
-  same pattern.
+  concept to an already shared word.

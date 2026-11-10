@@ -1,0 +1,1913 @@
+[
+  {
+    "source_key": "b1_adv_angemessen_adequately",
+    "concept_id": "concept-b1-angemessen-adequately",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": [
+      "Travel",
+      "Social",
+      "Work"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b1-angemessen.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-angemessen-adv",
+        "text": "angemessen",
+        "lemma": "angemessen",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Auf eine Weise, die zur Situation passt.",
+        "usage_note": "Hier als Adverb (angemessen reagieren). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Sie hat ruhig und passend auf die Kritik reagiert."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-adeguatamente",
+        "text": "adeguatamente",
+        "lemma": "adeguatamente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In modo adatto alla situazione.",
+        "examples": [
+          "Ha reagito alla critica con calma e nel modo giusto."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-adequately",
+        "text": "adequately",
+        "lemma": "adequately",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In a way that suits the situation.",
+        "examples": [
+          "She reacted to the criticism calmly and in the right way."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adv_ausreichend_sufficiently",
+    "concept_id": "concept-b1-ausreichend-sufficiently",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": [
+      "Work",
+      "Daily"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b1-ausreichend.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-ausreichend-adv",
+        "text": "ausreichend",
+        "lemma": "ausreichend",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So viel, wie nötig ist.",
+        "usage_note": "Hier als Adverb (ausreichend schlafen). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Vor der Prüfung solltest du genug schlafen."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-a-sufficienza",
+        "text": "a sufficienza",
+        "lemma": "a sufficienza",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Quanto serve, né più né meno.",
+        "examples": [
+          "Prima dell'esame dovresti dormire abbastanza."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-sufficiently",
+        "text": "sufficiently",
+        "lemma": "sufficiently",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "As much as is needed.",
+        "examples": [
+          "Before the exam you should get enough sleep."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adv_begeistert_enthusiastically",
+    "concept_id": "concept-b1-begeistert-enthusiastically",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": [
+      "Social",
+      "Work",
+      "Communication"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b1-begeistert.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-begeistert-adv",
+        "text": "begeistert",
+        "lemma": "begeistert",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Mit großer Freude und viel Interesse.",
+        "usage_note": "Hier als Adverb (begeistert klatschen). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Das Publikum klatschte voller Freude."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-con-entusiasmo",
+        "text": "con entusiasmo",
+        "lemma": "con entusiasmo",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Con grande gioia e interesse.",
+        "examples": [
+          "Il pubblico applaudiva pieno di gioia."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-enthusiastically",
+        "text": "enthusiastically",
+        "lemma": "enthusiastically",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "With great joy and interest.",
+        "examples": [
+          "The audience clapped full of joy."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adv_bewusst_consciously",
+    "concept_id": "concept-b1-bewusst-consciously",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": [
+      "Daily",
+      "Abstract",
+      "Social"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b1-bewusst.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-bewusst-adv",
+        "text": "bewusst",
+        "lemma": "bewusst",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Mit Absicht und mit klarem Wissen über das, was man tut.",
+        "usage_note": "Hier als Adverb (bewusst essen). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Ich wähle mein Essen mit Absicht und lese jedes Etikett."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-consapevolmente",
+        "text": "consapevolmente",
+        "lemma": "consapevolmente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Sapendo bene quello che si fa e perché.",
+        "examples": [
+          "Scelgo il cibo con attenzione e leggo ogni etichetta."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-consciously",
+        "text": "consciously",
+        "lemma": "consciously",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Knowing well what you do and why.",
+        "examples": [
+          "I choose my food with care and read every label."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adv_empfindlich_sensitively",
+    "concept_id": "concept-b1-empfindlich-sensitively",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": [
+      "Daily",
+      "Characteristics",
+      "Abstract"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b1-empfindlich.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-empfindlich-adv",
+        "text": "empfindlich",
+        "lemma": "empfindlich",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Auf eine Weise, die stark auf Reize oder Kritik reagiert.",
+        "usage_note": "Hier als Adverb (empfindlich reagieren). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Meine Haut wird bei Sonne sofort rot."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-in-modo-sensibile",
+        "text": "in modo sensibile",
+        "lemma": "in modo sensibile",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Reagendo con forza a stimoli o critiche.",
+        "examples": [
+          "Con il sole la mia pelle diventa subito rossa."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-sensitively",
+        "text": "sensitively",
+        "lemma": "sensitively",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Reacting strongly to things like light, cold or criticism.",
+        "examples": [
+          "My skin turns red at once in the sun."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adv_entscheidend_decisively",
+    "concept_id": "concept-b1-entscheidend-decisively",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": [
+      "Work",
+      "Communication",
+      "Abstract"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b1-entscheidend.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-entscheidend-adv",
+        "text": "entscheidend",
+        "lemma": "entscheidend",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Auf eine Weise, die das Ergebnis stark bestimmt.",
+        "usage_note": "Hier als Adverb (entscheidend beitragen). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Ihr Tor hat das Spiel am Ende bestimmt."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-in-modo-decisivo",
+        "text": "in modo decisivo",
+        "lemma": "in modo decisivo",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Influenzando molto il risultato.",
+        "examples": [
+          "Il suo gol ha deciso la partita."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-decisively",
+        "text": "decisively",
+        "lemma": "decisively",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In a way that strongly shapes the result.",
+        "examples": [
+          "Her goal settled the match."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adv_flexibel_flexibly",
+    "concept_id": "concept-b1-flexibel-flexibly",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": [
+      "Work",
+      "Daily",
+      "Social"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b1-flexibel.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-flexibel-adv",
+        "text": "flexibel",
+        "lemma": "flexibel",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Auf eine Weise, die sich leicht an Neues anpasst.",
+        "usage_note": "Hier als Adverb (flexibel arbeiten). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Ich kann meine Arbeitszeit frei einteilen."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-in-modo-flessibile",
+        "text": "in modo flessibile",
+        "lemma": "in modo flessibile",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Adattandosi facilmente a situazioni nuove.",
+        "examples": [
+          "Posso organizzare il mio orario di lavoro come voglio."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-flexibly",
+        "text": "flexibly",
+        "lemma": "flexibly",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Adapting easily to new situations.",
+        "examples": [
+          "I can organize my working hours as I like."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adv_regelmaessig_regularly",
+    "concept_id": "concept-b1-regelmaessig-regularly",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": [
+      "Daily",
+      "Work"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b1-regelmaessig.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-regelmaessig-adv",
+        "text": "regelmäßig",
+        "lemma": "regelmäßig",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In gleichen Abständen, immer wieder.",
+        "usage_note": "Hier als Adverb (regelmäßig Sport treiben). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Ich gehe jeden Montag und Donnerstag schwimmen."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-regolarmente",
+        "text": "regolarmente",
+        "lemma": "regolarmente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "A intervalli uguali, di continuo.",
+        "examples": [
+          "Vado a nuotare ogni lunedì e giovedì."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-regularly",
+        "text": "regularly",
+        "lemma": "regularly",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "At equal intervals, again and again.",
+        "examples": [
+          "I go swimming every Monday and Thursday."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adv_sinnvoll_sensibly",
+    "concept_id": "concept-b1-sinnvoll-sensibly",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": [
+      "Daily"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept f2dddaa7-908e-fe4c-9d44-508a3617791f.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-sinnvoll-adv",
+        "text": "sinnvoll",
+        "lemma": "sinnvoll",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Auf eine vernünftige Weise, die einen Zweck erfüllt.",
+        "usage_note": "Hier als Adverb (die Zeit sinnvoll nutzen). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Im Zug lerne ich Vokabeln, so verliere ich keine Zeit."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-in-modo-sensato",
+        "text": "in modo sensato",
+        "lemma": "in modo sensato",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In modo ragionevole e utile.",
+        "examples": [
+          "In treno studio i vocaboli, così non perdo tempo."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-sensibly",
+        "text": "sensibly",
+        "lemma": "sensibly",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In a reasonable and useful way.",
+        "examples": [
+          "On the train I study vocabulary, so I lose no time."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adv_unabhaengig_independently",
+    "concept_id": "concept-b1-unabhaengig-independently",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": [
+      "Work",
+      "Social",
+      "Abstract"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b1-unabhaengig.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-unabhaengig-adv",
+        "text": "unabhängig",
+        "lemma": "unabhängig",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ohne Hilfe oder Einfluss von anderen.",
+        "usage_note": "Hier als Adverb (unabhängig arbeiten; unabhängig davon). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Mit sechzehn wollte sie ihr eigenes Geld verdienen und allein leben."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-indipendentemente",
+        "text": "indipendentemente",
+        "lemma": "indipendentemente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Senza l'aiuto o l'influenza di altri.",
+        "examples": [
+          "A sedici anni voleva guadagnare da sola e vivere per conto suo."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-independently",
+        "text": "independently",
+        "lemma": "independently",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Without help or influence from others.",
+        "examples": [
+          "At sixteen she wanted to earn her own money and live alone."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b1_adv_umfangreich_extensively",
+    "concept_id": "concept-b1-umfangreich-extensively",
+    "pos": "adv",
+    "level_auto": "B1",
+    "domain_tags": [
+      "Work",
+      "Education",
+      "Communication"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b1-umfangreich.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-umfangreich-adv",
+        "text": "umfangreich",
+        "lemma": "umfangreich",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In großem Umfang, mit vielen Details.",
+        "usage_note": "Hier als Adverb (umfangreich informieren). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Der Bericht beschreibt das Projekt auf zweihundert Seiten."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-ampiamente",
+        "text": "ampiamente",
+        "lemma": "ampiamente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In grande misura, con molti dettagli.",
+        "examples": [
+          "Il rapporto descrive il progetto su duecento pagine."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-extensively",
+        "text": "extensively",
+        "lemma": "extensively",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To a large extent, with many details.",
+        "examples": [
+          "The report describes the project on two hundred pages."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b2_adv_ausdruecklich_expressly",
+    "concept_id": "concept-b2-ausdruecklich-expressly",
+    "pos": "adv",
+    "level_auto": "B2",
+    "domain_tags": [
+      "Work",
+      "Communication"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b2-ausdruecklich.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-ausdruecklich-adv",
+        "text": "ausdrücklich",
+        "lemma": "ausdrücklich",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Klar und direkt gesagt, nicht nur gemeint.",
+        "usage_note": "Hier als Adverb (ausdrücklich verboten). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Auf dem Schild steht klar: Rauchen verboten."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-espressamente",
+        "text": "espressamente",
+        "lemma": "espressamente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Detto in modo chiaro e diretto.",
+        "examples": [
+          "Il cartello lo dice chiaro: vietato fumare."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-expressly",
+        "text": "expressly",
+        "lemma": "expressly",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Said clearly and directly, not just implied.",
+        "examples": [
+          "The sign says it clearly: no smoking."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b2_adv_beeindruckend_impressively",
+    "concept_id": "concept-b2-beeindruckend-impressively",
+    "pos": "adv",
+    "level_auto": "B2",
+    "domain_tags": [
+      "Social",
+      "Work"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b2-beeindruckend.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-beeindruckend-adv",
+        "text": "beeindruckend",
+        "lemma": "beeindruckend",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Auf eine Weise, die Bewunderung weckt.",
+        "usage_note": "Hier als Adverb (beeindruckend schnell). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Der Läufer war schneller, als alle gedacht hatten."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-in-modo-impressionante",
+        "text": "in modo impressionante",
+        "lemma": "in modo impressionante",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In un modo che suscita ammirazione.",
+        "examples": [
+          "Il corridore è stato più veloce di quanto tutti pensassero."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-impressively",
+        "text": "impressively",
+        "lemma": "impressively",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In a way that makes people admire it.",
+        "examples": [
+          "The runner was faster than anyone expected."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b2_adv_eindeutig_unequivocally",
+    "concept_id": "concept-b2-eindeutig-unequivocally",
+    "pos": "adv",
+    "level_auto": "B2",
+    "domain_tags": [
+      "Communication",
+      "Work",
+      "Abstract"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b2-eindeutig.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-eindeutig-adv",
+        "text": "eindeutig",
+        "lemma": "eindeutig",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ohne jeden Zweifel, nur auf eine Art zu verstehen.",
+        "usage_note": "Hier als Adverb (eindeutig zu spät). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Es ist schon zehn Uhr, wir kommen ohne Zweifel zu spät."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-inequivocabilmente",
+        "text": "inequivocabilmente",
+        "lemma": "inequivocabilmente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Senza alcun dubbio possibile.",
+        "examples": [
+          "Sono già le dieci, siamo senza dubbio in ritardo."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-unequivocally",
+        "text": "unequivocally",
+        "lemma": "unequivocally",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Without any possible doubt.",
+        "examples": [
+          "It is already ten, we are without doubt late."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b2_adv_erheblich_considerably",
+    "concept_id": "concept-b2-erheblich-considerably",
+    "pos": "adv",
+    "level_auto": "B2",
+    "domain_tags": [
+      "Work",
+      "Communication"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b2-erheblich.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-erheblich-adv",
+        "text": "erheblich",
+        "lemma": "erheblich",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In großem Maß, deutlich mehr oder weniger.",
+        "usage_note": "Hier als Adverb (erheblich teurer). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Die Miete ist dieses Jahr um vierhundert Euro gestiegen."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-notevolmente",
+        "text": "notevolmente",
+        "lemma": "notevolmente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In grande misura.",
+        "examples": [
+          "L'affitto quest'anno è salito di quattrocento euro."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-considerably",
+        "text": "considerably",
+        "lemma": "considerably",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "By a large amount.",
+        "examples": [
+          "The rent went up by four hundred euros this year."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b2_adv_grundlegend_fundamentally",
+    "concept_id": "concept-b2-grundlegend-fundamentally",
+    "pos": "adv",
+    "level_auto": "B2",
+    "domain_tags": [
+      "Work",
+      "Education"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b2-grundlegend.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-grundlegend-adv",
+        "text": "grundlegend",
+        "lemma": "grundlegend",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Von Grund auf, im Kern.",
+        "usage_note": "Hier als Adverb (grundlegend ändern). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Nach dem Umzug hat sich mein ganzes Leben verändert."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-radicalmente",
+        "text": "radicalmente",
+        "lemma": "radicalmente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Dalle basi, nel profondo.",
+        "examples": [
+          "Dopo il trasloco tutta la mia vita è cambiata."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-fundamentally",
+        "text": "fundamentally",
+        "lemma": "fundamentally",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "At the base, in the core.",
+        "examples": [
+          "After the move my whole life changed."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b2_adv_konkret_concretely",
+    "concept_id": "concept-b2-konkret-concretely",
+    "pos": "adv",
+    "level_auto": "B2",
+    "domain_tags": [
+      "Work",
+      "Communication"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b2-konkret.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-konkret-adv",
+        "text": "konkret",
+        "lemma": "konkret",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Genau und mit klaren Beispielen, nicht allgemein.",
+        "usage_note": "Hier als Adverb (konkret planen). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Sag mir bitte genau, an welchem Tag und um wie viel Uhr."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-concretamente",
+        "text": "concretamente",
+        "lemma": "concretamente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In modo preciso e con esempi chiari.",
+        "examples": [
+          "Dimmi esattamente in che giorno e a che ora."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-concretely",
+        "text": "concretely",
+        "lemma": "concretely",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In a precise way, with clear examples.",
+        "examples": [
+          "Tell me exactly which day and at what time."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b2_adv_objektiv_objectively",
+    "concept_id": "concept-b2-objektiv-objectively",
+    "pos": "adv",
+    "level_auto": "B2",
+    "domain_tags": [
+      "Work",
+      "Education",
+      "Abstract"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b2-objektiv.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-objektiv-adv",
+        "text": "objektiv",
+        "lemma": "objektiv",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ohne eigene Gefühle oder Vorlieben, nur nach den Fakten.",
+        "usage_note": "Hier als Adverb (objektiv betrachtet). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Wenn man nur die Zahlen ansieht, war das Jahr gut."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-obiettivamente",
+        "text": "obiettivamente",
+        "lemma": "obiettivamente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Senza sentimenti personali, solo secondo i fatti.",
+        "examples": [
+          "Se si guardano solo i numeri, l'anno è andato bene."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-objectively",
+        "text": "objectively",
+        "lemma": "objectively",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Without personal feelings, by the facts only.",
+        "examples": [
+          "If you look only at the numbers, the year went well."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b2_adv_offensichtlich_obviously",
+    "concept_id": "concept-b2-offensichtlich-obviously",
+    "pos": "adv",
+    "level_auto": "B2",
+    "domain_tags": [
+      "Communication",
+      "Daily"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b2-offensichtlich.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-offensichtlich-adv",
+        "text": "offensichtlich",
+        "lemma": "offensichtlich",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So, dass es jeder sofort sieht.",
+        "usage_note": "Hier als Adverb (Er ist offensichtlich müde). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Er gähnt ständig, er hat wohl kaum geschlafen."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-evidentemente",
+        "text": "evidentemente",
+        "lemma": "evidentemente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In modo che tutti lo vedono subito.",
+        "examples": [
+          "Continua a sbadigliare, deve aver dormito poco."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-obviously",
+        "text": "obviously",
+        "lemma": "obviously",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In a way that everybody can see at once.",
+        "examples": [
+          "He keeps yawning, he must have slept very little."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b2_adv_praezise_precisely",
+    "concept_id": "concept-b2-praezise-precisely",
+    "pos": "adv",
+    "level_auto": "B2",
+    "domain_tags": [
+      "Work",
+      "Communication"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b2-praezise.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-praezise-adv",
+        "text": "präzise",
+        "lemma": "präzise",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Sehr genau, ohne Abweichung.",
+        "usage_note": "Hier als Adverb (präzise arbeiten). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Der Uhrmacher arbeitet bis auf den Millimeter genau."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-precisamente",
+        "text": "precisamente",
+        "lemma": "precisamente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In modo molto esatto.",
+        "examples": [
+          "L'orologiaio lavora con esattezza al millimetro."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-precisely",
+        "text": "precisely",
+        "lemma": "precisely",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In a very exact way.",
+        "examples": [
+          "The watchmaker works exactly to the millimeter."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b2_adv_subjektiv_subjectively",
+    "concept_id": "concept-b2-subjektiv-subjectively",
+    "pos": "adv",
+    "level_auto": "B2",
+    "domain_tags": [
+      "Communication",
+      "Abstract"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b2-subjektiv.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-subjektiv-adv",
+        "text": "subjektiv",
+        "lemma": "subjektiv",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Nach eigenem Gefühl und eigener Meinung.",
+        "usage_note": "Hier als Adverb (subjektiv betrachtet). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Für mich persönlich war der Film zu lang."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-soggettivamente",
+        "text": "soggettivamente",
+        "lemma": "soggettivamente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Secondo il proprio sentire e la propria opinione.",
+        "examples": [
+          "Per me, personalmente, il film era troppo lungo."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-subjectively",
+        "text": "subjectively",
+        "lemma": "subjectively",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Based on your own feelings and opinion.",
+        "examples": [
+          "For me personally, the film was too long."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b2_adv_ueberraschend_surprisingly",
+    "concept_id": "concept-b2-ueberraschend-surprisingly",
+    "pos": "adv",
+    "level_auto": "B2",
+    "domain_tags": [
+      "Emotions",
+      "Communication"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b2-ueberraschend.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-ueberraschend-adv",
+        "text": "überraschend",
+        "lemma": "überraschend",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Auf eine Weise, die man nicht erwartet hat.",
+        "usage_note": "Hier als Adverb (überraschend gut). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Die Prüfung war viel leichter, als ich dachte."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-sorprendentemente",
+        "text": "sorprendentemente",
+        "lemma": "sorprendentemente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In un modo che nessuno si aspettava.",
+        "examples": [
+          "L'esame è stato molto più facile di quanto pensassi."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-surprisingly",
+        "text": "surprisingly",
+        "lemma": "surprisingly",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In a way nobody expected.",
+        "examples": [
+          "The exam was much easier than I thought."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b2_adv_ueberzeugend_convincingly",
+    "concept_id": "concept-b2-ueberzeugend-convincingly",
+    "pos": "adv",
+    "level_auto": "B2",
+    "domain_tags": [
+      "Communication",
+      "Work",
+      "Abstract"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b2-ueberzeugend.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-ueberzeugend-adv",
+        "text": "überzeugend",
+        "lemma": "überzeugend",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So, dass andere es glauben oder zustimmen.",
+        "usage_note": "Hier als Adverb (überzeugend argumentieren). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Mit guten Gründen hat sie alle für ihren Plan gewonnen."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-in-modo-convincente",
+        "text": "in modo convincente",
+        "lemma": "in modo convincente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In modo che gli altri ci credano o siano d'accordo.",
+        "examples": [
+          "Con buone ragioni ha portato tutti dalla sua parte."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-convincingly",
+        "text": "convincingly",
+        "lemma": "convincingly",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In a way that makes others believe or agree.",
+        "examples": [
+          "With good reasons she won everyone over to her plan."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b2_adv_wesentlich_by-far",
+    "concept_id": "concept-b2-wesentlich-by-far",
+    "pos": "adv",
+    "level_auto": "B2",
+    "domain_tags": [
+      "Work",
+      "Abstract"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b2-wesentlich.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-wesentlich-adv",
+        "text": "wesentlich",
+        "lemma": "wesentlich",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Viel, in großem Maß; meist vor einem Vergleich.",
+        "usage_note": "Hier als Adverb vor einem Vergleich (wesentlich besser). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Mit der neuen Brille sehe ich viel besser."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-di-gran-lunga",
+        "text": "di gran lunga",
+        "lemma": "di gran lunga",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Molto, in grande misura; di solito prima di un confronto.",
+        "examples": [
+          "Con gli occhiali nuovi vedo molto meglio."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-by-far",
+        "text": "by far",
+        "lemma": "by far",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Very much; usually before a comparison.",
+        "examples": [
+          "With my new glasses I see much better."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b2_adv_zuverlaessig_reliably",
+    "concept_id": "concept-b2-zuverlaessig-reliably",
+    "pos": "adv",
+    "level_auto": "B2",
+    "domain_tags": [
+      "Work",
+      "Daily",
+      "Abstract"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b2-zuverlaessig.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-zuverlaessig-adv",
+        "text": "zuverlässig",
+        "lemma": "zuverlässig",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So, dass man sich immer darauf verlassen kann.",
+        "usage_note": "Hier als Adverb (zuverlässig funktionieren). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Mein altes Auto startet seit zwanzig Jahren jeden Morgen."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-in-modo-affidabile",
+        "text": "in modo affidabile",
+        "lemma": "in modo affidabile",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In modo che si possa sempre contarci.",
+        "examples": [
+          "La mia vecchia auto parte ogni mattina da vent'anni."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-reliably",
+        "text": "reliably",
+        "lemma": "reliably",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In a way you can always count on.",
+        "examples": [
+          "My old car has started every morning for twenty years."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "b2_adv_vage_vaguely",
+    "concept_id": "concept-b2-vage-vaguely",
+    "pos": "adv",
+    "level_auto": "B2",
+    "domain_tags": [
+      "Communication",
+      "Abstract"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-b2-vage.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-vage-adv",
+        "text": "vage",
+        "lemma": "vage",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ungenau, nicht klar.",
+        "usage_note": "Hier als Adverb (sich vage erinnern). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Ich erinnere mich nur noch schwach an das Haus meiner Oma."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-vagamente",
+        "text": "vagamente",
+        "lemma": "vagamente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In modo poco chiaro o preciso.",
+        "examples": [
+          "Ricordo solo un po' la casa della nonna."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-vaguely",
+        "text": "vaguely",
+        "lemma": "vaguely",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Not clearly or exactly.",
+        "examples": [
+          "I only just remember my grandmother's house."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "c1_adv_eingehend_thoroughly",
+    "concept_id": "concept-c1-eingehend-thoroughly",
+    "pos": "adv",
+    "level_auto": "C1",
+    "domain_tags": [
+      "Work",
+      "Education",
+      "Communication"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-c1-eingehend.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-eingehend-adv",
+        "text": "eingehend",
+        "lemma": "eingehend",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Sehr genau und mit allen Einzelheiten.",
+        "usage_note": "Hier als Adverb (eingehend prüfen). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Der Arzt hat mich eine Stunde lang genau untersucht."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-approfonditamente",
+        "text": "approfonditamente",
+        "lemma": "approfonditamente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Con grande cura e in tutti i dettagli.",
+        "examples": [
+          "Il medico mi ha visitato con cura per un'ora."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-thoroughly",
+        "text": "thoroughly",
+        "lemma": "thoroughly",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Very carefully and in every detail.",
+        "examples": [
+          "The doctor examined me carefully for an hour."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "c1_adv_konsequent_consistently",
+    "concept_id": "concept-c1-konsequent-consistently",
+    "pos": "adv",
+    "level_auto": "C1",
+    "domain_tags": [
+      "Work",
+      "Abstract"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-c1-konsequent.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-konsequent-adv",
+        "text": "konsequent",
+        "lemma": "konsequent",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ohne Ausnahme, immer nach derselben Regel.",
+        "usage_note": "Hier als Adverb (konsequent handeln). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Sie trinkt seit einem Jahr keinen Tropfen Alkohol, ohne Ausnahme."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-coerentemente",
+        "text": "coerentemente",
+        "lemma": "coerentemente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Senza eccezioni, sempre secondo la stessa regola.",
+        "examples": [
+          "Da un anno non beve una goccia di alcol, senza eccezioni."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-consistently",
+        "text": "consistently",
+        "lemma": "consistently",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Without exception, always by the same rule.",
+        "examples": [
+          "For a year she has not had a drop of alcohol, without exception."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "c1_adv_massgeblich_substantially",
+    "concept_id": "concept-c1-massgeblich-substantially",
+    "pos": "adv",
+    "level_auto": "C1",
+    "domain_tags": [
+      "Work",
+      "Abstract"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-c1-massgeblich.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-massgeblich-adv",
+        "text": "maßgeblich",
+        "lemma": "maßgeblich",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In einem Maß, das das Ergebnis stark prägt.",
+        "usage_note": "Hier als Adverb (maßgeblich beteiligt). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Ohne ihre Ideen wäre das Projekt nie gelungen."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-in-modo-determinante",
+        "text": "in modo determinante",
+        "lemma": "in modo determinante",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In una misura che segna molto il risultato.",
+        "examples": [
+          "Senza le sue idee il progetto non sarebbe mai riuscito."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-substantially",
+        "text": "substantially",
+        "lemma": "substantially",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "To a degree that strongly shapes the result.",
+        "examples": [
+          "Without her ideas the project would never have worked."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "c1_adv_plausibel_plausibly",
+    "concept_id": "concept-c1-plausibel-plausibly",
+    "pos": "adv",
+    "level_auto": "C1",
+    "domain_tags": [
+      "Abstract",
+      "Communication"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-c1-plausibel.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-plausibel-adv",
+        "text": "plausibel",
+        "lemma": "plausibel",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So, dass es glaubhaft und logisch klingt.",
+        "usage_note": "Hier als Adverb (plausibel erklären). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Seine Erklärung für die Verspätung klang logisch."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-in-modo-plausibile",
+        "text": "in modo plausibile",
+        "lemma": "in modo plausibile",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In modo credibile e logico.",
+        "examples": [
+          "La sua spiegazione per il ritardo sembrava logica."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-plausibly",
+        "text": "plausibly",
+        "lemma": "plausibly",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In a believable and logical way.",
+        "examples": [
+          "His reason for being late sounded logical."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "c1_adv_systematisch_systematically",
+    "concept_id": "concept-c1-systematisch-systematically",
+    "pos": "adv",
+    "level_auto": "C1",
+    "domain_tags": [
+      "Work",
+      "Education"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-c1-systematisch.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-systematisch-adv",
+        "text": "systematisch",
+        "lemma": "systematisch",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Nach einem festen Plan, Schritt für Schritt.",
+        "usage_note": "Hier als Adverb (systematisch vorgehen). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Wir prüfen jedes Zimmer nach einem festen Plan."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-sistematicamente",
+        "text": "sistematicamente",
+        "lemma": "sistematicamente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Secondo un piano fisso, passo dopo passo.",
+        "examples": [
+          "Controlliamo ogni stanza secondo un piano preciso."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-systematically",
+        "text": "systematically",
+        "lemma": "systematically",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Following a fixed plan, step by step.",
+        "examples": [
+          "We check every room following a fixed plan."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adv_akribisch_meticulously",
+    "concept_id": "concept-c2-akribisch-meticulously",
+    "pos": "adv",
+    "level_auto": "C2",
+    "domain_tags": [
+      "Work",
+      "Characteristics"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-c2-akribisch.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-akribisch-adv",
+        "text": "akribisch",
+        "lemma": "akribisch",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Äußerst genau, bis ins kleinste Detail.",
+        "usage_note": "Hier als Adverb (akribisch prüfen). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Sie hat jede Zahl im Bericht dreimal kontrolliert."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-meticolosamente",
+        "text": "meticolosamente",
+        "lemma": "meticolosamente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Con estrema cura, fino al minimo dettaglio.",
+        "examples": [
+          "Ha controllato ogni numero del rapporto tre volte."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-meticulously",
+        "text": "meticulously",
+        "lemma": "meticulously",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "With extreme care, down to the smallest detail.",
+        "examples": [
+          "She checked every number in the report three times."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adv_beharrlich_persistently",
+    "concept_id": "concept-c2-beharrlich-persistently",
+    "pos": "adv",
+    "level_auto": "C2",
+    "domain_tags": [
+      "Characteristics",
+      "Work"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-c2-beharrlich.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-beharrlich-adv",
+        "text": "beharrlich",
+        "lemma": "beharrlich",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Immer wieder, ohne aufzugeben.",
+        "usage_note": "Hier als Adverb (beharrlich fragen). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Er hat jeden Tag angerufen, bis er eine Antwort bekam."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-tenacemente",
+        "text": "tenacemente",
+        "lemma": "tenacemente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Ancora e ancora, senza arrendersi.",
+        "examples": [
+          "Ha telefonato ogni giorno finché non ha avuto una risposta."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-persistently",
+        "text": "persistently",
+        "lemma": "persistently",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Again and again, without giving up.",
+        "examples": [
+          "He phoned every day until he got an answer."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adv_eloquent_eloquently",
+    "concept_id": "concept-c2-eloquent-eloquently",
+    "pos": "adv",
+    "level_auto": "C2",
+    "domain_tags": [
+      "Daily",
+      "Communication",
+      "Characteristics"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-c2-eloquent.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-eloquent-adv",
+        "text": "eloquent",
+        "lemma": "eloquent",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Mit schönen, überzeugenden Worten.",
+        "usage_note": "Hier als Adverb (eloquent sprechen). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Die Anwältin sprach so gut, dass alle still zuhörten."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-eloquentemente",
+        "text": "eloquentemente",
+        "lemma": "eloquentemente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Con parole belle e convincenti.",
+        "examples": [
+          "L'avvocata ha parlato così bene che tutti ascoltavano in silenzio."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-eloquently",
+        "text": "eloquently",
+        "lemma": "eloquently",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "With fine, persuasive words.",
+        "examples": [
+          "The lawyer spoke so well that everyone listened in silence."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adv_kohaerent_coherently",
+    "concept_id": "concept-c2-kohaerent-coherently",
+    "pos": "adv",
+    "level_auto": "C2",
+    "domain_tags": [
+      "Daily",
+      "Abstract",
+      "Communication"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-c2-kohaerent.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-kohaerent-adv",
+        "text": "kohärent",
+        "lemma": "kohärent",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So, dass alle Teile logisch zusammenpassen.",
+        "usage_note": "Hier als Adverb (kohärent argumentieren). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Ihr Aufsatz ist von Anfang bis Ende logisch aufgebaut."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-in-modo-coerente",
+        "text": "in modo coerente",
+        "lemma": "in modo coerente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In modo che tutte le parti stiano insieme con logica.",
+        "examples": [
+          "Il suo tema è costruito con logica dall'inizio alla fine."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-coherently",
+        "text": "coherently",
+        "lemma": "coherently",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So that all the parts fit together logically.",
+        "examples": [
+          "Her essay is built logically from start to finish."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adv_praegnant_concisely",
+    "concept_id": "concept-c2-praegnant-concisely",
+    "pos": "adv",
+    "level_auto": "C2",
+    "domain_tags": [
+      "Daily",
+      "Communication"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-c2-praegnant.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-praegnant-adv",
+        "text": "prägnant",
+        "lemma": "prägnant",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Kurz und genau, mit wenigen Worten.",
+        "usage_note": "Hier als Adverb (prägnant formulieren). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "In nur zwei Sätzen hat er das Problem erklärt."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-in-modo-incisivo",
+        "text": "in modo incisivo",
+        "lemma": "in modo incisivo",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In breve e con precisione, con poche parole.",
+        "examples": [
+          "In due sole frasi ha spiegato il problema."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-concisely",
+        "text": "concisely",
+        "lemma": "concisely",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Briefly and exactly, in few words.",
+        "examples": [
+          "In just two sentences he explained the problem."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adv_subtil_subtly",
+    "concept_id": "concept-c2-subtil-subtly",
+    "pos": "adv",
+    "level_auto": "C2",
+    "domain_tags": [
+      "Daily",
+      "Abstract",
+      "Communication"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-c2-subtil.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-subtil-adv",
+        "text": "subtil",
+        "lemma": "subtil",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Fein und kaum bemerkbar.",
+        "usage_note": "Hier als Adverb (subtil andeuten). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Sie hat nur mit einem kleinen Lächeln gezeigt, dass sie zustimmt."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-sottilmente",
+        "text": "sottilmente",
+        "lemma": "sottilmente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In modo fine e quasi impercettibile.",
+        "examples": [
+          "Ha fatto capire che era d'accordo solo con un piccolo sorriso."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-subtly",
+        "text": "subtly",
+        "lemma": "subtly",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In a fine way that is hard to notice.",
+        "examples": [
+          "She showed she agreed with just a small smile."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adv_tiefgreifend_profoundly",
+    "concept_id": "concept-c2-tiefgreifend-profoundly",
+    "pos": "adv",
+    "level_auto": "C2",
+    "domain_tags": [
+      "Abstract",
+      "Work"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-c2-tiefgreifend.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-tiefgreifend-adv",
+        "text": "tiefgreifend",
+        "lemma": "tiefgreifend",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Bis in den Kern, mit großer Wirkung.",
+        "usage_note": "Hier als Adverb (tiefgreifend verändern). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Das Internet hat unsere Art zu arbeiten völlig verändert."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-profondamente",
+        "text": "profondamente",
+        "lemma": "profondamente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Fino in fondo, con grande effetto.",
+        "examples": [
+          "Internet ha cambiato del tutto il nostro modo di lavorare."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-profoundly",
+        "text": "profoundly",
+        "lemma": "profoundly",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Down to the core, with great effect.",
+        "examples": [
+          "The internet has completely changed the way we work."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adv_unverkennbar_unmistakably",
+    "concept_id": "concept-c2-unverkennbar-unmistakably",
+    "pos": "adv",
+    "level_auto": "C2",
+    "domain_tags": [
+      "Daily",
+      "Abstract",
+      "Characteristics"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-c2-unverkennbar.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-unverkennbar-adv",
+        "text": "unverkennbar",
+        "lemma": "unverkennbar",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "So, dass man es mit nichts verwechseln kann.",
+        "usage_note": "Hier als Adverb (unverkennbar italienisch). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Schon am Geruch merkt man sofort, dass hier frisches Brot gebacken wird."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-inconfondibilmente",
+        "text": "inconfondibilmente",
+        "lemma": "inconfondibilmente",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In modo che non si possa confondere con altro.",
+        "examples": [
+          "Già dal profumo si capisce subito che qui si cuoce pane fresco."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-unmistakably",
+        "text": "unmistakably",
+        "lemma": "unmistakably",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In a way that cannot be confused with anything else.",
+        "examples": [
+          "From the smell alone you know at once that fresh bread is baked here."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "c2_adv_verblueffend_astonishingly",
+    "concept_id": "concept-c2-verblueffend-astonishingly",
+    "pos": "adv",
+    "level_auto": "C2",
+    "domain_tags": [
+      "Daily",
+      "Abstract",
+      "Emotions"
+    ],
+    "notes": "Adverb sense split (2026-11, DL-015). The adjective sense stays in concept concept-c2-verblueffend.",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-verblueffend-adv",
+        "text": "verblüffend",
+        "lemma": "verblüffend",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "Auf eine Weise, die sehr überrascht.",
+        "usage_note": "Hier als Adverb (verblüffend einfach). Das Adjektiv ist ein eigenes Konzept.",
+        "examples": [
+          "Der Trick war so leicht, dass alle lachen mussten."
+        ]
+      },
+      "it": {
+        "lexeme_id": "lex-it-in-modo-sbalorditivo",
+        "text": "in modo sbalorditivo",
+        "lemma": "in modo sbalorditivo",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In un modo che lascia senza parole.",
+        "examples": [
+          "Il trucco era così facile che tutti si misero a ridere."
+        ]
+      },
+      "en": {
+        "lexeme_id": "lex-en-astonishingly",
+        "text": "astonishingly",
+        "lemma": "astonishingly",
+        "meaning_status": "exact",
+        "is_primary": true,
+        "definition": "In a way that leaves people speechless.",
+        "examples": [
+          "The trick was so easy that everyone burst out laughing."
+        ]
+      }
+    }
+  },
+  {
+    "source_key": "a2_chunk_im_durchschnitt_durchschnittlich",
+    "concept_id": "concept-a2-im-durchschnitt",
+    "pos": "chunk",
+    "translations": {
+      "de": {
+        "lexeme_id": "lex-de-durchschnittlich-adv",
+        "text": "durchschnittlich",
+        "meaning_status": "exact",
+        "is_primary": false,
+        "notes": "Adverb use of the adjective (durchschnittlich 20 Jahre alt), same meaning as im Durchschnitt (DL-015)."
+      }
+    }
+  }
+]

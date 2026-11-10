@@ -6831,23 +6831,6 @@
       "is_active": true
     },
     {
-      "lexeme_id": "lex-it-punta-2",
-      "concept_id": "concept-a2-spitze-tip",
-      "lang": "it",
-      "text": "la punta",
-      "frequency_rank": null,
-      "lemma": "punta",
-      "pos": "noun",
-      "gender": "none",
-      "countability": "count",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": false,
-      "status": "deprecated",
-      "notes": "approved plural variant; duplicate_surface_v2",
-      "is_active": false
-    },
-    {
       "lexeme_id": "lex-en-tip-2",
       "concept_id": "concept-a2-spitze-tip",
       "lang": "en",
@@ -6999,23 +6982,6 @@
       "status": "approved",
       "notes": "approved plural",
       "is_active": true
-    },
-    {
-      "lexeme_id": "lex-it-differenza-2",
-      "concept_id": "concept-a2-unterschied",
-      "lang": "it",
-      "text": "la differenza",
-      "frequency_rank": null,
-      "lemma": "differenza",
-      "pos": "noun",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": false,
-      "status": "deprecated",
-      "notes": "duplicate_surface_v2",
-      "is_active": false
     },
     {
       "lexeme_id": "lex-en-difference-2",

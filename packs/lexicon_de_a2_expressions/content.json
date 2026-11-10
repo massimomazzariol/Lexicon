@@ -776,6 +776,23 @@
       "status": "approved",
       "notes": null,
       "is_active": true
+    },
+    {
+      "lexeme_id": "lex-de-durchschnittlich-adv",
+      "concept_id": "concept-a2-im-durchschnitt",
+      "lang": "de",
+      "text": "durchschnittlich",
+      "lemma": "durchschnittlich",
+      "pos": "chunk",
+      "gender": null,
+      "frequency_rank": null,
+      "countability": "none",
+      "register": "neutral",
+      "meaning_status": "exact",
+      "is_primary": false,
+      "status": "approved",
+      "notes": "Adverb use of the adjective (durchschnittlich 20 Jahre alt), same meaning as im Durchschnitt (DL-015).",
+      "is_active": true
     }
   ],
   "lexeme_forms": [
@@ -2953,7 +2970,8 @@
       "hint_text": null,
       "synonym_tiers_json": {
         "im Mittel": "exact"
-      }
+      },
+      "sense_indicator": "über alle gerechnet"
     },
     {
       "concept_id": "concept-a2-im-durchschnitt",
@@ -2969,7 +2987,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "calcolando su tutti"
     },
     {
       "concept_id": "concept-a2-im-durchschnitt",
@@ -2985,7 +3004,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "calculated over all"
     },
     {
       "concept_id": "concept-a2-auf-keinen-fall",

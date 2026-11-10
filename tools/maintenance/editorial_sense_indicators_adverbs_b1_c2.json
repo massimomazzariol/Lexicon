@@ -1,0 +1,885 @@
+{
+  "comment": "Sense indicators for the B1-C2 adjective/adverb split (DL-015, 2026-11). Same format as editorial_corrections_a1_a2.json.",
+  "corrections": {
+    "f2dddaa7-908e-fe4c-9d44-508a3617791f": {
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-a2-im-durchschnitt": {
+      "de": {
+        "sense_indicator": "über alle gerechnet"
+      },
+      "it": {
+        "sense_indicator": "calcolando su tutti"
+      },
+      "en": {
+        "sense_indicator": "calculated over all"
+      }
+    },
+    "concept-b1-entscheidend": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      }
+    },
+    "concept-b1-begeistert": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      }
+    },
+    "concept-b1-bewusst": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      }
+    },
+    "concept-b1-durchschnittlich": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      }
+    },
+    "concept-b1-unabhaengig": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      }
+    },
+    "concept-b1-flexibel": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      }
+    },
+    "concept-b1-umfangreich": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      }
+    },
+    "concept-b1-angemessen": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      }
+    },
+    "concept-b1-empfindlich": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      }
+    },
+    "concept-b2-eindeutig": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      }
+    },
+    "concept-b2-ueberzeugend": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      }
+    },
+    "concept-b2-zuverlaessig": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      }
+    },
+    "concept-b1-regelmaessig": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-b1-ausreichend": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-b2-beeindruckend": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-b2-ueberraschend": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-b2-wesentlich": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-b2-erheblich": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-b2-objektiv": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-b2-subjektiv": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-b2-grundlegend": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-b2-praezise": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-b2-vage": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-b2-ausdruecklich": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-b2-konkret": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-b2-offensichtlich": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-c1-plausibel": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-c1-massgeblich": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-c1-systematisch": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-c2-tiefgreifend": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-c1-eingehend": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-c2-akribisch": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-c2-praegnant": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-c2-eloquent": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-c2-subtil": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-c2-beharrlich": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-c2-verblueffend": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-c2-unverkennbar": {
+      "de": {
+        "sense_indicator": "wie etwas ist"
+      },
+      "en": {
+        "sense_indicator": "how something is"
+      },
+      "it": {
+        "sense_indicator": "com'è qualcosa"
+      }
+    },
+    "concept-b1-angemessen-adequately": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b1-ausreichend-sufficiently": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b1-begeistert-enthusiastically": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b1-bewusst-consciously": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b1-empfindlich-sensitively": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b1-entscheidend-decisively": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b1-flexibel-flexibly": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b1-regelmaessig-regularly": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b1-sinnvoll-sensibly": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b1-unabhaengig-independently": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b1-umfangreich-extensively": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b2-ausdruecklich-expressly": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b2-beeindruckend-impressively": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b2-eindeutig-unequivocally": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b2-erheblich-considerably": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b2-grundlegend-fundamentally": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b2-konkret-concretely": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b2-objektiv-objectively": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b2-offensichtlich-obviously": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b2-praezise-precisely": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b2-subjektiv-subjectively": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b2-ueberraschend-surprisingly": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b2-ueberzeugend-convincingly": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b2-wesentlich-by-far": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b2-zuverlaessig-reliably": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-b2-vage-vaguely": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-c1-eingehend-thoroughly": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-c1-konsequent-consistently": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-c1-massgeblich-substantially": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-c1-plausibel-plausibly": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-c1-systematisch-systematically": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-c2-akribisch-meticulously": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-c2-beharrlich-persistently": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-c2-eloquent-eloquently": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-c2-kohaerent-coherently": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-c2-praegnant-concisely": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-c2-subtil-subtly": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-c2-tiefgreifend-profoundly": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-c2-unverkennbar-unmistakably": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    },
+    "concept-c2-verblueffend-astonishingly": {
+      "de": {
+        "sense_indicator": "wie man etwas tut"
+      },
+      "it": {
+        "sense_indicator": "come si fa qualcosa"
+      },
+      "en": {
+        "sense_indicator": "how something is done"
+      }
+    }
+  }
+}

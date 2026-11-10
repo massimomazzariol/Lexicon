@@ -1108,57 +1108,6 @@
       "is_active": true
     },
     {
-      "lexeme_id": "lexeme-de-b1-ambivalenz",
-      "concept_id": "concept-c2-ambivalent",
-      "lang": "de",
-      "text": "die Ambivalenz",
-      "frequency_rank": null,
-      "lemma": "Ambivalenz",
-      "pos": "adj",
-      "gender": "fem",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": false,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-it-b1-ambivalenz",
-      "concept_id": "concept-c2-ambivalent",
-      "lang": "it",
-      "text": "l'ambivalenza",
-      "frequency_rank": null,
-      "lemma": "ambivalenza",
-      "pos": "adj",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": false,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
-      "lexeme_id": "lexeme-en-b1-ambivalenz",
-      "concept_id": "concept-c2-ambivalent",
-      "lang": "en",
-      "text": "ambivalence",
-      "frequency_rank": null,
-      "lemma": "ambivalence",
-      "pos": "adj",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": false,
-      "status": "approved",
-      "notes": null,
-      "is_active": true
-    },
-    {
       "lexeme_id": "lexeme-de-c2-gratwanderung",
       "concept_id": "concept-c2-gratwanderung",
       "lang": "de",
@@ -3637,60 +3586,6 @@
       "lang": "it",
       "surface": "predominante",
       "surface_search": "predominante",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "b08e689e-1f8b-7ad3-729b-82298c3449b8",
-      "lexeme_id": "lexeme-de-b1-ambivalenz",
-      "lang": "de",
-      "surface": "die Ambivalenz",
-      "surface_search": "die ambivalenz",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "4bbdf80f-fce0-631f-8fe2-82070e1eae75",
-      "lexeme_id": "lexeme-it-b1-ambivalenz",
-      "lang": "it",
-      "surface": "l'ambivalenza",
-      "surface_search": "l'ambivalenza",
-      "number_value": "none",
-      "grammatical_case": "none",
-      "definiteness": "none",
-      "form_role": "core",
-      "status": "approved",
-      "sort_order": 0,
-      "plugin_source": "core:lexeme-form-generation",
-      "editor_notes": null,
-      "tags_json": {
-        "slot_key": "core"
-      }
-    },
-    {
-      "form_id": "caba5707-dd7d-01a8-08c1-eef1962e00ab",
-      "lexeme_id": "lexeme-en-b1-ambivalenz",
-      "lang": "en",
-      "surface": "ambivalence",
-      "surface_search": "ambivalence",
       "number_value": "none",
       "grammatical_case": "none",
       "definiteness": "none",
@@ -8289,9 +8184,7 @@
       "unit_kind": "core_prod",
       "source_form_id": "2e81d7f9-e193-0be7-df7d-c1d343d853e3",
       "primary_expected_form_id": "79571347-3a08-01eb-6d3f-5ef34f6c1d1c",
-      "extra_expected_form_ids": [
-        "b08e689e-1f8b-7ad3-729b-82298c3449b8"
-      ],
+      "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -8309,9 +8202,7 @@
       "unit_kind": "core_rec",
       "source_form_id": "79571347-3a08-01eb-6d3f-5ef34f6c1d1c",
       "primary_expected_form_id": "2e81d7f9-e193-0be7-df7d-c1d343d853e3",
-      "extra_expected_form_ids": [
-        "caba5707-dd7d-01a8-08c1-eef1962e00ab"
-      ],
+      "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -8329,9 +8220,7 @@
       "unit_kind": "core_prod",
       "source_form_id": "19a13590-0593-b194-4079-e162f851df11",
       "primary_expected_form_id": "79571347-3a08-01eb-6d3f-5ef34f6c1d1c",
-      "extra_expected_form_ids": [
-        "b08e689e-1f8b-7ad3-729b-82298c3449b8"
-      ],
+      "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -8349,9 +8238,7 @@
       "unit_kind": "core_rec",
       "source_form_id": "79571347-3a08-01eb-6d3f-5ef34f6c1d1c",
       "primary_expected_form_id": "19a13590-0593-b194-4079-e162f851df11",
-      "extra_expected_form_ids": [
-        "4bbdf80f-fce0-631f-8fe2-82070e1eae75"
-      ],
+      "extra_expected_form_ids": [],
       "acceptable_form_ids": [],
       "is_core": true,
       "status": "approved",
@@ -18332,7 +18219,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-c2-tiefgreifend",
@@ -18346,7 +18234,8 @@
         "superficial"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-c2-tiefgreifend",
@@ -18360,7 +18249,8 @@
         "superficiale"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-c2-wegweisend",
@@ -18746,7 +18636,8 @@
         "reason": "schlampig_is_the_colloquial_direct_opposite",
         "reviewed_at": "2026-07-08"
       },
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-c2-akribisch",
@@ -18758,7 +18649,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-c2-akribisch",
@@ -18770,7 +18662,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-c2-stringent",
@@ -18869,7 +18762,8 @@
         "reason": "no_single_robust_opposite_for_concise_expression_adj",
         "reviewed_at": "2026-07-08"
       },
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-c2-praegnant",
@@ -18881,7 +18775,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-c2-praegnant",
@@ -18893,7 +18788,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-c2-eloquent",
@@ -18909,7 +18805,8 @@
         "reason": "no_single_robust_opposite_for_speaking_skill_adj",
         "reviewed_at": "2026-07-08"
       },
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-c2-eloquent",
@@ -18921,7 +18818,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-c2-eloquent",
@@ -18933,7 +18831,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-c2-subtil",
@@ -18949,7 +18848,8 @@
         "reason": "no_single_robust_opposite_for_fine_distinction_adj",
         "reviewed_at": "2026-07-08"
       },
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-c2-subtil",
@@ -18961,7 +18861,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-c2-subtil",
@@ -18973,7 +18874,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-c2-vielschichtig",
@@ -19797,7 +19699,8 @@
         "reason": "no_single_robust_opposite_for_persistence_adj",
         "reviewed_at": "2026-07-08"
       },
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-c2-beharrlich",
@@ -19809,7 +19712,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-c2-beharrlich",
@@ -19821,7 +19725,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-c2-beharrlichkeit",
@@ -19877,7 +19782,8 @@
         "reason": "no_single_robust_opposite_for_astounding_adj",
         "reviewed_at": "2026-07-08"
       },
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-c2-verblueffend",
@@ -19889,7 +19795,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-c2-verblueffend",
@@ -19901,7 +19808,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-c2-unverkennbar",
@@ -19917,7 +19825,8 @@
         "reason": "no_single_robust_opposite_for_recognizability_adj",
         "reviewed_at": "2026-07-08"
       },
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-c2-unverkennbar",
@@ -19929,7 +19838,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-c2-unverkennbar",
@@ -19941,7 +19851,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-c2-feinheit",

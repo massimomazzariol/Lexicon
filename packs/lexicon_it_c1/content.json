@@ -893,23 +893,6 @@
       "is_active": true
     },
     {
-      "lexeme_id": "lex-it-capacita-di-rendimento-2",
-      "concept_id": "concept-c1-leistungsfaehigkeit",
-      "lang": "it",
-      "text": "la capacità di rendimento",
-      "frequency_rank": null,
-      "lemma": "capacità di rendimento",
-      "pos": "noun",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": false,
-      "status": "deprecated",
-      "notes": "duplicate_surface_v2",
-      "is_active": false
-    },
-    {
       "lexeme_id": "lex-en-capacity-to-perform-2",
       "concept_id": "concept-c1-leistungsfaehigkeit",
       "lang": "en",
@@ -1299,23 +1282,6 @@
       "status": "approved",
       "notes": null,
       "is_active": true
-    },
-    {
-      "lexeme_id": "lex-it-contestualizzazione-2",
-      "concept_id": "concept-c1-einordnung",
-      "lang": "it",
-      "text": "la contestualizzazione",
-      "frequency_rank": null,
-      "lemma": "contestualizzazione",
-      "pos": "noun",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": false,
-      "status": "deprecated",
-      "notes": "duplicate_surface_v2",
-      "is_active": false
     },
     {
       "lexeme_id": "lex-en-contextualization-2",
@@ -16269,7 +16235,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-c1-plausibel",
@@ -16284,7 +16251,8 @@
         "unconvincing"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-c1-plausibel",
@@ -16299,7 +16267,8 @@
         "poco convincente"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-c1-fundiert",
@@ -16617,7 +16586,8 @@
         "nebensächlich"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-c1-massgeblich",
@@ -16632,7 +16602,8 @@
         "minor"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-c1-massgeblich",
@@ -16647,7 +16618,8 @@
         "marginale"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-c1-konsequent",
@@ -16721,7 +16693,8 @@
       "hint_text": null,
       "synonym_tiers_json": {
         "methodisch": "exact"
-      }
+      },
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-c1-systematisch",
@@ -16736,7 +16709,8 @@
         "haphazard"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-c1-systematisch",
@@ -16751,7 +16725,8 @@
         "caotico"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-c1-strukturiert",
@@ -17351,7 +17326,8 @@
         "reason": "oberflächlich_is_the_direct_opposite",
         "reviewed_at": "2026-07-08"
       },
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-c1-eingehend",
@@ -17363,7 +17339,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-c1-eingehend",
@@ -17375,7 +17352,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-c1-aufschlussreich",

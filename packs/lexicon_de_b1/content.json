@@ -4617,23 +4617,6 @@
       "is_active": true
     },
     {
-      "lexeme_id": "lex-it-prestazione-2",
-      "concept_id": "concept-b1-leistung",
-      "lang": "it",
-      "text": "la prestazione",
-      "frequency_rank": null,
-      "lemma": "prestazione",
-      "pos": "noun",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": false,
-      "status": "deprecated",
-      "notes": "duplicate_surface_v2",
-      "is_active": false
-    },
-    {
       "lexeme_id": "lex-en-performance-2",
       "concept_id": "concept-b1-leistung",
       "lang": "en",
@@ -4702,23 +4685,6 @@
       "is_active": true
     },
     {
-      "lexeme_id": "lex-it-pizzo-2",
-      "concept_id": "concept-b1-spitze-lace",
-      "lang": "it",
-      "text": "il pizzo",
-      "frequency_rank": null,
-      "lemma": "pizzo",
-      "pos": "noun",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": false,
-      "status": "deprecated",
-      "notes": "duplicate_surface_v2",
-      "is_active": false
-    },
-    {
       "lexeme_id": "lex-en-lace-2",
       "concept_id": "concept-b1-spitze-lace",
       "lang": "en",
@@ -4785,23 +4751,6 @@
       "status": "approved",
       "notes": "approved plural",
       "is_active": true
-    },
-    {
-      "lexeme_id": "lex-it-vertice-2",
-      "concept_id": "concept-b1-spitze-top-position",
-      "lang": "it",
-      "text": "il vertice",
-      "frequency_rank": null,
-      "lemma": "vertice",
-      "pos": "noun",
-      "gender": "none",
-      "countability": "none",
-      "register": "neutral",
-      "meaning_status": "exact",
-      "is_primary": false,
-      "status": "deprecated",
-      "notes": "duplicate_surface_v2",
-      "is_active": false
     },
     {
       "lexeme_id": "lex-en-top-position-2",
@@ -39973,7 +39922,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "f2dddaa7-908e-fe4c-9d44-508a3617791f",
@@ -39991,7 +39941,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "f2dddaa7-908e-fe4c-9d44-508a3617791f",
@@ -40009,7 +39960,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "e718be7a-3d76-3ce3-db35-35ba3b93eaa0",
@@ -41650,7 +41602,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-b1-entscheidend",
@@ -41662,7 +41615,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-b1-entscheidend",
@@ -41674,7 +41628,8 @@
       "synonyms_json": [],
       "antonyms_json": [],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-b1-verantwortlich",
@@ -41754,7 +41709,8 @@
         "reviewed_at": "2026-03-21"
       },
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-b1-begeistert",
@@ -41770,7 +41726,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-b1-begeistert",
@@ -41786,7 +41743,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-b1-bewusst",
@@ -41801,7 +41759,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-b1-bewusst",
@@ -41815,7 +41774,8 @@
         "inconsapevole"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-b1-bewusst",
@@ -41829,7 +41789,8 @@
         "unaware"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-b1-durchschnittlich",
@@ -41852,7 +41813,8 @@
         "reviewed_at": "2026-03-21"
       },
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-b1-durchschnittlich",
@@ -41868,7 +41830,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-b1-durchschnittlich",
@@ -41884,7 +41847,8 @@
         "reason": "no_single_robust_lexical_opposite_for_concept",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-b1-unabhaengig",
@@ -41903,7 +41867,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-b1-unabhaengig",
@@ -41917,7 +41882,8 @@
         "dipendente"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-b1-unabhaengig",
@@ -41931,7 +41897,8 @@
         "dependent"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-b1-flexibel",
@@ -41951,7 +41918,8 @@
       "hint_text": null,
       "synonym_tiers_json": {
         "anpassungsfähig": "exact"
-      }
+      },
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-b1-flexibel",
@@ -41965,7 +41933,8 @@
         "rigido"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-b1-flexibel",
@@ -41979,7 +41948,8 @@
         "rigid"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-b1-umfangreich",
@@ -41999,7 +41969,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-b1-umfangreich",
@@ -42013,7 +41984,8 @@
         "limitato"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-b1-umfangreich",
@@ -42027,7 +41999,8 @@
         "limited"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-b1-geeignet",
@@ -42095,7 +42068,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-b1-angemessen",
@@ -42109,7 +42083,8 @@
         "inappropriato"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-b1-angemessen",
@@ -42123,7 +42098,8 @@
         "inappropriate"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-b1-vermutlich",
@@ -42665,7 +42641,8 @@
         "reviewed_at": "2026-03-21"
       },
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-b1-empfindlich",
@@ -42681,7 +42658,8 @@
         "reason": "no_single_robust_opposite_for_sensitive_adjective",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-b1-empfindlich",
@@ -42697,7 +42675,8 @@
         "reason": "no_single_robust_opposite_for_sensitive_adjective",
         "reviewed_at": "2026-03-21"
       },
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-b1-leistung",
@@ -43156,7 +43135,8 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "synonym_tiers_json": {}
+      "synonym_tiers_json": {},
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-b1-regelmaessig",
@@ -43170,7 +43150,8 @@
         "irregular"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-b1-regelmaessig",
@@ -43184,7 +43165,8 @@
         "irregolare"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-b1-ausreichend",
@@ -43204,7 +43186,8 @@
       "hint_text": null,
       "synonym_tiers_json": {
         "genügend": "exact"
-      }
+      },
+      "sense_indicator": "wie etwas ist"
     },
     {
       "concept_id": "concept-b1-ausreichend",
@@ -43218,7 +43201,8 @@
         "insufficient"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "how something is"
     },
     {
       "concept_id": "concept-b1-ausreichend",
@@ -43232,7 +43216,8 @@
         "insufficiente"
       ],
       "antonym_policy_json": null,
-      "hint_text": null
+      "hint_text": null,
+      "sense_indicator": "com'è qualcosa"
     },
     {
       "concept_id": "concept-b1-verbesserung",

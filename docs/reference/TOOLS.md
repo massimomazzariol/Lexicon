@@ -31,7 +31,15 @@ All maintained CLI scripts under `tools/pipeline/`, `tools/reports/`, and
 
 - `tools/pipeline/run_pack_pipeline.mjs`
   Main authoring entrypoint. Orchestrates upsert, metadata curation, QA, noun
-  generation, and optional asset sync.
+  generation, and finalize.
+
+- `tools/pipeline/finalize_source.mjs`
+  Runs after every tool that writes concepts or lexemes (the pipeline,
+  populate, the autopilot, the console): repairs integrity, mints missing
+  forms, runs the review gate, and with `--require <entries>` fails when a
+  listed concept would not ship. Covered end to end by
+  `finalize_source.test.mjs` and, for the AI chain against a fake local LLM,
+  `tools/scripts/ai_chain.test.mjs`.
 
 - `tools/pipeline/upsert_pack_entries.mjs`
   Applies editorial batch entries into the canonical source pack, delegating

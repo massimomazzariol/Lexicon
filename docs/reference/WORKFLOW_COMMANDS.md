@@ -70,7 +70,9 @@ pnpm node tools/reports/report_language_plugin_capabilities.mjs \
   --require-capability runtime_noun_slots
 ```
 
-Run the canonical source pipeline (upsert → curate → sanitize → QA → nouns):
+Run the canonical source pipeline (upsert → curate → sanitize → QA → forms →
+finalize). With `--entries`, finalize fails when an upserted concept would not
+ship (still `needs_review`, or a word without forms):
 
 ```bash
 pnpm run pipeline
@@ -91,12 +93,15 @@ pnpm node tools/pipeline/run_pack_pipeline.mjs \
   --with-forms
 ```
 
-Apply editorial entries directly:
+Apply editorial entries directly (then finalize, or the new words are
+formless and held by the review gate, so they never reach a runtime pack):
 
 ```bash
 pnpm node tools/pipeline/upsert_pack_entries.mjs \
   --pack-dir packs/lexicon_source \
   --entries packs/templates/entries.sample.json
+pnpm node tools/pipeline/finalize_source.mjs \
+  --require packs/templates/entries.sample.json
 ```
 
 This command now hard-fails when article-bearing noun entries drop the

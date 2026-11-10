@@ -4,6 +4,28 @@ All notable changes to this repository will be documented in this file.
 Concept-level lexical-content history lives in
 `docs/reference/CONTENT_CHANGELOG.md`.
 
+## [0.6.1] - 2026-11-10
+
+- Fix: 0.6.0 shipped without the 11 A1/A2 adverb concepts (DL-015). They were
+  created `needs_review` and without forms, so the build left them out, while
+  `velocemente`, `quickly`, `lentamente` and `slowly` had already moved off the
+  adjective concepts: in 0.6.0, `schnell` and `langsam` no longer accept them.
+  The concepts now have their forms, passed the review gate and ship.
+- Content: DL-015 covers every level. 40 B1-C2 adjectives get their adverb
+  use as a separate concept (regelmäßig: regolarmente, offensichtlich:
+  evidentemente, ...); `durchschnittlich` joins the chunk `im Durchschnitt`;
+  `nachweislich` is an adverb concept. See CONTENT_CHANGELOG.md.
+- Content: 24 empty duplicate lexemes removed (the same text twice in one
+  concept, since the first commit), and the nouns removed from the adjective
+  `ambivalent`.
+- Tools: `finalize_source.mjs` runs after every write (pipeline with
+  `--entries`, populate, the autopilot, the console): repairs integrity, mints
+  missing forms, runs the review gate, and fails when a required concept would
+  not ship. Tested end to end, including the AI chain against a fake local LLM.
+- Tools: the same word twice in one concept is an invariant violation;
+  `rebuild` leaves unchanged packs untouched; `apply_editorial_corrections` can
+  set a concept's pos and remove lexemes.
+
 ## [0.6.0] - 2026-11-10
 
 - Content: every concept now has an English example (351 added, 210 at

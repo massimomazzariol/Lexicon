@@ -438,7 +438,9 @@ Impacts:
   adverb ones.
 - `tools/maintenance/editorial_sense_indicators_adverbs.json`: labels for
   the 22 concepts that now share a word, plus `gesund` (shares `well`).
-- The new concepts are `needs_review` for their CEFR placement.
+- The new concepts take the CEFR level of their adjective. They were created
+  `needs_review` and passed the review gate (`review_autopromote`) on
+  2026-11-10; v0.6.0 shipped before that, without them (fixed in 0.6.1).
 
 - 2026-11-10, B1 to C2 (`entries.b1_c2_wave_adverb_senses.json`): the same
   rule on all 92 adjectives above A2. 40 have a real adverb use with another

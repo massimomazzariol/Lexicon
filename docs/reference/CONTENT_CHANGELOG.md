@@ -35,6 +35,17 @@ practically), schnell (velocemente, quickly) and langsam (lentamente,
 slowly). velocemente, quickly, lentamente and slowly move off the adjective
 concepts. Every concept that now shares a word carries sense indicators.
 
+## 2026-11-12 - Specific sense labels for adjective/adverb pairs
+
+The DL-015 pairs had one generic label pattern (`wie etwas ist` / `wie man
+etwas tut`), which did not fit cases like `Mir geht es gut`. Every pair now
+has its own labels in de/it/en: the adjective a typical noun context (`ein
+passender Preis`, `un prezzo giusto`, `a fair price`), the adverb a typical
+verb context (`passend handeln`, `agire nel modo giusto`, `act in a fitting
+way`); 93 concepts (`tools/maintenance/editorial_sense_labels_review.json`).
+The German and Italian definitions of `wahrscheinlich` were a fragment equal
+to the label and are now sentences; same for the Italian `praktisch` adverb.
+
 ## 2026-11-10 - Adverb senses at B1-C2 and lexeme cleanup
 
 DL-015 now covers every level: 40 B1-C2 German adjectives get their adverb

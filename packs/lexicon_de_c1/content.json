@@ -20031,7 +20031,7 @@
       "antonym_policy_json": null,
       "hint_text": null,
       "synonym_tiers_json": {},
-      "sense_indicator": "wie etwas ist"
+      "sense_indicator": "eine glaubhafte Erklärung"
     },
     {
       "concept_id": "concept-c1-plausibel",
@@ -20047,7 +20047,7 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "how something is"
+      "sense_indicator": "a believable explanation"
     },
     {
       "concept_id": "concept-c1-plausibel",
@@ -20063,7 +20063,7 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "com'è qualcosa"
+      "sense_indicator": "una spiegazione credibile"
     },
     {
       "concept_id": "concept-c1-fundiert",
@@ -20382,7 +20382,7 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "wie etwas ist"
+      "sense_indicator": "ein Schlüsselfaktor"
     },
     {
       "concept_id": "concept-c1-massgeblich",
@@ -20398,7 +20398,7 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "how something is"
+      "sense_indicator": "a key factor"
     },
     {
       "concept_id": "concept-c1-massgeblich",
@@ -20414,14 +20414,14 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "com'è qualcosa"
+      "sense_indicator": "un fattore chiave"
     },
     {
       "concept_id": "concept-c1-konsequent",
       "lang": "de",
       "short_definition": "Durchgängig und folgerichtig; ohne Widersprüche.",
       "usage_note": null,
-      "sense_indicator": "den eigenen Prinzipien treu",
+      "sense_indicator": "treu den Prinzipien",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [
@@ -20442,7 +20442,7 @@
       "lang": "en",
       "short_definition": "Acting in accordance with one's stated principles without contradiction.",
       "usage_note": null,
-      "sense_indicator": "true to principles",
+      "sense_indicator": "true to one's principles",
       "context_tags_json": [],
       "source": "manual",
       "synonyms_json": [],
@@ -20489,7 +20489,7 @@
       "synonym_tiers_json": {
         "methodisch": "exact"
       },
-      "sense_indicator": "wie etwas ist"
+      "sense_indicator": "ein geordnetes Vorgehen"
     },
     {
       "concept_id": "concept-c1-systematisch",
@@ -20505,7 +20505,7 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "how something is"
+      "sense_indicator": "an orderly method"
     },
     {
       "concept_id": "concept-c1-systematisch",
@@ -20521,7 +20521,7 @@
       ],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "com'è qualcosa"
+      "sense_indicator": "un metodo ordinato"
     },
     {
       "concept_id": "concept-c1-strukturiert",
@@ -21122,7 +21122,7 @@
         "reviewed_at": "2026-07-08"
       },
       "hint_text": null,
-      "sense_indicator": "wie etwas ist"
+      "sense_indicator": "eine genaue Prüfung"
     },
     {
       "concept_id": "concept-c1-eingehend",
@@ -21135,7 +21135,7 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "how something is"
+      "sense_indicator": "a close examination"
     },
     {
       "concept_id": "concept-c1-eingehend",
@@ -21148,7 +21148,7 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "com'è qualcosa"
+      "sense_indicator": "un esame accurato"
     },
     {
       "concept_id": "concept-c1-aufschlussreich",
@@ -21201,7 +21201,7 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "wie man etwas tut"
+      "sense_indicator": "genau prüfen"
     },
     {
       "concept_id": "concept-c1-eingehend-thoroughly",
@@ -21214,7 +21214,7 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "come si fa qualcosa"
+      "sense_indicator": "esaminare con cura"
     },
     {
       "concept_id": "concept-c1-eingehend-thoroughly",
@@ -21227,7 +21227,7 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "how something is done"
+      "sense_indicator": "examine carefully"
     },
     {
       "concept_id": "concept-c1-konsequent-consistently",
@@ -21240,7 +21240,7 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "wie man etwas tut"
+      "sense_indicator": "ohne Ausnahme handeln"
     },
     {
       "concept_id": "concept-c1-konsequent-consistently",
@@ -21253,7 +21253,7 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "come si fa qualcosa"
+      "sense_indicator": "senza eccezioni"
     },
     {
       "concept_id": "concept-c1-konsequent-consistently",
@@ -21266,7 +21266,7 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "how something is done"
+      "sense_indicator": "without exception"
     },
     {
       "concept_id": "concept-c1-massgeblich-substantially",
@@ -21279,7 +21279,7 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "wie man etwas tut"
+      "sense_indicator": "stark mitwirken"
     },
     {
       "concept_id": "concept-c1-massgeblich-substantially",
@@ -21292,7 +21292,7 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "come si fa qualcosa"
+      "sense_indicator": "contribuire in modo forte"
     },
     {
       "concept_id": "concept-c1-massgeblich-substantially",
@@ -21305,7 +21305,7 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "how something is done"
+      "sense_indicator": "contribute strongly"
     },
     {
       "concept_id": "concept-c1-plausibel-plausibly",
@@ -21318,7 +21318,7 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "wie man etwas tut"
+      "sense_indicator": "glaubhaft erklären"
     },
     {
       "concept_id": "concept-c1-plausibel-plausibly",
@@ -21331,7 +21331,7 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "come si fa qualcosa"
+      "sense_indicator": "spiegare in modo credibile"
     },
     {
       "concept_id": "concept-c1-plausibel-plausibly",
@@ -21344,7 +21344,7 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "how something is done"
+      "sense_indicator": "explain believably"
     },
     {
       "concept_id": "concept-c1-systematisch-systematically",
@@ -21357,7 +21357,7 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "wie man etwas tut"
+      "sense_indicator": "Schritt für Schritt"
     },
     {
       "concept_id": "concept-c1-systematisch-systematically",
@@ -21370,7 +21370,7 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "come si fa qualcosa"
+      "sense_indicator": "passo dopo passo"
     },
     {
       "concept_id": "concept-c1-systematisch-systematically",
@@ -21383,7 +21383,7 @@
       "antonyms_json": [],
       "antonym_policy_json": null,
       "hint_text": null,
-      "sense_indicator": "how something is done"
+      "sense_indicator": "step by step"
     }
   ],
   "clusters": [

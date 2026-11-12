@@ -1,0 +1,1013 @@
+{
+  "comment": "Specific sense labels for the DL-015 adjective/adverb pairs (replacing the generic ones) and weak definitions rewritten (2026-11 review).",
+  "corrections": {
+    "concept-b1-angemessen": {
+      "de": {
+        "sense_indicator": "ein passender Preis"
+      },
+      "it": {
+        "sense_indicator": "un prezzo giusto"
+      },
+      "en": {
+        "sense_indicator": "a fair price"
+      }
+    },
+    "concept-b1-angemessen-adequately": {
+      "de": {
+        "sense_indicator": "passend handeln"
+      },
+      "it": {
+        "sense_indicator": "agire nel modo giusto"
+      },
+      "en": {
+        "sense_indicator": "act in a fitting way"
+      }
+    },
+    "concept-b1-ausreichend": {
+      "de": {
+        "sense_indicator": "genug Zeit oder Geld"
+      },
+      "it": {
+        "sense_indicator": "tempo o soldi bastanti"
+      },
+      "en": {
+        "sense_indicator": "enough time or money"
+      }
+    },
+    "concept-b1-ausreichend-sufficiently": {
+      "de": {
+        "sense_indicator": "genug schlafen oder essen"
+      },
+      "it": {
+        "sense_indicator": "dormire o mangiare abbastanza"
+      },
+      "en": {
+        "sense_indicator": "sleep or eat enough"
+      }
+    },
+    "concept-b1-begeistert": {
+      "de": {
+        "sense_indicator": "voller Freude über etwas"
+      },
+      "it": {
+        "sense_indicator": "pieno di gioia per qualcosa"
+      },
+      "en": {
+        "sense_indicator": "full of joy about something"
+      }
+    },
+    "concept-b1-begeistert-enthusiastically": {
+      "de": {
+        "sense_indicator": "voller Freude klatschen"
+      },
+      "it": {
+        "sense_indicator": "applaudire con gioia"
+      },
+      "en": {
+        "sense_indicator": "clap with joy"
+      }
+    },
+    "concept-b1-bewusst": {
+      "de": {
+        "sense_indicator": "weiß, was geschieht"
+      },
+      "it": {
+        "sense_indicator": "sa cosa succede"
+      },
+      "en": {
+        "sense_indicator": "knowing what happens"
+      }
+    },
+    "concept-b1-bewusst-consciously": {
+      "de": {
+        "sense_indicator": "mit Absicht tun"
+      },
+      "it": {
+        "sense_indicator": "fare con intenzione"
+      },
+      "en": {
+        "sense_indicator": "do on purpose"
+      }
+    },
+    "concept-b1-empfindlich": {
+      "de": {
+        "sense_indicator": "schnell verletzt oder gereizt"
+      },
+      "it": {
+        "sense_indicator": "si irrita facilmente"
+      },
+      "en": {
+        "sense_indicator": "easily hurt or irritated"
+      }
+    },
+    "concept-b1-empfindlich-sensitively": {
+      "de": {
+        "sense_indicator": "stark reagieren"
+      },
+      "it": {
+        "sense_indicator": "reagire con forza"
+      },
+      "en": {
+        "sense_indicator": "react strongly"
+      }
+    },
+    "concept-b1-entscheidend": {
+      "de": {
+        "sense_indicator": "ein wichtiger Moment"
+      },
+      "it": {
+        "sense_indicator": "un momento chiave"
+      },
+      "en": {
+        "sense_indicator": "a key moment"
+      }
+    },
+    "concept-b1-entscheidend-decisively": {
+      "de": {
+        "sense_indicator": "das Ergebnis bestimmen"
+      },
+      "it": {
+        "sense_indicator": "segnare il risultato"
+      },
+      "en": {
+        "sense_indicator": "shape the result"
+      }
+    },
+    "concept-b1-flexibel": {
+      "de": {
+        "sense_indicator": "passt sich leicht an"
+      },
+      "it": {
+        "sense_indicator": "si adatta facilmente"
+      },
+      "en": {
+        "sense_indicator": "adapts easily"
+      }
+    },
+    "concept-b1-flexibel-flexibly": {
+      "de": {
+        "sense_indicator": "frei einteilen"
+      },
+      "it": {
+        "sense_indicator": "organizzare liberamente"
+      },
+      "en": {
+        "sense_indicator": "arrange freely"
+      }
+    },
+    "concept-b1-regelmaessig": {
+      "de": {
+        "sense_indicator": "ein fester Rhythmus"
+      },
+      "it": {
+        "sense_indicator": "un ritmo fisso"
+      },
+      "en": {
+        "sense_indicator": "a fixed rhythm"
+      }
+    },
+    "concept-b1-regelmaessig-regularly": {
+      "de": {
+        "sense_indicator": "immer wieder tun"
+      },
+      "it": {
+        "sense_indicator": "fare di continuo"
+      },
+      "en": {
+        "sense_indicator": "do again and again"
+      }
+    },
+    "f2dddaa7-908e-fe4c-9d44-508a3617791f": {
+      "de": {
+        "sense_indicator": "eine kluge Idee"
+      },
+      "it": {
+        "sense_indicator": "un'idea ragionevole"
+      },
+      "en": {
+        "sense_indicator": "a reasonable idea"
+      }
+    },
+    "concept-b1-sinnvoll-sensibly": {
+      "de": {
+        "sense_indicator": "Zeit gut nutzen"
+      },
+      "it": {
+        "sense_indicator": "usare bene il tempo"
+      },
+      "en": {
+        "sense_indicator": "use time well"
+      }
+    },
+    "concept-b1-unabhaengig": {
+      "de": {
+        "sense_indicator": "ein freies Land"
+      },
+      "it": {
+        "sense_indicator": "un paese libero"
+      },
+      "en": {
+        "sense_indicator": "a free country"
+      }
+    },
+    "concept-b1-unabhaengig-independently": {
+      "de": {
+        "sense_indicator": "ohne Hilfe arbeiten"
+      },
+      "it": {
+        "sense_indicator": "lavorare senza aiuto"
+      },
+      "en": {
+        "sense_indicator": "work without help"
+      }
+    },
+    "concept-b1-umfangreich": {
+      "de": {
+        "sense_indicator": "ein dicker Bericht"
+      },
+      "it": {
+        "sense_indicator": "un rapporto voluminoso"
+      },
+      "en": {
+        "sense_indicator": "a long, full report"
+      }
+    },
+    "concept-b1-umfangreich-extensively": {
+      "de": {
+        "sense_indicator": "ausführlich informieren"
+      },
+      "it": {
+        "sense_indicator": "informare in dettaglio"
+      },
+      "en": {
+        "sense_indicator": "inform in detail"
+      }
+    },
+    "concept-b2-ausdruecklich": {
+      "de": {
+        "sense_indicator": "ein klar gesagter Wunsch"
+      },
+      "it": {
+        "sense_indicator": "un desiderio dichiarato"
+      },
+      "en": {
+        "sense_indicator": "a clearly stated wish"
+      }
+    },
+    "concept-b2-ausdruecklich-expressly": {
+      "de": {
+        "sense_indicator": "klar verbieten oder sagen"
+      },
+      "it": {
+        "sense_indicator": "vietare in modo chiaro"
+      },
+      "en": {
+        "sense_indicator": "clearly forbid or say"
+      }
+    },
+    "concept-b2-beeindruckend": {
+      "de": {
+        "sense_indicator": "ein starkes Ergebnis"
+      },
+      "it": {
+        "sense_indicator": "un risultato straordinario"
+      },
+      "en": {
+        "sense_indicator": "a striking result"
+      }
+    },
+    "concept-b2-beeindruckend-impressively": {
+      "de": {
+        "sense_indicator": "erstaunlich schnell oder gut"
+      },
+      "it": {
+        "sense_indicator": "straordinariamente bene"
+      },
+      "en": {
+        "sense_indicator": "strikingly fast or good"
+      }
+    },
+    "concept-b2-eindeutig": {
+      "de": {
+        "sense_indicator": "eine klare Antwort"
+      },
+      "it": {
+        "sense_indicator": "una risposta chiara"
+      },
+      "en": {
+        "sense_indicator": "a clear answer"
+      }
+    },
+    "concept-b2-eindeutig-unequivocally": {
+      "de": {
+        "sense_indicator": "ohne Zweifel"
+      },
+      "it": {
+        "sense_indicator": "senza alcun dubbio"
+      },
+      "en": {
+        "sense_indicator": "without any doubt"
+      }
+    },
+    "concept-b2-erheblich": {
+      "de": {
+        "sense_indicator": "ein großer Schaden"
+      },
+      "it": {
+        "sense_indicator": "un danno grande"
+      },
+      "en": {
+        "sense_indicator": "a large amount"
+      }
+    },
+    "concept-b2-erheblich-considerably": {
+      "de": {
+        "sense_indicator": "viel teurer oder größer"
+      },
+      "it": {
+        "sense_indicator": "molto più caro"
+      },
+      "en": {
+        "sense_indicator": "much more or bigger"
+      }
+    },
+    "concept-b2-grundlegend": {
+      "de": {
+        "sense_indicator": "eine Basisregel"
+      },
+      "it": {
+        "sense_indicator": "una regola di base"
+      },
+      "en": {
+        "sense_indicator": "a basic rule"
+      }
+    },
+    "concept-b2-grundlegend-fundamentally": {
+      "de": {
+        "sense_indicator": "von Grund auf ändern"
+      },
+      "it": {
+        "sense_indicator": "cambiare dalle basi"
+      },
+      "en": {
+        "sense_indicator": "change from the ground up"
+      }
+    },
+    "concept-b2-konkret": {
+      "de": {
+        "sense_indicator": "ein genaues Beispiel"
+      },
+      "it": {
+        "sense_indicator": "un esempio preciso"
+      },
+      "en": {
+        "sense_indicator": "a specific example"
+      }
+    },
+    "concept-b2-konkret-concretely": {
+      "de": {
+        "sense_indicator": "genau planen oder sagen"
+      },
+      "it": {
+        "sense_indicator": "dire esattamente"
+      },
+      "en": {
+        "sense_indicator": "say exactly"
+      }
+    },
+    "concept-b2-objektiv": {
+      "de": {
+        "sense_indicator": "ein neutrales Urteil"
+      },
+      "it": {
+        "sense_indicator": "un giudizio neutrale"
+      },
+      "en": {
+        "sense_indicator": "a neutral judgement"
+      }
+    },
+    "concept-b2-objektiv-objectively": {
+      "de": {
+        "sense_indicator": "nur nach Fakten"
+      },
+      "it": {
+        "sense_indicator": "solo secondo i fatti"
+      },
+      "en": {
+        "sense_indicator": "by the facts only"
+      }
+    },
+    "concept-b2-offensichtlich": {
+      "de": {
+        "sense_indicator": "ein klarer Fehler"
+      },
+      "it": {
+        "sense_indicator": "un errore lampante"
+      },
+      "en": {
+        "sense_indicator": "a plain mistake"
+      }
+    },
+    "concept-b2-offensichtlich-obviously": {
+      "de": {
+        "sense_indicator": "wie man sieht"
+      },
+      "it": {
+        "sense_indicator": "a quanto pare"
+      },
+      "en": {
+        "sense_indicator": "as anyone can see"
+      }
+    },
+    "concept-b2-praezise": {
+      "de": {
+        "sense_indicator": "eine genaue Zahl"
+      },
+      "it": {
+        "sense_indicator": "un numero esatto"
+      },
+      "en": {
+        "sense_indicator": "an exact number"
+      }
+    },
+    "concept-b2-praezise-precisely": {
+      "de": {
+        "sense_indicator": "genau arbeiten"
+      },
+      "it": {
+        "sense_indicator": "lavorare con esattezza"
+      },
+      "en": {
+        "sense_indicator": "work exactly"
+      }
+    },
+    "concept-b2-subjektiv": {
+      "de": {
+        "sense_indicator": "eine persönliche Meinung"
+      },
+      "it": {
+        "sense_indicator": "un parere personale"
+      },
+      "en": {
+        "sense_indicator": "a personal opinion"
+      }
+    },
+    "concept-b2-subjektiv-subjectively": {
+      "de": {
+        "sense_indicator": "für mich persönlich"
+      },
+      "it": {
+        "sense_indicator": "per me, personalmente"
+      },
+      "en": {
+        "sense_indicator": "for me personally"
+      }
+    },
+    "concept-b2-ueberraschend": {
+      "de": {
+        "sense_indicator": "eine unerwartete Nachricht"
+      },
+      "it": {
+        "sense_indicator": "una notizia inattesa"
+      },
+      "en": {
+        "sense_indicator": "unexpected news"
+      }
+    },
+    "concept-b2-ueberraschend-surprisingly": {
+      "de": {
+        "sense_indicator": "unerwartet gut oder leicht"
+      },
+      "it": {
+        "sense_indicator": "in modo inatteso"
+      },
+      "en": {
+        "sense_indicator": "unexpectedly good or easy"
+      }
+    },
+    "concept-b2-ueberzeugend": {
+      "de": {
+        "sense_indicator": "ein starkes Argument"
+      },
+      "it": {
+        "sense_indicator": "un argomento forte"
+      },
+      "en": {
+        "sense_indicator": "a strong argument"
+      }
+    },
+    "concept-b2-ueberzeugend-convincingly": {
+      "de": {
+        "sense_indicator": "glaubhaft sprechen"
+      },
+      "it": {
+        "sense_indicator": "parlare in modo credibile"
+      },
+      "en": {
+        "sense_indicator": "speak believably"
+      }
+    },
+    "concept-b2-wesentlich": {
+      "de": {
+        "sense_indicator": "das Wichtigste"
+      },
+      "it": {
+        "sense_indicator": "la parte più importante"
+      },
+      "en": {
+        "sense_indicator": "the most important part"
+      }
+    },
+    "concept-b2-wesentlich-by-far": {
+      "de": {
+        "sense_indicator": "vor einem Vergleich"
+      },
+      "it": {
+        "sense_indicator": "prima di un confronto"
+      },
+      "en": {
+        "sense_indicator": "before a comparison"
+      }
+    },
+    "concept-b2-zuverlaessig": {
+      "de": {
+        "sense_indicator": "ein treuer Freund"
+      },
+      "it": {
+        "sense_indicator": "un amico fidato"
+      },
+      "en": {
+        "sense_indicator": "a trusty friend"
+      }
+    },
+    "concept-b2-zuverlaessig-reliably": {
+      "de": {
+        "sense_indicator": "immer funktionieren"
+      },
+      "it": {
+        "sense_indicator": "funzionare sempre"
+      },
+      "en": {
+        "sense_indicator": "always work"
+      }
+    },
+    "concept-b2-vage": {
+      "de": {
+        "sense_indicator": "eine unklare Idee"
+      },
+      "it": {
+        "sense_indicator": "un'idea poco chiara"
+      },
+      "en": {
+        "sense_indicator": "an unclear idea"
+      }
+    },
+    "concept-b2-vage-vaguely": {
+      "de": {
+        "sense_indicator": "sich schwach erinnern"
+      },
+      "it": {
+        "sense_indicator": "ricordare appena"
+      },
+      "en": {
+        "sense_indicator": "remember only faintly"
+      }
+    },
+    "concept-c1-eingehend": {
+      "de": {
+        "sense_indicator": "eine genaue Prüfung"
+      },
+      "it": {
+        "sense_indicator": "un esame accurato"
+      },
+      "en": {
+        "sense_indicator": "a close examination"
+      }
+    },
+    "concept-c1-eingehend-thoroughly": {
+      "de": {
+        "sense_indicator": "genau prüfen"
+      },
+      "it": {
+        "sense_indicator": "esaminare con cura"
+      },
+      "en": {
+        "sense_indicator": "examine carefully"
+      }
+    },
+    "concept-c1-konsequent": {
+      "de": {
+        "sense_indicator": "treu den Prinzipien"
+      },
+      "en": {
+        "sense_indicator": "true to one's principles"
+      }
+    },
+    "concept-c1-konsequent-consistently": {
+      "de": {
+        "sense_indicator": "ohne Ausnahme handeln"
+      },
+      "it": {
+        "sense_indicator": "senza eccezioni"
+      },
+      "en": {
+        "sense_indicator": "without exception"
+      }
+    },
+    "concept-c1-massgeblich": {
+      "de": {
+        "sense_indicator": "ein Schlüsselfaktor"
+      },
+      "it": {
+        "sense_indicator": "un fattore chiave"
+      },
+      "en": {
+        "sense_indicator": "a key factor"
+      }
+    },
+    "concept-c1-massgeblich-substantially": {
+      "de": {
+        "sense_indicator": "stark mitwirken"
+      },
+      "it": {
+        "sense_indicator": "contribuire in modo forte"
+      },
+      "en": {
+        "sense_indicator": "contribute strongly"
+      }
+    },
+    "concept-c1-plausibel": {
+      "de": {
+        "sense_indicator": "eine glaubhafte Erklärung"
+      },
+      "it": {
+        "sense_indicator": "una spiegazione credibile"
+      },
+      "en": {
+        "sense_indicator": "a believable explanation"
+      }
+    },
+    "concept-c1-plausibel-plausibly": {
+      "de": {
+        "sense_indicator": "glaubhaft erklären"
+      },
+      "it": {
+        "sense_indicator": "spiegare in modo credibile"
+      },
+      "en": {
+        "sense_indicator": "explain believably"
+      }
+    },
+    "concept-c1-systematisch": {
+      "de": {
+        "sense_indicator": "ein geordnetes Vorgehen"
+      },
+      "it": {
+        "sense_indicator": "un metodo ordinato"
+      },
+      "en": {
+        "sense_indicator": "an orderly method"
+      }
+    },
+    "concept-c1-systematisch-systematically": {
+      "de": {
+        "sense_indicator": "Schritt für Schritt"
+      },
+      "it": {
+        "sense_indicator": "passo dopo passo"
+      },
+      "en": {
+        "sense_indicator": "step by step"
+      }
+    },
+    "concept-c2-akribisch": {
+      "de": {
+        "sense_indicator": "ein sehr genauer Mensch"
+      },
+      "it": {
+        "sense_indicator": "una persona molto precisa"
+      },
+      "en": {
+        "sense_indicator": "a very careful person"
+      }
+    },
+    "concept-c2-akribisch-meticulously": {
+      "de": {
+        "sense_indicator": "bis ins Detail prüfen"
+      },
+      "it": {
+        "sense_indicator": "controllare ogni dettaglio"
+      },
+      "en": {
+        "sense_indicator": "check every detail"
+      }
+    },
+    "concept-c2-beharrlich": {
+      "de": {
+        "sense_indicator": "gibt nie auf"
+      },
+      "it": {
+        "sense_indicator": "non si arrende mai"
+      },
+      "en": {
+        "sense_indicator": "never gives up"
+      }
+    },
+    "concept-c2-beharrlich-persistently": {
+      "de": {
+        "sense_indicator": "immer wieder fragen"
+      },
+      "it": {
+        "sense_indicator": "chiedere ancora e ancora"
+      },
+      "en": {
+        "sense_indicator": "ask again and again"
+      }
+    },
+    "concept-c2-eloquent": {
+      "de": {
+        "sense_indicator": "ein guter Redner"
+      },
+      "it": {
+        "sense_indicator": "un bravo oratore"
+      },
+      "en": {
+        "sense_indicator": "a fine speaker"
+      }
+    },
+    "concept-c2-eloquent-eloquently": {
+      "de": {
+        "sense_indicator": "schön und klar sprechen"
+      },
+      "it": {
+        "sense_indicator": "parlare con belle parole"
+      },
+      "en": {
+        "sense_indicator": "speak with fine words"
+      }
+    },
+    "concept-c2-kohaerent": {
+      "de": {
+        "sense_indicator": "logisch verbunden"
+      },
+      "en": {
+        "sense_indicator": "logically connected"
+      }
+    },
+    "concept-c2-kohaerent-coherently": {
+      "de": {
+        "sense_indicator": "logisch argumentieren"
+      },
+      "it": {
+        "sense_indicator": "argomentare con logica"
+      },
+      "en": {
+        "sense_indicator": "argue logically"
+      }
+    },
+    "concept-c2-praegnant": {
+      "de": {
+        "sense_indicator": "kurz und treffend"
+      },
+      "it": {
+        "sense_indicator": "breve e preciso"
+      },
+      "en": {
+        "sense_indicator": "short and to the point"
+      }
+    },
+    "concept-c2-praegnant-concisely": {
+      "de": {
+        "sense_indicator": "kurz formulieren"
+      },
+      "it": {
+        "sense_indicator": "dire in poche parole"
+      },
+      "en": {
+        "sense_indicator": "put in few words"
+      }
+    },
+    "concept-c2-subtil": {
+      "de": {
+        "sense_indicator": "kaum bemerkbar"
+      },
+      "it": {
+        "sense_indicator": "appena percettibile"
+      },
+      "en": {
+        "sense_indicator": "barely noticeable"
+      }
+    },
+    "concept-c2-subtil-subtly": {
+      "de": {
+        "sense_indicator": "leise andeuten"
+      },
+      "it": {
+        "sense_indicator": "far capire con garbo"
+      },
+      "en": {
+        "sense_indicator": "hint gently"
+      }
+    },
+    "concept-c2-tiefgreifend": {
+      "de": {
+        "sense_indicator": "eine große Veränderung"
+      },
+      "it": {
+        "sense_indicator": "un cambiamento radicale"
+      },
+      "en": {
+        "sense_indicator": "a deep, lasting change"
+      }
+    },
+    "concept-c2-tiefgreifend-profoundly": {
+      "de": {
+        "sense_indicator": "bis in den Kern"
+      },
+      "it": {
+        "sense_indicator": "fino in fondo"
+      },
+      "en": {
+        "sense_indicator": "down to the core"
+      }
+    },
+    "concept-c2-unverkennbar": {
+      "de": {
+        "sense_indicator": "ein typischer Duft"
+      },
+      "it": {
+        "sense_indicator": "un profumo tipico"
+      },
+      "en": {
+        "sense_indicator": "a typical smell"
+      }
+    },
+    "concept-c2-unverkennbar-unmistakably": {
+      "de": {
+        "sense_indicator": "sofort zu erkennen"
+      },
+      "it": {
+        "sense_indicator": "si riconosce subito"
+      },
+      "en": {
+        "sense_indicator": "recognisable at once"
+      }
+    },
+    "concept-c2-verblueffend": {
+      "de": {
+        "sense_indicator": "eine erstaunliche Lösung"
+      },
+      "it": {
+        "sense_indicator": "una soluzione sorprendente"
+      },
+      "en": {
+        "sense_indicator": "an amazing solution"
+      }
+    },
+    "concept-c2-verblueffend-astonishingly": {
+      "de": {
+        "sense_indicator": "erstaunlich einfach"
+      },
+      "it": {
+        "sense_indicator": "incredibilmente facile"
+      },
+      "en": {
+        "sense_indicator": "amazingly simple"
+      }
+    },
+    "concept-b1-durchschnittlich": {
+      "de": {
+        "sense_indicator": "ein normales Ergebnis"
+      },
+      "it": {
+        "sense_indicator": "un risultato nella norma"
+      },
+      "en": {
+        "sense_indicator": "an ordinary result"
+      }
+    },
+    "concept-a1-gut-well": {
+      "de": {
+        "sense_indicator": "wie es läuft oder geht"
+      },
+      "it": {
+        "sense_indicator": "come va o riesce"
+      },
+      "en": {
+        "sense_indicator": "how things go or work"
+      }
+    },
+    "concept-a1-schlecht-badly": {
+      "de": {
+        "sense_indicator": "mit wenig Erfolg"
+      },
+      "it": {
+        "sense_indicator": "con poco successo"
+      },
+      "en": {
+        "sense_indicator": "with little success"
+      }
+    },
+    "concept-a1-richtig-correctly": {
+      "de": {
+        "sense_indicator": "ohne Fehler tun"
+      },
+      "it": {
+        "sense_indicator": "fare senza errori"
+      },
+      "en": {
+        "sense_indicator": "do without mistakes"
+      }
+    },
+    "concept-a1-falsch-wrongly": {
+      "de": {
+        "sense_indicator": "mit einem Fehler tun"
+      },
+      "it": {
+        "sense_indicator": "fare con un errore"
+      },
+      "en": {
+        "sense_indicator": "do with a mistake"
+      }
+    },
+    "concept-a2-deutlich-clearly": {
+      "de": {
+        "sense_indicator": "klar sprechen oder zeigen"
+      },
+      "it": {
+        "sense_indicator": "parlare in modo chiaro"
+      },
+      "en": {
+        "sense_indicator": "speak or show plainly"
+      }
+    },
+    "concept-a2-puenktlich-punctually": {
+      "de": {
+        "sense_indicator": "zur richtigen Zeit kommen"
+      },
+      "it": {
+        "sense_indicator": "arrivare all'ora giusta"
+      },
+      "en": {
+        "sense_indicator": "arrive at the right time"
+      }
+    },
+    "concept-a2-dringend-urgently": {
+      "de": {
+        "sense_indicator": "sofort brauchen"
+      },
+      "it": {
+        "sense_indicator": "servire subito"
+      },
+      "en": {
+        "sense_indicator": "need right away"
+      }
+    },
+    "concept-a2-bequem-comfortably": {
+      "de": {
+        "sense_indicator": "angenehm sitzen oder liegen"
+      },
+      "it": {
+        "sense_indicator": "stare seduti bene"
+      },
+      "en": {
+        "sense_indicator": "sit or lie at ease"
+      }
+    },
+    "concept-a1-schnell-quickly": {
+      "de": {
+        "sense_indicator": "in kurzer Zeit tun"
+      },
+      "it": {
+        "sense_indicator": "fare in poco tempo"
+      },
+      "en": {
+        "sense_indicator": "do in a short time"
+      }
+    },
+    "concept-a1-langsam-slowly": {
+      "de": {
+        "sense_indicator": "ohne Eile tun"
+      },
+      "it": {
+        "sense_indicator": "fare senza fretta"
+      },
+      "en": {
+        "sense_indicator": "do without hurry"
+      }
+    },
+    "concept-a2-wahrscheinlich": {
+      "de": {
+        "definition": "Mit guten Chancen, dass es stimmt, aber nicht sicher."
+      },
+      "it": {
+        "definition": "Con buone possibilità di essere vero, ma non è certo."
+      }
+    },
+    "concept-a2-praktisch-practically": {
+      "it": {
+        "definition": "Quasi completamente; manca pochissimo."
+      }
+    }
+  }
+}

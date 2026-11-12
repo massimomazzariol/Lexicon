@@ -4,6 +4,16 @@ All notable changes to this repository will be documented in this file.
 Concept-level lexical-content history lives in
 `docs/reference/CONTENT_CHANGELOG.md`.
 
+## [0.6.2] - 2026-11-12
+
+- Content: specific sense labels for every DL-015 adjective/adverb pair
+  (93 concepts), replacing the generic pattern; the definitions of
+  `wahrscheinlich` (de, it) and of the `praktisch` adverb (it) rewritten as
+  sentences. See CONTENT_CHANGELOG.md.
+- Tools: `doctor` counts a shared prompt whose concepts carry distinct sense
+  indicators as resolved. The 19 prompts it listed were all already told apart
+  by their labels; it now lists only groups without distinct labels.
+
 ## [0.6.1] - 2026-11-10
 
 - Fix: 0.6.0 shipped without the 11 A1/A2 adverb concepts (DL-015). They were

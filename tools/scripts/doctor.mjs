@@ -26,11 +26,17 @@ const fix = process.argv.includes('--fix');
 
 const content = JSON.parse(readFileSync(CONTENT, 'utf8'));
 const issues = diagnoseContent(content);
-const collisions = diagnoseCollisions(content);
+const allCollisions = diagnoseCollisions(content);
+// A group whose concepts carry distinct sense indicators is resolved (DL-014).
+const collisions = allCollisions.filter((c) => !c.labelled);
+const labelledCollisions = allCollisions.length - collisions.length;
 
 // Advisory report: same prompt → 2+ target words. Not auto-fixable (needs the
 // box to differentiate the translation), so it never drives the exit code.
 function reportCollisions() {
+  if (labelledCollisions) {
+    console.log(C.dim(`${labelledCollisions} shared prompt(s) told apart by sense indicators.`));
+  }
   if (!collisions.length) return;
   console.log(
     C.yellow(

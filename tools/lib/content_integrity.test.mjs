@@ -195,6 +195,17 @@ test('diagnoseCollisions flags shared base-language primaries, ignores German ho
   assert.equal(collisions.length, 1);
   assert.equal(collisions[0].lang, 'it');
   assert.deepEqual(collisions[0].conceptIds.sort(), ['c-abholen', 'c-holen']);
+  assert.equal(collisions[0].labelled, false);
+
+  // DL-014: distinct sense indicators in the prompt language resolve it;
+  // a missing or repeated label does not.
+  const label = (concept_id, sense_indicator) => ({ concept_id, lang: 'it', sense_indicator });
+  content.concept_definitions = [label('c-holen', 'portare qui qualcosa'), label('c-abholen', 'portare via qualcuno')];
+  assert.equal(diagnoseCollisions(content)[0].labelled, true);
+  content.concept_definitions = [label('c-holen', 'stesso'), label('c-abholen', 'Stesso')];
+  assert.equal(diagnoseCollisions(content)[0].labelled, false);
+  content.concept_definitions = [label('c-holen', 'portare qui qualcosa')];
+  assert.equal(diagnoseCollisions(content)[0].labelled, false);
 });
 
 test('diagnoseCollisions excludes German by default but can include it', () => {

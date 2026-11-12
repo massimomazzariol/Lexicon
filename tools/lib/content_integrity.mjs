@@ -170,13 +170,24 @@ export function diagnoseCollisions(content, { excludeLangs = ['de'] } = {}) {
     }
     byLangText.get(key).conceptIds.add(lexeme.concept_id);
   }
+  // DL-014: distinct sense indicators in the prompt's language tell the
+  // learner which word is asked, so such a group is resolved.
+  const labelOf = new Map(
+    (content.concept_definitions ?? []).map((row) => [
+      `${row.concept_id}|${String(row.lang ?? '').toLowerCase()}`,
+      String(row.sense_indicator ?? '').trim().toLowerCase(),
+    ]),
+  );
   const collisions = [];
   for (const entry of byLangText.values()) {
     if (entry.conceptIds.size > 1) {
+      const labels = [...entry.conceptIds].map((id) => labelOf.get(`${id}|${entry.lang}`) ?? '');
+      const labelled = labels.every(Boolean) && new Set(labels).size === labels.length;
       collisions.push({
         lang: entry.lang,
         text: entry.text,
         conceptIds: [...entry.conceptIds],
+        labelled,
       });
     }
   }
